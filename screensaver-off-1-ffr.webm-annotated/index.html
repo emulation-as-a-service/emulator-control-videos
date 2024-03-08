@@ -20,7 +20,7 @@
             border-radius: 5px;
         }
         .item img {
-            max-width: 200px;
+            max-width: 300px;
             max-height: 200px;
             margin-right: 10px;
             border-radius: 5px 0 0 5px;
@@ -32,6 +32,27 @@
             width: 100%;
             max-height: 400px;
             margin-bottom: 20px;
+        }
+        .instruction {
+            margin-top: 10px;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border: 1px solid #dedede;
+            border-radius: 5px;
+        }
+        .instruction h4 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+            color: #333;
+        }
+        .instruction p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        .instruction strong {
+            font-weight: bold;
+            color: #0056b3; /* A distinct color to stand out */
         }
     </style>
 </head>
@@ -48,125 +69,189 @@
             <div class="item">
                 <img src="images/frame-36-mousedown.png" alt="Frame 36">
                 <div class="details">
-                    <p><strong>Frame:</strong> 36</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 2.25; return false;">2.25</a></p>
+                    <p><strong>Frame:</strong> 36  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 2.25; return false;">2.25</a></p>
                     <p><strong>Summary:</strong> The screenshot shows a Windows XP desktop in a state of rest with no open applications, featuring a tropical beach wallpaper and a taskbar with the Start button and system tray visible. The only desktop icon is the Recycle Bin. The system tray displays the time as "10:56 AM" and contains icons likely representing system functions and background applications. This setup indicates the user is at a starting point, ready to initiate new tasks or open applications.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> User is at the Windows XP desktop with no applications open.</p>
+                        <p><strong>Action:</strong> Open the Start menu.</p>
+                        <p><strong>Expected Results:</strong> The Start menu is displayed, showing options like 'My Documents', 'My Computer', and 'Control Panel'.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-90-mousedown.png" alt="Frame 90">
                 <div class="details">
-                    <p><strong>Frame:</strong> 90</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 5.625; return false;">5.625</a></p>
+                    <p><strong>Frame:</strong> 90  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 5.625; return false;">5.625</a></p>
                     <p><strong>Summary:</strong> Opened the Start menu on a Windows XP system, revealing frequently accessed programs and options like "My Documents," "My Computer," and "Control Panel," with the cursor positioned over "Control Panel." Prior to this, the desktop displayed only the "Recycle Bin" icon against a tropical beach wallpaper, and the taskbar showed the time as "10:56 AM" with no other applications running. The Start menu's layout included a list of programs on the left and access to folders and settings on the right, with icons for common applications and system utilities visible. The user is preparing to access the "Control Panel" for system modifications.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> The Start menu is open.</p>
+                        <p><strong>Action:</strong> Click on 'Control Panel'.</p>
+                        <p><strong>Expected Results:</strong> The Control Panel window is open, displaying various categories for system customization.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-459-mousedown.png" alt="Frame 459">
                 <div class="details">
-                    <p><strong>Frame:</strong> 459</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 28.6875; return false;">28.6875</a></p>
+                    <p><strong>Frame:</strong> 459  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 28.6875; return false;">28.6875</a></p>
                     <p><strong>Summary:</strong> The user has opened the Control Panel in a category-based view on a Windows operating system, accessed from the Start menu or a shortcut. The Control Panel displays various categories like "Appearance and Themes," "Printers and Other Hardware," etc., without any specific sub-category selected. The interface includes a navigation toolbar, a task pane with options to switch views, and links to "Windows Update" and "Help and Support." No actions have been initiated within the Control Panel, and no error messages are present. This state allows the user to choose a category for system customization or troubleshooting.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> Control Panel is open.</p>
+                        <p><strong>Action:</strong> Navigate to and select 'Appearance and Themes'.</p>
+                        <p><strong>Expected Results:</strong> 'Appearance and Themes' category is open, showing options like 'Display'.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-547-mousedown.png" alt="Frame 547">
                 <div class="details">
-                    <p><strong>Frame:</strong> 547</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 34.1875; return false;">34.1875</a></p>
+                    <p><strong>Frame:</strong> 547  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 34.1875; return false;">34.1875</a></p>
                     <p><strong>Summary:</strong> The user is navigating the "Appearance and Themes" category in the Windows Control Panel, specifically selecting the "Display" icon to modify display settings such as screen resolution, desktop background, and screen saver. Prior to this, the user accessed the "Appearance and Themes" section, evident from the window's address and title bars. The interface includes a navigation toolbar, a sidebar with links for related tasks and troubleshooters, and a main pane for tasks and Control Panel icon access. The "Display" icon, symbolized by a desktop monitor, is highlighted, indicating the user's intent to adjust display properties.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Appearance and Themes' category is open.</p>
+                        <p><strong>Action:</strong> Click on the 'Display' icon.</p>
+                        <p><strong>Expected Results:</strong> The 'Display Properties' dialog box is open with tabs for customization options.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-718-mousedown.png" alt="Frame 718">
                 <div class="details">
-                    <p><strong>Frame:</strong> 718</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 44.875; return false;">44.875</a></p>
+                    <p><strong>Frame:</strong> 718  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 44.875; return false;">44.875</a></p>
                     <p><strong>Summary:</strong> To customize the desktop appearance on Windows XP, the user accessed the "Display Properties" dialog by right-clicking the desktop and selecting "Properties" or through the Control Panel. In the "Themes" tab, the user selected a modified theme named "Windows XP (Modified)" and can save or delete this theme using the respective buttons. The theme's preview shows a tropical wallpaper. Changes are applied by clicking "OK" or "Apply". This process allows for personalization of the desktop's visual elements.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Display Properties' dialog box is open.</p>
+                        <p><strong>Action:</strong> Select the 'Themes' tab and choose 'Windows XP (Modified)'. Click 'Apply' or 'OK'.</p>
+                        <p><strong>Expected Results:</strong> The desktop theme changes to 'Windows XP (Modified)'.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-753-mousedown.png" alt="Frame 753">
                 <div class="details">
-                    <p><strong>Frame:</strong> 753</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 47.0625; return false;">47.0625</a></p>
+                    <p><strong>Frame:</strong> 753  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 47.0625; return false;">47.0625</a></p>
                     <p><strong>Summary:</strong> The user configured the screen saver settings in the Display Properties dialog box under the "Screen Saver" tab on a Windows operating system. They selected "Windows XP" as the screen saver, set it to activate after 10 minutes of inactivity, and chose not to enable password protection upon resumption. The user interacted with a dropdown menu for screen saver selection, adjusted the wait time, and had options for further customization through "Settings," "Preview," and "Power" buttons. No password prompt will be required when the screen saver deactivates. This configuration is applied by clicking "OK" or "Apply."</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Display Properties' dialog box is open on the 'Screen Saver' tab.</p>
+                        <p><strong>Action:</strong> Select 'Windows XP' as the screen saver, set activation time to 10 minutes, and ensure password protection is disabled. Click 'Apply' or 'OK'.</p>
+                        <p><strong>Expected Results:</strong> Screen saver settings are configured without password protection.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-803-mousedown.png" alt="Frame 803">
                 <div class="details">
-                    <p><strong>Frame:</strong> 803</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 50.1875; return false;">50.1875</a></p>
+                    <p><strong>Frame:</strong> 803  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 50.1875; return false;">50.1875</a></p>
                     <p><strong>Summary:</strong> The user is interacting with the "Display Properties" dialog box on Windows, specifically on the "Screen Saver" tab. They are about to or have just clicked the "Power" button to access and adjust monitor power settings for energy saving. Prior to this, the user opened the "Display Properties," navigated to the "Screen Saver" tab where no screen saver is selected, and the screen saver activation time is set to "10 minutes" with an option for password protection on resume. Clicking the "Power" button typically leads to the "Power Options Properties" dialog box for further configuration of power-saving settings. This process is part of managing the computer's power consumption to save energy and extend hardware life.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Display Properties' dialog box is open on the 'Screen Saver' tab.</p>
+                        <p><strong>Action:</strong> Click the 'Power' button.</p>
+                        <p><strong>Expected Results:</strong> 'Power Options Properties' dialog box is open.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-861-mousedown.png" alt="Frame 861">
                 <div class="details">
-                    <p><strong>Frame:</strong> 861</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 53.8125; return false;">53.8125</a></p>
+                    <p><strong>Frame:</strong> 861  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 53.8125; return false;">53.8125</a></p>
                     <p><strong>Summary:</strong> To configure the "Home/Office Desk" power scheme for energy conservation in the operating system's control panel, follow these steps: Access the "Display Properties" window, navigate to the "Screen Saver" tab, and click on the "Power" button to open the "Power Options Properties" dialog box. Under the "Power Schemes" tab, select "Home/Office Desk" from the dropdown menu. Adjust the monitor's turn-off time to "After 20 mins" while setting other options like hard disks turn-off, system standby, and system hibernation to "Never." Confirm changes by clicking "OK" or "Apply." This setup ensures the monitor conserves energy by turning off after 20 minutes of inactivity without affecting other system operations.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Power Options Properties' dialog box is open.</p>
+                        <p><strong>Action:</strong> Select 'Home/Office Desk' power scheme, set monitor to turn off after 20 mins, and other options to 'Never'. Click 'Apply' or 'OK'.</p>
+                        <p><strong>Expected Results:</strong> Power scheme is set to conserve energy by turning off the monitor after 20 minutes of inactivity.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-912-mousedown.png" alt="Frame 912">
                 <div class="details">
-                    <p><strong>Frame:</strong> 912</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 57.0; return false;">57.0</a></p>
+                    <p><strong>Frame:</strong> 912  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 57.0; return false;">57.0</a></p>
                     <p><strong>Summary:</strong> The user is customizing power management settings in the "Power Options Properties" dialog box under the "Power Schemes" tab. They are adjusting the time settings for power-saving actions like turning off the monitor, hard disks, entering system standby, or hibernation. The dialog box also features tabs for "Advanced," "Hibernate," and "UPS," with options to save or delete power schemes. The interface is the classic Windows style, with no error messages visible. This customization aims to optimize power usage for energy efficiency and hardware longevity.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Power Options Properties' dialog box is open.</p>
+                        <p><strong>Action:</strong> Adjust settings for power-saving actions under the 'Power Schemes' tab.</p>
+                        <p><strong>Expected Results:</strong> Power management settings are customized for energy efficiency.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-994-mousedown.png" alt="Frame 994">
                 <div class="details">
-                    <p><strong>Frame:</strong> 994</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 62.125; return false;">62.125</a></p>
+                    <p><strong>Frame:</strong> 994  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 62.125; return false;">62.125</a></p>
                     <p><strong>Summary:</strong> The user is configuring power management settings in the "Power Options Properties" dialog box, under the "Power Schemes" tab of an operating system's control panel. They have accessed this dialog box, navigated to the "Power Schemes" tab, and are currently selecting or have selected the "Home/Office Desk" power scheme from the dropdown menu. The dialog box also features tabs for "Advanced," "Hibernate," and "UPS," with options to save or delete custom power schemes. Additionally, there are settings for adjusting the time until the monitor, hard disks, system standby, and system hibernation are activated. This configuration process allows the user to customize power consumption settings to optimize energy use and hardware longevity according to their specific needs.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Power Options Properties' dialog box is open on the 'Power Schemes' tab.</p>
+                        <p><strong>Action:</strong> Select the 'Max Battery' power scheme from the dropdown menu. Click 'Apply' or 'OK'.</p>
+                        <p><strong>Expected Results:</strong> Power settings are adjusted to maximize battery life.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-1039-mousedown.png" alt="Frame 1039">
                 <div class="details">
-                    <p><strong>Frame:</strong> 1039</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 64.9375; return false;">64.9375</a></p>
+                    <p><strong>Frame:</strong> 1039  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 64.9375; return false;">64.9375</a></p>
                     <p><strong>Summary:</strong> The user is interacting with the "Power Options Properties" dialog box in Windows, specifically on the "Power Schemes" tab, to adjust power management settings. They are in the process of selecting the "Max Battery" power scheme from a dropdown menu, indicating a focus on maximizing battery life. Prior to this, access to the dialog box was likely gained through the Control Panel or by right-clicking on the desktop to navigate to "Properties" and then the "Power" button under the "Screen Saver" tab. Selecting "Max Battery" will adjust settings for monitor and hard disk shutdown, system standby, and hibernation to conserve battery power. The dialog box also features additional configuration tabs and standard "OK," "Cancel," and "Apply" buttons for applying changes. No error messages are visible, and the "Power Schemes" tab is marked with a light bulb icon, emphasizing the focus on power settings.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Power Options Properties' dialog box is open and 'Always On' scheme is selected.</p>
+                        <p><strong>Action:</strong> Adjust the 'Turn off hard disks' setting to a preferred time interval.</p>
+                        <p><strong>Expected Results:</strong> Hard disk turn-off time is customized for better power management.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-1060-mousedown.png" alt="Frame 1060">
                 <div class="details">
-                    <p><strong>Frame:</strong> 1060</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 66.25; return false;">66.25</a></p>
+                    <p><strong>Frame:</strong> 1060  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 66.25; return false;">66.25</a></p>
                     <p><strong>Summary:</strong> The user is configuring power management settings in an older version of Windows, specifically adjusting the "Turn off hard disks" option within the "Power Options Properties" dialog box, under the "Power Schemes" tab. Initially, the "Always On" scheme is selected with the "Turn off monitor" set to "After 20 mins" and other options set to "Never." The user's action involves potentially changing the time interval for the "Turn off hard disks" setting to manage power consumption more efficiently. This process is part of customizing how the computer conserves energy when inactive, accessed through the "Display Properties" window and navigating to the "Power Options Properties" dialog box.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Power Options Properties' dialog box is open.</p>
+                        <p><strong>Action:</strong> Adjust the 'Turn off monitor' setting under the 'Always On' power scheme. Click 'Apply' or 'OK'.</p>
+                        <p><strong>Expected Results:</strong> Monitor turn-off time is customized according to user preference.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-1070-mousedown.png" alt="Frame 1070">
                 <div class="details">
-                    <p><strong>Frame:</strong> 1070</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 66.875; return false;">66.875</a></p>
+                    <p><strong>Frame:</strong> 1070  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 66.875; return false;">66.875</a></p>
                     <p><strong>Summary:</strong> The user is configuring the "Always On" power scheme under the "Power Options Properties" in the operating system's control panel. They are specifically adjusting the "Turn off monitor" setting within the "Power Schemes" tab. Before this, they accessed the "Power Options Properties" through the "Display Properties" window. To apply any changes, the user must select "Apply" or "OK." The dialog box also includes options for managing power schemes and other settings related to system standby, hibernation, and UPS, with a light bulb icon indicating power settings. This process allows the user to customize power-saving features according to their preferences, aiming to optimize power usage and potentially extend hardware lifespan.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> User wants to customize power-saving settings.</p>
+                        <p><strong>Action:</strong> Access 'Display Properties' via right-click on desktop, navigate to 'Screen Saver' tab, then 'Power' button, and adjust settings in 'Power Options Properties'.</p>
+                        <p><strong>Expected Results:</strong> Power-saving behavior is customized according to user's preferences.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-1093-mousedown.png" alt="Frame 1093">
                 <div class="details">
-                    <p><strong>Frame:</strong> 1093</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 68.3125; return false;">68.3125</a></p>
+                    <p><strong>Frame:</strong> 1093  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 68.3125; return false;">68.3125</a></p>
                     <p><strong>Summary:</strong> To customize power-saving settings in an older version of Windows, follow these steps:
 1. Open the "Display Properties" window by right-clicking on the desktop and selecting "Properties."
 2. Navigate to the "Screen Saver" tab and click on the "Power" button to access the "Power Options Properties" dialog box.
@@ -176,24 +261,26 @@
 6. Optional: Use the "Save As..." button to save custom power schemes or the "Delete" button to remove them.
 
 This workflow allows for the customization of the computer's power-saving behavior, enabling the management of power consumption when the computer is idle.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Display Properties' dialog box is open on the 'Screen Saver' tab.</p>
+                        <p><strong>Action:</strong> Customize screen saver settings and click 'OK'.</p>
+                        <p><strong>Expected Results:</strong> Screen saver settings are applied and dialog box is closed.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-1204-mousedown.png" alt="Frame 1204">
                 <div class="details">
-                    <p><strong>Frame:</strong> 1204</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 75.25; return false;">75.25</a></p>
+                    <p><strong>Frame:</strong> 1204  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 75.25; return false;">75.25</a></p>
                     <p><strong>Summary:</strong> The user interacts with the "Display Properties" dialog box in a Windows environment, specifically within the "Screen Saver" tab. Initially, no screen saver is selected ("None"), and the system is set to activate the screen saver after 10 minutes of inactivity, without password protection upon resumption. The user has options to customize the screen saver settings via the "Settings" button, preview changes with the "Preview" button, and adjust power management settings through the "Power..." button. Clicking the "OK" button will apply any changes made, closing the dialog box and implementing the settings, such as activating a chosen screen saver after the specified period of inactivity.</p>
-                </div>
-            </div>
-        
-            <div class="item">
-                <img src="images/frame-1266-mousedown.png" alt="Frame 1266">
-                <div class="details">
-                    <p><strong>Frame:</strong> 1266</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 79.125; return false;">79.125</a></p>
-                    <p><strong>Summary:</strong> The user opened the Control Panel, navigated to the "Appearance and Themes" section, and selected the "Folder Options" icon to modify settings related to folder views and file browsing. This action is part of customizing the user interface, specifically for managing how files and folders are displayed in the Windows operating system.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> Control Panel is open.</p>
+                        <p><strong>Action:</strong> Navigate to 'Appearance and Themes' and select 'Folder Options'.</p>
+                        <p><strong>Expected Results:</strong> 'Folder Options' dialog box is open for customizing file and folder view settings.</p>
+                    </div>
                 </div>
             </div>
         
