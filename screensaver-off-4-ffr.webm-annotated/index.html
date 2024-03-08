@@ -20,7 +20,7 @@
             border-radius: 5px;
         }
         .item img {
-            max-width: 200px;
+            max-width: 300px;
             max-height: 200px;
             margin-right: 10px;
             border-radius: 5px 0 0 5px;
@@ -32,6 +32,27 @@
             width: 100%;
             max-height: 400px;
             margin-bottom: 20px;
+        }
+        .instruction {
+            margin-top: 10px;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border: 1px solid #dedede;
+            border-radius: 5px;
+        }
+        .instruction h4 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+            color: #333;
+        }
+        .instruction p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        .instruction strong {
+            font-weight: bold;
+            color: #0056b3; /* A distinct color to stand out */
         }
     </style>
 </head>
@@ -48,99 +69,154 @@
             <div class="item">
                 <img src="images/frame-23-mousedown.png" alt="Frame 23">
                 <div class="details">
-                    <p><strong>Frame:</strong> 23</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 1.4375; return false;">1.4375</a></p>
+                    <p><strong>Frame:</strong> 23  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 1.4375; return false;">1.4375</a></p>
                     <p><strong>Summary:</strong> The screenshot shows a clean and idle Windows XP desktop environment with the taskbar at the bottom, featuring the 'Start' button, quick launch icons, and the system tray displaying "11:11 AM". The desktop has a single 'Recycle Bin' icon. This state suggests the user has either just logged in or closed all applications, with the system ready for new tasks. There are no open applications, error messages, or alerts, indicating a stable system awaiting user input.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> User is logged into a Windows XP system with a stable, idle desktop environment.</p>
+                        <p><strong>Action:</strong> Right-click on the desktop background and select 'Properties' from the context menu.</p>
+                        <p><strong>Expected Results:</strong> The 'Display Properties' dialog box opens, allowing access to customization settings.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-75-mousedown.png" alt="Frame 75">
                 <div class="details">
-                    <p><strong>Frame:</strong> 75</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 4.6875; return false;">4.6875</a></p>
+                    <p><strong>Frame:</strong> 75  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 4.6875; return false;">4.6875</a></p>
                     <p><strong>Summary:</strong> Right-click on the desktop background and select "Properties" from the context menu to open the "Display Properties" dialog box. This allows customization of the desktop's appearance and display settings, including wallpaper, screen resolution, and screen saver. Prior actions include viewing the desktop with no open applications, and the expected outcome is accessing settings for visual customization.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Display Properties' dialog box is open.</p>
+                        <p><strong>Action:</strong> Select the 'Themes' tab and choose or modify a theme from the dropdown menu.</p>
+                        <p><strong>Expected Results:</strong> The theme is selected but not applied, visible in the preview pane.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-185-mousedown.png" alt="Frame 185">
                 <div class="details">
-                    <p><strong>Frame:</strong> 185</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 11.5625; return false;">11.5625</a></p>
+                    <p><strong>Frame:</strong> 185  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 11.5625; return false;">11.5625</a></p>
                     <p><strong>Summary:</strong> The user accessed the "Display Properties" dialog box via desktop right-click or Control Panel and selected the "Themes" tab. They chose or modified a theme, indicated by "Windows XP (Modified)" in the dropdown. Options to save or delete the theme are available. No changes are applied until "Apply" or "OK" is clicked. The dialog box also features a preview pane, and the desktop shows an autumn scene and icons including "Recycle Bin." The outcome is a customized Windows theme, pending application with "Apply" or "OK."</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Display Properties' dialog box is open and on the 'Themes' tab.</p>
+                        <p><strong>Action:</strong> Click 'Apply' or 'OK' to apply the selected theme.</p>
+                        <p><strong>Expected Results:</strong> The desktop appearance changes to reflect the applied theme.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-244-mousedown.png" alt="Frame 244">
                 <div class="details">
-                    <p><strong>Frame:</strong> 244</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 15.25; return false;">15.25</a></p>
+                    <p><strong>Frame:</strong> 244  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 15.25; return false;">15.25</a></p>
                     <p><strong>Summary:</strong> The user accessed the Display Properties dialog box and navigated to the "Screen Saver" tab to configure the screen saver settings on a Windows operating system. They selected the "Windows XP" screen saver from a dropdown menu, set the activation time to 10 minutes of inactivity, and opted for password protection on resume. Additionally, options to adjust screen saver settings, preview the screen saver, and modify monitor power settings were available. Before this action, the user was on the desktop and had opened the Display Properties dialog box. After applying these changes, the configured screen saver would activate following the specified period of inactivity, enhancing security and personalization.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Display Properties' dialog box is open.</p>
+                        <p><strong>Action:</strong> Navigate to the 'Screen Saver' tab, select a screen saver from the dropdown menu, set the activation time, and opt for password protection if desired.</p>
+                        <p><strong>Expected Results:</strong> Screen saver settings are configured but not applied.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-263-mousedown.png" alt="Frame 263">
                 <div class="details">
-                    <p><strong>Frame:</strong> 263</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 16.4375; return false;">16.4375</a></p>
+                    <p><strong>Frame:</strong> 263  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 16.4375; return false;">16.4375</a></p>
                     <p><strong>Summary:</strong> To select a screen saver in Windows XP, the user opens the Display Properties dialog box, navigates to the "Screen Saver" tab, and selects a screen saver from the dropdown menu, with "Windows XP" being the chosen option. This is achieved by right-clicking on the desktop and selecting "Properties" or through the Control Panel. After selection, a preview appears in the dialog box. The user can then apply the changes by clicking "Apply" or "OK." Essential UI elements include the "Screen Saver" tab, "Settings," "Preview," and "Power" buttons, along with "OK," "Cancel," and "Apply" buttons. No error messages are present, and standard Windows XP desktop icons are visible. This process customizes the desktop environment's screen saver settings.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Display Properties' dialog box is open and on the 'Screen Saver' tab with desired settings configured.</p>
+                        <p><strong>Action:</strong> Click 'Apply' or 'OK' to apply the screen saver settings.</p>
+                        <p><strong>Expected Results:</strong> Screen saver settings are applied, and the system will activate the screen saver after the specified period of inactivity.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-318-mousedown.png" alt="Frame 318">
                 <div class="details">
-                    <p><strong>Frame:</strong> 318</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 19.875; return false;">19.875</a></p>
+                    <p><strong>Frame:</strong> 318  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 19.875; return false;">19.875</a></p>
                     <p><strong>Summary:</strong> The user is interacting with the "Display Properties" dialog box on a Windows operating system, specifically on the "Screen Saver" tab. They have set the screen saver to "(None)" with a wait time of "10 minutes" and the "On resume, password protect" option is unchecked. The user is about to click the "Apply" button to save these settings. The "Display Properties" dialog box offers various customization tabs, and the "Screen Saver" tab includes options for screen saver selection, wait time adjustment, password protection on resume, and access to power settings via the "Power..." button. The outcome of clicking "Apply" is the application of the selected screen saver settings, allowing for further adjustments or confirmation with "OK."</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Display Properties' dialog box is open and on the 'Screen Saver' tab.</p>
+                        <p><strong>Action:</strong> Set the screen saver to '(None)', adjust the wait time, and ensure 'On resume, password protect' is unchecked. Then click 'Apply'.</p>
+                        <p><strong>Expected Results:</strong> Screen saver is disabled, and settings are applied without password protection on resume.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-349-mousedown.png" alt="Frame 349">
                 <div class="details">
-                    <p><strong>Frame:</strong> 349</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 21.8125; return false;">21.8125</a></p>
+                    <p><strong>Frame:</strong> 349  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 21.8125; return false;">21.8125</a></p>
                     <p><strong>Summary:</strong> The user is interacting with the "Display Properties" dialog box on Windows, specifically on the "Screen Saver" tab. They have the screen saver set to "(None)" with a 10-minute wait time and the "On resume, password protect" option unchecked. The "Power..." button is highlighted, indicating an intent to adjust monitor power settings next. This dialog box also includes other customization tabs such as "Themes," "Desktop," "Appearance," and "Settings," with options to apply or cancel changes. The user's actions are aimed at customizing power usage and screen saver settings.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Display Properties' dialog box is open and on the 'Screen Saver' tab.</p>
+                        <p><strong>Action:</strong> Highlight the 'Power...' button to adjust monitor power settings.</p>
+                        <p><strong>Expected Results:</strong> The 'Power Options Properties' dialog box is ready to be opened for further customization.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-411-mousedown.png" alt="Frame 411">
                 <div class="details">
-                    <p><strong>Frame:</strong> 411</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 25.6875; return false;">25.6875</a></p>
+                    <p><strong>Frame:</strong> 411  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 25.6875; return false;">25.6875</a></p>
                     <p><strong>Summary:</strong> The user adjusted the "Turn off monitor" setting to "After 20 mins" of inactivity for the "Home/Office Desk" power scheme in the "Power Options Properties" dialog box under the "Power Schemes" tab. Prior actions involved opening the dialog box and selecting the "Home/Office Desk" scheme. Post-action, the user can apply, cancel, or further modify settings. The dialog box also features tabs for "Advanced," "Hibernate," and "UPS," with options to save or delete schemes, and a "Power" button for additional settings. The environment suggests Windows XP. This adjustment aims to customize power usage, indicating a workflow focused on energy efficiency customization.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Power Options Properties' dialog box is open on the 'Power Schemes' tab.</p>
+                        <p><strong>Action:</strong> Adjust the 'Turn off monitor' setting to 'After 20 mins' for the 'Home/Office Desk' power scheme.</p>
+                        <p><strong>Expected Results:</strong> Monitor power settings are configured to turn off after 20 minutes of inactivity.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-448-mousedown.png" alt="Frame 448">
                 <div class="details">
-                    <p><strong>Frame:</strong> 448</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 28.0; return false;">28.0</a></p>
+                    <p><strong>Frame:</strong> 448  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 28.0; return false;">28.0</a></p>
                     <p><strong>Summary:</strong> The user is configuring the "Turn off monitor" setting within the "Power Options Properties" dialog box in the Windows Control Panel, specifically under the "Settings for Home/Office Desk power scheme." Initially set to turn off after 20 minutes of inactivity, the user has accessed the dropdown menu to view or change this interval, with options ranging from "After 1 min" to "Never." This adjustment is part of optimizing power consumption. The "Power Schemes" tab is active, and there are options to save or delete power schemes, indicating further customization capabilities. No errors are reported, and the interface includes recognizable icons for easy navigation. This process is aimed at energy savings and adjusting the computer's settings to the user's preferences.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Power Options Properties' dialog box is open and displaying the 'Settings for Home/Office Desk power scheme'.</p>
+                        <p><strong>Action:</strong> Access the dropdown menu to view or change the 'Turn off monitor' interval.</p>
+                        <p><strong>Expected Results:</strong> User can view or modify the interval for turning off the monitor.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-468-mousedown.png" alt="Frame 468">
                 <div class="details">
-                    <p><strong>Frame:</strong> 468</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 29.25; return false;">29.25</a></p>
+                    <p><strong>Frame:</strong> 468  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 29.25; return false;">29.25</a></p>
                     <p><strong>Summary:</strong> The user customized the "Home/Office Desk" power scheme in the "Power Options Properties" dialog box, accessed from the control panel, to prevent automatic power-saving features like turning off the monitor, hard disks, or entering standby/hibernation modes. The "Power Schemes" tab was selected, with all power settings adjusted to "Never." The dialog box also displayed options to save or delete the scheme, and the "OK," "Cancel," and "Apply" buttons were available for finalizing changes. No error messages were visible, and a power plug icon indicated the power settings tab. The outcome is a power scheme that avoids automatic power-saving interruptions, pending user confirmation.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Power Options Properties' dialog box is open on the 'Power Schemes' tab.</p>
+                        <p><strong>Action:</strong> Adjust all power settings to 'Never' to prevent automatic power-saving features.</p>
+                        <p><strong>Expected Results:</strong> All power-saving features are disabled, pending user confirmation.</p>
+                    </div>
                 </div>
             </div>
         
             <div class="item">
                 <img src="images/frame-506-mousedown.png" alt="Frame 506">
                 <div class="details">
-                    <p><strong>Frame:</strong> 506</p>
-                    <p><strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 31.625; return false;">31.625</a></p>
+                    <p><strong>Frame:</strong> 506  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 31.625; return false;">31.625</a></p>
                     <p><strong>Summary:</strong> The user is configuring screen saver settings in the "Display Properties" dialog box, accessed likely through right-clicking the desktop and selecting "Properties" or via the Control Panel. In the "Screen Saver" tab, they can choose a screen saver from a dropdown menu, set the activation wait time to "10 minutes," and decide on password protection upon resumption, though currently, the password option is unchecked and no screen saver is selected ("None"). The dialog box also offers "Settings," "Preview," "Power," "OK," "Cancel," and "Apply" buttons for further customization. Before any changes, the system's screen saver settings remain unchanged; applying or confirming changes will update these settings.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> 'Display Properties' dialog box is open and on the 'Screen Saver' tab.</p>
+                        <p><strong>Action:</strong> Choose 'None' for the screen saver, set the activation wait time to '10 minutes', and leave password protection upon resumption unchecked.</p>
+                        <p><strong>Expected Results:</strong> Screen saver is disabled and settings are configured but not applied.</p>
+                    </div>
                 </div>
             </div>
         
