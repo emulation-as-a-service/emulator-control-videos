@@ -1,0 +1,11 @@
+<!doctype html>
+
+<style>
+a {
+  display: block;
+}
+</style>
+
+<script type="module">
+document.body.append(...(await (await fetch(`https://api.github.com/repos${location.pathname.split("/").slice(0, 3).join("/")}/contents/?${new URLSearchParams({ref: location.pathname.split("/")[3]})}`)).json()).map(({path, type, href = `${path}${type === "dir" ? "/" : ""}`}) => Object.assign(document.createElement("a"), {href, textContent: href, target: "_blank"})));
+</script>
