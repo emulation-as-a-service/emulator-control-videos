@@ -1,0 +1,14 @@
+[
+    {
+        "frame": 27,
+        "description": "Open WordPad and create a new document. Type \"Hello iPres!\" and format the text using Arial font, size 22, and bold style using the formatting toolbar. No errors or additional windows are observed. The desktop shows standard icons and the taskbar indicates WordPad is in use."
+    },
+    {
+        "frame": 64,
+        "description": "The user is in the process of printing a document from WordPad. They have navigated to the \"File\" menu and selected or are about to select the \"Print\" option, as indicated by the highlighted \"Print...\" command and the visible tooltip \"Prints the active document\". Prior to this, the user was editing a document within WordPad. The expected next step is the appearance of a print dialog box for setting up the print job, although this is not shown in the observation. The WordPad interface, including the menu bar and formatting toolbar, is visible, with no error messages or alerts indicated."
+    },
+    {
+        "frame": 112,
+        "description": "The user is preparing to print a document from WordPad, as shown by the \"Print\" dialog box. Prior to this, the user accessed the \"Print\" dialog by selecting the print option in WordPad with the document ready for printing. The dialog box allows for printer selection, including adding a new printer, and customization of print settings such as page range, number of copies, and whether to collate. The selected printer is \"HP Color LaserJet P5,\" indicated as \"Ready.\" No actions within the dialog box are shown, but the next step involves the user finalizing their choices and clicking \"Print\" to start the printing process according to the specified settings."
+    }
+]

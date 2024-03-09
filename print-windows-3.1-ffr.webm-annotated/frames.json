@@ -1,0 +1,30 @@
+[
+    {
+        "frame": 40,
+        "timestamp": 2.5,
+        "event": {
+            "time": 2552,
+            "event": "mousedown",
+            "x": 25,
+            "y": 112
+        },
+        "label_clicked": null,
+        "description": "**Identify the Main Action**: The primary action taking place in the screenshot is text entry within a word processing application. The user has typed \"Hello, iPres*\" into what appears to be the main text editing area of the application. The asterisk at the end of the text suggests that the user may have been in the process of typing a word but has not completed it.\n\n**Contextualize the Action**:\n- **Before the Action**: Prior to the text entry, the system was in a state ready for text input. The application window is titled \"Write - (Untitled)\", indicating that a new document has been created or opened and has not yet been saved with a specific filename. The main menu bar with options like File, Edit, Find, Character, Paragraph, Document, and Help is visible, and no other windows or dialog boxes are open, suggesting that the user is at the beginning stages of document creation.\n- **After the Action**: As a result of the action, the text \"Hello, iPres*\" is now visible in the document. There are no other visible changes to the system or application that indicate further actions have been taken.\n\n**Note Additional Details**:\n- **User Interface Elements**: The user interface includes a menu bar at the top with various options for file management and text formatting. There is a vertical scrollbar on the right side of the window, indicating that the document can be scrolled through if more content is added. At the bottom left corner, there is a status bar with \"Page 1\" displayed, suggesting that the user is on the first page of the document.\n- **Error Messages or Alerts**: There are no error messages or alerts visible in the screenshot.\n- **Icons and Symbols**: There are no specific icons or symbols within the main text area or the menu bar that are crucial to understanding the workflow at this moment. The asterisk in the text may imply that the user was using it as a placeholder or was interrupted before finishing typing.\n\n**Describe the Outcome**: The outcome of the actions taken as shown in the screenshot is the initiation of a text document with the beginnings of a greeting or statement. This action represents the first step in the workflow of creating a document within this word processing application. The user has begun to input text, which is essential for drafting any document, and the workflow will likely continue with further text entry, formatting, and eventually saving or performing other document management tasks.",
+        "screenshot": "frame-40-mousedown.png",
+        "screenshot_annotated": "frame-40-mousedown-layout.png"
+    },
+    {
+        "frame": 113,
+        "timestamp": 7.0625,
+        "event": {
+            "time": 7119,
+            "event": "mousedown",
+            "x": 240,
+            "y": 185
+        },
+        "label_clicked": null,
+        "description": "**Identify the Main Action**: The primary action taking place in the screenshot is the display of a 'Print' dialog box within a word processing application, likely from an older operating system or software version. The user is preparing to print a document. The dialog box shows various settings that can be adjusted before printing, such as the printer selection, print range, print quality, and the number of copies.\n\n**Contextualize the Action**:\n- **Before the Action**: Prior to this action, the user was working within a word processing application, as indicated by the menu options like 'File', 'Edit', 'Find', etc., at the top of the window. The user has likely selected the 'Print' option from the 'File' menu, which has opened the 'Print' dialog box. The document titled \"Write - (Untitled)\" contains some text, beginning with \"Hello, iPres\".\n- **After the Action**: As a result of opening the 'Print' dialog box, the user is now presented with various options to configure the printing process. The dialog box is awaiting further user input or confirmation (by clicking 'OK') to proceed with the printing task.\n\n**Note Additional Details**:\n- **User Interface Elements**: The 'Print' dialog box includes a dropdown for selecting the printer, radio buttons for selecting the print range ('All' or 'Pages'), input fields for specifying the page range, a dropdown for print quality, a checkbox for 'Print to File', and another for 'Collate Copies'. There are also 'OK', 'Cancel', and 'Setup...' buttons.\n- **Error Messages or Alerts**: There are no error messages or alerts visible in the screenshot.\n- **Icons and Symbols**: At the bottom of the word processing application window, there is a status bar with an icon that appears to represent a page (Page 1), indicating the current page being viewed or edited.\n\n**Describe the Outcome**: The outcome of the actions taken, as shown in the screenshot, is the preparation for printing a document. The user has accessed the 'Print' dialog box and can now adjust print settings to their preference before finalizing the print command. This step is crucial in the workflow as it allows the user to control how the document will be printed, including the printer used, the range of pages, the quality of the print, and the number of copies. Once the user confirms these settings by clicking 'OK', the document will be sent to the printer with the specified configurations.",
+        "screenshot": "frame-113-mousedown.png",
+        "screenshot_annotated": "frame-113-mousedown-layout.png"
+    }
+]

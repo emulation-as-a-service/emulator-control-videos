@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item {
+            display: flex;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .item img {
+            max-width: 300px;
+            max-height: 200px;
+            margin-right: 10px;
+            border-radius: 5px 0 0 5px;
+        }
+        .details {
+            padding: 10px;
+        }
+        video {
+            width: 100%;
+            max-height: 400px;
+            margin-bottom: 20px;
+        }
+        .instruction {
+            margin-top: 10px;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border: 1px solid #dedede;
+            border-radius: 5px;
+        }
+        .instruction h4 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+            color: #333;
+        }
+        .instruction p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        .instruction strong {
+            font-weight: bold;
+            color: #0056b3; /* A distinct color to stand out */
+        }
+    </style>
+</head>
+<body>
+
+    <video id="reviewVideo" controls>
+        <source src="print-windows-2000-ffr.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h2>Review Screenshots</h2>
+    <div class="container">
+    
+            <div class="item">
+                <img src="images/frame-27-mousedown.png" alt="Frame 27">
+                <div class="details">
+                    <p><strong>Frame:</strong> 27  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 1.6875; return false;">1.6875</a></p>
+                    <p><strong>Summary:</strong> Open WordPad and create a new document. Type "Hello iPres!" and format the text using Arial font, size 22, and bold style using the formatting toolbar. No errors or additional windows are observed. The desktop shows standard icons and the taskbar indicates WordPad is in use.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> The desktop is visible with standard icons.</p>
+                        <p><strong>Action:</strong> Open WordPad and create a new document.</p>
+                        <p><strong>Expected Results:</strong> A new WordPad document is opened and ready for editing.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="images/frame-64-mousedown.png" alt="Frame 64">
+                <div class="details">
+                    <p><strong>Frame:</strong> 64  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 4.0; return false;">4.0</a></p>
+                    <p><strong>Summary:</strong> The user is in the process of printing a document from WordPad. They have navigated to the "File" menu and selected or are about to select the "Print" option, as indicated by the highlighted "Print..." command and the visible tooltip "Prints the active document". Prior to this, the user was editing a document within WordPad. The expected next step is the appearance of a print dialog box for setting up the print job, although this is not shown in the observation. The WordPad interface, including the menu bar and formatting toolbar, is visible, with no error messages or alerts indicated.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> A new WordPad document is open.</p>
+                        <p><strong>Action:</strong> Type 'Hello iPres!' in the document.</p>
+                        <p><strong>Expected Results:</strong> The text 'Hello iPres!' is displayed in the document.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="images/frame-112-mousedown.png" alt="Frame 112">
+                <div class="details">
+                    <p><strong>Frame:</strong> 112  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 7.0; return false;">7.0</a></p>
+                    <p><strong>Summary:</strong> The user is preparing to print a document from WordPad, as shown by the "Print" dialog box. Prior to this, the user accessed the "Print" dialog by selecting the print option in WordPad with the document ready for printing. The dialog box allows for printer selection, including adding a new printer, and customization of print settings such as page range, number of copies, and whether to collate. The selected printer is "HP Color LaserJet P5," indicated as "Ready." No actions within the dialog box are shown, but the next step involves the user finalizing their choices and clicking "Print" to start the printing process according to the specified settings.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> The text 'Hello iPres!' is typed in the document.</p>
+                        <p><strong>Action:</strong> Select the text and apply Arial font, size 22, and bold style using the formatting toolbar.</p>
+                        <p><strong>Expected Results:</strong> The text 'Hello iPres!' is formatted with Arial font, size 22, and bold style.</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </body>
+    </html>
+    
