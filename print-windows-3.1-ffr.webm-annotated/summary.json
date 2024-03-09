@@ -1,0 +1,10 @@
+[
+    {
+        "frame": 40,
+        "description": "The user initiated a new document in a word processing application, evident from the window titled \"Write - (Untitled)\". They began typing text, \"Hello, iPres*\", into the main editing area, indicating the start of document creation. The application's interface shows a menu bar with file and text formatting options, a vertical scrollbar, and a status bar indicating \"Page 1\", suggesting the document is in its initial stages with no additional content or actions taken beyond the initial text entry. This marks the beginning of a workflow involving text entry, formatting, and document management within the application."
+    },
+    {
+        "frame": 113,
+        "description": "The user is in a word processing application and has opened a 'Print' dialog box to prepare a document for printing. Prior to this, they were editing a document titled \"Write - (Untitled)\" with initial text \"Hello, iPres\". In the 'Print' dialog box, they can select a printer, specify the print range (all pages or a specific range), choose the print quality, decide on the number of copies, and select options like 'Print to File' and 'Collate Copies'. The dialog box also includes 'OK', 'Cancel', and 'Setup...' buttons for final actions. The outcome of this process is the user configuring the print settings to their preference before sending the document to the printer."
+    }
+]

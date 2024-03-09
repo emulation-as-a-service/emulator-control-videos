@@ -1,0 +1,34 @@
+[
+    {
+        "frame": 23,
+        "description": "The user has opened the \"Corel WordPerfect 3.5\" folder on a classic Mac OS desktop, displaying contents for document management and conversion, including a \"Documentation\" subfolder and tools for converting documents to different WordPerfect and Word formats. This action follows the opening of the \"MacintoshHD\" drive, indicated by the highlighted drive icon and the available 46.5 MB space. The desktop environment features the classic Mac OS menu bar and icons, with no error messages present. The outcome is the user's access to necessary tools for document conversion within the Corel WordPerfect application, suggesting a workflow step for document compatibility and management."
+    },
+    {
+        "frame": 94,
+        "description": "The user has opened a new document in a word processing application, indicated by an untitled, blank document with a blinking cursor ready for text entry. The application window is maximized, displaying a ruler for layout margins and a status bar showing \"Pg 1 Ln 1,\" suggesting the start of the document. The menu bar and toolbar offer various options for file management, editing, formatting, and inserting elements like tables, with additional features for spell check and text-to-speech. No actions have been taken yet, and there are no error messages or alerts. This setup is the initial stage for document creation or editing."
+    },
+    {
+        "frame": 212,
+        "description": "The user initiates a \"Save As\" operation in a word processing application, aiming to save a document. In the dialog box, \"MacintoshHD\" is selected as the save location, and the file name is set to \"untitled.\" The format is chosen as \"WordPerfect 3,\" with the document retention option as \"Complete Document.\" Options available include creating a new folder, saving, canceling, and an unchecked \"Password Protect\" feature. The interface is styled in classic Mac OS, with no visible error messages. The expected outcome is the document being saved with the chosen settings, and if \"Password Protect\" is selected, the document will be secured with a password."
+    },
+    {
+        "frame": 388,
+        "description": "To save a document, the user opens the \"Save As\" dialog box from a document editing application, indicating they were previously editing a document. In the dialog box, they can navigate directories, input a file name, select a document format and retention option from dropdown menus, and opt for password protection. Additional options include creating a new folder, canceling, or saving the document. After saving, the document is stored with the specified settings, including name, format, location (e.g., desktop), and password protection if enabled, closing the dialog box and returning to the main application. This process is conducted within a classic Mac OS interface."
+    },
+    {
+        "frame": 518,
+        "description": "The user is interacting with an \"Open\" file dialog box in a desktop application to open a file, with the \"Desktop\" directory selected and options to navigate the file system visible. Prior to this, the user likely initiated the \"Open\" command, and the application's main window shows an \"untitled\" document, indicating a new or unnamed file. The dialog box offers functionalities like file type filtering (\"Show:\" dropdown with \"Documents\" selected) and file preview format (\"Preview:\" dropdown with \"Layout\" selected), along with buttons for various actions including \"Eject,\" \"Desktop,\" \"Open,\" \"Open Copy,\" and \"Cancel.\" The outcome of this interaction depends on the user's choice, affecting the content in the application's main window. No error messages or alerts are present, and standard OS icons for \"MacintoshHD\" and \"Trash\" are visible."
+    },
+    {
+        "frame": 610,
+        "description": "The user initiated an \"Open\" file dialog in a Mac OS application, selecting the \"Desktop\" folder to search for a file. The dialog shows options to filter by \"All\" file types and preview in \"Layout\" mode, with no files currently displayed in the right pane. The user can navigate the file system through a pane showing \"MacintoshHD\" and \"Trash,\" and interact with various UI elements including \"Open,\" \"Open Copy,\" \"Cancel,\" and tabs for \"Templates\" and \"Latest.\" The process awaits the user's file selection or further navigation."
+    },
+    {
+        "frame": 646,
+        "description": "The user is in the process of opening a file in a word processing application using an \"Open\" dialog box. The dialog box is set to the \"Desktop\" directory with \"MacintoshHD\" and \"Trash\" visible. The file type filter is set to \"WordPerfect,\" and a \"Layout\" preview option is selected. This action follows the user's initiation of the \"Open\" dialog box from the application's File menu. The main application window, displaying an untitled document and formatting toolbars, is in the background. The \"Open\" dialog box features navigation and file type filtering dropdown menus, along with \"Desktop,\" \"Eject,\" \"Open,\" \"Open Copy,\" and \"Cancel\" buttons. No error messages are present, and icons for \"MacintoshHD,\" \"Trash,\" and a save function are visible. The expected outcome is the user selecting and opening a document, which will load into the main application window for editing or viewing. If \"Cancel\" is clicked, the dialog box will close, returning the user to the untitled document."
+    },
+    {
+        "frame": 691,
+        "description": "The user initiates the \"Open\" dialog box from an application's menu to open a document. They navigate to the \"Desktop\" folder using a dropdown menu and filter the view to show only document-type files. The dialog box, titled \"Open,\" includes UI elements for folder navigation, file type filtering, and file selection, with options like \"Eject,\" \"Desktop,\" \"Open,\" \"Open Copy,\" and \"Cancel.\" The \"Preview:\" dropdown is set to \"Layout,\" and system icons for \"MacintoshHD\" and \"Trash\" are visible, indicating available disk space and system locations. No files are visible in the current view, possibly due to the absence of document-type files in the \"Desktop\" folder or the view not being scrolled. The user's action aims to locate and open a document file from the desktop, advancing the document editing or viewing workflow."
+    }
+]

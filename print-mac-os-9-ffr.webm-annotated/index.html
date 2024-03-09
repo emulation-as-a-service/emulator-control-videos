@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item {
+            display: flex;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .item img {
+            max-width: 300px;
+            max-height: 200px;
+            margin-right: 10px;
+            border-radius: 5px 0 0 5px;
+        }
+        .details {
+            padding: 10px;
+        }
+        video {
+            width: 100%;
+            max-height: 400px;
+            margin-bottom: 20px;
+        }
+        .instruction {
+            margin-top: 10px;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border: 1px solid #dedede;
+            border-radius: 5px;
+        }
+        .instruction h4 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+            color: #333;
+        }
+        .instruction p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        .instruction strong {
+            font-weight: bold;
+            color: #0056b3; /* A distinct color to stand out */
+        }
+    </style>
+</head>
+<body>
+
+    <video id="reviewVideo" controls>
+        <source src="print-mac-os-9-ffr.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h2>Review Screenshots</h2>
+    <div class="container">
+    
+            <div class="item">
+                <img src="images/frame-19-mousedown.png" alt="Frame 19">
+                <div class="details">
+                    <p><strong>Frame:</strong> 19  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 1.1875; return false;">1.1875</a></p>
+                    <p><strong>Summary:</strong> Could you please provide a specific observation related to a user interaction with a graphical user interface (GUI) that you would like summarized?</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> User is in the SimpleText application on a classic Mac OS-like system.</p>
+                        <p><strong>Action:</strong> Open the 'File' menu.</p>
+                        <p><strong>Expected Results:</strong> A dropdown menu is revealed showing document management options including New, Open, Close, Save, Save As, Page Setup, Print, Print One Copy, and Quit, each with keyboard shortcuts.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="images/frame-49-mousedown.png" alt="Frame 49">
+                <div class="details">
+                    <p><strong>Frame:</strong> 49  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 3.0625; return false;">3.0625</a></p>
+                    <p><strong>Summary:</strong> The user has opened the "File" menu in the SimpleText application on a classic Mac OS-like system, revealing options for document management including New, Open, Close, Save, Save As, Page Setup, Print, Print One Copy, and Quit, each with keyboard shortcuts. The application window is titled "untitled," suggesting a new or unsaved document, and the desktop displays icons for file and system management. No text is visible in the document area, and there are no error messages or alerts. Icons next to menu options indicate their functions, such as a floppy disk for Save/Save As and a printer for Print options. This action allows the user to manage documents by performing operations like creating, opening, saving, or printing.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> User has edited a document in the SimpleText application.</p>
+                        <p><strong>Action:</strong> Select 'Print' from the 'File' menu.</p>
+                        <p><strong>Expected Results:</strong> A print dialog box opens, allowing the user to configure print settings including selecting 'Printer: PDF' for saving the document as a PDF.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="images/frame-116-mousedown.png" alt="Frame 116">
+                <div class="details">
+                    <p><strong>Frame:</strong> 116  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 7.25; return false;">7.25</a></p>
+                    <p><strong>Summary:</strong> The user is configuring print settings in a dialog box to print a document or save it as a PDF, with "Printer: PDF" selected. Prior actions involved editing a document in a text application, and the next step involves confirming the print job. The print dialog box options include setting the number of copies, page range, and paper source, with no errors present. Additional UI elements include dropdown menus, radio buttons, text fields, and a "Save Settings" button. The background shows desktop icons and a clock indicating the time as "7:12 PM." The intended outcome is to prepare the document for printing or saving as a PDF, with settings for one copy of all pages from a cassette source.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> Print settings dialog box is open.</p>
+                        <p><strong>Action:</strong> Configure print settings to select 'Printer: PDF', set the number of copies to one, select all pages, and choose the paper source as 'cassette'.</p>
+                        <p><strong>Expected Results:</strong> The document is prepared for printing or saving as a PDF with the specified settings.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="images/frame-142-mousedown.png" alt="Frame 142">
+                <div class="details">
+                    <p><strong>Frame:</strong> 142  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 8.875; return false;">8.875</a></p>
+                    <p><strong>Summary:</strong> The user is saving a text document named "untitled.ps" from a "SimpleText" application to the Desktop directory through a 'Save' dialog box. Before this action, the user was editing or creating the document, as indicated by the partially visible text "Hello [" in the background. The 'Save' dialog box displays the Desktop directory, showing items like "Harddisk," "Internet Explorer," and "PDF." Essential UI elements include a directory dropdown menu, a file/folder view pane, a 'Name:' field, 'Cancel' and 'Save' buttons, and 'New Folder' and 'List View' buttons. No error messages or alerts are present. Icons for "Harddisk," "Internet Explorer," and "PDF" indicate different item types. Post-saving, the document "untitled.ps" will appear on the Desktop, ready for future access or processing with a PostScript viewer or editor.</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> User has edited or created a document in the SimpleText application.</p>
+                        <p><strong>Action:</strong> Select 'Save' or 'Save As' from the 'File' menu.</p>
+                        <p><strong>Expected Results:</strong> A 'Save' dialog box opens, displaying the Desktop directory and allowing the user to name the document and choose a save location.</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </body>
+    </html>
+    
