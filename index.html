@@ -6,12 +6,18 @@ a {
 }
 </style>
 
+<div id="viewer"></div>
+
 <script type="module">
 const repo = location.pathname.split("/").slice(1, 3).join("/");
 const ref = location.pathname.split("/")[3];
 
-const viewer = path =>
-`data:text/html,<video src="https://raw.githubusercontent.com/${repo}/${ref}/${path}" controls><track src="https://raw.githubusercontent.com/${repo}/${ref}/${path}" default></video>`;
-
-document.body.append(...(await (await fetch(`https://api.github.com/repos/${location.pathname.split("/").slice(1, 3).join("/")}/contents/?${new URLSearchParams({ref: location.pathname.split("/")[3]})}`)).json()).map(({path, type, href = path.match(/\.webm$/) ? viewer(path) : `${path}${type === "dir" ? "/" : ""}`}) => Object.assign(document.createElement("a"), {href, textContent: path, target: "_blank"})));
+const params = new URLSearchParams(location.hash.slice(1));
+if (params.has("video")) {
+  const path = encodeURI(params.get("video"));
+  viewer.innerHTML = `<video src="https://raw.githubusercontent.com/${repo}/${ref}/${path}" controls><track src="https://raw.githubusercontent.com/${repo}/${ref}/${path}" default></video>`;
+}
+else {
+document.body.append(...(await (await fetch(`https://api.github.com/repos/${location.pathname.split("/").slice(1, 3).join("/")}/contents/?${new URLSearchParams({ref: location.pathname.split("/")[3]})}`)).json()).map(({path, type, href = path.match(/\.webm$/) ? `#${new URLSearchParams({video: path})}` : `${path}${type === "dir" ? "/" : ""}`}) => Object.assign(document.createElement("a"), {href, textContent: path, target: "_blank"})));
+}
 </script>
