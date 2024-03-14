@@ -1,8 +1,27 @@
-<!DOCTYPE html><meta charset="utf-8">
+<!DOCTYPE html><meta charset="utf-8" />
 
 <style>
   a {
     display: block;
+  }
+  #viewer {
+    position: relative;
+  }
+  #mouse {
+    display: block;
+    position: absolute;
+    border: solid 5px red;
+    border-radius: 5px;
+  }
+  #mouse.pressed {
+    border-color: blue;
+  }
+  #key {
+    display: inline-block;
+    color: white;
+    font: bold 30px sans-serif;
+    background: black;
+    padding: 10px;
   }
 </style>
 
@@ -19,7 +38,27 @@
 
   if (video) {
     const path = encodeURI(video);
-    viewer.innerHTML = `<video crossorigin="anonymous" src="https://raw.githubusercontent.com/${repo}/${ref}/${path}" controls><track src="https://raw.githubusercontent.com/${repo}/${ref}/${path.replace(/\.webm/, ".vtt")}" default></video>`;
+    viewer.innerHTML = `<video crossorigin="anonymous" src="https://raw.githubusercontent.com/${repo}/${ref}/${path}" controls><track kind=2"metadata" src="https://raw.githubusercontent.com/${repo}/${ref}/${path.replace(
+      /\.webm/,
+      ".vtt"
+    )}" default></video><div id="mouse"></div><br><div id="key"></div>`;
+    const mouse = viewer.querySelector("#mouse");
+    viewer.querySelector("track").oncuechange = ({ target }) => {
+      const cues = [...target.track.activeCues].map((v) => JSON.parse(v.text));
+      const mousepos = cues.filter((v) => v.event === "mousemove").at(-1);
+      if (mousepos) {
+        mouse.style.left = `${mousepos.x}px`;
+        mouse.style.top = `${mousepos.y}px`;
+      }
+      const lastClick = cues
+        .filter((v) => ["mousedown" /*"mouseup"*/].includes(v.event))
+        .at(-1);
+      const lastKey = cues
+        .filter((v) => ["keydown" /*"keyup"*/].includes(v.event))
+        .at(-1);
+      mouse.classList.toggle("pressed", lastClick?.event === "mousedown");
+      key.textContent = lastKey.key ?? "";
+    };
   } else {
     document.body.append(
       ...(
