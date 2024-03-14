@@ -1,21 +1,31 @@
-<!DOCTYPE html><meta charset="utf-8" />
+<!DOCTYPE html>
+<meta charset="utf-8" />
 
 <style>
   a {
     display: block;
   }
+
   #viewer {
     position: relative;
   }
+
   #mouse {
     display: block;
     position: absolute;
     border: solid 5px red;
     border-radius: 5px;
+    /*
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(135deg, red 50%, transparent 50%);
+    */
   }
+
   #mouse.pressed {
     border-color: blue;
   }
+
   #key {
     display: inline-block;
     color: white;
@@ -27,21 +37,49 @@
 
 <div id="viewer"></div>
 
+<div id="localFiles">
+  <input id="openLocally" type="file" style="padding: 30px; border: black solid 1px;" multiple>
+</div>
+
 <script type="module">
+  document.querySelector("#openLocally").oninput = ({ target }) => {
+    const files = Object.fromEntries([...target.files].map(v => [v.name, v]));
+    document.querySelector("#localFiles").append(...[...target.files].map(
+      file => ({
+        type: "file",
+        path: file.name,
+        title: `Local file: ${file.name}`,
+        href: file.name.match(/\.webm$/) && `#${new URLSearchParams({ video: URL.createObjectURL(file), vtt: URL.createObjectURL(files[file.name.replace(/\.webm$/, ".vtt")] ?? new Blob([])) })}`
+      })).map(renderFileEntry))
+  };
+
   const params = Object.fromEntries(
     new URLSearchParams(location.hash.slice(1))
   );
-  let { repo, ref, video } = params;
+  let { repo, ref, video, vtt } = params;
 
   ref ??= location.pathname.split("/")[3];
   repo ??= location.pathname.split("/").slice(1, 3).join("/");
 
+  const renderFileEntry = ({
+    path,
+    type,
+    href = path.match(/\.webm$/)
+      ? `#${new URLSearchParams({ ...params, video: path })}`
+      : `${path}${type === "dir" ? "/" : ""}`,
+    title = path,
+  }) =>
+    Object.assign(document.createElement("a"), {
+      href,
+      textContent: title,
+      target: "_blank",
+    });
+
   if (video) {
     const path = encodeURI(video);
-    viewer.innerHTML = `<video crossorigin="anonymous" src="https://raw.githubusercontent.com/${repo}/${ref}/${path}" controls><track kind=2"metadata" src="https://raw.githubusercontent.com/${repo}/${ref}/${path.replace(
-      /\.webm/,
-      ".vtt"
-    )}" default></video><div id="mouse"></div><br><div id="key"></div>`;
+    const src = video.match(/^https?:|blob:|file:/) ? video : `https://raw.githubusercontent.com/${repo}/${ref}/${path}`;
+    vtt ??= `https://raw.githubusercontent.com/${repo}/${ref}/${path.replace(/\.webm/, ".vtt")}`;
+    viewer.innerHTML = `<video crossorigin="anonymous" src="${src}" controls><track kind="metadata" src="${vtt}" default></video><div id="mouse"></div><br><div id="key"></div>`;
     const mouse = viewer.querySelector("#mouse");
     viewer.querySelector("track").oncuechange = ({ target }) => {
       const cues = [...target.track.activeCues].map((v) => JSON.parse(v.text));
@@ -62,27 +100,13 @@
   } else {
     document.body.append(
       ...(
-        await (
+        await(
           await fetch(
             `https://api.github.com/repos/${repo}/contents/?${new URLSearchParams(
               { ref }
             )}`
           )
         ).json()
-      ).map(
-        ({
-          path,
-          type,
-          href = path.match(/\.webm$/)
-            ? `#${new URLSearchParams({ ...params, video: path })}`
-            : `${path}${type === "dir" ? "/" : ""}`,
-        }) =>
-          Object.assign(document.createElement("a"), {
-            href,
-            textContent: path,
-            target: "_blank",
-          })
-      )
-    );
+      ).map(renderFileEntry));
   }
 </script>
