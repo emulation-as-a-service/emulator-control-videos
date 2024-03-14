@@ -57,7 +57,7 @@
         .filter((v) => ["keydown" /*"keyup"*/].includes(v.event))
         .at(-1);
       mouse.classList.toggle("pressed", lastClick?.event === "mousedown");
-      key.textContent = lastKey.key ?? "";
+      key.textContent = lastKey?.key ?? "";
     };
   } else {
     document.body.append(
