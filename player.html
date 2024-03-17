@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+
+<style>
+  #viewer {
+    position: relative;
+  }
+
+  #mouse {
+    display: block;
+    position: absolute;
+    border: solid 10px blue;
+    border-radius: 10px;
+    opacity: 0.7;
+  }
+
+  #mouse.pressed {
+    border-color: yellow;
+  }
+
+  #key:not([hidden]) {
+    display: inline-block;
+    color: white;
+    font: bold 30px sans-serif;
+    background: black;
+    padding: 10px;
+  }
+
+  #open {
+    padding: 10px;
+    margin-right: 10px;
+    border: black solid 1px;
+  }
+
+  #topAppBar {
+    display: flex;
+    width: 800px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+</style>
+
+<div id="topAppBar">
+  <input id="open" type="file" multiple />
+  <div>
+    <div id="videoName"></div>
+    <div id="vttName"></div>
+  </div>
+</div>
+
+<div hidden id="viewer">
+  <div id="mouse"></div>
+  <video crossorigin="anonymous" src="" controls>
+    <track kind="metadata" src="" default />
+  </video>
+  <br />
+  <div id="event"></div>
+  <div id="key" hidden></div>
+</div>
+
+<script type="module">
+  document.querySelector("#open").oninput = ({ target }) => {
+    const video = [...target.files].find((v) => !v.name.match(/\.vtt$/));
+    const vtt = [...target.files].find((v) => v.name.match(/\.vtt$/));
+    document.querySelector("#videoName").textContent = video.name;
+    document.querySelector("#vttName").textContent = vtt.name;
+    showVideo(URL.createObjectURL(video), URL.createObjectURL(vtt));
+  };
+
+  function showVideo(videoUrl, vttUrl) {
+    const viewer = document.querySelector("#viewer");
+    viewer.querySelector("video").src = videoUrl;
+    viewer.querySelector("track").src = vttUrl;
+    viewer.hidden = false;
+    const mouse = viewer.querySelector("#mouse");
+    viewer.querySelector("track").oncuechange = ({ target }) => {
+      const cues = [...target.track.activeCues].map((v) => JSON.parse(v.text));
+      const mousepos = cues.filter((v) => v.event === "mousemove").at(-1);
+      if (mousepos) {
+        mouse.style.left = `${mousepos.x - 10}px`;
+        mouse.style.top = `${mousepos.y - 10}px`;
+      }
+      const lastClick = cues
+        .filter((v) => ["mousedown" /*"mouseup"*/].includes(v.event))
+        .at(-1);
+      const lastKey = cues
+        .filter((v) => ["keydown" /*"keyup"*/].includes(v.event))
+        .at(-1);
+      mouse.classList.toggle("pressed", lastClick?.event === "mousedown");
+      const event = document.querySelector("#event");
+      event.textContent = [lastClick, lastKey]
+        .map((v) => JSON.stringify(v))
+        .join("\n");
+      const key = document.querySelector("#key");
+      key.hidden = !lastKey;
+      key.textContent = lastKey?.key ?? "";
+    };
+  }
+</script>
