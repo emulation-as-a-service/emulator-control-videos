@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item {
+            display: flex;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .item img {
+            max-width: 300px;
+            max-height: 200px;
+            margin-right: 10px;
+            border-radius: 5px 0 0 5px;
+        }
+        .details {
+            padding: 10px;
+        }
+        video {
+            width: 100%;
+            max-height: 400px;
+            margin-bottom: 20px;
+        }
+        .instruction {
+            margin-top: 10px;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border: 1px solid #dedede;
+            border-radius: 5px;
+        }
+        .instruction h4 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+            color: #333;
+        }
+        .instruction p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        .instruction strong {
+            font-weight: bold;
+            color: #0056b3; /* A distinct color to stand out */
+        }
+    </style>
+</head>
+<body>
+
+    <video id="reviewVideo" controls>
+        <source src="print-windows-3.1-ffr.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h2>Review Screenshots</h2>
+    <div class="container">
+    
+            <div class="item">
+                <img src="images/frame-40-mousedown.png" alt="Frame 40">
+                <div class="details">
+                    <p><strong>Frame:</strong> 40  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 2.5; return false;">2.5</a></p>
+                    <p><strong>Summary:</strong> The user clicked at the end of the text "Hello, iPres" in the document editing area to continue typing. 
+</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> The text editor area with the existing text is in focus.</p>
+                        <p><strong>Action:</strong> Click at the end of the existing text in the document editing area.</p>
+                        <p><strong>Expected Results:</strong> A blinking text cursor will appear at the end of the existing text, allowing the user to continue typing from that point.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="images/frame-113-mousedown.png" alt="Frame 113">
+                <div class="details">
+                    <p><strong>Frame:</strong> 113  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 7.0625; return false;">7.0625</a></p>
+                    <p><strong>Summary:</strong> The user initiated printing of the entire document by clicking "OK" in the "Print" dialog box. The print settings are set to default values (likely 1 copy, 300 dpi, not collated, and outputting to a printer). 
+</p>
+                    <div class="instruction">
+                        <h4>Instruction</h4>
+                        <p><strong>Precondition:</strong> The "Print" dialog box is open in a word processing application.</p>
+                        <p><strong>Action:</strong> Click the "OK" button.</p>
+                        <p><strong>Expected Results:</strong> The print job will be sent to the printer, and the document will begin printing according to the specified settings.</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </body>
+    </html>
+    
