@@ -1,0 +1,66 @@
+[
+    {
+        "frame": 36,
+        "description": "**Summary:**\n\nClick the green \"Start\" button on the left side of the taskbar to open the Windows Start Menu. \n"
+    },
+    {
+        "frame": 90,
+        "description": "The user opened the Windows XP Start Menu and clicked on the \"Control Panel\" option to access system settings and configurations. \n"
+    },
+    {
+        "frame": 459,
+        "description": "Hover over the \"Appearance and Themes\" icon in the Windows XP Control Panel to view a tooltip describing its function. \n"
+    },
+    {
+        "frame": 547,
+        "description": "Access display settings by clicking the \"Display\" icon (depicting a computer monitor with a color palette) located in the bottom left corner of the \"Appearance and Themes\" control panel. \n"
+    },
+    {
+        "frame": 718,
+        "description": "The user opened the \"Display Properties\" window and navigated to the \"Screen Saver\" tab. \n"
+    },
+    {
+        "frame": 753,
+        "description": "The user clicked the down arrow button next to the \"Windows XP\" screensaver selection to view and choose from a list of alternative screensavers. \n"
+    },
+    {
+        "frame": 803,
+        "description": "The user opened the \"Display Properties\" window, navigated to the \"Screen Saver\" tab, and clicked the \"Power\" button within the \"Monitor power\" section to adjust the monitor's power settings. \n"
+    },
+    {
+        "frame": 861,
+        "description": "The user is viewing the \"Power Options Properties\" dialog box and is about to change the \"Turn off monitor\" setting within the \"Home/Office Desk\" power scheme. \n"
+    },
+    {
+        "frame": 912,
+        "description": "The user is setting the \"Home/Office Desk\" power scheme to hibernate after 5 hours of inactivity. \n"
+    },
+    {
+        "frame": 994,
+        "description": "The user clicked \"Save As...\" under the \"Power Schemes\" tab in the \"Power Options Properties\" dialog box to save a copy of the currently selected \"Home/Office Desk\" power scheme. \n"
+    },
+    {
+        "frame": 1039,
+        "description": "The user opened the \"Power Options Properties\" window, navigated to the \"Power Schemes\" tab, and selected the \"Always On\" option from the \"Power schemes\" dropdown menu. \n"
+    },
+    {
+        "frame": 1060,
+        "description": "The user is modifying the \"Turn off hard disks:\" setting within the \"Always On\" power scheme of the \"Power Options Properties\" dialog box. They are about to change the current setting from \"Never\" using the dropdown menu. \n"
+    },
+    {
+        "frame": 1070,
+        "description": "The user is about to change the \"Turn off monitor\" setting within the \"Power Options Properties\" dialog box. They have clicked on the dropdown menu for this setting, which is currently set to \"After 20 mins\". \n"
+    },
+    {
+        "frame": 1093,
+        "description": "System hibernation is deactivated by selecting \"Never\" from the \"System hibernates\" dropdown menu within the \"Power Options Properties\" dialog box. \n"
+    },
+    {
+        "frame": 1204,
+        "description": "The user closed the \"Display Properties\" dialog box in Windows XP by clicking the \"OK\" button. The \"Screen Saver\" tab was active, with the screen saver preview set to \"[None]\". \n"
+    },
+    {
+        "frame": 1266,
+        "description": "The user is navigating the \"Appearance and Themes\" section within the Windows XP Control Panel. The exact action taken is a mouse click, but the specific target within the window is unknown. \n"
+    }
+]
