@@ -1,0 +1,10 @@
+[
+    {
+        "frame": 40,
+        "description": "The user clicked at the end of the text \"Hello, iPres\" in the document editing area to continue typing. \n"
+    },
+    {
+        "frame": 113,
+        "description": "The user initiated printing of the entire document by clicking \"OK\" in the \"Print\" dialog box. The print settings are set to default values (likely 1 copy, 300 dpi, not collated, and outputting to a printer). \n"
+    }
+]
