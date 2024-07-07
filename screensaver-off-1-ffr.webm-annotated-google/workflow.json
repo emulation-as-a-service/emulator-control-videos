@@ -1,82 +1,82 @@
 [
     {
-        "precondition": "The Windows desktop is visible, with the taskbar located at the bottom of the screen. The \"Start\" button, a green button with the word \"start\" and a white arrow, is visible on the left side of the taskbar.",
-        "action": "Click on the \"Start\" button.",
-        "expected_results": "The Windows Start Menu will appear, displaying a list of programs and options, including \"Control Panel\"."
+        "precondition": "The Windows XP taskbar is visible at the bottom of the screen, displaying the 'Start' button on the left side.",
+        "action": "Click on the 'Start' button located on the left side of the taskbar.",
+        "expected_results": "The Windows XP Start Menu will open, displaying options such as 'Control Panel', 'Programs', and 'My Documents'."
     },
     {
-        "precondition": "The Windows XP Start Menu is open and visible on the screen.",
-        "action": "Click on the \"Control Panel\" option in the Windows XP Start Menu.",
-        "expected_results": "The Control Panel window will open, displaying various icons and options for customizing system settings, managing programs, and configuring network connections."
+        "precondition": "The Windows XP Start Menu is open.",
+        "action": "Click on the \"Control Panel\" option located in the right section of the Start Menu.",
+        "expected_results": "The Control Panel window will open. The mouse cursor will change to an arrow with a tooltip box appearing when hovering over icons in the Control Panel."
     },
     {
         "precondition": "The Windows XP Control Panel window is open.",
         "action": "Click on the \"Appearance and Themes\" icon.",
-        "expected_results": "The \"Appearance and Themes\" settings window will open. This window contains options to adjust the display settings, themes, screen savers, and the Start menu and taskbar."
+        "expected_results": "The \"Appearance and Themes\" settings window will open."
     },
     {
-        "precondition": "The Windows XP \"Appearance and Themes\" Control Panel window is open.",
-        "action": "Click on the \"Display\" icon, represented by a computer monitor with a color palette.",
+        "precondition": "The \"Appearance and Themes\" window is open in the Windows Control Panel.",
+        "action": "Click on the \"Display\" icon, represented by a computer monitor with a blue background.",
         "expected_results": "The \"Display Properties\" window will open."
     },
     {
-        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is visible.",
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\", \"Desktop\", \"Appearance\" and \"Settings\" tabs are visible.",
         "action": "Click on the \"Screen Saver\" tab.",
-        "expected_results": "The \"Screen Saver\" tab becomes active, and the preview pane displays the currently selected screensaver."
+        "expected_results": "The \"Screen Saver\" tab becomes active, and the window displays options for changing the screensaver."
     },
     {
-        "precondition": "The \"Screen Saver\" tab in the \"Display Properties\" window is open. The \"Screen saver\" dropdown menu displays \"Windows XP\".",
-        "action": "Click the down arrow button located to the right of the \"Windows XP\" text field within the \"Screen saver\" section.",
-        "expected_results": "A dropdown menu with a list of available screensavers will appear."
+        "precondition": "The \"Screen Saver\" tab in the \"Display Properties\" window is open. The \"Windows XP\" text field is visible, indicating the currently selected screensaver.",
+        "action": "Click the down arrow button located to the right of the \"Windows XP\" text field.",
+        "expected_results": "A dropdown menu will appear, displaying a list of available screensavers to choose from."
     },
     {
-        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Power\" button is visible at the bottom of the window in the \"Monitor power\" section.",
-        "action": "Click the \"Power\" button.",
-        "expected_results": "The \"Power Options Properties\" dialog box will open."
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click the \"Power\" button located below the \"Monitor power\" section.",
+        "expected_results": "The \"Power Options Properties\" window will open."
     },
     {
-        "precondition": "The \"Power Options Properties\" dialog box is open and the \"Home/Office Desk\" power scheme is selected.",
-        "action": "Click on the dropdown menu associated with the \"System hibernates\" setting.",
-        "expected_results": "A list of time intervals will appear, allowing the user to select the desired duration of inactivity before the computer hibernates."
+        "precondition": "The \"Power Options Properties\" window is open, displaying the settings for the \"Home/Office Desk\" power scheme. The \"Turn off monitor\" setting should be visible.",
+        "action": "Click on the dropdown menu associated with the \"Turn off monitor\" setting.",
+        "expected_results": "A list of time options will appear, allowing the user to select how long the monitor should remain inactive before automatically turning off."
     },
     {
-        "precondition": "The \"Power Options Properties\" dialog box is open and the \"Home/Office Desk\" power scheme is selected. The \"System hibernates:\" setting should be visible with a dropdown menu.",
-        "action": "Click on the dropdown menu next to \"System hibernates:\" and select \"After 5 hours\".",
-        "expected_results": "The dropdown menu will close, and \"After 5 hours\" will be displayed next to the \"System hibernates:\" setting."
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is selected. The \"System hibernates\" dropdown menu, located within the \"Settings for Home/Office Desk power scheme\" section, should be visible.",
+        "action": "Click on the \"After 5 hours\" option within the \"System hibernates\" dropdown menu.",
+        "expected_results": "The dropdown menu will close, and the \"System hibernates\" setting will display \"After 5 hours\". The \"Save As...\" button at the bottom of the window may become active, indicating unsaved changes."
     },
     {
-        "precondition": "The \"Power Options Properties\" dialog box is open and the \"Power Schemes\" tab is selected. The \"Home/Office Desk\" power scheme is selected in the dropdown menu.",
-        "action": "Click the \"Save As...\" button located below the power scheme dropdown menu.",
-        "expected_results": "A new dialog box will appear, prompting the user to enter a new name for the power scheme."
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is selected.",
+        "action": "Click the \"Save As...\" button.",
+        "expected_results": "A \"Save As\" dialog box will appear, allowing the user to enter a new name for the power scheme."
     },
     {
-        "precondition": "The \"Power Options Properties\" dialog box is open and the \"Power Schemes\" tab is selected.",
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Power schemes\" dropdown menu is visible.",
         "action": "Click on the \"Always On\" option within the \"Power schemes\" dropdown menu.",
-        "expected_results": "The \"Always On\" power scheme will be selected, and its settings will be displayed in the dialog box for editing."
+        "expected_results": "The \"Always On\" power scheme is selected, and the settings for this scheme (such as \"Turn off hard disks:\") become visible for adjustment."
     },
     {
-        "precondition": "The \"Power Options Properties\" dialog box is open and the \"Power Schemes\" tab is selected. The \"Always On\" power scheme is currently active.",
-        "action": "Click on the dropdown menu associated with the \"Turn off hard disks:\" setting.",
-        "expected_results": "A dropdown menu with various time options for hard disk power-down will appear, allowing the user to change the current setting from \"Never\"."
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is selected. The \"Always On\" power scheme is currently active.",
+        "action": "Click the dropdown menu arrow next to the \"Turn off hard disks:\" setting.",
+        "expected_results": "A dropdown menu with a list of time options for turning off hard disks will appear."
     },
     {
-        "precondition": "The \"Power Options Properties\" dialog box is open. The \"Power Schemes\" tab is active.",
-        "action": "Click on the dropdown menu labeled \"Turn off monitor:\"",
-        "expected_results": "A list of time duration options (e.g., \"Never\", \"After 1 minute\", \"After 2 minutes\", etc.) will appear, allowing the user to select a new duration for monitor inactivity before it turns off."
+        "precondition": "The \"Power Options Properties\" dialog box is open and the \"Power Schemes\" tab is selected. The \"Turn off monitor:\" setting is visible.",
+        "action": "Click the downward-pointing arrow icon located to the right of the current time interval displayed for the \"Turn off monitor:\" setting.",
+        "expected_results": "A dropdown menu will appear, displaying a list of time intervals to choose from for automatically turning off the monitor."
     },
     {
-        "precondition": "The \"Power Options Properties\" dialog box is open. The \"System hibernates\" setting is visible with its associated dropdown menu.",
-        "action": "Click on the \"Never\" option within the \"System hibernates\" dropdown menu.",
-        "expected_results": "The \"System hibernates\" setting will be set to \"Never\". The dropdown menu will close."
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is selected. The \"System hibernates:\" setting should be visible with an adjacent dropdown menu.",
+        "action": "Click on the dropdown menu arrow next to \"System hibernates:\" and select the \"Never\" option.",
+        "expected_results": "The dropdown menu will close, and the \"System hibernates:\" setting will display \"Never\", indicating the system will not automatically hibernate."
     },
     {
-        "precondition": "The \"Display Properties\" dialog box is open and the \"Screen Saver\" tab is selected.",
-        "action": "Click the \"OK\" button at the bottom of the dialog box.",
-        "expected_results": "The \"Display Properties\" dialog box will close. The user will be returned to the previous window, likely the \"Appearance and Themes\" section within the Windows XP Control Panel."
+        "precondition": "The \"Display Properties\" dialog box is open and the \"Screen Saver\" tab is active. ",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" dialog box will close."
     },
     {
-        "precondition": "The 'Appearance and Themes' window is open in the Windows XP Control Panel.",
-        "action": "Click on the 'Display' icon located in the 'Control Panel Icon Section' at the bottom of the window.",
-        "expected_results": "The 'Display Properties' dialog box will open."
+        "precondition": "The \"Appearance and Themes\" window is open and active with the title visible in the top bar of the window. A red square with a white \"X\" is visible in the top-right corner of the window.",
+        "action": "Click the red square with the white \"X\" in the top-right corner of the \"Appearance and Themes\" window.",
+        "expected_results": "The \"Appearance and Themes\" window will close, returning the user to the previous screen or desktop."
     }
 ]
