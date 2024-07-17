@@ -7,5 +7,7 @@ a {
 </style>
 
 <script type="module">
-document.body.append(...(await (await fetch(`https://api.github.com/repos${location.pathname.split("/").slice(0, 3).join("/")}/contents/?${new URLSearchParams({ref: location.pathname.split("/")[3]})}`)).json()).map(({path, type, href = `${path}${type === "dir" ? "/" : ""}`}) => Object.assign(document.createElement("a"), {href, textContent: href, target: "_blank"})));
+const appendPath = (hash, path, params = new URLSearchParams(hash.replace(/^#/, ""))) => (params.set("path", (params.get("path")?.split("/").filter(v => v) ?? []).concat(encodeURIComponent(path)).join("/")), params);
+const curPath = location.pathname.split("/").slice(4, -1).concat(new URLSearchParams(location.hash.slice(1)).get("path")?.split("/").filter(v => v) ?? []);
+document.body.append(...(await (await fetch(`https://api.github.com/repos${location.pathname.split("/").slice(0, 3).join("/")}/contents/${curPath.join("/")}?${new URLSearchParams({ref: location.pathname.split("/")[3]})}`)).json()).map(({path, type, relPath = path.split("/").slice(curPath.length), text = `${relPath}${type === "dir" ? "/" : ""}`, href = type === "dir" ? `#${appendPath(location.hash, relPath)}` : path.split("/").slice(location.pathname.split("/").slice(4, -1).length).join("/")}) => Object.assign(document.createElement("a"), {href, textContent: text, target: "_blank"})));
 </script>
