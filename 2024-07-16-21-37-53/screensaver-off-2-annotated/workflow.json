@@ -1,0 +1,57 @@
+[
+    {
+        "precondition": "The mouse cursor is hovering over an empty area of the Windows XP desktop.",
+        "action": "Right-click once on the empty desktop area.",
+        "expected_results": "A context menu will appear with options like 'Properties', 'Arrange Icons By', and 'Refresh'."
+    },
+    {
+        "precondition": "The right-click context menu on the Windows XP desktop is open.",
+        "action": "Click on the \"Properties\" option in the context menu.",
+        "expected_results": "The \"Display Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active.",
+        "action": "Click on the \"Appearance\" tab.",
+        "expected_results": "The \"Appearance\" tab becomes active, displaying the appearance settings."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click on the \"None\" option within the \"Screen saver\" dropdown menu.",
+        "expected_results": "The screensaver will be disabled. The \"Settings\" and \"Preview\" buttons will remain greyed out. The \"Power...\", \"Cancel\", and \"Apply\" buttons will remain active."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open.",
+        "action": "Click on the \"Presentation\" option from the \"Power schemes\" dropdown menu.",
+        "expected_results": "The selected power scheme changes to \"Presentation\", and the settings in the bottom section of the dialog box update to reflect the \"Presentation\" power scheme's configuration."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Power schemes\" dropdown menu is expanded.",
+        "action": "Click on the \"Presentation\" option within the \"Power schemes\" dropdown menu.",
+        "expected_results": "The \"Presentation\" power scheme is selected, and its specific settings for power management, such as \"Turn off monitor\" are displayed under the \"Settings for Always On power scheme\" section."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open with the 'Power Schemes' tab selected. The 'Always On' power scheme is currently active.",
+        "action": "Click on the dropdown menu labeled 'Turn off monitor' and select the desired time duration after which the monitor should turn off.",
+        "expected_results": "The selected time duration will be displayed in the 'Turn off monitor' dropdown menu, indicating that the monitor will turn off after that period of inactivity while using the 'Always On' power scheme. The user will then proceed to configure the 'System hibernates' option."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open, the \"Advanced\" tab is selected, and the \"Always On\" power scheme is chosen in the dropdown menu.",
+        "action": "Click the dropdown menu next to \"System hibernates:\" and select \"Never\".",
+        "expected_results": "The dropdown menu will close, and \"Never\" will be displayed next to \"System hibernates:\", indicating the system will not automatically hibernate."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open with the \"Always On\" power scheme selected and the desired settings for \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" are configured.",
+        "action": "Click the \"Apply\" button.",
+        "expected_results": "The selected power settings for the \"Always On\" power scheme are applied."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open and the \"Power Schemes\" tab is active. The \"Always On\" power scheme is selected and the desired power saving options are configured.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" dialog box closes and the selected power scheme settings are applied."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open with the 'Screen Saver' tab selected and the desired screen saver settings configured.",
+        "action": "Click the 'OK' button at the bottom of the 'Display Properties' dialog box.",
+        "expected_results": "The 'Display Properties' dialog box closes, and the selected screen saver settings are applied."
+    }
+]

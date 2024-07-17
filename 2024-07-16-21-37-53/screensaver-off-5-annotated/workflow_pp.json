@@ -1,0 +1,42 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Click and hold the left mouse button on a blank area of the desktop.",
+        "expected_results": "Nothing will happen."
+    },
+    {
+        "precondition": "The user has right-clicked on a blank area of the Windows XP desktop and a context menu is visible.",
+        "action": "Click on the \"Properties\" option in the context menu.",
+        "expected_results": "The \"Display Properties\" window will open."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open.",
+        "action": "Click on the 'Screen Saver' tab. Click on the 'Screen saver' dropdown menu.",
+        "expected_results": "A list of available screensavers will be displayed, allowing the user to select a new screensaver."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab in the 'Display Properties' window is open and the 'Screen saver' dropdown menu is visible.",
+        "action": "Select 'None' from the 'Screen saver' dropdown menu.",
+        "expected_results": "The selected screensaver will change to 'None' and the preview of the screensaver will be disabled."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab in the \"Display Properties\" window is open.",
+        "action": "Click the \"Power...\" button.",
+        "expected_results": "The \"Power Options Properties\" window opens, likely with the \"Power Schemes\" tab selected."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open and the \"Home/Office Desk\" power scheme is selected.",
+        "action": "Click on the dropdown menu next to \"Turn off monitor\" and select \"Never\".",
+        "expected_results": "The dropdown menu will show \"Never\" as the selected option for when the monitor should turn off."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open and the \"Home/Office Desk\" power scheme is selected.",
+        "action": "Set all power management options (\"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates\") to \"Never\" using the respective dropdown menus.",
+        "expected_results": "The selected power scheme settings will be applied."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open and the desired power scheme settings are configured.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" dialog box closes."
+    }
+]

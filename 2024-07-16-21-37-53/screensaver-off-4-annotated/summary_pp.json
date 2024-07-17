@@ -1,0 +1,57 @@
+[
+    {
+        "frame": 23,
+        "event": "mousedown",
+        "description": "The user right-clicked on an empty area of the desktop. \n"
+    },
+    {
+        "frame": 75,
+        "event": "mousedown",
+        "description": "The user clicked on \"Properties\" from the context menu. \n"
+    },
+    {
+        "frame": 185,
+        "event": "mousedown",
+        "description": "The user clicked on the \"Screen Saver\" tab. \n"
+    },
+    {
+        "frame": 244,
+        "event": "mousedown",
+        "description": "The user clicked on the dropdown menu for the screen saver option. \n"
+    },
+    {
+        "frame": 263,
+        "event": "mousedown",
+        "description": "The user selected \"None\" from the dropdown menu. \n"
+    },
+    {
+        "frame": 318,
+        "event": "mousedown",
+        "description": "The user clicked on the \"Apply\" button. \n"
+    },
+    {
+        "frame": 349,
+        "event": "mousedown",
+        "description": "The user clicked on the \"Power\" button. \n"
+    },
+    {
+        "frame": 411,
+        "event": "mousedown",
+        "description": "The user clicked on the dropdown menu for the \"Turn off hard disks\" setting. \n"
+    },
+    {
+        "frame": 448,
+        "event": "mousedown",
+        "description": "The user selected \"After 4 hours\" from the dropdown menu. \n"
+    },
+    {
+        "frame": 468,
+        "event": "mousedown",
+        "description": "The user clicked on the \"OK\" button. \n"
+    },
+    {
+        "frame": 506,
+        "event": "mousedown",
+        "description": "The user clicked on the \"OK\" button. \n"
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "frame": 29,
+        "event": "mousedown",
+        "description": "A mousedown event is initiated on an empty area of the Windows XP desktop background. \n"
+    },
+    {
+        "frame": 50,
+        "event": "mousedown",
+        "description": "The user right-clicked on the Windows XP desktop and selected \"Properties\" from the context menu to open the display properties window. \n"
+    },
+    {
+        "frame": 117,
+        "event": "mousedown",
+        "description": "The user clicked on the \"Screen Saver\" tab within the \"Display Properties\" window. \n"
+    },
+    {
+        "frame": 215,
+        "event": "mousedown",
+        "description": "The user deactivated the screensaver by opening the \"Display Properties\" window, selecting \"None\" from the \"Screen saver\" dropdown menu, and clicking \"Apply\". \n"
+    },
+    {
+        "frame": 338,
+        "event": "mousedown",
+        "description": "The user clicked the \"Power\" button within the \"Display Properties\" window to open the \"Power Options Properties\" dialog box. \n"
+    },
+    {
+        "frame": 374,
+        "event": "mousedown",
+        "description": "The user selected the \"Always On\" power scheme from the \"Power schemes\" dropdown menu within the \"Power Options Properties\" window. \n"
+    },
+    {
+        "frame": 395,
+        "event": "mousedown",
+        "description": "Under the \"Power Schemes\" tab in the \"Power Options Properties\" dialog box, the user changed the \"Turn off monitor\" setting within the \"Settings for Always On power scheme\" section to \"Never\" from the dropdown menu. \n"
+    },
+    {
+        "frame": 437,
+        "event": "mousedown",
+        "description": "Within the \"Power Options Properties\" dialog box, under the \"Power Schemes\" tab and using the \"Always On\" power scheme, the user changed the \"Turn off hard disks\" option to \"Never\" from the dropdown menu. \n"
+    },
+    {
+        "frame": 482,
+        "event": "mousedown",
+        "description": "The user finished configuring the \"Always On\" power scheme in the \"Power Options Properties\" dialog box, setting all power-saving options (monitor, hard disks, standby, hibernation) to \"Never.\" They then clicked \"Apply\" to confirm these changes. \n"
+    },
+    {
+        "frame": 516,
+        "event": "mousedown",
+        "description": "The user clicked \"OK\" to close the \"Power Options Properties\" dialog box, confirming the application of the \"Always On\" power scheme with all power-saving features disabled. \n"
+    },
+    {
+        "frame": 544,
+        "event": "mousedown",
+        "description": "The user clicked \"OK\" to apply changes made within the \"Screen Saver\" tab of the \"Display Properties\" dialog box and close the window. \n"
+    }
+]

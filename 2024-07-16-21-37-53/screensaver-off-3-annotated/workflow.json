@@ -1,0 +1,57 @@
+[
+    {
+        "precondition": "The Control Panel window is open and displaying the default category view with the navigation pane visible on the left side.",
+        "action": "Click on the \"Switch to Classic View\" option located in the navigation pane of the Control Panel window.",
+        "expected_results": "The Control Panel will switch to the classic view, displaying all control panel options as individual icons in a list."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open.",
+        "action": "Click the dropdown menu labeled \"Turn off hard disks:\" and select the desired time interval.",
+        "expected_results": "The selected time interval will be displayed in the \"Turn off hard disks:\" dropdown menu."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Home/Office Desk\" power scheme is selected within the \"Power Schemes\" tab.",
+        "action": "Click and hold the dropdown menu associated with the \"System hibernates:\" setting.",
+        "expected_results": "A dropdown menu will appear, displaying a list of time intervals and the option \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Home/Office Desk\" power scheme is selected. The desired time intervals for power-saving options are selected in the dropdowns.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close. The selected power scheme and its settings will be saved."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is open and displaying items in the classic icon view.",
+        "action": "Click and hold the left mouse button on the 'Power Options' icon.",
+        "expected_results": "The 'Power Options' icon will be highlighted in a lighter blue color."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is open, displaying the classic icon view.",
+        "action": "Click the \"Display\" icon, represented by a stylized computer monitor.",
+        "expected_results": "The \"Display Properties\" window will open, with the \"Themes\" tab selected by default."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\", \"Desktop\", \"Screen Saver\", \"Appearance\" and \"Settings\" tabs are visible. ",
+        "action": "Click on the \"Appearance\" tab.",
+        "expected_results": "The content area of the \"Display Properties\" window will change to display options related to the visual appearance of Windows XP, such as window colors, fonts, and visual effects."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab in the \"Display Properties\" window is open.",
+        "action": "Click on the dropdown menu labeled \"Screen saver\".",
+        "expected_results": "A list of available screensaver options will appear, including \"None\"."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Screen Saver\" dropdown menu should be visible.",
+        "action": "Click on the \"Screen Saver\" dropdown menu to expand it and view the available screensaver options.",
+        "expected_results": "A list of available screensaver options, including \"None\", \"Windows XP\", \"3D FlowerBox\", and others, will be displayed. One of the options may be highlighted, indicating the current selection."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab within the \"Display Properties\" window is open.",
+        "action": "Click the \"OK\" button at the bottom of the window.",
+        "expected_results": "The \"Display Properties\" window will close. You will be returned to the previous window, likely the Control Panel."
+    },
+    {
+        "precondition": "The 'Control Panel' window is open and displaying items in the 'Classic View'. The 'Display' icon, represented by a computer monitor, is visible.",
+        "action": "Double-click on the 'Display' icon.",
+        "expected_results": "The 'Display Properties' window will open."
+    }
+]

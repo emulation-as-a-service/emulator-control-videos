@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            z-index: 1000; /* Ensure it stays above other elements */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            margin-top: 460px; /* Space for the fixed video element */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+        .item-header {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            background-color: #f9f9f9;
+        }
+        .columns {
+            display: flex;
+        }
+        .column {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            color: black; /* Ensure text color is set */
+        }
+        .column + .column {
+            border-left: 1px solid #eee;
+        }
+        p {
+            margin: 10px 0;
+            color: #333; /* Ensure text is visible on white background */
+        }
+        .instruction h4 {
+            margin: 10px 0;
+            color: #0056b3; /* Ensure headings are distinct */
+        }
+        .instruction p {
+            margin: 5px 0;
+            color: #333; /* Ensure instruction text is visible */
+        }
+        .instruction {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .instruction strong {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="video-container">
+    <video id="reviewVideo" controls>
+        <source src="screensaver-off-5-ffr.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="container">
+    <h2>Review Screenshots</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 31  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 1.9375; return false;">1.9375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked and held the left mouse button on a blank area of the Windows XP desktop, initiating a drag-and-select action. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible and in an idle state.</p>
+                            <p><strong>Action:</strong> Click and hold the left mouse button anywhere on the blank area of the desktop wallpaper.</p>
+                            <p><strong>Expected Results:</strong> A white mouse cursor with its trail will appear, indicating that the mouse button is being held down. The desktop will enter a state ready for a drag-and-select action, but no selection will be made yet.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked and held the left mouse button on a blank area of the Windows XP desktop, initiating a drag-and-select action. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Click and hold the left mouse button on a blank area of the desktop.</p>
+                            <p><strong>Expected Results:</strong> Nothing will happen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 80  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 5.0; return false;">5.0</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user is about to open the Windows Desktop Properties window by right-clicking on the desktop and selecting the "Properties" option from the context menu. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The context menu on the Windows XP desktop is open.</p>
+                            <p><strong>Action:</strong> Click on the highlighted 'Properties' option in the context menu.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will open.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user is about to open the Windows Desktop Properties window by right-clicking on the desktop and selecting the "Properties" option from the context menu. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The user has right-clicked on a blank area of the Windows XP desktop and a context menu is visible.</p>
+                            <p><strong>Action:</strong> Click on the "Properties" option in the context menu.</p>
+                            <p><strong>Expected Results:</strong> The "Display Properties" window will open.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 230  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 14.375; return false;">14.375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user opened the Display Properties window, navigated to the "Screen Saver" tab, and accessed the "Screen saver" dropdown menu to change the currently active screensaver, which is "Windows XP". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Screen Saver" tab in the "Display Properties" window is open. The "Screen saver" dropdown menu shows the currently selected screensaver.</p>
+                            <p><strong>Action:</strong> Click the "Screen saver" dropdown menu and select "None".</p>
+                            <p><strong>Expected Results:</strong> The screensaver will be disabled, and the "Screen saver" dropdown menu will display "None". </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user opened the Display Properties window, navigated to the "Screen Saver" tab, and accessed the "Screen saver" dropdown menu to change the currently active screensaver. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open.</p>
+                            <p><strong>Action:</strong> Click on the 'Screen Saver' tab. Click on the 'Screen saver' dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> A list of available screensavers will be displayed, allowing the user to select a new screensaver.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 261  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 16.3125; return false;">16.3125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user opened the "Display Properties" window, selected the "Screen Saver" tab, and chose "None" from the "Screen saver" dropdown menu to disable the screensaver. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Screen Saver" tab within the "Display Properties" window is open. The "Screen saver" dropdown menu is visible and displaying a list of options.</p>
+                            <p><strong>Action:</strong> Click on the "None" option within the "Screen saver" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The dropdown menu closes. The "Screen saver" field will display "None", indicating that no screensaver is selected and the system will not display a screensaver.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user opened the "Display Properties" window, selected the "Screen Saver" tab, and chose "None" from the "Screen saver" dropdown menu to disable the screensaver. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Screen Saver' tab in the 'Display Properties' window is open and the 'Screen saver' dropdown menu is visible.</p>
+                            <p><strong>Action:</strong> Select 'None' from the 'Screen saver' dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The selected screensaver will change to 'None' and the preview of the screensaver will be disabled.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 373  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 23.3125; return false;">23.3125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user is about to change the "Turn off monitor" setting within the "Home/Office Desk" power scheme. They will select a new time interval from the dropdown menu currently displaying "After 20 mins." 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Home/Office Desk" power scheme is selected. The "Turn off monitor" option is currently set to "After 20 mins."</p>
+                            <p><strong>Action:</strong> Click the down arrow button next to the "Turn off monitor" dropdown menu and select a new time interval from the list.</p>
+                            <p><strong>Expected Results:</strong> The selected time interval will be displayed in the "Turn off monitor" field. The system will now automatically turn off the monitor after the newly selected duration of inactivity.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Power..." button within the "Screen Saver" tab of the "Display Properties" dialog box to access power management settings. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Screen Saver" tab in the "Display Properties" window is open.</p>
+                            <p><strong>Action:</strong> Click the "Power..." button.</p>
+                            <p><strong>Expected Results:</strong> The "Power Options Properties" window opens, likely with the "Power Schemes" tab selected.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 414  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 25.875; return false;">25.875</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user set the system to hibernate after 5 hours of inactivity while using the "Home/Office Desk" power scheme. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Settings for Home/Office Desk power scheme" section is visible in the "Power Options Properties" window. The dropdown menu for "System hibernates:" is open.</p>
+                            <p><strong>Action:</strong> Click on the "After 5 hours" option in the "System hibernates:" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The dropdown menu closes, and the "System hibernates:" option displays "After 5 hours".</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user selected "Never" from the dropdown menu to configure when the monitor should turn off within the "Home/Office Desk" power scheme. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" dialog box is open and the "Home/Office Desk" power scheme is selected.</p>
+                            <p><strong>Action:</strong> Click on the dropdown menu next to "Turn off monitor" and select "Never".</p>
+                            <p><strong>Expected Results:</strong> The dropdown menu will show "Never" as the selected option for when the monitor should turn off.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 440  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 27.5; return false;">27.5</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user configured the "Home/Office Desk" power scheme in the Windows 98 "Power Options Properties" dialog.  All power management options ("Turn off monitor," "Turn off hard disks," "System standby," and "System hibernates") were set to "Never." 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" dialog box is open and the "Power Schemes" tab is selected. The "Home/Office Desk" power scheme is selected in the dropdown menu.</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The "Power Options Properties" dialog box closes. The selected power scheme settings are applied.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user configured the "Home/Office Desk" power scheme in the Windows XP "Power Options Properties" dialog.  All power management options ("Turn off monitor," "Turn off hard disks," "System standby," and "System hibernates") were set to "Never." 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" dialog box is open and the "Home/Office Desk" power scheme is selected.</p>
+                            <p><strong>Action:</strong> Set all power management options ("Turn off monitor," "Turn off hard disks," "System standby," and "System hibernates") to "Never" using the respective dropdown menus.</p>
+                            <p><strong>Expected Results:</strong> The selected power scheme settings will be applied.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 461  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 28.8125; return false;">28.8125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user adjusted settings within the "Screen Saver" tab of the "Display Properties" dialog box and applied the changes by clicking "OK". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" dialog box is open and the "Screen Saver" tab is active.</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The "Display Properties" dialog box closes. Any changes made to the screen saver settings are applied.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked "OK" in the "Power Options Properties" dialog box to apply the selected power scheme settings. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" dialog box is open and the desired power scheme settings are configured.</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The "Power Options Properties" dialog box closes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>

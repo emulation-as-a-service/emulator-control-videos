@@ -1,0 +1,42 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible and in an idle state.",
+        "action": "Click and hold the left mouse button anywhere on the blank area of the desktop wallpaper.",
+        "expected_results": "A white mouse cursor with its trail will appear, indicating that the mouse button is being held down. The desktop will enter a state ready for a drag-and-select action, but no selection will be made yet."
+    },
+    {
+        "precondition": "The context menu on the Windows XP desktop is open.",
+        "action": "Click on the highlighted 'Properties' option in the context menu.",
+        "expected_results": "The 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab in the \"Display Properties\" window is open. The \"Screen saver\" dropdown menu shows the currently selected screensaver.",
+        "action": "Click the \"Screen saver\" dropdown menu and select \"None\".",
+        "expected_results": "The screensaver will be disabled, and the \"Screen saver\" dropdown menu will display \"None\". "
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab within the \"Display Properties\" window is open. The \"Screen saver\" dropdown menu is visible and displaying a list of options.",
+        "action": "Click on the \"None\" option within the \"Screen saver\" dropdown menu.",
+        "expected_results": "The dropdown menu closes. The \"Screen saver\" field will display \"None\", indicating that no screensaver is selected and the system will not display a screensaver."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Home/Office Desk\" power scheme is selected. The \"Turn off monitor\" option is currently set to \"After 20 mins.\"",
+        "action": "Click the down arrow button next to the \"Turn off monitor\" dropdown menu and select a new time interval from the list.",
+        "expected_results": "The selected time interval will be displayed in the \"Turn off monitor\" field. The system will now automatically turn off the monitor after the newly selected duration of inactivity."
+    },
+    {
+        "precondition": "The \"Settings for Home/Office Desk power scheme\" section is visible in the \"Power Options Properties\" window. The dropdown menu for \"System hibernates:\" is open.",
+        "action": "Click on the \"After 5 hours\" option in the \"System hibernates:\" dropdown menu.",
+        "expected_results": "The dropdown menu closes, and the \"System hibernates:\" option displays \"After 5 hours\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open and the \"Power Schemes\" tab is selected. The \"Home/Office Desk\" power scheme is selected in the dropdown menu.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" dialog box closes. The selected power scheme settings are applied."
+    },
+    {
+        "precondition": "The \"Display Properties\" dialog box is open and the \"Screen Saver\" tab is active.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" dialog box closes. Any changes made to the screen saver settings are applied."
+    }
+]
