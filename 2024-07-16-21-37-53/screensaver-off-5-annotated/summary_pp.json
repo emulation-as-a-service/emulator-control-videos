@@ -1,0 +1,42 @@
+[
+    {
+        "frame": 31,
+        "event": "mousedown",
+        "description": "The user clicked and held the left mouse button on a blank area of the Windows XP desktop, initiating a drag-and-select action. \n"
+    },
+    {
+        "frame": 80,
+        "event": "mousedown",
+        "description": "The user is about to open the Windows Desktop Properties window by right-clicking on the desktop and selecting the \"Properties\" option from the context menu. \n"
+    },
+    {
+        "frame": 230,
+        "event": "mousedown",
+        "description": "The user opened the Display Properties window, navigated to the \"Screen Saver\" tab, and accessed the \"Screen saver\" dropdown menu to change the currently active screensaver. \n"
+    },
+    {
+        "frame": 261,
+        "event": "mousedown",
+        "description": "The user opened the \"Display Properties\" window, selected the \"Screen Saver\" tab, and chose \"None\" from the \"Screen saver\" dropdown menu to disable the screensaver. \n"
+    },
+    {
+        "frame": 373,
+        "event": "mousedown",
+        "description": "The user clicked the \"Power...\" button within the \"Screen Saver\" tab of the \"Display Properties\" dialog box to access power management settings. \n"
+    },
+    {
+        "frame": 414,
+        "event": "mousedown",
+        "description": "The user selected \"Never\" from the dropdown menu to configure when the monitor should turn off within the \"Home/Office Desk\" power scheme. \n"
+    },
+    {
+        "frame": 440,
+        "event": "mousedown",
+        "description": "The user configured the \"Home/Office Desk\" power scheme in the Windows XP \"Power Options Properties\" dialog.  All power management options (\"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates\") were set to \"Never.\" \n"
+    },
+    {
+        "frame": 461,
+        "event": "mousedown",
+        "description": "The user clicked \"OK\" in the \"Power Options Properties\" dialog box to apply the selected power scheme settings. \n"
+    }
+]

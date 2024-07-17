@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            z-index: 1000; /* Ensure it stays above other elements */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            margin-top: 460px; /* Space for the fixed video element */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+        .item-header {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            background-color: #f9f9f9;
+        }
+        .columns {
+            display: flex;
+        }
+        .column {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            color: black; /* Ensure text color is set */
+        }
+        .column + .column {
+            border-left: 1px solid #eee;
+        }
+        p {
+            margin: 10px 0;
+            color: #333; /* Ensure text is visible on white background */
+        }
+        .instruction h4 {
+            margin: 10px 0;
+            color: #0056b3; /* Ensure headings are distinct */
+        }
+        .instruction p {
+            margin: 5px 0;
+            color: #333; /* Ensure instruction text is visible */
+        }
+        .instruction {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .instruction strong {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="video-container">
+    <video id="reviewVideo" controls>
+        <source src="screensaver-off-3-ffr.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="container">
+    <h2>Review Screenshots</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 333  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 20.8125; return false;">20.8125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user is switching the Windows XP Control Panel from the default category view to the classic view by clicking the "Switch to Classic View" option in the left navigation pane. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Control Panel window is open and displaying the default category view with the navigation pane visible on the left side.</p>
+                            <p><strong>Action:</strong> Click on the "Switch to Classic View" option located in the navigation pane of the Control Panel window.</p>
+                            <p><strong>Expected Results:</strong> The Control Panel will switch to the classic view, displaying all control panel options as individual icons in a list.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user switched the Windows XP Control Panel from the default category view to the classic view by clicking the "Switch to Classic View" option in the left navigation pane. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel is open and in category view.</p>
+                            <p><strong>Action:</strong> Click on the "Switch to Classic View" option located in the left navigation pane.</p>
+                            <p><strong>Expected Results:</strong> The Control Panel will switch to the classic view, displaying all icons individually.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 647  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 40.4375; return false;">40.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user is changing the "Turn off hard disks:" setting within the Windows XP "Power Options Properties" dialog box. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" dialog box is open.</p>
+                            <p><strong>Action:</strong> Click the dropdown menu labeled "Turn off hard disks:" and select the desired time interval.</p>
+                            <p><strong>Expected Results:</strong> The selected time interval will be displayed in the "Turn off hard disks:" dropdown menu.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user changed the "Turn off hard disks:" setting within the Windows XP "Power Options Properties" dialog box to "Never".
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" dialog box is open.</p>
+                            <p><strong>Action:</strong> Locate the "Turn off hard disks:" setting and use the associated dropdown menu to select "Never".</p>
+                            <p><strong>Expected Results:</strong> The "Turn off hard disks:" setting will be changed to "Never".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 678  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 42.375; return false;">42.375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> Within the "Home/Office Desk" power scheme of the Power Options Properties window, the user is about to change the "System hibernates" setting using the dropdown menu. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Home/Office Desk" power scheme is selected within the "Power Schemes" tab.</p>
+                            <p><strong>Action:</strong> Click and hold the dropdown menu associated with the "System hibernates:" setting.</p>
+                            <p><strong>Expected Results:</strong> A dropdown menu will appear, displaying a list of time intervals and the option "Never".</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> Within the "Home/Office Desk" power scheme of the Power Options Properties window, the user changed the "System hibernates" setting to "Never" using the dropdown menu. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Home/Office Desk" power scheme is selected.</p>
+                            <p><strong>Action:</strong> Locate the "System hibernates:" setting. Click on the dropdown menu next to it and select "Never".</p>
+                            <p><strong>Expected Results:</strong> The "System hibernates:" setting will be changed to "Never".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 708  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 44.25; return false;">44.25</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user reviewed the "Home/Office Desk" power scheme settings in the "Power Options Properties" window. All power-saving features were set to "Never". The user clicked "OK", confirming these settings without making any changes. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open with the "Power Schemes" tab selected. The "Home/Office Desk" power scheme is selected. The desired time intervals for power-saving options are selected in the dropdowns.</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The "Power Options Properties" window will close. The selected power scheme and its settings will be saved.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked "OK", confirming the "Home/Office Desk" power scheme settings in the "Power Options Properties" window. All power-saving features are set to "Never".
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Home/Office Desk" power scheme is selected. All power-saving features are set to "Never". The "OK" button is visible.</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The "Power Options Properties" window closes. The "Power Options" icon is visible in the Windows XP Control Panel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 752  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 47.0; return false;">47.0</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user is clicking and holding the "Power Options" icon in the Windows XP Control Panel (classic icon view), likely to open the Power Options Properties dialog. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel is open and displaying items in the classic icon view.</p>
+                            <p><strong>Action:</strong> Click and hold the left mouse button on the 'Power Options' icon.</p>
+                            <p><strong>Expected Results:</strong> The 'Power Options' icon will be highlighted in a lighter blue color.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user opened the "Power Options Properties" dialog by clicking the "Power Options" icon in the Windows XP Control Panel (classic icon view).
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel is open in classic icon view.</p>
+                            <p><strong>Action:</strong> Double click the 'Power Options' icon.</p>
+                            <p><strong>Expected Results:</strong> The 'Power Options Properties' dialog window opens.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 755  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 47.1875; return false;">47.1875</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user opened the Display Properties window by clicking the "Display" icon in the Windows XP Control Panel. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel is open, displaying the classic icon view.</p>
+                            <p><strong>Action:</strong> Click the "Display" icon, represented by a stylized computer monitor.</p>
+                            <p><strong>Expected Results:</strong> The "Display Properties" window will open, with the "Themes" tab selected by default.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user opened the Display Properties window by double-clicking the "Display" icon in the Windows XP Control Panel. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Power Options Properties' dialog is open.</p>
+                            <p><strong>Action:</strong> Close the 'Power Options Properties' dialog. Double-click the 'Display' icon in the Windows XP Control Panel.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will open.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 804  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 50.25; return false;">50.25</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user opened the "Display Properties" window and selected the "Appearance" tab. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" window is open and the "Themes", "Desktop", "Screen Saver", "Appearance" and "Settings" tabs are visible. </p>
+                            <p><strong>Action:</strong> Click on the "Appearance" tab.</p>
+                            <p><strong>Expected Results:</strong> The content area of the "Display Properties" window will change to display options related to the visual appearance of Windows XP, such as window colors, fonts, and visual effects.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Screen Saver" tab in the "Display Properties" window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" window is open.</p>
+                            <p><strong>Action:</strong> Click the "Screen Saver" tab.</p>
+                            <p><strong>Expected Results:</strong> The "Screen Saver" tab opens, displaying options for screen savers, including a dropdown menu to select the active screensaver, a preview window, and settings for inactivity timeout and password protection.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 834  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 52.125; return false;">52.125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user is about to change the screensaver from the currently selected "Windows XP" option using the "Screen saver" dropdown menu. The screensaver is set to activate after 10 minutes of inactivity, and password protection is disabled. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Screen Saver" tab in the "Display Properties" window is open.</p>
+                            <p><strong>Action:</strong> Click on the dropdown menu labeled "Screen saver".</p>
+                            <p><strong>Expected Results:</strong> A list of available screensaver options will appear, including "None".</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user opened the "Screen saver" dropdown menu in the "Display Properties" window. The currently selected option is "Windows XP". The screensaver is set to activate after 10 minutes of inactivity, and password protection is disabled. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Screen Saver" tab in the "Display Properties" window is open.</p>
+                            <p><strong>Action:</strong> Click on the "Screen saver" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> A dropdown menu with a list of available screensavers will appear, with "Windows XP" currently selected.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 857  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 53.5625; return false;">53.5625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> To disable the screensaver, open "Display Properties" (accessible through the Control Panel), go to the "Screen Saver" tab, and choose "None" from the dropdown menu. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" window is open and the "Screen Saver" tab is selected. The "Screen Saver" dropdown menu should be visible.</p>
+                            <p><strong>Action:</strong> Click on the "Screen Saver" dropdown menu to expand it and view the available screensaver options.</p>
+                            <p><strong>Expected Results:</strong> A list of available screensaver options, including "None", "Windows XP", "3D FlowerBox", and others, will be displayed. One of the options may be highlighted, indicating the current selection.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user selected "None" from the "Screen saver" dropdown menu in the "Display Properties" window to disable the screensaver. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Screen saver" dropdown menu in the "Display Properties" window is open.</p>
+                            <p><strong>Action:</strong> Click on the "None" option in the "Screen saver" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The "Screen saver" dropdown menu will show "None" as the selected option.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 920  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 57.5; return false;">57.5</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user is closing the "Display Properties" window by clicking the "OK" button, confirming the current screen saver settings. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Screen Saver" tab within the "Display Properties" window is open.</p>
+                            <p><strong>Action:</strong> Click the "OK" button at the bottom of the window.</p>
+                            <p><strong>Expected Results:</strong> The "Display Properties" window will close. You will be returned to the previous window, likely the Control Panel.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "OK" button, closing the "Display Properties" window and confirming the change to the screensaver settings. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" window is open.</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The "Display Properties" window closes. The Control Panel window is visible.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 967  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 60.4375; return false;">60.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked and held the "Display" icon in the Windows XP Control Panel (Classic View). 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Control Panel' window is open and displaying items in the 'Classic View'. The 'Display' icon, represented by a computer monitor, is visible.</p>
+                            <p><strong>Action:</strong> Double-click on the 'Display' icon.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will open.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Display" icon in the Windows XP Control Panel (Classic View). 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel (Classic View) is open.</p>
+                            <p><strong>Action:</strong> Click on the 'Display' icon.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will open.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>

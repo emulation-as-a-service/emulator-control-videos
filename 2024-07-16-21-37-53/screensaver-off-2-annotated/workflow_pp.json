@@ -1,0 +1,57 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Right-click on an empty area of the desktop background.",
+        "expected_results": "A context menu appears with options like 'Properties', 'New', 'Arrange Icons By', etc."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Right-click on an empty area of the desktop and select \"Properties\" from the context menu.",
+        "expected_results": "The \"Display Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open.",
+        "action": "Click on the \"Screen Saver\" tab.",
+        "expected_results": "The \"Screen Saver\" settings will be displayed, including options to choose and customize a screensaver."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab in the \"Display Properties\" window is open. ",
+        "action": "Open the \"Screen saver\" dropdown menu and select \"None\". Click the \"Apply\" button.",
+        "expected_results": "The selected screensaver changes to \"None\" and the change is applied to the system."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open.",
+        "action": "Click the \"Power\" button.",
+        "expected_results": "The \"Power Options Properties\" dialog box opens."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open.",
+        "action": "Select \"Always On\" from the \"Power schemes\" dropdown menu.",
+        "expected_results": "The \"Settings for Always On power scheme\" section is displayed, including options for \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Always On\" power scheme is selected.",
+        "action": "Under the \"Settings for Always On power scheme\" section, locate the \"Turn off monitor\" dropdown menu and select \"Never\".",
+        "expected_results": "The \"Turn off monitor\" option will be set to \"Never\" for the \"Always On\" power scheme."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open, the \"Power Schemes\" tab is selected, and the \"Always On\" power scheme is active.",
+        "action": "Locate the \"Turn off hard disks\" dropdown menu and select \"Never\".",
+        "expected_results": "The \"Turn off hard disks\" option will be set to \"Never\" within the \"Always On\" power scheme."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open with the \"Power Schemes\" tab selected and the \"Always On\" power scheme chosen. All power-saving options (monitor, hard disks, standby, hibernation) are set to \"Never\".",
+        "action": "Click the \"Apply\" button.",
+        "expected_results": "The changes to the \"Always On\" power scheme are applied, and the \"Power Options Properties\" dialog box remains open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open and the \"Always On\" power scheme is selected with all power-saving options set to \"Never\". The changes have been applied.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" dialog box will close."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab of the \"Display Properties\" dialog box is open and changes have been made.",
+        "action": "Click on the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" dialog box will close, and the changes made within the \"Screen Saver\" tab will be applied."
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "frame": 333,
+        "event": "mousedown",
+        "description": "The user switched the Windows XP Control Panel from the default category view to the classic view by clicking the \"Switch to Classic View\" option in the left navigation pane. \n"
+    },
+    {
+        "frame": 647,
+        "event": "mousedown",
+        "description": "The user changed the \"Turn off hard disks:\" setting within the Windows XP \"Power Options Properties\" dialog box to \"Never\".\n"
+    },
+    {
+        "frame": 678,
+        "event": "mousedown",
+        "description": "Within the \"Home/Office Desk\" power scheme of the Power Options Properties window, the user changed the \"System hibernates\" setting to \"Never\" using the dropdown menu. \n"
+    },
+    {
+        "frame": 708,
+        "event": "mousedown",
+        "description": "The user clicked \"OK\", confirming the \"Home/Office Desk\" power scheme settings in the \"Power Options Properties\" window. All power-saving features are set to \"Never\".\n"
+    },
+    {
+        "frame": 752,
+        "event": "mousedown",
+        "description": "The user opened the \"Power Options Properties\" dialog by clicking the \"Power Options\" icon in the Windows XP Control Panel (classic icon view).\n"
+    },
+    {
+        "frame": 755,
+        "event": "mousedown",
+        "description": "The user opened the Display Properties window by double-clicking the \"Display\" icon in the Windows XP Control Panel. \n"
+    },
+    {
+        "frame": 804,
+        "event": "mousedown",
+        "description": "The user clicked the \"Screen Saver\" tab in the \"Display Properties\" window. \n"
+    },
+    {
+        "frame": 834,
+        "event": "mousedown",
+        "description": "The user opened the \"Screen saver\" dropdown menu in the \"Display Properties\" window. The currently selected option is \"Windows XP\". The screensaver is set to activate after 10 minutes of inactivity, and password protection is disabled. \n"
+    },
+    {
+        "frame": 857,
+        "event": "mousedown",
+        "description": "The user selected \"None\" from the \"Screen saver\" dropdown menu in the \"Display Properties\" window to disable the screensaver. \n"
+    },
+    {
+        "frame": 920,
+        "event": "mousedown",
+        "description": "The user clicked the \"OK\" button, closing the \"Display Properties\" window and confirming the change to the screensaver settings. \n"
+    },
+    {
+        "frame": 967,
+        "event": "mousedown",
+        "description": "The user clicked the \"Display\" icon in the Windows XP Control Panel (Classic View). \n"
+    }
+]

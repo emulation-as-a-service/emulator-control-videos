@@ -1,0 +1,57 @@
+[
+    {
+        "precondition": "The user's desktop must be visible.",
+        "action": "Right-click on an empty area of the desktop.",
+        "expected_results": "A context menu will appear with options including \"Properties\"."
+    },
+    {
+        "precondition": "A context menu is open.",
+        "action": "Click on the \"Properties\" option.",
+        "expected_results": "The display properties window will open."
+    },
+    {
+        "precondition": "The \"Properties\" window is open.",
+        "action": "Click on the \"Screen Saver\" tab.",
+        "expected_results": "The Screen Saver settings will be displayed. A dropdown menu for the screen saver option is visible."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab is open.",
+        "action": "Click on the dropdown menu labeled \"Screen saver\".",
+        "expected_results": "A list of screen saver options will appear."
+    },
+    {
+        "precondition": "The screen saver options dropdown menu is open.",
+        "action": "Click on the \"None\" option in the dropdown menu.",
+        "expected_results": "The dropdown menu closes. The \"Apply\" button becomes clickable."
+    },
+    {
+        "precondition": "The \"Apply\" button is visible and clickable.",
+        "action": "Click on the \"Apply\" button.",
+        "expected_results": "The application should start running or reflect the changes made in the settings."
+    },
+    {
+        "precondition": "The application window is open.",
+        "action": "Click on the \"Power\" button.",
+        "expected_results": "A dropdown menu related to power settings will appear, including options such as \"Turn off hard disks\"."
+    },
+    {
+        "precondition": "The system displays power settings options.",
+        "action": "Click on the dropdown menu labeled 'Turn off hard disks'.",
+        "expected_results": "A list of time options will appear, including 'After 4 hours'."
+    },
+    {
+        "precondition": "The dropdown menu for the \"Turn off hard disks\" setting is expanded.",
+        "action": "Select \"After 4 hours\" from the dropdown menu.",
+        "expected_results": "The dropdown menu closes. The \"Turn off hard disks\" setting  displays  \"After 4 hours\". The \"OK\" button is clickable."
+    },
+    {
+        "precondition": "A dialog box or window is open with an \"OK\" button present.",
+        "action": "Click on the \"OK\" button.",
+        "expected_results": "The dialog box or window will close."
+    },
+    {
+        "precondition": "The \"OK\" button is visible and clickable.",
+        "action": "Click on the \"OK\" button.",
+        "expected_results": "The workflow is completed."
+    }
+]

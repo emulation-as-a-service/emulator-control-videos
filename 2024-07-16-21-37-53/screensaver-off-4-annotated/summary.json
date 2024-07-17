@@ -1,0 +1,57 @@
+[
+    {
+        "frame": 23,
+        "event": "mousedown",
+        "description": "The user right-clicked on the \"Recycle Bin\" icon located in the system tray on the right side of the taskbar. \n"
+    },
+    {
+        "frame": 75,
+        "event": "mousedown",
+        "description": "The user right-clicked on the desktop and selected \"Properties\" from the context menu. \n"
+    },
+    {
+        "frame": 185,
+        "event": "mousedown",
+        "description": "The user opened the \"Display Properties\" window and selected the \"Screen Saver\" tab. \n"
+    },
+    {
+        "frame": 244,
+        "event": "mousedown",
+        "description": "The user opened the Display Properties dialog box, navigated to the Screen Saver tab, and clicked the \"Settings\" button next to the \"Screen Saver\" dropdown menu to configure the selected \"Windows XP\" screen saver. \n"
+    },
+    {
+        "frame": 263,
+        "event": "mousedown",
+        "description": "In the Display Properties window, under the \"Screen Saver\" tab, the \"3D FlowerBox\" option has been selected from the dropdown menu. \n"
+    },
+    {
+        "frame": 318,
+        "event": "mousedown",
+        "description": "The user modified settings within the \"Screen Saver\" tab of the Display Properties window and applied the changes by clicking the \"Apply\" button. \n"
+    },
+    {
+        "frame": 349,
+        "event": "mousedown",
+        "description": "The user opened the \"Display Properties\" dialog, navigated to the \"Screen Saver\" tab, and clicked the \"Power...\" button within the \"Monitor power\" section to access advanced power management settings. \n"
+    },
+    {
+        "frame": 411,
+        "event": "mousedown",
+        "description": "The user adjusted the \"Turn off monitor\" setting within the \"Power Schemes\" tab of the \"Power Options Properties\" window to \"After 20 mins\". \n"
+    },
+    {
+        "frame": 448,
+        "event": "mousedown",
+        "description": "The user set their computer to automatically hibernate after 5 hours of inactivity. This was achieved by navigating to the 'Power Options Properties' window, selecting the 'Power Schemes' tab, and then choosing 'After 5 hours' from the dropdown menu associated with the 'System hibernates' setting within the 'Home/Office Desk' power scheme. \n"
+    },
+    {
+        "frame": 468,
+        "event": "mousedown",
+        "description": "The user selected the \"Home/Office Desk\" power scheme in the Power Options Properties window. All power saving options (\"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates\") are set to \"Never.\" The user clicked \"OK\" to apply these settings. \n"
+    },
+    {
+        "frame": 506,
+        "event": "mousedown",
+        "description": "The user opened the \"Display Properties\" dialog box, accessed the \"Screen Saver\" tab to modify screen saver settings, and then clicked \"OK\" to apply the changes. \n"
+    }
+]
