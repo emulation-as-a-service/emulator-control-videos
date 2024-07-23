@@ -1,0 +1,57 @@
+[
+    {
+        "precondition": "The mouse cursor is hovering over the desktop area.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear with options such as 'Arrange Icons By', 'Refresh', 'Paste', 'Paste Shortcut', 'New', and 'Properties'."
+    },
+    {
+        "precondition": "A right-click context menu is open on the Windows XP desktop.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active.",
+        "action": "Click the \"Themes\" tab.",
+        "expected_results": "The \"Themes\" tab will become active and the contents of the \"Display Properties\" window will update to show the \"Themes\" tab options."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab within the \"Display Properties\" window is open. The \"Screen Saver\" dropdown menu is visible.",
+        "action": "Click on the \"Screen Saver\" dropdown menu and select \"None\".",
+        "expected_results": "The \"Screen Saver\" dropdown menu will display \"None\" as the selected option. The \"Wait:\" field will be cleared."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Screen saver\" dropdown menu should be visible.",
+        "action": "Click the \"Screen saver\" dropdown menu, and then select \"(None)\".",
+        "expected_results": "The dropdown menu will show \"(None)\" as the selected screen saver. The \"Settings\" and \"Preview\" buttons will become active."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected. The 'Screen saver' dropdown menu is open.",
+        "action": "Click on '3D FlowerBox' in the 'Screen saver' dropdown menu.",
+        "expected_results": "The '3D FlowerBox' screen saver will be selected. The 'Settings' and 'Preview' buttons will become active."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected. The 'Screen Saver' dropdown menu should display 'None.' The 'Apply' button is highlighted.",
+        "action": "Click the 'Apply' button.",
+        "expected_results": "The 'Apply' button will lose focus."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active. The 'Power' button is visible at the bottom of the window.",
+        "action": "Click the 'Power' button.",
+        "expected_results": "The 'Power Options Properties' window will open, overlaying the 'Display Properties' window."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is selected. The \"Turn off hard disks\" dropdown menu is open.",
+        "action": "Click the \"After 5 hours\" option in the \"Turn off hard disks\" dropdown menu.",
+        "expected_results": "The \"Turn off hard disks\" option will be set to \"After 5 hours\" and the dropdown menu will close."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"OK\" button is highlighted.",
+        "action": "Click the button labeled \"OK\".",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"OK\" button is highlighted.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" window will close. The desktop and taskbar will be visible."
+    }
+]

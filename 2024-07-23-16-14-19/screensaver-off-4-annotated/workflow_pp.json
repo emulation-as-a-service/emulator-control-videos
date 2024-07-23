@@ -1,0 +1,57 @@
+[
+    {
+        "precondition": "The mouse cursor is hovering over the desktop area.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear, displaying options such as 'Arrange Icons By', 'Refresh', 'Paste', 'Paste Shortcut', 'New', and 'Properties'."
+    },
+    {
+        "precondition": "The right-click context menu is open on the Windows XP desktop.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The 'Display Properties' window will open, and the 'Themes' tab will be active."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open with the \"Themes\" tab selected.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Screen Saver\" tab will become active, displaying the screen saver settings."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab in the \"Display Properties\" window is open. The \"Screen Saver\" dropdown menu is visible.",
+        "action": "Click on the \"Screen Saver\" dropdown menu and select \"None\".",
+        "expected_results": "The \"Screen Saver\" dropdown menu will display \"None\" and the \"Wait\" time field will be cleared."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the 'Screen saver' dropdown menu.",
+        "expected_results": "A dropdown list of screen savers will appear. The 'Settings' and 'Preview' buttons will become active."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab within the 'Display Properties' window is open. The 'Screen saver' dropdown menu is open.",
+        "action": "Click the '3D FlowerBox' item in the 'Screen saver' dropdown menu.",
+        "expected_results": "The '3D FlowerBox' screen saver will be selected. The 'Settings' and 'Preview' buttons will become active."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"Apply\" button is highlighted.",
+        "action": "Click the \"Apply\" button.",
+        "expected_results": "The \"Apply\" button will lose focus."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active. The 'Power' button is visible at the bottom of the window.",
+        "action": "Click the 'Power' button.",
+        "expected_results": "The 'Power Options Properties' window will open, displaying the current power settings. The 'Turn off hard disks' dropdown menu will be set to 'After 20 mins'."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Turn off hard disks\" dropdown menu should be open.",
+        "action": "Click the \"After 5 hours\" option in the \"Turn off hard disks\" dropdown menu.",
+        "expected_results": "The \"Turn off hard disks\" option will be set to \"After 5 hours\" and the dropdown menu will close."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"OK\" button is highlighted.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"OK\" button is highlighted.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" window will close. The Windows XP desktop and taskbar will be visible."
+    }
+]

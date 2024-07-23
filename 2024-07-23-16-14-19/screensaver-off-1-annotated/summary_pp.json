@@ -1,0 +1,114 @@
+[
+    {
+        "frame": 36,
+        "event": "The mouse clicked on # start.",
+        "timestamp": 2.25,
+        "description": "The user clicked on the \"Start\" button, which opened the Start Menu. \n",
+        "outcome": "The Start Menu expanded to reveal program shortcuts and system options. \n",
+        "label_clicked": "# start"
+    },
+    {
+        "frame": 90,
+        "event": "The mouse clicked on ContrqPanel.",
+        "timestamp": 5.625,
+        "description": "The user clicked on the \"Control Panel\" option in the Start menu. \n",
+        "outcome": "The Start menu closed and the Control Panel window opened, taking up most of the screen. The \"Control Panel\" button on the taskbar is now depressed, indicating its active state. \n",
+        "label_clicked": "Control Panel"
+    },
+    {
+        "frame": 459,
+        "event": "The user clicked the mouse.",
+        "timestamp": 28.6875,
+        "description": "The user clicked the \"Appearance and Themes\" category in the Windows XP Control Panel. \n",
+        "outcome": "The tooltip describing the \"Appearance and Themes\" category disappeared as the mouse cursor moved away from it. \n"
+    },
+    {
+        "frame": 547,
+        "event": "The mouse clicked on splay.",
+        "timestamp": 34.1875,
+        "description": "The user clicked the \"Display\" icon located in the \"or pick a Control Panel icon\" section of the \"Appearance and Themes\" window.  \n",
+        "outcome": "A \"Display Properties\" window opened, covering the \"Appearance and Themes\" window. The \"Display Properties\" window shows \"Themes,\" \"Desktop,\" \"Screen Saver,\" \"Appearance,\" and \"Settings\" tabs, with \"Themes\" currently active. \n",
+        "label_clicked": "Display"
+    },
+    {
+        "frame": 753,
+        "event": "The user clicked the mouse.",
+        "timestamp": 47.0625,
+        "description": "The user clicked the \"Screen saver\" dropdown menu and selected the option \"[None]\". \n",
+        "outcome": "The \"Screen saver\" dropdown menu changed its selection from \"Windows XP\" to \"[None]\".  Concurrently, the up and down arrows for adjusting the \"Wait\" duration disappeared. \n"
+    },
+    {
+        "frame": 803,
+        "event": "The mouse clicked on Pow.",
+        "timestamp": 50.1875,
+        "description": "The user clicked the \"Power...\" button at the bottom of the \"Display Properties\" window.  This opened the \"Power Options Properties\" window. \n",
+        "outcome": "The user navigated from the \"Display Properties\" window to the \"Power Options Properties\" window. The new window displays the active power scheme as \"Home/Office Desk\" and the monitor turn-off setting as \"After 20 mins.\" \n",
+        "label_clicked": "Power..."
+    },
+    {
+        "frame": 861,
+        "event": "The user clicked the mouse.",
+        "timestamp": 53.8125,
+        "description": "The user clicked the mouse on the dropdown menu next to \"Turn off monitor\" in the \"Settings for Home/Office Desk power scheme\" section of the \"Power Options Properties\" window. \n",
+        "outcome": "The dropdown menu for \"Turn off monitor\" expanded to show a list of selectable time intervals. \n"
+    },
+    {
+        "frame": 912,
+        "event": "The mouse clicked on After 5 hours.",
+        "timestamp": 57.0,
+        "description": "The user clicked on the \"Never\" option in the \"Turn off monitor\" dropdown menu. \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu switched to the \"Never\" option. \n",
+        "label_clicked": "Never"
+    },
+    {
+        "frame": 994,
+        "event": "The user clicked the mouse.",
+        "timestamp": 62.125,
+        "description": "The user clicked the \"Power schemes\" dropdown menu. \n",
+        "outcome": "The \"Power schemes\" dropdown menu expanded. \n"
+    },
+    {
+        "frame": 1039,
+        "event": "The mouse clicked on Always On.",
+        "timestamp": 64.9375,
+        "description": "The user clicked on the \"Always On\" power scheme in the \"Power schemes\" dropdown menu. \n",
+        "outcome": "The \"Power schemes\" dropdown menu updated to show \"Always On\" as the newly selected scheme. \n",
+        "label_clicked": "Always On"
+    },
+    {
+        "frame": 1061,
+        "event": "The user clicked the mouse.",
+        "timestamp": 66.3125,
+        "description": "The user clicked the dropdown menu next to \"Turn off hard disks.\" \n",
+        "outcome": "The dropdown menu for \"Turn off hard disks\" expanded to show a list of selectable time intervals. \n"
+    },
+    {
+        "frame": 1070,
+        "event": "The user clicked the mouse.",
+        "timestamp": 66.875,
+        "description": "The user clicked the \"Apply\" button in the \"Power Options Properties\" window. \n",
+        "outcome": "The power options dialog closed. The dropdown menus for \"Turn off hard disks\", \"System standby\", and \"System hibernates\" were changed from \"After 20 mins\" to \"Never\". \n"
+    },
+    {
+        "frame": 1094,
+        "event": "The mouse clicked on Never.",
+        "timestamp": 68.375,
+        "description": "The user clicked on \"OK\" in the \"Display Properties\" window. \n",
+        "outcome": "The dropdown menus for \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" all now display \"Never\". \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 1204,
+        "event": "The user clicked the mouse.",
+        "timestamp": 75.25,
+        "description": "The user clicked the mouse, moving the cursor away from the \"OK\" button in the \"Display Properties\" window. \n",
+        "outcome": "The mouse cursor moved away from the \"OK\" button. \n"
+    },
+    {
+        "frame": 1266,
+        "event": "The user clicked the mouse.",
+        "timestamp": 79.125,
+        "description": "The user clicked the mouse on the red \"X\" button in the top right corner of the \"Display Properties\" window. \n",
+        "outcome": "The \"Display Properties\" window closed. \n"
+    }
+]

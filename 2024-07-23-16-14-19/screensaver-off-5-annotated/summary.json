@@ -1,0 +1,54 @@
+[
+    {
+        "frame": 31,
+        "event": "The user clicked the mouse.",
+        "timestamp": 1.9375,
+        "description": "The user clicked on the desktop, which opened a context menu with options such as \"Arrange Icons By\", \"Refresh\", \"New\", and \"Properties\". \n",
+        "outcome": "A context menu appeared on the desktop, offering options like \"Arrange Icons By\", \"Refresh\", \"New\", and \"Properties\". The mouse cursor is no longer visible. \n"
+    },
+    {
+        "frame": 80,
+        "event": "The user clicked the mouse.",
+        "timestamp": 5.0,
+        "description": "The user clicked the mouse to select \"Properties\" from the desktop context menu. \n",
+        "outcome": "The context menu closed and the \"Screen Saver\" dropdown menu, previously showing \"Properties\", now displays \"Windows XP\". \n"
+    },
+    {
+        "frame": 230,
+        "event": "The user clicked the mouse.",
+        "timestamp": 14.375,
+        "description": "The user clicked the \"Screen Saver\" dropdown menu, changing the selection from \"Windows XP\" to \"Starfield\". \n",
+        "outcome": "The \"Screen Saver\" dropdown menu switched its selection from \"Windows XP\" to \"Starfield.\"  Concurrently, the \"Wait\" text field and the \"On resume, password protect\" checkbox were removed. \n"
+    },
+    {
+        "frame": 261,
+        "event": "The mouse clicked on (None.",
+        "timestamp": 16.3125,
+        "description": "The user clicked on the \"None\" option within the open \"Screen Saver\" dropdown menu of the \"Display Properties\" window.  As a result, the \"Screen Saver\" dropdown menu closed. \n",
+        "outcome": "A new window, titled \"Power Options Properties,\" opened on top of the \"Display Properties\" window.  The \"Screen Saver\" dropdown menu and the \"Power...\" button below it are no longer visible. \n",
+        "label_clicked": "(None"
+    },
+    {
+        "frame": 373,
+        "event": "The user clicked the mouse.",
+        "timestamp": 23.3125,
+        "description": "The user clicked the \"Turn off monitor\" dropdown menu and selected \"Never\". \n",
+        "outcome": "The \"Turn off monitor\" setting in the dropdown menu changed from \"After 20 mins\" to \"Never\". \n"
+    },
+    {
+        "frame": 414,
+        "event": "The mouse clicked on After 5 hours.",
+        "timestamp": 25.875,
+        "description": "The user clicked on \"After 5 hours\" in the \"Turn off monitor\" dropdown menu.  As a result, the \"Turn off monitor\" setting changed from \"After 20 mins\" to \"After 5 hours\". \n",
+        "outcome": "The \"Turn off monitor\" setting within the \"Settings for Home/Office Desk power scheme\" section changed from \"After 20 mins\" to \"Never\". \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 440,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 27.5,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Power Options Properties\" window. As a result, the \"Power Options Properties\" window closed. \n",
+        "outcome": "The \"Power Options Properties\" window is not visible in this frame. \n",
+        "label_clicked": "OK"
+    }
+]

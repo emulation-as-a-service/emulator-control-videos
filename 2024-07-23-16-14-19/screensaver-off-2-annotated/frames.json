@@ -1,0 +1,430 @@
+[
+    {
+        "frame": 29,
+        "timestamp": 1.8125,
+        "event": {
+            "time": 1828,
+            "event": "mousedown",
+            "x": 519,
+            "y": 233
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the Windows XP desktop background featuring a blue sky, clouds, and a green hill. The mouse cursor, represented by a white arrow, is positioned in the center of the screen. The taskbar, located at the bottom of the screen, shows the \"Start\" button on the left corner, the \"Recycle Bin\" icon on the right, and the system tray with icons for network connectivity, volume control, and the current time (11:01 AM). No other windows or applications are open. \n",
+        "screenshot": "frame-29-mousedown.png",
+        "screenshot_annotated": "frame-29-mousedown-layout.png"
+    },
+    {
+        "frame": 50,
+        "timestamp": 3.125,
+        "event": {
+            "time": 3187,
+            "event": "mousedown",
+            "x": 576,
+            "y": 361
+        },
+        "type": "event",
+        "label_clicked": "Properties",
+        "description": "The screenshot displays a right-click context menu on a Windows XP desktop. The user's cursor hovers over the \"Properties\" option at the bottom of the menu. This option allows the user to access and modify the display settings associated with the desktop environment. \n",
+        "screenshot": "frame-50-mousedown.png",
+        "screenshot_annotated": "frame-50-mousedown-layout.png"
+    },
+    {
+        "frame": 57,
+        "timestamp": 3.5625,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: A context menu labeled \"Properties\" is present, with the mouse cursor hovering over it. \n",
+        "screenshot": "frame-57.png"
+    },
+    {
+        "frame": 77,
+        "timestamp": 4.8125,
+        "event": null,
+        "type": "change",
+        "description": "- Missing Element: The right-click context menu described as being present is not visible in the screenshot. \n- New Element: A \"Display Properties\" window, not mentioned in the description, is present. \n- New Element: An hourglass icon, indicating system processing, is visible next to the mouse cursor. \n",
+        "screenshot": "frame-77.png"
+    },
+    {
+        "frame": 117,
+        "timestamp": 7.3125,
+        "event": {
+            "time": 7371,
+            "event": "mousedown",
+            "x": 223,
+            "y": 135
+        },
+        "type": "event",
+        "label_clicked": "Themes DesktopScreenaverAppearanceSettings",
+        "description": "The screenshot displays the \"Display Properties\" window in Windows XP, specifically the \"Themes\" tab. \n\nAt the top, we see the window title \"Display Properties\" and a set of tabs: \"Themes\", \"Desktop\", \"Screen Saver\", \"Appearance\", and \"Settings\". The currently active tab is \"Themes\", indicated by its highlighted appearance.\n\nThe main area of the window provides options related to Themes. A brief description explains that \"A theme is a background plus a set of sounds, icons, and other elements to help you personalize your computer with one click.\"\n\nBelow, a dropdown menu labeled \"Theme:\" allows the user to choose from available themes. The currently selected theme is \"Windows XP\".\n\nThree buttons are located to the right of the \"Theme:\" dropdown:\n\n* **\"Save As...\"**: This button enables the user to save the current theme settings with a custom name.\n* **\"Delete\"**: This button allows the user to delete a custom theme. This button is likely disabled because the currently selected theme is a default theme (\"Windows XP\").\n* **\"Apply\"**: This button, currently active, applies any changes made within the \"Display Properties\" window.\n\nBelow the theme selection area, a preview window labeled \"Sample\" displays the currently selected theme's appearance. \n",
+        "screenshot": "frame-117-mousedown.png",
+        "screenshot_annotated": "frame-117-mousedown-layout.png"
+    },
+    {
+        "frame": 129,
+        "timestamp": 8.0625,
+        "event": null,
+        "type": "change",
+        "description": "- **Layout/Appearance Changes:** The \"Screen Saver\" tab is now the active tab in the \"Display Properties\" window, indicated by its highlighted appearance. The \"Themes\" tab is no longer highlighted. \n",
+        "screenshot": "frame-129.png"
+    },
+    {
+        "frame": 151,
+        "timestamp": 9.4375,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:**\n    - The active tab in the \"Display Properties\" window is now \"Screen Saver\", no longer the \"Themes\" tab described in the initial state.\n    - The \"Theme:\" dropdown menu is replaced with a \"Screen saver:\" dropdown, now displaying \"Windows XP\" as the selected screensaver. \n    - The \"Wait:\" time, initially not specified, is set to \"10\".\n    - The three buttons to the right of the dropdown menu (\"Save As...\", \"Delete\", \"Apply\") are replaced with \"Settings...\", \"Preview\", and an empty button. \n    - The \"Sample\" preview window now displays a blank screen with the \"Windows XP\" logo in the center, reflecting the selected screensaver.\n    - A new section labeled \"Monitor power\" with accompanying text is present below the \"Wait\" time settings. \n    - A new button labeled \"Power...\" is located below the \"Monitor power\" section. \n- **Missing Elements:**\n    - The description about themes (\"A theme is a background...\") is no longer present. \n- **Layout/Appearance Changes:**\n    - The \"Apply\" button at the bottom of the window is now active, while it was inactive in the initial description. \n",
+        "screenshot": "frame-151.png"
+    },
+    {
+        "frame": 185,
+        "timestamp": 11.5625,
+        "event": {
+            "time": 11591,
+            "event": "mousedown",
+            "x": 262,
+            "y": 358
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"Display Properties\" window in Windows XP, specifically the \"Screen Saver\" tab. \n\nSeveral key elements are present:\n\n* **Screen Saver Dropdown Menu:** This menu, currently displaying \"Windows XP,\" allows users to choose from a list of available screensavers. \n* **\"Wait\" Input Field:** The number \"10\" is visible in this field, alongside a dropdown menu indicating \"minutes.\" This setting determines the idle time before the chosen screensaver activates.\n* **\"On resume, password protect\" Checkbox:** This checkbox, currently unchecked, allows users to enable password protection upon waking the computer from the screensaver.\n* **\"Monitor power\" Section:** This section provides a brief instruction: \"To adjust monitor power settings and save energy, click Power.\" \n* **\"Power...\" Button:** This button, when clicked, opens the \"Power Options Properties\" window, granting access to advanced power management settings.\n* **Standard Window Buttons:** The window features the standard \"OK,\" \"Cancel,\" and \"Apply\" buttons.  \"OK\" applies changes and closes the window, \"Cancel\" discards any changes, and \"Apply\" implements changes without closing the window. \n",
+        "screenshot": "frame-185-mousedown.png",
+        "screenshot_annotated": "frame-185-mousedown-layout.png"
+    },
+    {
+        "frame": 190,
+        "timestamp": 11.875,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:** \n    - The \"Screen Saver\" dropdown menu now displays \"My Pictures Slideshow\" instead of \"Windows XP\". \n",
+        "screenshot": "frame-190.png"
+    },
+    {
+        "frame": 197,
+        "timestamp": 12.3125,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:** \n    - The **Screen Saver Dropdown Menu** now displays \"(None)\" as the selected option instead of \"Windows XP.\" \n- **New Elements:**\n    - A yellow pop-up notification reading \"Keep your computer up to date\" is present in the bottom left corner of the screen. \n",
+        "screenshot": "frame-197.png"
+    },
+    {
+        "frame": 201,
+        "timestamp": 12.5625,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:** \n    - The **Screen Saver Dropdown Menu** now displays \"(None)\" as the selected screensaver, whereas the initial description stated it was set to \"Windows XP.\" \n- **New Elements:**\n    - A yellow pop-up window titled \"Keep your computer up to date\" is present at the bottom of the screen, partially obscuring the taskbar. This element was not mentioned in the initial description. \n",
+        "screenshot": "frame-201.png"
+    },
+    {
+        "frame": 215,
+        "timestamp": 13.4375,
+        "event": {
+            "time": 13438,
+            "event": "mousedown",
+            "x": 145,
+            "y": 374
+        },
+        "type": "event",
+        "label_clicked": "[None]",
+        "description": "The screenshot displays the \"Display Properties\" window in Windows XP, specifically the \"Screen Saver\" tab. \n\nThe \"Screen Saver\" dropdown menu is open, displaying a list of available screen savers. The option \"None\" is currently highlighted, indicating it's selected. To the right, the \"Settings\" button allows for customization of the selected screen saver (if applicable). The \"Preview\" button, when clicked, would show a preview of how the chosen screen saver would look. \n\nBelow the preview section, there's a \"Power...\" button. This button provides access to advanced power management settings. \n\nAt the bottom of the window are three buttons: \"Cancel\", \"Apply\", and \"Power\".  The \"Apply\" button would save any changes made within this window. The \"Cancel\" button would discard any unsaved changes. \n",
+        "screenshot": "frame-215-mousedown.png",
+        "screenshot_annotated": "frame-215-mousedown-layout.png"
+    },
+    {
+        "frame": 221,
+        "timestamp": 13.8125,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: A yellow notification bubble with the title \"Keep your computer up to date\" is present in the bottom right corner of the screen. It contains a message encouraging the user to keep Windows updated and an \"X\" button to close it. \n\n- Content Changes: The \"Wait:\" time, originally not specified, is now set to \"10\" minutes. The \"Screen Saver\" dropdown menu, described as open, is now closed. \n",
+        "screenshot": "frame-221.png"
+    },
+    {
+        "frame": 257,
+        "timestamp": 16.0625,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: A yellow pop-up notification reading \"Keep your computer up to date\" is present in the bottom right corner of the screen. \n- Content Changes: The \"Wait:\" time has been changed to \"10\" minutes. The \"Screen Saver\" dropdown menu is no longer open. \n",
+        "screenshot": "frame-257.png"
+    },
+    {
+        "frame": 269,
+        "timestamp": 16.8125,
+        "event": {
+            "time": 16847,
+            "event": "mousedown",
+            "x": 394,
+            "y": 467
+        },
+        "type": "event",
+        "label_clicked": "Po",
+        "description": "The \"Display Properties\" window is open with the \"Screen Saver\" tab active. The \"Screen saver\" dropdown menu displays \"None\" as the selected option. The \"Wait\" time is set to \"10\" minutes.  Below the wait time, a checkbox labeled \"On resume, password protect\" is visible but not selected. \n\nIn the \"Monitor power\" section, a button labeled \"Power...\" is present. This button allows access to more advanced power settings and configurations. The window also features standard buttons: \"OK\" to apply changes and close the window, \"Cancel\" to discard any changes and close the window, and \"Apply\" to apply changes without closing the window. \n",
+        "screenshot": "frame-269-mousedown.png",
+        "screenshot_annotated": "frame-269-mousedown-layout.png"
+    },
+    {
+        "frame": 306,
+        "timestamp": 19.125,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: A new window titled \"Power Options Properties\" is present, overlapping the \"Display Properties\" window. This window features a dropdown menu labeled \"Power schemes,\" currently empty. An hourglass icon is displayed below the dropdown menu. A system notification prompting the user to \"Keep your computer up to date\" is visible in the bottom right corner of the screen.\n- Missing Elements: The \"OK\", \"Cancel\", and \"Apply\" buttons from the \"Display Properties\" window are not visible.\n- Content Changes:  The \"Screen Saver\" tab in the \"Display Properties\" window is no longer active, as indicated by the lack of highlighting.\n- Layout/Appearance Changes: The \"Display Properties\" window is partially obscured by the \"Power Options Properties\" window. \n",
+        "screenshot": "frame-306.png"
+    },
+    {
+        "frame": 338,
+        "timestamp": 21.125,
+        "event": {
+            "time": 21163,
+            "event": "mousedown",
+            "x": 234,
+            "y": 291
+        },
+        "type": "event",
+        "label_clicked": "Home/Office Desk",
+        "description": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab active. \n\nAt the top, a dropdown menu labeled \"Power schemes\" displays \"Home/Office Desk\" as the currently selected power scheme.  Below the dropdown menu, the \"Settings for Home/Office Desk power scheme\" section lists four power management options: \"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates\". Each option has a corresponding dropdown menu set to \"Never,\" indicating that these functions are disabled.  \n\nAt the bottom of the window, three buttons are visible: \"OK\", \"Cancel\", and \"Apply\". \n",
+        "screenshot": "frame-338-mousedown.png",
+        "screenshot_annotated": "frame-338-mousedown-layout.png"
+    },
+    {
+        "frame": 341,
+        "timestamp": 21.3125,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The \"Power schemes\" dropdown menu now displays \"Home/Office Desk\" instead of \"Always On\".\n    - The \"Turn off monitor\" dropdown menu now displays \"After 20 mins\" instead of \"Never\". \n\n- New Elements:\n    - A yellow pop-up window titled \"Keep your computer up to date\" is present in the bottom right corner of the screen. \n",
+        "screenshot": "frame-341.png"
+    },
+    {
+        "frame": 359,
+        "timestamp": 22.4375,
+        "event": null,
+        "type": "change",
+        "description": "- **New Elements:** A \"Keep your computer up to date\" notification window is now present in the bottom right corner of the screen. \n- **Content Changes:** The \"Power schemes\" dropdown menu now displays \"Home/Office Desk\" as the selected power scheme, rather than \"Always On\" as described in the provided context. \n- **Layout/Appearance Changes:** The \"Power schemes\" dropdown menu is expanded, showing the available power scheme options. \n",
+        "screenshot": "frame-359.png"
+    },
+    {
+        "frame": 363,
+        "timestamp": 22.6875,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:**\n    - The \"Power schemes\" dropdown menu now displays \"Portable/Laptop\" as the selected power scheme, rather than the initially described \"Home/Office Desk\". \n    - The dropdown menu next to \"Turn off monitor\" now displays \"After 20 mins\" instead of \"Never\". \n",
+        "screenshot": "frame-363.png"
+    },
+    {
+        "frame": 365,
+        "timestamp": 22.8125,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:** \n    - The \"Power schemes\" dropdown menu now displays \"Presentation\" as the selected power scheme, rather than \"Home/Office Desk\".\n    - The \"Turn off monitor\" dropdown menu now displays \"After 20 mins\" instead of \"Never\". \n\n- **New Elements:**\n    - A yellow pop-up box with the title \"Keep your computer up to date\" is present at the bottom of the screen. \n",
+        "screenshot": "frame-365.png"
+    },
+    {
+        "frame": 368,
+        "timestamp": 23.0,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:**\n    - The \"Power schemes\" dropdown menu now displays \"Always On\" as the selected power scheme, rather than \"Home/Office Desk.\"\n    - The \"Turn off monitor\" dropdown menu now displays \"After 20 mins\" instead of \"Never.\" \n",
+        "screenshot": "frame-368.png"
+    },
+    {
+        "frame": 374,
+        "timestamp": 23.375,
+        "event": {
+            "time": 23375,
+            "event": "mousedown",
+            "x": 195,
+            "y": 347
+        },
+        "type": "event",
+        "label_clicked": "Presentation",
+        "description": "The \"Power Options Properties\" window is open, overlaying the Windows XP desktop.  Within this window, the \"Power Schemes\" tab is selected.  The user has chosen the \"Always On\" scheme from the \"Power schemes\" dropdown menu. This selection impacts the settings below, which are all configured to \"Never\": \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\".  At the bottom of the window, \"OK\", \"Cancel\", and \"Apply\" buttons are visible. The \"Apply\" button appears to be active, indicating unsaved changes. \n",
+        "screenshot": "frame-374-mousedown.png",
+        "screenshot_annotated": "frame-374-mousedown-layout.png"
+    },
+    {
+        "frame": 378,
+        "timestamp": 23.625,
+        "event": null,
+        "type": "change",
+        "description": "- **New Elements:** A yellow notification box with the title \"Keep your computer up to date\" is present at the bottom of the desktop. This element was not described in the initial state. \n\n- **Missing Elements:** The \"Display Properties\" window, mentioned as being open in the initial description, is no longer present.\n\n- **Content Changes:**\n    - The \"Power schemes\" dropdown menu now displays \"Home/Office Desk\" instead of \"Always On\". \n    - The \"Turn off monitor\" setting now shows \"After 20 mins\" instead of \"Never\".\n\n- **Layout/Appearance Changes:** The \"Apply\" button in the \"Power Options Properties\" window is no longer active, indicating the changes have been saved. \n",
+        "screenshot": "frame-378.png"
+    },
+    {
+        "frame": 386,
+        "timestamp": 24.125,
+        "event": null,
+        "type": "change",
+        "description": "- **New Elements:** A \"Keep your computer up to date\" notification window is present in the bottom right corner of the screen. \n- **Content Changes:** The \"Turn off monitor\" option, previously set to \"Never\", now reads \"After 20 mins\". \n- **Layout/Appearance Changes:** The \"Apply\" button, described as active in the initial state, now appears inactive. \n",
+        "screenshot": "frame-386.png"
+    },
+    {
+        "frame": 395,
+        "timestamp": 24.6875,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The \"Turn off monitor\" dropdown menu now displays \"After 20 mins\" instead of \"Never\". \n",
+        "screenshot": "frame-395.png"
+    },
+    {
+        "frame": 398,
+        "timestamp": 24.875,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:**\n    - The \"Turn off monitor\" dropdown menu now displays \"After 20 mins\" instead of \"Never\".\n    - The \"Turn off hard disks\" dropdown menu now displays \"After 4 hours\" instead of \"Never\". \n- **Layout/Appearance Changes:**\n    - The \"Apply\" button at the bottom of the window no longer appears to be active. \n",
+        "screenshot": "frame-398.png"
+    },
+    {
+        "frame": 410,
+        "timestamp": 25.625,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The \"Turn off monitor\" dropdown menu now displays \"After 1 min\" instead of \"Never\". \n- New Elements:\n    - A yellow notification box titled \"Keep your computer up to date\" is present in the bottom left corner of the screen. \n",
+        "screenshot": "frame-410.png"
+    },
+    {
+        "frame": 419,
+        "timestamp": 26.1875,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The \"Turn off monitor\" dropdown menu now displays \"After 1 min\" instead of \"Never\".\n    - The \"Turn off hard disks\" dropdown menu now displays \"After 3 mins\" instead of \"Never\". \n    - The \"Apply\" button at the bottom of the window no longer appears to be active. \n\n- New Elements:\n    - A yellow pop-up box titled \"Keep your computer up to date\" is now visible in the bottom left corner of the screen. \n",
+        "screenshot": "frame-419.png"
+    },
+    {
+        "frame": 421,
+        "timestamp": 26.3125,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: \n    - A \"Keep your computer up to date\" notification balloon is present in the bottom left corner of the screen. \n- Missing Elements: The \"Display Properties\" window, described as being open, is not present in the screenshot.\n- Content Changes:\n    - The \"System hibernates\" dropdown menu, described as being set to \"Never\", is now displaying an expanded list of time options with \"After 1 hour\" selected.\n- Layout/Appearance Changes:\n    - The \"Power Options Properties\" window, described as overlaying the desktop, now appears behind the taskbar. \n    - The \"Apply\" button in the \"Power Options Properties\" window, described as active, now appears inactive. \n",
+        "screenshot": "frame-421.png"
+    },
+    {
+        "frame": 425,
+        "timestamp": 26.5625,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:** \n    - The dropdown menus for \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" are now expanded, displaying a list of time options instead of \"Never\". \n    - The \"Apply\" button is no longer active. \n- **New Elements:**\n    - A yellow notification box titled \"Keep your computer up to date\" is present in the bottom left corner of the desktop. \n",
+        "screenshot": "frame-425.png"
+    },
+    {
+        "frame": 427,
+        "timestamp": 26.6875,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: A \"Keep your computer up to date\" notification window is present in the bottom left corner of the screen. \n- Missing Elements: The \"Display Properties\" window, described as being open, is not present in the screenshot. \n- Content Changes: \n    - The \"Turn off monitor\" dropdown menu now displays \"After 20 mins\" instead of \"Never\".\n- Layout/Appearance Changes: The \"Power Options Properties\" window, described as overlaying the desktop, now appears behind the \"Keep your computer up to date\" notification window. \n",
+        "screenshot": "frame-427.png"
+    },
+    {
+        "frame": 429,
+        "timestamp": 26.8125,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The dropdown menus for \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" now display a range of time options instead of \"Never\".\n    - The \"System hibernates\" dropdown menu is expanded and the option \"After 5 hours\" is selected. \n- New Elements:\n    - A yellow pop-up window titled \"Keep your computer up to date\" is present in the bottom left corner of the screen. \n",
+        "screenshot": "frame-429.png"
+    },
+    {
+        "frame": 437,
+        "timestamp": 27.3125,
+        "event": {
+            "time": 27342,
+            "event": "mousedown",
+            "x": 276,
+            "y": 599
+        },
+        "type": "event",
+        "label_clicked": "NE",
+        "description": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Always On\" power scheme is selected from the \"Power schemes\" dropdown menu. This menu displays a list of pre-configured power plans.  The \"Settings for Always On power scheme\" section allows the user to customize the selected power scheme. \n\nEach power management option (\"Turn off monitor\", \"Turn off hard disks\", \"System standby\", \"System hibernates\") has a dropdown menu next to it, currently displaying a selection of time intervals or \"Never\".  These menus allow the user to define after what period of inactivity the corresponding action should be taken. \n",
+        "screenshot": "frame-437-mousedown.png",
+        "screenshot_annotated": "frame-437-mousedown-layout.png"
+    },
+    {
+        "frame": 445,
+        "timestamp": 27.8125,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: A yellow pop-up box titled \"Keep your computer up to date\" is present in the bottom right corner of the screen. The pop-up contains an information icon, a body text message suggesting automatic updates, and a close button.\n",
+        "screenshot": "frame-445.png"
+    },
+    {
+        "frame": 482,
+        "timestamp": 30.125,
+        "event": {
+            "time": 30162,
+            "event": "mousedown",
+            "x": 477,
+            "y": 579
+        },
+        "type": "event",
+        "label_clicked": "ApplN",
+        "description": "The \"Power Options Properties\" window is open and active, with the \"Power Schemes\" tab selected. The \"Always On\" power scheme is currently selected from the \"Power schemes\" dropdown menu. This menu allows users to choose from pre-configured power plans or custom ones. \n\nBelow, the \"Settings for Always On power scheme\" section displays four power management options: \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\". Each option has a corresponding dropdown menu, currently set to \"Never\". This setting determines the time delay before each power-saving feature activates. \n\nAt the bottom of the window, the \"Apply\" button is highlighted, indicating the user's next action to confirm and apply the selected power settings. The \"OK\", \"Cancel\", and \"?\" buttons are also present, offering standard options to confirm changes, discard modifications, or access help content, respectively. \n",
+        "screenshot": "frame-482-mousedown.png",
+        "screenshot_annotated": "frame-482-mousedown-layout.png"
+    },
+    {
+        "frame": 498,
+        "timestamp": 31.125,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: A yellow pop-up window with the title \"Keep your computer up to date\" is present in the bottom left corner of the screen. This element was not mentioned in the initial description.\n\n- Missing Elements: The \"Display Properties\" window, mentioned as being open, is no longer visible in the screenshot. \n\n- Content Changes: The \"Apply\" button at the bottom of the \"Power Options Properties\" window is no longer highlighted, indicating it is not the last interacted element.\n\n- Layout/Appearance Changes: None. \n",
+        "screenshot": "frame-498.png"
+    },
+    {
+        "frame": 513,
+        "timestamp": 32.0625,
+        "event": null,
+        "type": "change",
+        "description": "- **New Elements:** A yellow pop-up notification reading \"Keep your computer up to date\" is present in the bottom right corner of the screen. \n- **Layout/Appearance Changes:** The \"OK\" button is no longer highlighted, indicating it is not the next action to be taken. \n",
+        "screenshot": "frame-513.png"
+    },
+    {
+        "frame": 516,
+        "timestamp": 32.25,
+        "event": {
+            "time": 32312,
+            "event": "mousedown",
+            "x": 303,
+            "y": 581
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"Power Options Properties\" window in Windows XP. \n\nThe \"Power Schemes\" tab is active, and the \"Always On\" power scheme is selected from the dropdown menu. This scheme is currently applied to the system. \n\nBelow, the \"Settings for Always On power scheme\" section displays four power management options, each with a corresponding dropdown menu set to \"Never\":\n* **Turn off monitor:** Controls the automatic deactivation of the monitor display.\n* **Turn off hard disks:** Controls the automatic powering down of the hard drive.\n* **System standby:** Controls the transition to a low-power standby mode.\n* **System hibernates:** Controls the transition to hibernation, saving the system state to the hard drive.\n\nAt the bottom of the window, three buttons are visible:\n* **OK:** Confirms the selected power scheme and settings and closes the window.\n* **Cancel:** Discards any changes made and closes the window.\n* **Apply:** Immediately applies the selected power scheme and settings without closing the window. \n",
+        "screenshot": "frame-516-mousedown.png",
+        "screenshot_annotated": "frame-516-mousedown-layout.png"
+    },
+    {
+        "frame": 520,
+        "timestamp": 32.5,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: A yellow notification box titled \"Keep your computer up to date\" is present in the bottom left corner of the screen. It features a shield icon, a message encouraging automatic Windows updates, and a close button (X).\n\n- Missing Elements:  None. All elements described in the initial state are present in the screenshot.\n\n- Content Changes: None. All visible elements with displayed content match the initial description.\n\n- Layout/Appearance Changes: The \"OK\" button at the bottom of the \"Power Options Properties\" window appears to be visually pressed down, indicating it is currently active or being clicked. \n",
+        "screenshot": "frame-520.png"
+    },
+    {
+        "frame": 526,
+        "timestamp": 32.875,
+        "event": null,
+        "type": "change",
+        "description": "Missing Elements:\n- The \"Power Options Properties\" window is not present in the screenshot. \n\nLayout/Appearance Changes:\n- The \"Display Properties\" window is visible, and the \"Screen Saver\" tab is active, indicating a change in window focus and tab selection. \n",
+        "screenshot": "frame-526.png"
+    },
+    {
+        "frame": 545,
+        "timestamp": 34.0625,
+        "event": {
+            "time": 34045,
+            "event": "mousedown",
+            "x": 270,
+            "y": 516
+        },
+        "type": "event",
+        "label_clicked": "OK",
+        "description": "The screenshot displays the \"Display Properties\" window in Windows XP, specifically the \"Screen Saver\" tab. \n\nAt the bottom of the window, three standard buttons are visible: \n* **OK:** Confirms the current settings and closes the \"Display Properties\" window.\n* **Cancel:** Discards any changes made and closes the window.\n* **Apply:** Implements the selected settings without closing the window. \n\nThe mouse cursor is hovering over the **OK** button, indicating the user's next action will be to click it. \n",
+        "screenshot": "frame-545-mousedown.png",
+        "screenshot_annotated": "frame-545-mousedown-layout.png"
+    },
+    {
+        "frame": 553,
+        "timestamp": 34.5625,
+        "event": null,
+        "type": "change",
+        "description": "Missing Elements:\n- The \"Display Properties\" window, described as being open and displaying the \"Screen Saver\" tab, is not present in the screenshot.\n- The OK, Cancel, and Apply buttons, described as being at the bottom of the \"Display Properties\" window, are not present in the screenshot. \n\nLayout/Appearance Changes:\n- The mouse cursor, described as hovering over the OK button, is now hovering over a grassy field in the desktop wallpaper. \n",
+        "screenshot": "frame-553.png"
+    }
+]

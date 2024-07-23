@@ -1,0 +1,243 @@
+[
+    {
+        "frame": 31,
+        "timestamp": 1.9375,
+        "event": {
+            "time": 1971,
+            "event": "mousedown",
+            "x": 24,
+            "y": 26
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays a standard Windows XP desktop with the mouse cursor visible as a white arrow in the top-left corner. The taskbar at the bottom of the screen shows the \"Start\" button on the left and the \"Recycle Bin\" icon on the right, along with system tray icons for network connectivity, audio, and security software. The presence of the mouse cursor suggests an action is about to be taken or is currently being performed by the user. \n",
+        "screenshot": "frame-31-mousedown.png",
+        "screenshot_annotated": "frame-31-mousedown-layout.png"
+    },
+    {
+        "frame": 37,
+        "timestamp": 2.3125,
+        "event": null,
+        "type": "change",
+        "description": "New Elements:\n- A context menu is now visible on the desktop. The menu displays the following options: \"Arrange Icons By\", \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\". \n\nMissing Elements: \n- The mouse cursor, described as a white arrow in the top-left corner, is no longer visible. \n",
+        "screenshot": "frame-37.png"
+    },
+    {
+        "frame": 80,
+        "timestamp": 5.0,
+        "event": {
+            "time": 5040,
+            "event": "mousedown",
+            "x": 109,
+            "y": 153
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot shows a Windows XP desktop with the context menu open. The \"Properties\" option, highlighted in blue, is being selected with the mouse cursor.  This option allows access to the Display Properties window for customizing the desktop background, screen saver, and display settings. \n",
+        "screenshot": "frame-80-mousedown.png",
+        "screenshot_annotated": "frame-80-mousedown-layout.png"
+    },
+    {
+        "frame": 85,
+        "timestamp": 5.3125,
+        "event": null,
+        "type": "change",
+        "description": "- The \"Properties\" option is no longer highlighted in blue. \n- The mouse cursor is no longer visible. \n",
+        "screenshot": "frame-85.png"
+    },
+    {
+        "frame": 106,
+        "timestamp": 6.625,
+        "event": null,
+        "type": "change",
+        "description": "- Missing Elements: The context menu mentioned in the description is no longer present in the screenshot. The mouse cursor is no longer hovering over the \"Properties\" option.\n",
+        "screenshot": "frame-106.png"
+    },
+    {
+        "frame": 172,
+        "timestamp": 10.75,
+        "event": null,
+        "type": "change",
+        "description": "- Missing Elements: The context menu mentioned in the description is no longer visible. The mouse cursor, described as selecting \"Properties\", is also absent from the screenshot. \n- Content Changes: The \"Screen Saver\" dropdown menu now displays \"Windows XP\" instead of \"Properties\". \n",
+        "screenshot": "frame-172.png"
+    },
+    {
+        "frame": 230,
+        "timestamp": 14.375,
+        "event": {
+            "time": 14401,
+            "event": "mousedown",
+            "x": 295,
+            "y": 357
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"Display Properties\" window, specifically the \"Screen Saver\" tab, in Windows XP. \n\nThe \"Screen Saver\" dropdown menu currently displays \"Windows XP,\" indicating the active screensaver. A dropdown arrow button, located on the right side of the menu, allows users to expand and choose from other available screensavers. \n\nBelow, a text field labeled \"Wait:\" allows users to specify the time in minutes before the selected screensaver activates. The current value is set to \"10.\" \n\nA checkbox labeled \"On resume, password protect\" is visible to the right. This option, if checked, enables password protection upon resuming from the screensaver.\n\nFurther down, a section labeled \"Monitor power\" provides instructions for adjusting monitor power settings and saving energy. It prompts users to click the \"Power\u2026\" button to access these settings. \n",
+        "screenshot": "frame-230-mousedown.png",
+        "screenshot_annotated": "frame-230-mousedown-layout.png"
+    },
+    {
+        "frame": 234,
+        "timestamp": 14.625,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes**: \n    - The \"Screen Saver\" dropdown menu now displays \"Starfield\" instead of \"Windows XP\". \n- **Missing Elements**:\n    - The \"Wait\" text field and the checkbox labeled \"On resume, password protect\" are no longer present. \n",
+        "screenshot": "frame-234.png"
+    },
+    {
+        "frame": 261,
+        "timestamp": 16.3125,
+        "event": {
+            "time": 16353,
+            "event": "mousedown",
+            "x": 164,
+            "y": 381
+        },
+        "type": "event",
+        "label_clicked": "(None",
+        "description": "The screenshot displays the \"Display Properties\" window, specifically the \"Screen Saver\" tab. \n\nThe \"Screen Saver\" dropdown menu is open, showing a list of available screensavers with \"None\" currently selected.  This indicates the user has chosen to disable a screensaver. \n\nBelow the dropdown menu, a \"Power...\" button is visible. This button provides access to advanced power management settings, allowing users to customize their computer's power-saving features. \n",
+        "screenshot": "frame-261-mousedown.png",
+        "screenshot_annotated": "frame-261-mousedown-layout.png"
+    },
+    {
+        "frame": 265,
+        "timestamp": 16.5625,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The \"Screen Saver\" dropdown menu was described as open, but in the screenshot it is closed.\n    - The wait time before the screensaver activates, described as \"None,\" now displays \"10\" minutes. \n",
+        "screenshot": "frame-265.png"
+    },
+    {
+        "frame": 340,
+        "timestamp": 21.25,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: The \"Power Options Properties\" window is now visible, overlaying the \"Display Properties\" window. \n\n- Missing Elements: The \"Screen Saver\" dropdown menu is no longer visible. The \"Power...\" button below the dropdown menu is also absent. \n\n- Content Changes:  None.\n\n- Layout/Appearance Changes: None. \n",
+        "screenshot": "frame-340.png"
+    },
+    {
+        "frame": 373,
+        "timestamp": 23.3125,
+        "event": {
+            "time": 23329,
+            "event": "mousedown",
+            "x": 485,
+            "y": 352
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"Power Options Properties\" window in Windows XP.  The \"Home/Office Desk\" power scheme is currently selected in the dropdown menu. This menu allows users to choose from pre-set or custom power plans.  Below, the \"Settings for Home/Office Desk power scheme\" section lists various power-saving options with their chosen configurations. The currently active setting, \"Turn off monitor,\" is set to \"After 20 mins,\" indicated by a dropdown menu with a pointing arrow.  At the bottom of the window, the standard \"OK,\" \"Cancel,\" and \"Apply\" buttons are enabled, allowing the user to confirm, discard, or apply changes to the power settings. \n",
+        "screenshot": "frame-373-mousedown.png",
+        "screenshot_annotated": "frame-373-mousedown-layout.png"
+    },
+    {
+        "frame": 377,
+        "timestamp": 23.5625,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: The dropdown menu for the \"Turn off monitor\" setting now displays \"Never\" instead of \"After 20 mins\". \n",
+        "screenshot": "frame-377.png"
+    },
+    {
+        "frame": 395,
+        "timestamp": 24.6875,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The dropdown menu for the \"Turn off monitor\" setting now displays \"Never\" as the selected option, instead of \"After 20 mins\". \n    - The pointing arrow within the \"Turn off monitor\" dropdown menu now points to \"Never\" instead of \"After 20 mins\". \n",
+        "screenshot": "frame-395.png"
+    },
+    {
+        "frame": 397,
+        "timestamp": 24.8125,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:**\n    - The \"Turn off monitor\" setting, previously \"After 20 mins,\" is now set to \"After 15 mins.\" This is indicated by the dropdown menu with a pointing arrow. \n",
+        "screenshot": "frame-397.png"
+    },
+    {
+        "frame": 399,
+        "timestamp": 24.9375,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: The dropdown menu for the \"Turn off monitor\" setting now displays \"Never\" as the selected option, whereas it initially displayed \"After 20 mins.\" \n",
+        "screenshot": "frame-399.png"
+    },
+    {
+        "frame": 402,
+        "timestamp": 25.125,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes**: The dropdown menu for the \"Turn off monitor\" setting now displays \"Never\" as the selected option, indicated by a pointing arrow. Previously, this was \"After 20 mins\". \n",
+        "screenshot": "frame-402.png"
+    },
+    {
+        "frame": 404,
+        "timestamp": 25.25,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The dropdown menu for the \"Turn off monitor\" setting now displays \"Never\" as the selected option, indicated by a pointing arrow. \n",
+        "screenshot": "frame-404.png"
+    },
+    {
+        "frame": 409,
+        "timestamp": 25.5625,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: The dropdown menu for the \"Turn off monitor\" setting now displays \"Never\" as the selected option, indicated by a pointing arrow. It was previously \"After 20 mins\". \n",
+        "screenshot": "frame-409.png"
+    },
+    {
+        "frame": 414,
+        "timestamp": 25.875,
+        "event": {
+            "time": 25885,
+            "event": "mousedown",
+            "x": 309,
+            "y": 564
+        },
+        "type": "event",
+        "label_clicked": "After 5 hours",
+        "description": "The screenshot displays the \"Power Options Properties\" window in Windows XP. \n\nThe active window shows the \"Power Schemes\" tab. The currently selected power scheme is \"Home/Office Desk,\" displayed in a dropdown menu. Below, a list of settings specific to this power scheme is visible. \n\nThe user's cursor hovers over the \"Never\" option within the dropdown menu for the \"Turn off monitor\" setting. This suggests the user is about to select this option to prevent the monitor from automatically turning off. \n",
+        "screenshot": "frame-414-mousedown.png",
+        "screenshot_annotated": "frame-414-mousedown-layout.png"
+    },
+    {
+        "frame": 417,
+        "timestamp": 26.0625,
+        "event": null,
+        "type": "change",
+        "description": "Content Changes:\n- The \"Turn off monitor\" setting within the \"Settings for Home/Office Desk power scheme\" section now displays \"Never\". The initial description stated it showed \"After 20 mins\". \n",
+        "screenshot": "frame-417.png"
+    },
+    {
+        "frame": 440,
+        "timestamp": 27.5,
+        "event": {
+            "time": 27505,
+            "event": "mousedown",
+            "x": 316,
+            "y": 555
+        },
+        "type": "event",
+        "label_clicked": "OK",
+        "description": "The screenshot displays the \"Power Options Properties\" window in Windows XP. \n\nThe window is divided into two main sections:\n\n**Top Section:**\n\n- **Power Schemes Tab:** Currently active, indicating the user is customizing power plan settings.\n- **\"Power schemes\" Dropdown Menu:** Shows the currently selected power scheme, \"Home/Office Desk\".\n- **\"Save As\" Button:** Allows saving the current settings as a new power scheme.\n- **\"Delete\" Button:** Allows deleting the currently selected power scheme.\n\n**Bottom Section:**\n\n- **\"Settings for Home/Office Desk power scheme\" Header:**  Indicates the power scheme being modified.\n- **\"Turn off monitor\" Dropdown Menu:** Currently set to \"Never\", preventing the monitor from automatically turning off. \n- **Other Power Settings:**  Additional dropdown menus (e.g., \"Turn off hard disks\") are visible below, each controlling a different power-saving feature. \n- **\"OK\" Button:**  Clicking this button applies the selected power settings and closes the window.\n- **\"Cancel\" Button:**  Clicking this button discards any changes and closes the window.\n- **\"Apply\" Button:**  Clicking this button applies the selected power settings without closing the window. \n",
+        "screenshot": "frame-440-mousedown.png",
+        "screenshot_annotated": "frame-440-mousedown-layout.png"
+    },
+    {
+        "frame": 448,
+        "timestamp": 28.0,
+        "event": null,
+        "type": "change",
+        "description": "- Missing Elements: The \"Power Options Properties\" window, described in the initial state, is not present in the screenshot. All elements within this window (e.g., \"Power Schemes\" tab, dropdown menus, buttons) are also missing. \n",
+        "screenshot": "frame-448.png"
+    },
+    {
+        "frame": 468,
+        "timestamp": 29.25,
+        "event": null,
+        "type": "change",
+        "description": "Missing Elements:\n- The \"Power Options Properties\" window is not present in the screenshot. \n- All elements described within the \"Power Options Properties\" window (tabs, buttons, dropdown menus, headers, etc.) are missing. \n",
+        "screenshot": "frame-468.png"
+    }
+]

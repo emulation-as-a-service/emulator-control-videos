@@ -1,0 +1,144 @@
+[
+    {
+        "frame": 36,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 2.25,
+        "description": "The user pressed the [Control + Escape] keys, which opened the Start Menu. \n",
+        "outcome": "The Start Menu opened, revealing program shortcuts and navigation options. The mouse cursor has moved to hover over the \"Control Panel\" option within the menu. \n",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 98,
+        "event": "The key following key(s) were pressed: ['Alt_L', 'c'].",
+        "timestamp": 6.125,
+        "description": "The user pressed the keyboard shortcut 'Alt_L' + 'c' to close the active window, which is not visible in the provided screenshot. \n",
+        "outcome": "",
+        "key_pressed": [
+            "Alt_L",
+            "c"
+        ]
+    },
+    {
+        "frame": 127,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 7.9375,
+        "description": "The user pressed the `Control` and `Escape` keys simultaneously, causing the Start Menu to open. \n",
+        "outcome": "The Start Menu opened, covering the previous position of the mouse cursor. \n",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 155,
+        "event": "The key following key(s) were pressed: ['c'].",
+        "timestamp": 9.6875,
+        "description": "The user pressed the 'c' key, which acted as a shortcut, causing the \"Control Panel\" option to be selected and initiated an action indicated by the system activity hourglass. \n",
+        "outcome": "The mouse cursor moved off the Start Menu and is now displaying a system activity hourglass on the right side of the screen. \n",
+        "key_pressed": [
+            "c"
+        ]
+    },
+    {
+        "frame": 482,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.125,
+        "description": "The user right-clicked on an unspecified element. The outcome of this action is not provided. \n",
+        "outcome": "",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 484,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.25,
+        "description": "The user pressed the right arrow key, but this action produced no observable changes within the displayed Control Panel window. \n",
+        "outcome": "No visual changes were observed. \n",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 525,
+        "event": "The key following key(s) were pressed: ['p', 'o'].",
+        "timestamp": 32.8125,
+        "description": "The user typed the hotkey combination \"po\" while the Control Panel window was active. \n",
+        "outcome": "The tooltip associated with the \"Add or Remove Programs\" icon disappeared as the mouse cursor moved away from the icon. \n",
+        "key_pressed": [
+            "p",
+            "o"
+        ]
+    },
+    {
+        "frame": 552,
+        "event": "The key following key(s) were pressed: ['Return'].",
+        "timestamp": 34.5,
+        "description": "The user pressed the \"Enter\" key while the \"Power Options\" icon was highlighted, opening the \"Power Options Properties\" window. \n",
+        "outcome": "A \"Power Options Properties\" window appeared.  The mouse cursor, previously visible, is no longer present. \n",
+        "key_pressed": [
+            "Return"
+        ]
+    },
+    {
+        "frame": 647,
+        "event": "The user clicked the mouse.",
+        "timestamp": 40.4375,
+        "description": "The user clicked the mouse on the \"Never\" option within the \"Turn off hard disks\" dropdown menu. As a result, the \"Never\" option was selected in the \"Turn off hard disks\" dropdown menu. \n",
+        "outcome": "The \"Turn off monitor\" dropdown now shows \"Never\" selected, and the \"Turn off hard disks\" dropdown shows \"After 4 hours\" selected. \n"
+    },
+    {
+        "frame": 679,
+        "event": "The user clicked the mouse.",
+        "timestamp": 42.4375,
+        "description": "The user clicked the mouse to select \"After 20 mins\" from the \"Turn off monitor\" dropdown menu. \n",
+        "outcome": "The \"Turn off monitor\" dropdown now displays \"After 20 mins\" and the \"Turn off hard disks\" dropdown, which was previously open and showing \"Never\", is now closed. \n"
+    },
+    {
+        "frame": 708,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 44.25,
+        "description": "The user clicked the \"**OK**\" button in the \"Power Options Properties\" window. As a result, the button became unhighlighted, indicating the window was ready to close. \n",
+        "outcome": "The \"OK\" button became unhighlighted. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 753,
+        "event": "The user clicked the mouse.",
+        "timestamp": 47.0625,
+        "description": "The user clicked the \"Display Properties\" icon in the Control Panel, which opened the \"Display Properties\" window. \n",
+        "outcome": "The \"Display Properties\" window opened, covering part of the Control Panel. The address bar updated to reflect the new window. \n"
+    },
+    {
+        "frame": 805,
+        "event": "The mouse clicked on Desktop Screen Saver AppearanceSettings.",
+        "timestamp": 50.3125,
+        "description": "The user clicked on the \"Appearance\" tab, located within the \"Display Properties\" window. As a result, the \"Screen Saver\" preview and its viewing options disappeared. \n",
+        "outcome": "The \"Sample\" preview and its associated viewing options (\"Normal,\" \"Disabled,\" \"Selected\") are missing. \n",
+        "label_clicked": "Desktop Screen Saver AppearanceSettings"
+    },
+    {
+        "frame": 834,
+        "event": "The user clicked the mouse.",
+        "timestamp": 52.125,
+        "description": "The user clicked the \"Screen saver\" dropdown menu and selected \"None\". \n",
+        "outcome": "The selected screensaver in the \"Screen saver\" dropdown menu changed to \"None\" from \"Windows XP\". \n"
+    },
+    {
+        "frame": 857,
+        "event": "The user clicked the mouse.",
+        "timestamp": 53.5625,
+        "description": "The user clicked the mouse, closing the \"Display Properties\" window. \n",
+        "outcome": "The \"Display Properties\" window has disappeared. \n"
+    },
+    {
+        "frame": 967,
+        "event": "The user clicked the mouse.",
+        "timestamp": 60.4375,
+        "description": "The user clicked the mouse, closing the Control Panel window. \n",
+        "outcome": "The entire Control Panel interface, including the main window, navigation elements (\"Address Bar,\" \"See Also\" panel), and system configuration icons, is absent from the view. \n"
+    }
+]

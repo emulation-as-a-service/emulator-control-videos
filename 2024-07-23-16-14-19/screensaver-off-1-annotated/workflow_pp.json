@@ -1,0 +1,77 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Click the 'Start' button.",
+        "expected_results": "The Start Menu will open, displaying program shortcuts and system options."
+    },
+    {
+        "precondition": "The Windows XP 'Start' menu is open and the mouse cursor is hovering over the 'Control Panel' option.",
+        "action": "Click the 'Control Panel' option in the Start menu.",
+        "expected_results": "The Start menu will close and the Control Panel window will open."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is open and in Category view.",
+        "action": "Click the \"Appearance and Themes\" category.",
+        "expected_results": "The \"Appearance and Themes\" category will open."
+    },
+    {
+        "precondition": "The \"Appearance and Themes\" window is open within the Windows XP Control Panel. The right side of the window should display the \"or pick a Control Panel icon\" section.",
+        "action": "Click the \"Display\" icon.",
+        "expected_results": "The \"Display Properties\" window will open, covering the \"Appearance and Themes\" window. The \"Display Properties\" window will display the \"Themes,\" \"Desktop,\" \"Screen Saver,\" \"Appearance,\" and \"Settings\" tabs."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab is open in the 'Display Properties' window.",
+        "action": "Click the 'Screen saver' dropdown menu and select '[None]'.",
+        "expected_results": "The 'Screen saver' dropdown menu will display '[None]' and the 'Wait' duration arrows will disappear."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab of the \"Display Properties\" window is open. The \"Power...\" button is visible at the bottom of the window.",
+        "action": "Click the \"Power...\" button.",
+        "expected_results": "The \"Power Options Properties\" window will open. The window will display the active power scheme and monitor turn-off settings."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Home/Office Desk\" power scheme is selected.",
+        "action": "Click the dropdown menu next to \"Turn off monitor\".",
+        "expected_results": "A dropdown menu will appear with a list of selectable time intervals."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Home/Office Desk\" power scheme is selected.",
+        "action": "Click the \"Never\" option in the \"Turn off monitor\" dropdown menu.",
+        "expected_results": "The \"Turn off monitor\" dropdown menu will display \"Never\" as the selected option."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open.",
+        "action": "Click the \"Power schemes\" dropdown menu.",
+        "expected_results": "The \"Power schemes\" dropdown menu will expand, displaying a list of available power schemes."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power schemes\" dropdown menu is visible.",
+        "action": "Click the \"Always On\" option in the \"Power schemes\" dropdown menu.",
+        "expected_results": "The \"Power schemes\" dropdown menu will show \"Always On\" as the selected power scheme."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Always On\" power scheme is selected.",
+        "action": "Click the dropdown menu next to \"Turn off hard disks.\"",
+        "expected_results": "A dropdown menu will appear, displaying a list of time intervals to choose from."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Always On\" power scheme is selected and the \"Apply\" button is highlighted.",
+        "action": "Click the \"Apply\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close. The dropdown menus for \"Turn off hard disks\", \"System standby\", and \"System hibernates\" will change from \"After 20 mins\" to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is selected. The \"System hibernates\" dropdown menu is open.",
+        "action": "Click on the \"Never\" option in the \"System hibernates\" dropdown menu.",
+        "expected_results": "The \"System hibernates\" dropdown menu will close and display \"Never\"."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open with the \"Screen Saver\" tab selected. The mouse cursor is hovering over the \"OK\" button.",
+        "action": "Click on an empty area of the \"Display Properties\" window.",
+        "expected_results": "The mouse cursor will move away from the \"OK\" button."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open.",
+        "action": "Click the 'X' button in the top right corner of the \"Display Properties\" window.",
+        "expected_results": "The \"Display Properties\" window will close."
+    }
+]

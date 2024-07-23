@@ -1,0 +1,95 @@
+[
+    {
+        "frame": 29,
+        "event": "The user clicked the mouse.",
+        "timestamp": 1.8125,
+        "description": "The user right-clicked the mouse on the desktop background. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 50,
+        "event": "The mouse clicked on Properties.",
+        "timestamp": 3.125,
+        "description": "The user clicked on the \"Properties\" option in the right-click context menu. As a result, the \"Display Properties\" window opened. \n",
+        "outcome": "A \"Display Properties\" window appeared. The previously mentioned right-click context menu is not visible. \n",
+        "label_clicked": "Properties"
+    },
+    {
+        "frame": 117,
+        "event": "The mouse clicked on Themes DesktopScreenaverAppearanceSettings.",
+        "timestamp": 7.3125,
+        "description": "The user clicked on the \"Screen Saver\" tab within the \"Display Properties\" window. As a result, the content area of the window updated to display the \"Screen Saver\" tab's options. \n",
+        "outcome": "The UI updated to display the \"Screen Saver\" tab within the \"Display Properties\" window.  The content area now includes a screen saver selection dropdown (currently set to \"Windows XP\"), a wait time setting, a preview window showing the selected screensaver, and controls related to monitor power settings. The \"Apply\" button at the bottom of the window became active. \n",
+        "label_clicked": "Themes DesktopScreenaverAppearanceSettings"
+    },
+    {
+        "frame": 185,
+        "event": "The user clicked the mouse.",
+        "timestamp": 11.5625,
+        "description": "The user clicked the **Screen Saver** dropdown menu. \n",
+        "outcome": "The selected screensaver in the Screen Saver Dropdown Menu changed to \"(None)\" from \"Windows XP.\"  Simultaneously, a yellow pop-up window titled \"Keep your computer up to date\" appeared at the bottom of the screen. \n"
+    },
+    {
+        "frame": 215,
+        "event": "The mouse clicked on [None].",
+        "timestamp": 13.4375,
+        "description": "The user clicked on the \"(None)\" option in the \"Screen Saver\" dropdown menu. As a result, the dropdown menu closed, and the \"Wait\" time changed to \"10\" minutes. \n",
+        "outcome": "The displayed \"Wait\" time changed to \"10\" minutes and the \"Screen Saver\" dropdown menu closed. \n",
+        "label_clicked": "[None]"
+    },
+    {
+        "frame": 269,
+        "event": "The mouse clicked on Po.",
+        "timestamp": 16.8125,
+        "description": "The user clicked the \"Power...\" button within the \"Monitor power\" section of the \"Display Properties\" window. As a result, the \"Power Options Properties\" window appeared, causing the \"Display Properties\" window to become temporarily inaccessible. \n",
+        "outcome": "A new window titled \"Power Options Properties\" opened in front of the \"Display Properties\" window.  The new window contains a \"Power schemes\" dropdown menu (currently empty) and an hourglass icon, suggesting loading content.  During this loading, the \"Display Properties\" window became partially unusable: its \"OK\", \"Cancel\", and \"Apply\" buttons are hidden, and the \"Screen Saver\" tab is inactive. \n",
+        "label_clicked": "Po"
+    },
+    {
+        "frame": 338,
+        "event": "The mouse clicked on Home/Office Desk.",
+        "timestamp": 21.125,
+        "description": "The user clicked the \"Always On\" option within the \"Power schemes\" dropdown menu. As a result, the selected power scheme changed to \"Always On\" and the \"Turn off monitor\" setting updated to \"After 20 mins\". \n",
+        "outcome": "The power scheme changed to \"Always On\" and the monitor timeout setting updated to \"After 20 mins.\" \n",
+        "label_clicked": "Home/Office Desk"
+    },
+    {
+        "frame": 374,
+        "event": "The mouse clicked on Presentation.",
+        "timestamp": 23.375,
+        "description": "The user clicked on the \"Turn off hard disks\" dropdown menu within the \"Power Options Properties\" window.  This action resulted in the expansion of the \"Turn off hard disks\" dropdown menu, revealing a list of time options.  Additionally, the \"Turn off monitor\",  and \"System standby\" options, previously set to \"Never\", were replaced with dropdown menus displaying time ranges. \n",
+        "outcome": "The \"Turn off hard disks\" dropdown menu expanded to reveal time options. The dropdown menus for \"Turn off monitor\", and \"System standby\" similarly replaced their \"Never\" options with time ranges. \n",
+        "label_clicked": "Presentation"
+    },
+    {
+        "frame": 437,
+        "event": "The mouse clicked on NE.",
+        "timestamp": 27.3125,
+        "description": "The user clicked the information icon located next to the \"System standby\" option in the \"Settings for Always On power scheme\" section of the \"Power Options Properties\" window. \n",
+        "outcome": "A pop-up box titled \"Keep your computer up to date\" appeared in the bottom right corner of the screen. The pop-up contains an information icon, a message suggesting automatic updates, and a close button. \n",
+        "label_clicked": "NE"
+    },
+    {
+        "frame": 482,
+        "event": "The mouse clicked on ApplN.",
+        "timestamp": 30.125,
+        "description": "The user clicked the \"Apply\" button at the bottom of the \"Power Options Properties\" window. \n",
+        "outcome": "A yellow pop-up notification with the message \"Keep your computer up to date\" appeared in the bottom right corner of the screen.  \n",
+        "label_clicked": "ApplN"
+    },
+    {
+        "frame": 516,
+        "event": "The user clicked the mouse.",
+        "timestamp": 32.25,
+        "description": "The user clicked the mouse on an element outside the \"Power Options Properties\" window. As a result, the active window focus changed to the \"Display Properties\" window, with the \"Screen Saver\" tab in view. \n",
+        "outcome": "The \"Display Properties\" window came into focus, with the \"Screen Saver\" tab selected. \n"
+    },
+    {
+        "frame": 545,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 34.0625,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Display Properties\" window.  As a result, the \"Display Properties\" window closed. \n",
+        "outcome": "The \"Display Properties\" window closed. \n",
+        "label_clicked": "OK"
+    }
+]

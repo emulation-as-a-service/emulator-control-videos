@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Windows Control Panel
+- Input methods: Mouse and keyboard
+- Recording details: 1 minute 3 seconds, resolution unavailable 
+
+
+The user navigates to the control panel and opens the "Power Options Properties" window. They change the "Turn off monitor" and "Turn off hard disks" settings to "Never" from the drop-down menu. Then the user opens the "Display Properties" window and changes the screen saver to "None" from the drop-down menu. 
+
+Purpose inference: The user's actions suggest they are configuring their computer's power and display settings to prevent the monitor, hard disks, and screen saver from turning off automatically. 

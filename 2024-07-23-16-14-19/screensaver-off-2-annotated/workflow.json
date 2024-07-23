@@ -1,0 +1,62 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear."
+    },
+    {
+        "precondition": "A right-click context menu is open on the Windows XP desktop.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The 'Display Properties' window will appear."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Themes' tab is active.",
+        "action": "Click the 'Screen Saver' tab.",
+        "expected_results": "The 'Screen Saver' tab will become active. The content area will update to show screen saver options, including a dropdown menu, a wait time setting, and a preview window."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the 'Screen Saver' dropdown menu and select '(None)'.",
+        "expected_results": "The selected screensaver will change to '(None)' and a pop-up window titled 'Keep your computer up to date' will appear at the bottom of the screen."
+    },
+    {
+        "precondition": "The 'Screen Saver' dropdown menu is open, showing a list of available options.",
+        "action": "Click the 'None' option in the 'Screen Saver' dropdown menu.",
+        "expected_results": "The dropdown menu will close, the 'Wait' time will change to '10' minutes, and a pop-up notification reading 'Keep your computer up to date' will appear in the bottom right corner of the screen."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open with the \"Screen Saver\" tab active.",
+        "action": "Click the button labeled \"Po\".",
+        "expected_results": "A new window titled \"Power Options Properties\" will open in front of the \"Display Properties\" window. The new window will contain a \"Power schemes\" dropdown menu."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab active. The \"Power schemes\" dropdown menu should be visible.",
+        "action": "Click the \"Power schemes\" dropdown menu and select \"Home/Office Desk\".",
+        "expected_results": "The selected power scheme will change to \"Always On\" and the \"Turn off monitor\" setting will update to \"After 20 mins\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Always On\" power scheme should be selected from the \"Power schemes\" dropdown menu.",
+        "action": "Click the \"System hibernates\" label.",
+        "expected_results": "The \"System hibernates\" dropdown menu will expand, displaying a list of time options with \"After 5 hours\" selected by default. The \"Turn off monitor\", \"Turn off hard disks\", and \"System standby\" options will change from \"Never\" to dropdown menus with selectable time ranges."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Always On\" power scheme should be selected.",
+        "action": "Click the information icon next to the \"System standby\" option.",
+        "expected_results": "A pop-up box titled \"Keep your computer up to date\" will appear in the bottom right corner of the screen."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Apply\" button highlighted.",
+        "action": "Click the \"Apply\" button.",
+        "expected_results": "A yellow pop-up notification with the message \"Keep your computer up to date\" will appear in the bottom right corner of the screen. The \"OK\" button will no longer be highlighted."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active.",
+        "action": "Click on any area of the screen outside the \"Power Options Properties\" window.",
+        "expected_results": "The \"Power Options Properties\" window will lose focus, and the \"Display Properties\" window will become active."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click the button labeled \"OK\".",
+        "expected_results": "The \"Display Properties\" window will close."
+    }
+]
