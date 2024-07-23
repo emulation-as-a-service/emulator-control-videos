@@ -1,0 +1,8 @@
+- Operating system: Windows XP
+- Software: Display Properties, Power Options Properties
+- Input methods: Mouse and keyboard 
+
+
+The user right-clicks on the desktop and selects "Properties" from the context menu. They navigate to the "Screen Saver" tab within the "Display Properties" window. The user then selects "None" from the "Screen Saver" dropdown menu. Next, they click on the "Power" button, opening the "Power Options Properties" window. Within this window, the user changes the "Turn off monitor" setting from "After 20 mins" to "Never" and closes the windows by clicking "OK". 
+
+Purpose Inference: The user's actions suggest they are configuring their computer's power settings to prevent the monitor from automatically turning off. 

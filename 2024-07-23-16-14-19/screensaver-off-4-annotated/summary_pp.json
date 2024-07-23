@@ -1,0 +1,87 @@
+[
+    {
+        "frame": 23,
+        "event": "The user clicked the mouse.",
+        "timestamp": 1.4375,
+        "description": "The user **right-clicked** on the desktop and a context menu appeared. The mouse cursor hovered over the \"**Properties**\" option. \n",
+        "outcome": "A context menu appeared on the screen, with the mouse cursor hovering over the \"Properties\" option. The menu provides options for \"Arrange Icons By\", \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\". \n"
+    },
+    {
+        "frame": 75,
+        "event": "The mouse clicked on Properties.",
+        "timestamp": 4.6875,
+        "description": "The user clicked on the \"**Properties**\" option in the right-click context menu on the Windows XP desktop. \n",
+        "outcome": "The \"Display Properties\" window appeared, with the \"Themes\" tab active. \n",
+        "label_clicked": "Properties"
+    },
+    {
+        "frame": 137,
+        "event": "The user clicked the mouse.",
+        "timestamp": 8.5625,
+        "description": "The user clicked the \"**Screen Saver**\" tab within the \"Display Properties\" window. \n",
+        "outcome": "The active tab changed from \"Themes\" to \"Screen Saver.\" \n"
+    },
+    {
+        "frame": 185,
+        "event": "The mouse clicked on DesktopScreerSaverAppearance.",
+        "timestamp": 11.5625,
+        "description": "The user clicked on the \"**None**\" option within the \"Screen Saver\" dropdown menu. As a result, the screen saver was set to \"None\" and the \"Wait\" time was cleared. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu switched to \"None\" and the \"Wait:\" field was cleared. \n",
+        "label_clicked": "DesktopScreerSaverAppearance"
+    },
+    {
+        "frame": 244,
+        "event": "The user clicked the mouse.",
+        "timestamp": 15.25,
+        "description": "The user clicked the \"Screen saver\" dropdown menu. As a result, the dropdown list appeared with \"**(None)**\" selected.  The \"Settings\" and \"Preview\" buttons became enabled. \n",
+        "outcome": "The \"Screen saver\" dropdown list appeared with \"(None)\" selected, and, simultaneously, the \"Settings\" and \"Preview\" buttons became enabled. \n"
+    },
+    {
+        "frame": 264,
+        "event": "The mouse clicked on 3D FlowerBox.",
+        "timestamp": 16.5,
+        "description": "The user clicked on \"**3D Flower Box**\" in the \"Screen saver\" dropdown menu within the \"Display Properties\" window. As a result, \"3D Flower Box\" became the selected screen saver. \n",
+        "outcome": "The user customized their screen saver settings.  The \"**3D Flower Box**\" screen saver was selected, a 10-minute wait time was set, and the \"On resume, password protect\" option was enabled.  The \"Settings\" and \"Preview\" buttons became active, reflecting the valid configuration. \n",
+        "label_clicked": "3D FlowerBox"
+    },
+    {
+        "frame": 318,
+        "event": "The mouse clicked on App.",
+        "timestamp": 19.875,
+        "description": "The user clicked the \"**Apply**\" button within the \"Display Properties\" window to confirm the changes to the screen saver settings. \n",
+        "outcome": "The \"Apply\" button lost focus, and a mouse cursor appeared within the \"Display Properties\" window. \n",
+        "label_clicked": "App"
+    },
+    {
+        "frame": 349,
+        "event": "The mouse clicked on Power.",
+        "timestamp": 21.8125,
+        "description": "The user clicked on the \"Power\" button at the bottom of the \"Display Properties\" window.  As a result, the \"Power Options Properties\" window opened. \n",
+        "outcome": "The \"Power Options Properties\" window appeared, overlaying the \"Display Properties\" window. Within the new window, the \"Turn off hard disks\" dropdown selection was \"After 20 mins\". \n",
+        "label_clicked": "Power"
+    },
+    {
+        "frame": 448,
+        "event": "The mouse clicked on After 5 hours.",
+        "timestamp": 28.0,
+        "description": "The user clicked on the \"**Never**\" option within the \"Turn off hard disks\" dropdown menu in the \"Power Options Properties\" window. As a result, the \"Turn off hard disks\" setting changed from \"After 20 mins\" to \"Never\". \n",
+        "outcome": "The \"Turn off hard disks\" option in the \"Power Options Properties\" window was changed from \"After 20 mins\" to \"Never\". The dropdown menu closed after the selection was made. \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 468,
+        "event": "The mouse clicked on NQK.",
+        "timestamp": 29.25,
+        "description": "The user clicked the \"**OK**\" button in the \"Power Options Properties\" window. As a result, the \"Power Options Properties\" window closed. \n",
+        "outcome": "The \"Power Options Properties\" window closed, and the \"Turn off hard disks\" option within the \"Display Properties\" window is unexpectedly set to \"**(None)**\" instead of \"Never.\" Additionally, the \"OK\" button in the \"Display Properties\" window is not highlighted. \n",
+        "label_clicked": "NQK"
+    },
+    {
+        "frame": 507,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 31.6875,
+        "description": "The user clicked the \"OK\" button in the \"Display Properties\" window. As a result, the \"Display Properties\" window closed. \n",
+        "outcome": "The \"Display Properties\" window closed, revealing the Windows XP desktop and taskbar. \n",
+        "label_clicked": "OK"
+    }
+]

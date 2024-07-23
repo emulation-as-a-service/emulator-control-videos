@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Display Properties
+- Input methods: Mouse and keyboard 
+- Recording details: Not available from the provided information. 
+
+
+The user right-clicks on the desktop and selects "Properties" from the context menu. Within the "Display Properties" window, the user navigates to the "Screen Saver" tab, selects "None" from the "Screen Saver" dropdown menu, and sets the "Wait" time to "10" minutes. The user then clicks the "Power" button. In the "Power Options Properties" window, the user selects the "Always On" power scheme from the dropdown menu and sets the "Turn off monitor", "Turn off hard disks", "System standby", and "System hibernates" options to "Never". The user then clicks the "Apply" button twice, followed by the "Cancel" button, and then the "OK" button. 
+
+**Purpose Inference:** The user's actions suggest they are attempting to configure their computer's power settings to prevent the monitor, hard disks, and system from entering sleep or hibernation mode. 

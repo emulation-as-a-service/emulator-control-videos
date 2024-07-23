@@ -1,0 +1,8 @@
+- Operating system: Windows XP
+- Software: Windows Control Panel, Windows Display Properties, Windows Power Options Properties
+- Input methods: Mouse and keyboard 
+
+
+The user navigates to the Windows Control Panel, opens the "Appearance and Themes" settings, and then opens the "Display Properties" window. Within the "Display Properties" window, the user selects the "Screen Saver" tab, chooses "None" as the screen saver, and clicks "Apply". They then navigate to the "Power Options Properties" window, selects the "Always On" power scheme, and sets all power-saving options to "Never." Finally, the user closes all open windows. 
+
+Purpose inference: The user's actions suggest they are configuring their computer's power settings to prevent the display from turning off, the hard disk from powering down, and the system from entering standby or hibernation. 
