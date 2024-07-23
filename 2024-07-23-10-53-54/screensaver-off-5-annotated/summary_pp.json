@@ -1,0 +1,54 @@
+[
+    {
+        "frame": 31,
+        "event": "The user clicked the mouse.",
+        "timestamp": 1.9375,
+        "description": "The user right-clicked the mouse on the desktop background.",
+        "outcome": "A context menu appeared in the top left corner of the screen. \n"
+    },
+    {
+        "frame": 80,
+        "event": "The user clicked the mouse.",
+        "timestamp": 5.0,
+        "description": "The user clicked the mouse on the \"Properties\" option within the context menu. \n",
+        "outcome": "The context menu closed and the \"Display Properties\" window opened, revealing tabs for Themes, Desktop, Screen Saver, Appearance, and Settings. The active view displayed the \"Screen Saver\" tab, showing the selected screen saver, customization options, and a preview. Additionally, a \"Monitor power\" section appeared with a description and a \"Power...\" button. \n"
+    },
+    {
+        "frame": 230,
+        "event": "The user clicked the mouse.",
+        "timestamp": 14.375,
+        "description": "The user clicked the mouse on the \"Power...\" button within the \"Display Properties\" window. \n",
+        "outcome": "The \"Screen saver\" dropdown menu updated to display \"Starfield\" as the newly selected option. \n"
+    },
+    {
+        "frame": 261,
+        "event": "The mouse clicked on (None.",
+        "timestamp": 16.3125,
+        "description": "The user clicked the mouse on the dropdown menu associated with the \"Turn off monitor\" option.",
+        "outcome": "The \"Power Options Properties\" dialog box appeared, overlaying the \"Display Properties\" dialog box. The contents of the \"Screen Saver\" tab, including its dropdown menu, buttons, and informational elements, are no longer visible. \n",
+        "label_clicked": "(None"
+    },
+    {
+        "frame": 373,
+        "event": "The user clicked the mouse.",
+        "timestamp": 23.3125,
+        "description": "The user clicked the mouse on the \"Never\" option within the \"Turn off monitor\" dropdown menu. \n",
+        "outcome": "The \"System hibernates\" dropdown menu updated to display \"Never\". \n"
+    },
+    {
+        "frame": 414,
+        "event": "The mouse clicked on After 5 hours.",
+        "timestamp": 25.875,
+        "description": "The user clicked on \"After 5 hours\" within the \"System hibernates\" dropdown menu.",
+        "outcome": "The window appears to have entered a fullscreen state: the maximize button is gone and a \"Start button\" has become visible, presumably from the taskbar. \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 440,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 27.5,
+        "description": "The user clicked on the \"OK\" button within the \"Power Options Properties\" dialog box. \n",
+        "outcome": "This single observation provides information about elements that are *missing* from a UI, not about changes that occurred. Therefore, I cannot summarize any visual effects of a user event. \n\nTo analyze UI state changes, I need a sequence of observations that show the UI *before* and *after* an event. Please provide a series of visual descriptions that capture these changes. \n",
+        "label_clicked": "OK"
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "frame": 36,
+        "event": "The mouse clicked on # start.",
+        "timestamp": 2.25,
+        "description": "Upon clicking the \"Start\" button, the Start Menu opened, displaying options for launching programs and accessing system settings. \n",
+        "outcome": "The Start button was clicked, expanding to reveal the Start Menu containing program shortcuts and system options. A tooltip briefly appeared, providing a description of the \"Control Panel\" option. \n",
+        "label_clicked": "# start"
+    },
+    {
+        "frame": 90,
+        "event": "The mouse clicked on ContrqPanel.",
+        "timestamp": 5.625,
+        "description": "Upon clicking \"Control Panel\" in the Start Menu's right pane, a tooltip appeared, displaying a brief description of the \"Control Panel\" function. \n",
+        "outcome": "The Start Menu, previously described as a prominent element, is no longer visible. Instead, the Control Panel window is now open, occupying most of the screen. The active window is indicated on the taskbar by the text \"Control Panel\" appearing next to the \"start\" button. \n",
+        "label_clicked": "ContrqPanel"
+    },
+    {
+        "frame": 459,
+        "event": "The user clicked the mouse.",
+        "timestamp": 28.6875,
+        "description": "Upon clicking the mouse, a tooltip reading \"Appearance and Themes\" appeared next to the corresponding Control Panel category icon. \n",
+        "outcome": "The tooltip, previously visible, has disappeared. \n"
+    },
+    {
+        "frame": 547,
+        "event": "The mouse clicked on splay.",
+        "timestamp": 34.1875,
+        "description": "Upon mouse click, the \"Display\" icon in the Control Panel Icon View within the main content area became highlighted. \n",
+        "outcome": "The UI transitioned to display the \"Screen Saver\" settings within the \"Display Properties\" section. The main content area now shows a monitor preview, and the \"Screen Saver\" tab is visually activated. Notably, the \"Control Panel Icon View\" is absent from this view. \n",
+        "label_clicked": "splay"
+    },
+    {
+        "frame": 753,
+        "event": "The user clicked the mouse.",
+        "timestamp": 47.0625,
+        "description": "Upon clicking the mouse, the user brought the \"Display Properties\" dialog box, specifically the \"Screen Saver\" tab, into focus. \n",
+        "outcome": "The \"Screen saver\" dropdown switched to \"[None]\" from \"Windows XP,\" and the \"Settings\" button became disabled. \n"
+    },
+    {
+        "frame": 803,
+        "event": "The mouse clicked on Pow.",
+        "timestamp": 50.1875,
+        "description": "Upon clicking \"Power\", no immediate changes within the \"Display Properties\" dialog box were observed. \n",
+        "outcome": "The user interface transitioned from a tabbed interface focused on display settings to a full-screen dialog titled \"Power Options Properties.\" The dialog features sections for managing power schemes, customizing power settings (including monitor and hard disk behavior), and buttons to save or delete schemes. The original \"Display Properties\" title is partially obscured, and elements related to the previous tab view are no longer visible. \n",
+        "label_clicked": "Pow"
+    },
+    {
+        "frame": 861,
+        "event": "The user clicked the mouse.",
+        "timestamp": 53.8125,
+        "description": "Upon clicking the mouse, the \"Power Schemes\" tab within the \"Power Options Properties\" dialog box became active. \n",
+        "outcome": "A dropdown menu labeled \"System hibernates\" expanded to reveal a list of time options. \n"
+    },
+    {
+        "frame": 912,
+        "event": "The mouse clicked on After 5 hours.",
+        "timestamp": 57.0,
+        "description": "Upon clicking \"After 5 hours\", the dropdown menu associated with the \"System standby\" power-saving action opened. \n",
+        "outcome": "The \"Help\" button is missing from the UI. \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 994,
+        "event": "The user clicked the mouse.",
+        "timestamp": 62.125,
+        "description": "Upon clicking the mouse, the \"Power Options Properties\" navigation item within the navigation pane became selected, indicated by an open blue square. \n",
+        "outcome": "A menu titled \"Power schemes\" expanded, revealing the options: \"Home/Office Desk,\" \"Portable/Laptop,\" \"Presentation,\" \"Always On,\" \"Minimal Power Management,\" and \"Max Battery.\" Additionally, two buttons, \"start\" and \"Appearance and Themes,\" appeared in the bottom left corner, along with a taskbar containing icons likely related to network, audio, and system time. \n"
+    },
+    {
+        "frame": 1039,
+        "event": "The mouse clicked on Always On.",
+        "timestamp": 64.9375,
+        "description": "Upon clicking \"Always On\", no changes occurred in the \"Power Options Properties\" dialog box. \n",
+        "outcome": "The \"Power Schemes Dropdown Menu\" was replaced with the text \"Always On.\"  The \"Save As...\" and \"Delete\" buttons, previously located below the dropdown, shifted to the right of the \"Always On\" text. \n",
+        "label_clicked": "Always On"
+    },
+    {
+        "frame": 1061,
+        "event": "The user clicked the mouse.",
+        "timestamp": 66.3125,
+        "description": "Upon clicking the mouse, the \"Power Options Properties\" dialog box opened, revealing tabs for \"Power Schemes,\" \"Advanced,\" \"Hibernate,\" and \"UPS,\" along with a dropdown menu for selecting power schemes, a settings area, and \"OK,\" \"Cancel,\" \"Apply,\" \"Save As...,\" and \"Delete\" buttons. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 1070,
+        "event": "The user clicked the mouse.",
+        "timestamp": 66.875,
+        "description": "Upon a mouse click, the \"Power Schemes\" tab within the \"Power Options Properties\" dialog box became the active tab. \n",
+        "outcome": "The \"System hibernates:\" dropdown menu expanded to reveal a list of time options, with \"Never\" becoming the selected option. \n"
+    },
+    {
+        "frame": 1094,
+        "event": "The mouse clicked on Never.",
+        "timestamp": 68.375,
+        "description": "Upon clicking \"Never\" in the dropdown menu, the idle time before the associated power-saving action was set to \"Never\". \n",
+        "outcome": "The \"Delete\" button became active. \n",
+        "label_clicked": "Never"
+    },
+    {
+        "frame": 1204,
+        "event": "The user clicked the mouse.",
+        "timestamp": 75.25,
+        "description": "Upon clicking the mouse, the \"Screen Saver\" tab within the \"Display Properties\" dialog box became the active view. \n",
+        "outcome": "A large, semi-transparent checkmark image appeared on the dialog box, the \"Wait\" field value changed from \"10\" to \"1\", and the taskbar did not show an \"Appearance and Themes\" button as expected. \n"
+    },
+    {
+        "frame": 1266,
+        "event": "The user clicked the mouse.",
+        "timestamp": 79.125,
+        "description": "Upon clicking the mouse, no specific changes were observed in the described \"Appearance and Themes\" settings window. \n",
+        "outcome": "The provided observation does not contain any visual changes to analyze. It describes the absence of expected UI elements, indicating an issue with the screenshot capture or a completely blank canvas. \n"
+    }
+]

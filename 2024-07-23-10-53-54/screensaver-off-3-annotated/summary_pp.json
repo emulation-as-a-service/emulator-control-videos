@@ -1,0 +1,144 @@
+[
+    {
+        "frame": 36,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 2.25,
+        "description": "Upon pressing the key combination 'Control_L' + 'Escape', no visible changes occurred on the Windows XP desktop. \n",
+        "outcome": "The Start menu opened, displaying program shortcuts and system options. The Start button transitioned to a visually depressed state. \n",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 98,
+        "event": "The key following key(s) were pressed: ['Alt_L', 'c'].",
+        "timestamp": 6.125,
+        "description": "Upon pressing the key combination 'Alt_L' + 'c', no visual changes occurred on the Windows XP desktop. \n",
+        "outcome": "The Start button became highlighted. \n",
+        "key_pressed": [
+            "Alt_L",
+            "c"
+        ]
+    },
+    {
+        "frame": 127,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 7.9375,
+        "description": "Upon pressing the key combination 'Control_L' + 'Escape', no observable changes occurred on the Windows desktop or its elements. \n",
+        "outcome": "The Start button became highlighted, and the Start Menu opened, displaying program shortcuts and system options. \n",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 155,
+        "event": "The key following key(s) were pressed: ['c'].",
+        "timestamp": 9.6875,
+        "description": "Upon pressing the 'c' key, no visual changes were observed in the customized Windows XP Start Menu. \n",
+        "outcome": "The mouse cursor changed to an hourglass icon. \n",
+        "key_pressed": [
+            "c"
+        ]
+    },
+    {
+        "frame": 482,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.125,
+        "description": "Upon pressing the 'Right Arrow' key, no visual changes occurred in the Control Panel window. \n",
+        "outcome": "The 'Date, Time, Language, and Regional Options' icon became highlighted.\n",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 484,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.25,
+        "description": "Upon pressing the 'Right Arrow' key, the focus within the Control Panel's main area shifted to highlight the 'Display' icon to the right. \n",
+        "outcome": "The 'Date, Time, Language, and Regional Options' icon is no longer highlighted. \n",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 525,
+        "event": "The key following key(s) were pressed: ['p', 'o'].",
+        "timestamp": 32.8125,
+        "description": "Upon entering the key sequence \"po\", no visual changes occurred within the Windows XP Control Panel. \n",
+        "outcome": "A tooltip with the text \"Install or remove programs and Windows components.\" appeared, overlayed on top of the \"Add or Remove Programs\" icon. \n",
+        "key_pressed": [
+            "p",
+            "o"
+        ]
+    },
+    {
+        "frame": 552,
+        "event": "The key following key(s) were pressed: ['Return'].",
+        "timestamp": 34.5,
+        "description": "Upon pressing the 'Return' key, no visual changes occurred in the Control Panel interface. \n",
+        "outcome": "A new window titled \"Power Options Properties\" opened in front of the Control Panel. \n",
+        "key_pressed": [
+            "Return"
+        ]
+    },
+    {
+        "frame": 647,
+        "event": "The user clicked the mouse.",
+        "timestamp": 40.4375,
+        "description": "Upon clicking the mouse, the \"Power Options Properties\" dialog box came into focus. No other changes in the dialog box state were observed. \n",
+        "outcome": "The \"System hibernates\" dropdown menu changed its selected option to \"After 4 hours\". The system tray clock also updated slightly, likely just reflecting the passage of time. \n"
+    },
+    {
+        "frame": 679,
+        "event": "The user clicked the mouse.",
+        "timestamp": 42.4375,
+        "description": "Upon clicking the mouse, the \"Turn off hard disks\" dropdown menu within the \"Power Options Properties\" dialog box came into focus. \n",
+        "outcome": "The system clock in the bottom right corner updated to display the current time. \n"
+    },
+    {
+        "frame": 708,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 44.25,
+        "description": "Upon clicking \"OK\", the \"Power Options Properties\" dialog box closed. \n",
+        "outcome": "The \"OK\" button changed to its pressed/highlighted state. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 753,
+        "event": "The user clicked the mouse.",
+        "timestamp": 47.0625,
+        "description": "Upon clicking the mouse, no visual changes occurred within the Control Panel interface. \n",
+        "outcome": "A dialog box titled \"Display Properties\" opened, allowing customization of window appearances and text. The address bar now indicates \"Display Properties\" as the current location. \n"
+    },
+    {
+        "frame": 805,
+        "event": "The mouse clicked on Desktop Screen Saver AppearanceSettings.",
+        "timestamp": 50.3125,
+        "description": "Upon clicking \"Screen Saver\" within the Display Properties dialog box, the \"Screen Saver\" tab became active. \n",
+        "outcome": "The \"Screen Saver\" tab was already active.\n",
+        "label_clicked": "Desktop Screen Saver AppearanceSettings"
+    },
+    {
+        "frame": 834,
+        "event": "The user clicked the mouse.",
+        "timestamp": 52.125,
+        "description": "Upon clicking the mouse, the user interacted with the screen saver dropdown menu within the \"Screen Saver\" tab of the Windows XP Display Properties dialog box. \n",
+        "outcome": "The screen saver dropdown menu expanded to reveal a list of available options. \n"
+    },
+    {
+        "frame": 857,
+        "event": "The user clicked the mouse.",
+        "timestamp": 53.5625,
+        "description": "Upon clicking the mouse, the user selected \"None\" from the screen saver dropdown menu. \n",
+        "outcome": "The Display Properties dialog box, including the \"Screen Saver\" tab and all its controls, disappeared. \n"
+    },
+    {
+        "frame": 967,
+        "event": "The user clicked the mouse.",
+        "timestamp": 60.4375,
+        "description": "Upon clicking the mouse, the Control Panel window closed. \n",
+        "outcome": "The screen transitioned to a blue background displaying a minimal set of elements: a \"Start\" button and a \"Control Panel\" button in the bottom left corner, a \"Recycle Bin\" icon and a clock in the bottom right corner, and several system tray icons. \n"
+    }
+]

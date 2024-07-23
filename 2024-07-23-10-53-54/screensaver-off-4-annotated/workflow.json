@@ -1,0 +1,57 @@
+[
+    {
+        "precondition": "The cursor is visible on the desktop wallpaper.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu labeled 'Arrange Icons By \u25b8' will appear, containing options such as 'Refresh', 'Paste', and 'Properties'. The cursor will change to a pointer hand shape."
+    },
+    {
+        "precondition": "The context menu on the desktop is open.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The context menu will close, and the 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The 'Appearance' tab in the 'Display Properties' dialog box is open.",
+        "action": "Click the 'Windows XP' option in the 'Theme' dropdown menu.",
+        "expected_results": "The 'Active Window' preview will update to the 'Windows XP' theme. The 'Save As...' button will disappear, and a Recycle Bin icon will appear in the 'Active Window' preview."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open with the 'Themes' tab active.",
+        "action": "Click the 'Appearance' tab.",
+        "expected_results": "The 'Appearance' tab will become active, displaying options related to screen savers."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open and the 'Screen Saver' tab is active. The 'Settings' button is active.",
+        "action": "Click the 'Screen saver' dropdown menu.",
+        "expected_results": "A list of screensaver options will appear. The 'Settings' button will become inactive."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab in the 'Display Properties' dialog box is open.",
+        "action": "Click the 'Screen saver' dropdown menu and select '3D FlowerBox'.",
+        "expected_results": "The 'Settings' button will become active."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab in the 'Display Properties' dialog box is open.",
+        "action": "Click the 'App' dropdown menu.",
+        "expected_results": "A list of available screen savers will appear."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab in the 'Display Properties' dialog box is open.",
+        "action": "Click the 'Power' button.",
+        "expected_results": "A dialog box related to monitor power settings will appear."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'Home/Office Desk' power scheme is selected.",
+        "action": "Click the 'Turn off monitor' dropdown menu and select 'After 5 hours'.",
+        "expected_results": "The monitor idle time before power off will be set to 5 hours."
+    },
+    {
+        "precondition": "A dialog box titled 'Display Properties' is partially visible in the background.",
+        "action": "Click on the title bar of the 'Display Properties' dialog box.",
+        "expected_results": "The 'Display Properties' dialog box will become the active window and will be fully visible. The 'Windows Power Options Properties' dialog box will no longer be visible."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open.",
+        "action": "Click the button labeled 'OK'.",
+        "expected_results": "The 'Display Properties' dialog box will close."
+    }
+]

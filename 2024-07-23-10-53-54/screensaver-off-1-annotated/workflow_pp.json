@@ -1,0 +1,87 @@
+[
+    {
+        "precondition": "The Start button is visible on the taskbar.",
+        "action": "Click the Start button.",
+        "expected_results": "The Start Menu will open, displaying program shortcuts and system options."
+    },
+    {
+        "precondition": "The Start Menu is open and displaying the 'Control Panel' label in its right pane.",
+        "action": "Click the 'Control Panel' label in the Start Menu's right pane.",
+        "expected_results": "The Start Menu will close, and a 'Control Panel' window will open, becoming the active window as indicated on the taskbar."
+    },
+    {
+        "precondition": "The Control Panel is displayed in \"Category View\", with tooltips enabled.",
+        "action": "Hover the mouse cursor over the icon for the 'Appearance and Themes' category.",
+        "expected_results": "A tooltip will appear next to the icon, displaying the text \"Change the appearance of desktop items, apply a theme or screen saver to your computer, or customize the Start menu and taskbar.\""
+    },
+    {
+        "precondition": "The tooltip describing the 'Appearance and Themes' category is visible.",
+        "action": "Move the mouse cursor away from the 'Appearance and Themes' icon.",
+        "expected_results": "The tooltip will disappear."
+    },
+    {
+        "precondition": "The Control Panel Icon View is visible within the 'Appearance and Themes' window.",
+        "action": "Click the 'Display' icon.",
+        "expected_results": "The main content area will display the 'Themes' settings within the 'Display Properties' section. A monitor preview and the active 'Themes' tab will be visible."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open and the 'Screen Saver' tab is selected. The 'Screen saver' dropdown list shows 'Windows XP' as the selected option.",
+        "action": "Click the 'Screen saver' dropdown list and select '[None]'.",
+        "expected_results": "The 'Screen saver' dropdown list will show '[None]' as the selected option and the 'Settings' button will become disabled."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open.",
+        "action": "Click the 'Power' button.",
+        "expected_results": "The 'Power Options Properties' dialog box will open."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open and the 'Power Schemes' tab is active.",
+        "action": "Click the dropdown menu labeled 'System hibernates'.",
+        "expected_results": "A dropdown menu labeled 'System hibernates' will expand to reveal a list of time options."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open and the 'Power Schemes' tab is selected.",
+        "action": "Click the 'System standby' dropdown menu.",
+        "expected_results": "A list of time options will appear."
+    },
+    {
+        "precondition": "A dialog box titled 'Power Options Properties' is open.",
+        "action": "Click the 'Close' button in the top-right corner of the dialog box.",
+        "expected_results": "The 'Power Options Properties' dialog box will close."
+    },
+    {
+        "precondition": "The 'Power Schemes' dropdown menu is open.",
+        "action": "Click the 'Always On' menu item.",
+        "expected_results": "The 'Power Schemes Dropdown Menu' will be replaced with the text 'Always On'. The 'Save As...' and 'Delete' buttons will move to the right of the 'Always On' text."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open and the 'Hibernate' tab is selected.",
+        "action": "Click on the 'System hibernates:' dropdown menu.",
+        "expected_results": "A dropdown menu with a list of time options will appear."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open and the 'Power Schemes' tab is active.",
+        "action": "Click on the 'System hibernates:' dropdown menu.",
+        "expected_results": "The dropdown menu will expand to reveal a list of time options."
+    },
+    {
+        "precondition": "The 'System hibernates:' dropdown menu is expanded.",
+        "action": "Click on the option 'Never'.",
+        "expected_results": "The option 'Never' will be selected in the 'System hibernates:' dropdown menu."
+    },
+    {
+        "precondition": "The 'System hibernates:' dropdown menu is open.",
+        "action": "Click the menu item 'Never'.",
+        "expected_results": "The 'System hibernates:' dropdown menu will close. The 'Delete' button will become active."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the 'Screen Saver' tab.",
+        "expected_results": "The 'Screen Saver' tab will become the active view within the 'Display Properties' dialog box."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open.",
+        "action": "Click anywhere outside of the 'Display Properties' dialog box.",
+        "expected_results": "The 'Display Properties' dialog box will close."
+    }
+]

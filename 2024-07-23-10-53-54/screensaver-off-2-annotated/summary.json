@@ -1,0 +1,95 @@
+[
+    {
+        "frame": 29,
+        "event": "The user clicked the mouse.",
+        "timestamp": 1.8125,
+        "description": "Upon a mouse click, no visual changes occurred on the Windows XP desktop interface. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 50,
+        "event": "The mouse clicked on Properties.",
+        "timestamp": 3.125,
+        "description": "Upon clicking \"Properties\" in the right-click context menu on the Windows desktop, the context menu remained open. \n",
+        "outcome": "A context menu closed and a \"Display Properties\" dialog box opened. \n",
+        "label_clicked": "Properties"
+    },
+    {
+        "frame": 117,
+        "event": "The mouse clicked on Themes DesktopScreenaverAppearanceSettings.",
+        "timestamp": 7.3125,
+        "description": "Upon clicking \"Appearance\" within the \"Themes\" tab of the Windows XP Display Properties dialog box, no visual changes occurred. \n",
+        "outcome": "The \"Active Window\" preview changed to display the Windows XP default background image, and both the \"Save As...\" and \"Delete\" buttons disappeared. \n",
+        "label_clicked": "Themes DesktopScreenaverAppearanceSettings"
+    },
+    {
+        "frame": 185,
+        "event": "The user clicked the mouse.",
+        "timestamp": 11.5625,
+        "description": "Upon clicking the mouse, the \"Screen Saver\" tab within the \"Display Properties\" dialog box became the active tab. \n",
+        "outcome": "A notification popup prompting the user to \"Keep your computer up to date\" appeared above the taskbar. Simultaneously, the screensaver dropdown menu expanded to display the full list of available options. \n"
+    },
+    {
+        "frame": 215,
+        "event": "The mouse clicked on [None].",
+        "timestamp": 13.4375,
+        "description": "Clicking on [None] did not result in any observable changes within the \"Display Properties\" dialog box. \n",
+        "outcome": "A notification window appeared in the bottom left corner, displaying a message about keeping the computer up-to-date and prompting the user to click for updates.  Additionally, the screensaver selection in the dropdown menu changed to \"None,\" although the description still indicates \"Windows XP.\" \n",
+        "label_clicked": "[None]"
+    },
+    {
+        "frame": 269,
+        "event": "The mouse clicked on Po.",
+        "timestamp": 16.8125,
+        "description": "Upon clicking \"Po\" in the \"Screen Saver\" tab of the \"Display Properties\" dialog box, the dropdown menu opened, revealing a list of available screen savers to choose from. \n",
+        "outcome": "A \"Power Options Properties\" dialog box appeared on top of the \"Display Properties\" dialog box. The \"Screen Saver\" tab within \"Display Properties\" does not display a dropdown menu, buttons, or a checkbox as expected. \n",
+        "label_clicked": "Po"
+    },
+    {
+        "frame": 338,
+        "event": "The mouse clicked on Home/Office Desk.",
+        "timestamp": 21.125,
+        "description": "Upon clicking \"Home/Office Desk\" in the \"Power schemes\" dropdown menu, the option became the actively selected power plan. \n",
+        "outcome": "The \"Power schemes\" dropdown menu changed its selected option from \"Home/Office Desk\" to \"Always On\". \n",
+        "label_clicked": "Home/Office Desk"
+    },
+    {
+        "frame": 374,
+        "event": "The mouse clicked on Presentation.",
+        "timestamp": 23.375,
+        "description": "Upon clicking the \"Presentation\" option within the \"Power Schemes\" dropdown menu, no visual changes were observed besides the selection of \"Presentation\" in the dropdown menu. \n",
+        "outcome": "A \"Keep your computer up to date\" notification window appeared at the bottom of the screen. Simultaneously, the \"System hibernates\" dropdown menu expanded to display its options. \n",
+        "label_clicked": "Presentation"
+    },
+    {
+        "frame": 437,
+        "event": "The mouse clicked on NE.",
+        "timestamp": 27.3125,
+        "description": "Upon clicking \"NE\", the \"Power Options Properties\" dialog box closed. \n",
+        "outcome": "A yellow notification balloon titled \"Keep your computer up to date\" appeared in the bottom right corner of the screen. \n",
+        "label_clicked": "NE"
+    },
+    {
+        "frame": 482,
+        "event": "The mouse clicked on ApplN.",
+        "timestamp": 30.125,
+        "description": "Upon clicking \"ApplN\", no visual changes occurred in the \"Power Options Properties\" dialog box. \n",
+        "outcome": "A yellow pop-up window titled \"Keep your computer up to date\" appeared at the bottom of the screen, with the \"OK\" button highlighted. \n",
+        "label_clicked": "ApplN"
+    },
+    {
+        "frame": 516,
+        "event": "The user clicked the mouse.",
+        "timestamp": 32.25,
+        "description": "Upon clicking the mouse, the provided information does not specify what element was clicked.  Further details are required to describe the interaction. \n",
+        "outcome": "The \"Power Options Properties\" dialog, including its tab control, power schemes dropdown, \"Save As\" and \"Delete\" buttons, settings section, and standard dialog buttons, disappeared from view. \n"
+    },
+    {
+        "frame": 545,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 34.0625,
+        "description": "Upon clicking the \"OK\" button, the Windows Display Properties dialog box closed. \n",
+        "outcome": "The provided observation sequence is empty, stating only that a Windows Display Properties dialog box is missing. Therefore, no UI state changes can be analyzed or summarized. \n",
+        "label_clicked": "OK"
+    }
+]

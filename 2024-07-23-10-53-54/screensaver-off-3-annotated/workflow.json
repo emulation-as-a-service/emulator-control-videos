@@ -1,0 +1,87 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Control' and 'Escape' keys simultaneously.",
+        "expected_results": "The Start menu will open, displaying program shortcuts and system options. The Start button will appear depressed."
+    },
+    {
+        "precondition": "The Windows desktop is visible.",
+        "action": "Press the 'Alt' and 'C' keys simultaneously.",
+        "expected_results": "No visual changes will occur on the Windows desktop."
+    },
+    {
+        "precondition": "The Windows desktop is visible.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The Start button will become highlighted, and the Start Menu will open, displaying program shortcuts and system options."
+    },
+    {
+        "precondition": "The application is running and the mouse cursor is visible.",
+        "action": "Press the 'C' key.",
+        "expected_results": "The mouse cursor will change to an hourglass icon."
+    },
+    {
+        "precondition": "The Control Panel window is open.",
+        "action": "Press the 'Right Arrow' key.",
+        "expected_results": "No visual changes will occur in the Control Panel window."
+    },
+    {
+        "precondition": "The Control Panel window is active and displaying icons in the main area.",
+        "action": "Press the 'Right Arrow' key.",
+        "expected_results": "The focus will shift to highlight the next icon to the right in the Control Panel's main area."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is in \"Classic View\" with icons displayed.",
+        "action": "Hover the mouse cursor over the icons labeled \"Mouse\" and \"Network Connections\".",
+        "expected_results": "A tooltip will appear displaying the text \"Install or remove programs and Windows components.\""
+    },
+    {
+        "precondition": "The Control Panel window is open.",
+        "action": "Press the 'Enter' key.",
+        "expected_results": "A new window titled 'Power Options Properties' will open."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open and the 'Power Schemes' tab is active.",
+        "action": "Click the 'System hibernates' dropdown menu.",
+        "expected_results": "The dropdown menu will expand, showing a list of hibernation time options."
+    },
+    {
+        "precondition": "The 'System hibernates' dropdown menu is expanded.",
+        "action": "Click the 'After 4 hours' option.",
+        "expected_results": "The dropdown menu will collapse, displaying 'After 4 hours' as the selected option."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is visible.",
+        "action": "Click anywhere within the \"Power Options Properties\" dialog box.",
+        "expected_results": "The dialog box will come into focus, and the system clock in the bottom right corner will update."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Power Options Properties' dialog box will close."
+    },
+    {
+        "precondition": "The Control Panel window is open.",
+        "action": "Click the 'Display' icon.",
+        "expected_results": "A dialog box titled 'Display Properties' will open. The address bar will update to 'Display Properties'."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open with the 'Themes' tab active.",
+        "action": "Click the 'Screen Saver' tab.",
+        "expected_results": "The 'Screen Saver' tab will become active, displaying screen saver settings."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab of the 'Display Properties' dialog box is open.",
+        "action": "Click the dropdown menu below the screen saver preview.",
+        "expected_results": "A list of available screen saver options will appear."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box with the 'Screen Saver' tab selected is visible.",
+        "action": "Click anywhere on the desktop outside the 'Display Properties' dialog box.",
+        "expected_results": "The 'Display Properties' dialog box will close."
+    },
+    {
+        "precondition": "The Windows Control Panel is visible in \"Category View.\"",
+        "action": "Click the 'Start' button located in the bottom left corner of the screen.",
+        "expected_results": "The screen will transition to the Windows Start Menu."
+    }
+]

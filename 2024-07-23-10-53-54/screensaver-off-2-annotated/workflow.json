@@ -1,0 +1,62 @@
+[
+    {
+        "precondition": "The Windows XP desktop is displayed.",
+        "action": "Click an empty area of the desktop background.",
+        "expected_results": "No immediate visual changes will occur."
+    },
+    {
+        "precondition": "A context menu is open on the Windows desktop.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The context menu will close, and the 'Display Properties' dialog box will open."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open and the 'Themes' tab is selected.",
+        "action": "Click the 'Appearance' tab.",
+        "expected_results": "The 'Active Window' preview will change to display the Windows XP default background image. The 'Save As...' and 'Delete' buttons will disappear."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open and the 'Screen Saver' tab is active.",
+        "action": "Click the dropdown menu labeled 'Screen Saver'.",
+        "expected_results": "The screensaver dropdown menu will expand, displaying a list of available options."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open, and the 'Screen Saver' tab is active.",
+        "action": "Click anywhere outside of the 'Display Properties' dialog box.",
+        "expected_results": "A notification window about keeping the computer up-to-date will appear in the bottom left corner of the screen."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab of the \"Display Properties\" dialog box is open.",
+        "action": "Click the \"Power\" button.",
+        "expected_results": "The \"Power Options Properties\" dialog box will open."
+    },
+    {
+        "precondition": "The 'Power schemes' dropdown menu is visible in the 'Power Options Properties' dialog box.",
+        "action": "Click the 'Power schemes' dropdown menu and select 'Home/Office Desk'.",
+        "expected_results": "The selected power plan will change to 'Home/Office Desk'."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open and the 'Power Schemes' tab is active.",
+        "action": "Click the 'Power Schemes' dropdown menu and select 'Presentation'.",
+        "expected_results": "The 'Presentation' power scheme will be selected."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open.",
+        "action": "Click the button labeled 'NE'.",
+        "expected_results": "The 'Power Options Properties' dialog box will close. A yellow notification balloon titled 'Keep your computer up to date' will appear in the bottom right corner of the screen."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open.",
+        "action": "Click the button labeled 'ApplN'.",
+        "expected_results": "A yellow pop-up window titled 'Keep your computer up to date' will appear at the bottom of the screen."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog is open.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Power Options Properties' dialog will close."
+    },
+    {
+        "precondition": "The 'Windows Display Properties' dialog box is open.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Windows Display Properties' dialog box will close."
+    }
+]

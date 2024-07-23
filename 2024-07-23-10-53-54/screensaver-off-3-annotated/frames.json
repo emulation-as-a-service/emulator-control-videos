@@ -1,0 +1,450 @@
+[
+    {
+        "frame": 36,
+        "timestamp": 2.25,
+        "event": {
+            "time": 2301,
+            "event": "keyspressed",
+            "keys": [
+                "Control_L",
+                "Escape"
+            ]
+        },
+        "type": "event",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ],
+        "description": "This appears to be a classic Windows operating system desktop, likely Windows XP.\n\nAt the bottom, you have the **taskbar**. \n* On the left, the **Start button** provides access to the **Start menu** for launching programs and system settings. \n* The right side displays the **system tray** with icons for background processes, network status, volume control, and the current time. \n\nThe large blue area is the **desktop**, where you can place shortcuts to frequently used files and programs. The **mouse cursor** indicates you can interact with elements on the screen by clicking. \n\nNotably absent are any open windows or applications, suggesting this is a fresh session or one where all programs have been minimized. \n",
+        "screenshot": "frame-36-keyspressed.png",
+        "screenshot_annotated": "frame-36-keyspressed-layout.png"
+    },
+    {
+        "frame": 38,
+        "timestamp": 2.375,
+        "event": null,
+        "type": "change",
+        "description": "- **New Elements:** The **Start menu** is now visible, displaying program shortcuts and options like \"Log Off\", \"Turn Off Computer\", \"All Programs\", etc. \n- **Layout/Appearance Changes:** The **Start button** is visually depressed, indicating it's being actively pressed. \n",
+        "screenshot": "frame-38.png"
+    },
+    {
+        "frame": 98,
+        "timestamp": 6.125,
+        "event": {
+            "time": 6127,
+            "event": "keyspressed",
+            "keys": [
+                "Alt_L",
+                "c"
+            ]
+        },
+        "type": "event",
+        "key_pressed": [
+            "Alt_L",
+            "c"
+        ],
+        "description": "This appears to be a classic Windows operating system desktop, likely Windows XP. \n\nAt the bottom, you have the **taskbar**. On the left side is the **Start button**, your gateway to the program menu.  On the right, you have the **system tray** with icons for notifications and background processes, and the current time.\n\nThe **desktop** itself is entirely empty, with only the \"Recycle Bin\" icon present. This suggests a fresh or minimally used system.  There are no shortcuts or documents visible. \n\nTo launch programs or access files, you'll primarily use the **Start menu** accessed via the button in the bottom-left corner. \n",
+        "screenshot": "frame-98-keyspressed.png",
+        "screenshot_annotated": "frame-98-keyspressed-layout.png"
+    },
+    {
+        "frame": 127,
+        "timestamp": 7.9375,
+        "event": {
+            "time": 7969,
+            "event": "keyspressed",
+            "keys": [
+                "Control_L",
+                "Escape"
+            ]
+        },
+        "type": "event",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ],
+        "description": "This is a clean desktop of an older Windows operating system, likely Windows XP. \n\nAt the bottom, you have the **taskbar**, a standard element in Windows OS.  On the left is the **Start button**, the primary access point for programs, settings, and files. On the right, you have the **system tray** with icons for volume control, network connectivity, and security status, as well as a **clock**.\n\nThe only other element on the desktop is the **Recycle Bin**, used for storing deleted files.  \n\nThe minimalist design suggests this is a fresh installation or a system where users primarily access applications through the Start menu. \n",
+        "screenshot": "frame-127-keyspressed.png",
+        "screenshot_annotated": "frame-127-keyspressed-layout.png"
+    },
+    {
+        "frame": 128,
+        "timestamp": 8.0,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: The Start Menu is now visible, displaying program shortcuts and system options. \n- Layout/Appearance Changes: The Start button, described as being on the left side of the taskbar, is now visually highlighted, indicating it has been pressed. \n",
+        "screenshot": "frame-128.png"
+    },
+    {
+        "frame": 155,
+        "timestamp": 9.6875,
+        "event": {
+            "time": 9697,
+            "event": "keyspressed",
+            "keys": [
+                "c"
+            ]
+        },
+        "type": "event",
+        "key_pressed": [
+            "c"
+        ],
+        "description": "This screenshot showcases a customized Windows XP Start Menu, likely part of a software skin or theme called \"Rhizome\". \n\nHere's a breakdown:\n\n- **Start Button & Menu:** The \"Start\" button, located in the bottom left corner, functions as the primary access point for programs, settings, and common tasks.  Clicking it reveals a two-columned Start Menu.\n- **Program Shortcuts:** The left column lists shortcuts to frequently used applications like Internet Explorer and Windows Media Player.  Notice the \"All Programs\" entry with a right arrow; this indicates a nested menu containing additional software shortcuts.\n- **System Folders & Tools:** The right column provides access to key system folders (\"My Documents\", \"My Computer\"), the Control Panel, and utilities like \"Search\" and \"Run...\".\n- **Taskbar:** The bar at the bottom of the screen is the Taskbar.  It houses the \"Start\" button, system tray (containing icons for volume, network, and time), and likely a notification area (not visible in this image).  \n- **Desktop & Recycle Bin:** The blue background is the Desktop, analogous to a physical workspace.  The \"Recycle Bin\" icon indicates where deleted files are temporarily stored before permanent removal.\n\nNotable Customizations:\n\n- **Visual Theme:** The blue color scheme and rounded menu corners suggest a visual theme applied on top of the standard Windows XP interface.\n- **\"Rhizome\" Branding:** The presence of the \"Rhizome\" name implies this is either a custom operating system build or a heavily customized theme.\n\nOverall, while visually distinct, this interface retains the core functionality of a typical Windows XP system, making it navigable for users familiar with that operating system. \n",
+        "screenshot": "frame-155-keyspressed.png",
+        "screenshot_annotated": "frame-155-keyspressed-layout.png"
+    },
+    {
+        "frame": 156,
+        "timestamp": 9.75,
+        "event": null,
+        "type": "change",
+        "description": "- **Layout/Appearance Changes:** The mouse cursor, described as being absent in the textual description, is now visible on the screen and displaying an hourglass icon. \n",
+        "screenshot": "frame-156.png"
+    },
+    {
+        "frame": 482,
+        "timestamp": 30.125,
+        "event": {
+            "time": 30158,
+            "event": "keyspressed",
+            "keys": [
+                "Right"
+            ]
+        },
+        "type": "event",
+        "key_pressed": [
+            "Right"
+        ],
+        "description": "This is the classic Windows XP Control Panel interface. It features a standard window with a title bar, menu bar, and toolbar at the top. The toolbar offers basic navigation options like \"Back,\" \"Search,\" and \"Folders.\"\n\nThe main area displays system settings using a combination of icons and labels. Each icon represents a specific control panel applet, providing access to configure various aspects of the operating system. For example, clicking the \"Display\" icon would open a dialog box for customizing screen resolution, color depth, and other display settings.\n\nOn the left, you'll find two expandable sections: \"Control Panel\" and \"See Also.\" The \"Control Panel\" section offers a \"Switch to Category View\" option, which presents the control panel applets grouped by category instead of the current icon view. The \"See Also\" section provides quick links to \"Windows Update\" and \"Help and Support.\" \n\nThe taskbar at the bottom shows currently running applications, including a shortcut to the \"Start\" menu and the active \"Control Panel\" window. \n",
+        "screenshot": "frame-482-keyspressed.png",
+        "screenshot_annotated": "frame-482-keyspressed-layout.png"
+    },
+    {
+        "frame": 484,
+        "timestamp": 30.25,
+        "event": {
+            "time": 30304,
+            "event": "keyspressed",
+            "keys": [
+                "Right"
+            ]
+        },
+        "type": "event",
+        "key_pressed": [
+            "Right"
+        ],
+        "description": "This is the classic Windows Control Panel interface, displaying system settings and configuration options. \n\nAt the top, you have a standard window with a **title bar** showing \"Control Panel\" and typical window controls (minimize, maximize, close). Below that is a **menu bar** (\"File,\" \"Edit,\" \"View,\" etc.) and a **toolbar** with navigation buttons (\"Back,\" \"Forward,\" \"Search,\" \"Folders\"). The **address bar** shows your current location within the Control Panel hierarchy.\n\nThe main area presents a collection of **icons**, each representing a specific control panel applet. These applets provide access to various system settings. For instance, \"Display\" modifies screen resolution, \"Printers and Faxes\" manages printing devices, and \"Network Connections\" configures network settings. \n\nOn the left, you'll find two **navigation panes**:\n\n* **\"Control Panel\"**: This pane likely offers options to switch between different Control Panel views, such as \"Category View\" for grouping similar settings or \"Classic View\" for a more traditional icon-based layout.\n* **\"See Also\"**: This pane provides quick links to related system utilities like \"Windows Update\" and \"Help and Support.\"\n\nFinally, the bottom of the screen shows the **taskbar**, indicating currently running programs and providing access to the \"Start\" menu, quick launch icons, system tray icons (like time and volume), and notifications. \n",
+        "screenshot": "frame-484-keyspressed.png",
+        "screenshot_annotated": "frame-484-keyspressed-layout.png"
+    },
+    {
+        "frame": 486,
+        "timestamp": 30.375,
+        "event": null,
+        "type": "change",
+        "description": "- **New Elements:** A mouse cursor, not mentioned in the description, is visible near the bottom of the screen. \n- **Missing Elements:**  The description mentions a \"Welcome\" message in the center of the screen, which is not present in the screenshot.\n- **Content Changes:** None.\n- **Layout/Appearance Changes:** None. \n",
+        "screenshot": "frame-486.png"
+    },
+    {
+        "frame": 525,
+        "timestamp": 32.8125,
+        "event": {
+            "time": 32851,
+            "event": "keyspressed",
+            "keys": [
+                "p",
+                "o"
+            ]
+        },
+        "type": "event",
+        "key_pressed": [
+            "p",
+            "o"
+        ],
+        "description": "This screenshot shows the Windows XP Control Panel in \"Classic View.\"  At the top, you have the standard Windows title bar and menu bar. Below that, the \"Address\" bar shows the current location within the Control Panel.\n\nOn the left are two expandable/collapsible navigation panels:\n\n- **\"Control Panel\"**: This panel likely offers a different view option, \"Switch to Category View,\" which groups control panel icons by function.\n- **\"See Also\"**: This panel provides quick links to \"Windows Update\" and \"Help and Support.\"\n\nThe main area displays the available Control Panel applets as icons. Hovering over an icon displays a \"tooltip\" with its name and a brief description. For example, hovering over \"Add or Remove Programs\" reveals its purpose: \"Install or remove programs and Windows components.\" \n\nDouble-clicking any icon will open that specific Control Panel applet, allowing you to configure various system settings. \n",
+        "screenshot": "frame-525-keyspressed.png",
+        "screenshot_annotated": "frame-525-keyspressed-layout.png"
+    },
+    {
+        "frame": 528,
+        "timestamp": 33.0,
+        "event": null,
+        "type": "change",
+        "description": "- **New Elements:** A tooltip reading \"Install or remove programs and Windows components.\" is present, overlapping the \"Mouse\" and \"Network Connections\" icons. \n\n- **Missing Elements:**  None.\n\n- **Content Changes:** None.\n\n- **Layout/Appearance Changes:** None. \n",
+        "screenshot": "frame-528.png"
+    },
+    {
+        "frame": 552,
+        "timestamp": 34.5,
+        "event": {
+            "time": 34504,
+            "event": "keyspressed",
+            "keys": [
+                "Return"
+            ]
+        },
+        "type": "event",
+        "key_pressed": [
+            "Return"
+        ],
+        "description": "This is the classic Windows XP Control Panel, the central hub for configuring system settings. \n\nAt the top, you have a standard Windows window with a **title bar** displaying \"Control Panel,\" **menu bar** options (File, Edit, View, etc.), a **toolbar** with navigation buttons (Back, Forward) and a **search bar**, and common window controls (minimize, maximize, close).\n\nBelow that, the Control Panel itself is divided into three sections:\n\n1. **Navigation Pane (left):** This pane offers two collapsible sections:\n    - \"Control Panel\" with an option to \"Switch to Category View,\" suggesting an alternative view for organizing the settings icons.\n    - \"See Also,\" providing quick links to \"Windows Update\" and \"Help and Support.\"\n\n2. **Settings Icons (center):** This area displays a grid of icons, each representing a specific system setting category (e.g., \"Display,\" \"Printers and Faxes,\" \"User Accounts\"). Clicking an icon opens the corresponding settings dialog box or window.\n\n3. **Status Bar (bottom):** This bar displays the active window (\"Control Panel\") and the system time. Note the small icons on the right, likely indicating active system processes or notifications. \n\nThis interface prioritizes direct access to system settings through clearly labeled icons. It leverages familiar Windows UI elements for navigation and interaction. \n",
+        "screenshot": "frame-552-keyspressed.png",
+        "screenshot_annotated": "frame-552-keyspressed-layout.png"
+    },
+    {
+        "frame": 586,
+        "timestamp": 36.625,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:** The **title bar** now reads \"Power Options Properties\" instead of \"Control Panel.\"\n\n- **New Elements:**  A new window titled \"Power Options Properties\" is layered over the Control Panel. This window has its own **title bar**, **menu bar**, **toolbar**, and window controls. \n",
+        "screenshot": "frame-586.png"
+    },
+    {
+        "frame": 647,
+        "timestamp": 40.4375,
+        "event": {
+            "time": 40491,
+            "event": "mousedown",
+            "x": 291,
+            "y": 271
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "This is a classic Windows XP dialog box titled \"Power Options Properties.\" \n\nAt the top, you have a standard window title bar with minimize, maximize/restore, and close buttons. Below that is a tabbed interface. Currently, the \"Power Schemes\" tab is active, with \"Advanced,\" \"Hibernate,\" and \"UPS\" being the other available tabs. \n\nThe main area of this dialog box presents a \"Power schemes\" dropdown menu. This allows you to select a predefined power plan, in this case, \"Home/Office Desk.\"  You can modify the settings for this selected power plan in the section below, which includes adjustable dropdown menus for \"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates.\"\n\nAdditionally, there are \"Save As...\" and \"Delete\" buttons next to the dropdown menu, enabling you to create custom power schemes or remove existing ones. \n\nFinally, at the bottom, you have the standard \"OK,\" \"Cancel,\" and \"Apply\" buttons for confirming, discarding, or applying changes, respectively. \n",
+        "screenshot": "frame-647-mousedown.png",
+        "screenshot_annotated": "frame-647-mousedown-layout.png"
+    },
+    {
+        "frame": 650,
+        "timestamp": 40.625,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The time displayed on the system tray clock has changed from \"11:05 AM\" to \"11:05 AM\". While both display the same time, the change in seconds, even if zero, represents a content update. \n",
+        "screenshot": "frame-650.png"
+    },
+    {
+        "frame": 662,
+        "timestamp": 41.375,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The \"Turn off hard disks\" dropdown menu now displays \"After 1 min\" instead of the initially described \"After 20 mins.\" \n- Layout/Appearance Changes:\n    - The \"Turn off hard disks\" dropdown menu is now expanded and displaying its options, whereas the initial description does not specify it being open. \n",
+        "screenshot": "frame-662.png"
+    },
+    {
+        "frame": 667,
+        "timestamp": 41.6875,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes:\n    - The \"Turn off hard disks\" dropdown menu now displays \"After 3 mins\" as the selected option. \n    - The time displayed on the system tray clock has changed to \"11:05 AM\". \n",
+        "screenshot": "frame-667.png"
+    },
+    {
+        "frame": 669,
+        "timestamp": 41.8125,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The \"System hibernates\" dropdown menu now displays \"After 2 hours\" as the selected option, whereas the initial description did not specify a selected option. \n    - The time displayed on the system tray clock has changed to 11:05 AM from an unspecified time. \n",
+        "screenshot": "frame-669.png"
+    },
+    {
+        "frame": 671,
+        "timestamp": 41.9375,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The \"System hibernates\" dropdown menu, initially described as being set to an unspecified value, now displays \"After 4 hours\" as the selected option. \n    - The time on the system tray clock has changed from 11:05 AM to 11:05 AM. \n",
+        "screenshot": "frame-671.png"
+    },
+    {
+        "frame": 679,
+        "timestamp": 42.4375,
+        "event": {
+            "time": 42419,
+            "event": "mousedown",
+            "x": 227,
+            "y": 483
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "This is a Windows XP \"Power Options Properties\" dialog box. \n\nAt the top, a tabbed navigation bar offers access to \"Power Schemes,\" \"Advanced,\" \"Hibernate,\" and \"UPS\" settings, indicating this software manages power-related configurations.\n\nThe main section features a dropdown menu to select a \"Power scheme\" with \"Home/Office Desk\" currently active.  Below, adjustable settings specific to this power scheme appear, like \"Turn off monitor\" and \"System hibernates.\" Each setting uses a dropdown menu to choose a time delay before the action occurs.\n\nStandard dialog box buttons \"Save As...\" and \"Delete\" allow for power scheme management.  \n\nIn the background, a partially obscured window reveals the familiar Windows XP Control Panel interface, suggesting this dialog is nested within the broader system settings. \n",
+        "screenshot": "frame-679-mousedown.png",
+        "screenshot_annotated": "frame-679-mousedown-layout.png"
+    },
+    {
+        "frame": 682,
+        "timestamp": 42.625,
+        "event": null,
+        "type": "change",
+        "description": "Content Changes:\n- The system clock in the bottom right corner now displays \"11:05 AM\". The initial description did not provide the time. \n",
+        "screenshot": "frame-682.png"
+    },
+    {
+        "frame": 708,
+        "timestamp": 44.25,
+        "event": {
+            "time": 44252,
+            "event": "mousedown",
+            "x": 223,
+            "y": 450
+        },
+        "type": "event",
+        "label_clicked": "OK",
+        "description": "This is a classic Windows XP dialog box titled \"Power Options Properties.\" It's divided into two main sections:\n\n**Left Section: Power Scheme Management**\n\n* **Tab Group:** Located at the top, this group likely contains additional tabs like \"Advanced,\" \"Hibernate,\" and \"UPS\" for configuring related power settings.\n* **Power Scheme Dropdown:** This dropdown lets you choose a pre-configured power scheme. The currently selected scheme is \"Home/Office Desk.\"\n* **Scheme Action Buttons:** The \"Save As...\" button allows you to create a custom scheme based on the current settings, while \"Delete\" removes the selected scheme.\n* **Settings List:** This list displays adjustable parameters specific to the chosen power scheme. Each parameter (e.g., \"Turn off monitor,\" \"System standby\") has a corresponding dropdown menu to set the desired time interval.\n\n**Right Section: Control Panel Navigation**\n\nThis section appears to be an embedded instance of the Windows XP Control Panel, providing quick access to other system settings. It features:\n\n* **Address Bar:** The bar at the top likely shows the current location within the Control Panel hierarchy. The green arrow buttons suggest navigation history functionality.\n* **Icon Grid:** This grid displays various Control Panel icons, each representing a different system setting category. \n\n**Bottom Section: Standard Dialog Buttons**\n\n* **OK, Cancel, Apply:** These buttons have their typical functionality \u2013 \"OK\" applies changes and closes the dialog, \"Cancel\" discards any modifications, and \"Apply\" implements changes without closing the window. \n",
+        "screenshot": "frame-708-mousedown.png",
+        "screenshot_annotated": "frame-708-mousedown-layout.png"
+    },
+    {
+        "frame": 710,
+        "timestamp": 44.375,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:**\n    - The \"OK\" button now appears pressed or highlighted. \n",
+        "screenshot": "frame-710.png"
+    },
+    {
+        "frame": 753,
+        "timestamp": 47.0625,
+        "event": {
+            "time": 47.247,
+            "event": "doubleclick",
+            "x": 687,
+            "y": 130
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "This screenshot showcases the classic Windows Control Panel interface. \n\nAt the top, you have a standard window with a **title bar** displaying \"Control Panel\" and typical window controls for minimizing, maximizing, and closing the window. Below that is a **menu bar** with options like \"File,\" \"Edit,\" \"View,\" etc. This menu bar offers actions and customizations applicable to the current view.  The **toolbar** underneath provides quick access to common actions like \"Back,\" \"Search,\" and \"Folders.\" The **address bar** shows the current location within the Control Panel.\n\nThe main area presents a collection of **icons**, each representing a different system setting category.  For instance, clicking the \"Display\" icon would open a **dialog box** or a new window where you can adjust screen resolution, color settings, and other display-related options. \n\nOn the left, you'll find two **navigation panes**:\n\n* **\"Control Panel\"**: This pane offers a \"Switch to Category View\" option, which likely toggles between displaying settings as icons or grouping them into categories.\n* **\"See Also\"**: This pane provides quick links to \"Windows Update\" and \"Help and Support.\"\n\nFinally, the bottom of the screen shows the **taskbar** with the \"Start\" button, the currently active window (Control Panel), and the system **notification area** (system tray) displaying the time and active system icons. \n",
+        "screenshot": "frame-753-doubleclick.png",
+        "screenshot_annotated": "frame-753-doubleclick-layout.png"
+    },
+    {
+        "frame": 777,
+        "timestamp": 48.5625,
+        "event": null,
+        "type": "change",
+        "description": "- **New Elements:**\n    - A dialog box titled \"Active Window\" is now open. This dialog box contains elements for customizing \"Normal,\" \"Disabled,\" and \"Selected\" window appearances, as well as a text field labeled \"Window Text.\"\n\n- **Missing Elements:** \n    - None\n\n- **Content Changes:** \n    - The address bar now displays \"Display Properties\" instead of the general \"Control Panel\" location.\n\n- **Layout/Appearance Changes:** \n    - None \n",
+        "screenshot": "frame-777.png"
+    },
+    {
+        "frame": 805,
+        "timestamp": 50.3125,
+        "event": {
+            "time": 50304,
+            "event": "mousedown",
+            "x": 189,
+            "y": 95
+        },
+        "type": "event",
+        "label_clicked": "Desktop Screen Saver AppearanceSettings",
+        "description": "This is the Windows XP Display Properties dialog box, accessed through the Control Panel. It's used to customize the visual appearance of the Windows interface. \n\nHere's a breakdown:\n\n* **Top Toolbar:** Standard window controls (Minimize, Maximize, Close) and a Help button (with a question mark icon).\n* **Title Bar:** Displays \"Display Properties\" indicating the dialog's purpose.\n* **Navigation Tabs:** Located below the title bar \u2013 \"Themes,\" \"Desktop,\" \"Screen Saver,\" \"Appearance,\" and \"Settings.\" These let you switch between different customization categories.\n* **Main Window:** The area below the tabs changes content based on the selected tab. In the screenshot, the \"Themes\" tab is active.\n* **Themes Tab:**\n    * **Dropdown Menu:** Lets you select a pre-defined theme (\"Windows XP (Modified)\" is currently selected).\n    * **\"Save As...\" Button:** Allows saving your customized theme for later use.\n    * **\"Delete\" Button:** Removes the currently selected theme (if it's a custom one).\n    * **Preview Pane:** The large area showing a sample window (\"Active Window\" and \"Window Text\") provides a real-time preview of how selected theme elements look.\n* **Control Panel Navigation Area:**  Visible on the right, this area lists various system configuration categories. Each icon represents a specific Control Panel applet, allowing you to navigate to other system settings.\n* **Taskbar:** Located at the bottom, displaying active applications (\"Start\" and \"Control Panel\") and system information (time, volume, network status).\n\nThe screenshot captures a specific moment within the Display Properties dialog, focused on the \"Themes\" tab. Other tabs will offer different customization options related to desktop background, screen savers, window colors, and more. \n",
+        "screenshot": "frame-805-mousedown.png",
+        "screenshot_annotated": "frame-805-mousedown-layout.png"
+    },
+    {
+        "frame": 821,
+        "timestamp": 51.3125,
+        "event": null,
+        "type": "change",
+        "description": "- **Missing Elements:**\n    - The dropdown menu for selecting themes is not present in the screenshot.\n    - The \"Save As...\" button is not present.\n    - The \"Delete\" button is not present. \n\n- **New Elements:**\n    - A mouse cursor, resembling an arrow, is visible within the main window area. \n\n- **Content Changes:**\n    - The \"Themes\" tab is now marked with a checkmark, indicating it's the active tab. \n- **Layout/Appearance Changes:**\n    - The preview pane now displays a different sample window, showing a blue background and a file explorer window. \n",
+        "screenshot": "frame-821.png"
+    },
+    {
+        "frame": 834,
+        "timestamp": 52.125,
+        "event": {
+            "time": 52180,
+            "event": "mousedown",
+            "x": 182,
+            "y": 318
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "This is the Windows XP Display Properties dialog box, specifically the Screen Saver tab. \n\nAt the top, you have a standard menu bar and a tabbed interface to switch between different display settings categories like \"Themes,\" \"Desktop,\" \"Screen Saver,\" \"Appearance,\" and \"Settings.\"\n\nThe main area displays a preview of your chosen screen saver, which in this case is \"Windows XP.\" You can change this by clicking the dropdown menu and selecting a different one.\n\nBelow, you'll find:\n\n- **Wait:** A numerical input field with up/down arrows to set the delay in minutes before the screen saver activates.\n- **On resume, password protect:** A checkbox to enable password protection upon waking the computer from the screen saver.\n- **Settings:** A button to configure specific settings for the selected screen saver (if applicable).\n- **Preview:** A button to preview the chosen screen saver with the current settings.\n\nFurther down, the \"Monitor power\" section provides a \"Power...\" button, which opens a separate dialog to manage power settings and energy saving features.\n\nFinally, standard dialog box buttons: \"OK\" to apply changes, \"Cancel\" to discard them, and \"Apply\" to apply changes without closing the window. \n",
+        "screenshot": "frame-834-mousedown.png",
+        "screenshot_annotated": "frame-834-mousedown-layout.png"
+    },
+    {
+        "frame": 838,
+        "timestamp": 52.375,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:** The screen saver dropdown menu is expanded, revealing additional options: \"3D Text,\" \"Starfield,\" and a second instance of \"Windows XP.\" \n",
+        "screenshot": "frame-838.png"
+    },
+    {
+        "frame": 853,
+        "timestamp": 53.3125,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The screen saver dropdown menu is expanded, revealing a list of available options. The description only mentioned the initially selected \"Windows XP\" option. \n",
+        "screenshot": "frame-853.png"
+    },
+    {
+        "frame": 857,
+        "timestamp": 53.5625,
+        "event": {
+            "time": 53602,
+            "event": "mousedown",
+            "x": 153,
+            "y": 333
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "This is the Windows XP Display Properties dialog box, specifically the Screen Saver tab. \n\n* **Tab Control:** At the top, you see tabs for \"Themes,\" \"Desktop,\" \"Screen Saver,\" \"Appearance,\" and \"Settings.\" This allows navigation between different sets of display customization options.\n\n* **Dropdown Menu:** A key element is the dropdown menu labeled \"Screen saver.\" It lists various built-in screensavers like \"Windows XP,\" \"3D FlowerBox,\" \"Blank,\" etc.  This lets you choose which screensaver to activate.\n\n* **Settings Button:**  Next to the dropdown is a \"Settings\" button. This button likely leads to a secondary dialog for configuring parameters specific to the selected screensaver (if applicable).\n\n* **Preview Button:**  The \"Preview\" button allows you to see how your chosen screensaver will look in action, without waiting for it to activate automatically.\n\n* **Power Button:**  At the bottom, the \"Power\u2026\" button suggests integration with power management settings. This is where you'd likely find options to adjust screensaver activation time and link it to power-saving modes. \n\nThe dialog box also includes standard buttons: \"Apply\" to implement changes, \"Cancel\" to discard them, and a help button (question mark icon) for context-sensitive assistance. \n",
+        "screenshot": "frame-857-mousedown.png",
+        "screenshot_annotated": "frame-857-mousedown-layout.png"
+    },
+    {
+        "frame": 862,
+        "timestamp": 53.875,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:** The \"Screen saver\" dropdown menu now displays \"[None]\" as the selected option. Previously, no specific selection was mentioned.\n\n- **Content Changes:** The \"Wait:\" field now shows \"10\" minutes. The initial description did not specify a value for this field. \n",
+        "screenshot": "frame-862.png"
+    },
+    {
+        "frame": 864,
+        "timestamp": 54.0,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:** \n    - The \"Screen saver\" dropdown menu now displays \"[None]\" as the selected item. \n    - The numerical field next to \"Wait\" now shows \"10\". \n",
+        "screenshot": "frame-864.png"
+    },
+    {
+        "frame": 930,
+        "timestamp": 58.125,
+        "event": null,
+        "type": "change",
+        "description": "- **Content Changes:**  The \"Screen saver\" dropdown menu now displays \"(None)\" as the selected screensaver. The initial description does not specify a selected screensaver.\n- **Content Changes:** The \"Wait:\" time is set to \"10\" minutes. The initial description does not specify a wait time. \n",
+        "screenshot": "frame-930.png"
+    },
+    {
+        "frame": 932,
+        "timestamp": 58.25,
+        "event": null,
+        "type": "change",
+        "description": "Missing Elements:\n- The entire Display Properties dialog box, including the \"Screen Saver\" tab and its associated elements (Tab Control, Dropdown Menu, Settings Button, Preview Button, Power Button, Apply button, Cancel button, and help button) are not present in the screenshot. \n",
+        "screenshot": "frame-932.png"
+    },
+    {
+        "frame": 967,
+        "timestamp": 60.4375,
+        "event": {
+            "time": 60469,
+            "event": "mousedown",
+            "x": 790,
+            "y": 10
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "This is the Windows Control Panel, displayed in the classic \"Category View.\" At the top, you have a standard Windows window with a title bar, menu bar, and toolbar. The toolbar offers basic navigation options like \"Back\" and \"Forward,\" as well as a \"Search\" field and \"Folders\" dropdown for file system navigation.\n\nOn the left are two expandable panels:\n\n1. **\"Control Panel\"**: This panel likely offers a way to switch to the alternative \"Classic View\" with all control panel icons displayed directly.\n2. **\"See Also\"**: This panel provides quick links to \"Windows Update\" and \"Help and Support.\"\n\nThe main area displays icons representing various system settings categories.  Clicking an icon opens the corresponding settings module. For instance, clicking \"Display\" will open the display settings dialog box. \n",
+        "screenshot": "frame-967-mousedown.png",
+        "screenshot_annotated": "frame-967-mousedown-layout.png"
+    },
+    {
+        "frame": 972,
+        "timestamp": 60.75,
+        "event": null,
+        "type": "change",
+        "description": "Missing Elements:\n\n- The standard Windows window elements (title bar, menu bar, toolbar) described at the top are not present in the screenshot.\n- The \"Back,\" \"Forward,\" \"Search,\" and \"Folders\" elements within the toolbar are not present.\n- The two expandable panels on the left (\"Control Panel\" and \"See Also\") are not present.\n- The icons representing system settings categories in the main area are not present. \n\nNew Elements:\n\n- A blue background fills the entire screen.\n- A \"Start\" button is present in the bottom left corner.\n- A \"Control Panel\" button is present next to the \"Start\" button. \n- A \"Recycle Bin\" icon is present in the bottom right corner.\n- A clock displaying the time \"11:05 AM\" is present in the bottom right corner.\n- Several system tray icons (a yellow shield, a black and white monitor, a red shield with an 'x') are present in the bottom right corner. \n",
+        "screenshot": "frame-972.png"
+    }
+]

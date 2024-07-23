@@ -1,0 +1,57 @@
+[
+    {
+        "precondition": "The mouse cursor is hovering over the desktop.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu labeled 'Arrange Icons By \u25b8' will appear, containing options such as 'Refresh', 'Paste Shortcut', 'New', and 'Properties'. The cursor will change to a pointer hand shape."
+    },
+    {
+        "precondition": "The context menu on the desktop is open.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The context menu will close and the 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The 'Appearance' tab in the 'Display Properties' dialog box is open.",
+        "action": "Click on the 'Windows Classic' theme.",
+        "expected_results": "The 'Active Window' preview will update to the 'Windows Classic' style, the 'Save As...' button will disappear, and a Recycle Bin icon will appear on the preview."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open with the 'Themes' tab active.",
+        "action": "Click the 'Screen Saver' tab.",
+        "expected_results": "The 'Screen Saver' tab will become active. The content area will change to display screen saver settings, including a 'Screen Saver' dropdown menu, a 'Wait' input field, a 'Settings' button, and a 'Preview' button."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open, and the 'Screen Saver' tab is active.",
+        "action": "Click the 'Screen saver' dropdown menu.",
+        "expected_results": "A list of screensaver options will appear. The 'Settings' button will become inactive."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab in the 'Display Properties' dialog box is open.",
+        "action": "Click the 'Screen saver' dropdown menu and select '3D FlowerBox'.",
+        "expected_results": "The 'Screen Saver' dropdown menu will display '3D FlowerBox', the 'Wait' spinbox will change to '10', and the 'Settings' button will become active."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab of the 'Display Properties' dialog box is open.",
+        "action": "Click the 'Apply' button.",
+        "expected_results": "The selected screen saver settings will be applied."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab in the 'Display Properties' dialog box is open.",
+        "action": "Click the 'Power' button.",
+        "expected_results": "The 'Power Options Properties' dialog box will appear."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'Home/Office Desk' power scheme is selected.",
+        "action": "Click the 'Turn off monitor' dropdown menu and select 'After 5 hours'.",
+        "expected_results": "The monitor will automatically turn off after 5 hours of inactivity when using the 'Home/Office Desk' power scheme."
+    },
+    {
+        "precondition": "A dialog box titled 'Display Properties' is partially visible in the background.",
+        "action": "Click on the title bar of the 'Display Properties' dialog box.",
+        "expected_results": "The 'Display Properties' dialog box will move to the foreground and become fully visible."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open.",
+        "action": "Click the button labeled 'OK'.",
+        "expected_results": "The 'Display Properties' dialog box will close."
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "precondition": "The Start button is visible on the taskbar.",
+        "action": "Click the Start button.",
+        "expected_results": "The Start Menu will open, displaying program shortcuts and system options."
+    },
+    {
+        "precondition": "The Start Menu is visible.",
+        "action": "Click the 'ContrqPanel' label in the right pane of the Start Menu.",
+        "expected_results": "The Start Menu will close, and the Control Panel window will open. The active window indicator on the taskbar will change to 'Control Panel'."
+    },
+    {
+        "precondition": "The Control Panel is in 'Category View' and the mouse cursor is hovering over the 'Appearance and Themes' category icon.",
+        "action": "Move the mouse cursor away from the 'Appearance and Themes' category icon.",
+        "expected_results": "The tooltip with the text 'Appearance and Themes' will disappear."
+    },
+    {
+        "precondition": "The 'Display' icon in the Control Panel Icon View is visible within the main content area.",
+        "action": "Click the 'Display' icon.",
+        "expected_results": "The main content area will display the 'Screen Saver' settings within the 'Display Properties' section. A monitor preview and the active 'Screen Saver' tab will be visible."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open and the 'Screen Saver' tab is active.",
+        "action": "Click the 'Screen saver' dropdown list.",
+        "expected_results": "The dropdown list will expand, showing a list of available screen savers."
+    },
+    {
+        "precondition": "The 'Screen saver' dropdown list is expanded.",
+        "action": "Click the '[None]' option.",
+        "expected_results": "The 'Screen saver' dropdown list will show '[None]' as the selected option, the 'Settings' button will become disabled, and the preview window will be empty."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open.",
+        "action": "Click the button labeled 'Power'.",
+        "expected_results": "The 'Power Options Properties' dialog box will open."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open. The 'Power Schemes' tab is active.",
+        "action": "Click the 'Hibernate' tab.",
+        "expected_results": "The 'Hibernate' tab will become active. A dropdown menu labeled 'System hibernates' will expand, revealing a list of time options."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open. The 'Power Schemes' tab is active.",
+        "action": "Click on the dropdown menu labeled 'After 5 hours' next to the 'System standby' power-saving action.",
+        "expected_results": "A dropdown menu with different time options for the 'System standby' action will appear."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open.",
+        "action": "Click the 'Power schemes' tab.",
+        "expected_results": "The 'Power schemes' tab will open, displaying options like 'Home/Office Desk', 'Portable/Laptop', and others. Additionally, 'start' and 'Appearance and Themes' buttons will appear in the bottom left corner."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open and the 'Power Schemes' tab is active.",
+        "action": "Click the 'Always On' option in the 'Power Schemes Dropdown Menu'.",
+        "expected_results": "The 'Power Schemes Dropdown Menu' will be replaced with the text 'Always On'. The 'Save As...' and 'Delete' buttons will move to the right of the 'Always On' text."
+    },
+    {
+        "precondition": "The dialog box titled 'Power Options Properties' is open.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Power Options Properties' dialog box will close."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open. The 'Power Schemes' tab is active.",
+        "action": "Click the 'Hibernate' tab.",
+        "expected_results": "The 'Hibernate' tab will become active. A 'System hibernates:' dropdown menu will appear, showing 'Never' as the selected option."
+    },
+    {
+        "precondition": "The 'Power Schemes' tab in the 'Power Options Properties' dialog box is open. A dropdown menu related to a power-saving action is visible.",
+        "action": "Click the 'Never' item in the  dropdown menu.",
+        "expected_results": "The 'Delete' button will become active."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the 'Screen Saver' tab.",
+        "expected_results": "The 'Screen Saver' tab will become the active view within the 'Display Properties' dialog box."
+    },
+    {
+        "precondition": "The 'Appearance and Themes' window is open.",
+        "action": "Click anywhere in the 'Appearance and Themes' window.",
+        "expected_results": "No visual changes should occur in the 'Appearance and Themes' window."
+    }
+]
