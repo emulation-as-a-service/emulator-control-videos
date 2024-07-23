@@ -1,0 +1,37 @@
+[
+    {
+        "precondition": "The desktop is visible.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear."
+    },
+    {
+        "precondition": "The desktop context menu is visible.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The context menu will close and the 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" dialog box is open, and the \"Screen Saver\" tab is selected.",
+        "action": "Click the button labeled \"Power\".",
+        "expected_results": "The \"Power Options Properties\" dialog box will open."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab of the 'Display Properties' dialog box is open.",
+        "action": "Click the 'Power...' button.",
+        "expected_results": "The 'Power Options Properties' dialog box will appear."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box with the 'Power Options Properties' tab active is open.",
+        "action": "Click on the 'System hibernates' dropdown menu.",
+        "expected_results": "The dropdown menu will expand to display a list of options, including 'Never'."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open and the 'Power Options Properties' tab is selected.",
+        "action": "Click the menu item 'After 5 hours' in the 'Turn off monitor' dropdown menu.",
+        "expected_results": "No changes will be visible within the 'Display Properties' dialog box."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Display Properties' dialog box will close."
+    }
+]

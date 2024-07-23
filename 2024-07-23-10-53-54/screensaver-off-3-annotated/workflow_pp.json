@@ -1,0 +1,87 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Control' and 'Escape' keys simultaneously.",
+        "expected_results": "The Start menu will open, displaying program shortcuts and system options. The Start button will appear depressed."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Alt' and 'L' keys simultaneously.",
+        "expected_results": "The Start button will become highlighted."
+    },
+    {
+        "precondition": "The Windows desktop is visible.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The Start button will become highlighted, and the Start Menu will open, displaying program shortcuts and system options."
+    },
+    {
+        "precondition": "None",
+        "action": "Press the 'c' key",
+        "expected_results": "The mouse cursor will change to an hourglass icon"
+    },
+    {
+        "precondition": "The Control Panel window is open and the 'Date, Time, Language, and Regional Options' icon is visible.",
+        "action": "Press the 'Right Arrow' key.",
+        "expected_results": "The 'Date, Time, Language, and Regional Options' icon will become highlighted."
+    },
+    {
+        "precondition": "The 'Date, Time, Language, and Regional Options' icon is highlighted in the Control Panel.",
+        "action": "Press the 'Right Arrow' key.",
+        "expected_results": "The 'Display' icon will become highlighted."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is in \"Classic View\", displaying individual icons for each applet.",
+        "action": "Hover the mouse cursor over the \"Add or Remove Programs\" icon.",
+        "expected_results": "A tooltip will appear, displaying the text \"Install or remove programs and Windows components.\""
+    },
+    {
+        "precondition": "The Control Panel window is open.",
+        "action": "Press the 'Enter' key.",
+        "expected_results": "A new window titled 'Power Options Properties' will open."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open and the 'Power Schemes' tab is active.",
+        "action": "Click the 'System hibernates' dropdown menu.",
+        "expected_results": "The dropdown menu will expand, showing a list of hibernation time options."
+    },
+    {
+        "precondition": "The 'System hibernates' dropdown menu is expanded.",
+        "action": "Click the 'After 4 hours' option.",
+        "expected_results": "The dropdown menu will collapse, displaying 'After 4 hours' as the selected option."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open.",
+        "action": "Click on the 'Turn off hard disks' dropdown menu.",
+        "expected_results": "The 'Turn off hard disks' dropdown menu will expand, displaying a list of time options."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Power Options Properties' dialog box will close."
+    },
+    {
+        "precondition": "The Control Panel window is open.",
+        "action": "Click the 'Display' icon.",
+        "expected_results": "The 'Display Properties' dialog box will open. The address bar will update to show 'Display Properties'."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open with the 'Screen Saver' tab visible.",
+        "action": "Click the 'Screen Saver' tab.",
+        "expected_results": "The 'Screen Saver' tab will remain active."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab of the Windows XP Display Properties dialog box is open.",
+        "action": "Click the screen saver dropdown menu.",
+        "expected_results": "A list of available screen saver options will appear."
+    },
+    {
+        "precondition": "The 'Display Properties' dialog box is open and the 'Screen Saver' tab is selected.",
+        "action": "Open the 'Screen saver' dropdown menu and select 'None'.",
+        "expected_results": "The 'Display Properties' dialog box will close."
+    },
+    {
+        "precondition": "The Control Panel window is open.",
+        "action": "Click an empty area of the desktop outside the Control Panel window.",
+        "expected_results": "The Control Panel window will close."
+    }
+]

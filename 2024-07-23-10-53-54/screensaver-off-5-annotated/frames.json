@@ -1,0 +1,243 @@
+[
+    {
+        "frame": 31,
+        "timestamp": 1.9375,
+        "event": {
+            "time": 1971,
+            "event": "mousedown",
+            "x": 24,
+            "y": 26
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "This appears to be a screenshot of a Windows desktop environment. \n\nAt the bottom, you have the **Taskbar**. This one is fairly minimal. On the left side, you have the **Start button**, your primary way to access applications and system settings. On the right side, you have the **system tray** containing icons for background processes like network connectivity and security software, as well as the **notification area** which displays the current time and icons for running programs. You also have the **Recycle Bin** icon on the desktop, which functions as expected.\n\nInterestingly, there are no application shortcuts or other files visible on the desktop, suggesting this might be a freshly installed system or one with a highly customized setup. \n",
+        "screenshot": "frame-31-mousedown.png",
+        "screenshot_annotated": "frame-31-mousedown-layout.png"
+    },
+    {
+        "frame": 37,
+        "timestamp": 2.3125,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: A context menu is present in the top left corner of the screen. This menu was not mentioned in the description.\n",
+        "screenshot": "frame-37.png"
+    },
+    {
+        "frame": 80,
+        "timestamp": 5.0,
+        "event": {
+            "time": 5040,
+            "event": "mousedown",
+            "x": 109,
+            "y": 153
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "This is a standard Windows desktop context menu, accessed by right-clicking on the desktop background. The menu provides options for interacting with the desktop environment. Here's a breakdown:\n\n* **\"Arrange Icons By\"** is a cascading menu (indicated by the arrow) allowing you to sort desktop icons by name, size, type, or date modified.\n* **\"Refresh\"** reloads the display of desktop icons and background, useful if anything appears glitched or outdated.\n* **\"Paste\"** and **\"Paste Shortcut\"** are active only if you have previously copied a file or folder. They allow you to paste a copy or a shortcut of the copied item onto the desktop.\n* **\"New\"** is another cascading menu that lets you create new items directly on the desktop, such as folders, shortcuts, or specific file types depending on your installed applications.\n* **\"Properties\"** opens a dialog box containing settings related to the desktop appearance, such as background image, screen resolution, and theme customization. \n",
+        "screenshot": "frame-80-mousedown.png",
+        "screenshot_annotated": "frame-80-mousedown-layout.png"
+    },
+    {
+        "frame": 85,
+        "timestamp": 5.3125,
+        "event": null,
+        "type": "change",
+        "description": "Missing Elements:\n- The context menu options: \"Arrange Icons By\", \"Refresh\", \"Paste\", \"Paste Shortcut\", and \"New\" are not present in the screenshot. \n",
+        "screenshot": "frame-85.png"
+    },
+    {
+        "frame": 106,
+        "timestamp": 6.625,
+        "event": null,
+        "type": "change",
+        "description": "- Missing Elements: The right-click context menu described is not present in the screenshot.\n- New Elements: A window titled \"Display Properties\" is present, containing tabs for \"Themes,\" \"Desktop,\" \"Screen Saver,\" \"Appearance,\" and \"Settings.\"  There are also various buttons (\"Save As...,\" \"Delete,\" \"OK,\" \"Cancel,\" \"Apply\") and selection boxes within this window. \n",
+        "screenshot": "frame-106.png"
+    },
+    {
+        "frame": 172,
+        "timestamp": 10.75,
+        "event": null,
+        "type": "change",
+        "description": "- Missing Elements: The context menu described is not present in the screenshot.\n- New Elements: The \"Display Properties\" window is now present, containing tabs for \"Themes,\" \"Desktop,\" \"Screen Saver,\" \"Appearance,\" and \"Settings.\" \n- New Elements: A window displaying the selected screen saver (\"Windows XP\") and options for wait time, password protection, and a preview is present.\n- New Elements: A section for \"Monitor power\" with a description and a \"Power...\" button is present. \n",
+        "screenshot": "frame-172.png"
+    },
+    {
+        "frame": 230,
+        "timestamp": 14.375,
+        "event": {
+            "time": 14401,
+            "event": "mousedown",
+            "x": 295,
+            "y": 357
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "This is the Windows XP Display Properties dialog box, specifically the \"Screen Saver\" tab. \n\nAt the top, you have a standard window title bar with the title \"Display Properties,\" minimize, maximize, and close buttons. Below that is a tabbed interface. Each tab (\"Themes,\" \"Desktop,\" \"Screen Saver,\" \"Appearance,\" \"Settings\") lets you customize different aspects of the Windows appearance. \n\nThe currently selected \"Screen Saver\" tab is divided into two main sections:\n\n**1. Screen Saver Selection and Configuration:**\n\n* **Dropdown Menu:** This menu lets you choose from a list of installed screen savers. The currently selected screen saver is \"Windows XP.\"\n* **Settings Button:** This button becomes active depending on the chosen screen saver. Clicking it opens a dialog box for adjusting that specific screen saver's settings. \n* **Preview Button:** Clicking this provides a full-screen preview of the selected screen saver in action.\n* **Wait Spinner:** This input field, combined with the \"minutes\" label, lets you set the idle time before the screen saver activates. You can type a value or use the up/down arrows to adjust it.\n* **\"On resume, password protect\" Checkbox:** Enabling this requires a password to exit the screen saver and return to the desktop, enhancing security.\n\n**2. Monitor Power Management:**\n\n* **\"Monitor power\" Section:** This section provides a brief explanation of monitor power settings.\n* **Power Button:** Clicking this button opens a separate dialog box (\"Power Options Properties\") for configuring detailed power management settings, including sleep modes and power schemes.\n\nFinally, at the bottom of the dialog box are the standard \"OK,\" \"Cancel,\" and \"Apply\" buttons. \"OK\" applies changes and closes the dialog, \"Cancel\" discards any changes, and \"Apply\" applies changes without closing the dialog. \n",
+        "screenshot": "frame-230-mousedown.png",
+        "screenshot_annotated": "frame-230-mousedown-layout.png"
+    },
+    {
+        "frame": 234,
+        "timestamp": 14.625,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes:\n    - The dropdown menu labeled \"Screen saver\" now displays \"Starfield\" as the selected option instead of \"Windows XP.\" \n",
+        "screenshot": "frame-234.png"
+    },
+    {
+        "frame": 261,
+        "timestamp": 16.3125,
+        "event": {
+            "time": 16353,
+            "event": "mousedown",
+            "x": 164,
+            "y": 381
+        },
+        "type": "event",
+        "label_clicked": "(None",
+        "description": "This is the Windows XP Display Properties dialog box, specifically the \"Screen Saver\" tab. \n\nAt the top, you have a standard tabbed interface (\"Themes,\" \"Desktop,\" \"Screen Saver,\" \"Appearance,\" \"Settings\") to navigate different customization categories.\n\nThe \"Screen Saver\" tab features:\n\n- **Dropdown Menu:** This menu lets you select from a list of available screensavers installed on the system.  \n- **\"Settings\" Button:** This button likely opens a secondary dialog box for configuring parameters specific to the selected screensaver (if applicable).\n- **\"Preview\" Button:** Clicking this will temporarily activate the chosen screensaver within the monitor preview area, allowing you to see it in action.\n- **Power Management Note:**  Below the \"Settings\" button, there's a text area (not a standard control) reminding users about the connection between screensavers, resume behavior, and power settings.\n- **\"Power...\" Button:** This button likely leads to a separate dialog for managing system-wide power options.\n- **Standard Dialog Buttons:** \"Cancel,\" \"Apply\" for confirming or discarding changes.\n\nNotably absent are any visual customization options within this particular view, suggesting those are handled either within the screensaver-specific \"Settings\" or in a different tab entirely. \n",
+        "screenshot": "frame-261-mousedown.png",
+        "screenshot_annotated": "frame-261-mousedown-layout.png"
+    },
+    {
+        "frame": 265,
+        "timestamp": 16.5625,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes:\n    - The dropdown menu labeled \"Screen saver\" now displays \"None\" instead of being blank. \n    - The numerical value within the \"Wait\" time input field now shows \"10\". \n",
+        "screenshot": "frame-265.png"
+    },
+    {
+        "frame": 340,
+        "timestamp": 21.25,
+        "event": null,
+        "type": "change",
+        "description": "- Missing Elements: The \"Screen Saver\" tab content is not present in the screenshot. This includes the dropdown menu, \"Settings\" button, \"Preview\" button, Power Management note, and \"Power...\" button. \n\n- New Elements: The \"Power Options Properties\" dialog box is now visible, overlapping the \"Display Properties\" dialog box. \n",
+        "screenshot": "frame-340.png"
+    },
+    {
+        "frame": 373,
+        "timestamp": 23.3125,
+        "event": {
+            "time": 23329,
+            "event": "mousedown",
+            "x": 485,
+            "y": 352
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "This is a classic Windows dialog box titled \"Display Properties\" with the \"Power Options Properties\" tab active. \n\nAt the top, you have a standard window title bar with minimize, maximize/restore, and close buttons. Below that is a tabbed interface \u2013 you can see \"Power Options Properties\" is currently selected.\n\nThe main area presents options related to power schemes. You can choose from pre-set schemes using the \"Power schemes\" dropdown menu.  The \"Save As..\" button allows you to create a custom scheme based on your modifications.  The \"Delete\" button removes a custom scheme.\n\nBelow, you'll find settings for the currently selected power scheme. Each setting (e.g., \"Turn off monitor\") has a corresponding dropdown menu to adjust its value (e.g., \"After 20 mins\").\n\nFinally, at the bottom, you have your standard dialog box buttons: \"OK\" to apply changes and close, \"Cancel\" to discard changes, and \"Apply\" to immediately apply changes without closing the window. \n",
+        "screenshot": "frame-373-mousedown.png",
+        "screenshot_annotated": "frame-373-mousedown-layout.png"
+    },
+    {
+        "frame": 377,
+        "timestamp": 23.5625,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: A mouse cursor is now visible and is hovering over the dropdown menu associated with \"Turn off monitor\". \n",
+        "screenshot": "frame-377.png"
+    },
+    {
+        "frame": 395,
+        "timestamp": 24.6875,
+        "event": null,
+        "type": "change",
+        "description": "-Content Changes: \n    -The dropdown menu associated with \"System standby\" now displays \"After 10 mins\".  The initial description stated it would be set to \"After 20 mins\". \n",
+        "screenshot": "frame-395.png"
+    },
+    {
+        "frame": 397,
+        "timestamp": 24.8125,
+        "event": null,
+        "type": "change",
+        "description": "-Content Changes:\n     -The \"System standby\" dropdown menu now displays \"After 15 mins\" instead of the default value. \n",
+        "screenshot": "frame-397.png"
+    },
+    {
+        "frame": 399,
+        "timestamp": 24.9375,
+        "event": null,
+        "type": "change",
+        "description": "-Content Changes:\n    -The \"System hibernates\" dropdown menu now displays \"After 30 mins\" instead of \"After 20 mins\". \n",
+        "screenshot": "frame-399.png"
+    },
+    {
+        "frame": 402,
+        "timestamp": 25.125,
+        "event": null,
+        "type": "change",
+        "description": "-Content Changes:\n    -The \"System hibernates\" dropdown menu now displays \"After 3 hour\" instead of the previously described default value. \n",
+        "screenshot": "frame-402.png"
+    },
+    {
+        "frame": 404,
+        "timestamp": 25.25,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The \"System hibernates:\" dropdown menu now displays \"After 5 hours\" instead of \"After 20 mins\". \n",
+        "screenshot": "frame-404.png"
+    },
+    {
+        "frame": 409,
+        "timestamp": 25.5625,
+        "event": null,
+        "type": "change",
+        "description": "- Content Changes: \n    - The \"System hibernates\" dropdown menu now displays \"Never\" instead of the previously shown \"After 20 mins\". \n",
+        "screenshot": "frame-409.png"
+    },
+    {
+        "frame": 414,
+        "timestamp": 25.875,
+        "event": {
+            "time": 25885,
+            "event": "mousedown",
+            "x": 309,
+            "y": 564
+        },
+        "type": "event",
+        "label_clicked": "After 5 hours",
+        "description": "This is a classic Windows dialog box, titled \"Display Properties,\" likely from an older version like Windows 98 or XP. It uses a tabbed interface - the current tab is \"Power Options Properties.\" \n\nWithin this tab, you see:\n\n- **Tab Strip:** Located at the top with options for \"Power Schemes,\" \"Advanced,\" \"Hibernate,\" and \"UPS.\" This lets you navigate different power management sections.\n\n- **Power Schemes Section:** This section lets you choose a predefined power plan (e.g., \"Home/Office Desk\").  The dropdown menu lists available schemes.\n\n- **Scheme Description:**  Below the scheme selection, there's a text box explaining the purpose of power schemes.\n\n- **Power Scheme Actions:**  The lower section, \"Settings for [selected scheme],\" contains multiple dropdown menus. Each menu lets you define when the computer should perform actions like turning off the monitor, hard disks, entering standby, or hibernating after a period of inactivity.  \n\n- **Standard Buttons:** At the bottom of the \"Power Schemes\" section are \"Save As...\" and \"Delete\" buttons, likely for creating custom schemes or removing existing ones.\n\n- **Standard Window Elements:**  You have the typical window title bar with minimize, maximize (which is disabled), and close buttons. There's also a question mark icon for help. \n",
+        "screenshot": "frame-414-mousedown.png",
+        "screenshot_annotated": "frame-414-mousedown-layout.png"
+    },
+    {
+        "frame": 417,
+        "timestamp": 26.0625,
+        "event": null,
+        "type": "change",
+        "description": "- New Elements: The Start button is now visible on the taskbar.\n\n- Missing Elements: The maximize button, described as disabled in the window title bar, is no longer visible.\n\n- Content Changes: None.\n\n- Layout/Appearance Changes: None. \n",
+        "screenshot": "frame-417.png"
+    },
+    {
+        "frame": 440,
+        "timestamp": 27.5,
+        "event": {
+            "time": 27505,
+            "event": "mousedown",
+            "x": 316,
+            "y": 555
+        },
+        "type": "event",
+        "label_clicked": "OK",
+        "description": "This is a classic Windows dialog box titled \"Display Properties\" with the \"Power Options Properties\" tab active. \n\nAt the top, you have a standard window title bar with minimize, maximize, and close buttons, as well as a question mark button for context-sensitive help.\n\nBelow the title bar is a tabbed interface.  While we can't see the other tabs in their entirety, the visible tab labels \"Power Schemes,\" \"Advanced,\" \"Hibernate,\" and \"UPS\" suggest options for managing power consumption, sleep modes, and potentially uninterruptible power supply settings.\n\nThe active view presents a \"Power schemes\" dropdown menu to select a predefined power plan.  The currently selected plan, \"Home/Office Desk,\" is highlighted.  You can use the \"Save As...\" button to create a copy of the current scheme with a different name, or the \"Delete\" button to remove a custom scheme.\n\nBelow the scheme selection, a dedicated section displays and allows modification of settings for the chosen power scheme.  Each setting, like \"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates,\" is paired with a dropdown menu.  These menus likely offer time-based options to trigger the respective power-saving feature.\n\nFinally, standard dialog box buttons\u2014\"OK,\" \"Cancel,\" and \"Apply\"\u2014let you apply changes, discard them, or confirm and close the dialog. \n",
+        "screenshot": "frame-440-mousedown.png",
+        "screenshot_annotated": "frame-440-mousedown-layout.png"
+    },
+    {
+        "frame": 448,
+        "timestamp": 28.0,
+        "event": null,
+        "type": "change",
+        "description": "Missing Elements:\n- The tabbed interface with tabs labeled \"Power Schemes,\" \"Advanced,\" \"Hibernate,\" and \"UPS\" is not present.\n- The \"Power schemes\" dropdown menu, \"Save As...\" button, and \"Delete\" button are not present.\n- The section displaying settings for the chosen power scheme, including settings like \"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates,\" along with their dropdown menus, is missing.\n- The standard dialog box buttons \"OK,\" \"Cancel,\" and \"Apply\" are not visible. \n",
+        "screenshot": "frame-448.png"
+    },
+    {
+        "frame": 468,
+        "timestamp": 29.25,
+        "event": null,
+        "type": "change",
+        "description": "Missing Elements:\n- The \"Display Properties\" dialog box is not present in the screenshot.\n- The tabbed interface with tabs labeled \"Power Schemes,\" \"Advanced,\" \"Hibernate,\" and \"UPS\" is not visible.\n- The \"Power schemes\" dropdown menu, \"Save As...\" button, and \"Delete\" button are not present.\n- The section displaying settings for the chosen power scheme, including settings like \"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates,\" is missing.\n- The dialog box buttons \"OK,\" \"Cancel,\" and \"Apply\" are not visible. \n",
+        "screenshot": "frame-468.png"
+    }
+]

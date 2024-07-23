@@ -1,0 +1,87 @@
+[
+    {
+        "frame": 23,
+        "event": "The user clicked the mouse.",
+        "timestamp": 1.4375,
+        "description": "Upon a mouse click, the cursor changed to an arrow shape. \n",
+        "outcome": "A context menu, \"Arrange Icons By \u25b8\", appeared on the screen, offering options like \"Refresh\", \"Paste\", and \"Properties\".  The cursor changed to a pointer hand shape. \n"
+    },
+    {
+        "frame": 75,
+        "event": "The mouse clicked on Properties.",
+        "timestamp": 4.6875,
+        "description": "Upon clicking \"Properties\" in the desktop context menu, the option became highlighted. \n",
+        "outcome": "The context menu closed and the \"Display Properties\" window opened. \n",
+        "label_clicked": "Properties"
+    },
+    {
+        "frame": 137,
+        "event": "The user clicked the mouse.",
+        "timestamp": 8.5625,
+        "description": "Upon clicking the mouse, the user interacted with the \"Appearance\" tab within the Windows XP Display Properties dialog box. \n",
+        "outcome": "The UI updated to reflect the new \"Windows XP\" theme selection: the \"Save As...\" button was removed and a Recycle Bin icon appeared in the \"Active Window\" preview. \n"
+    },
+    {
+        "frame": 185,
+        "event": "The mouse clicked on DesktopScreerSaverAppearance.",
+        "timestamp": 11.5625,
+        "description": "Upon clicking \"Appearance,\" the \"Appearance\" tab became the active tab within the Display Properties dialog box. \n",
+        "outcome": "The user interface transitioned from a \"Themes\" view to a \"Screen Saver\" view. The \"Themes\" tab and its associated elements (theme dropdown, sample window, and control buttons) were replaced with a \"Screen Saver\" dropdown menu, a \"Wait\" input field with a \"Settings\" button, and a \"Preview\" button. \n",
+        "label_clicked": "DesktopScreerSaverAppearance"
+    },
+    {
+        "frame": 244,
+        "event": "The user clicked the mouse.",
+        "timestamp": 15.25,
+        "description": "Upon clicking the mouse, the \"Settings\" button in the \"Screen Saver\" tab of the \"Display Properties\" dialog box became active. \n",
+        "outcome": "The \"Screen saver\" dropdown menu expanded to reveal a list of options, simultaneously deactivating the \"Settings\" button. \n"
+    },
+    {
+        "frame": 264,
+        "event": "The mouse clicked on 3D FlowerBox.",
+        "timestamp": 16.5,
+        "description": "Upon clicking the \"3D FlowerBox\" item in the \"Screen saver\" dropdown menu, no visual changes occurred in the dialog box. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu updated to \"Windows XP\", the \"Wait\" spinbox value changed to \"10\", and the previously inactive \"Settings\" button became active. \n",
+        "label_clicked": "3D FlowerBox"
+    },
+    {
+        "frame": 318,
+        "event": "The mouse clicked on App.",
+        "timestamp": 19.875,
+        "description": "Upon clicking the \"Screen Saver\" tab, the Windows Display Properties dialog box displayed the screen saver settings, including the currently selected screen saver, wait time, password protection option, and customization options. \n",
+        "outcome": "The screenshot is missing several UI elements described in the specification, including the wait time setting, the password protection checkbox, the \"Settings\" button, and the entire \"Monitor power\" section. \n",
+        "label_clicked": "App"
+    },
+    {
+        "frame": 349,
+        "event": "The mouse clicked on Power.",
+        "timestamp": 21.8125,
+        "description": "Upon clicking the \"Power\" button, a dialog box related to monitor power settings appeared. \n",
+        "outcome": "The \"Settings\" button became disabled.  Concurrently, the \"Screen Saver\" dropdown switched to \"My Pictures Slideshow\", the spinner control adjusted to a value of \"10\", and the \"System hibernates\" dropdown expanded to reveal a list of time options. \n",
+        "label_clicked": "Power"
+    },
+    {
+        "frame": 448,
+        "event": "The mouse clicked on After 5 hours.",
+        "timestamp": 28.0,
+        "description": "Upon clicking \"After 5 hours\" in a dropdown menu, no visual changes occurred in the described \"Power Options Properties\" or \"Display Properties\" windows. \n",
+        "outcome": "The Windows taskbar appeared at the bottom of the screen, showing the Start button, time, and Recycle Bin icon. \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 468,
+        "event": "The mouse clicked on NQK.",
+        "timestamp": 29.25,
+        "description": "Upon clicking \"NQK\", the \"Display Properties\" dialog box, which was partially obscured in the background, came to the foreground. \n",
+        "outcome": "The \"Display Properties\" dialog box, previously partially obscured in the background, became the primary focus and is now fully visible. The \"Windows Power Options Properties\" dialog box is no longer present. \n",
+        "label_clicked": "NQK"
+    },
+    {
+        "frame": 507,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 31.6875,
+        "description": "Upon clicking the \"OK\" button, the \"Display Properties\" dialog box closed. \n",
+        "outcome": "The Windows Display Properties dialog box disappeared, revealing the desktop background image of a tree-lined path. The Windows taskbar and a mouse cursor are now also visible. \n",
+        "label_clicked": "OK"
+    }
+]
