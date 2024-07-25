@@ -1,0 +1,92 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Click the 'Start' button on the taskbar.",
+        "expected_results": "The Start Menu will open."
+    },
+    {
+        "precondition": "The Windows XP Start menu is open and the mouse cursor is hovering over the 'Control Panel' option. A yellow tooltip box describing the Control Panel is visible.",
+        "action": "Click on 'Control Panel' in the Start menu.",
+        "expected_results": "The tooltip box will disappear and the Control Panel window will open."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is open and in Category view.",
+        "action": "Click on the \"Appearance and Themes\" category.",
+        "expected_results": "The \"Appearance and Themes\" category will become highlighted."
+    },
+    {
+        "precondition": "The \"Appearance and Themes\" window is open within the Windows XP Control Panel.",
+        "action": "Click the icon labeled \"Display\".",
+        "expected_results": "The \"Display Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Screen Saver\" tab will become active. The preview pane will display a screen saver preview, and the \"OK\" and \"Apply\" buttons will become active."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open, and the 'Screen Saver' tab is selected.",
+        "action": "Click the 'Screen Saver' dropdown menu and select 'None'.",
+        "expected_results": "The screen saver setting will change to 'None'."
+    },
+    {
+        "precondition": "The \"Screen Saver\" dropdown menu in the \"Display Properties\" window is open.",
+        "action": "Click the \"10\" entry in the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"Screen Saver\" dropdown menu will close, and the \"Wait:\" field will display \"10\"."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the 'Power...' button in the 'Monitor power' section.",
+        "expected_results": "The 'Power Options Properties' window will open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open, and the \"Home/Office Desk\" power scheme is selected.",
+        "action": "Click the \"Turn off monitor\" dropdown menu.",
+        "expected_results": "The \"Turn off monitor\" dropdown menu will expand, displaying a list of time options."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power schemes\" dropdown menu is visible.",
+        "action": "Click the \"Power schemes\" dropdown menu and select \"Always On\".",
+        "expected_results": "The \"Power schemes\" dropdown will display \"Always On\" as the selected option. The \"OK\" button will become highlighted."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is selected.",
+        "action": "Click the \"Power schemes\" dropdown menu and select \"Always On\".",
+        "expected_results": "The \"Always On\" power scheme will be selected in the dropdown menu."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'Power Schemes' tab is active. The 'Always On' power scheme is selected in the dropdown menu.",
+        "action": "Click on 'Always On' in the 'Power schemes' dropdown menu.",
+        "expected_results": "The 'Always On' power scheme remains selected."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Always On\" power scheme is selected.",
+        "action": "Click the \"Turn off hard disks\" dropdown menu.",
+        "expected_results": "A dropdown menu with different time options for hard disk inactivity will appear."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Always On\" power scheme is selected.",
+        "action": "Click the dropdown menu labeled \"Turn off monitor\".",
+        "expected_results": "The dropdown menu will expand to display a list of time intervals. The option \"After 20 mins\" will be automatically selected."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open with the 'Always On' power scheme selected. The 'Turn off monitor' dropdown menu is open.",
+        "action": "Click the 'Never' option in the 'Turn off monitor' dropdown menu.",
+        "expected_results": "The 'Turn off monitor' dropdown menu will close, displaying 'Never' as the selected option. The 'Cancel' button at the bottom of the window will become unhighlighted."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Cancel\" button is highlighted.",
+        "action": "Click the button labeled \"OK\".",
+        "expected_results": "The \"OK\" button will become highlighted, indicating the cursor is now hovering over it."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open with the \"Screen Saver\" tab selected. The \"Cancel\" button is highlighted.",
+        "action": "Click the \"Cancel\" button.",
+        "expected_results": "The \"Display Properties\" window will close without saving any changes. The \"Cancel\" button will become unhighlighted, and the mouse cursor will move over the \"OK\" button."
+    },
+    {
+        "precondition": "The \"Appearance and Themes\" window of the Windows XP Control Panel is open.",
+        "action": "Click the \"Display\" icon located below the \"or pick a Control Panel icon\" section.",
+        "expected_results": "The \"Display Properties\" window will open."
+    }
+]

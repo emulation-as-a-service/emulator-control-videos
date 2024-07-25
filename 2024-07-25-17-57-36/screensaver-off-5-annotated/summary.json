@@ -1,0 +1,77 @@
+[
+    {
+        "frame": 31,
+        "event": "The user clicked the mouse.",
+        "timestamp": 1.9375,
+        "description": "The user clicked on the \"Properties\" option in the desktop context menu. \n",
+        "outcome": "A context menu opened, revealing options like \"Arrange Icons By\", \"Refresh\", \"Paste\", \"New\", and \"Properties\".  The mouse cursor, now a white arrow with a blue box, hovers over the \"Properties\" option. \n"
+    },
+    {
+        "frame": 80,
+        "event": "The user clicked the mouse.",
+        "timestamp": 5.0,
+        "description": "The user clicked the highlighted \"Properties\" option in the desktop context menu. As a result, the context menu closed. \n",
+        "outcome": "The context menu disappeared. \n"
+    },
+    {
+        "frame": 157,
+        "event": "The mouse clicked on ScreSaver.",
+        "timestamp": 9.8125,
+        "description": "The user clicked on the \"Screen Saver\" tab at the top of the \"Display Properties\" window. As a result, the window's content switched from the \"Themes\" tab to the \"Screen Saver\" tab. \n",
+        "outcome": "The user switched to the \"Screen Saver\" tab within a larger window or dialog. This tab allows customizing the screensaver type, wait time, and related settings. The previously visible \"Theme\" section and its associated controls are no longer present. \n",
+        "label_clicked": "ScreSaver"
+    },
+    {
+        "frame": 230,
+        "event": "The user clicked the mouse.",
+        "timestamp": 14.375,
+        "description": "The user clicked the \"Screen saver\" dropdown menu and selected \"Starfield\". \n",
+        "outcome": "The selected option in the \"Screen saver\" dropdown menu changed to \"Starfield\". \n"
+    },
+    {
+        "frame": 261,
+        "event": "The mouse clicked on (None.",
+        "timestamp": 16.3125,
+        "description": "The user clicked on the \"None\" option in the \"Screen Saver\" dropdown menu. As a result, the dropdown menu closed, indicating \"None\" was selected as the screensaver. \n",
+        "outcome": "The screen saver wait time was changed from 10 to 1, and the dropdown menu closed. \n",
+        "label_clicked": "(None"
+    },
+    {
+        "frame": 309,
+        "event": "The user clicked the mouse.",
+        "timestamp": 19.3125,
+        "description": "The user clicked the \"Power...\" button within the \"Display Properties\" window's \"Screen Saver\" tab. This action resulted in the \"Power Options Properties\" window appearing. \n",
+        "outcome": "The appearance of the \"Power Options Properties\" window partially obscures the \"Display Properties\" window.  The mouse cursor changes to an hourglass, indicating system activity. \n"
+    },
+    {
+        "frame": 373,
+        "event": "The user clicked the mouse.",
+        "timestamp": 23.3125,
+        "description": "The user clicked the mouse on the \"Turn off monitor\" option's dropdown menu, causing the menu to expand and display a list of time options. \n",
+        "outcome": "The 'Turn off monitor' option's dropdown menu expanded to display a list of time options, with the mouse cursor moving into the expanded menu area. \n"
+    },
+    {
+        "frame": 414,
+        "event": "The mouse clicked on After 5 hours.",
+        "timestamp": 25.875,
+        "description": "The user clicked on \"After 5 hours\" in the \"Turn off monitor\" dropdown menu within the \"Power Options Properties\" window. As a result, the dropdown menu closed, and \"After 5 hours\" became the selected option. \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu now displays \"Never\". \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 440,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 27.5,
+        "description": "The user clicked the highlighted \"OK\" button in the \"Power Options Properties\" window.  As a result, the \"Power Options Properties\" window closed. \n",
+        "outcome": "The 'Power Options Properties' window closed, revealing the previously obscured 'Display Properties' window beneath it. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 461,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 28.8125,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Display Properties\" window, closing the window. \n",
+        "outcome": "",
+        "label_clicked": "OK"
+    }
+]

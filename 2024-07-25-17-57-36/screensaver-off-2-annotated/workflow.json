@@ -1,0 +1,67 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear."
+    },
+    {
+        "precondition": "The context menu titled 'Arrange Icons By \u25b6' is open on the desktop.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The context menu will close, and the Display Properties window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Screen Saver\" tab will become active. The options for themes will be replaced with options for screen savers."
+    },
+    {
+        "precondition": "The Display Properties window is open and the 'Screen Saver' tab is active.",
+        "action": "Click on the downward-pointing arrow of the 'Screen Saver' dropdown menu.",
+        "expected_results": "The 'Screen Saver' dropdown menu will expand, showing a list of screen saver options including 'My Pictures Slideshow', 'Mystify', and 'Starfield'. The 'Settings' and 'Preview' buttons will become active."
+    },
+    {
+        "precondition": "The \"Screen Saver\" dropdown menu within the \"Display Properties\" window is open.",
+        "action": "Click the \"None\" option in the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The dropdown menu will close, the \"Wait\" time box will populate with \"10\", and the \"Settings\" and \"Preview\" buttons will remain inactive."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab of the 'Display Properties' window is open.",
+        "action": "Click the button labeled 'Po...'",
+        "expected_results": "The 'Power Options Properties' window will open in front of the 'Display Properties' window."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power schemes\" dropdown menu is visible.",
+        "action": "Click the \"Power schemes\" dropdown menu and select \"Home/Office Desk\".",
+        "expected_results": "The \"Turn off hard disks\" setting will change to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Power schemes\" dropdown menu should display \"Always On\".",
+        "action": "Click the \"Power schemes\" dropdown menu and select \"Home/Office Desk\".",
+        "expected_results": "The \"Power schemes\" dropdown menu will display \"Home/Office Desk\", the \"Turn off hard disks\" dropdown menu will change to \"After 20 mins\", and a pop-up box titled \"Keep your computer up to date\" will appear in the bottom right corner of the screen."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Always On\" power scheme is selected.",
+        "action": "Click on the \"After 20 mins\" option within the \"Turn off monitor\" dropdown menu.",
+        "expected_results": "The \"Turn off monitor\" setting will display \"After 20 mins\" and a pop-up box titled \"Keep your computer up to date\" will appear in the bottom right corner of the screen."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Turn off hard disks\" dropdown menu is open.",
+        "action": "Click the \"Never\" option in the \"Turn off hard disks\" dropdown menu.",
+        "expected_results": "The \"Turn off hard disks\" dropdown menu will close. The \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" settings will all be set to \"Never\". A system notification about keeping the computer up-to-date may appear."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Apply\" button is active.",
+        "action": "Click the button labeled \"ApplN\".",
+        "expected_results": "A \"Keep your computer up to date\" notification balloon will appear in the bottom right corner of the screen."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Always On\" power scheme selected.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close and a \"Keep your computer up to date\" notification will appear in the bottom left corner of the screen."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open, and the 'Screen Saver' tab is active. The 'OK' button is visible at the bottom of the window.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Display Properties' window will close. "
+    }
+]

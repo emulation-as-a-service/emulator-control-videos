@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Display Properties
+- Input methods: Mouse and keyboard
+- Recording details: The provided information is insufficient to determine the recording's duration and resolution. 
+
+
+The user right-clicks on the desktop and selects "Properties" from the context menu. Within the Display Properties window, the user navigates to the "Screen Saver" tab, selects "None" from the "Screen Saver" dropdown menu, and sets the "Wait" time to "10" minutes. They then click the "Power" button, which opens the Power Options Properties window. In this window, the user changes the "Power schemes" dropdown menu from "Home/Office Desk" to "Always On". They then change the "Turn off hard disks" setting from "After 20 mins" to "Never". Finally, the user clicks the "Apply" button in the Power Options Properties window but then clicks the "Cancel" button in both the Power Options Properties and Display Properties windows.
+
+**Purpose Inference:** The user's actions suggest they are attempting to configure their computer's power settings to prevent the hard drive from turning off and to disable the screen saver. However, they then cancel all the changes they have made. 

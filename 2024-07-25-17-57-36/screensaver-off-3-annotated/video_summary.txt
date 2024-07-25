@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Windows Control Panel
+- Input methods: Mouse and keyboard
+- Recording details: 1 minute 3 seconds, resolution unavailable 
+
+
+The user opens the Windows XP start menu and navigates to the Control Panel. Within the Control Panel, they switch to the classic view and open the Power Options. They adjust the power scheme settings to turn off the monitor after 1 minute.  Next, they open the Display Properties and navigate to the Screen Saver tab. They change the screen saver to "None" and click "OK". 
+
+**Purpose Inference:** The user's actions suggest they are configuring their computer's power and display settings to minimize energy consumption or prevent screen burn-in. 

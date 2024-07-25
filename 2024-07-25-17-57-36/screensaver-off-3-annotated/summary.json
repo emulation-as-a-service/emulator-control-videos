@@ -1,0 +1,151 @@
+[
+    {
+        "frame": 34,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 2.125,
+        "description": "The user pressed the **Control** and **Escape** keys simultaneously.  As a result, the **Start Menu** expanded. \n",
+        "outcome": "The Start Menu expanded to reveal program shortcuts and system options, with the cursor hovering over the \"Control Panel\" option. \n",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 95,
+        "event": "The key following key(s) were pressed: ['Alt_L', 'c'].",
+        "timestamp": 5.9375,
+        "description": "The user pressed the key combination 'Alt_L' + 'c', which brought the \"Control Panel\" window into focus. \n",
+        "outcome": "",
+        "key_pressed": [
+            "Alt_L",
+            "c"
+        ]
+    },
+    {
+        "frame": 124,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 7.75,
+        "description": "The user pressed the  `Control` and `Escape` keys simultaneously. This action opened the Windows XP Start Menu. \n",
+        "outcome": "The Windows XP Start Menu opened on the right side of the screen, and the mouse cursor moved over it. \n",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 153,
+        "event": "The key following key(s) were pressed: ['c'].",
+        "timestamp": 9.5625,
+        "description": "The user pressed the 'c' key, highlighting the \"Control Panel\" option in the Start Menu. \n",
+        "outcome": "The \"Control Panel\" option in the Start Menu became highlighted, likely indicating it was selected. \n",
+        "key_pressed": [
+            "c"
+        ]
+    },
+    {
+        "frame": 480,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.0,
+        "description": "The user pressed the right arrow key.  No change is observed in the provided screenshot. \n",
+        "outcome": "",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 483,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.1875,
+        "description": "The user pressed the right arrow key, which highlighted the \"Control Panel\" item on the Windows taskbar. \n",
+        "outcome": "The \"Control Panel\" item on the Windows taskbar became highlighted. \n",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 524,
+        "event": "The key following key(s) were pressed: ['p', 'o'].",
+        "timestamp": 32.75,
+        "description": "The user typed the shortcut keys 'p' then 'o'. This action de-selected \"Add or Remove Programs\" and brought the mouse focus to the \"Power Options\" icon. \n",
+        "outcome": "The \"Add or Remove Programs\" icon is no longer highlighted and its tooltip has disappeared. The mouse cursor has become visible near the bottom of the screen. \n",
+        "key_pressed": [
+            "p",
+            "o"
+        ]
+    },
+    {
+        "frame": 551,
+        "event": "The key following key(s) were pressed: ['Return'].",
+        "timestamp": 34.4375,
+        "description": "The user pressed the 'Return' key while the \"Power Options\" icon in the Control Panel was selected, opening the \"Power Options Properties\" window. \n",
+        "outcome": "A new window titled \"Power Options Properties\" opened in front of the Control Panel, updating the breadcrumb navigation to reflect the change in active window. \n",
+        "key_pressed": [
+            "Return"
+        ]
+    },
+    {
+        "frame": 647,
+        "event": "The user clicked the mouse.",
+        "timestamp": 40.4375,
+        "description": "The user clicked the \"Turn off monitor\" dropdown menu and selected \"After 1 min.\" \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu updated to display \"After 1 min.\" \n"
+    },
+    {
+        "frame": 678,
+        "event": "The user clicked the mouse.",
+        "timestamp": 42.375,
+        "description": "The user clicked the mouse, changing the \"Turn off monitor\" setting from \"Never\" to \"After 20 mins\" within the \"Home/Office Desk\" power scheme. \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu closed. The selected option within the menu changed from \"Never\" to \"After 20 mins\". \n"
+    },
+    {
+        "frame": 708,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 44.25,
+        "description": "The user clicked the \"OK\" button in the \"Power Options Properties\" window. As a result, the \"Turn off monitor\" setting for the \"Home/Office Desk\" power scheme was changed to \"After 1 minute\". \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu updated to display \"After 1 minute\". \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 752,
+        "event": "The user clicked the mouse.",
+        "timestamp": 47.0,
+        "description": "The user clicked on the \"Display Properties\" icon within the Control Panel, resulting in the \"Display Properties\" window opening. \n",
+        "outcome": "The \"Control Panel\" window transformed into the \"Display Properties\" window. \n"
+    },
+    {
+        "frame": 804,
+        "event": "The mouse clicked on DesktopScreen SaverAppearanceSettings.",
+        "timestamp": 50.25,
+        "description": "The user clicked the \"Appearance\" tab within the \"Display Properties\" window. As a result, the \"Screen Saver\" preview window and its associated settings disappeared. \n",
+        "outcome": "The preview window, including its sub-elements (\"Active Window\" settings and \"Window Text\" field), disappeared. \n",
+        "label_clicked": "DesktopScreen SaverAppearanceSettings"
+    },
+    {
+        "frame": 834,
+        "event": "The user clicked the mouse.",
+        "timestamp": 52.125,
+        "description": "The user clicked the mouse on the \"Screen saver\" dropdown menu. As a result, the menu expanded to include a \"None\" option, which was automatically selected.  This action also disabled the \"Settings\" button. \n",
+        "outcome": "The \"Screen saver\" dropdown menu gained a new option, \"None,\" which is now selected.  Simultaneously, the \"Settings\" button became disabled. \n"
+    },
+    {
+        "frame": 857,
+        "event": "The user clicked the mouse.",
+        "timestamp": 53.5625,
+        "description": "The user clicked the mouse, causing the \"Screen Saver\" dropdown menu to close. The previously highlighted \"None\" option is now confirmed, and the \"Wait:\" field below updated to display \"10\". \n",
+        "outcome": "The screen saver selection dropdown menu closed, and the \"Wait:\" field updated to display \"10\". \n"
+    },
+    {
+        "frame": 920,
+        "event": "The user clicked the mouse.",
+        "timestamp": 57.5,
+        "description": "The user clicked the highlighted \"OK\" button in the \"Display Properties\" window. As a result, the button became unhighlighted. \n",
+        "outcome": "The \"OK\" button became unhighlighted. \n"
+    },
+    {
+        "frame": 967,
+        "event": "The user clicked the mouse.",
+        "timestamp": 60.4375,
+        "description": "Insufficient information is provided to connect the user's mouse click to a specific GUI element or observed outcome. \n",
+        "outcome": ""
+    }
+]
