@@ -1,0 +1,87 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The Start Menu will open."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Alt' and 'c' keys simultaneously.",
+        "expected_results": "The 'Control Panel' window will open and come into focus."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The Windows XP Start Menu will open on the left side of the screen."
+    },
+    {
+        "precondition": "The Windows XP Start Menu is open with the mouse cursor hovering over the \"Control Panel\" option.",
+        "action": "Press the 'c' key.",
+        "expected_results": "The \"Control Panel\" option in the Start Menu will become highlighted."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is displayed in Classic View.",
+        "action": "Press the 'Right Arrow' key.",
+        "expected_results": "The horizontal focus will move one icon to the right."
+    },
+    {
+        "precondition": "The Windows XP Start Menu is open.",
+        "action": "Press the 'Right Arrow' key.",
+        "expected_results": "The 'Control Panel' item on the Windows taskbar will become highlighted."
+    },
+    {
+        "precondition": "The Control Panel is open in Classic View. The \"Add or Remove Programs\" icon is highlighted.",
+        "action": "Press the 'P' key, followed by the 'O' key.",
+        "expected_results": "The \"Add or Remove Programs\" icon will be de-selected, and the mouse cursor will move to the \"Power Options\" icon."
+    },
+    {
+        "precondition": "The \"Power Options\" icon in the Control Panel is selected.",
+        "action": "Press the 'Enter' key.",
+        "expected_results": "The \"Power Options Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is selected. The \"Turn off monitor\" dropdown menu should be visible.",
+        "action": "Click the \"Turn off monitor\" dropdown menu.",
+        "expected_results": "The \"Turn off monitor\" dropdown menu will expand, displaying a list of time options."
+    },
+    {
+        "precondition": "The 'Power Options Properties' dialog box is open, and the 'Turn off monitor' dropdown menu is open within the 'Home/Office Desk' power scheme settings.",
+        "action": "Click the 'Never' option in the 'Turn off monitor' dropdown menu.",
+        "expected_results": "The 'Turn off monitor' dropdown menu will close. The selected option will be 'Never'."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open. The \"Home/Office Desk\" power scheme is selected.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close. The selected power scheme settings will be applied."
+    },
+    {
+        "precondition": "The \"Control Panel\" window is open and displaying the Classic View.",
+        "action": "Double Click the icon labeled \"Display\".",
+        "expected_results": "The \"Control Panel\" window will be replaced by the \"Display Properties\" window."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click the \"Appearance\" tab.",
+        "expected_results": "The \"Appearance\" tab of the \"Display Properties\" window will be displayed."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab of the 'Display Properties' window is open. The 'Screen saver' dropdown menu is visible.",
+        "action": "Click the 'Screen saver' dropdown menu.",
+        "expected_results": "A list of available screen savers will appear."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab of the 'Display Properties' window is open. A dropdown menu labeled 'Screen Saver' is open, displaying a list of available screen savers.",
+        "action": "Click the 'None' option in the 'Screen Saver' dropdown menu.",
+        "expected_results": "The dropdown menu will close, and 'None' will be displayed as the selected screen saver."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Display Properties' window will close."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is open and in \"Classic View\".",
+        "action": "Click on the \"Power Options\" icon.",
+        "expected_results": "The \"Power Options Properties\" window will open."
+    }
+]

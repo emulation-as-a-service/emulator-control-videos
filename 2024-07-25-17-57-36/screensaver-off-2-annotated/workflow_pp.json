@@ -1,0 +1,67 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear."
+    },
+    {
+        "precondition": "The context menu titled 'Arrange Icons By \u25b6' is open on the desktop.",
+        "action": "Click the 'Properties' menu item.",
+        "expected_results": "The context menu will close, and the 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Themes' tab is active.",
+        "action": "Click the 'Screen Saver' tab.",
+        "expected_results": "The 'Screen Saver' tab will become active. The options for themes will be replaced with options for screen savers."
+    },
+    {
+        "precondition": "The Display Properties window is open with the 'Screen Saver' tab active. The 'Screen Saver' dropdown menu is visible.",
+        "action": "Click on the downward-pointing arrow of the 'Screen Saver' dropdown menu.",
+        "expected_results": "The 'Screen Saver' dropdown menu will expand, showing a list of available screen savers. The 'Settings' and 'Preview' buttons will become active."
+    },
+    {
+        "precondition": "The \"Screen Saver\" dropdown menu within the \"Display Properties\" window is open.",
+        "action": "Click the \"None\" option in the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"Screen Saver\" dropdown menu will close, the \"Wait\" time box will populate with \"10\", and the \"Settings\" and \"Preview\" buttons will remain inactive."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open with the 'Screen Saver' tab active.",
+        "action": "Click the button labeled 'Power...' at the bottom of the 'Monitor power' section.",
+        "expected_results": "The 'Power Options Properties' window will open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power schemes\" dropdown menu is visible.",
+        "action": "Click the \"Home/Office Desk\" option within the \"Power schemes\" dropdown menu.",
+        "expected_results": "The \"Turn off hard disks\" setting in the \"Settings for Home/Office Desk power scheme\" section will change to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is selected. The \"Power schemes\" dropdown menu should display \"Always On\".",
+        "action": "Click the \"Power schemes\" dropdown menu and select \"Presentation\".",
+        "expected_results": "The \"Power schemes\" value will change to \"Presentation\" and the \"Turn off hard disks\" value will change to \"After 20 mins\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Settings for Always On power scheme\" section is visible.",
+        "action": "Click on the downward-pointing arrow of the \"Turn off monitor\" dropdown menu.",
+        "expected_results": "A dropdown menu with a list of monitor timeout options will appear."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Turn off hard disks\" dropdown menu open.",
+        "action": "Click the \"Never\" option in the \"Turn off hard disks\" dropdown menu.",
+        "expected_results": "The \"Turn off hard disks\" dropdown menu will close and the \"Turn off hard disks\" setting will be set to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Apply\" button is active.",
+        "action": "Click the button labeled \"ApplN\".",
+        "expected_results": "The changes made to the power options will be applied."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the desired power scheme and settings selected.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open, and the 'Screen Saver' tab is active.",
+        "action": "Click the 'OK' button at the bottom of the window.",
+        "expected_results": "The 'Display Properties' window will close."
+    }
+]

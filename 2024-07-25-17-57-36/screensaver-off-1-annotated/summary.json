@@ -1,0 +1,137 @@
+[
+    {
+        "frame": 36,
+        "event": "The mouse clicked on # start.",
+        "timestamp": 2.25,
+        "description": "The user clicked on the \"Start\" button on the taskbar, which caused the Start Menu to open. \n",
+        "outcome": "The Start Menu opened, replacing the mouse cursor which was previously hovering over the \"Start\" button. \n",
+        "label_clicked": "# start"
+    },
+    {
+        "frame": 90,
+        "event": "The mouse clicked on ContrqPanel.",
+        "timestamp": 5.625,
+        "description": "The mouse click on \"Control Panel\" in the Start menu caused the tooltip describing the Control Panel to disappear. \n",
+        "outcome": "The tooltip box describing the Control Panel disappeared. \n",
+        "label_clicked": "ContrqPanel"
+    },
+    {
+        "frame": 459,
+        "event": "The user clicked the mouse.",
+        "timestamp": 28.6875,
+        "description": "The user clicked on the \"Appearance and Themes\" category in the Windows XP Control Panel. As a result, the category is highlighted. \n",
+        "outcome": "The \"Appearance and Themes\" category is highlighted, likely indicating it is currently selected or being hovered over. \n"
+    },
+    {
+        "frame": 547,
+        "event": "The mouse clicked on splay.",
+        "timestamp": 34.1875,
+        "description": "The user clicked the \"Display\" icon within the \"Appearance and Themes\" window. As a result, the mouse cursor became visible, hovering over the icon. \n",
+        "outcome": "The mouse cursor has become visible, hovering over the \"Display\" icon. \n",
+        "label_clicked": "splay"
+    },
+    {
+        "frame": 718,
+        "event": "The mouse clicked on DesktopScreen SverAppearanceSettings.",
+        "timestamp": 44.875,
+        "description": "The user clicked on the \"Screen Saver\" tab within the \"Display Properties\" window. As a result, the window's content switched to the \"Screen Saver\" settings, and the \"OK\" and \"Apply\" buttons became active. \n",
+        "outcome": "The user interface has transitioned from the \"Themes\" tab to the \"Screen Saver\" tab. The preview pane now displays a screen saver preview, and the \"OK\" and \"Apply\" buttons have become active. \n",
+        "label_clicked": "DesktopScreen SverAppearanceSettings"
+    },
+    {
+        "frame": 753,
+        "event": "The user clicked the mouse.",
+        "timestamp": 47.0625,
+        "description": "The user clicked the \"None\" option in the \"Screen Saver\" dropdown menu. As a result, the screen saver setting changed to \"None.\" \n",
+        "outcome": "The screen saver setting was changed to \"None\". \n"
+    },
+    {
+        "frame": 773,
+        "event": "The user clicked the mouse.",
+        "timestamp": 48.3125,
+        "description": "The user clicked the mouse on the \"10\" entry within the \"Wait:\" dropdown menu. \n",
+        "outcome": "The \"Wait:\" field changed to \"10\" and the open \"Screen Saver\" dropdown menu closed. \n"
+    },
+    {
+        "frame": 803,
+        "event": "The mouse clicked on Pow.",
+        "timestamp": 50.1875,
+        "description": "The user clicked the \"Power\" button within the \"Screen Saver\" tab of the \"Display Properties\" window. As a result, the \"Power Options Properties\" window opened. \n",
+        "outcome": "A \"Power Options Properties\" window appeared, overlaying the \"Display Properties\" window and becoming the primary focus. \n",
+        "label_clicked": "Pow"
+    },
+    {
+        "frame": 861,
+        "event": "The user clicked the mouse.",
+        "timestamp": 53.8125,
+        "description": "The user clicked the \"Turn off monitor\" dropdown menu, located within the \"Settings for Home/Office Desk power scheme\" section. As a result, the menu expanded, displaying a list of time options. \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu is expanded, suggesting it was likely clicked. \n"
+    },
+    {
+        "frame": 912,
+        "event": "The mouse clicked on After 5 hours.",
+        "timestamp": 57.0,
+        "description": "The user clicked the \"Always On\" option within the \"Power schemes\" dropdown menu. As a result, the \"OK\" button became highlighted. \n",
+        "outcome": "The \"Power schemes\" dropdown selection changed to \"Always On\" and the \"OK\" button became highlighted. \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 994,
+        "event": "The user clicked the mouse.",
+        "timestamp": 62.125,
+        "description": "The user clicked the \"Always On\" option within the \"Power schemes\" dropdown menu. As a result, \"Always On\" became the selected power scheme. \n",
+        "outcome": "The selected option in the \"Power schemes\" dropdown menu changed to \"Always On\". \n"
+    },
+    {
+        "frame": 1039,
+        "event": "The mouse clicked on Always On.",
+        "timestamp": 64.9375,
+        "description": "The user clicked the \"Always On\" option within the \"Power schemes\" dropdown menu.  This action did not produce any visible changes in the \"Power Options Properties\" window. \n",
+        "outcome": "The mouse cursor became visible and hovered over the \"Cancel\" button. \n",
+        "label_clicked": "Always On"
+    },
+    {
+        "frame": 1060,
+        "event": "The user clicked the mouse.",
+        "timestamp": 66.25,
+        "description": "The user clicked the \"Turn off hard disks\" dropdown menu within the \"Power Options Properties\" window. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 1070,
+        "event": "The user clicked the mouse.",
+        "timestamp": 66.875,
+        "description": "The user clicked the \"Turn off monitor\" dropdown menu. As a result, the menu expanded to display a list of time intervals, with \"After 20 mins\" becoming the newly selected option. \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu updated to display \"After 20 mins\". \n"
+    },
+    {
+        "frame": 1093,
+        "event": "The mouse clicked on Never.",
+        "timestamp": 68.3125,
+        "description": "The user clicked on \"After 20 mins\" in the \"Turn off monitor\" dropdown menu within the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu updated to display \"After 20 mins\" as the selected option, and the \"Cancel\" button became unhighlighted. \n",
+        "label_clicked": "Never"
+    },
+    {
+        "frame": 1120,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 70.0,
+        "description": "The user clicked the \"OK\" button in the \"Power Options Properties\" window. As a result, the \"OK\" button became highlighted, indicating the cursor is now hovering over it. \n",
+        "outcome": "The \"Cancel\" button became unhighlighted as the mouse cursor moved over the \"OK\" button. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 1204,
+        "event": "The user clicked the mouse.",
+        "timestamp": 75.25,
+        "description": "The user clicked the \"Cancel\" button in the \"Display Properties\" window. As a result, the button became unhighlighted, and the mouse cursor moved to the \"OK\" button. \n",
+        "outcome": "The \"Cancel\" button became unhighlighted, and the mouse cursor moved over the \"OK\" button. \n"
+    },
+    {
+        "frame": 1266,
+        "event": "The user clicked the mouse.",
+        "timestamp": 79.125,
+        "description": "The user clicked the \"**Display**\" icon, located below the \"or pick a Control Panel icon\" section. As a result, the \"Display Properties\" window opened. \n",
+        "outcome": ""
+    }
+]

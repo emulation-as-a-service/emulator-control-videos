@@ -1,0 +1,52 @@
+[
+    {
+        "precondition": "The mouse cursor is visible on the desktop.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear with options such as 'Arrange Icons By', 'Refresh', 'Paste', 'New', and 'Properties'."
+    },
+    {
+        "precondition": "The context menu with the 'Properties' option is open on the desktop.",
+        "action": "Click the 'Properties' menu item.",
+        "expected_results": "The context menu will close, and the 'Display Properties' window will appear."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The content of the window will change to show the \"Screen Saver\" tab's options."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active. The 'Screen saver' dropdown menu is visible.",
+        "action": "Click the 'Screen saver' dropdown menu and select 'Starfield'.",
+        "expected_results": "The 'Screen saver' dropdown menu will show 'Starfield' as the selected option."
+    },
+    {
+        "precondition": "The 'Screen Saver' dropdown menu within the 'Display Properties' window is open, showing a list of available screensavers.",
+        "action": "Click on the 'None' option in the 'Screen Saver' dropdown menu.",
+        "expected_results": "The dropdown menu will close, and the screensaver will be disabled."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active.",
+        "action": "Click the 'Power...' button in the 'Monitor power' section.",
+        "expected_results": "The 'Power Options Properties' window will appear."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'Power Schemes' tab is selected.",
+        "action": "Click the dropdown menu labeled 'Turn off monitor'.",
+        "expected_results": "A list of time options will appear."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Settings for Home/Office Desk power scheme\" is selected.",
+        "action": "Click on the \"Turn off monitor\" dropdown menu and select \"Never\".",
+        "expected_results": "The \"Turn off monitor\" dropdown menu will display \"Never\" as the selected option."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'OK' button is highlighted.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Power Options Properties' window will close, and the 'Display Properties' window will become visible."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active.",
+        "action": "Click the 'OK' button at the bottom of the window.",
+        "expected_results": "The 'Display Properties' window will close."
+    }
+]

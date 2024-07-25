@@ -1,0 +1,103 @@
+[
+    {
+        "frame": 29,
+        "event": "The user clicked the mouse.",
+        "timestamp": 1.8125,
+        "description": "The user clicked the mouse on the Windows XP desktop. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 50,
+        "event": "The mouse clicked on Properties.",
+        "timestamp": 3.125,
+        "description": "The user clicked on the \"Properties\" option in the desktop context menu. As a result, the context menu closed. \n",
+        "outcome": "The context menu, titled \"Arrange Icons By \u25b8\", closed. The cursor, previously hovering over the \"Properties\" option within the menu, changed to an arrow and now rests to the right of the word \"Properties\". \n",
+        "label_clicked": "Properties"
+    },
+    {
+        "frame": 117,
+        "event": "The mouse clicked on Themes DesktopScreenaverAppearanceSettings.",
+        "timestamp": 7.3125,
+        "description": "The user clicked on the \"Screen Saver\" tab in the Display Properties window. As a result, the interface switched from the \"Themes\" tab to the \"Screen Saver\" tab. \n",
+        "outcome": "The UI switched from the \"Themes\" tab to the \"Screen Saver\" tab.  Elements related to theme selection, including the \"Theme:\" dropdown, \"Save As...\" button, \"Delete\" button, and the active window preview, are no longer visible. \n",
+        "label_clicked": "Themes DesktopScreenaverAppearanceSettings"
+    },
+    {
+        "frame": 185,
+        "event": "The user clicked the mouse.",
+        "timestamp": 11.5625,
+        "description": "The user clicked the mouse on the downward-pointing arrow of the \"Screen Saver\" dropdown menu. As a result, the dropdown menu expanded, revealing a list of screen saver options, and the selected option changed to \"None.\" Additionally, the \"Settings\" and \"Preview\" buttons became active. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu expanded to reveal a list of options (\"My Pictures Slideshow\", \"Mystify\", \"Starfield\") and the selected option changed from \"Windows XP\" to \"None.\"  Simultaneously, the \"Settings\" and \"Preview\" buttons became active. \n"
+    },
+    {
+        "frame": 215,
+        "event": "The mouse clicked on [None].",
+        "timestamp": 13.4375,
+        "description": "The user clicked the \"None\" option in the open \"Screen Saver\" dropdown menu. This action selected \"None\", closed the dropdown menu, and populated the \"Wait\" time box with \"10\". \n",
+        "outcome": "After a user interaction, the \"Wait\" time box populated with \"10\", the previously open \"Screen Saver\" dropdown menu closed, and a yellow notification box reading \"Keep your computer up to date\" appeared in the bottom right corner of the screen. \n",
+        "label_clicked": "[None]"
+    },
+    {
+        "frame": 269,
+        "event": "The mouse clicked on Po.",
+        "timestamp": 16.8125,
+        "description": "The user clicked the \"Power...\" button in the \"Screen Saver\" tab of the \"Display Properties\" window. As a result, the \"Power Options Properties\" window opened. \n",
+        "outcome": "The \"Power...\" button within the \"Display Properties\" window was pressed, resulting in the \"Power Options Properties\" window appearing in front of it. \n",
+        "label_clicked": "Po"
+    },
+    {
+        "frame": 338,
+        "event": "The mouse clicked on Home/Office Desk.",
+        "timestamp": 21.125,
+        "description": "The user clicked the \"Home/Office Desk\" option within the \"Power schemes\" dropdown menu.  This action resulted in the \"Turn off hard disks\" setting changing from \"After 20 mins\" to \"Never\". Additionally, a notification balloon with the message \"Keep your computer up to date\" appeared in the bottom right corner of the screen. \n",
+        "outcome": "A notification balloon reading \"Keep your computer up to date\" appeared in the bottom right corner.  Concurrently, within the \"Settings for Home/Office Desk power scheme\", the \"Turn off hard disks\" setting changed from \"After 20 mins\" to \"Never\". \n",
+        "label_clicked": "Home/Office Desk"
+    },
+    {
+        "frame": 374,
+        "event": "The mouse clicked on Presentation.",
+        "timestamp": 23.375,
+        "description": "The user clicked the \"Home/Office Desk\" option within the \"Power schemes\" dropdown menu. As a result, the \"Power schemes\" value changed to \"Home/Office Desk\" and the \"Turn off hard disks\" value changed to \"After 20 mins\". Additionally, a pop-up box titled \"Keep your computer up to date\" appeared in the bottom right corner. \n",
+        "outcome": "The power scheme changed to \"Home/Office Desk,\" the hard disk timeout changed to \"After 20 mins,\" and a pop-up box titled \"Keep your computer up to date\" appeared in the bottom right corner. \n",
+        "label_clicked": "Presentation"
+    },
+    {
+        "frame": 395,
+        "event": "The mouse clicked on After RO mins.",
+        "timestamp": 24.6875,
+        "description": "The user clicked on the \"After 20 mins\" option within the \"Turn off monitor\" dropdown menu. This action resulted in the appearance of a pop-up box titled \"Keep your computer up to date\" in the bottom right corner of the screen. Additionally, the \"Turn off monitor\" setting updated to display \"After 20 mins\". \n",
+        "outcome": "A pop-up box titled \"Keep your computer up to date\" appeared in the bottom right corner of the screen. Concurrently, the \"Turn off monitor\" setting within the \"Settings for Always On power scheme\" section updated to display \"After 20 mins.\" \n",
+        "label_clicked": "After RO mins"
+    },
+    {
+        "frame": 437,
+        "event": "The mouse clicked on NE.",
+        "timestamp": 27.3125,
+        "description": "The user clicked the \"Never\" option within the \"Turn off hard disks\" dropdown menu in the \"Power Options Properties\" window. This action set all visible power scheme settings (\"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\") to \"Never\" and triggered a system notification about keeping the computer up-to-date. \n",
+        "outcome": "A system notification about keeping the computer up-to-date appeared in the bottom right corner.  Concurrently, the \"Turn off hard disks\" dropdown menu closed, and all power scheme settings within view (\"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\") were set to \"Never\". \n",
+        "label_clicked": "NE"
+    },
+    {
+        "frame": 482,
+        "event": "The mouse clicked on ApplN.",
+        "timestamp": 30.125,
+        "description": "The user clicked the \"Apply\" button in the \"Power Options Properties\" window.  As a result, a \"Keep your computer up to date\" notification balloon appeared in the bottom right corner of the screen. \n",
+        "outcome": "A \"Keep your computer up to date\" notification balloon appeared in the bottom right corner of the screen. \n",
+        "label_clicked": "ApplN"
+    },
+    {
+        "frame": 516,
+        "event": "The user clicked the mouse.",
+        "timestamp": 32.25,
+        "description": "The user clicked the \"OK\" button in the \"Power Options Properties\" window. As a result, a \"Keep your computer up to date\" notification appeared in the bottom left corner of the screen. \n",
+        "outcome": "A \"Keep your computer up to date\" notification appeared in the bottom left corner of the screen. \n"
+    },
+    {
+        "frame": 544,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 34.0,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Display Properties\" window.  No changes are observed in the provided screenshot as a result of this action. \n",
+        "outcome": "",
+        "label_clicked": "OK"
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "frame": 23,
+        "event": "The user clicked the mouse.",
+        "timestamp": 1.4375,
+        "description": "The user right-clicked on the desktop. This action opened a context menu with the option \"Properties\" highlighted. \n",
+        "outcome": "A context menu labeled \"Arrange Icons By\" appeared on the desktop, offering options: \"Refresh,\" \"Paste,\" \"Paste Shortcut,\" \"New,\" and \"Properties.\" The mouse cursor, previously a white arrow, now has a black outline and points to the \"Properties\" option within the menu. \n"
+    },
+    {
+        "frame": 75,
+        "event": "The mouse clicked on Properties.",
+        "timestamp": 4.6875,
+        "description": "The user clicked on the \"Properties\" option in the right-click context menu on the Windows XP desktop. \n",
+        "outcome": "The right-click context menu is no longer visible. The \"Display Properties\" window appeared. \n",
+        "label_clicked": "Properties"
+    },
+    {
+        "frame": 136,
+        "event": "The user clicked the mouse.",
+        "timestamp": 8.5,
+        "description": "The user clicked on the \"Appearance\" tab in the Display Properties window. \n",
+        "outcome": "The \"Appearance\" tab became the selected tab. \n"
+    },
+    {
+        "frame": 185,
+        "event": "The mouse clicked on DesktopScreerSaverAppearance.",
+        "timestamp": 11.5625,
+        "description": "The user clicked on the \"Screen Saver\" tab within the Display Properties window. \n",
+        "outcome": "The Display Properties window transitioned from the \"Themes\" tab to the \"Screen Saver\" tab. The interactive theme preview was replaced with a static Windows XP logo image, and theme-related controls were replaced with screen saver settings. \n",
+        "label_clicked": "DesktopScreerSaverAppearance"
+    },
+    {
+        "frame": 244,
+        "event": "The user clicked the mouse.",
+        "timestamp": 15.25,
+        "description": "The user clicked the \"Screen Saver\" dropdown menu. \n",
+        "outcome": "The screen saver selection within the dropdown menu changed from \"Windows XP\" to \"None\". \n"
+    },
+    {
+        "frame": 263,
+        "event": "The mouse clicked on 3D FlowerBox.",
+        "timestamp": 16.4375,
+        "description": "The user clicked on the \"3D FlowerBox\" item in the \"Screen Saver\" dropdown menu. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu closed.  Simultaneously, the \"Settings\" and \"Preview\" buttons became active, a \"Wait:\" spin box appeared (set to \"10\"), and an unchecked \"On resume, password protect\" checkbox appeared. \n",
+        "label_clicked": "3D FlowerBox"
+    },
+    {
+        "frame": 318,
+        "event": "The mouse clicked on App.",
+        "timestamp": 19.875,
+        "description": "The user clicked the \"Apply\" button in the Display Properties window's \"Screen Saver\" tab. \n",
+        "outcome": "The mouse cursor moved from the \"Apply\" button to the \"Power...\" button. \n",
+        "label_clicked": "App"
+    },
+    {
+        "frame": 349,
+        "event": "The mouse clicked on Power.",
+        "timestamp": 21.8125,
+        "description": "The user clicked the \"Power...\" button at the bottom of the \"Display Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window appeared. \n",
+        "label_clicked": "Power"
+    },
+    {
+        "frame": 411,
+        "event": "The user clicked the mouse.",
+        "timestamp": 25.6875,
+        "description": "The user clicked the mouse to open the \"Turn off hard disks\" dropdown menu. \n",
+        "outcome": "The \"Turn off hard disks\" dropdown menu changed its displayed value from \"After 20 mins\" to \"Never\". \n"
+    },
+    {
+        "frame": 448,
+        "event": "The mouse clicked on After 5 hours.",
+        "timestamp": 28.0,
+        "description": "The user clicked on the \"After 4 hours\" option within the \"Turn off hard disks\" dropdown menu in the Power Options Properties window. \n",
+        "outcome": "The \"Turn off hard disks\" dropdown menu closed. The selected option within this menu is now \"Never\". \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 468,
+        "event": "The mouse clicked on NQK.",
+        "timestamp": 29.25,
+        "description": "The user clicked on the \"OK\" button in the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window closed. \n",
+        "label_clicked": "NQK"
+    },
+    {
+        "frame": 506,
+        "event": "The mouse clicked on OK.",
+        "timestamp": 31.625,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Display Properties\" window. \n",
+        "outcome": "The \"Display Properties\" window closed. \n",
+        "label_clicked": "OK"
+    }
+]
