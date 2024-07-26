@@ -1,0 +1,94 @@
+[
+    {
+        "frame": 23,
+        "event": "The mouse is clicking on the desktop. \n",
+        "timestamp": 1.4375,
+        "description": "The mouse click on the desktop triggered the appearance of a context menu with options including \"Arrange Icons By\", \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\". \n \n",
+        "outcome": "A context menu labeled \"Arrange Icons By\" appeared on the desktop, offering the options: \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\". \n"
+    },
+    {
+        "frame": 75,
+        "event": "The mouse clicked on Properties. Mouse click on \"Properties\" in the context menu. \n",
+        "timestamp": 4.6875,
+        "description": "The user clicks \"Properties\" in the right-click context menu on the desktop. As a result, the context menu closes. \n",
+        "outcome": "The right-click context menu, which previously highlighted the \"Properties\" option, has disappeared. \n",
+        "label_clicked": "Properties"
+    },
+    {
+        "frame": 136,
+        "event": "The mouse is clicking on the \"Appearance\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 8.5,
+        "description": "The user clicks on the \"Appearance\" tab in the \"Display Properties\" window. No visual change occurs, as this tab was already active. \n",
+        "outcome": "There are no visual changes to report. The description provided matches the typical appearance of the \"Appearance\" tab within the \"Display Properties\" window. \n"
+    },
+    {
+        "frame": 185,
+        "event": "The mouse clicked on DesktopScreerSaverAppearance. The mouse is clicking on the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 11.5625,
+        "description": "The user clicked on the \"Screen Saver\" tab in the \"Display Properties\" window. As a result, the active tab switched from \"Themes\" to \"Screen Saver\", updating the window's content to display the Screen Saver settings. \n",
+        "outcome": "The user navigated from the \"Themes\" tab to the \"Screen Saver\" tab within the \"Display Properties\" window. The display reflects this change, showing the \"Windows XP\" screensaver selected and active within the preview window. Additionally, the \"Save As...\" button has been replaced with a \"Settings\" button, and the \"Delete\" button is no longer present. \n",
+        "label_clicked": "Screen Saver"
+    },
+    {
+        "frame": 244,
+        "event": "The mouse is clicking on the down arrow of the wait time spin box. \n",
+        "timestamp": 15.25,
+        "description": "The user clicked the down arrow of the \"Screen saver\" dropdown menu. \n",
+        "outcome": "The \"Screen saver\" dropdown menu changed its selection from \"Windows XP\" to \"None\". \n"
+    },
+    {
+        "frame": 263,
+        "event": "The mouse clicked on 3D FlowerBox. The mouse is clicking on the \"3D Text\" item in the screen saver dropdown menu of the \"Display Properties\" window. \n",
+        "timestamp": 16.4375,
+        "description": "The user clicked the \"Apply\" button in the \"Display Properties\" window. \n",
+        "outcome": "The cursor changed position, moving to hover over the bottom right corner of the \"Display Properties\" window. \n",
+        "label_clicked": "Apply"
+    },
+    {
+        "frame": 318,
+        "event": "The mouse clicked on App. The mouse is clicking on the \"Apply\" button in the \"Display Properties\" window. \n",
+        "timestamp": 19.875,
+        "description": "The user clicked the \"Power...\" button at the bottom of the \"Display Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window opened in front of the \"Display Properties\" window, and the \"Power\" button in the \"Display Properties\" window is no longer highlighted. \n",
+        "label_clicked": "Power"
+    },
+    {
+        "frame": 349,
+        "event": "The mouse clicked on Power. The mouse is clicking on the \"Power...\" button. \n",
+        "timestamp": 21.8125,
+        "description": "The user clicked the \"Power...\" button at the bottom of the \"Display Properties\" window. As a result, the \"Power Options Properties\" window opened. \n",
+        "outcome": "The \"Power Options Properties\" window opened in front of the \"Display Properties\" window, and the \"Power\" button in the \"Display Properties\" window is no longer highlighted. \n",
+        "label_clicked": "Power"
+    },
+    {
+        "frame": 411,
+        "event": "The mouse is clicking on the \"Power...\" button in the \"Display Properties\" window. \n",
+        "timestamp": 25.6875,
+        "description": "The user clicks the \"Power...\" button in the \"Display Properties\" window.  As a result, the \"Turn off monitor\" setting within the \"Power Options Properties\" window changes from \"After 20 secs\" to \"After 20 mins\". \n",
+        "outcome": "The \"Turn off monitor\" setting within the \"Power Options Properties\" window changed from \"After 20 secs\" to \"After 20 mins\". \n"
+    },
+    {
+        "frame": 448,
+        "event": "The mouse clicked on After 5 hours. The mouse is clicking on \"Never\" in the \"System hibernates\" dropdown menu. \n",
+        "timestamp": 28.0,
+        "description": "The user clicked on the \"Never\" option within the \"System hibernates\" dropdown menu in the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Turn off hard disks\" dropdown menu closed, and the mouse cursor moved to hover over the \"OK\" button. \n",
+        "label_clicked": "Never"
+    },
+    {
+        "frame": 468,
+        "event": "The mouse clicked on NQK. The mouse is clicking on the \"OK\" button of the window titled \"Power Options Properties\". \n",
+        "timestamp": 29.25,
+        "description": "The user clicked the \"OK\" button at the bottom of the active \"Power Options Properties\" window. As a result, the  \"Power Options Properties\" window closed. \n",
+        "outcome": "The \"Power Options Properties\" window closed. The \"Display Properties\" window, previously in the background, is now active. The mouse cursor is no longer visible. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 506,
+        "event": "The mouse clicked on OK. The mouse is clicking on the OK button of the Display Properties window. \n",
+        "timestamp": 31.625,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Display Properties\" window. As a result, the \"Display Properties\" window closed. \n",
+        "outcome": "The \"Display Properties\" window closed. \n",
+        "label_clicked": "OK"
+    }
+]

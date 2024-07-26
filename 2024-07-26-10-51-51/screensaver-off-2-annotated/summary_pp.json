@@ -1,0 +1,103 @@
+[
+    {
+        "frame": 29,
+        "event": "Mouse click on the desktop. \n",
+        "timestamp": 1.8125,
+        "description": "The user right-clicks on the blank area of the Windows XP desktop. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 50,
+        "event": "The mouse clicked on Properties. Mouse click on \"Properties\" in the context menu. \n",
+        "timestamp": 3.125,
+        "description": "The user clicks on the \"Properties\" option in the desktop context menu. As a result, the context menu closed. \n",
+        "outcome": "The \"Arrange Icons By\" context menu disappeared. \n",
+        "label_clicked": "Properties"
+    },
+    {
+        "frame": 117,
+        "event": "The mouse clicked on Themes DesktopScreenaverAppearanceSettings. Mouse click on \"Screen Saver\" tab in \"Display Properties\" window. \n",
+        "timestamp": 7.3125,
+        "description": "The user clicked on the \"Screen Saver\" tab in the \"Display Properties\" window. As a result, the window's content switched to the \"Screen Saver\" settings. \n",
+        "outcome": "The \"Display Properties\" window switched to the \"Screen Saver\" tab. The screen saver preview updated to show \"Windows XP\" selected, and the \"Theme\" dropdown and theme-related buttons are no longer visible. \n",
+        "label_clicked": "Themes DesktopScreenaverAppearanceSettings"
+    },
+    {
+        "frame": 185,
+        "event": "The mouse is clicking on the down arrow of the \"Screen saver\" drop-down list. \n",
+        "timestamp": 11.5625,
+        "description": "The user clicks the down arrow of the \"Screen Saver\" dropdown menu located below the screen saver preview window. As a result, the dropdown menu expands, displaying a list of available screen savers. \n",
+        "outcome": "When the \"Screen Saver\" dropdown menu is expanded, the preview window updates to display a black screen with the text \"(None)\" and the \"Settings\" button becomes enabled. \n"
+    },
+    {
+        "frame": 215,
+        "event": "The mouse clicked on [None]. Mouse click on \"3D FlowerBox\" item in the \"Screen saver\" dropdown list of \"Display Properties\" window. \n",
+        "timestamp": 13.4375,
+        "description": "The user clicked on the \"3D FlowerBox\" item within the expanded \"Screen saver\" dropdown list of the \"Display Properties\" window. As a result, the dropdown menu closed, the screen saver preview updated, and a pop-up window titled \"Keep your computer up to date\" appeared. \n",
+        "outcome": "The screen saver preview updated to show a rotating cube with flowers on each side. A yellow pop-up window titled \"Keep your computer up to date\" appeared in the bottom right corner of the screen, and the \"Screen saver\" dropdown menu closed. \n",
+        "label_clicked": "[None]"
+    },
+    {
+        "frame": 269,
+        "event": "The mouse clicked on Po. The mouse is clicking on the \"Power...\" button in the \"Display Properties\" window. \n",
+        "timestamp": 16.8125,
+        "description": "The user clicked the \"Power...\" button within the \"Screen Saver\" tab of the \"Display Properties\" window.  As a result, the \"Power Options Properties\" window opened. \n",
+        "outcome": "A new window, titled \"Power Options Properties,\" appeared on top of the \"Display Properties\" window, partially obscuring it. \n",
+        "label_clicked": "Po"
+    },
+    {
+        "frame": 338,
+        "event": "The mouse clicked on Home/Office Desk. Mouse click on the dropdown arrow of the \"Power schemes\" list box in the \"Power Options Properties\" window. \n",
+        "timestamp": 21.125,
+        "description": "The user clicked the dropdown arrow of the \"Power schemes\" list box in the \"Power Options Properties\" window. This action expanded the \"Power schemes\" dropdown menu, displaying \"Always On\" as the currently selected power scheme. \n",
+        "outcome": "A yellow notification balloon with the text \"Keep your computer up to date Click here to have Windows automatically keep your computer current with important updates.\" appeared in the bottom right corner of the screen.  Additionally, the \"Power schemes\" dropdown menu now displays \"Always On\" as the selected option. \n",
+        "label_clicked": "Home/Office Desk"
+    },
+    {
+        "frame": 374,
+        "event": "The mouse clicked on Presentation. The mouse is clicking on the \"Always On\" option in the \"Power schemes\" dropdown menu of the \"Power Options Properties\" window. \n",
+        "timestamp": 23.375,
+        "description": "The user clicked on the \"Always On\" option within the \"Power schemes\" dropdown menu. As a result, the \"Turn off monitor\" setting updated to \"After 30 mins\". \n",
+        "outcome": "The power scheme remained as \"Always On\" and the \"Turn off monitor\" setting within this scheme was updated to \"After 30 mins\". \n",
+        "label_clicked": "Presentation"
+    },
+    {
+        "frame": 395,
+        "event": "The mouse clicked on After RO mins. The mouse is clicking on the dropdown arrow of \"Turn off monitor\" option. \n",
+        "timestamp": 24.6875,
+        "description": "The user clicked the dropdown arrow next to the \"Turn off monitor\" setting under the \"Settings for Always On power scheme\" section. \n",
+        "outcome": "A notification reading \"Keep your computer up to date\" appeared in the bottom right corner. Concurrently, the dropdown menu for the \"Turn off monitor\" settings expanded. \n",
+        "label_clicked": "After RO mins"
+    },
+    {
+        "frame": 437,
+        "event": "The mouse clicked on NE. The mouse is clicking on \"Never\" in the \"System hibernates\" dropdown menu. \n",
+        "timestamp": 27.3125,
+        "description": "The user clicked on \"Never\" in the \"Turn off hard disks\" dropdown menu within the \"Settings for Always On power scheme\" section of the \"Power Options Properties\" window.  This action triggered the appearance of a pop-up notification, \"Keep your computer up to date\", in the bottom right corner of the screen. \n",
+        "outcome": "A yellow pop-up notification box titled \"Keep your computer up to date\" appeared in the bottom right corner of the screen. The notification box prompts the user to enable automatic updates and includes an \"X\" button for dismissal. \n",
+        "label_clicked": "NE"
+    },
+    {
+        "frame": 482,
+        "event": "The mouse clicked on ApplN. The mouse is clicking on the \"Apply\" button in the \"Power Options Properties\" window. \n",
+        "timestamp": 30.125,
+        "description": "The user clicked the active \"Apply\" button in the \"Power Options Properties\" window. As a result, the button is no longer active and a pop-up titled \"Keep your computer up to date\" appeared. \n",
+        "outcome": "A yellow pop-up box titled \"Keep your computer up to date\" appeared in the bottom right corner of the screen. The \"Apply\" button is no longer active. \n",
+        "label_clicked": "ApplN"
+    },
+    {
+        "frame": 516,
+        "event": "The mouse is clicking on the OK button of the window titled Power Options Properties. \n",
+        "timestamp": 32.25,
+        "description": "The user clicks the \"OK\" button in the \"Power Options Properties\" window. As a result, the \"Power Options Properties\" window closes. \n",
+        "outcome": "The \"Power Options Properties\" window is closing, and a notification box about keeping the computer up-to-date is present in the bottom right corner of the screen. \n"
+    },
+    {
+        "frame": 544,
+        "event": "The mouse clicked on OK. The mouse is clicking on the \"OK\" button in the \"Display Properties\" window. \n",
+        "timestamp": 34.0,
+        "description": "The user clicked the \"OK\" button in the \"Display Properties\" window. As a result, the \"Display Properties\" window closed. \n",
+        "outcome": "The Windows XP desktop is visible. \n",
+        "label_clicked": "OK"
+    }
+]

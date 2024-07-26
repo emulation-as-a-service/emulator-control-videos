@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Display Properties, Power Options Properties
+- Input methods: Mouse and keyboard
+- Recording details: 0:36, 384x288 
+
+
+The user right-clicks on the desktop and selects "Properties" from the context menu. In the Display Properties window, the user navigates to the "Screen Saver" tab, selects "None" from the dropdown menu, and clicks "Apply". Then the user clicks the "Power" button, opens the "Turn off hard disks" dropdown menu in the Power Options Properties window, hovers over the "After 4 hours" option, and closes the menu without selecting it. Finally, the user clicks "OK" in both open windows.
+
+Purpose inference: The user's actions suggest they are attempting to disable the screensaver and check the power settings on their computer. 

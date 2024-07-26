@@ -1,0 +1,467 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            z-index: 1000; /* Ensure it stays above other elements */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            margin-top: 460px; /* Space for the fixed video element */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+        .item-header {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            background-color: #f9f9f9;
+        }
+        .columns {
+            display: flex;
+        }
+        .column {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            color: black; /* Ensure text color is set */
+        }
+        .column + .column {
+            border-left: 1px solid #eee;
+        }
+        p {
+            margin: 10px 0;
+            color: #333; /* Ensure text is visible on white background */
+        }
+        .instruction h4 {
+            margin: 10px 0;
+            color: #0056b3; /* Ensure headings are distinct */
+        }
+        .instruction p {
+            margin: 5px 0;
+            color: #333; /* Ensure instruction text is visible */
+        }
+        .instruction {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .instruction strong {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="video-container">
+    <video id="reviewVideo" controls>
+        <source src="screensaver-off-2-ffr.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="container">
+    <h2>Review Screenshots</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 29  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 1.8125; return false;">1.8125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks on the blank area of the Windows XP desktop. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Right Click on the desktop.</p>
+                            <p><strong>Expected Results:</strong> A context menu will appear.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user right-clicks on the blank area of the Windows XP desktop. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Right Click on the desktop.</p>
+                            <p><strong>Expected Results:</strong> A context menu will appear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 50  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 3.125; return false;">3.125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked on the "Properties" option in the desktop context menu. As a result, the context menu closed. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The context menu titled 'Arrange Icons By' is open on the desktop.</p>
+                            <p><strong>Action:</strong> Click the 'Properties' menu item.</p>
+                            <p><strong>Expected Results:</strong> The context menu will close, and the 'Display Properties' window will open.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks on the "Properties" option in the desktop context menu. As a result, the context menu closed. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The context menu titled 'Arrange Icons By' is open on the desktop.</p>
+                            <p><strong>Action:</strong> Click the 'Properties' menu item.</p>
+                            <p><strong>Expected Results:</strong> The context menu will close, and the 'Display Properties' window will open.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 117  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 7.3125; return false;">7.3125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked on the "Screen Saver" tab in the "Display Properties" window. As a result, the window's content switched to the "Screen Saver" settings. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" window is open and the "Themes" tab is active.</p>
+                            <p><strong>Action:</strong> Click the "Screen Saver" tab.</p>
+                            <p><strong>Expected Results:</strong> The "Display Properties" window will display the "Screen Saver" settings. The screen saver preview will update, and the "Theme" dropdown and theme-related buttons will no longer be visible.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked on the "Screen Saver" tab in the "Display Properties" window. As a result, the window's content switched to the "Screen Saver" settings. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" window is open and the "Themes" tab is active.</p>
+                            <p><strong>Action:</strong> Click the "Screen Saver" tab.</p>
+                            <p><strong>Expected Results:</strong> The "Display Properties" window will display the "Screen Saver" settings. The screen saver preview will update to show the currently selected screen saver.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 185  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 11.5625; return false;">11.5625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the down arrow of the "Screen Saver" dropdown menu located below the screen saver preview window. As a result, the dropdown menu expands, displaying a list of available screen savers, and the "Settings" button, located next to the dropdown menu, becomes enabled. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Screen Saver" tab in the "Display Properties" window is open.</p>
+                            <p><strong>Action:</strong> Click the down arrow of the "Screen saver" drop-down list.</p>
+                            <p><strong>Expected Results:</strong> The "Screen saver" drop-down menu will expand, displaying a list of available screen savers. Additionally, the "Settings" button will become active.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the down arrow of the "Screen Saver" dropdown menu located below the screen saver preview window. As a result, the dropdown menu expands, displaying a list of available screen savers. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Screen Saver" tab in the "Display Properties" window is open.</p>
+                            <p><strong>Action:</strong> Click the down arrow of the "Screen saver" drop-down list.</p>
+                            <p><strong>Expected Results:</strong> A list of available screen savers will appear. The preview window will display a black screen with the text "(None)" and the "Settings" button will become enabled.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 215  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 13.4375; return false;">13.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked on the "3D FlowerBox" item within the expanded "Screen saver" dropdown list of the "Display Properties" window. As a result, the dropdown menu closed, and a pop-up window titled "Keep your computer up to date" appeared. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" window is open with the "Screen Saver" tab active. The "Screen saver" dropdown menu is expanded.</p>
+                            <p><strong>Action:</strong> Click the "3D FlowerBox" item in the "Screen saver" dropdown list.</p>
+                            <p><strong>Expected Results:</strong> The "Screen saver" dropdown menu will close. A pop-up window titled "Keep your computer up to date" will appear in the bottom right corner of the screen.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked on the "3D FlowerBox" item within the expanded "Screen saver" dropdown list of the "Display Properties" window. As a result, the dropdown menu closed, the screen saver preview updated, and a pop-up window titled "Keep your computer up to date" appeared. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" window is open with the "Screen Saver" tab active. The "Screen saver" dropdown menu is expanded.</p>
+                            <p><strong>Action:</strong> Click the "3D FlowerBox" item in the "Screen saver" dropdown list.</p>
+                            <p><strong>Expected Results:</strong> The "Screen saver" dropdown menu will close. The screen saver preview will update to show a rotating cube with flowers. A pop-up window titled "Keep your computer up to date" will appear in the bottom right corner of the screen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 269  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 16.8125; return false;">16.8125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "Power..." button within the "Screen Saver" tab of the "Display Properties" window.  As a result, the "Power Options Properties" window opened. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Screen Saver' tab is active.</p>
+                            <p><strong>Action:</strong> Click the button labeled 'Power...'.</p>
+                            <p><strong>Expected Results:</strong> The 'Power Options Properties' window will open.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Power..." button within the "Screen Saver" tab of the "Display Properties" window.  As a result, the "Power Options Properties" window opened. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Screen Saver' tab is active.</p>
+                            <p><strong>Action:</strong> Click the button labeled 'Power...'.</p>
+                            <p><strong>Expected Results:</strong> The 'Power Options Properties' window will appear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 338  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 21.125; return false;">21.125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the dropdown arrow of the "Power schemes" list box in the "Power Options Properties" window. This action expanded the "Power schemes" dropdown menu, displaying "Home/Office Desk" as the currently selected power scheme. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Power Schemes" tab is active. The "Power schemes" dropdown menu is visible.</p>
+                            <p><strong>Action:</strong> Click the dropdown arrow of the "Power schemes" list box.</p>
+                            <p><strong>Expected Results:</strong> The "Power schemes" dropdown menu will expand, displaying a list of available power schemes.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the dropdown arrow of the "Power schemes" list box in the "Power Options Properties" window. This action expanded the "Power schemes" dropdown menu, displaying "Always On" as the currently selected power scheme. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Power Schemes" tab is active. The "Power schemes" dropdown menu should be visible.</p>
+                            <p><strong>Action:</strong> Click the dropdown arrow of the "Power schemes" list box.</p>
+                            <p><strong>Expected Results:</strong> The "Power schemes" dropdown menu will expand, displaying a list of available power schemes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 374  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 23.375; return false;">23.375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked on the "Home/Office Desk" option within the "Power schemes" dropdown menu. As a result, the active power scheme changed from "Always On" to "Home/Office Desk", and the "Turn off monitor" setting updated to "After 20 mins". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Power schemes" dropdown menu is visible.</p>
+                            <p><strong>Action:</strong> Click the "Presentation" option in the "Power schemes" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The active power scheme will change to "Home/Office Desk" and the "Turn off monitor" setting will update to "After 20 mins".</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked on the "Always On" option within the "Power schemes" dropdown menu. As a result, the "Turn off monitor" setting updated to "After 30 mins". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open with the "Power schemes" dropdown menu visible.</p>
+                            <p><strong>Action:</strong> Click the "Always On" option in the "Power schemes" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The "Always On" power scheme will be selected, and the "Turn off monitor" setting will change to "After 30 mins".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 395  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 24.6875; return false;">24.6875</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the dropdown arrow next to the "Turn off monitor" setting under the "Settings for Always On power scheme" section. As a result, the setting changed from "After 30 mins" to "Never." 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open with the "Always On" power scheme selected.</p>
+                            <p><strong>Action:</strong> Click the dropdown arrow next to the "Turn off monitor" setting.</p>
+                            <p><strong>Expected Results:</strong> A dropdown menu will appear, allowing you to change the time after which the monitor turns off.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the dropdown arrow next to the "Turn off monitor" setting under the "Settings for Always On power scheme" section. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open with the "Always On" power scheme selected.</p>
+                            <p><strong>Action:</strong> Click the dropdown arrow next to the "Turn off monitor" option under the "Settings for Always On power scheme" section.</p>
+                            <p><strong>Expected Results:</strong> The "Turn off monitor" dropdown menu will expand, displaying a list of time options.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 437  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 27.3125; return false;">27.3125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked on "Never" in the "System hibernates" dropdown menu within the "Settings for Always On power scheme" section of the "Power Options Properties" window.  This action triggered the appearance of a pop-up notification, "Keep your computer up to date", in the bottom right corner of the screen. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Turn off monitor" dropdown menu is open.</p>
+                            <p><strong>Action:</strong> Select "Never" from the dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The "Turn off monitor" setting will change to "Never".</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked on "Never" in the "Turn off hard disks" dropdown menu within the "Settings for Always On power scheme" section of the "Power Options Properties" window.  This action triggered the appearance of a pop-up notification, "Keep your computer up to date", in the bottom right corner of the screen. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Always On" power scheme is selected.</p>
+                            <p><strong>Action:</strong> Click the "Never" option in the dropdown menu next to "System hibernates".</p>
+                            <p><strong>Expected Results:</strong> A pop-up notification titled "Keep your computer up to date" will appear in the bottom right corner of the screen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 482  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 30.125; return false;">30.125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the active "Apply" button in the "Power Options Properties" window. As a result, the button is no longer active and a pop-up titled "Keep your computer up to date" appeared. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Always On" power scheme is selected.</p>
+                            <p><strong>Action:</strong> Click the "Never" option in the dropdown menu next to "System hibernates".</p>
+                            <p><strong>Expected Results:</strong> The "System hibernates" option will be set to "Never" and a pop-up notification, "Keep your computer up to date", may appear in the bottom right corner of the screen.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the active "Apply" button in the "Power Options Properties" window. As a result, the button is no longer active and a pop-up titled "Keep your computer up to date" appeared. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Apply" button is active.</p>
+                            <p><strong>Action:</strong> Click the "Apply" button.</p>
+                            <p><strong>Expected Results:</strong> The "Apply" button will become inactive and a pop-up titled "Keep your computer up to date" will appear in the bottom right corner of the screen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 516  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 32.25; return false;">32.25</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "OK" button in the "Power Options Properties" window. As a result, the "Power Options Properties" window closes. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Apply" button is active.</p>
+                            <p><strong>Action:</strong> Click the "Apply" button.</p>
+                            <p><strong>Expected Results:</strong> The "Apply" button will become inactive and a pop-up titled "Keep your computer up to date" will appear in the bottom right corner of the screen.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the "OK" button in the "Power Options Properties" window. As a result, the "Power Options Properties" window closes. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open with the "Always On" power scheme selected and all power management options set to "Never".</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The "Power Options Properties" window will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 544  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 34.0; return false;">34.0</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "OK" button in the "Display Properties" window. As a result, the "Display Properties" window closed. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open with the "Always On" power scheme selected and all power management options set to "Never".</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The "Power Options Properties" window will close.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "OK" button in the "Display Properties" window. As a result, the "Display Properties" window closed. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open.</p>
+                            <p><strong>Action:</strong> Click the 'OK' button.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>
