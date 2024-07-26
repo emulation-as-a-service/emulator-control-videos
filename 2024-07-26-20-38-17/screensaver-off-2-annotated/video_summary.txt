@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Display Properties
+- Input methods: Mouse and keyboard
+- Recording details: Not available from the provided information. 
+
+
+The user right-clicks on the desktop and selects "Properties" from the context menu. In the Display Properties window, the user navigates to the "Screen Saver" tab. They change the screen saver to "None" and set the wait time to 10 minutes. Next, the user clicks on the "Power" button, which opens the Power Options Properties window. They change the Power scheme from "Home/Office Desk" to "Always On" and set all the options under "Settings for Always On power scheme" to "Never". Finally, the user clicks "Apply" in the Power Options Properties window and "OK" in the Display Properties window. 
+
+**Purpose inference:** The user's actions suggest they are configuring their computer's power settings to prevent the monitor, hard disk, system standby, and system hibernation from turning off automatically. 

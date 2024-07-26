@@ -1,0 +1,294 @@
+[
+    {
+        "frame": 36,
+        "event": "The mouse clicked on  start. The mouse is clicking on the Start button. ",
+        "timestamp": 2.25,
+        "description": "The user clicked the \"Start\" button on the taskbar, causing the Windows XP Start menu to open. ",
+        "outcome": "The mouse cursor is hovering over the \"Set Program Access and Defaults\" option in the Windows XP Start menu. ",
+        "label_clicked": "start"
+    },
+    {
+        "frame": 114,
+        "event": "The mouse clicked on My Computer. The mouse is clicking on \"My Computer\" in the Start Menu. ",
+        "timestamp": 7.125,
+        "description": "The user clicked on the \"My Computer\" option in the Windows XP Start Menu, opening the \"My Computer\" window. ",
+        "outcome": "The Start Menu is no longer visible, and the mouse cursor is now hovering over the \"3\u00bd Floppy (A:)\" icon within the open \"My Computer\" window. ",
+        "label_clicked": "My Computer"
+    },
+    {
+        "frame": 206,
+        "event": "The mouse is clicking on the CDROM icon representing the D: drive. ",
+        "timestamp": 12.875,
+        "description": "The user clicks the \"CD-ROM (D:)\" icon located under \"Devices with Removable Storage\" in the \"My Computer\" window. ",
+        "outcome": "The \"My Computer\" window is now empty, with no files, drives, or drive information displayed. The previously selected \"CD-ROM (D:)\" drive is no longer selected, and the \"Address\" bar is empty. "
+    },
+    {
+        "frame": 251,
+        "event": "The mouse pointer is hovering over the folder icon for \"cc32d479\". ",
+        "timestamp": 15.6875,
+        "description": "The user hovers the mouse cursor over the \"cc32d479\" file icon within the \"My Computer\" window displaying the contents of the CD drive. ",
+        "outcome": "The \"My Computer\" window, showing the CD drive contents, was replaced by the Netscape Communicator 4.79 setup wizard. The wizard displays a welcome message and has \"Next >\" and \"Cancel\" buttons, with the mouse cursor hovering over the \"Next >\" button. "
+    },
+    {
+        "frame": 941,
+        "event": "The mouse clicked on Next >. The mouse is clicking on the \"Next >\" button. ",
+        "timestamp": 58.8125,
+        "description": "The user clicked the \"Next >\" button at the bottom of the \"Netscape Communicator 4.79 Setup\" welcome window. As a result, the window is replaced by the \"Software License Agreement\" window. ",
+        "outcome": "A new window titled \"Software License Agreement\" appeared, presenting the software's license agreement text with a scroll bar for viewing. The \"Next\" and \"Cancel\" buttons are replaced with \"< Back\", \"Yes\", and \"No\" buttons at the bottom of the window. The user's cursor is hovering over the \"Yes\" button. ",
+        "label_clicked": "Next >"
+    },
+    {
+        "frame": 1002,
+        "event": "The mouse is hovering over the \"Yes\" button. ",
+        "timestamp": 62.625,
+        "description": "The user hovers the mouse cursor over the \"Yes\" button on the \"Software License Agreement\" dialog box. ",
+        "outcome": "The \"Software License Agreement\" dialog box has been closed and the user is now viewing the \"Setup Type\" window, which presents options for a \"Typical\" (default) or \"Custom\" installation and displays the installation directory. "
+    },
+    {
+        "frame": 1064,
+        "event": "The mouse clicked on Next>. Mouse click on the \"Next >\" button. ",
+        "timestamp": 66.5,
+        "description": "The user clicked the \"Next >\" button in the \"Setup Type\" window of the Netscape Communicator 4.79 installation wizard.  This action resulted in a pop-up dialog box titled \"Question\" appearing. ",
+        "outcome": "A pop-up dialog box titled \"Question\" appeared on top of the \"Setup Type\" window, causing the \"Next >\" button to lose its mouse hover highlight. The dialog box asks if the user wants to create the directory \"C:\\Program Files\\Netscape\\Communicator\" and contains a \"Yes\" button. ",
+        "label_clicked": "Next>"
+    },
+    {
+        "frame": 1119,
+        "event": "Mouse click on \"Yes\" button in \"Question\" dialog box. ",
+        "timestamp": 69.9375,
+        "description": "The user clicked the \"Yes\" button in the \"Question\" dialog box, confirming the creation of the directory \"C:\\Program Files\\Netscape\\Communicator\". ",
+        "outcome": "The \"Question\" dialog box disappeared. The \"Next >\" button became active, while the \"Browse...\" button is no longer visible. The dialog box now displays options for setting Netscape Communicator as the default internet browser, home page, and web search engine, with all three options checked. "
+    },
+    {
+        "frame": 1329,
+        "event": "The mouse clicked on Next>. Mouse click on \"Next >\" button. ",
+        "timestamp": 83.0625,
+        "description": "The user clicked the \"Next >\" button in the \"Netscape Desktop Preference Options\" window. As a result, the setup process progressed to the \"Select Program Folder\" step. ",
+        "outcome": "The Netscape Communicator setup transitioned from desktop preferences to program folder selection. A new window titled \"Select Program Folder\" appeared, prompting the user to choose a destination folder and listing existing folders.  The \"Next >\" button is now inactive. ",
+        "label_clicked": "Next>"
+    },
+    {
+        "frame": 1369,
+        "event": "The mouse clicked on Next>. The mouse is clicking on the \"Next >\" button. ",
+        "timestamp": 85.5625,
+        "description": "The user clicked on the \"Next >\" button in the \"Select Program Folder\" window. As a result, the \"Start Copying Files\" window appeared. ",
+        "outcome": "The \"Select Program Folder\" window was replaced with the \"Start Copying Files\" window, which presents a summary of the installation settings (\"Setup type\", \"Component(s) to be installed\") and offers the user the option to proceed with the installation (\"Install\" button) or go back and review their settings (\"Back\" button). ",
+        "label_clicked": "Next>"
+    },
+    {
+        "frame": 1441,
+        "event": "The mouse clicked on Install. The mouse is clicking on the \"Install\" button. ",
+        "timestamp": 90.0625,
+        "description": "The user clicked the \"Install\" button in the \"Start Copying Files\" window of the Netscape Communicator 4.79 setup wizard. ",
+        "outcome": "The \"Start Copying Files\" window, setup instructions, \"Current Settings\" section, and the \"Back\", \"Install\", and \"Cancel\" buttons are no longer visible. The installation process has begun. ",
+        "label_clicked": "Install"
+    },
+    {
+        "frame": 3626,
+        "event": "Mouse click on \"No\" button in dialog box titled \"Question\". ",
+        "timestamp": 226.625,
+        "description": "The user clicked the \"No\" button in the \"Question\" dialog box, dismissing the prompt to view the README file. ",
+        "outcome": "The \"Question\" dialog box disappeared and was replaced by an \"Information\" dialog box confirming the completion of the setup process. The \"Information\" dialog box presents instructions to run Netscape Communicator 4.79 and features an \"OK\" button currently under the mouse cursor. "
+    },
+    {
+        "frame": 3671,
+        "event": "The mouse is clicking on the \"OK\" button of the \"Information\" window. ",
+        "timestamp": 229.4375,
+        "description": "The user clicks the \"OK\" button in the \"Information\" dialog box. As a result, the dialog box closes. ",
+        "outcome": "The \"Information\" dialog box that was previously present has been closed. "
+    },
+    {
+        "frame": 3796,
+        "event": "The mouse is clicking on the close button of the Netscape Communicator window. ",
+        "timestamp": 237.25,
+        "description": "The user clicks the close button (\"X\") in the title bar of the \"Netscape Communicator\" window.  As a result, the \"Netscape Communicator\" window is minimized to the taskbar and the \"CD-ROM (D:)\" window, previously hidden behind it, is now visible. ",
+        "outcome": "A window titled \"CD-ROM (D:)\" opened, covering the previously active \"Netscape Communicator\" window, which is now minimized to the taskbar. The mouse cursor is hovering over the close button of the \"CD-ROM (D:)\" window, highlighting it in red. "
+    },
+    {
+        "frame": 3820,
+        "event": "The mouse is clicking on the close button of the window titled \"CDROM (D:)\". ",
+        "timestamp": 238.75,
+        "description": "The user clicks the Close button (marked with an \"X\") in the title bar of the \"CD-ROM (D:)\" window.  As a result, the \"CD-ROM (D:)\" window closes. ",
+        "outcome": "The CD-ROM (D:) window closed. "
+    },
+    {
+        "frame": 3886,
+        "event": "Mouse clicking on the \"RealPlayer Basic\" shortcut on the desktop. ",
+        "timestamp": 242.875,
+        "description": "The user clicked the \"Netscape Communicator\" shortcut on the Windows XP desktop. As a result, the \"Creating a New Profile\" window for Netscape Communicator opened. ",
+        "outcome": "A \"Creating a New Profile\" window opened, covering part of the Windows XP desktop. The window contains introductory text about Netscape Communicator profiles and four buttons: \"Back\", \"Next\", \"Finish\", and \"Cancel\". The mouse cursor, no longer hovering over the \"Netscape Communicator\" icon, now hovers over the \"Next\" button. "
+    },
+    {
+        "frame": 3961,
+        "event": "The mouse clicked on Next>. The mouse is clicking on the \"Next>\" button in the \"Creating a New Profile\" dialog. ",
+        "timestamp": 247.5625,
+        "description": "The user clicked the \"Next >\" button in the \"Creating a New Profile\" dialog box.  This action advanced the setup process to the \"Enter your Name and Email Address\" dialog box. ",
+        "outcome": "A dialog box titled \"Enter your Name and Email Address\" replaced the previous dialog box. This new dialog box prompts the user to enter their full name and email address into two text input fields, providing examples in each. The \"< Back\" button is now enabled. ",
+        "label_clicked": "Next>"
+    },
+    {
+        "frame": 4087,
+        "event": "The key following key(s) were pressed: ['Shift_L', 'B'].",
+        "timestamp": 255.4375,
+        "description": "The user pressed the keyboard shortcut 'Shift + B' to type the letter \"B\" into the \"Full Name\" field. ",
+        "outcome": "",
+        "key_pressed": [
+            "Shift_L",
+            "B"
+        ]
+    },
+    {
+        "frame": 4094,
+        "event": "The key following key(s) were pressed: ['o'].",
+        "timestamp": 255.875,
+        "description": "The user typed the letter \"o\" into the \"Full Name\" field. ",
+        "outcome": "",
+        "key_pressed": [
+            "o"
+        ]
+    },
+    {
+        "frame": 4098,
+        "event": "The key following key(s) were pressed: ['b'].",
+        "timestamp": 256.125,
+        "description": "The user pressed the 'b' key, resulting in the input in the \"Full Name\" field of the \"Enter your Name and Email Address\" dialog box changing from \"Bob\" to \"Bobb\". ",
+        "outcome": "",
+        "key_pressed": [
+            "b"
+        ]
+    },
+    {
+        "frame": 4101,
+        "event": "The key following key(s) were pressed: ['space'].",
+        "timestamp": 256.3125,
+        "description": "The user pressed the 'space' key, resulting in the input in the \"Full Name\" field of the \"Enter your Name and Email Address\" dialog box changing from \"Bobb\" to \"Bobb \". ",
+        "outcome": "",
+        "key_pressed": [
+            "space"
+        ]
+    },
+    {
+        "frame": 4108,
+        "event": "The key following key(s) were pressed: ['Shift_L', 'A'].",
+        "timestamp": 256.75,
+        "description": "The user typed the letter \"A\" into the \"Full Name\" text field by holding down the left shift key and pressing the \"A\" key. ",
+        "outcome": "",
+        "key_pressed": [
+            "Shift_L",
+            "A"
+        ]
+    },
+    {
+        "frame": 4121,
+        "event": "The key following key(s) were pressed: ['l', 'i'].",
+        "timestamp": 257.5625,
+        "description": "The user typed the keys \"l\" and \"i\" in the \"Full Name\" text field, appending the characters to the existing text \"Bob A\", resulting in \"Bob Ali\". ",
+        "outcome": "",
+        "key_pressed": [
+            "l",
+            "i"
+        ]
+    },
+    {
+        "frame": 4124,
+        "event": "The key following key(s) were pressed: ['c'].",
+        "timestamp": 257.75,
+        "description": "The user typed the letter \"c\" into the \"Full Name\" field, appending the letter to the existing input \"Bob Ali\", resulting in \"Bob Alic\". ",
+        "outcome": "",
+        "key_pressed": [
+            "c"
+        ]
+    },
+    {
+        "frame": 4128,
+        "event": "The key following key(s) were pressed: ['e'].",
+        "timestamp": 258.0,
+        "description": "The user typed the letter \"e\" into the \"Full Name\" text field, appending the letter to the existing input \"Bob Alic\", resulting in \"Bob Alice\". ",
+        "outcome": "",
+        "key_pressed": [
+            "e"
+        ]
+    },
+    {
+        "frame": 4140,
+        "event": "The key following key(s) were pressed: ['s'].",
+        "timestamp": 258.75,
+        "description": "The user typed the letter \"s\" into the \"Email Address (if available)\" field. ",
+        "outcome": "",
+        "key_pressed": [
+            "s"
+        ]
+    },
+    {
+        "frame": 4141,
+        "event": "The key following key(s) were pressed: ['o'].",
+        "timestamp": 258.8125,
+        "description": "The user typed the letter \"o\" into the \"Email Address (if available)\" field. ",
+        "outcome": "",
+        "key_pressed": [
+            "o"
+        ]
+    },
+    {
+        "frame": 4145,
+        "event": "The key following key(s) were pressed: ['n'].",
+        "timestamp": 259.0625,
+        "description": "The user typed the letter \"n\" into the \"Email Address (if available)\" field. ",
+        "outcome": "",
+        "key_pressed": [
+            "n"
+        ]
+    },
+    {
+        "frame": 4181,
+        "event": "The mouse clicked on Next >. The mouse pointer is not visible. ",
+        "timestamp": 261.3125,
+        "description": "The user clicked the \"Next >\" button in the \"Enter your Name and Email Address\" dialog box. Consequently, the dialog box was replaced with the \"Choose a Name and Directory for your Profile\" dialog box. ",
+        "outcome": "The \"Enter your Name and Email Address\" dialog box transitioned to a \"Choose a Name and Directory for your Profile\" dialog box. The new dialog presents a \"Profile Name\" field with a default value of \"default\" and displays the corresponding directory path. ",
+        "label_clicked": "Next >"
+    },
+    {
+        "frame": 4230,
+        "event": "The mouse clicked on Next>. Mouse click on the \"Next\" button. ",
+        "timestamp": 264.375,
+        "description": "The user clicked the highlighted \"Next >\" button in the \"Choose a Name and Directory for your Profile\" window. As a result, the window transitioned to the \"Set up your Outgoing Mail Server\" window. ",
+        "outcome": "The \"Choose a Name and Directory for your Profile\" window transitioned to the \"Set up your Outgoing Mail Server\" window, indicating the completion of the basic profile setup stage in the Netscape Communicator 4.79 setup wizard. The new window prompts the user to enter their outgoing mail (SMTP) server information, providing a text field pre-filled with \"mail\". The \"Back\" button became active, the \"Next\" button is no longer highlighted, and the \"Finish\" button, while still inactive, is no longer greyed out. ",
+        "label_clicked": "Next>"
+    },
+    {
+        "frame": 4263,
+        "event": "The mouse clicked on Finish. The mouse is clicking on the \"Finish\" button of the \"Set up your Outgoing Mail Server\" window. ",
+        "timestamp": 266.4375,
+        "description": "The user clicked the \"Finish\" button in the \"Set up your Outgoing Mail Server\" dialog box. As a result, the dialog box closed, and two error messages appeared, indicating that Netscape Communicator was unable to locate the server \"home.netscape.com.\" ",
+        "outcome": "Two error messages appeared indicating that Netscape Communicator was unable to locate the server \"home.netscape.com.\" The setup dialog box and its associated elements disappeared, replaced by the error messages and an \"OK\" button. ",
+        "label_clicked": "Finish"
+    },
+    {
+        "frame": 4415,
+        "event": "Mouse click on the \"OK\" button of the error dialog box titled \"Netscape\". ",
+        "timestamp": 275.9375,
+        "description": "The user clicked the \"OK\" button on the \"Netscape\" error dialog box, dismissing the error message about the inability to locate the server \"home.netscape.com\". ",
+        "outcome": "The \"Netscape\" error dialog box disappeared. The status bar displays the error message \"Unable to locate host home.netscape.com.\" "
+    },
+    {
+        "frame": 4455,
+        "event": "The mouse is clicking the close button of the Netscape window. ",
+        "timestamp": 278.4375,
+        "description": "The user clicked the red \"X\" button in the top right corner of the \"Netscape\" error dialog box, closing the window. ",
+        "outcome": "The \"Netscape\" error dialog box disappeared. The status bar displays the error message \"Unable to locate host home.netscape.com.\" "
+    },
+    {
+        "frame": 4486,
+        "event": "The mouse is clicking the close button of the Netscape window. ",
+        "timestamp": 280.375,
+        "description": "The user clicks the close button (an \"X\" icon) in the top right corner of the Netscape Communicator window. As a result, the Netscape Communicator window closes. ",
+        "outcome": "The Netscape Communicator browser window has closed. "
+    },
+    {
+        "frame": 4548,
+        "event": "The mouse is clicking the close button of the Netscape browser window. ",
+        "timestamp": 284.25,
+        "description": "This frame is redundant and should be removed. ",
+        "outcome": "This frame is redundant and should be removed. "
+    }
+]

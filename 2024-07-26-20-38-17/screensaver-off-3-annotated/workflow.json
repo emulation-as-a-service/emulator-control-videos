@@ -1,0 +1,97 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible with a solid blue background.",
+        "action": "Left Click on the desktop, in an empty area with no icons or open windows.",
+        "expected_results": "No immediate changes will be visible."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The Start Menu will open."
+    },
+    {
+        "precondition": "The mouse cursor is visible on the screen.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The mouse cursor will move to the right side of the screen."
+    },
+    {
+        "precondition": "The \"Start\" menu is open and the \"Control Panel\" option is highlighted.",
+        "action": "Press the 'c' key.",
+        "expected_results": "The \"Start\" menu will close and the Control Panel window will open."
+    },
+    {
+        "precondition": "The Control Panel is open in Category View. The left panel with the label 'Switch to Classic View' is visible.",
+        "action": "Click the 'Switch to Classic View' link in the left panel.",
+        "expected_results": "The Control Panel will switch to Classic View."
+    },
+    {
+        "precondition": "The 'Switch to Category View' option is visible in the left-hand navigation pane of the Windows XP Control Panel.",
+        "action": "Press the 'Right' arrow key.",
+        "expected_results": "No visual change is expected."
+    },
+    {
+        "precondition": "The \"Wireless Network Setup Wizard\" icon is selected in the Windows XP Control Panel.",
+        "action": "Press the 'Right' arrow key.",
+        "expected_results": "The keyboard focus will move to the icon immediately to the right of the \"Wireless Network Setup Wizard\" icon."
+    },
+    {
+        "precondition": "The \"Add or Remove Programs\" icon in the Control Panel window is highlighted.",
+        "action": "Press the 'p' and 'o' keys simultaneously.",
+        "expected_results": "The focus will move from the \"Add or Remove Programs\" icon to the \"Wireless Network Setup Wizard\" icon."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open.",
+        "action": "Press the 'Enter' key.",
+        "expected_results": "The \"Turn off monitor\" and \"Turn off hard disks\" settings will change from \"After 20 mins\" to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open.",
+        "action": "Click the dropdown arrow next to \"Turn off hard disks\".",
+        "expected_results": "A dropdown menu with a list of time interval options will appear."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open. The \"System hibernates:\" dropdown menu is open.",
+        "action": "Click \"Never\" in the \"System hibernates:\" dropdown menu.",
+        "expected_results": "The \"System hibernates:\" setting will be set to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open. The \"OK\" button is visible at the bottom of the window.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Control Panel\" window is open and the \"Display\" icon is visible.",
+        "action": "Click the \"Display\" icon.",
+        "expected_results": "The \"Display Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open. The \"Screen Saver\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Screen Saver\" settings will be displayed."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"Screen saver\" dropdown menu currently displays \"Windows XP\".",
+        "action": "Click the dropdown arrow on the \"Screen saver\" dropdown menu.",
+        "expected_results": "A list of available screensavers will appear."
+    },
+    {
+        "precondition": "The list of available screensavers is visible in the \"Screen saver\" dropdown menu.",
+        "action": "Click the \"None\" option in the list.",
+        "expected_results": "The \"Screen saver\" dropdown menu will now display \"None\" as the selected screensaver."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"Screen saver\" dropdown menu should be open and displaying a list of screensaver options.",
+        "action": "Click \"3D FlowerBox\" in the \"Screen saver\" dropdown menu.",
+        "expected_results": "The selected screensaver will change to \"3D FlowerBox\"."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open with the \"Screen Saver\" tab selected.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" window will close."
+    },
+    {
+        "precondition": "The 'Control Panel' window is open.",
+        "action": "Click the minimize button in the top-right corner of the 'Control Panel' window.",
+        "expected_results": "The 'Control Panel' window will be minimized to the taskbar."
+    }
+]

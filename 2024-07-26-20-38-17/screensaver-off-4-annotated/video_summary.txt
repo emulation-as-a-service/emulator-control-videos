@@ -1,0 +1,8 @@
+- Operating system: Windows XP
+- Software: Display Properties, Power Options Properties 
+- Input methods: Mouse and keyboard 
+
+
+The user right-clicks on the desktop, opens the "Properties" option, navigates to the "Screen Saver" tab within "Display Properties", changes the screen saver to "None", and applies the changes. The user then opens the "Power Options Properties" by clicking "Power" and changes the "Turn off hard disks" setting from "After 20 mins" to "After 4 hours". Finally, the user applies these changes as well.
+
+Purpose inference: The user's actions suggest they are configuring their computer's power settings to prevent the hard drive from turning off after 20 minutes of inactivity and to disable the screen saver. 

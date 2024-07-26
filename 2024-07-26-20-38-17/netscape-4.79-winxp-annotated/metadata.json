@@ -1,0 +1,9 @@
+{
+    "model": "gemini-1.5-pro",
+    "timestamp": "2024-07-26T22:18:21.731019",
+    "video_fps": 16.0,
+    "video_frame_count": 4667,
+    "video_width": 1024,
+    "video_height": 768,
+    "video_duration": 291.6875
+}

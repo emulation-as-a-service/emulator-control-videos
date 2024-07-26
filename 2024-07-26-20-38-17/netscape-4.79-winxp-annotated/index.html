@@ -1,0 +1,1048 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            z-index: 1000; /* Ensure it stays above other elements */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            margin-top: 460px; /* Space for the fixed video element */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+        .item-header {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            background-color: #f9f9f9;
+        }
+        .columns {
+            display: flex;
+        }
+        .column {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            color: black; /* Ensure text color is set */
+        }
+        .column + .column {
+            border-left: 1px solid #eee;
+        }
+        p {
+            margin: 10px 0;
+            color: #333; /* Ensure text is visible on white background */
+        }
+        .instruction h4 {
+            margin: 10px 0;
+            color: #0056b3; /* Ensure headings are distinct */
+        }
+        .instruction p {
+            margin: 5px 0;
+            color: #333; /* Ensure instruction text is visible */
+        }
+        .instruction {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .instruction strong {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="video-container">
+    <video id="reviewVideo" controls>
+        <source src="netscape-4.79-winxp-ffr.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="container">
+    <h2>Review Screenshots</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 36  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 2.25; return false;">2.25</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "Start" button on the taskbar, causing the Windows XP Start menu to open. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Click the "Start" button on the left corner of the taskbar.</p>
+                            <p><strong>Expected Results:</strong> The Windows XP Start menu will open.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Start" button on the taskbar, causing the Windows XP Start menu to open. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP taskbar is visible at the bottom of the screen.</p>
+                            <p><strong>Action:</strong> Click the "Start" button on the left corner of the taskbar.</p>
+                            <p><strong>Expected Results:</strong> The Windows XP Start menu will open, displaying a list of options and programs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 114  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 7.125; return false;">7.125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked on the "My Computer" option in the Windows XP Start Menu, opening the "My Computer" window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Start Menu is open and visible on the desktop.</p>
+                            <p><strong>Action:</strong> Click the "My Computer" option in the Start Menu.</p>
+                            <p><strong>Expected Results:</strong> The Start Menu will close, and the "My Computer" window will open, displaying available drives and devices.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked on the "My Computer" option in the Windows XP Start Menu, opening the "My Computer" window. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Start Menu is open.</p>
+                            <p><strong>Action:</strong> Click "My Computer" in the Start Menu.</p>
+                            <p><strong>Expected Results:</strong> The Start Menu will close, and the "My Computer" window will open.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 206  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 12.875; return false;">12.875</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "CDROM (D:)" icon located under "Devices with Removable Storage" in the "My Computer" window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "My Computer" window is open and the "CDROM (D:)" drive is highlighted.</p>
+                            <p><strong>Action:</strong> Click the "CDROM (D:)" icon under "Devices with Removable Storage".</p>
+                            <p><strong>Expected Results:</strong> The contents of the CD will be displayed in the "My Computer" window.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the "CD-ROM (D:)" icon located under "Devices with Removable Storage" in the "My Computer" window. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "My Computer" window is open and the "CDROM (D:)" drive is highlighted.</p>
+                            <p><strong>Action:</strong> Click the "CDROM (D:)" icon under "Devices with Removable Storage".</p>
+                            <p><strong>Expected Results:</strong> The contents of the "CDROM (D:)" drive will be displayed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 251  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 15.6875; return false;">15.6875</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user hovers the mouse cursor over the "c220479" file icon within the "My Computer" window displaying the contents of the CD drive. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "My Computer" window is open, displaying the contents of the CD drive. The file named "c220479" is visible.</p>
+                            <p><strong>Action:</strong> Double-click the file named "c220479".</p>
+                            <p><strong>Expected Results:</strong> The Netscape Communicator 4.79 setup wizard will open, displaying a welcome message. The wizard will have "Next >" and "Cancel" buttons.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user hovers the mouse cursor over the "cc32d479" file icon within the "My Computer" window displaying the contents of the CD drive. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "My Computer" window is open, displaying the contents of the CD drive. The file named "c220479" is visible.</p>
+                            <p><strong>Action:</strong> Double-click the file named "c220479".</p>
+                            <p><strong>Expected Results:</strong> The Netscape Communicator 4.79 setup wizard will open, displaying a welcome message. The wizard will have "Next >" and "Cancel" buttons.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 941  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 58.8125; return false;">58.8125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "Next >" button at the bottom of the "Netscape Communicator 4.79 Setup" welcome window. As a result, the window is replaced by the "Software License Agreement" window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Netscape Communicator 4.79 Setup" window is open with the welcome message displayed.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Software License Agreement" window will appear, displaying the software's license agreement.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Next >" button at the bottom of the "Netscape Communicator 4.79 Setup" welcome window. As a result, the window is replaced by the "Software License Agreement" window. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Netscape Communicator 4.79 Setup" window is open and the "Next >" button is visible.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Netscape Communicator 4.79 Setup" window will be replaced by the "Software License Agreement" window. The window will display the software license agreement and the "Next >" and "Cancel" buttons will be replaced with "< Back", "Yes", and "No" buttons.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 1002  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 62.625; return false;">62.625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user hovers the mouse cursor over the "Yes" button on the "Software License Agreement" dialog box. As a result, the dialog box closes and the "Setup Type" window opens. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Software License Agreement" dialog box is open, displaying the Netscape Client Product End-User License Agreement.</p>
+                            <p><strong>Action:</strong> Click the "Yes" button.</p>
+                            <p><strong>Expected Results:</strong> The "Software License Agreement" dialog box will close, and the "Setup Type" window will open. This window allows you to choose between a "Typical" or "Custom" installation.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user hovers the mouse cursor over the "Yes" button on the "Software License Agreement" dialog box. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Software License Agreement" dialog box is open and displays the Netscape Client Product End-User License Agreement.</p>
+                            <p><strong>Action:</strong> Click the "Yes" button.</p>
+                            <p><strong>Expected Results:</strong> The "Software License Agreement" dialog box will close, and the "Setup Type" window will appear. This window allows you to choose between a "Typical" or "Custom" installation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 1064  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 66.5; return false;">66.5</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "Next >" button in the "Setup Type" window of the Netscape Communicator 4.79 installation wizard.  This action resulted in a pop-up dialog box titled "Question" appearing. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Setup Type" window of the Netscape Communicator 4.79 installation wizard is open. The "Typical" installation type is selected and the 'Next >' button is enabled.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> A pop-up dialog box titled "Question" will appear.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Next >" button in the "Setup Type" window of the Netscape Communicator 4.79 installation wizard.  This action resulted in a pop-up dialog box titled "Question" appearing. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Setup Type" window is open with the "Typical" installation type selected. The "Destination Directory" field should display the desired installation path.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> A dialog box titled "Question" will appear, asking if you want to create the directory specified in the "Destination Directory" field. The dialog box will have a "Yes" button.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 1119  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 69.9375; return false;">69.9375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "**Yes**" button in the "Question" dialog box, confirming the creation of the directory "C:\Program Files\Netscape\Communicator". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> A dialog box titled "Question" is open, asking "Do you want the directory to be created?"</p>
+                            <p><strong>Action:</strong> Click the "Yes" button.</p>
+                            <p><strong>Expected Results:</strong> The "Question" dialog box will close, and a new dialog box will appear, allowing the user to configure Netscape Communicator as the default internet browser, home page, and web search engine. The "Next >" button will become active.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Yes" button in the "Question" dialog box, confirming the creation of the directory "C:\Program Files\Netscape\Communicator". </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> A dialog box titled "Question" is open, asking "Do you want the directory to be created?"</p>
+                            <p><strong>Action:</strong> Click the "Yes" button.</p>
+                            <p><strong>Expected Results:</strong> The "Question" dialog box will close, and the installation process will proceed to the next step. The "Next >" button will become active, and the dialog box will now display options for setting Netscape Communicator as the default internet browser, home page, and web search engine.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 1329  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 83.0625; return false;">83.0625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "Next >" button in the "Netscape Desktop Preference Options" window. As a result, the setup process progressed to the "Select Program Folder" step. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Netscape Desktop Preference Options" window is open with the "Next >" button active.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Netscape Desktop Preference Options" window will close and the "Select Program Folder" window will appear. The "Next >" button in the "Select Program Folder" window will be inactive.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Next >" button in the "Netscape Desktop Preference Options" window. As a result, the setup process progressed to the "Select Program Folder" step. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Netscape Desktop Preference Options" window is open with the "Next >" button active.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Select Program Folder" window will appear, allowing you to choose the installation location.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 1369  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 85.5625; return false;">85.5625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked on the "Next >" button in the "Select Program Folder" window. As a result, the "Start Copying Files" window appeared. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Select Program Folder" window is open, displaying the chosen destination folder.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Select Program Folder" window will be replaced by the "Start Copying Files" window, showing a summary of the installation settings.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked on the "Next >" button in the "Select Program Folder" window. As a result, the "Start Copying Files" window appeared. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Select Program Folder" window is open and the desired installation directory is displayed in the "Program Folder" field.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Select Program Folder" window will be replaced by the "Start Copying Files" window.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 1441  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 90.0625; return false;">90.0625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "Install" button in the "Start Copying Files" window of the Netscape Communicator 4.79 setup wizard. As a result, a blank dialog box titled "Question" appeared. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Start Copying Files" window of the Netscape Communicator 4.79 setup wizard is open. The window displays the text: "Setup has enough information to start copying the program files. If you want to review or change settings, click Back. If you are satisfied with the current settings, click Install to begin copying files."</p>
+                            <p><strong>Action:</strong> Click the "Install" button.</p>
+                            <p><strong>Expected Results:</strong> A blank dialog box titled "Question" will appear.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Install" button in the "Start Copying Files" window of the Netscape Communicator 4.79 setup wizard. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Start Copying Files" window is open and displays the chosen installation settings.</p>
+                            <p><strong>Action:</strong> Click the "Install" button.</p>
+                            <p><strong>Expected Results:</strong> The "Start Copying Files" window will close and the installation process will begin.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 3626  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 226.625; return false;">226.625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "No" button in the "Question" dialog box, dismissing the prompt to view the README file. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> A dialog box titled "Question" is displayed, asking "Would you like to view the README file now?" with "Yes" and "No" buttons.</p>
+                            <p><strong>Action:</strong> Click the "No" button.</p>
+                            <p><strong>Expected Results:</strong> The "Question" dialog box will close, and an "Information" dialog box will appear, confirming the setup is complete and providing instructions to run Netscape Communicator 4.79.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "No" button in the "Question" dialog box, dismissing the prompt to view the README file. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> A dialog box titled "Question" is open, asking "Would you like to view the README file now?"</p>
+                            <p><strong>Action:</strong> Click the "No" button.</p>
+                            <p><strong>Expected Results:</strong> The "Question" dialog box will close. An "Information" dialog box confirming the completion of the setup process will appear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 3671  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 229.4375; return false;">229.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "OK" button in the "Information" dialog box. As a result, the dialog box closes. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> An "Information" dialog box with the message "Setup is complete. You may run Netscape Communicator 4.79 by double-clicking on one of the icons in the folder." is present.</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The "Information" dialog box will be closed.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the "OK" button in the "Information" dialog box. As a result, the dialog box closes. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> An "Information" dialog box with the message "Setup is complete. You may run Netscape Communicator 4.79 by double-clicking on one of the icons in the folder." is displayed.</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The "Information" dialog box will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 3796  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 237.25; return false;">237.25</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the **close button** ("X") in the title bar of the **"Netscape Communicator" window**.  As a result, the "Netscape Communicator" window is minimized to the taskbar and the "CDROM (D:)" window, previously hidden behind it, is now visible. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Netscape Communicator" window is open and active.</p>
+                            <p><strong>Action:</strong> Click the "X" button in the top right corner of the "Netscape Communicator" window.</p>
+                            <p><strong>Expected Results:</strong> The "Netscape Communicator" window will close and the window behind it will become visible.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the close button ("X") in the title bar of the "Netscape Communicator" window.  As a result, the "Netscape Communicator" window is minimized to the taskbar and the "CD-ROM (D:)" window, previously hidden behind it, is now visible. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Netscape Communicator" window is open and active.</p>
+                            <p><strong>Action:</strong> Click the "X" button in the top right corner of the "Netscape Communicator" window.</p>
+                            <p><strong>Expected Results:</strong> The "Netscape Communicator" window will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 3820  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 238.75; return false;">238.75</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the **Close** button (marked with an "X") in the title bar of the "CDROM (D:)" window.  As a result, the "CDROM (D:)" window closes. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> A window titled "CDROM (D:)" is open.</p>
+                            <p><strong>Action:</strong> Click the "Close" button (marked with an "X") in the title bar of the "CDROM (D:)" window.</p>
+                            <p><strong>Expected Results:</strong> The "CDROM (D:)" window will close.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the Close button (marked with an "X") in the title bar of the "CD-ROM (D:)" window.  As a result, the "CD-ROM (D:)" window closes. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> A window titled "CDROM (D:)" is open.</p>
+                            <p><strong>Action:</strong> Click the 'X' button in the top right corner of the "CDROM (D:)" window.</p>
+                            <p><strong>Expected Results:</strong> The "CDROM (D:)" window will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 3886  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 242.875; return false;">242.875</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "RealPlayer Basic" shortcut on the Windows XP desktop. As a result, the "Creating a New Profile" window for Netscape Communicator opened. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "RealPlayer Basic" shortcut is visible on the Windows XP desktop.</p>
+                            <p><strong>Action:</strong> Click the "RealPlayer Basic" shortcut on the desktop.</p>
+                            <p><strong>Expected Results:</strong> The "Creating a New Profile" window for Netscape Communicator will open.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Netscape Communicator" shortcut on the Windows XP desktop. As a result, the "Creating a New Profile" window for Netscape Communicator opened. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Netscape Communicator" icon is visible on the Windows XP desktop.</p>
+                            <p><strong>Action:</strong> Double-click the "Netscape Communicator" icon on the desktop.</p>
+                            <p><strong>Expected Results:</strong> The "Creating a New Profile" window for Netscape Communicator will open, displaying introductory text about profiles and four buttons: "Back", "Next", "Finish", and "Cancel".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 3961  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 247.5625; return false;">247.5625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "Next >" button in the "Creating a New Profile" dialog box.  This action advanced the setup process to the "Enter your Name and Email Address" dialog box. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Creating a New Profile" dialog box is open with the text explaining user profiles. The "Next >" button is highlighted.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Enter your Name and Email Address" dialog box will appear, prompting for your full name and email address. The "< Back" button will now be enabled.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Next >" button in the "Creating a New Profile" dialog box.  This action advanced the setup process to the "Enter your Name and Email Address" dialog box. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> A dialog box titled "Creating a New Profile" is open, with the "Next >" button highlighted.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Creating a New Profile" dialog box will be replaced by the "Enter your Name and Email Address" dialog box. The "< Back" button will now be enabled.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4087  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 255.4375; return false;">255.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the keyboard shortcut 'Shift + B' to activate the **"Next >"** button, advancing to the subsequent step in the Netscape Communicator setup process. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Netscape Communicator" setup window titled "Enter your Name and Email Address" is open. The "Next >" button is active.</p>
+                            <p><strong>Action:</strong> Press the 'Shift' and 'B' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The setup wizard will proceed to the next step.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the keyboard shortcut 'Shift + B' to type the letter "B" into the "Full Name" field. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Netscape Communicator" setup window titled "Enter your Name and Email Address" is open. The "Full Name" field should be active.</p>
+                            <p><strong>Action:</strong> Press the 'Shift' and 'B' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The letter "B" will be inserted into the "Full Name" field.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4094  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 255.875; return false;">255.875</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user typed the letter "o" into the "Email Address (if available)" field. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" window of the Netscape Communicator 4.79 setup wizard is open.</p>
+                            <p><strong>Action:</strong> Type the letter "o" into the "Email Address (if available)" field.</p>
+                            <p><strong>Expected Results:</strong> The letter "o" will appear in the "Email Address (if available)" field.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user typed the letter "o" into the "Full Name" field. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box of the Netscape Communicator 4.79 setup wizard is open.</p>
+                            <p><strong>Action:</strong> Type the letter "o" into the "Full Name" field.</p>
+                            <p><strong>Expected Results:</strong> The letter "o" will appear in the "Full Name" field.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4098  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 256.125; return false;">256.125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the 'b' key, resulting in the input in the "Full Name" field of the "Enter your Name and Email Address" dialog box changing from "Bd" to "Bdb". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The text "Bd" is present in the "Full Name" field.</p>
+                            <p><strong>Action:</strong> Press the 'b' key.</p>
+                            <p><strong>Expected Results:</strong> The "Full Name" field will update to "Bdb".</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the 'b' key, resulting in the input in the "Full Name" field of the "Enter your Name and Email Address" dialog box changing from "Bob" to "Bobb". </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The text cursor is blinking in the "Full Name" field.</p>
+                            <p><strong>Action:</strong> Press the 'b' key.</p>
+                            <p><strong>Expected Results:</strong> The letter "b" will appear in the "Full Name" field after the existing text.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4101  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 256.3125; return false;">256.3125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the 'space' key. No visible changes were observed in the user interface. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box of the Netscape Communicator 4.79 setup wizard is open.</p>
+                            <p><strong>Action:</strong> Press the 'space' key.</p>
+                            <p><strong>Expected Results:</strong> No visible changes will occur in the user interface.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the 'space' key, resulting in the input in the "Full Name" field of the "Enter your Name and Email Address" dialog box changing from "Bobb" to "Bobb ". </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open in the Netscape Communicator 4.79 setup wizard.</p>
+                            <p><strong>Action:</strong> Press the 'Space' key.</p>
+                            <p><strong>Expected Results:</strong> A space character will be inserted in the "Full Name" field.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4108  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 256.75; return false;">256.75</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user typed the letter "A" into the "Email Address (if available):" field by holding down the left shift key and pressing the "A" key. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open in the Netscape Communicator 4.79 setup wizard.</p>
+                            <p><strong>Action:</strong> Press the 'Shift' and 'A' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The letter "A" will be typed into the "Email Address (if available):" field.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user typed the letter "A" into the "Full Name" text field by holding down the left shift key and pressing the "A" key. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The "Full Name" field should contain the text "Bob".</p>
+                            <p><strong>Action:</strong> Press the 'Shift' and 'A' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The letter "A" will be appended to the text in the "Full Name" field.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4121  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 257.5625; return false;">257.5625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user typed the keys "l" and "i" in the "Full Name" text field, appending the characters to the existing text "Bob A". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The "Full Name" field should show "Bob A" and the "Email Address (if available)" field should show "g.smith@company.com".</p>
+                            <p><strong>Action:</strong> Type the keys "l" and "i".</p>
+                            <p><strong>Expected Results:</strong> The "Full Name" field will now contain the text "Bob Ali".</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user typed the keys "l" and "i" in the "Full Name" text field, appending the characters to the existing text "Bob A", resulting in "Bob Ali". </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The "Full Name" field should contain the text "Bob A".</p>
+                            <p><strong>Action:</strong> Type the keys "l" and "i".</p>
+                            <p><strong>Expected Results:</strong> The "Full Name" field will now contain the text "Bob Ali".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4124  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 257.75; return false;">257.75</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user typed the letter "c" into the "Full Name" field, appending the letter to the existing input "Bob Al", resulting in "Bob Alc". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The text field labeled "Full Name" should contain the text "Bob Al".</p>
+                            <p><strong>Action:</strong> Press the 'c' key.</p>
+                            <p><strong>Expected Results:</strong> The letter "c" will be appended to the existing text in the "Full Name" field, resulting in "Bob Alc".</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user typed the letter "c" into the "Full Name" field, appending the letter to the existing input "Bob Ali", resulting in "Bob Alic". </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The text field labeled "Full Name" should contain the text "Bob Ali".</p>
+                            <p><strong>Action:</strong> Type the letter "c" using the keyboard.</p>
+                            <p><strong>Expected Results:</strong> The text in the "Full Name" field will change to "Bob Alic".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4128  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 258.0; return false;">258.0</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user typed the letter "e" into the "Full Name" text field, appending the letter to the existing input "Bob Alce". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open with the "Full Name" field displaying "Bob Alce".</p>
+                            <p><strong>Action:</strong> Press the 'e' key.</p>
+                            <p><strong>Expected Results:</strong> The "Full Name" field will now display "Bob Alcee".</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user typed the letter "e" into the "Full Name" text field, appending the letter to the existing input "Bob Alic", resulting in "Bob Alice". </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open with the "Full Name" text field containing "Bob Alce".</p>
+                            <p><strong>Action:</strong> Press the 'e' key.</p>
+                            <p><strong>Expected Results:</strong> The "Full Name" text field will now contain "Bob Alice".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4140  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 258.75; return false;">258.75</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the 's' key, resulting in no observable changes in the "Enter your Name and Email Address" dialog box. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The "Full Name" field shows "Bob Alice" and the "Email Address (if available)" field shows "g.smith@company.com".</p>
+                            <p><strong>Action:</strong> Press the 's' key.</p>
+                            <p><strong>Expected Results:</strong> No visible changes will occur in the dialog box.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user typed the letter "s" into the "Email Address (if available)" field. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The "Email Address (if available)" field should contain "g.smith@company.com".</p>
+                            <p><strong>Action:</strong> Press the 's' key.</p>
+                            <p><strong>Expected Results:</strong> The letter "s" will be appended to the text in the "Email Address (if available)" field.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4141  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 258.8125; return false;">258.8125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user typed the letter "o" into the "Full Name" field, editing the existing text from "Bob Alice" to "Bob Aliceo". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The "Full Name" field displays the text "Bob Alice".</p>
+                            <p><strong>Action:</strong> Type the letter "o" using the keyboard.</p>
+                            <p><strong>Expected Results:</strong> The text in the "Full Name" field will change to "Bob Aliceo".</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user typed the letter "o" into the "Email Address (if available)" field. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open with the "Email Address (if available):" field active.</p>
+                            <p><strong>Action:</strong> Type the letter "o" using your keyboard.</p>
+                            <p><strong>Expected Results:</strong> The letter "o" will appear in the "Email Address (if available)" field.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4145  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 259.0625; return false;">259.0625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the 'n' key, which is likely a keyboard shortcut for the **Next >** button.  However, no observable change occurred in the dialog box. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The 'Full Name' field shows 'Bob Alcesd' and the 'Email Address' field shows 'g.smith@company.com'.</p>
+                            <p><strong>Action:</strong> Press the 'n' key.</p>
+                            <p><strong>Expected Results:</strong> The setup wizard may or may not proceed to the next step. There is no observable change in the dialog box.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user typed the letter "n" into the "Email Address (if available)" field. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open. The "Email Address (if available):" field should show the previously typed text.</p>
+                            <p><strong>Action:</strong> Press the 'n' key</p>
+                            <p><strong>Expected Results:</strong> The letter "n" will appear at the end of the text in the "Email Address (if available)" field.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4181  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 261.3125; return false;">261.3125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "Next >" button in the "Enter your Name and Email Address" dialog box. Consequently, the dialog box was replaced with the "Choose a Name and Directory for your Profile" dialog box. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open with the "Full Name" and "Email Address (if available)" fields filled in.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Enter your Name and Email Address" dialog box will be replaced by the "Choose a Name and Directory for your Profile" dialog box.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Next >" button in the "Enter your Name and Email Address" dialog box. Consequently, the dialog box was replaced with the "Choose a Name and Directory for your Profile" dialog box. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Enter your Name and Email Address" dialog box is open with the "Full Name" and "Email Address (if available)" fields filled.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Enter your Name and Email Address" dialog box will be replaced with the "Choose a Name and Directory for your Profile" dialog box.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4230  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 264.375; return false;">264.375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the highlighted "Next >" button in the "Choose a Name and Directory for your Profile" window. As a result, the window transitioned to the "Set up your Outgoing Mail Server" window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Choose a Name and Directory for your Profile" window is open in the Netscape Communicator 4.79 setup wizard. The "Next >" button is highlighted.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Choose a Name and Directory for your Profile" window will close, and the "Set up your Outgoing Mail Server" window will open. The "Back" button will become active, and the "Finish" button will no longer be greyed out.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the highlighted "Next >" button in the "Choose a Name and Directory for your Profile" window. As a result, the window transitioned to the "Set up your Outgoing Mail Server" window. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Choose a Name and Directory for your Profile" window is open, and the "Next >" button is highlighted.</p>
+                            <p><strong>Action:</strong> Click the "Next >" button.</p>
+                            <p><strong>Expected Results:</strong> The "Choose a Name and Directory for your Profile" window will close, and the "Set up your Outgoing Mail Server" window will open. The "Back" button will become active, and the "Finish" button will no longer be greyed out.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4263  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 266.4375; return false;">266.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "Finish" button in the "Set up your Outgoing Mail Server" dialog box. As a result, the dialog box closed, and two error messages appeared, indicating that Netscape Communicator was unable to locate the server "home.netscape.com." 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Set up your Outgoing Mail Server" dialog box is open.</p>
+                            <p><strong>Action:</strong> Click the "Finish" button.</p>
+                            <p><strong>Expected Results:</strong> The "Set up your Outgoing Mail Server" dialog box will close. Two error messages will appear, indicating that Netscape Communicator was unable to locate the server "home.netscape.com." An "OK" button will be visible.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Finish" button in the "Set up your Outgoing Mail Server" dialog box. As a result, the dialog box closed, and two error messages appeared, indicating that Netscape Communicator was unable to locate the server "home.netscape.com." </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Set up your Outgoing Mail Server" dialog box is open with the "Finish" button visible.</p>
+                            <p><strong>Action:</strong> Click the "Finish" button.</p>
+                            <p><strong>Expected Results:</strong> The "Set up your Outgoing Mail Server" dialog box will close. Two error messages will appear, indicating that Netscape Communicator was unable to locate the server "home.netscape.com." An "OK" button will be visible.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4415  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 275.9375; return false;">275.9375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "OK" button on the "Netscape" error dialog box, dismissing the error message about the inability to locate the server "home.netscape.com". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> A dialog box titled "Netscape" is open, displaying the error message "Netscape is unable to locate the server home.netscape.com. Please check the server name and try again."</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The dialog box will close. The status bar at the bottom of the Netscape Communicator window will display the error message "Unable to locate host home.netscape.com."</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "OK" button on the "Netscape" error dialog box, dismissing the error message about the inability to locate the server "home.netscape.com". </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> A dialog box titled "Netscape" is open, displaying the error message "Netscape is unable to locate the server home.netscape.com. Please check the server name and try again."</p>
+                            <p><strong>Action:</strong> Click the "OK" button.</p>
+                            <p><strong>Expected Results:</strong> The dialog box will close. The status bar at the bottom of the Netscape Communicator window will display the error message "Unable to locate host home.netscape.com."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4455  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 278.4375; return false;">278.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the red "X" button in the top right corner of the Netscape Communicator 4.79 browser window, closing the window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Netscape Communicator 4.79 browser window is open.</p>
+                            <p><strong>Action:</strong> Click the red "X" button in the top right corner of the Netscape Communicator window.</p>
+                            <p><strong>Expected Results:</strong> The Netscape Communicator window will close.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the red "X" button in the top right corner of the "Netscape" error dialog box, closing the window. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Netscape Communicator 4.79 browser window is open and displays an error message.</p>
+                            <p><strong>Action:</strong> Click the red "X" button in the top right corner of the Netscape Communicator window.</p>
+                            <p><strong>Expected Results:</strong> The Netscape Communicator window will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4486  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 280.375; return false;">280.375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the close button (an "X" icon) in the top right corner of the Netscape Communicator window. As a result, the Netscape Communicator window closes. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Netscape Communicator window is open and displays an unsuccessful attempt to load a webpage. The title bar displays the URL "http://home.netscape.com/home/first.html" alongside the program name, "Netscape." The main browser window is blank, except for a "Document: Done" status message in the bottom left corner.</p>
+                            <p><strong>Action:</strong> Click the close button ("X" icon) in the top right corner of the Netscape Communicator window.</p>
+                            <p><strong>Expected Results:</strong> The Netscape Communicator window will close.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the close button (an "X" icon) in the top right corner of the Netscape Communicator window. As a result, the Netscape Communicator window closes. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Netscape Communicator window is open and displaying the URL "http://home.netscape.com/home/first.html".</p>
+                            <p><strong>Action:</strong> Click the close button ("X" icon) in the top right corner of the Netscape Communicator window.</p>
+                            <p><strong>Expected Results:</strong> The Netscape Communicator window will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 4548  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 284.25; return false;">284.25</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "X" button located in the top right corner of the Netscape Communicator 4.79 browser window. As a result, the browser window closes. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Netscape Communicator 4.79 browser window is open.</p>
+                            <p><strong>Action:</strong> Click the "X" button located in the top right corner of the Netscape Communicator window.</p>
+                            <p><strong>Expected Results:</strong> The Netscape Communicator browser window will close.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> This frame is redundant and should be removed. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Netscape Communicator 4.79 browser window is open.</p>
+                            <p><strong>Action:</strong> Click the 'X' button in the top right corner of the Netscape Communicator window.</p>
+                            <p><strong>Expected Results:</strong> The Netscape Communicator window will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>
