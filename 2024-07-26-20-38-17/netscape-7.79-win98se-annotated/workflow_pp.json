@@ -1,0 +1,157 @@
+[
+    {
+        "precondition": "The Windows 98 desktop is visible.",
+        "action": "Double-click the 'My Computer' icon on the desktop.",
+        "expected_results": "The 'My Computer' window will open and maximize, covering the desktop. The 'My Computer' icon on the taskbar will appear highlighted."
+    },
+    {
+        "precondition": "The \"My Computer\" window is open.",
+        "action": "Click the \"Cdrom (D:)\" icon in the navigation pane.",
+        "expected_results": "The contents of the \"Cdrom (D:)\" drive will be displayed in the main pane."
+    },
+    {
+        "precondition": "The window titled \"Cdrom (D:)\" is open.",
+        "action": "Click the maximize button on the title bar of the \"Cdrom (D:)\" window.",
+        "expected_results": "The \"Cdrom (D:)\" window will expand to fill the entire screen."
+    },
+    {
+        "precondition": "The \"Netscape Communicator 4.79 Setup\" window is open, displaying a welcome message and two buttons: \"Next >\" and \"Cancel\".",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The \"Software License Agreement\" dialog box will appear, covering the welcome message. The dialog box will contain the license agreement text, a scroll bar, and three buttons: \"Back\", \"Yes\", and \"No\". The \"Next >\" and \"Cancel\" buttons will no longer be visible."
+    },
+    {
+        "precondition": "The \"Software License Agreement\" window for Netscape Communicator 4.79 is open, displaying the license agreement text and three buttons: \"< Back\", \"Yes\", and \"No\".",
+        "action": "Click the \"Yes\" button.",
+        "expected_results": "The \"Software License Agreement\" window will be replaced by the \"Setup Type\" window. This window will offer options for \"Typical\" or \"Custom\" installation and allow you to specify the installation directory."
+    },
+    {
+        "precondition": "The \"Setup Type\" window is open with the \"Destination Directory\" field displaying \"C:\\Program Files\\Netscape\\Communicator\".",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "A pop-up window titled \"Question\" will appear, stating that the selected destination directory does not exist and asking if it should be created. The pop-up will provide \"Yes\" and \"No\" buttons."
+    },
+    {
+        "precondition": "A dialog box titled \"Question\" is open, asking to confirm the creation of the installation directory \"C:\\Program Files\\Netscape\\Communicator\".",
+        "action": "Click the \"Yes\" button.",
+        "expected_results": "The \"Question\" dialog box will close, and the \"Netscape Desktop Preference Options\" window will appear."
+    },
+    {
+        "precondition": "The \"Netscape Desktop Preference Options\" window is open with the \"Next >\" button highlighted.",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The \"Netscape Desktop Preference Options\" window will be replaced by the \"Select Program Folder\" window. This window will allow you to specify a program folder location."
+    },
+    {
+        "precondition": "The \"Select Program Folder\" window is open, displaying the chosen installation directory in the \"Program Folder:\" text field.",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The \"Select Program Folder\" window will be replaced by the \"Start Copying Files\" window, showing a summary of the installation settings and an \"Install\" button to proceed."
+    },
+    {
+        "precondition": "The \"Start Copying Files\" window is open, and the \"Install >\" button is visible.",
+        "action": "Click the \"Install >\" button.",
+        "expected_results": "The \"Start Copying Files\" window will be replaced by a dialog box titled \"Question\" with \"Yes\" and \"No\" buttons."
+    },
+    {
+        "precondition": "A dialog box titled 'Question' is open, asking 'Would you like to view the README file now?'",
+        "action": "Click the 'No' button",
+        "expected_results": "The 'Question' dialog box will be replaced with an 'Information' dialog box, indicating setup is complete. The dialog box will have an 'OK' button to proceed."
+    },
+    {
+        "precondition": "An \"Information\" dialog box with the title \"Information\" is open, indicating the setup is complete.",
+        "action": "Click the \"OK\" button in the \"Information\" dialog box.",
+        "expected_results": "The \"Information\" dialog box will close, revealing the Netscape Communicator 4.79 application window."
+    },
+    {
+        "precondition": "The \"Netscape Communicator\" window is open.",
+        "action": "Click the \"Close\" button in the top right corner of the \"Netscape Communicator\" window.",
+        "expected_results": "The \"Netscape Communicator\" window will close."
+    },
+    {
+        "precondition": "The \"Netscape Communicator\" window is open.",
+        "action": "Click the \"Close\" button in the title bar of the \"Netscape Communicator\" window.",
+        "expected_results": "The \"Netscape Communicator\" window will close. "
+    },
+    {
+        "precondition": "The \"Cdrom (D:)\" window is open.",
+        "action": "Click the \"Close\" button in the title bar of the \"Cdrom (D:)\" window. ",
+        "expected_results": "The \"Cdrom (D:)\" window will close."
+    },
+    {
+        "precondition": "The Windows 98 desktop is visible.",
+        "action": "Left Click on the desktop.",
+        "expected_results": ""
+    },
+    {
+        "precondition": "The \"Netscape Communicator\" shortcut icon is visible on the desktop.",
+        "action": "Double-click the \"Netscape Communicator\" shortcut icon.",
+        "expected_results": "The \"Creating a New Profile\" dialog box will appear."
+    },
+    {
+        "precondition": "A dialog box titled \"Creating a New Profile\" is open. The \"Next >\" button is active.",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The \"Creating a New Profile\" dialog box will be replaced with the \"Enter your Name and Email Address\" dialog box. This dialog box includes fields for entering your full name and email address, and the \"Finish\" button will become active."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open.",
+        "action": "Press the 'Shift' and 'B' keys simultaneously.",
+        "expected_results": "No visible changes will occur in the dialog box."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open.",
+        "action": "Press the 'o' key",
+        "expected_results": "The letter 'o' will appear in the \"Full Name\" text field."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open.",
+        "action": "Press the 'b' key.",
+        "expected_results": "No visible change will occur."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open.",
+        "action": "Press the 'Space' key.",
+        "expected_results": "No visible change will occur in the UI."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open.",
+        "action": "Press the 'Shift' and 'A' keys simultaneously.",
+        "expected_results": "The character \"A\" will be added to the text in the \"Full Name:\" field."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open. The text field labeled \"Full Name:\" shows the text \"Bob Al\".",
+        "action": "Type the letters \"li\" using the keyboard.",
+        "expected_results": "The text \"Bob Alli\" will appear in the \"Full Name:\" field."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open. The \"Email Address (if available):\" field is active.",
+        "action": "Type the letters \"ce\" using your keyboard.",
+        "expected_results": "The letters \"ce\" will appear in the \"Email Address (if available):\" field."
+    },
+    {
+        "precondition": "A dialog box titled \"Enter your Name and Email Address\" is displayed, with a text field labeled \"Full Name:\"",
+        "action": "Type the letter 's' using your keyboard.",
+        "expected_results": "The letter \"s\" will appear in the \"Full Name:\" text field."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open. The \"Full Name:\" field contains the text \"Bob Alicesd\".",
+        "action": "Type the letters \"on\" using the keyboard.",
+        "expected_results": "The \"Full Name:\" field will now contain the text \"Bob Alicesdon\"."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open with the \"Next >\" button highlighted.",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The \"Enter your Name and Email Address\" dialog box will be replaced with the \"Choose a Name and Directory for your Profile\" dialog box. This dialog box will include a \"Profile Name:\" field, and a suggested directory path."
+    },
+    {
+        "precondition": "The \"Choose a Name and Directory for your Profile\" dialog box is open. The \"Next >\" button is highlighted.",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The \"Choose a Name and Directory for your Profile\" dialog box will be replaced by the \"Set up your Outgoing Mail Server\" dialog box."
+    },
+    {
+        "precondition": "The \"Set up your Outgoing Mail Server\" dialog box is open with the \"Outgoing mail (SMTP) server\" field visible.",
+        "action": "Click the \"Finish\" button.",
+        "expected_results": "An error message stating that Netscape could not locate the specified server will appear."
+    },
+    {
+        "precondition": "A dialog box titled \"Netscape\" is open, displaying the message \"Netscape is unable to locate the server home.netscape.com. Please check the server name and try again.\"",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The dialog box will be dismissed, and the error message \"Unable to locate host home.netscape.com.\" will be displayed in a gray bar at the bottom of the Netscape Communicator browser window."
+    }
+]

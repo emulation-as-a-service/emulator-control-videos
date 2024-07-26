@@ -1,0 +1,9 @@
+- Operating system: Windows 98
+- Software: Netscape Communicator 4.79, InstallShield Self-extracting Exe
+- Input methods: Mouse and keyboard
+- Recording details: The recording is 2 minutes and 21 seconds long. The resolution is 640x480. 
+
+
+The user opens the "My Computer" application, navigates to the D: drive, and double-clicks a file named "cc32d479.exe". After the file extraction process is complete, the user follows the on-screen prompts to install Netscape Communicator 4.79. The user then opens the Netscape Communicator application and attempts to connect to the internet.
+
+The user's actions suggest they are attempting to install and run Netscape Communicator 4.79. 

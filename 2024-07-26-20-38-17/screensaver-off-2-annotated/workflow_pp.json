@@ -1,0 +1,67 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Move the mouse pointer over an empty area of the desktop.",
+        "expected_results": "The mouse pointer will change to a white arrow."
+    },
+    {
+        "precondition": "The right-click context menu on the Windows XP desktop is visible.",
+        "action": "Right Click the menu item \"Properties\".",
+        "expected_results": "The \"Display Properties\" window will open, replacing the context menu."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Screen Saver\" tab will become active. The \"Screen saver\" dropdown menu will display \"Windows XP\", and the \"Wait\" field will be set to \"10\"."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"Wait\" spin box should show a value of \"10\".",
+        "action": "Click the down arrow button next to the \"Wait\" spin box.",
+        "expected_results": "A dropdown menu will appear, displaying a list of available time units."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab in the \"Display Properties\" window is open. The \"Screen Saver\" dropdown menu is open.",
+        "action": "Click the \"3D FlowerBox\" option in the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"Screen Saver\" dropdown menu will close. The \"Wait\" time will change to \"10\" minutes."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"Power...\" button is located at the bottom of the window in the \"Monitor power\" section.",
+        "action": "Click the \"Power...\" button.",
+        "expected_results": "The \"Power Options Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Home/Office Desk\" power scheme is currently selected in the \"Power schemes\" dropdown menu.",
+        "action": "Click on the \"Home/Office Desk\" power scheme in the \"Power schemes\" dropdown menu.",
+        "expected_results": "A pop-up window titled \"Keep your computer up to date\" may appear in the bottom right corner of the screen."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Power schemes\" dropdown menu at the top is visible.",
+        "action": "Click the \"Power schemes\" dropdown menu and select \"Always On\".",
+        "expected_results": "The power scheme will change to \"Always On\". The \"Settings for Always On power scheme\" section will display, allowing you to customize the power settings for this scheme."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Turn off monitor\" dropdown menu is visible.",
+        "action": "Click the down arrow of the \"Turn off monitor\" dropdown menu.",
+        "expected_results": "The \"Turn off monitor\" dropdown menu will expand, displaying a list of time options."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"System hibernates:\" drop-down menu is visible under the \"Settings for Always On power scheme\" section.",
+        "action": "Click the \"Never\" option in the \"System hibernates:\" drop-down menu.",
+        "expected_results": "The system will be set to never hibernate automatically. A yellow pop-up notification reading \"Keep your computer up to date\" may appear in the bottom right corner of the screen."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Apply\" button at the bottom of the window is active.",
+        "action": "Click the \"Apply\" button.",
+        "expected_results": "The changes made to the \"Always On\" power scheme will be applied."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Always On\" power scheme is selected and the desired settings for \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" are configured.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"OK\" button is highlighted.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" window will close and the Windows XP desktop background will be visible."
+    }
+]

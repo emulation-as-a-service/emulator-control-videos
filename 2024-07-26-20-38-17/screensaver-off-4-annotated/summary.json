@@ -1,0 +1,87 @@
+[
+    {
+        "frame": 23,
+        "event": "The mouse pointer is hovering over the empty space on the desktop. \n",
+        "timestamp": 1.4375,
+        "description": "The user **right-clicked** on the empty space on the desktop. This action opened a context menu with the mouse cursor hovering over the \"**Properties**\" option. \n",
+        "outcome": "A right-click on the desktop brought up a context menu with options to manage desktop items and properties. The cursor is hovering over the \"Properties\" option. \n"
+    },
+    {
+        "frame": 75,
+        "event": "The mouse clicked on Properties. Mouse clicking \"Properties\" in the context menu. \n",
+        "timestamp": 4.6875,
+        "description": "The user clicked \"Properties\" in the right-click context menu on the desktop.  As a result, the context menu closed. \n",
+        "outcome": "The context menu that was previously visible has now disappeared. \n",
+        "label_clicked": "Properties"
+    },
+    {
+        "frame": 136,
+        "event": "The mouse is clicking on the \"Appearance\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 8.5,
+        "description": "The user clicked the \"Themes\" tab in the \"Display Properties\" window. As a result, the \"Themes\" tab became the active tab. \n",
+        "outcome": "The \"Themes\" tab within the \"Display Properties\" window became the active, selected tab. \n"
+    },
+    {
+        "frame": 185,
+        "event": "The mouse clicked on DesktopScreerSaverAppearance. The mouse pointer is hovering over the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 11.5625,
+        "description": "The user clicked on the \"Screen Saver\" tab within the \"Display Properties\" window.  As a result, the \"Screen Saver\" dropdown menu now displays \"Windows XP\", and the \"Wait\" time is set to \"10 minutes\". \n",
+        "outcome": "The \"Screen Saver\" dropdown menu now displays \"Windows XP\", and the \"Wait\" time is set to \"10 minutes\". \n",
+        "label_clicked": "DesktopScreerSaverAppearance"
+    },
+    {
+        "frame": 244,
+        "event": "The mouse is clicking on the down arrow of the wait time spin box. \n",
+        "timestamp": 15.25,
+        "description": "The user clicks the down arrow of the \"Wait\" time spin box within the \"Screen Saver\" tab of the \"Display Properties\" window.  As a result, the \"Screen saver\" dropdown menu changes its selection to \"(None)\" and the \"Settings\" button becomes active. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu changed to display \"(None)\" as the selected option and the \"Settings\" button became active. \n"
+    },
+    {
+        "frame": 263,
+        "event": "The mouse clicked on 3D FlowerBox. The mouse is clicking on \"3D Text\" in the \"Screen saver\" dropdown menu of the \"Display Properties\" window. \n",
+        "timestamp": 16.4375,
+        "description": "The user selects \"3D Text\" from the \"Screen Saver\" dropdown menu within the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "outcome": "There is only one observation provided, therefore no user event can be inferred. \n\nThe provided screenshot shows the \"Display Properties\" window open to the \"Screen Saver\" tab. The \"None\" option is selected from the \"Screen Saver\" dropdown menu. The \"Wait\" time is set to \"10 minutes\", the \"On resume, password protect\" checkbox is unchecked, and the \"Power...\" button is present. \n",
+        "label_clicked": "3D FlowerBox"
+    },
+    {
+        "frame": 318,
+        "event": "The mouse clicked on App. The mouse is clicking on the \"Apply\" button in the \"Display Properties\" window. \n",
+        "timestamp": 19.875,
+        "description": "The user clicked the \"Apply\" button in the \"Display Properties\" window to confirm the selection of \"None\" in the \"Screen Saver\" dropdown menu. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu was changed to \"None\" and the \"Wait\" time was set to \"10\" minutes within the \"Display Properties\" window. \n",
+        "label_clicked": "App"
+    },
+    {
+        "frame": 349,
+        "event": "The mouse clicked on Power. Mouse click on \"Power...\" button within \"Display Properties\" window. \n",
+        "timestamp": 21.8125,
+        "description": "The user clicked on the \"Power...\" button within the \"Display Properties\" window's \"Screen Saver\" tab. This action opened the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Screen Saver\" was set to \"(None)\" in the \"Display Properties\" window, disabling the \"Wait\" field, \"On resume, password protect\" checkbox, \"Settings\" button, and \"Preview\" button.  Simultaneously, the \"Turn off hard disks\" option in the \"Power Options Properties\" window was set to \"After 20 mins\". \n",
+        "label_clicked": "Power"
+    },
+    {
+        "frame": 448,
+        "event": "The mouse clicked on After 5 hours. The mouse is clicking on \"After 5 hours\" in the \"System hibernates\" dropdown menu. \n",
+        "timestamp": 28.0,
+        "description": "The user clicked on \"After 5 hours\" in the \"Turn off hard disks\" dropdown menu.  As a result, the  \"Turn off hard disks\" setting changed to \"Never\". \n",
+        "outcome": "The \"Turn off hard disks\" setting within the \"Power Options Properties\" window changed from a dropdown menu to a static display of \"Never\". \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 468,
+        "event": "The mouse clicked on NQK. The mouse is clicking on the \"OK\" button of the window titled \"Power Options Properties\". \n",
+        "timestamp": 29.25,
+        "description": "The user clicked \"OK\" in the \"Power Options Properties\" window to apply the changes made to the power settings. As a result, the \"Power Options Properties\" window closed. \n",
+        "outcome": "The \"Power Options Properties\" window has closed, returning the user to the \"Display Properties\" window with the \"Screen Saver\" tab still selected. \n",
+        "label_clicked": "NQK"
+    },
+    {
+        "frame": 506,
+        "event": "The mouse clicked on OK. The mouse pointer is hovering over the \"OK\" button at the bottom of the \"Display Properties\" window. \n",
+        "timestamp": 31.625,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Display Properties\" window. As a result, the \"Display Properties\" window closed. \n",
+        "outcome": "The \"Display Properties\" and \"Power Options Properties\" windows are no longer visible, leaving only the Windows XP desktop background. \n",
+        "label_clicked": "OK"
+    }
+]

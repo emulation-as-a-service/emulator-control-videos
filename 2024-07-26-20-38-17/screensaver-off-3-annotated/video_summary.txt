@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Control Panel, Power Options Properties, Display Properties
+- Input methods: Mouse and keyboard
+- Recording details: 1 minute and 3 seconds, resolution not available 
+
+
+The user navigates to the Windows XP Control Panel and opens the "Power Options Properties" window. They change the "Turn off monitor" setting from "After 20 mins" to "Never" and the "Turn off hard disks" setting from "After 20 mins" to "Never". Then, they open the "Display Properties" window and change the "Screen saver" setting from "Windows XP" to "None". 
+
+Purpose inference: The user's actions suggest they are configuring their computer's power and display settings to prevent the monitor and hard disks from turning off automatically and to disable the screensaver. 

@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Netscape Communicator 4.79
+- Input methods: Mouse and keyboard
+- Recording details: The duration is 4 minutes and 51 seconds. The resolution is not discernible from the provided information. 
+
+
+The user opens the CD Drive in My Computer and double-clicks a file named "c220479". The user then clicks through the setup wizard, accepting the license agreement and choosing a typical installation. The user enters "Bob Alceson" as the full name and "g.smith@company.com" as the email address. The user accepts the default profile name and directory. The user skips entering information for the outgoing mail server. The user then closes the Netscape Communicator window after it fails to connect to the internet. 
+
+The user's actions suggest they are attempting to install and set up Netscape Communicator 4.79. 

@@ -1,0 +1,77 @@
+[
+    {
+        "frame": 31,
+        "event": "The mouse pointer is clicking on the empty part of the taskbar. \n",
+        "timestamp": 1.9375,
+        "description": "The user clicked on an empty area of the taskbar.  This action opened a context menu with options to manage the taskbar. \n",
+        "outcome": "A context menu with options for \"Arrange Icons By\", \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\" appears in the top left corner of the screen. \n"
+    },
+    {
+        "frame": 80,
+        "event": "The mouse is clicking on the \"Properties\" option in the context menu. \n",
+        "timestamp": 5.0,
+        "description": "The user clicked on the \"Properties\" option in the right-click context menu on the Windows XP desktop. As a result, the \"Display Properties\" window opened. \n",
+        "outcome": "The \"Display Properties\" window shifted from the \"Appearance\" tab to the \"Themes\" tab. \n"
+    },
+    {
+        "frame": 157,
+        "event": "The mouse clicked on ScreSaver. Mouse clicking on \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 9.8125,
+        "description": "The user clicked on the \"Screen Saver\" dropdown menu in the \"Display Properties\" window. As a result, the screen saver preview updated to display the \"Windows XP\" screen saver. \n",
+        "outcome": "The screen saver preview updated to display the \"Windows XP\" screen saver, reflecting the new selection in the dropdown menu. \n",
+        "label_clicked": "ScreSaver"
+    },
+    {
+        "frame": 230,
+        "event": "The mouse is clicking on the down arrow of the screen saver selection drop-down list in the Display Properties window. \n",
+        "timestamp": 14.375,
+        "description": "The user clicks the down arrow of the \"Screen saver\" drop-down list on the \"Screen Saver\" tab of the \"Display Properties\" window. As a result, the dropdown list expands to reveal a list of screen saver options, with \"None\" now displayed as the selected option. \n",
+        "outcome": "The \"Screen saver\" dropdown menu in the Display Properties window now displays \"None\" as the selected option. The \"Settings\" button and the \"Wait:\" numerical field are inactive. \n"
+    },
+    {
+        "frame": 261,
+        "event": "The mouse clicked on (None. The mouse is clicking on \"3D FlowerBox\" in the \"Screen saver\" dropdown menu of the Display Properties window. \n",
+        "timestamp": 16.3125,
+        "description": "The user clicked on the \"3D FlowerBox\" option within the \"Screen saver\" dropdown menu of the Display Properties window.  The provided Outcome state does not offer any information about the visual result of this action. \n",
+        "outcome": "This appears to be the initial state of the \"Screen Saver\" tab within the \"Display Properties\" window, providing no information about any user event or its visual effects. \n",
+        "label_clicked": "(None"
+    },
+    {
+        "frame": 309,
+        "event": "The mouse pointer is over the \"Power...\" button inside the \"Display Properties\" window and is about to click it. \n",
+        "timestamp": 19.3125,
+        "description": "The user clicks the \"Power...\" button within the \"Display Properties\" window's \"Screen Saver\" tab.  This opens the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window opened in front of the \"Display Properties\" window, taking focus and partially obscuring the latter. \n"
+    },
+    {
+        "frame": 373,
+        "event": "The mouse is clicking on the dropdown arrow of \"Turn off hard disks\" setting. \n",
+        "timestamp": 23.3125,
+        "description": "The user clicks the dropdown arrow of the \"Turn off monitor\" setting within the \"Power Options Properties\" window.  This reveals a list of time interval options, including \"Never,\" which the mouse cursor is now hovering over. \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu within the \"Power Options Properties\" window is now expanded, revealing options for various time intervals and \"Never.\" The mouse cursor is hovering over the \"Never\" option. \n"
+    },
+    {
+        "frame": 414,
+        "event": "The mouse clicked on After 5 hours. The mouse is clicking on \"Never\" in the dropdown menu for \"System hibernates:\". \n",
+        "timestamp": 25.875,
+        "description": "The user clicked on the \"Never\" option within the \"Turn off monitor\" dropdown menu in the Power Options Properties window. As a result, the dropdown menu closed, and \"Never\" now appears as the selected option. \n",
+        "outcome": "The Power Options Properties window appears, displaying \"Never\" in the \"Turn off monitor\" field, which is no longer a dropdown menu. \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 440,
+        "event": "The mouse clicked on OK. The mouse is clicking on the OK button of the Display Properties window. \n",
+        "timestamp": 27.5,
+        "description": "The user clicked the \"OK\" button in the \"Display Properties\" window.  As a result, the \"Power Options Properties\" window closed. \n",
+        "outcome": "The \"Power Options Properties\" window, initially described as overlaid on the \"Display Properties\" window, is no longer present. The \"Screen Saver\" tab remains active within the \"Display Properties\" window, and the \"Wait\" time for the screen saver is now set to \"10\" minutes. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 461,
+        "event": "The mouse clicked on OK. The mouse is clicking on the \"OK\" button of the \"Display Properties\" window. \n",
+        "timestamp": 28.8125,
+        "description": "The user clicked the \"OK\" button in the \"Display Properties\" window. Consequently, the \"Display Properties\" window closed. \n",
+        "outcome": "The screen is now black, except for the Windows XP taskbar. The \"Display Properties\" window is no longer visible. \n",
+        "label_clicked": "OK"
+    }
+]

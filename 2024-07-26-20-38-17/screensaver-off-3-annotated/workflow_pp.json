@@ -1,0 +1,92 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible with the \"Start\" button in the bottom left corner.",
+        "action": "Left Click on the desktop.",
+        "expected_results": "No visual changes will occur on the desktop."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The Start Menu will open."
+    },
+    {
+        "precondition": "The Start menu is open.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The Start menu will close."
+    },
+    {
+        "precondition": "The \"Start\" menu is open and the \"Control Panel\" option is highlighted.",
+        "action": "Press the 'c' key.",
+        "expected_results": "The \"Start\" menu will close and the \"Control Panel\" window will open."
+    },
+    {
+        "precondition": "The Control Panel is open in Category View. A link labeled \"Switch to Classic View\" is visible in the left panel.",
+        "action": "Click the \"Switch to Classic View\" link in the left panel.",
+        "expected_results": "The Control Panel view will change to Classic View."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is open and in Classic View.",
+        "action": "Press the 'Right' key.",
+        "expected_results": "No visual change will occur."
+    },
+    {
+        "precondition": "The 'Wireless Network Setup Wizard' icon is selected in the Control Panel.",
+        "action": "Press the 'Right' arrow key.",
+        "expected_results": "The keyboard focus will move to the 'Phone and Modem Options' icon."
+    },
+    {
+        "precondition": "The \"Control Panel\" window is open and the \"Add or Remove Programs\" icon is highlighted.",
+        "action": "Type the keys \"p\" and \"o\" in sequence.",
+        "expected_results": "The focus will move to the \"Power Options\" icon and a tooltip related to power settings will appear."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open.",
+        "action": "Press the 'Enter' key.",
+        "expected_results": "The \"Turn off monitor\" and \"Turn off hard disks\" settings will change from \"After 20 mins\" to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open.",
+        "action": "Click the dropdown arrow next to \"Turn off hard disks\".",
+        "expected_results": "A dropdown menu will appear with a list of time interval options."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"System hibernates:\" dropdown menu is visible.",
+        "action": "Click the \"Never\" option in the \"System hibernates:\" dropdown menu.",
+        "expected_results": "The \"System hibernates:\" setting will be set to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Control Panel\" window is open and the \"Display\" icon is visible.",
+        "action": "Click the \"Display\" icon.",
+        "expected_results": "The \"Display Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Screen Saver\" settings will be displayed."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"Screen saver\" dropdown menu should display \"Windows XP\" as the currently selected item.",
+        "action": "Click the dropdown arrow on the \"Screen saver\" dropdown menu.",
+        "expected_results": "A list of available screensavers will appear, with \"Windows XP\" still selected."
+    },
+    {
+        "precondition": "The \"Screen saver\" dropdown menu in the \"Display Properties\" window is open, showing a list of available screensavers.",
+        "action": "Click on \"3D FlowerBox\" in the \"Screen saver\" dropdown menu.",
+        "expected_results": "The \"Screen saver\" dropdown menu will close, and \"3D FlowerBox\" will be selected as the screensaver."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" window will close. Any changes made to the display settings will be applied."
+    },
+    {
+        "precondition": "The Control Panel window is open and maximized.",
+        "action": "Click the minimize button in the top-right corner of the Control Panel window.",
+        "expected_results": "The Control Panel window will minimize to the taskbar."
+    }
+]

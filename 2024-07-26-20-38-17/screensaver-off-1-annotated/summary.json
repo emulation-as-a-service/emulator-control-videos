@@ -1,0 +1,137 @@
+[
+    {
+        "frame": 36,
+        "event": "The mouse clicked on # start. The mouse is clicking on the \"Start\" button. \n",
+        "timestamp": 2.25,
+        "description": "The user clicked on the \"Start\" button in the lower left corner of the screen. As a result, the Start menu opened. \n",
+        "outcome": "The Start menu opened, displaying its options with the mouse cursor hovering over the \"Control Panel\" option. \n",
+        "label_clicked": "# start"
+    },
+    {
+        "frame": 90,
+        "event": "The mouse clicked on ContrqPanel. The mouse is clicking on \"Control Panel\" in the start menu. \n",
+        "timestamp": 5.625,
+        "description": "The user clicked on \"Control Panel\" in the Start Menu.  As a result, the Control Panel window opened. \n",
+        "outcome": "The Start Menu and its associated tooltip have disappeared, replaced by the main Control Panel window, which now displays various system category icons. \n",
+        "label_clicked": "ContrqPanel"
+    },
+    {
+        "frame": 459,
+        "event": "The mouse is clicking on the \"Appearance and Themes\" icon in the Control Panel. \n",
+        "timestamp": 28.6875,
+        "description": "The user clicks the \"Appearance and Themes\" icon in the Control Panel. \n",
+        "outcome": "The tooltip that appeared when hovering over the \"Choose a screen saver\" task has disappeared. \n"
+    },
+    {
+        "frame": 547,
+        "event": "The mouse clicked on splay. The mouse is clicking on the \"Display\" Control Panel icon. \n",
+        "timestamp": 34.1875,
+        "description": "The user clicked the \"Display\" icon in the \"Appearance and Themes\" window of the Control Panel. As a result, the \"Display Properties\" window opened. \n",
+        "outcome": "An \"Active Window\" sample window appeared within the \"Display Properties\" window, and the mouse cursor, which was hovering over the \"Display\" icon, moved to hover over the new window. \n",
+        "label_clicked": "splay"
+    },
+    {
+        "frame": 718,
+        "event": "The mouse clicked on DesktopScreen SverAppearanceSettings. The mouse is clicking on the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 44.875,
+        "description": "The user clicked on the \"Screen Saver\" tab within the \"Display Properties\" window. As a result, the \"Screen Saver\" tab became the active tab, displaying the screen saver options. \n",
+        "outcome": "The 'Screen Saver' tab within the 'Display Properties' window is now active and displaying the 'Windows XP' screensaver selection. The previous screensaver selection is no longer active, the wait time has been changed to 10 minutes, and the 'On resume, password protect' checkbox remains unchecked. \n",
+        "label_clicked": "DesktopScreen SverAppearanceSettings"
+    },
+    {
+        "frame": 753,
+        "event": "The mouse is clicking on the down arrow of the \"Windows XP\" drop-down list. \n",
+        "timestamp": 47.0625,
+        "description": "The user clicked the down arrow of the \"Windows XP\" drop-down list in the 'Screen Saver' tab of the 'Display Properties' window.  As a result, the dropdown menu expanded, displaying a list of screen saver options. \n",
+        "outcome": "The 'Screen Saver' dropdown menu opened, revealing a list of available options with 'None' currently selected. \n"
+    },
+    {
+        "frame": 773,
+        "event": "The mouse is clicking on \"3D FlowerBox\" in the \"Screen Saver\" dropdown menu. \n",
+        "timestamp": 48.3125,
+        "description": "The user selects \"3D FlowerBox\" from the \"Screen Saver\" drop-down menu. As a result, the \"Settings\" and \"Preview\" buttons become active. \n",
+        "outcome": "The \"Display Properties\" window is open and displaying the \"Screen Saver\" tab. The \"Settings\" and \"Preview\" buttons are inactive. \n"
+    },
+    {
+        "frame": 803,
+        "event": "The mouse clicked on Pow. The mouse is clicking on the \"Power\" button in the Display Properties window. \n",
+        "timestamp": 50.1875,
+        "description": "The user clicked the \"Power\" button within the \"Monitor power\" section of the 'Display Properties' window.  As a result, the \"Power Options Properties\" window opened. \n",
+        "outcome": "A \"Power Options Properties\" window opened, covering the \"Display Properties\" window.  The \"Power\" button, previously hovered over, is no longer highlighted. \n",
+        "label_clicked": "Pow"
+    },
+    {
+        "frame": 861,
+        "event": "The mouse is clicking the dropdown arrow of the \"Turn off monitor\" setting in the Power Options Properties window. \n",
+        "timestamp": 53.8125,
+        "description": "The user clicks the dropdown arrow next to the \"Turn off monitor\" setting.  This reveals a dropdown menu of time interval options. \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu within the \"Power Options Properties\" window has been expanded to display a list of time interval options. \n"
+    },
+    {
+        "frame": 912,
+        "event": "The mouse clicked on After 5 hours. The mouse is clicking on \"Never\" in the dropdown menu for \"System hibernates\". \n",
+        "timestamp": 57.0,
+        "description": "The user clicked on \"Never\" in the dropdown menu for the \"System hibernates\" power management option within the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window updated to reflect the selection of the \"Always On\" power scheme.  All four power management options (\"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\") now display \"Never\" in their respective dropdown menus. \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 994,
+        "event": "The mouse pointer is hovering over the \"Save As...\" button in the \"Power Options Properties\" window. \n",
+        "timestamp": 62.125,
+        "description": "The user hovers the mouse pointer over the \"Save As...\" button in the \"Power Options Properties\" window.  No observable changes occur in the user interface as a result of this action. \n",
+        "outcome": "The \"Power Options Properties\" window is now open and overlaying the \"Display Properties\" window.  The \"Always On\" power scheme is selected, with all power management options set to \"Never\". \n"
+    },
+    {
+        "frame": 1039,
+        "event": "The mouse clicked on Always On. The mouse is clicking on \"Minimal Power Management\" in the \"Power schemes\" dropdown menu of the \"Power Options Properties\" window. \n",
+        "timestamp": 64.9375,
+        "description": "The user selected \"Minimal Power Management\" from the \"Power schemes\" dropdown menu within the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window reflects the user's selection of the \"Always On\" power scheme, with all power-saving options set to \"Never.\" \n",
+        "label_clicked": "Always On"
+    },
+    {
+        "frame": 1060,
+        "event": "The mouse is clicking on the dropdown arrow for \"Turn off hard disks\". \n",
+        "timestamp": 66.25,
+        "description": "The user clicks on the dropdown arrow for the \"Turn off hard disks\" setting within the \"Settings for 'Always On' power scheme\" section of the \"Power Options Properties\" window. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 1070,
+        "event": "The mouse is clicking the dropdown arrow for the \"Turn off monitor\" setting in the Power Options Properties window. \n",
+        "timestamp": 66.875,
+        "description": "The user clicks the dropdown arrow for the \"Turn off monitor\" setting.  As a result, the dropdown menu expands to reveal a list of time options. \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu within the \"Power Options Properties\" window is expanded, revealing a list of time options. \n"
+    },
+    {
+        "frame": 1093,
+        "event": "The mouse clicked on Never. The mouse is clicking on \"Never\" in the dropdown menu for \"System hibernates:\". \n",
+        "timestamp": 68.3125,
+        "description": "The user clicked \"Never\" in the \"System hibernates:\" dropdown menu within the \"Power Options Properties\" window.  As a result, the dropdown menu closed. \n",
+        "outcome": "The \"Power Options Properties\" window reflects updates to the \"Always On\" power scheme: the \"Turn off monitor\" option is now set to \"After 20 mins\" and the \"System hibernates\" dropdown menu is closed. \n",
+        "label_clicked": "Never"
+    },
+    {
+        "frame": 1120,
+        "event": "The mouse clicked on OK. The mouse is clicking on the \"Cancel\" button. \n",
+        "timestamp": 70.0,
+        "description": "The user clicked the \"Cancel\" button at the bottom of the \"Power Options Properties\" window. As a result, the  \"Power Options Properties\" window closed. \n",
+        "outcome": "The 'Display Properties' window is now displaying the 'Screen Saver' tab. The 'Screen saver' is set to '[None]', the 'Wait' time is '10' minutes, and the 'On resume, password protect' option is unchecked. The mouse cursor is hovering over the 'Cancel' button. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 1204,
+        "event": "The mouse is clicking on the OK button. \n",
+        "timestamp": 75.25,
+        "description": "The user clicks the \"OK\" button at the bottom of the \"Display Properties\" window.  As a result, the \"Display Properties\" window closes. \n",
+        "outcome": "The 'Display Properties' window has been closed, and the mouse cursor has moved to hover over the 'Appearance and Themes' button in the taskbar. \n"
+    },
+    {
+        "frame": 1266,
+        "event": "The mouse is clicking on the close button of the window titled Appearance and Themes. \n",
+        "timestamp": 79.125,
+        "description": "The user clicks the \"Close\" button in the title bar of the \"Appearance and Themes\" window. As a result, the \"Appearance and Themes\" window closes. \n",
+        "outcome": "The \"Appearance and Themes\" window is no longer visible, suggesting it was closed. The rest of the desktop remains unchanged. \n"
+    }
+]

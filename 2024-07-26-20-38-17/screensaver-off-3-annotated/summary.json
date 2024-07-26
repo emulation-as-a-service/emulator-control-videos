@@ -1,0 +1,155 @@
+[
+    {
+        "frame": 12,
+        "event": "Mouse click on empty desktop area. \n",
+        "timestamp": 0.75,
+        "description": "The user clicked on the empty area of the desktop. No observable changes occurred. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 34,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 2.125,
+        "description": "The user pressed the 'Control' and 'Escape' keys simultaneously. As a result, the mouse cursor moved slightly upward. \n",
+        "outcome": "The mouse cursor moved slightly upward. \n",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 124,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 7.75,
+        "description": "The user pressed the `Control` and `Escape` keys simultaneously, causing the mouse cursor to move to the right side of the screen. \n",
+        "outcome": "The mouse cursor moved to the right side of the screen. \n",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 153,
+        "event": "The key following key(s) were pressed: ['c'].",
+        "timestamp": 9.5625,
+        "description": "The user pressed the 'c' key, which selected the highlighted \"Control Panel\" option in the Start menu. As a result, the Start menu closed, and the Control Panel window opened. \n",
+        "outcome": "The Start menu closed and the mouse cursor moved to hover over the \"Add or Remove Programs\" option within the Control Panel. \n",
+        "key_pressed": [
+            "c"
+        ]
+    },
+    {
+        "frame": 333,
+        "event": "The mouse clicked on Switch tp_Classic View. The mouse is clicking on the \"Switch to Classic View\" link. \n",
+        "timestamp": 20.8125,
+        "description": "The user clicked on the \"Switch to Classic View\" link in the left panel of the Control Panel window. However, this action did not produce any visible changes in the UI. \n",
+        "outcome": "The UI remains unchanged from its initial state. \n",
+        "label_clicked": "Switch tp_Classic View"
+    },
+    {
+        "frame": 480,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.0,
+        "description": "The right arrow key was pressed. No visual change is observed in the provided information. \n",
+        "outcome": "",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 483,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.1875,
+        "description": "The user pressed the right arrow key, moving the keyboard focus from the \"Wireless Network Setup Wizard\" icon to the adjacent icon to the right. \n",
+        "outcome": "",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 524,
+        "event": "The key following key(s) were pressed: ['p', 'o'].",
+        "timestamp": 32.75,
+        "description": "The user typed the keys \"p\" and \"o\", which moved the focus from the \"Add or Remove Programs\" icon to the \"Wireless Network Setup Wizard\" icon within the Control Panel window. \n",
+        "outcome": "The mouse cursor moved to hover over the \"Wireless Network Setup Wizard\" icon, causing its tooltip to disappear. \n",
+        "key_pressed": [
+            "p",
+            "o"
+        ]
+    },
+    {
+        "frame": 551,
+        "event": "The key following key(s) were pressed: ['Return'].",
+        "timestamp": 34.4375,
+        "description": "The user pressed the \"Enter\" key while the \"Power Options Properties\" window was open. As a result, the \"Turn off monitor\" and \"Turn off hard disks\" settings changed from \"After 20 mins\" to \"Never.\" \n",
+        "outcome": "The \"Turn off monitor\" and \"Turn off hard disks\" settings within the \"Power Options Properties\" window have been changed from \"After 20 mins\" to \"Never.\" \n",
+        "key_pressed": [
+            "Return"
+        ]
+    },
+    {
+        "frame": 647,
+        "event": "The mouse is clicking on the dropdown arrow for the \"Turn off hard disks\" setting. \n",
+        "timestamp": 40.4375,
+        "description": "The user clicked the dropdown arrow for the \"Turn off hard disks\" setting within the \"Power Options Properties\" window. This action expanded the dropdown menu to reveal a list of time interval options. \n",
+        "outcome": "The \"Turn off hard disks\" dropdown menu expanded to reveal a list of time interval options, with the mouse cursor hovering over the \"After 4 hours\" option. \n"
+    },
+    {
+        "frame": 678,
+        "event": "The mouse is clicking on \"Never\" in the dropdown menu for \"System hibernates:\" within the \"Power Options Properties\" window. \n",
+        "timestamp": 42.375,
+        "description": "The user clicked \"Never\" in the \"System hibernates:\" dropdown menu to disable system hibernation. \n",
+        "outcome": "The \"Turn off monitor\" setting in the Power Options Properties window changed from \"After 20 mins\" to \"Never\". The mouse cursor moved to hover over the \"OK\" button. \n"
+    },
+    {
+        "frame": 708,
+        "event": "The mouse clicked on OK. Mouse clicking on \"OK\" button. \n",
+        "timestamp": 44.25,
+        "description": "The user clicked the \"OK\" button in the \"Power Options Properties\" window.  As a result, the \"Power Options Properties\" window closed. \n",
+        "outcome": "The \"Power Options Properties\" window is not present. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 752,
+        "event": "The mouse is clicking on the \"Display\" icon. \n",
+        "timestamp": 47.0,
+        "description": "The user clicks the \"Display\" icon in the Control Panel window.  As a result, the \"Display Properties\" window opens. \n",
+        "outcome": "The \"Display Properties\" window opened, covering a portion of the \"Control Panel\" window and displaying the \"Screen Saver\" tab. \n"
+    },
+    {
+        "frame": 804,
+        "event": "The mouse clicked on DesktopScreen SaverAppearanceSettings. The mouse is clicking on the \"Screen Saver\" tab in the Display Properties window. \n",
+        "timestamp": 50.25,
+        "description": "The user clicked the \"Screen Saver\" tab within the \"Display Properties\" window. As a result, the \"Screen Saver\" settings were modified to use the \"Windows XP\" screensaver with a wait time of 10 minutes. \n",
+        "outcome": "The \"Screen Saver\" settings within the \"Display Properties\" window were modified to use the \"Windows XP\" screensaver, with a wait time of 10 minutes. The password protection option remains unchecked. \n",
+        "label_clicked": "DesktopScreen SaverAppearanceSettings"
+    },
+    {
+        "frame": 834,
+        "event": "Mouse click on the dropdown arrow of the \"Screen saver\" dropdown menu showing \"Windows XP\" as the selected item. \n",
+        "timestamp": 52.125,
+        "description": "The user clicked the dropdown arrow of the \"Screen saver\" dropdown menu. The selected item changes from \"Windows XP\" to \"None\". \n",
+        "outcome": "The \"Screen saver\" dropdown menu within the Display Properties window now displays \"None\" as the selected screensaver. \n"
+    },
+    {
+        "frame": 857,
+        "event": "The mouse is clicking on \"3D FlowerBox\" in the \"Screen saver\" dropdown menu. \n",
+        "timestamp": 53.5625,
+        "description": "The user selected \"3D FlowerBox\" from the \"Screen saver\" dropdown menu. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu changed to \"None\". \n"
+    },
+    {
+        "frame": 920,
+        "event": "Mouse click on the \"OK\" button. \n",
+        "timestamp": 57.5,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Display Properties\" window.  As a result, the \"Display Properties\" window closed. \n",
+        "outcome": "The mouse cursor is hovering over the \"Wireless Network Setup Wizard\" icon in the \"Network and Internet Connections\" category of the Windows XP Control Panel. \n"
+    },
+    {
+        "frame": 967,
+        "event": "Mouse clicking on the minimize button of the Control Panel window. \n",
+        "timestamp": 60.4375,
+        "description": "The user clicked the minimize button of the Control Panel window. As a result, the Control Panel window is no longer visible on the desktop. \n",
+        "outcome": "The visual observation describes a typical Windows desktop in its default state, but notes that the Control Panel window is not currently displayed. \n"
+    }
+]

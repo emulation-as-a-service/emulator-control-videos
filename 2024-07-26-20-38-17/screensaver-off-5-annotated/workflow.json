@@ -1,0 +1,52 @@
+[
+    {
+        "precondition": "The desktop is visible and no windows are maximized.",
+        "action": "Right Click on an empty area of the taskbar.",
+        "expected_results": "A context menu will appear with options such as 'Arrange Icons By', 'Refresh', 'Paste', 'Paste Shortcut', 'New', and 'Properties'."
+    },
+    {
+        "precondition": "The right-click context menu is open on the Windows XP desktop.",
+        "action": "Click the menu item \"Properties\".",
+        "expected_results": "The \"Display Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click on the \"Screen Saver\" tab.",
+        "expected_results": "The screen saver preview will update to display the currently selected screen saver."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. ",
+        "action": "Click the down arrow of the \"Screen saver\" drop-down list.",
+        "expected_results": "A list of screen saver options will appear."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab of the Display Properties window is open. The \"Screen saver\" dropdown menu is open.",
+        "action": "Click on the \"3D FlowerBox\" option in the \"Screen saver\" dropdown menu.",
+        "expected_results": "The \"3D FlowerBox\" screen saver will be selected."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Power...\" button is visible within the \"Monitor power\" section.",
+        "action": "Click the \"Power...\" button.",
+        "expected_results": "The \"Power Options Properties\" window will open in front of the \"Display Properties\" window."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected.",
+        "action": "Click the dropdown arrow next to \"Turn off monitor\".",
+        "expected_results": "A dropdown menu will appear with a list of time interval options, including \"Never\"."
+    },
+    {
+        "precondition": "The \"Turn off monitor\" dropdown menu in the Power Options Properties window is open.",
+        "action": "Click the \"Never\" option in the \"Turn off monitor\" dropdown menu.",
+        "expected_results": "The dropdown menu will close and \"Never\" will be displayed in the \"Turn off monitor\" field."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and overlaid on the \"Display Properties\" window. The \"OK\" button in the \"Power Options Properties\" window is highlighted.",
+        "action": "Click the \"OK\" button in the \"Power Options Properties\" window. ",
+        "expected_results": "The \"Power Options Properties\" window will close, and the \"Display Properties\" window will remain open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" window will close."
+    }
+]
