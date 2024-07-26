@@ -1,0 +1,8 @@
+- Operating System: Windows XP
+- Software: Display Properties, Power Options Properties
+- Input methods: Mouse and Keyboard 
+
+
+The user opens the display properties window, navigates to the screen saver tab, and selects "None" for the screen saver. They then change the "Turn off monitor" setting within the power options to "Never".
+
+Purpose inference: The user's actions suggest they are configuring their computer's power settings to prevent the monitor from turning off and to disable the screen saver. 

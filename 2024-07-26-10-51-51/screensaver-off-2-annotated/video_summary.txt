@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Display Properties
+- Input methods: Mouse and keyboard 
+- Recording details: Not available from the provided information. 
+
+
+The user right-clicks on the desktop and selects "Properties" from the context menu. In the "Display Properties" window, the user clicks on the "Screen Saver" tab, selects "None" from the "Screen Saver" dropdown menu, and sets the "Wait" time to "10" minutes. The user then clicks on the "Power" button, which opens the "Power Options Properties" window. In this window, the user selects the "Always On" power scheme from the "Power schemes" dropdown menu, sets all the options under "Settings for Always On power scheme" to "Never", and clicks "Apply". Finally, the user clicks "OK" in the "Display Properties" window.
+
+**Purpose inference:** The user's actions suggest they are attempting to configure their computer to never enter sleep mode or activate the screen saver. 

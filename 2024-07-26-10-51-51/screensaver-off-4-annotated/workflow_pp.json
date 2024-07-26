@@ -1,0 +1,62 @@
+[
+    {
+        "precondition": "The mouse cursor is hovering over the desktop area.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear with options such as \"Arrange Icons By\", \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\"."
+    },
+    {
+        "precondition": "The right-click context menu is open on the desktop.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The context menu will close, and the 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Appearance\" tab is active.",
+        "action": "Click the \"Appearance\" tab.",
+        "expected_results": "The \"Appearance\" tab will remain active, and no visual changes will occur in the \"Display Properties\" window."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Themes' tab is active.",
+        "action": "Click the 'Screen Saver' tab.",
+        "expected_results": "The 'Screen Saver' tab will become active, displaying the screen saver settings."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Screen saver\" dropdown menu is visible.",
+        "action": "Click the down arrow of the \"Screen saver\" dropdown menu.",
+        "expected_results": "A dropdown menu with a list of available screensavers will appear."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected. The 'Apply' button is active.",
+        "action": "Click the 'Apply' button.",
+        "expected_results": "The cursor will change position. The 'Apply' button may become inactive depending on the system configuration."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected. The 'None' option is selected in the 'Screen Saver' dropdown menu.",
+        "action": "Click the 'Apply' button.",
+        "expected_results": "The changes to the screensaver settings will be applied."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active.",
+        "action": "Click the 'Power...' button at the bottom of the 'Monitor power' section.",
+        "expected_results": "The 'Power Options Properties' window will open in front of the 'Display Properties' window."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active.",
+        "action": "Click the \"Power...\" button in the \"Display Properties\" window.",
+        "expected_results": "The \"Power Options Properties\" window will come to the foreground."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"System hibernates\" dropdown menu is open.",
+        "action": "Click the \"Never\" option in the \"System hibernates\" dropdown menu.",
+        "expected_results": "The \"System hibernates\" dropdown menu will close."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"OK\" button is active.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open with the 'OK' button highlighted.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Display Properties' window will close."
+    }
+]

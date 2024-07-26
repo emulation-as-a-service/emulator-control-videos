@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Windows Control Panel
+- Input methods: Mouse and keyboard 
+- Recording details: 1 minute and 3 seconds, the resolution is not available. 
+
+
+The user navigates to the control panel and opens the power options. They change the "Turn off hard disks" setting from "After 20 mins" to "Never" and apply the changes. They then open the display properties and change the screensaver setting to "None".
+
+Purpose inference: The user's actions suggest they are configuring their computer's power and display settings to prevent the system from entering sleep mode or activating the screensaver. 

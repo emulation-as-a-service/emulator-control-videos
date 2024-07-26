@@ -1,0 +1,137 @@
+[
+    {
+        "frame": 36,
+        "event": "The mouse clicked on # start. The mouse is clicking on the Start button. \n",
+        "timestamp": 2.25,
+        "description": "The mouse click on the Start button caused the Start Menu to expand. \n",
+        "outcome": "The Start Menu has expanded. \n",
+        "label_clicked": "# start"
+    },
+    {
+        "frame": 90,
+        "event": "The mouse clicked on ContrqPanel. The mouse is clicking on the \"Control Panel\" menu item in the start menu. \n",
+        "timestamp": 5.625,
+        "description": "The user clicked on the \"Control Panel\" item in the Start Menu, causing the tooltip associated with the item to disappear. \n",
+        "outcome": "The \"Control Panel\" option's tooltip disappeared from view. \n",
+        "label_clicked": "ContrqPanel"
+    },
+    {
+        "frame": 459,
+        "event": "The mouse is clicking on the \"Appearance and Themes\" icon in the Control Panel window. \n",
+        "timestamp": 28.6875,
+        "description": "The user clicked on the \"Appearance and Themes\" icon in the Control Panel window. \n",
+        "outcome": "The text box describing the \"Appearance and Themes\" category's function disappeared. \n"
+    },
+    {
+        "frame": 547,
+        "event": "The mouse clicked on splay. The mouse is clicking on the \"Display\" Control Panel icon. \n",
+        "timestamp": 34.1875,
+        "description": "The mouse click on the \"Display\" icon in the Appearance and Themes window opened the Display Properties window. \n",
+        "outcome": "The mouse cursor changed to a left-click pointer icon upon hovering over the \"Display\" icon. \n",
+        "label_clicked": "splay"
+    },
+    {
+        "frame": 718,
+        "event": "The mouse clicked on DesktopScreen SverAppearanceSettings. The mouse is clicking on the close button of the Active Window. \n",
+        "timestamp": 44.875,
+        "description": "The user clicked the \"Screen Saver\" tab in the \"Display Properties\" window. As a result, the window's content switched to the \"Screen Saver\" settings, replacing the previously displayed \"Themes\" tab content. \n",
+        "outcome": "The \"Display Properties\" window switched to the \"Screen Saver\" tab. The preview area now displays a monitor icon with a sample window against a blue background. The \"Save As...\", \"Delete\", and dropdown menu are no longer visible. \n",
+        "label_clicked": "DesktopScreen SverAppearanceSettings"
+    },
+    {
+        "frame": 753,
+        "event": "The mouse is clicking on the down arrow of the \"Screen saver\" drop-down list. \n",
+        "timestamp": 47.0625,
+        "description": "The user clicked the down arrow of the \"Screen saver\" drop-down list to open it. The list transitioned from the \"Windows XP\" screensaver to \"None\", disabling the \"Settings\" button. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu transitioned to \"None\" from \"Windows XP\".  Simultaneously, the \"Settings\" button became grayed out. \n"
+    },
+    {
+        "frame": 773,
+        "event": "The mouse is clicking on \"3D FlowerBox\" in the \"Screen Saver\" dropdown menu. \n",
+        "timestamp": 48.3125,
+        "description": "The user clicked on the \"3D FlowerBox\" option within the \"Screen Saver\" dropdown menu. \n",
+        "outcome": "This single-frame observation provides a static view of the Windows XP \"Display Properties\" window, specifically the \"Screen Saver\" tab. It offers no information about any user event or its visual effects. \n"
+    },
+    {
+        "frame": 803,
+        "event": "The mouse clicked on Pow. The mouse is clicking on the \"Power\" button. \n",
+        "timestamp": 50.1875,
+        "description": "The user clicked the \"Power\" button at the bottom of the \"Display Properties\" window. This opened the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window came into view, with the \"Home/Office Desk\" power scheme selected. The previously highlighted \"Power\" button is no longer visible. \n",
+        "label_clicked": "Pow"
+    },
+    {
+        "frame": 861,
+        "event": "The mouse is clicking on the dropdown arrow for the \"Turn off monitor\" setting. \n",
+        "timestamp": 53.8125,
+        "description": "The user clicked the dropdown arrow of the \"Turn off monitor:\" setting, then selected \"After 2 hours\" from the list. \n",
+        "outcome": "The \"Turn off monitor\" setting within the \"Home/Office Desk\" power scheme has been changed from \"After 20 mins\" to \"After 2 hours\". \n"
+    },
+    {
+        "frame": 912,
+        "event": "The mouse clicked on After 5 hours. The mouse is clicking on \"Never\" in the dropdown menu for \"System hibernates:\". \n",
+        "timestamp": 57.0,
+        "description": "The user clicked on \"Never\" in the \"System hibernates\" dropdown menu, changing the setting from \"After 5 hours\" to \"Never\" for the \"Home/Office Desk\" power scheme. \n",
+        "outcome": "The \"System hibernates\" dropdown menu closed, with \"Never\" now displayed as the selected option. \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 994,
+        "event": "The mouse is clicking on the \"Save As...\" button. \n",
+        "timestamp": 62.125,
+        "description": "The user clicks the \"Save As...\" button located in the \"Power Schemes\" tab of the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window reflects that the \"Home/Office Desk\" power scheme has been selected. Within this scheme, all options for \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" are set to \"Never\". \n"
+    },
+    {
+        "frame": 1039,
+        "event": "The mouse clicked on Always On. The mouse is clicking on the \"Minimal Power Management\" item in the \"Power schemes\" dropdown menu of the \"Power Options Properties\" window. \n",
+        "timestamp": 64.9375,
+        "description": "The user selected \"Minimal Power Management\" from the \"Power schemes\" dropdown menu in the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power schemes\" dropdown menu closed. \n",
+        "label_clicked": "Always On"
+    },
+    {
+        "frame": 1060,
+        "event": "The mouse is clicking on the dropdown arrow for \"Turn off hard disks\". \n",
+        "timestamp": 66.25,
+        "description": "The user clicks the dropdown arrow for the \"Turn off hard disks\" option, located under the \"Settings for 'Always On' power scheme\" section of the \"Power Options Properties\" window. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 1070,
+        "event": "The mouse is clicking on the dropdown arrow of the \"Turn off monitor\" option. \n",
+        "timestamp": 66.875,
+        "description": "The user clicks the dropdown arrow of the \"Turn off monitor\" option within the \"Settings for Always On power scheme\" section. \n",
+        "outcome": "The provided description represents a single, static screenshot and does not describe any visual changes over time. Therefore, there are no UI state changes to summarize. \n"
+    },
+    {
+        "frame": 1093,
+        "event": "The mouse clicked on Never. The mouse is clicking on \"Never\" in the dropdown menu for \"System hibernates\". \n",
+        "timestamp": 68.3125,
+        "description": "The user clicked on \"Never\" in the \"System hibernates\" dropdown menu under the \"Settings for 'Always On' power scheme\" section. As a result, \"Never\" is now displayed as the selected option for \"System hibernates\". \n",
+        "outcome": "The \"System hibernates\" dropdown menu, previously open, is now closed. The selected option displayed within the menu has changed to \"Never\". \n",
+        "label_clicked": "Never"
+    },
+    {
+        "frame": 1120,
+        "event": "The mouse clicked on OK. The mouse is clicking on the Cancel button of the Power Options Properties window. \n",
+        "timestamp": 70.0,
+        "description": "The user clicked the \"Cancel\" button at the bottom of the \"Power Options Properties\" window. As a result, no changes were applied to the power scheme settings, and the window remained open. \n",
+        "outcome": "The UI remains unchanged. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 1204,
+        "event": "The mouse is clicking on the \"OK\" button. \n",
+        "timestamp": 75.25,
+        "description": "The user clicks the \"OK\" button in the \"Display Properties\" window to confirm the selection of \"None\" for the screensaver. \n",
+        "outcome": "The \"OK\" button is no longer highlighted, indicating the mouse cursor has moved away from it. \n"
+    },
+    {
+        "frame": 1266,
+        "event": "Mouse click on the close button of the window titled Appearance and Themes. \n",
+        "timestamp": 79.125,
+        "description": "The user clicked on the **close button** of the \"**Appearance and Themes**\" window. As a result, the \"**Appearance and Themes**\" window is closed. \n",
+        "outcome": "The provided screenshot does not match the description. It shows the Windows XP desktop with a tropical beach background, but the \"Appearance and Themes\" window is not visible. \n"
+    }
+]

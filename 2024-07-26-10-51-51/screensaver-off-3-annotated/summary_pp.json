@@ -1,0 +1,151 @@
+[
+    {
+        "frame": 34,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 2.125,
+        "description": "The user pressed the 'Control' and 'Escape' keys simultaneously, which resulted in the Start Menu opening. \n",
+        "outcome": "The Start Menu opened, covering the mouse cursor. The Start Menu displays program shortcuts and system options. \n",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 95,
+        "event": "The key following key(s) were pressed: ['Alt_L', 'c'].",
+        "timestamp": 5.9375,
+        "description": "The user pressed the 'Alt_L' and 'c' keys simultaneously to open the Control Panel from the desktop. \n",
+        "outcome": "",
+        "key_pressed": [
+            "Alt_L",
+            "c"
+        ]
+    },
+    {
+        "frame": 124,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 7.75,
+        "description": "The user pressed the keyboard shortcut  ['Control_L', 'Escape']  to open the Windows XP Start menu. \n",
+        "outcome": "The Windows XP Start menu is open, displaying its usual options. The mouse cursor is positioned over the desktop background. \n",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 153,
+        "event": "The key following key(s) were pressed: ['c'].",
+        "timestamp": 9.5625,
+        "description": "The user pressed the 'c' key, which navigated the cursor to highlight the \"Control Panel\" option in the Windows XP Start Menu. \n",
+        "outcome": "The mouse cursor, displaying an hourglass icon, hovers over the \"Control Panel\" option in the Windows XP Start Menu, highlighting it in blue. \n",
+        "key_pressed": [
+            "c"
+        ]
+    },
+    {
+        "frame": 480,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.0,
+        "description": "The user pressed the right arrow key, which had no observable effect on the Control Panel interface. \n",
+        "outcome": "",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 483,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.1875,
+        "description": "The user pressed the right arrow key, causing the mouse cursor to appear at the bottom of the screen. \n",
+        "outcome": "The mouse cursor became visible at the bottom of the screen. \n",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 524,
+        "event": "The key following key(s) were pressed: ['p', 'o'].",
+        "timestamp": 32.75,
+        "description": "The user typed the shortcut keys \"p\" then \"o\" to navigate the focus to the \"Power Options\" icon in the Windows XP Control Panel (Classic View). \n",
+        "outcome": "The \"Power Options\" icon in the Windows XP Control Panel (Classic View) is highlighted, revealing the description: \"Change the way your computer uses power.\" \n",
+        "key_pressed": [
+            "p",
+            "o"
+        ]
+    },
+    {
+        "frame": 551,
+        "event": "The key following key(s) were pressed: ['Return'].",
+        "timestamp": 34.4375,
+        "description": "The user pressed the 'Return' key while the \"Power Options\" icon was highlighted in the Windows XP Control Panel. This action opened the \"Power Options Properties\" window. \n",
+        "outcome": "A \"Power Options Properties\" window opened, replacing the mouse cursor which was previously hovering over the \"Power Options\" icon. \n",
+        "key_pressed": [
+            "Return"
+        ]
+    },
+    {
+        "frame": 647,
+        "event": "The mouse is clicking on the dropdown menu for \"Turn off hard disks\". \n",
+        "timestamp": 40.4375,
+        "description": "The user clicked the \"Turn off hard disks\" dropdown menu and selected the \"Never\" option. \n",
+        "outcome": "The \"Turn off hard disks\" dropdown menu changed its displayed value from \"After 20 mins\" to \"Never\". \n"
+    },
+    {
+        "frame": 678,
+        "event": "The mouse is clicking on \"Never\" in the dropdown menu for \"System hibernates:\". \n",
+        "timestamp": 42.375,
+        "description": "The user clicked on \"Never\" in the \"System hibernates:\" dropdown menu. As a result, the  \"System hibernates:\" setting changed to \"Never\". \n",
+        "outcome": "The \"System hibernates:\" dropdown menu changed to display \"Never\". \n"
+    },
+    {
+        "frame": 708,
+        "event": "The mouse clicked on OK. The mouse is clicking on the \"OK\" button. \n",
+        "timestamp": 44.25,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Power Options Properties\" window. As a result, the window closed, and the changes to the \"Turn off hard disks\" and \"System hibernates:\" settings (to \"Never\") were applied. \n",
+        "outcome": "The \"Turn off hard disks\" and \"System hibernates:\" settings within the \"Home/Office Desk\" power scheme were changed to \"Never\". \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 752,
+        "event": "The mouse is clicking on the Display icon in the Control Panel. \n",
+        "timestamp": 47.0,
+        "description": "The user clicks the \"Display\" icon in the Control Panel. As a result, the \"Display Properties\" window opens. \n",
+        "outcome": "The \"Display Properties\" window opened over the Control Panel, with the \"Themes\" tab selected. The window displays theme customization options, including a preview, active window element settings, and a \"Window Text\" selection box. The taskbar indicates that the \"Display Properties\" is the active window. \n"
+    },
+    {
+        "frame": 804,
+        "event": "The mouse clicked on DesktopScreen SaverAppearanceSettings. The mouse is clicking on the \"Screen Saver\" tab. \n",
+        "timestamp": 50.25,
+        "description": "The user clicked on the \"Screen Saver\" tab within the \"Display Properties\" window. As a result, the  \"Screen Saver\" tab became the active tab. \n",
+        "outcome": "The \"Screen Saver\" tab within the \"Display Properties\" window became the active tab. \n",
+        "label_clicked": "Screen Saver"
+    },
+    {
+        "frame": 834,
+        "event": "The mouse is clicking on the dropdown arrow of the \"Screen saver\" dropdown menu. \n",
+        "timestamp": 52.125,
+        "description": "The user clicks the dropdown arrow of the \"Screen saver\" dropdown menu. \n",
+        "outcome": "The \"Screen saver\" dropdown menu expands to display a list of screensaver options. \n"
+    },
+    {
+        "frame": 857,
+        "event": "Mouse click on \"None\" in the \"Screen saver\" dropdown menu. \n",
+        "timestamp": 53.5625,
+        "description": "The user clicked on \"None\" in the open \"Screen saver\" dropdown menu.  As a result, the dropdown menu closed, confirming the selection of \"None\" as the screensaver. \n",
+        "outcome": "The \"Screen saver\" dropdown menu, previously open, is now closed. The \"Screen saver\" field now displays \"None\". The \"Wait\" time is set to \"10\" minutes. \n"
+    },
+    {
+        "frame": 920,
+        "event": "The mouse is clicking on the OK button. \n",
+        "timestamp": 57.5,
+        "description": "The user clicks the \"OK\" button at the bottom of the \"Display Properties\" window.  As a result, the \"Display Properties\" window closes. \n",
+        "outcome": "The \"Display Properties\" window closes. The mouse cursor hovers over the \"Wireless Network Connection\" icon in the Control Panel. \n"
+    },
+    {
+        "frame": 967,
+        "event": "Mouse clicking on the Display icon. \n",
+        "timestamp": 60.4375,
+        "description": "The user clicked the \"Display\" icon in the Windows XP Control Panel to access display settings. \n",
+        "outcome": "The \"Display Properties\" window opens. \n"
+    }
+]
