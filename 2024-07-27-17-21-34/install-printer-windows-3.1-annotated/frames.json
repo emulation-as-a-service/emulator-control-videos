@@ -1,0 +1,525 @@
+[
+    {
+        "frame": 75,
+        "timestamp": 4.6875,
+        "event": {
+            "time": 5.015,
+            "event": "doubleclick",
+            "x": 261,
+            "y": 149,
+            "frame": 75,
+            "time_end": 5.015,
+            "frame_end": 80
+        },
+        "type": "event",
+        "label_clicked": "Control'Panel Print Manager",
+        "mouse_event_llm": null,
+        "description": "The screenshot shows the Windows 3.1 Program Manager window. The \"Main\" program group is open and displays various system utilities. The mouse cursor hovers over the \"Control Panel\" icon, indicating the user's next action is to open this system settings utility. \n",
+        "screenshot": "frame-75-doubleclick.png",
+        "screenshot_annotated": "frame-75-doubleclick-layout.png"
+    },
+    {
+        "frame": 78,
+        "timestamp": 4.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 Program Manager window. The \"Main\" program group is open. The mouse cursor is no longer hovering over the \"Control Panel\" icon. There are no new UI elements present. All UI elements previously described are still present. \n",
+        "screenshot": "frame-78.png"
+    },
+    {
+        "frame": 82,
+        "timestamp": 5.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays an empty window titled \"Control Panel\" with \"Settings\" and \"Help\" options in the menu bar. The \"Main\" program group from the \"Program Manager\" is now partially hidden behind the \"Control Panel\" window. The mouse cursor is no longer visible. \n",
+        "screenshot": "frame-82.png"
+    },
+    {
+        "frame": 85,
+        "timestamp": 5.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 3.1 environment. A window titled \"Control Panel\" is now visible, indicating it has been opened.  The window \"Loading C:\\WINDOWS\\SYSTEM\\MAIN.CPL\" at the bottom suggests the Control Panel is in the process of loading. The mouse cursor is no longer visible in this screenshot. \n",
+        "screenshot": "frame-85.png"
+    },
+    {
+        "frame": 92,
+        "timestamp": 5.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 3.1 Program Manager with an open \"Control Panel\" window. The \"Main\" program group is no longer visible. The \"Control Panel\" window displays the \"Settings\" and \"Help\" menu options. The \"Color\" icon, represented by three colored pencils, is visible in the top left corner of the \"Control Panel\" window. \n",
+        "screenshot": "frame-92.png"
+    },
+    {
+        "frame": 93,
+        "timestamp": 5.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 Program Manager and the Control Panel application window. The Control Panel window is open and in focus, displaying various system configuration icons. The \"Main\" program group within the Program Manager is still open below the Control Panel window. The mouse cursor is no longer visible in this screenshot. \n",
+        "screenshot": "frame-93.png"
+    },
+    {
+        "frame": 131,
+        "timestamp": 8.1875,
+        "event": {
+            "time": 8.48,
+            "event": "doubleclick",
+            "x": 201,
+            "y": 177,
+            "frame": 131,
+            "time_end": 8.48,
+            "frame_end": 135
+        },
+        "type": "event",
+        "label_clicked": "Date/Time",
+        "mouse_event_llm": null,
+        "description": "The screenshot displays the Windows 3.1 Control Panel window overlaid on top of the Program Manager window. The active window, Control Panel, features a variety of system configuration icons. At the top, a menu bar provides \"Settings\" and \"Help\" options. Below, the \"Printers\" icon, currently highlighted, suggests an active selection by the user. A text box at the bottom of the Control Panel window displays the message \"Changes the Windows screen colors\".  The presence of the Program Manager window in the background, partially obscured by the Control Panel, indicates the user likely accessed Control Panel from this location. \n",
+        "screenshot": "frame-131-doubleclick.png",
+        "screenshot_annotated": "frame-131-doubleclick-layout.png"
+    },
+    {
+        "frame": 142,
+        "timestamp": 8.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 Control Panel window with a new window layered on top. This new window partially obscures the Control Panel and displays the title bar for \"Printers\".  The text box at the bottom of the Control Panel window now reads \"Installs and removes printers, and sets printing options\". The \"Printers\" icon is no longer highlighted. \n",
+        "screenshot": "frame-142.png"
+    },
+    {
+        "frame": 144,
+        "timestamp": 9.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Control Panel window maximized over the Program Manager window. The \"Printers\" window, previously displaying icons, is now empty except for an hourglass icon in the top left corner. The text box at the bottom of the Control Panel window is no longer visible. \n\nMissing UI Elements:\n- The Control Panel icons are no longer visible. \n- The text box displaying \"Changes the Windows screen colors\" is no longer present.\n\nNew UI Elements:\n- An hourglass icon is now present in the top left corner of the maximized window. \n",
+        "screenshot": "frame-144.png"
+    },
+    {
+        "frame": 150,
+        "timestamp": 9.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a window titled \"Printers\" within the Windows 3.1 Control Panel. The \"Printers\" icon is no longer highlighted. A new element, an hourglass icon, is now present within the \"Printers\" window, positioned to the left of the \"Installed Printers:\" label. The text box at the bottom of the Control Panel window is no longer visible. \n",
+        "screenshot": "frame-150.png"
+    },
+    {
+        "frame": 151,
+        "timestamp": 9.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 Control Panel with the \"Printers\" settings dialog open.  The \"Printers\" icon is no longer highlighted. A new dialog window titled \"Printers\" is layered on top, with several buttons on the right side: \"Cancel\", \"Connect...\", \"Setup...\", \"Remove\", and \"Add >>\". The left side of the dialog box features the sections \"Default Printer\", \"Installed Printers:\", and a checkbox labeled \"Use Print Manager\". An hourglass icon is displayed within the \"Installed Printers\" section. The text box at the bottom of the Control Panel window no longer displays the message \"Changes the Windows screen colors\". \n",
+        "screenshot": "frame-151.png"
+    },
+    {
+        "frame": 152,
+        "timestamp": 9.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" settings window within the Windows 3.1 Control Panel. \n\nNew UI Elements:\n- Two new list boxes are present:\n    - One labeled \"Installed Printers:\", which is currently empty and contains an hourglass icon.\n    - Another labeled \"List of Printers:\", displaying a scrollable list of available printer drivers: \"Generic / Text Only\", \"Agfa 9000 Series PS\", \"Agfa Compugraphic 400PS\", \"Agfa Compugraphic Genics\", \"Apple LaserWriter\", and \"Apple LaserWriter II NT\". \n\n- Several new buttons are present:\n    - \"Connect...\"\n    - \"Setup...\"\n    - \"Remove\"\n    - \"Add >>\"\n    - \"Install...\"\n\n- A new checkbox labeled \"Use Print Manager\" is present.\n\nMissing UI Elements:\n- The \"Printers\" icon is no longer highlighted.\n- The text box at the bottom of the Control Panel window displaying \"Changes the Windows screen colors\" is no longer visible. \n\nContent Changes:\n- The Control Panel window title now reads \"Printers\" instead of \"Control Panel\". \n",
+        "screenshot": "frame-152.png"
+    },
+    {
+        "frame": 154,
+        "timestamp": 9.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 Control Panel window with the \"Printers\" settings dialog open. \n\nNew UI Elements:\n- The \"Printers\" dialog window is now open and is layered on top of the Control Panel. This window features several elements:\n    - \"Default Printer\" section with an empty text field.\n    - \"Installed Printers\" section with an empty list box.\n    - \"Set As Default Printer\" button.\n    - \"Use Print Manager\" checkbox.\n    - \"List of Printers: Install Unlisted or Updated Printer\" section with a scrollable list box containing various printer models. \n    - \"Connect...\", \"Setup...\", \"Remove\", \"Add >>\", and \"Help\" buttons are located on the right side of the window.\n    - \"Install...\" button located below the \"List of Printers\" section.\n\nContent Changes:\n- The \"Printers\" icon is no longer highlighted.\n- The text box at the bottom of the Control Panel window no longer displays the message \"Changes the Windows screen colors\". \n",
+        "screenshot": "frame-154.png"
+    },
+    {
+        "frame": 195,
+        "timestamp": 12.1875,
+        "event": {
+            "time": 12.467,
+            "event": "doubleclick",
+            "x": 398,
+            "y": 327,
+            "frame": 195,
+            "time_end": 12.467,
+            "frame_end": 199
+        },
+        "type": "event",
+        "label_clicked": null,
+        "mouse_event_llm": null,
+        "description": "The \"Printers\" window of the Windows 3.1 Control Panel is open and active.  At the top, a field displays \"No Default Printer\" indicating no default printer is currently set. Below, an empty list box labeled \"Installed Printers:\" suggests there are no printers currently installed. \n\nA scrollable list titled \"List of Printers: Install Unlisted or Updated Printer\" displays a variety of printer models. The mouse cursor hovers over this list, having just clicked the down arrow to reveal more options.  \n\nSeveral buttons are enabled within the window:\n- **\"Set As Default Printer\"** (greyed out): This button, currently inactive, is used to set the selected printer as the default.\n- **\"Connect...\"**: This button likely manages network connections for a selected printer.\n- **\"Setup...\"**: This button likely allows adjustments to the configuration of a selected printer.\n- **\"Remove\"**: This button likely uninstalls a selected printer from the system.\n- **\"Add >>\"**: This button likely adds a new printer to the \"Installed Printers\" list. \n- **\"Install...\"**: This button likely initiates the installation process for the printer selected in the \"List of Printers.\"\n\nA checkbox labeled **\"Use Print Manager\"** sits below the \"Set As Default Printer\" button. This option is unchecked, signifying that Print Manager, a utility for managing print jobs, is currently disabled. \n",
+        "screenshot": "frame-195-doubleclick.png",
+        "screenshot_annotated": "frame-195-doubleclick-layout.png"
+    },
+    {
+        "frame": 197,
+        "timestamp": 12.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" window in the Windows 3.1 Control Panel after interaction. The list of available printers is now expanded, revealing a variety of printer models. The mouse cursor, now an arrow pointing downwards, is located at the bottom of the  \"List of Printers\" box, indicating it was used to scroll through the options. \n- The \"Set As Default Printer\" button is no longer greyed out, suggesting it is now active. \n",
+        "screenshot": "frame-197.png"
+    },
+    {
+        "frame": 199,
+        "timestamp": 12.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" window in the Windows 3.1 Control Panel. The list titled \"List of Printers: Install Unlisted or Updated Printer\" is expanded, revealing various printer models. \n\n- The mouse cursor is no longer present. \n- The scroll bar within the \"List of Printers\" area appears to have been moved down, displaying different printer models than those listed in the initial description. \n",
+        "screenshot": "frame-199.png"
+    },
+    {
+        "frame": 201,
+        "timestamp": 12.5625,
+        "event": {
+            "time": 12.833,
+            "event": "doubleclick",
+            "x": 398,
+            "y": 327,
+            "frame": 201,
+            "time_end": 12.833,
+            "frame_end": 205
+        },
+        "type": "event",
+        "label_clicked": null,
+        "mouse_event_llm": null,
+        "description": "The screenshot displays the \"Printers\" window within the Windows 3.1 Control Panel. \n\nAt the top, a section labeled \"Default Printer\" shows \"No Default Printer\" indicating no printer is currently set as the default. The \"Installed Printers:\" section below it is empty, signified by a blank list box, meaning there are currently no printers installed on the system. \n\nBelow, a scrollable \"List of Printers:\" displays various printer models, likely detected or available for installation. The mouse cursor hovers over this list, suggesting the user is navigating it.  \n\nOn the right side, several buttons offer actions related to printer management:\n- **\"Cancel\"**: Likely closes the \"Printers\" window without making changes.\n- **\"Connect...\"**:  Its exact function is unclear from the screenshot but likely relates to network printer connections.\n- **\"Setup...\"**:  Likely provides access to configure settings of an installed printer.\n- **\"Remove\"**:  Likely used to uninstall a selected printer. This button is grayed out, indicating it's currently inactive, probably because no printer is selected.\n- **\"Add >>\"**:  Its function is unclear from the screenshot, potentially used to manually add printers not automatically detected.\n- **\"Help\"**: Opens the help system, presumably providing guidance related to printer management.\n\nAt the bottom right corner, an active \"Install...\" button is visible. This button is likely used to initiate the installation process for a printer selected from the \"List of Printers\".\n\nFinally, a \"Use Print Manager\" checkbox is located below the \"Set As Default Printer\" button. Its purpose is to enable or disable the usage of Windows Print Manager, a utility for managing print jobs. The checkbox is currently unchecked. \n",
+        "screenshot": "frame-201-doubleclick.png",
+        "screenshot_annotated": "frame-201-doubleclick-layout.png"
+    },
+    {
+        "frame": 202,
+        "timestamp": 12.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" window in the Windows 3.1 Control Panel.  The \"List of Printers\" now displays several printer models: \"Canon LBP-8 III\", \"Citizen 120D\", \"Citizen 180D\", and \"Citizen 200GX\". \n\nThe previously grayed-out \"Setup...\" button is now active. \n",
+        "screenshot": "frame-202.png"
+    },
+    {
+        "frame": 205,
+        "timestamp": 12.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" window in the Windows 3.1 Control Panel after the user has interacted with it. The \"List of Printers\" is now populated with various printer models, including \"Citizen GSX-140+\", \"Citizen GSX-145\", \"Citizen HSP-500\", \"Citizen HSP-550\", \"Citizen PN48\", \"Dataproducts LZR-2665\", \"Diconix 150 Plus\", and \"Digital Colormate PS\". \n\nThe \"Install...\" button at the bottom right corner is no longer active and is now grayed out. \n",
+        "screenshot": "frame-205.png"
+    },
+    {
+        "frame": 206,
+        "timestamp": 12.875,
+        "event": {
+            "time": 13.201,
+            "event": "doubleclick",
+            "x": 398,
+            "y": 327,
+            "frame": 206,
+            "time_end": 13.201,
+            "frame_end": 211
+        },
+        "type": "event",
+        "label_clicked": null,
+        "mouse_event_llm": null,
+        "description": "The \"Printers\" window within the Windows 3.1 Control Panel is open.  The window displays a list of available printers in the \"List of Printers\" box, with a scroll bar to navigate the list. The currently selected printer, indicated by the highlighted entry and mouse cursor, is \"Digital Colormate PS\".  An \"Install...\" button is located below the list of printers, enabling the user to initiate the installation process for the selected printer. \n",
+        "screenshot": "frame-206-doubleclick.png",
+        "screenshot_annotated": "frame-206-doubleclick-layout.png"
+    },
+    {
+        "frame": 209,
+        "timestamp": 13.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Printers\" window within the Windows 3.1 Control Panel. The \"List of Printers\" box shows \"Digital Colormate PS\" and \"Digital DEClaser 1150\".  No printer is selected.  The \"Install...\" button is located below the list of printers. \n\n- **Content Changes**: The \"List of Printers\" previously showed \"HP LaserJet\" as a listed printer, it is no longer present. The mouse cursor, previously highlighting \"Digital Colormate PS\", is no longer visible. \n",
+        "screenshot": "frame-209.png"
+    },
+    {
+        "frame": 210,
+        "timestamp": 13.125,
+        "event": null,
+        "type": "change",
+        "description": "The \"Printers\" window remains open, displaying the list of available printers. The mouse cursor now points to the bottom of the list, and no printer entry is highlighted.  \n- The previously highlighted printer \"Digital Colormate PS\" is no longer highlighted. \n",
+        "screenshot": "frame-210.png"
+    },
+    {
+        "frame": 211,
+        "timestamp": 13.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" window in the Windows 3.1 Control Panel. The \"List of Printers\" box now displays a different list of available printers than before. The \"Digital Colormate PS\" printer is no longer present. The mouse cursor is not visible in this screenshot. \n",
+        "screenshot": "frame-211.png"
+    },
+    {
+        "frame": 212,
+        "timestamp": 13.25,
+        "event": {
+            "time": 13.722,
+            "event": "doubleclick",
+            "x": 398,
+            "y": 327,
+            "frame": 212,
+            "time_end": 13.722,
+            "frame_end": 219
+        },
+        "type": "event",
+        "label_clicked": null,
+        "mouse_event_llm": null,
+        "description": "The \"Printers\" window within the Windows 3.1 Control Panel is open and active. \n\nThe main section of the window is divided into two parts:\n\n* **Top Section:** Displays the currently installed default printer (\"No Default Printer\" in this case) and a list box labeled \"Installed Printers:\", which appears empty. A grayed-out \"Set As Default Printer\" button indicates no printer is currently selected. A checkbox labeled \"Use Print Manager\" is also present and currently checked. \n\n* **Bottom Section:**  Features a scrollable list box titled \"List of Printers:\". This list contains various printer models, with the mouse cursor hovering over the list.  \n\nOn the right side of the window, a column of buttons provides actions related to printer management:\n\n* **Cancel:**  Closes the \"Printers\" window without saving any changes.\n* **Connect...:**  Likely used to connect to network printers (functionality not visible in the screenshot).\n* **Setup...:**  Provides options to configure the settings of a selected printer (exact functionality not visible).\n* **Remove:**  Uninstalls a selected printer from the system (grayed out, indicating no printer is currently chosen).\n* **Add >>:**  Likely used to manually add printers not listed (exact functionality not visible).\n* **Help:**  Provides access to the Windows 3.1 help system for printer-related topics.\n\nLastly, an \"Install...\" button is located at the bottom right corner of the window. This button is active and likely initiates the installation process for a printer selected from the \"List of Printers:\". \n",
+        "screenshot": "frame-212-doubleclick.png",
+        "screenshot_annotated": "frame-212-doubleclick-layout.png"
+    },
+    {
+        "frame": 220,
+        "timestamp": 13.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Printers\" window in the Windows 3.1 Control Panel, similar to the initial description. The \"List of Printers:\" box now displays several Epson printer models. The mouse cursor points to the scroll bar, indicating interaction with the list.  \n",
+        "screenshot": "frame-220.png"
+    },
+    {
+        "frame": 225,
+        "timestamp": 14.0625,
+        "event": {
+            "time": 14.397,
+            "event": "doubleclick",
+            "x": 398,
+            "y": 327,
+            "frame": 225,
+            "time_end": 14.397,
+            "frame_end": 230
+        },
+        "type": "event",
+        "label_clicked": null,
+        "mouse_event_llm": null,
+        "description": "The \"Printers\" window within the Windows 3.1 Control Panel is open and active. \n\nAt the top, a field labeled \"Default Printer\" currently displays \"No Default Printer\". \n\nBelow, an empty list box labeled \"Installed Printers:\" indicates no printers are currently installed. \n\nA grayed-out button labeled \"Set As Default Printer\" is visible but inactive. \n\nA checkbox labeled \"Use Print Manager\" is currently checked. \n\nBelow, a list box labeled \"List of Printers:\" displays various Epson printer models. The mouse cursor hovers over this list, suggesting a selection can be made. \n\nOn the right side of the window, several buttons are available:\n\n* **Cancel:** Closes the \"Printers\" window without saving any changes.\n* **Connect...:**  Its exact function is unclear from the screenshot.\n* **Setup...:**  Its exact function is unclear from the screenshot.\n* **Remove:** Likely used to remove a selected printer from the \"Installed Printers\" list, but is currently inactive.\n* **Add >>:**  Its exact function is unclear from the screenshot.\n* **Help:** Provides access to the Windows 3.1 help system for printer configuration.\n\nAt the bottom right corner, an \"Install...\" button is visible. This button is likely used to install a printer selected from the \"List of Printers\". \n",
+        "screenshot": "frame-225-doubleclick.png",
+        "screenshot_annotated": "frame-225-doubleclick-layout.png"
+    },
+    {
+        "frame": 230,
+        "timestamp": 14.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" window within the Windows 3.1 Control Panel. The most noticeable change is the presence of \"HP LaserJet\" in the \"Installed Printers\" list box. The previously grayed-out \"Set As Default Printer\" button is now active. The \"Remove\" button is also now active. \n",
+        "screenshot": "frame-230.png"
+    },
+    {
+        "frame": 231,
+        "timestamp": 14.4375,
+        "event": {
+            "time": 14.755,
+            "event": "doubleclick",
+            "x": 398,
+            "y": 327,
+            "frame": 231,
+            "time_end": 14.755,
+            "frame_end": 236
+        },
+        "type": "event",
+        "label_clicked": null,
+        "mouse_event_llm": null,
+        "description": "The \"Printers\" window within the Windows 3.1 Control Panel displays the current printer configuration. \n\nAt the top, a text field labeled \"Default Printer\" indicates \"No Default Printer\" is currently selected. Below, an empty list box labeled \"Installed Printers:\" suggests there are currently no printers installed.\n\nA scrollable list labeled \"List of Printers:\" displays various printer models, all of which appear to be manufactured by Epson. The mouse cursor hovers over the list, indicating user interaction with this element.\n\nSeveral buttons are available to manage printers:\n- **\"Install...\"**: Likely used to install a new printer, potentially selected from the \"List of Printers.\"\n- **\"Connect...\"**:  Purpose unclear without further context, potentially related to network printer connections.\n- **\"Setup...\"**: Likely used to configure settings of an installed printer.\n- **\"Remove\"**: Likely used to uninstall a printer from the system.\n- **\"Add >>\"**: Purpose unclear without further context, potentially related to adding printers to a specific group or category.\n- **\"Help\"**: Provides access to help documentation related to printer management.\n\nA single checkbox labeled \"Use Print Manager\" is currently unchecked. This option likely relates to enabling or disabling the Windows Print Manager, a utility for managing print jobs.\n\nFinally, a \"Set As Default Printer\" button is present but grayed out, indicating it's currently unavailable. This suggests the button becomes active only after a printer is installed and selected. \n",
+        "screenshot": "frame-231-doubleclick.png",
+        "screenshot_annotated": "frame-231-doubleclick-layout.png"
+    },
+    {
+        "frame": 236,
+        "timestamp": 14.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Printers\" window in the Windows 3.1 Control Panel, similar to the initial description. However, there are some notable changes.\n\n**Content Changes:**\n\n- The \"List of Printers:\" now includes an entry for \"HP LaserJet\" in addition to the Epson and Fujitsu printers. \n- The \"Set As Default Printer\" button is no longer grayed out, indicating it is now active. \n",
+        "screenshot": "frame-236.png"
+    },
+    {
+        "frame": 237,
+        "timestamp": 14.8125,
+        "event": {
+            "time": 15.116,
+            "event": "doubleclick",
+            "x": 398,
+            "y": 327,
+            "frame": 237,
+            "time_end": 15.116,
+            "frame_end": 241
+        },
+        "type": "event",
+        "label_clicked": null,
+        "mouse_event_llm": null,
+        "description": "The screenshot displays the \"Printers\" window within the Windows 3.1 Control Panel. \n\nAt the top, a field labeled \"Default Printer\" currently indicates \"No Default Printer\". Below, an empty list box labeled \"Installed Printers\" suggests there are no printers currently installed. \n\nA scrollable \"List of Printers\" box displays various printer models, with the mouse cursor hovering over the down arrow button, indicating the user is navigating through the list. \n\nSeveral buttons are visible on the right side of the window:\n- **\"Cancel\"**: Closes the \"Printers\" window without applying any changes.\n- **\"Connect...\"**: This button's function is not apparent from the screenshot.\n- **\"Setup...\"**: This button's function is not apparent from the screenshot.\n- **\"Remove\"**: This button's function is not apparent from the screenshot as it appears to be greyed out.\n- **\"Add >>\"**: This button's function is not apparent from the screenshot.\n- **\"Help\"**: Provides access to help documentation for the \"Printers\" settings.\n\nAt the bottom right corner, an \"Install...\" button is visible, likely used to initiate the installation process for the selected printer from the \"List of Printers\".\n\nA checkbox labeled \"Use Print Manager\" is located below the \"Installed Printers\" list box. Its current state (checked or unchecked) is not discernible from the screenshot. \n",
+        "screenshot": "frame-237-doubleclick.png",
+        "screenshot_annotated": "frame-237-doubleclick-layout.png"
+    },
+    {
+        "frame": 240,
+        "timestamp": 15.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" window in the Windows 3.1 Control Panel after the user has interacted with it. The \"List of Printers\" box now displays various printer models, including \"Fujitsu DL 5600\", \"Fujitsu DX 2100\", \"Fujitsu DX 2200\", \"Fujitsu DX 2300\", \"Fujitsu DX 2400\", and \"Hermes H 606\". \n\nThe most noticeable change is the appearance of a \"Set As Default Printer\" button located below the \"Installed Printers\" list box. This button was not present in the initial description. \n",
+        "screenshot": "frame-240.png"
+    },
+    {
+        "frame": 242,
+        "timestamp": 15.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" window in the Windows 3.1 Control Panel after user interaction. \n\nContent Changes:\n\n- The \"List of Printers\" box now displays various HP LaserJet printer models. \n- A new button labeled \"Set As Default Printer\" is now visible below the \"Installed Printers\" list box. \n",
+        "screenshot": "frame-242.png"
+    },
+    {
+        "frame": 245,
+        "timestamp": 15.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" window in Windows 3.1 Control Panel, with the \"List of Printers\" box displaying various HP printer models. \n\nNew UI Elements:\n- A button labeled \"Set As Default Printer\" is now visible below the \"Installed Printers\" list box. \n\nContent Changes:\n- The \"List of Printers\" box now displays several HP printer models, indicating the user has scrolled through the list. \n- The mouse cursor is hovering over the down arrow button of the \"List of Printers\" box. \n",
+        "screenshot": "frame-245.png"
+    },
+    {
+        "frame": 291,
+        "timestamp": 18.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" window in the Windows 3.1 Control Panel, with the \"List of Printers\" box open and several printer models listed, including \"HP LaserJet\". \n\nThe following changes are observed compared to the initial description:\n\n- **New UI Element**: A button labeled \"Set As Default Printer\" is now visible below the \"Installed Printers\" list box. \n- **Content Change**: The \"Remove\" button is no longer greyed out, suggesting it is now active. \n",
+        "screenshot": "frame-291.png"
+    },
+    {
+        "frame": 479,
+        "timestamp": 29.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Printers\" window from the Windows 3.1 Control Panel after the list of available printers has been scrolled down. The \"List of Printers\" box now displays different HP printer models compared to the initial description. The blue selection highlight covers the \"HP DraftMaster II [HP Plotter]\" entry, and the mouse cursor is no longer visible.  The rest of the elements within the \"Printers\" window remain unchanged. \n",
+        "screenshot": "frame-479.png"
+    },
+    {
+        "frame": 480,
+        "timestamp": 30.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 Program Manager window with the \"Control Panel\" window layered on top. The \"Control Panel\" window is in focus, indicated by the mouse cursor hovering over it. \n\nThe \"Printers\" window, described in the initial state, is missing. \n",
+        "screenshot": "frame-480.png"
+    },
+    {
+        "frame": 481,
+        "timestamp": 30.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 \"Program Manager\" window. Two windows are open and stacked on top of each other. The \"Control Panel\" window, which was previously described as open, is no longer visible. \n",
+        "screenshot": "frame-481.png"
+    },
+    {
+        "frame": 482,
+        "timestamp": 30.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 \"Program Manager\" window with the \"Control Panel\" window layered on top. The \"Printers\" option within the Control Panel is not open. \n\nMissing UI Elements:\n- The \"Printers\" window, described as the main element in the initial description, is not present in the screenshot. \n",
+        "screenshot": "frame-482.png"
+    },
+    {
+        "frame": 483,
+        "timestamp": 30.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 \"Program Manager\" window with the \"Control Panel\" window layered on top. The \"Printers\" icon within the \"Control Panel\" is highlighted, indicating it is selected but the \"Printers\" window itself is no longer present. \n",
+        "screenshot": "frame-483.png"
+    },
+    {
+        "frame": 535,
+        "timestamp": 33.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 \"Program Manager\" window with the \"Control Panel\" window layered on top. The \"Printers\" icon within the \"Control Panel\" is highlighted, indicating it is selected. No other windows or dialog boxes are visible. \n\nThere are no changes to the UI elements described in the initial state as the provided description does not describe the content of the screenshot. \n",
+        "screenshot": "frame-535.png"
+    },
+    {
+        "frame": 548,
+        "timestamp": 34.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Control Panel\" window in Windows 3.1. The \"Printers\" icon is highlighted, indicating it is selected. \n\nThe \"Printers\" window, as described in the initial description, is not present in the screenshot. \n",
+        "screenshot": "frame-548.png"
+    },
+    {
+        "frame": 565,
+        "timestamp": 35.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 Program Manager with the \"Control Panel\" window open and in focus, partially obscuring the Program Manager window beneath it. The Control Panel window's title bar displays the name \"Control Panel\".  The \"Printers\" icon within the Control Panel window is not visible in this screenshot. \n\nThe \"Control Panel\" window features a dropdown menu labeled \"Switch To...\" which appears to have been activated by the user. \n",
+        "screenshot": "frame-565.png"
+    },
+    {
+        "frame": 566,
+        "timestamp": 35.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 Program Manager with the \"Control Panel\" window open and in focus, partially obscuring the \"Main\" window. The \"Control Panel\" window displays various system configuration icons, including \"Ports,\" \"Mouse,\" \"Desktop,\" \"Keyboard,\" \"Printers,\" \"Date/Time,\" \"386 Enhanced,\" \"Drivers,\" and \"Sound.\" The mouse cursor is hovering over the \"Control Panel\" window's control menu, which has been activated, as indicated by the drop-down menu displaying options like \"Restore,\" \"Move,\" \"Size,\" \"Minimize,\" \"Maximize,\" \"Close,\" and \"Switch To...\".\n\nThe \"Printers\" window, described in the initial state, is not visible in the screenshot. \n",
+        "screenshot": "frame-566.png"
+    },
+    {
+        "frame": 573,
+        "timestamp": 35.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 \"Control Panel\" window overlayed on top of the \"Program Manager\" window.  The \"Control Panel\" window is not maximized and does not fully obscure the \"Program Manager\" window beneath it. The \"Control Panel\" window's system menu is expanded, revealing options such as \"Restore\", \"Move\", \"Size\", \"Minimize\", \"Maximize\", \"Close\", and \"Switch To...\". \n\nThe \"Printers\" settings, described in the initial state, are not visible in this screenshot. \n",
+        "screenshot": "frame-573.png"
+    },
+    {
+        "frame": 574,
+        "timestamp": 35.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 \"Program Manager\" window with the \"Control Panel\" window layered on top.  The \"Control Panel\" window is in focus. The \"Printers\" option within the Control Panel is not visible. \n\nMissing UI Elements:\n- The \"Printers\" window, previously described as the main element, is not present in the screenshot. \n",
+        "screenshot": "frame-574.png"
+    },
+    {
+        "frame": 575,
+        "timestamp": 35.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 Program Manager with the \"Control Panel\" window open and overlaid on top. The \"Control Panel\" window is not maximized and does not occlude the entirety of the \"Program Manager\" window beneath it. \n\nThe \"Printers\" settings dialogue, described in the initial state, is not present in the screenshot. \n",
+        "screenshot": "frame-575.png"
+    },
+    {
+        "frame": 601,
+        "timestamp": 37.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 Program Manager with the \"Control Panel\" window open and the \"Close\" option from the window's system menu being selected. The \"Printers\" window, described in the initial state, is not present in the screenshot. \n",
+        "screenshot": "frame-601.png"
+    },
+    {
+        "frame": 608,
+        "timestamp": 38.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 3.1 Program Manager. A window titled \"Control Panel\" is now visible, overlapping the Program Manager window. \n\nThe Control Panel window displays a grid of icons representing various system settings. The icons visible are:\n- Color\n- Fonts\n- Ports\n- Mouse\n- Desktop\n- Keyboard\n- Printers\n- International\n- Date/Time\n- 386 Enhanced\n- Drivers\n- Sound \n\nThe \"Printers\" icon is not highlighted, indicating it has not been selected. \n",
+        "screenshot": "frame-608.png"
+    },
+    {
+        "frame": 609,
+        "timestamp": 38.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Program Manager\" window in Windows 3.1. The \"Printers\" icon within the \"Main\" window is highlighted, indicating it has been selected. \n",
+        "screenshot": "frame-609.png"
+    },
+    {
+        "frame": 610,
+        "timestamp": 38.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Program Manager\" window of Windows 3.1. The \"Main\" group is open and active. No new windows or dialog boxes are present. The \"Printers\" window mentioned in the initial description is not visible. \n",
+        "screenshot": "frame-610.png"
+    },
+    {
+        "frame": 611,
+        "timestamp": 38.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Program Manager\" window of Windows 3.1. The \"Main\" group is open, revealing icons for various system utilities and applications. No elements from the initial description are missing, and there are no new UI elements present. \n",
+        "screenshot": "frame-611.png"
+    },
+    {
+        "frame": 630,
+        "timestamp": 39.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Program Manager\" window of Windows 3.1. The \"Main\" window is open and displays various program icons, including \"File Manager\", \"Control Panel\", \"Print Manager\", \"Clipboard Viewer\", \"MS-DOS Prompt\", \"Windows Setup\", \"PIF Editor\", and \"Read Me\". \n\nThere are no changes in UI elements or content compared to the initial description. \n",
+        "screenshot": "frame-630.png"
+    },
+    {
+        "frame": 631,
+        "timestamp": 39.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Program Manager\" window in Windows 3.1. The \"Main\" window is open within the \"Program Manager\". \n\nThere are no new UI elements present. \n\nThere are no missing UI elements.\n\nThere are no content changes. \n",
+        "screenshot": "frame-631.png"
+    }
+]

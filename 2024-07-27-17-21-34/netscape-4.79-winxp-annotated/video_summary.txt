@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Netscape Communicator 4.79
+- Input methods: Mouse and keyboard
+- Recording details: Duration is 4 minutes and 51 seconds. Resolution is not available from the provided information. 
+
+
+The user opens the "My Computer" window from the start menu, then opens the CD-ROM drive (D:). The user then opens a self-extracting executable file, which installs Netscape Communicator 4.79. The user accepts the license agreement and chooses a typical installation. The user then creates a new profile, entering their name and email address. Finally, the user launches Netscape Communicator.
+
+The user's actions suggest they are attempting to install and set up Netscape Communicator 4.79 on their computer. 

@@ -1,0 +1,16 @@
+[
+    {
+        "frame": 40,
+        "event": "The mouse is clicking the \"File\" menu item in the main menu bar. \n",
+        "timestamp": 2.5,
+        "description": "The user clicks the \"File\" menu item in the main menu bar. As a result, the \"File\" menu expands, and a \"Print\" dialog box appears, overlaying the document editing area.",
+        "outcome": "A \"Print\" dialog box appeared, overlaying the document editing area within the Write application. The dialog box provides options for \"Printer,\" \"Print Range,\" \"Print Quality,\" \"Copies,\" \"Print to File,\" and \"Collate Copies,\" along with \"OK,\" \"Cancel,\" and \"Setup...\" buttons."
+    },
+    {
+        "frame": 113,
+        "event": "The mouse is clicking on the \"OK\" button of the \"Print\" dialog box. \n",
+        "timestamp": 7.0625,
+        "description": "The user clicks the \"OK\" button in the \"Print\" dialog box. As a result, the \"Print\" dialog box closes. A \"Write\" dialog box appears, indicating \"Now Printing (Untitled)\" and offering a \"Cancel\" button.",
+        "outcome": "The \"Print\" dialog box, previously visible in the Write application window, has been closed. "
+    }
+]

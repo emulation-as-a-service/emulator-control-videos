@@ -1,0 +1,9 @@
+- Operating system: Windows 95
+- Software: Corel WordPerfect 7
+- Input methods: Mouse and keyboard 
+- Recording details: 1 minute 12 seconds, 640x480 resolution 
+
+
+The user opens the "Start" menu and selects "Corel WordPerfect 7" from the "Corel WordPerfect Suite 7" folder. Next, the user opens the "File" menu and selects "Save As." In the "Save As" dialog box, the user clicks the drop-down menu for file types and scrolls through the options. The user does not select a file type and closes the "Save As" dialog box without saving the document. Then, the user opens the "File" menu and selects "Open." The user clicks the drop-down menu for file types, scrolls through the options, and does not select a file type. The user then closes the "Open File" dialog box. 
+
+Purpose inference: The user's actions suggest they are exploring the different file types available for saving and opening documents in Corel WordPerfect 7. 

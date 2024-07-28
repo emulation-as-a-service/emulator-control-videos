@@ -1,0 +1,136 @@
+[
+    {
+        "frame": 206,
+        "event": "The mouse pointer is clicking on the \"CDROM (D:)\" icon. \n",
+        "timestamp": 12.875,
+        "description": "The user clicked the \"CDROM (D:)\" icon within the \"My Computer\" window. As a result, the drive information displayed in the window's right pane was cleared. \n",
+        "outcome": "The contents of the \"My Computer\" window's right pane have been cleared, removing the previously displayed \"CDROM (D:)\" drive information. \n"
+    },
+    {
+        "frame": 251,
+        "event": "The mouse is clicking on the close button of the window titled \"CDROM (D:)\". \n",
+        "timestamp": 15.6875,
+        "description": "The user clicks the close button of the \"CDROM (D:)\" window. As a result, the window closes. \n",
+        "outcome": "The \"CDROM (D:)\" window is no longer visible and a new shortcut icon for \"Netscape Communicator\" has been added to the desktop. \n"
+    },
+    {
+        "frame": 3886,
+        "event": "The mouse is clicking on the \"Free AOL & Unlimited...\" desktop shortcut. \n",
+        "timestamp": 242.875,
+        "description": "The user clicks the \"Free AOL & Unlimited...\" shortcut on the desktop.  As a result, the \"Enter your Name and Email Address\" window appears. \n",
+        "outcome": "A new window titled \"Enter your Name and Email Address\" appeared over the desktop. The window contains fields for \"Full Name\" and \"Email Address (if available)\" with example entries, and buttons for \"Back\", \"Next\", \"Finish\", and \"Cancel\". The \"Next\" button is highlighted. \n"
+    },
+    {
+        "frame": 4087,
+        "event": "The key following key(s) were pressed: ['Shift_L', 'B'].",
+        "timestamp": 255.4375,
+        "description": "The user pressed the keyboard shortcut 'Shift + B', equivalent to clicking the **< Back** button in the \"Enter your Name and Email Address\" dialog box.  \n",
+        "outcome": "",
+        "key_pressed": [
+            "Shift_L",
+            "B"
+        ]
+    },
+    {
+        "frame": 4094,
+        "event": "The key following key(s) were pressed: ['o'].",
+        "timestamp": 255.875,
+        "description": "The user typed the letter \"o\" into the \"Your Name\" field. \n",
+        "outcome": "",
+        "key_pressed": [
+            "o"
+        ]
+    },
+    {
+        "frame": 4098,
+        "event": "The key following key(s) were pressed: ['b'].",
+        "timestamp": 256.125,
+        "description": "The user pressed the 'b' key, which is a keyboard shortcut for the **Back** button.  No visual changes occurred as a result of this event. \n",
+        "outcome": "",
+        "key_pressed": [
+            "b"
+        ]
+    },
+    {
+        "frame": 4101,
+        "event": "The key following key(s) were pressed: ['space'].",
+        "timestamp": 256.3125,
+        "description": "The user pressed the 'space' key. No observable changes occurred in the \"Enter Your Name and Email Address\" dialog box. \n",
+        "outcome": "",
+        "key_pressed": [
+            "space"
+        ]
+    },
+    {
+        "frame": 4108,
+        "event": "The key following key(s) were pressed: ['Shift_L', 'A'].",
+        "timestamp": 256.75,
+        "description": "The user pressed the keyboard shortcut \"Shift + A\" while focused on the \"Enter your Name and Email Address\" dialog box. No observable changes occurred in the user interface. \n",
+        "outcome": "",
+        "key_pressed": [
+            "Shift_L",
+            "A"
+        ]
+    },
+    {
+        "frame": 4121,
+        "event": "The key following key(s) were pressed: ['l', 'i'].",
+        "timestamp": 257.5625,
+        "description": "The user typed the first two characters, \"li\",  into the \"Enter your full name\" text field. \n",
+        "outcome": "",
+        "key_pressed": [
+            "l",
+            "i"
+        ]
+    },
+    {
+        "frame": 4124,
+        "event": "The key following key(s) were pressed: ['c'].",
+        "timestamp": 257.75,
+        "description": "The user pressed the 'c' key. No visible changes occurred in the GUI. \n",
+        "outcome": "",
+        "key_pressed": [
+            "c"
+        ]
+    },
+    {
+        "frame": 4128,
+        "event": "The key following key(s) were pressed: ['e'].",
+        "timestamp": 258.0,
+        "description": "The user typed the letter \"e\" into the \"Your Name\" text field within the \"Enter your Name and Email Address\" dialog box. \n",
+        "outcome": "",
+        "key_pressed": [
+            "e"
+        ]
+    },
+    {
+        "frame": 4140,
+        "event": "The key following key(s) were pressed: ['s'].",
+        "timestamp": 258.75,
+        "description": "The user typed the letter \"s\" into the \"Enter your Name and Email Address\" dialog box. \n",
+        "outcome": "",
+        "key_pressed": [
+            "s"
+        ]
+    },
+    {
+        "frame": 4141,
+        "event": "The key following key(s) were pressed: ['o'].",
+        "timestamp": 258.8125,
+        "description": "The user typed the letter \"o\" into the \"Your Name\" field. \n",
+        "outcome": "",
+        "key_pressed": [
+            "o"
+        ]
+    },
+    {
+        "frame": 4145,
+        "event": "The key following key(s) were pressed: ['n'].",
+        "timestamp": 259.0625,
+        "description": "The user pressed the 'n' key, which triggered the \"Next >\" button in the \"Enter your Name and Email Address\" dialog box. As a result, the dialog box closed, and a Netscape Communicator shortcut appeared on the desktop. \n",
+        "outcome": "A dialog box titled \"Enter your Name and Email Address\" is no longer present, and a shortcut icon for \"Netscape Communicator\" has appeared on the Windows XP desktop. \n",
+        "key_pressed": [
+            "n"
+        ]
+    }
+]

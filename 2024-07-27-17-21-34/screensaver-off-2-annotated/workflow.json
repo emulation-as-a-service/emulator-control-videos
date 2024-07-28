@@ -1,0 +1,67 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear."
+    },
+    {
+        "precondition": "The right-click context menu with the title \"Arrange Icons By\" is open on the desktop.",
+        "action": "Click the menu item \"Properties\".",
+        "expected_results": "The context menu will close, and the \"Display Properties\" window will open, initially displaying the \"Themes\" tab."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Display Properties\" window will display the \"Screen Saver\" tab. The preview window will show the Windows XP screensaver, and controls for screensaver selection, wait time, and password protection will be visible."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open with the \"Screen Saver\" tab active. The \"Screen Saver\" dropdown menu should currently display \"Windows XP\".",
+        "action": "Click the down arrow of the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"Screen Saver\" dropdown menu will expand to show a list of available screensaver options. The selected option will change to \"(None)\"."
+    },
+    {
+        "precondition": "The \"Screen Saver\" dropdown menu in the \"Display Properties\" window is open.",
+        "action": "Click outside of the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"Screen Saver\" dropdown menu will close."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click the \"Power...\" button within the \"Monitor power\" section.",
+        "expected_results": "The \"Power Options Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power schemes\" dropdown menu visible.",
+        "action": "Click the down arrow of the \"Power schemes\" dropdown menu.",
+        "expected_results": "A list of available power schemes will appear."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power schemes\" dropdown menu is visible.",
+        "action": "Click the \"Presentation\" item in the \"Power schemes\" dropdown menu.",
+        "expected_results": "The \"Power Options Properties\" window will now display the settings for the \"Home/Office Desk\" power scheme. The \"Turn off monitor\" setting will be changed to \"After 20 mins\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Always On\" power scheme is selected.",
+        "action": "Click the dropdown button next to the \"Turn off monitor\" option.",
+        "expected_results": "A dropdown menu with a list of time intervals will appear."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is selected. The \"System hibernates\" dropdown menu is open.",
+        "action": "Click the \"Never\" option within the \"System hibernates\" dropdown menu.",
+        "expected_results": "The \"System hibernates\" dropdown menu will close. The \"System hibernates\" option will be set to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Apply\" button is visible.",
+        "action": "Click the \"Apply\" button.",
+        "expected_results": "The changes made to the power scheme settings will be applied."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Always On\" power scheme is selected.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open.",
+        "action": "Click the \"OK\" button at the bottom of the \"Display Properties\" window.",
+        "expected_results": "The \"Display Properties\" window will close."
+    }
+]

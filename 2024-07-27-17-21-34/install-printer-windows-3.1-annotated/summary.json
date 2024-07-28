@@ -1,0 +1,67 @@
+[
+    {
+        "frame": 75,
+        "event": "The mouse pointer is hovering over the \"Control Panel\" icon within the \"Main\" program group and is about to click it. \n",
+        "timestamp": 4.6875,
+        "description": "The user clicked the \"Control Panel\" icon in the \"Main\" program group. As a result, the Control Panel window opened. \n",
+        "outcome": "The Control Panel application window opened in front of the Windows 3.1 Program Manager. The mouse cursor, previously visible, is no longer present in the final state. \n",
+        "label_clicked": "Control'Panel Print Manager"
+    },
+    {
+        "frame": 131,
+        "event": "The mouse is clicking on the Date/Time icon in the Control Panel window. \n",
+        "timestamp": 8.1875,
+        "description": "The user clicked the \"Date/Time\" icon in the Control Panel window. As a result, the \"Printers\" settings dialog replaced the Control Panel window. \n",
+        "outcome": "The Windows 3.1 Control Panel opened the \"Printers\" settings dialog, which contains options for managing default printers, installed printers, and available printer models. The \"Printers\" icon is no longer highlighted, and the Control Panel's status message area is now blank. \n",
+        "label_clicked": "Date/Time"
+    },
+    {
+        "frame": 195,
+        "event": "The mouse pointer is on the down arrow of the vertical scroll bar of the list box titled \"List of Printers: Install Unlisted or Updated Printer\". \n",
+        "timestamp": 12.1875,
+        "description": "The user scrolled down the \"List of Printers: Install Unlisted or Updated Printer\" list box within the \"Printers\" window of the Control Panel. \n",
+        "outcome": "The scroll bar in the \"List of Printers\" area of the Windows 3.1 Control Panel's \"Printers\" window has been moved down, revealing a different section of the available printer models. The mouse cursor is no longer visible. \n"
+    },
+    {
+        "frame": 201,
+        "event": "The mouse pointer is hovering over the \"Install...\" button in the \"Printers\" window. \n",
+        "timestamp": 12.5625,
+        "description": "The user moved the mouse pointer away from the \"Install...\" button at the bottom of the \"Printers\" window. As a result, the button became inactive and grayed out. \n",
+        "outcome": "The \"Printers\" window populated with a list of available printer models.  Simultaneously, the \"Install...\" button became inactive and grayed out. \n"
+    },
+    {
+        "frame": 206,
+        "event": "The mouse is clicking on the down arrow button of the scroll bar of the \"List of Printers\" list box. \n",
+        "timestamp": 12.875,
+        "description": "The user clicked the down arrow on the \"List of Printers\" scroll bar.  As a result, the \"List of Printers\" scrolled down, removing \"Digital Colormate PS\" from view. \n",
+        "outcome": "The \"Printers\" window updated its \"List of Printers,\" removing the \"Digital Colormate PS\" printer. \n"
+    },
+    {
+        "frame": 212,
+        "event": "The mouse pointer is hovering over the down arrow of the vertical scroll bar of the \"List of Printers:\" list box. \n",
+        "timestamp": 13.25,
+        "description": "The user scrolled down the \"List of Printers:\" list box using the vertical scroll bar. This action revealed additional printer models, specifically several Epson models. \n",
+        "outcome": "The \"List of Printers:\" box populated with several Epson printer models. \n"
+    },
+    {
+        "frame": 225,
+        "event": "The mouse pointer is hovering over the \"Install...\" button of the \"Printers\" window. \n",
+        "timestamp": 14.0625,
+        "description": "The user clicked the \"Install...\" button in the \"Printers\" window while \"HP LaserJet\" was selected in the \"List of Printers\". As a result, \"HP LaserJet\" appeared in the \"Installed Printers\" list, and the \"Set As Default Printer\" and \"Remove\" buttons became enabled. \n",
+        "outcome": "The \"Printers\" window reflects the addition of \"HP LaserJet\" to the \"Installed Printers\" list.  The corresponding \"Set As Default Printer\" and \"Remove\" buttons are now enabled. \n"
+    },
+    {
+        "frame": 231,
+        "event": "The mouse pointer is hovering over the \"Install...\" button of the \"Printers\" window. \n",
+        "timestamp": 14.4375,
+        "description": "The user moved the mouse pointer over the \"Install...\" button within the \"Printers\" window. \n",
+        "outcome": "A new printer, \"HP LaserJet\", was added to the \"List of Printers\" and the \"Set As Default Printer\" button became active. \n"
+    },
+    {
+        "frame": 237,
+        "event": "The mouse pointer is hovering over the down arrow of the vertical scroll bar of the \"List of Printers:\" list box in the \"Printers\" window. \n",
+        "timestamp": 14.8125,
+        "description": "The user scrolled through the \"List of Printers\" by clicking the down arrow of the vertical scroll bar. This action did not result in any immediately visible changes in the UI. \n",
+        "outcome": "There are no visual changes in the UI across the provided screenshots. The UI remains static with the \"Program Manager\" window open, and the \"Main\" window open within it. \n"
+    }
+]

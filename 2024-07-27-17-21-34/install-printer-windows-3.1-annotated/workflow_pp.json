@@ -1,0 +1,47 @@
+[
+    {
+        "precondition": "The \"Program Manager\" window is open and the \"Main\" program group is visible.",
+        "action": "Double Left Click on the \"Control Panel\" icon.",
+        "expected_results": "The \"Control Panel\" window will open."
+    },
+    {
+        "precondition": "The \"Control Panel\" window is open and the \"Printers\" icon is highlighted.",
+        "action": "Click the icon labeled \"Date/Time\".",
+        "expected_results": "The \"Printers\" settings dialog will open."
+    },
+    {
+        "precondition": "The \"Printers\" window of the Windows 3.1 Control Panel is open. A list box titled \"List of Printers: Install Unlisted or Updated Printer\" is visible and contains a vertical scroll bar.",
+        "action": "Click the down arrow of the vertical scroll bar located on the \"List of Printers: Install Unlisted or Updated Printer\" list box.",
+        "expected_results": "The list of available printer models in the \"List of Printers: Install Unlisted or Updated Printer\" list box will scroll down, revealing additional printer options."
+    },
+    {
+        "precondition": "The \"Printers\" window is open and the \"List of Printers\" displays available printer models.",
+        "action": "Move the mouse pointer over the \"Install...\" button.",
+        "expected_results": "The \"Install...\" button will become active."
+    },
+    {
+        "precondition": "The \"Printers\" window within the Windows 3.1 Control Panel is open. The \"List of Printers\" box should be visible, displaying a list of available printers. A scroll bar should be present to navigate the list of printers.",
+        "action": "Click the down arrow button on the scroll bar of the \"List of Printers\" list box.",
+        "expected_results": "The \"List of Printers\" will scroll down, revealing additional printers in the list."
+    },
+    {
+        "precondition": "The \"Printers\" window within the Windows 3.1 Control Panel is open. The \"List of Printers:\" list box should be visible.",
+        "action": "Click and hold the down arrow of the vertical scroll bar located on the \"List of Printers:\" list box.",
+        "expected_results": "Additional printer models will be displayed in the \"List of Printers:\" list box."
+    },
+    {
+        "precondition": "The \"Printers\" window is open. The \"HP LaserJet\" is selected in the \"List of Printers\" list box.",
+        "action": "Click the \"Install...\" button.",
+        "expected_results": "The \"Installed Printers\" list will include \"HP LaserJet on LPT1:\". The \"Set As Default Printer\" and \"Remove\" buttons will become active."
+    },
+    {
+        "precondition": "The \"Printers\" window is open and the \"Set As Default Printer\" button is disabled.",
+        "action": "Move the mouse pointer over the \"Install...\" button.",
+        "expected_results": "The \"Set As Default Printer\" button will become active."
+    },
+    {
+        "precondition": "The \"Printers\" window is open. The mouse cursor is hovering over the down arrow of the vertical scroll bar of the \"List of Printers:\" list box.",
+        "action": "Click the down arrow of the vertical scroll bar in the \"List of Printers:\" list box.",
+        "expected_results": "The \"List of Printers\" box will display an updated list of printer models."
+    }
+]

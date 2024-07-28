@@ -1,0 +1,1815 @@
+[
+    {
+        "frame": 66,
+        "timestamp": 4.125,
+        "event": {
+            "time": 4.411,
+            "event": "doubleclick",
+            "x": 40,
+            "y": 16,
+            "frame": 66,
+            "time_end": 4.411,
+            "frame_end": 70
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot shows the Windows 98 desktop. Four icons are visible on the left side of the screen: \"My Computer\", \"My Documents\", \"Internet Explorer\", and \"Recycle Bin\".  The taskbar is at the bottom of the screen, with the \"Start\" button on the left and the system tray on the right. The system tray displays the current time as 7:21 AM and has a speaker icon. The rest of the screen is empty. \n",
+        "screenshot": "frame-66-doubleclick.png",
+        "screenshot_annotated": "frame-66-doubleclick-layout.png"
+    },
+    {
+        "frame": 107,
+        "timestamp": 6.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows 98 desktop with a large, empty window. The window has a thin, pink title bar with minimize, maximize, and close buttons. The rest of the window is white. The four icons: \"My Computer\", \"My Documents\", \"Internet Explorer\", and \"Recycle Bin\" are still visible on the left side of the screen. The taskbar at the bottom of the screen remains unchanged. \n\nNew UI Elements:\n- A new, empty window is present. \n",
+        "screenshot": "frame-107.png"
+    },
+    {
+        "frame": 110,
+        "timestamp": 6.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows 98 desktop with the \"My Computer\" application open. The \"My Computer\" window overlaps the desktop icons on the left side of the screen. The window has the title \"My Computer\" and displays an \"Address\" bar. \n\nNew UI Elements:\n- A window titled \"My Computer\" is now visible. It features minimize, maximize, and close buttons. The window contains an \"Address\" bar.\n\nContent Changes:\n- The \"My Computer\" icon on the taskbar is now highlighted. \n",
+        "screenshot": "frame-110.png"
+    },
+    {
+        "frame": 111,
+        "timestamp": 6.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a window titled \"My Computer\" in the foreground, slightly offset from the top left corner. The window's menu bar displays options for \"File\", \"Edit\", \"View\", \"Go\", \"Favorites\", and \"Help\". Below the menu bar is an address bar labeled \"Address\", which is currently empty. The rest of the window is blank. The \"My Computer\" icon on the desktop is now highlighted. A minimized \"My Computer\" window is now present in the taskbar. \n",
+        "screenshot": "frame-111.png"
+    },
+    {
+        "frame": 147,
+        "timestamp": 9.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"My Computer\" application window open. The window title bar reads \"My Computer\" and displays the minimize, maximize, and close buttons. The window displays a standard menu bar with options for \"File\", \"Edit\", \"View\", \"Go\", \"Favorites\", and \"Help\". Below the menu bar is a toolbar with buttons for \"Back\", \"Forward\", \"Up\", \"Cut\", \"Copy\", and \"Paste\". An \"Address\" bar is also visible, showing the current location as \"My Computer\". The main section of the window is empty. The taskbar remains at the bottom of the screen and now includes \"My Computer\" next to the \"Start\" button. \n",
+        "screenshot": "frame-147.png"
+    },
+    {
+        "frame": 174,
+        "timestamp": 10.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows 98 desktop with the \"My Computer\" window open and active. The window displays the contents of the \"My Computer\" directory, showing drives and system folders like \"3\u00bd Floppy (A:)\", \"(C:)\", \"Cdrom (D:)\", \"(E:)\", \"Printers\", \"Control Panel\", \"Dial-Up\", \"Scheduled\", and \"Web Folders\". \n\nThe \"My Computer\" icon on the taskbar is highlighted. \n",
+        "screenshot": "frame-174.png"
+    },
+    {
+        "frame": 212,
+        "timestamp": 13.25,
+        "event": {
+            "time": 13.506,
+            "event": "doubleclick",
+            "x": 406,
+            "y": 244,
+            "frame": 212,
+            "time_end": 13.506,
+            "frame_end": 216
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"My Computer\" window, a file management interface in Windows 98. The window occupies the center of the screen and lists various drives and system folders. \n\nAt the top, a standard window bar displays the title \"My Computer\" alongside minimize, maximize, and close buttons. Below, a menu bar offers options for \"File,\" \"Edit,\" \"View,\" \"Go,\" \"Favorites,\" and \"Help,\" providing standard file management actions. \n\nA toolbar underneath provides quick access to common actions such as \"Back,\" \"Forward,\" \"Up,\" \"Cut,\" \"Copy,\" and \"Paste.\" An \"Address\" bar shows the current location within the \"My Computer\" hierarchy, currently set to \"My Computer,\" indicating the user is viewing the top level of the file system.\n\nThe main section of the window presents a series of icons, each representing a drive or system folder:\n\n- **\"3\u00bd Floppy (A:)\"**: Represents the floppy drive, likely empty.\n- **\"(C:)\"**: Represents the primary hard disk drive.\n- **\"Cdrom (D:)\"**: Represents the CD-ROM drive.\n- **\"(E:)\"**: Represents an additional hard disk drive or partition.\n- **\"Printers\"**: Provides access to printer settings and management.\n- **\"Control Panel\"**: Offers access to system settings and configurations.\n- **\"Dial-Up\"**: Provides tools for managing dial-up internet connections.\n- **\"Scheduled\"**: Represents the Scheduled Tasks folder for managing automated tasks.\n- **\"Web Folders\"**: Represents a folder for storing web-related content. \n\nThe user's current focus is not evident from the screenshot. \n",
+        "screenshot": "frame-212-doubleclick.png",
+        "screenshot_annotated": "frame-212-doubleclick-layout.png"
+    },
+    {
+        "frame": 260,
+        "timestamp": 16.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"My Computer\" window, but now the title bar reads \"Cdrom (D:)\". The address bar also reflects this change, showing \"D:\\\" as the current location. \n\nThe main section of the window is now empty, instead of displaying the icons for drives and system folders as it did before. \n",
+        "screenshot": "frame-260.png"
+    },
+    {
+        "frame": 271,
+        "timestamp": 16.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"My Computer\" window, now displaying the contents of the \"Cdrom (D:)\" drive. The \"Address\" bar now reads \"D:\\\", reflecting the user's navigation to the D: drive.\n\nThe main section of the window no longer displays the icons for the drives and system folders as described in the initial state. Instead, it now shows a message: \"Select an item to view its description.\" \n\nThe taskbar at the bottom of the screen now includes a button labeled \"Cdrom (D:)\" indicating an open window with that title. \n",
+        "screenshot": "frame-271.png"
+    },
+    {
+        "frame": 304,
+        "timestamp": 19.0,
+        "event": {
+            "time": 19.265,
+            "event": "doubleclick",
+            "x": 249,
+            "y": 237,
+            "frame": 304,
+            "time_end": 19.265,
+            "frame_end": 308
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays a Windows 98 \"Cdrom (D:)\" window with the contents of the D: drive displayed. A single file, \"cc32d479.exe\", is visible within the window. This file utilizes an InstallShield icon, indicating it is an InstallShield self-extracting executable file. \n",
+        "screenshot": "frame-304-doubleclick.png",
+        "screenshot_annotated": "frame-304-doubleclick-layout.png"
+    },
+    {
+        "frame": 337,
+        "timestamp": 21.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows 98 desktop with an open \"Cdrom (D:)\" window. A dialog box titled \"InstallShield Self-extracting Exe\" is overlaid on the window. The dialog box displays the message: \"Please wait while InstallShield extracts the files which will install this application.\" \n\nNew UI Elements:\n- A dialog box titled \"InstallShield Self-extracting Exe\" is now present. \n\nMissing UI Elements:\n- The file \"cc32d479.exe\" is no longer visible within the \"Cdrom (D:)\" window. \n",
+        "screenshot": "frame-337.png"
+    },
+    {
+        "frame": 342,
+        "timestamp": 21.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows 98 desktop with \"My Computer\" and \"Cdrom (D:)\" windows open. A dialog window titled \"InstallShield Self-extracting Exe\" is now visible, positioned over the \"Cdrom (D:)\" window. The dialog window displays the message \"Please wait while InstallShield extracts the files which will install this application.\" \n",
+        "screenshot": "frame-342.png"
+    },
+    {
+        "frame": 1011,
+        "timestamp": 63.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a Windows 98 \"Cdrom (D:)\" window in the background. A new element, a dialog window titled \"InstallShield Self-extracting Exe\" is now present, indicating the installation process has begun. The dialog window displays the message: \"Please wait while InstallShield extracts the files which will install this application.\" A progress bar below the message indicates the installation is at 99%. \n",
+        "screenshot": "frame-1011.png"
+    },
+    {
+        "frame": 1012,
+        "timestamp": 63.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows 98 desktop with \"My Computer\" and \"Cdrom (D:)\" windows open. A new window titled \"InstallShield Wizard\" is now visible, partially obscuring the \"Cdrom (D:)\" window. The \"InstallShield Wizard\" window features a blue banner displaying the Netscape Communicator 4.7 logo and text \"Netscape Communicator 4.7\". A picture of a lighthouse is visible to the right of the banner. \n",
+        "screenshot": "frame-1012.png"
+    },
+    {
+        "frame": 1013,
+        "timestamp": 63.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Cdrom (D:)\" window is still open, with the \"cc32d479.exe\" file still visible. A new window titled \"Setup\" has appeared, displaying a Netscape Communicator 4.7 graphic of a lighthouse on a white background with the text \"Netscape Communicator 4.7\". The \"Setup\" window partially obscures the \"Cdrom (D:)\" window. \n",
+        "screenshot": "frame-1013.png"
+    },
+    {
+        "frame": 1015,
+        "timestamp": 63.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 98 desktop. The \"Cdrom (D:)\" window is still open, but now displays a splash screen for \"Netscape Communicator 4.7\" with a lighthouse graphic.  A new window titled \"Setup\" is present in the foreground. This window displays the message \"Setup is preparing the InstallShield(r) Wizard which will guide you through the rest of the setup process. Please wait.\" \n",
+        "screenshot": "frame-1015.png"
+    },
+    {
+        "frame": 1100,
+        "timestamp": 68.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a Windows 98 desktop with an InstallShield window open. The window features a Netscape Communicator 4.7 graphic, including a stylized \"N\" logo and a lighthouse, on the right side. The Netscape Communicator 4.7 text is superimposed over a white-to-blue gradient.\n\nNew UI Elements:\n- An InstallShield window is now visible, displaying a Netscape Communicator 4.7 graphic. \n\nMissing UI Elements:\n- The \"cc32d479.exe\" file is no longer visible. \n",
+        "screenshot": "frame-1100.png"
+    },
+    {
+        "frame": 1102,
+        "timestamp": 68.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a Windows 98 desktop with an open \"Cdrom (D:)\" window. However, instead of only displaying the \"cc32d479.exe\" file, the window now shows a splash screen for \"Netscape Communicator 4.\"  The splash screen features a gradient background and a prominent Netscape \"N\" logo. \n",
+        "screenshot": "frame-1102.png"
+    },
+    {
+        "frame": 1105,
+        "timestamp": 69.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows 98 desktop with \"My Computer\" and \"Cdrom (D:)\" windows open. The \"Cdrom (D:)\" window now displays an empty folder view. The file \"cc32d479.exe\" is no longer present. \n\nMissing UI Elements:\n- The file \"cc32d479.exe\" is no longer present within the \"Cdrom (D:)\" window. \n",
+        "screenshot": "frame-1105.png"
+    },
+    {
+        "frame": 1107,
+        "timestamp": 69.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a maximized window titled \"C:\\\", indicating the root directory of the C: drive. The window's contents are not visible. The previously open \"Cdrom (D:)\" window is no longer present. \n",
+        "screenshot": "frame-1107.png"
+    },
+    {
+        "frame": 1108,
+        "timestamp": 69.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows 98 desktop. The \"Cdrom (D:)\" window is no longer visible. \n",
+        "screenshot": "frame-1108.png"
+    },
+    {
+        "frame": 1109,
+        "timestamp": 69.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot is completely black.\n\nMissing UI Elements:\n- The \"Cdrom (D:)\" window is no longer visible.\n- The \"cc32d479.exe\" file is no longer visible. \n",
+        "screenshot": "frame-1109.png"
+    },
+    {
+        "frame": 1110,
+        "timestamp": 69.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a solid blue background with a black bar at the bottom. \n\nMissing UI Elements: \n- The \"Cdrom (D:)\" window is not present.\n- The file \"cc32d479.exe\" is not visible. \n",
+        "screenshot": "frame-1110.png"
+    },
+    {
+        "frame": 1111,
+        "timestamp": 69.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a blue screen with a gradient effect, darkening towards the bottom. The mouse cursor is visible in the shape of a white arrow pointing slightly upwards.\n\nMissing UI Elements:\n- The \"Cdrom (D:)\" window is no longer present.\n- The file \"cc32d479.exe\" is no longer visible. \n",
+        "screenshot": "frame-1111.png"
+    },
+    {
+        "frame": 1112,
+        "timestamp": 69.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blue rectangle in the upper left portion of the screen against a gray background. The \"Cdrom (D:)\" window is no longer present. \n",
+        "screenshot": "frame-1112.png"
+    },
+    {
+        "frame": 1113,
+        "timestamp": 69.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a maximized blue window obscuring the contents of the \"Cdrom (D:)\" window. The mouse cursor is now visible in the top right corner of the screen. \n\nMissing UI Elements:\n- The \"cc32d479.exe\" file is no longer visible. \n",
+        "screenshot": "frame-1113.png"
+    },
+    {
+        "frame": 1114,
+        "timestamp": 69.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blank blue desktop background with the Windows 98 taskbar visible at the bottom. The \"Cdrom (D:)\" window is no longer present. \n",
+        "screenshot": "frame-1114.png"
+    },
+    {
+        "frame": 1115,
+        "timestamp": 69.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a solid blue background.\n\nMissing UI Elements:\n- The \"Cdrom (D:)\" window is not present. \n- The file \"cc32d479.exe\" is not visible. \n",
+        "screenshot": "frame-1115.png"
+    },
+    {
+        "frame": 1118,
+        "timestamp": 69.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blue screen with a mouse cursor in the top right corner. \n\n- New UI Elements: A small dialog window titled \"Initializing setup...\" with an InstallShield icon and the text \"Initializing setup...\" is present in the center of the screen. \n\n- Missing UI Elements: The \"Cdrom (D:)\" window displaying the contents of the D: drive, including the \"cc32d479.exe\" file, is no longer visible. \n",
+        "screenshot": "frame-1118.png"
+    },
+    {
+        "frame": 1167,
+        "timestamp": 72.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blue screen with the text \"Netscape Communicator 4.79 Setup\" at the top. A mouse cursor is visible in the upper right corner.\n\nMissing UI Elements:\n- The \"Cdrom (D:)\" window displaying the contents of the D: drive is no longer present.\n- The file \"cc32d479.exe\" is no longer visible. \n\nNew UI Elements:\n- A blue screen with the text \"Netscape Communicator 4.79 Setup\" is now visible. \n",
+        "screenshot": "frame-1167.png"
+    },
+    {
+        "frame": 1168,
+        "timestamp": 73.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a new window with the title \"Netscape Communicator 4.79 Setup\". The window has a standard window frame with a minimize, maximize, and close button. The background of the window is a solid blue color. \n\nMissing UI Elements:\n- The \"Cdrom (D:)\" window is no longer visible. \n",
+        "screenshot": "frame-1168.png"
+    },
+    {
+        "frame": 1169,
+        "timestamp": 73.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a new window titled \"Netscape Communicator 4.79 Setup\". The window has a dark blue bottom bar and a minimize, maximize, and close button in the top right corner. The background of the screenshot is a blue gradient. \n\nMissing UI Elements:\n- The \"Cdrom (D:)\" window is no longer visible. \n\nNew UI Elements:\n- A window titled \"Netscape Communicator 4.79 Setup\" is now visible. \n",
+        "screenshot": "frame-1169.png"
+    },
+    {
+        "frame": 1170,
+        "timestamp": 73.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the first window of the Netscape Communicator 4.79 setup wizard. The window is titled \"Netscape Communicator 4.79 Setup\" and contains text welcoming the user to the setup process. Two buttons, labeled \"Next >\" and \"Cancel\", are present at the bottom of the window.\n\nThe \"Cdrom (D:)\" window is no longer visible. \n",
+        "screenshot": "frame-1170.png"
+    },
+    {
+        "frame": 1171,
+        "timestamp": 73.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the first window of the Netscape Communicator 4.79 setup wizard. The window is titled \"Netscape Communicator 4.79 Setup\" and displays a welcome message. Two buttons, \"Next >\" and \"Cancel\", are visible at the bottom of the window. \n\nNew UI Elements:\n- A window titled \"Netscape Communicator 4.79 Setup\" is now visible. \n\nMissing UI Elements:\n- The \"Cdrom (D:)\" window is no longer visible. \n",
+        "screenshot": "frame-1171.png"
+    },
+    {
+        "frame": 1228,
+        "timestamp": 76.75,
+        "event": {
+            "time": 76773,
+            "event": "mousedown",
+            "x": 514,
+            "y": 456,
+            "button": 0,
+            "frame": 1228,
+            "time_end": 76.774,
+            "frame_end": 1228
+        },
+        "type": "event",
+        "label_clicked": "Next>",
+        "description": "The screenshot displays the initial window of the Netscape Communicator 4.79 Setup program.  A welcome message is displayed along with a recommendation to close all other Windows programs before continuing. Two buttons are visible at the bottom of the window:\n\n* **Next**: This button, currently highlighted, will advance the user to the next step in the installation process.\n* **Cancel**: Clicking this button will halt the installation of Netscape Communicator 4.79 and close the setup program. \n",
+        "screenshot": "frame-1228-mousedown.png",
+        "screenshot_annotated": "frame-1228-mousedown-layout.png"
+    },
+    {
+        "frame": 1233,
+        "timestamp": 77.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 Setup window. The window now contains a green box with a stylized image of the Earth. The welcome message is no longer visible. \n",
+        "screenshot": "frame-1233.png"
+    },
+    {
+        "frame": 1234,
+        "timestamp": 77.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 Setup window with a blue background. At the bottom, a gray progress bar is partially filled with teal, indicating the installation's progress.  The \"Next\" button is no longer highlighted. \n\nMissing UI Elements:\n- The welcome message recommending closing other programs is no longer visible. \n",
+        "screenshot": "frame-1234.png"
+    },
+    {
+        "frame": 1235,
+        "timestamp": 77.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a blue screen with a gradient background. The title \"Netscape Communicator 4.79 Setup\" is present at the top. \n\nMissing UI Elements:\n- The welcome message recommending closing other programs is no longer visible.\n- The \"Next\" and \"Cancel\" buttons are not present in the screenshot. \n",
+        "screenshot": "frame-1235.png"
+    },
+    {
+        "frame": 1237,
+        "timestamp": 77.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blank blue window with a thin white border on a dark blue background. \n\nMissing UI Elements:\n- The welcome message is no longer visible.\n- The \"Next\" and \"Cancel\" buttons are no longer present. \n",
+        "screenshot": "frame-1237.png"
+    },
+    {
+        "frame": 1238,
+        "timestamp": 77.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a window titled \"Software License Agreement\". The window has a thin, dark gray border and a standard Windows 9x title bar with a close button on the right. The background of the window is light gray. The \"Next\" and \"Cancel\" buttons mentioned in the initial description are no longer present. \n",
+        "screenshot": "frame-1238.png"
+    },
+    {
+        "frame": 1239,
+        "timestamp": 77.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a window titled \"Software License Agreement\". The window has a dark blue title bar and a minimize, maximize, and close button in the top right corner. The background of the window is a light purple color.\n\nMissing UI Elements:\n- The welcome message and recommendation to close other programs are no longer present.\n- The \"Next\" and \"Cancel\" buttons are no longer visible. \n",
+        "screenshot": "frame-1239.png"
+    },
+    {
+        "frame": 1240,
+        "timestamp": 77.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a window titled \"Software License Agreement\" against a blue background with the title \"Netscape Communicator 4.79 Setup\". The window contains the Netscape Client Products End-User License Agreement, which is partially visible. The \"Next\" and \"Cancel\" buttons mentioned in the initial description are no longer present. \n",
+        "screenshot": "frame-1240.png"
+    },
+    {
+        "frame": 1241,
+        "timestamp": 77.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Netscape Communicator 4.79 Setup Software License Agreement window. The window contains the full text of the license agreement, which is scrollable. Three buttons are visible at the bottom of the window:\n\nNew UI Elements:\n- A window titled \"Software License Agreement\" is now visible. This window contains the text of the Netscape Client Products End-User License Agreement and a question asking the user if they accept the terms.\n- A \"Back\" button is visible. \n- A \"Yes\" button is visible.\n- A \"No\" button is visible.\n\nMissing UI Elements:\n- The welcome message is no longer displayed.\n- The \"Next\" button is not visible. \n- The \"Cancel\" button is not visible. \n",
+        "screenshot": "frame-1241.png"
+    },
+    {
+        "frame": 1254,
+        "timestamp": 78.375,
+        "event": {
+            "time": 78420,
+            "event": "mousedown",
+            "x": 514,
+            "y": 459,
+            "button": 0,
+            "frame": 1254,
+            "time_end": 78.42099999999999,
+            "frame_end": 1254
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"Software License Agreement\" window for Netscape Communicator 4.79. \n\nThe window presents the Netscape Client Products End-User License Agreement within a text box, with a scroll bar on the right side allowing the user to view the entire agreement. \n\nAt the bottom, the user is presented with a question: \"Do you accept all the terms of the preceding license agreement?\".  Three buttons provide the user with options: \n - \"< Back\": This button likely allows the user to return to a previous step in the installation process.\n - \"Yes\": This button, highlighted by the mouse cursor hovering over it, signifies the user's acceptance of the license agreement and proceeds with the installation. \n - \"No\": Selecting this button indicates the user's refusal of the license agreement, likely resulting in the cancellation of the installation process. \n",
+        "screenshot": "frame-1254-mousedown.png",
+        "screenshot_annotated": "frame-1254-mousedown-layout.png"
+    },
+    {
+        "frame": 1260,
+        "timestamp": 78.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 Setup window with the End-User License Agreement displayed in a text box. The \"Yes\" button is highlighted, indicating the mouse cursor is hovering over it. \n\nThe scroll bar, described as being on the right side of the text box, is not visible in the screenshot. \n",
+        "screenshot": "frame-1260.png"
+    },
+    {
+        "frame": 1261,
+        "timestamp": 78.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a mostly blank blue window titled \"Netscape Communicator 4.79 Setup\".\n\nMissing UI Elements:\n- The \"Software License Agreement\" window, including the text box containing the agreement and the scroll bar, is not present. \n\nNew UI Elements:\n- A small window at the bottom of the screen displays the message \"Caution: If you select No, Setup will close.\"\n- This window also contains three buttons: \"< Back\", \"Yes\", and \"No\". \n",
+        "screenshot": "frame-1261.png"
+    },
+    {
+        "frame": 1262,
+        "timestamp": 78.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a blue screen with the text \"Netscape Communicator 4.79\" and \"Setup\" at the top. \n\nThe following UI elements described in the initial state are missing:\n- The \"Software License Agreement\" window.\n- The text box containing the Netscape Client Products End-User License Agreement.\n- The scroll bar.\n- The question: \"Do you accept all the terms of the preceding license agreement?\".\n- The buttons: \"< Back\", \"Yes\", and \"No\". \n",
+        "screenshot": "frame-1262.png"
+    },
+    {
+        "frame": 1263,
+        "timestamp": 78.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a new window titled \"Setup Type\". The window is empty except for the title bar and a close button in the top right corner. \n\nMissing UI Elements:\n- The \"Software License Agreement\" window is no longer present. \n- The text box displaying the Netscape Client Products End-User License Agreement is gone.\n- The scroll bar that allowed the user to navigate the license agreement is not visible.\n- The question \"Do you accept all the terms of the preceding license agreement?\" is absent.\n- The buttons \"< Back\", \"Yes\", and \"No\" are not displayed. \n",
+        "screenshot": "frame-1263.png"
+    },
+    {
+        "frame": 1264,
+        "timestamp": 79.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a new window titled \"Setup Type\". The window has a plain, light brown background and a dark red title bar with a standard Windows 98 close button in the top right corner. \n\nMissing UI Elements:\n- The \"Software License Agreement\" window is no longer present.\n- The text box displaying the Netscape Client Products End-User License Agreement is gone.\n- The scroll bar that was on the right side of the license agreement text box is not visible.\n- The question \"Do you accept all the terms of the preceding license agreement?\" is absent.\n- The buttons labeled \"< Back\", \"Yes\", and \"No\" are not present. \n",
+        "screenshot": "frame-1264.png"
+    },
+    {
+        "frame": 1265,
+        "timestamp": 79.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Setup Type\" window for the Netscape Communicator 4.79 installation process. \n\nNew UI Elements:\n- The \"Setup Type\" window is now visible. This window features:\n    - The title \"Setup Type\".\n    - An illustration depicting a computer, CD-ROMs, and a globe.\n    - Two radio buttons for \"Typical\" and \"Custom\" installation types, each with a description. \n    - A field labeled \"Destination Directory\" displaying the path \"C:\\Program Files\\Netscape\\Communicator\".\n    - A \"Browse...\" button next to the destination directory field.\n    - Three buttons at the bottom: \"< Back\", \"Next >\", and \"Cancel\".\n\nMissing UI Elements:\n- The \"Software License Agreement\" window is no longer present. \n",
+        "screenshot": "frame-1265.png"
+    },
+    {
+        "frame": 1308,
+        "timestamp": 81.75,
+        "event": {
+            "time": 81770,
+            "event": "mousedown",
+            "x": 514,
+            "y": 459,
+            "button": 0,
+            "frame": 1308,
+            "time_end": 81.771,
+            "frame_end": 1308
+        },
+        "type": "event",
+        "label_clicked": "Next >",
+        "description": "The screenshot displays the \"Setup Type\" window for the Netscape Communicator 4.79 installation process. \n\nThe user is presented with two radio buttons for selecting the installation type:\n\n- **Typical (pre-selected):** This option, marked with a filled-in radio button, installs the software with the most common options. It's recommended for most users.\n- **Custom:** This option, marked with an empty radio button, allows users to choose specific options during installation. It's recommended for advanced users.\n\nBelow the installation type options, the \"Destination Directory\" field displays the pre-selected installation path: \"C:\\Program Files\\Netscape\\Communicator\". A \"Browse...\" button is available next to the path, allowing users to change the installation location if desired.\n\nAt the bottom of the window, three buttons offer navigation and action choices:\n\n- **< Back:** Allows the user to navigate back to the previous step of the installation process.\n- **Next >:** Proceeds to the next step of the installation process, applying the selected setup type and destination directory. The mouse cursor is hovering over this button, indicating it's ready for selection.\n- **Cancel:**  Aborts the installation process. \n",
+        "screenshot": "frame-1308-mousedown.png",
+        "screenshot_annotated": "frame-1308-mousedown-layout.png"
+    },
+    {
+        "frame": 1313,
+        "timestamp": 82.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 \"Setup Type\" window with a smaller window titled \"Verifying path. Please wait...\" overlaid on top of the main window. The mouse cursor is still hovering over the \"Next >\" button.\n\nNew UI Elements:\n- A smaller window titled \"Verifying path. Please wait...\" is now visible, partially obscuring the \"Typical\" and \"Custom\" installation type descriptions. This window features a progress animation of a file being copied. \n",
+        "screenshot": "frame-1313.png"
+    },
+    {
+        "frame": 1314,
+        "timestamp": 82.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 \"Setup Type\" window with a new dialog box titled \"Question\" layered on top. The dialog box informs the user that the chosen installation directory, \"C:\\Program Files\\Netscape\\Communicator\", does not exist and asks, \"Do you want the directory to be created?\". Two buttons, \"Yes\" and \"No\", are available for the user to respond. \n",
+        "screenshot": "frame-1314.png"
+    },
+    {
+        "frame": 1350,
+        "timestamp": 84.375,
+        "event": {
+            "time": 84387,
+            "event": "mousedown",
+            "x": 340,
+            "y": 361,
+            "button": 0,
+            "frame": 1350,
+            "time_end": 84.388,
+            "frame_end": 1350
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The installation wizard window titled \"Setup Type\" presents options for choosing the installation directory.  A \"Question\" dialogue box pops up, indicating the directory \"C:\\Program Files\\Netscape\\Communicator\" does not currently exist. The user is asked if they want to create this directory. \n\nThe following elements are present:\n\n* **\"Yes\" button:** Selecting this option will create the specified directory \"C:\\Program Files\\Netscape\\Communicator\" and proceed with the installation.\n* **\"No\" button:** Choosing this option will likely lead to a prompt for selecting a different directory for installation.\n* **Text field displaying \"C:\\Program Files\\Netscape\\Communicator\":** This field shows the currently selected installation directory.\n* **\"Browse...\" button:** Clicking this button will open a file browser window, allowing the user to manually choose a different installation directory by navigating through their system's folders. \n",
+        "screenshot": "frame-1350-mousedown.png",
+        "screenshot_annotated": "frame-1350-mousedown-layout.png"
+    },
+    {
+        "frame": 1355,
+        "timestamp": 84.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 installation wizard window titled \"Setup Type\". A dialogue box titled \"Verifying path - Please wait...\" is overlayed on the window. The dialogue box indicates that the directory \"C:\\Program Files\\Netscape\\Communicator\" does not exist and asks the user if they want to create it. \n\nThe following UI elements are new:\n\n- **Dialogue box titled \"Verifying path - Please wait...\"**: This dialogue box was not present in the initial description. It contains the text \"The directory 'C:\\Program Files\\Netscape\\Communicator' does not exist. Do you want the directory to be created?\".\n\nThe following UI elements have changed content:\n\n- **\"Setup Type\" window:** The main installation wizard window, while still present, now has the dialogue box overlayed on top of it, partially obscuring the content beneath. \n",
+        "screenshot": "frame-1355.png"
+    },
+    {
+        "frame": 1356,
+        "timestamp": 84.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Setup Type\" window of the Netscape Communicator 4.79 installation wizard. \n\nMissing UI Elements:\n- The \"Question\" dialogue box mentioned in the description is no longer present. \n\nContent Changes:\n- The area previously occupied by the radio buttons for \"Typical\" and \"Custom\" installation types now displays a message box stating \"Verifying path. Please wait...\". \n",
+        "screenshot": "frame-1356.png"
+    },
+    {
+        "frame": 1357,
+        "timestamp": 84.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Setup Type\" window of the Netscape Communicator 4.79 installation wizard. \n\nMissing UI Elements:\n- The \"Question\" dialogue box about the non-existent directory is no longer present.\n\nNew UI Elements: \n- A progress indicator with the text \"Verifying path. Please wait...\" is displayed below the \"Typical\" installation option. \n",
+        "screenshot": "frame-1357.png"
+    },
+    {
+        "frame": 1358,
+        "timestamp": 84.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 installation wizard window titled \"Setup Type\".  The user is prompted to select the desired installation type. \n\nMissing UI Elements:\n- The \"Question\" dialogue box is no longer present. \n\nNew UI Elements:\n- Two radio buttons, one labeled \"Typical\" and the other \"Custom\", are present, allowing the user to choose the installation type. \n-  \"Destination Directory\"  section with a text field displaying \"C:\\Program Files\\Netscape\\Communicator\" and a \"Browse...\" button next to it.\n- Three buttons: \"< Back\", \"Next >\", and \"Cancel\" are located at the bottom of the window. \n",
+        "screenshot": "frame-1358.png"
+    },
+    {
+        "frame": 1359,
+        "timestamp": 84.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 installation wizard window. The current step of the installation process is \"Choose Destination Directory\". The user can choose between a \"Custom\" installation, or input a \"Destination Directory\" for the installation. \n\nMissing UI Elements:\n\n* The \"Question\" dialogue box is no longer present. \n* The \"Yes\" and \"No\" buttons are not visible. \n",
+        "screenshot": "frame-1359.png"
+    },
+    {
+        "frame": 1360,
+        "timestamp": 85.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a blue screen with the text \"Netscape Communicator 4.79\" and \"Setup\" in the top left corner. A white mouse cursor is visible in the center of the screen.\n\nMissing UI Elements:\n* The \"Setup Type\" window is not present.\n* The \"Question\" dialogue box is not present.\n* The \"Yes\" button is not present.\n* The \"No\" button is not present.\n* The text field displaying \"C:\\Program Files\\Netscape\\Communicator\" is not present.\n* The \"Browse...\" button is not present. \n",
+        "screenshot": "frame-1360.png"
+    },
+    {
+        "frame": 1365,
+        "timestamp": 85.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a blue screen with the title \"Netscape Communicator 4.79 Setup\" at the top. A small dialog box labeled \"Verifying available space...\" with a computer icon is present in the center of the screen. The mouse cursor is hovering over the dialog box.\n\nMissing UI Elements:\n- The \"Setup Type\" window, including the \"Yes\" button, \"No\" button, text field, and \"Browse...\" button, is no longer present. \n\nNew UI Elements:\n- A dialog box with the text \"Verifying available space...\" and a computer icon is present. \n",
+        "screenshot": "frame-1365.png"
+    },
+    {
+        "frame": 1401,
+        "timestamp": 87.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a blue screen with the text \"Netscape Communicator 4.79\" and \"Setup\" in the top left corner. A white mouse cursor is visible in the center-right of the screen. \n\nMissing UI Elements:\n- The \"Setup Type\" window, \"Question\" dialogue box, \"Yes\" button, \"No\" button, text field displaying the directory, and \"Browse...\" button are not present. \n",
+        "screenshot": "frame-1401.png"
+    },
+    {
+        "frame": 1402,
+        "timestamp": 87.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a window titled \"Netscape Desktop Preference Options\". The window is empty. \n\nMissing UI Elements:\n* The \"Setup Type\" window is not visible.\n* The \"Question\" dialogue box related to the directory creation is no longer present.\n* The \"Yes\", \"No\", and \"Browse...\" buttons are missing.\n* The text field displaying \"C:\\Program Files\\Netscape\\Communicator\" is absent. \n",
+        "screenshot": "frame-1402.png"
+    },
+    {
+        "frame": 1403,
+        "timestamp": 87.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Netscape Communicator 4.79 installation wizard. The \"Setup Type\" window is no longer present. A new window titled \"Netscape Desktop Preference Options\" is visible. It contains a large empty area at the top with a dark blue section at the bottom. \n\nMissing UI Elements:\n* \"Setup Type\" window\n* \"Question\" dialogue box\n* \"Yes\" button\n* \"No\" button\n* Text field displaying \"C:\\Program Files\\Netscape\\Communicator\"\n* \"Browse...\" button \n\nNew UI Elements:\n* Window titled \"Netscape Desktop Preference Options\" \n",
+        "screenshot": "frame-1403.png"
+    },
+    {
+        "frame": 1404,
+        "timestamp": 87.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 installation wizard in a new stage. The window title is now \"Netscape Desktop Preference Options\". The user is presented with three checkboxes for setting Netscape as the default browser, homepage, and search engine. \n\nMissing UI Elements:\n\n* \"Setup Type\" window is no longer present.\n* The \"Question\" dialogue box related to the installation directory is not visible.\n* The \"Yes\", \"No\", and \"Browse...\" buttons are not present in the screenshot.\n* The text field displaying \"C:\\Program Files\\Netscape\\Communicator\" is no longer visible. \n",
+        "screenshot": "frame-1404.png"
+    },
+    {
+        "frame": 1405,
+        "timestamp": 87.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Netscape Desktop Preference Options\" window during the Netscape Communicator 4.79 installation process. This window allows the user to set preferences related to default browser settings and home page.\n\nNew UI Elements:\n- **Window titled \"Netscape Desktop Preference Options\":** This window contains options for setting Netscape as the default browser, home page, and search engine.\n- **Checkboxes:** Three checkboxes are present:\n    - \"Make Netscape Communicator my default Internet browser\"\n    - \"Make Netscape.com my home page\"\n    - \"Use Netscape.com to search the Web\" \n- **\"Back\" button:** This button likely allows the user to navigate back to a previous step in the installation process.\n- **\"Next>\" button:** This button likely advances the user to the next step in the installation process.\n\nMissing UI Elements:\n- The \"Question\" dialogue box regarding the creation of the directory \"C:\\Program Files\\Netscape\\Communicator\" is no longer visible.\n- The \"Yes\", \"No\", and \"Browse...\" buttons associated with the directory selection prompt are not present.\n- The text field displaying \"C:\\Program Files\\Netscape\\Communicator\" is absent from the screenshot. \n",
+        "screenshot": "frame-1405.png"
+    },
+    {
+        "frame": 1448,
+        "timestamp": 90.5,
+        "event": {
+            "time": 90540,
+            "event": "mousedown",
+            "x": 492,
+            "y": 453,
+            "button": 0,
+            "frame": 1448,
+            "time_end": 90.541,
+            "frame_end": 1448
+        },
+        "type": "event",
+        "label_clicked": "N>",
+        "description": "The screenshot displays the \"Netscape Desktop Preference Options\" window within the Netscape Communicator 4.79 installation process. The window presents three checkboxes for customizing default internet preferences:\n\n* **\"Make Netscape Communicator my default internet browser\"**: Selecting this option will make Netscape Communicator the primary browser used for opening web pages and internet shortcuts.\n* **\"Make Netscape.com my home page\"**:  This option sets Netscape.com as the website that automatically loads when Netscape Communicator is launched or a new browsing window is opened.\n* **\"Use Netscape.com to search the Web\"**: Enabling this option integrates Netscape's search engine with the browser, allowing users to perform web searches directly from the Netscape Communicator interface. \n\nAt the bottom of the window, three buttons offer navigation and control options:\n\n* **\"< Back\"**: This button likely allows the user to return to a previous step in the installation process. \n* **\"Next >\"**: This button, currently highlighted, likely advances the user to the next stage of the installation after saving any selected preferences. \n* **\"Cancel\"**:  Clicking this button would likely halt the installation process, closing the window and discarding any unsaved changes. \n",
+        "screenshot": "frame-1448-mousedown.png",
+        "screenshot_annotated": "frame-1448-mousedown-layout.png"
+    },
+    {
+        "frame": 1453,
+        "timestamp": 90.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Netscape Desktop Preference Options\" window, as described in the initial state. All three checkboxes: \"Make Netscape Communicator my default internet browser\", \"Make Netscape.com my home page\", and \"Use Netscape.com to search the Web\" are now ticked. The \"Next >\" button is no longer highlighted. \n",
+        "screenshot": "frame-1453.png"
+    },
+    {
+        "frame": 1454,
+        "timestamp": 90.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a window titled \"Netscape Communicator 4.79 Setup\".  The window contains instructions for setting default internet preferences and notes these settings will affect both Netscape Communicator and Microsoft Internet Explorer. \n\nMissing UI Elements:\n- The three checkboxes: \"Make Netscape Communicator my default internet browser\", \"Make Netscape.com my home page\", and \"Use Netscape.com to search the Web\" are not present in the screenshot. \n",
+        "screenshot": "frame-1454.png"
+    },
+    {
+        "frame": 1455,
+        "timestamp": 90.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a solid blue screen with the text \"Netscape Communicator 4.79\" and \"Setup\" in white font in the top left corner. \n\nMissing UI Elements:\n- The \"Netscape Desktop Preference Options\" window is not present.\n- The checkboxes for default internet preferences are not present.\n- The \"< Back\", \"Next >\", and \"Cancel\" buttons are not present. \n",
+        "screenshot": "frame-1455.png"
+    },
+    {
+        "frame": 1456,
+        "timestamp": 91.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a window titled \"Select Program Folder\" during the Netscape Communicator 4.79 installation process. The window features a large empty area, colored beige, likely intended for displaying directory structure and files. \n\nMissing UI Elements:\n- The \"Netscape Desktop Preference Options\" window, including the checkboxes for default internet preferences (\"Make Netscape Communicator my default internet browser\", \"Make Netscape.com my home page\", \"Use Netscape.com to search the Web\") and the navigation buttons (\"< Back\", \"Next >\", \"Cancel\"), is no longer present. \n",
+        "screenshot": "frame-1456.png"
+    },
+    {
+        "frame": 1457,
+        "timestamp": 91.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Select Program Folder\" window within the Netscape Communicator 4.79 installation process. This window prompts the user to select a destination folder for the program files. A text field labeled \"Program Folder:\" displays the pre-filled path \"Netscape Communicator\". An empty list box labeled \"Existing Folders:\" is present below the text field. \n\nThe following UI elements are not present in the provided description:\n\n- **\"Select Program Folder\" window:** This window, titled \"Select Program Folder\", is new and requests the user to specify an installation directory. \n- **\"Program Folder\" text field:** This field, titled \"Program Folder\", shows a pre-filled installation path.\n- **\"Existing Folders\" list box:** Located below the \"Program Folder\" text field, this list box is currently empty. \n\nThe \"Netscape Desktop Preference Options\" window described in the initial state is no longer present. The checkboxes for default internet preferences (\"Make Netscape Communicator my default internet browser\", \"Make Netscape.com my home page\", and \"Use Netscape.com to search the Web\") are also absent from the current screenshot. \n",
+        "screenshot": "frame-1457.png"
+    },
+    {
+        "frame": 1479,
+        "timestamp": 92.4375,
+        "event": {
+            "time": 92456,
+            "event": "mousedown",
+            "x": 505,
+            "y": 459,
+            "button": 0,
+            "frame": 1479,
+            "time_end": 92.457,
+            "frame_end": 1479
+        },
+        "type": "event",
+        "label_clicked": "Next",
+        "description": "The screenshot displays the \"Select Program Folder\" window within the Netscape Communicator 4.79 installation process. \n\nThe window features a text field labeled \"Program Folder:\", which currently displays \"Netscape Communicator\". This field allows the user to specify the installation directory for the software. Below, an empty list box titled \"Existing Folders:\" suggests the option to choose from a list of pre-existing folders, although none are currently displayed. \n\nAt the bottom of the window, three buttons provide navigation options:\n\n* **\"< Back\"**: Allows the user to return to the previous step of the installation process.\n* **\"Next >\"**: Proceeds to the next step of the installation, using the currently specified or selected program folder. The mouse cursor is hovering over this button, indicating the user's next action.\n* **\"Cancel\"**:  Aborts the installation process. \n",
+        "screenshot": "frame-1479-mousedown.png",
+        "screenshot_annotated": "frame-1479-mousedown-layout.png"
+    },
+    {
+        "frame": 1484,
+        "timestamp": 92.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a window with the title \"Netscape Communicator 4.79 Setup\" against a blue background. This window was not present in the initial description. \n\nThe elements described in the \"Select Program Folder\" window are missing. \n",
+        "screenshot": "frame-1484.png"
+    },
+    {
+        "frame": 1485,
+        "timestamp": 92.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blue screen with the text \"Netscape Communicator 4.79\" and \"Setup\" in white. \n\nMissing UI Elements:\n- The \"Select Program Folder\" window is not present.\n- The text field labeled \"Program Folder:\" is not present.\n- The list box titled \"Existing Folders:\" is not present. \n- The \"< Back\", \"Next >\", and \"Cancel\" buttons are not present. \n",
+        "screenshot": "frame-1485.png"
+    },
+    {
+        "frame": 1488,
+        "timestamp": 93.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a new window titled \"Start Copying Files\". This window is colored light purple with a darker purple title bar and features a standard Windows 98 window control for closing the window. The rest of the elements described in the initial state are no longer present. \n",
+        "screenshot": "frame-1488.png"
+    },
+    {
+        "frame": 1490,
+        "timestamp": 93.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 setup wizard in the \"Start Copying Files\" phase.\n\nMissing UI Elements:\n- The \"Select Program Folder\" window, the text field labeled \"Program Folder:\", the list box titled \"Existing Folders:\", and the \"< Back\" button are no longer present. \n\nNew UI Elements:\n- A window titled \"Start Copying Files\" is now visible.\n- The \"Next >\" button has been replaced with an \"Install\" button.\n- A large empty rectangular area with a scroll bar is present below the label \"Current Settings:\". \n",
+        "screenshot": "frame-1490.png"
+    },
+    {
+        "frame": 1491,
+        "timestamp": 93.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Start Copying Files\" window within the Netscape Communicator 4.79 installation process.  \n\nMissing UI Elements:\n- The \"Program Folder\" text field and the \"Existing Folders\" list box are no longer present. \n\nNew UI Elements:\n- A new window titled \"Start Copying Files\" is visible.\n- This window contains a text area explaining that setup is ready to begin copying files.\n- It also includes a section labeled \"Current Settings:\" displaying \"Typical\" as the chosen setup type. \n- A sub-section titled \"Component(s) to be installed:\" lists the individual components included in the Typical installation.\n- The \"Next >\" button has been replaced with an \"Install >\" button. \n",
+        "screenshot": "frame-1491.png"
+    },
+    {
+        "frame": 1492,
+        "timestamp": 93.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Start Copying Files\" window of the Netscape Communicator 4.79 installation process. This window informs the user that the setup has enough information to begin the installation. \n\nThe following elements are new:\n\n- The \"Start Copying Files\" window is now visible. It contains information about the next step in the installation process and provides options to proceed.\n- The window displays the text \"Setup has enough information to start copying the program files. If you want to review or change settings, click Back. If you are satisfied with the current settings, click Install to begin copying files.\"\n- A section labeled \"Current Settings:\" lists \"Setup type:\" as \"Typical\".\n- Below that, a list labeled \"Component(s) to be installed:\" displays various components included in the typical installation, such as \"Communicator 4.79\", \"Import Utility\", and \"RealPlayer 8 Basic\".\n-  The \"Next >\" button is replaced by an \"Install\" button. The mouse cursor is hovering over this button. \n\nThe following elements are no longer present:\n\n- The \"Select Program Folder\" window is no longer visible.\n- The text field labeled \"Program Folder:\" and its content \"Netscape Communicator\" are gone.\n- The list box titled \"Existing Folders:\" is not present. \n",
+        "screenshot": "frame-1492.png"
+    },
+    {
+        "frame": 1556,
+        "timestamp": 97.25,
+        "event": {
+            "time": 97287,
+            "event": "mousedown",
+            "x": 488,
+            "y": 460,
+            "button": 0,
+            "frame": 1556,
+            "time_end": 97.288,
+            "frame_end": 1556
+        },
+        "type": "event",
+        "label_clicked": "stall >",
+        "description": "The screenshot displays the \"Start Copying Files\" window of the Netscape Communicator 4.79 installation wizard. \n\nA text box at the top of the window informs the user that the setup has gathered enough information to begin copying files. It provides two options: clicking \"Back\" to review or change settings, or clicking \"Install\" to proceed with the current settings.\n\nThe \"Current Settings\" section displays \"Setup type: **Typical**\" indicating a standard installation is selected. A dropdown menu, currently minimized, is positioned below, likely offering alternative installation types. \n\nAt the bottom of the window, three buttons are visible:\n - **< Back:** Allows the user to navigate back to previous steps in the installation wizard.\n - **Install >:**  Initiates the file copying process with the currently selected settings.\n - **Cancel:**  Aborts the installation process. \n",
+        "screenshot": "frame-1556-mousedown.png",
+        "screenshot_annotated": "frame-1556-mousedown-layout.png"
+    },
+    {
+        "frame": 1560,
+        "timestamp": 97.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Start Copying Files\" window with the \"Setup type\" dropdown menu expanded, revealing a list of available installation types: \n\n- **Typical:**  This option appears to be selected, as indicated in the initial description.\n- **Compact:** Installs a minimal set of Netscape Communicator 4.79 components.\n- **Communicator 4.79**\n- **Import Utility**\n- **Addr. Book Palm Sync**\n- **RealPlayer 8 Basic**\n- **Winamp**\n- **Multimedia Support**\n- **Audio/Video Playback**\n- **Macromedia Flash Player**\n- **Beatnik Stub Plug-in** \n",
+        "screenshot": "frame-1560.png"
+    },
+    {
+        "frame": 1561,
+        "timestamp": 97.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot now shows the \"Start Copying Files\" window with the \"Setup type\" dropdown menu expanded, revealing a list of components to be installed. The list includes:\n\n- Communicator 4.79\n- Import Utility\n- Addr. Book Palm Sync\n- RealPlayer 8 Basic\n- Winamp\n- Multimedia Support\n- Macromedia Video Playback\n- Macromedia Flash Player\n- Beatnik Stub Plug-in \n\nThe rest of the window remains unchanged, with the \"Back\", \"Install >\", and \"Cancel\" buttons still visible at the bottom. \n",
+        "screenshot": "frame-1561.png"
+    },
+    {
+        "frame": 1562,
+        "timestamp": 97.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a mostly empty dialog window within the Netscape Communicator 4.79 Setup. The title bar and buttons at the bottom are visible, but the informative text box and \"Current Settings\" section described in the initial state are missing. \n",
+        "screenshot": "frame-1562.png"
+    },
+    {
+        "frame": 1563,
+        "timestamp": 97.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blue screen with the text \"Netscape Communicator 4.79\" and \"Setup\" at the top. \n\nMissing UI Elements:\n- The \"Start Copying Files\" window is not present.\n- The text box informing the user about the setup gathering information is not present.\n- The \"Back\" and \"Install\" buttons are not present.\n- The \"Current Settings\" section, including the \"Setup type: Typical\" and the dropdown menu, is not present.\n- The \"Cancel\" button at the bottom of the window is not present. \n",
+        "screenshot": "frame-1563.png"
+    },
+    {
+        "frame": 1565,
+        "timestamp": 97.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blue screen with the title \"Netscape Communicator 4.79 Setup\" at the top. \n\nMissing UI Elements:\n- The \"Start Copying Files\" window is not present.\n- The text box informing the user about the setup gathering information is not present.\n- The \"Back\" and \"Install\" buttons are not present.\n- The \"Current Settings\" section, including the \"Setup type\" and the dropdown menu, is not visible.\n- The \"Cancel\" button is not visible. \n\nNew UI Elements:\n- A small, blank, beige window with a blue title bar is present near the center of the screen. The title bar contains a blue icon depicting a floppy disk drive and a CD-ROM drive, and the letter \"F\".\n- A white mouse pointer is visible in the bottom right corner of the screen. \n",
+        "screenshot": "frame-1565.png"
+    },
+    {
+        "frame": 1646,
+        "timestamp": 102.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a mostly empty dialog window titled \"Setup\" against a blue gradient background.  The text box at the top of the window, the \"Current Settings\" section, and all three buttons described in the initial state are missing. A new, empty progress bar is present at the bottom of the window. \n",
+        "screenshot": "frame-1646.png"
+    },
+    {
+        "frame": 1657,
+        "timestamp": 103.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 installation wizard in progress. \n\nMissing UI Elements:\n- The \"Start Copying Files\" window, including the \"Back\" and \"Install\" buttons, the \"Current Settings\" section, and the dropdown menu, is no longer present. \n\nNew UI Elements:\n- A smaller window titled \"Setup\" is present at the bottom of the screen. \n- This window displays the text \"Installing Netscape Communicator 4.79 files...\"\n- A text box within this window shows \"js3240.dll\" indicating the file currently being installed.\n- A progress bar below the text box shows \"1%\" completion. \n- A single button labeled \"Cancel\" is visible within this new window. \n",
+        "screenshot": "frame-1657.png"
+    },
+    {
+        "frame": 1806,
+        "timestamp": 112.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot now displays a smaller window titled \"Setup\" in the bottom left corner, indicating the installation process has begun. \n\nMissing UI Elements:\n- The \"Start Copying Files\" window, including the \"Back\" and \"Install\" buttons, is no longer present. \n\nNew UI Elements:\n- A progress bar labeled \"30%\" indicates the installation progress.\n- The text \"Installing Netscape Communicator 4.79 files...\" informs the user about the ongoing process. \n- The text \"java\\classes\\ioptlo40.jar\" specifies the file being currently installed.\n- A \"Cancel\" button is available in the bottom right corner of the \"Setup\" window. \n",
+        "screenshot": "frame-1806.png"
+    },
+    {
+        "frame": 1807,
+        "timestamp": 112.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 installation in progress. \n\nMissing UI Elements:\n- The \"Start Copying Files\" window, including the \"Back\" and \"Install\" buttons, is no longer present. \n\nNew UI Elements:\n- A smaller window titled \"Setup\" is present, displaying the text \"Installing Netscape Communicator 4.79 files...\".\n- Within the \"Setup\" window, a progress bar indicating \"31%\" completion is visible. \n- A \"Cancel\" button is located below the progress bar. \n\nContent Changes:\n- The Netscape advertisement window remains visible but now overlaps the new \"Setup\" window. \n",
+        "screenshot": "frame-1807.png"
+    },
+    {
+        "frame": 1964,
+        "timestamp": 122.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot now shows the Netscape Communicator 4.79 installation in progress. \n\nMissing UI Elements:\n- The \"Start Copying Files\" window, including the \"Back\" and \"Install\" buttons, is no longer present.\n\nNew UI Elements:\n- A new window titled \"Setup\" has appeared. \n- This window displays the text \"Installing Real Player 8 Basic files...\"\n- The file \"nscpinst.exe\" is listed below the installation progress text.\n- A progress bar indicating \"57%\" is present. \n- A \"Cancel\" button is located at the bottom right of the window. \n",
+        "screenshot": "frame-1964.png"
+    },
+    {
+        "frame": 2116,
+        "timestamp": 132.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a new window titled \"Setup\" in the foreground. This window indicates that the Beatnik Stub Plug-in files are being installed. A progress bar shows the installation is at 84%. A single button \"Cancel\" is available in the window. \n\nThe following UI elements are no longer present:\n- The \"Start Copying Files\" window\n- The \"Back\" button\n- The \"Install\" button\n- The text box informing the user about the setup information.\n- The \"Current Settings\" section\n- The dropdown menu for alternative installation types. \n",
+        "screenshot": "frame-2116.png"
+    },
+    {
+        "frame": 2117,
+        "timestamp": 132.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a new window titled \"Setup\" in the bottom left corner, indicating the installation process is underway. \n\nMissing UI Elements:\n- The \"Start Copying Files\" window described in the initial state is no longer present.\n\nNew UI Elements:\n- A small window titled \"Setup\" is present.\n- Inside the \"Setup\" window, a text label reads \"Installing Beatnik Stub Plug-in files...\".\n- A progress bar is displayed below the text label, currently showing \"84%\".\n- A single button labeled \"Cancel\" is located at the bottom right of this window. \n",
+        "screenshot": "frame-2117.png"
+    },
+    {
+        "frame": 2668,
+        "timestamp": 166.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a plain blue screen with the text \"Netscape Communicator 4.79\" and \"Setup\" in the top left corner.  \n\nMissing UI Elements:\n- The \"Start Copying Files\" window is not present. \n- The text box informing the user about the setup gathering information is not visible.\n- The \"Back\" and \"Install\" buttons are not present.\n- The \"Current Settings\" section, including the \"Setup type\" and the dropdown menu, is not visible.\n- The \"Cancel\" button is not present.\n\nNew UI Elements:\n- An hourglass icon is displayed in the bottom right corner. \n",
+        "screenshot": "frame-2668.png"
+    },
+    {
+        "frame": 2699,
+        "timestamp": 168.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blue screen with the title \"Netscape Communicator 4.79 Setup\" at the top. \n\nMissing UI Elements:\n- The \"Start Copying Files\" window, text box, \"Current Settings\" section, dropdown menu, and the \"Back\", \"Install\", and \"Cancel\" buttons are no longer present. \n\nNew UI Elements:\n- A small dialog box with a computer and CD icon has appeared. The text within the dialog box reads \"Please wait, configuring RealPlayer 8 Basic...\".\n- An animated hourglass icon is visible in the bottom right corner, indicating an ongoing process. \n",
+        "screenshot": "frame-2699.png"
+    },
+    {
+        "frame": 3198,
+        "timestamp": 199.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a blank blue screen with a gradient darkening towards the bottom. The title \"Netscape Communicator 4.79 Setup\" is no longer present. \n\nMissing UI Elements:\n- The \"Start Copying Files\" window is not visible.\n- The text box informing the user about the setup gathering information is gone.\n- The \"Back\" and \"Install\" buttons are not present.\n- The \"Current Settings\" section, including the \"Setup type\" and the dropdown menu, is missing.\n- The \"Cancel\" button is absent.\n\nNew UI Elements:\n- An hourglass icon is displayed near the bottom right corner of the screen. \n",
+        "screenshot": "frame-3198.png"
+    },
+    {
+        "frame": 3220,
+        "timestamp": 201.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blue screen with the title \"Netscape Communicator 4.79 Setup\" at the top. \n\nMissing UI Elements: \n- The \"Start Copying Files\" window is no longer present.\n- The text box informing the user about the setup gathering information is gone.\n- The options \"Back\" and \"Install\" are not visible.\n- The \"Current Settings\" section, including the \"Setup type\" and the dropdown menu, is not displayed.\n- The buttons \"< Back\", \"Install >\", and \"Cancel\" are absent. \n\nNew UI Elements:\n- A small dialog box containing an icon of a computer and the text \"Please wait, configuring AOD...\" is present near the center of the screen.\n- An animated hourglass icon, indicating an ongoing process, is visible in the bottom right corner. \n",
+        "screenshot": "frame-3220.png"
+    },
+    {
+        "frame": 3260,
+        "timestamp": 203.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blank blue screen with the text \"Netscape Communicator 4.79\" and \"Setup\" in the top left corner. \n\nMissing UI Elements: \n- The \"Start Copying Files\" window is not present.\n- The text box informing the user about the setup gathering information is not visible.\n- The \"Back\" and \"Install\" buttons are not present.\n- The \"Current Settings\" section, including the \"Setup type\" and the dropdown menu, is not displayed.\n- The \"Cancel\" button is not visible.\n\nNew UI Elements:\n- An animated hourglass icon is displayed in the bottom right corner, indicating an ongoing process. \n",
+        "screenshot": "frame-3260.png"
+    },
+    {
+        "frame": 3291,
+        "timestamp": 205.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blank, dark blue window with the title bar reading \"Netscape Communicator 4.79\". A close button (marked with an X) is visible in the top right corner of this window. \n\nMissing UI Elements:\n- The \"Start Copying Files\" window described in the initial state is NOT present.\n- The text box informing the user about the setup gathering information is NOT present.\n- The \"Back\" and \"Install\" buttons are NOT present.\n- The \"Current Settings\" section, including the \"Setup type: Typical\" and the dropdown menu, is NOT present.\n- The \"Cancel\" button is NOT present. \n",
+        "screenshot": "frame-3291.png"
+    },
+    {
+        "frame": 3292,
+        "timestamp": 205.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a dialog box titled \"Question\" against a blue background with the Netscape Communicator 4.79 Setup title in the top left corner. The dialog box contains two buttons: \"Yes\" and \"No\". \n\nMissing UI Elements:\n- The \"Start Copying Files\" window is not present.\n- The text box informing the user about the setup gathering information is not present.\n- The \"Back\" and \"Install\" buttons are not present.\n- The \"Current Settings\" section and its dropdown menu are not present.\n- The \"Cancel\" button is not present. \n",
+        "screenshot": "frame-3292.png"
+    },
+    {
+        "frame": 3348,
+        "timestamp": 209.25,
+        "event": {
+            "time": 209308,
+            "event": "mousedown",
+            "x": 436,
+            "y": 348,
+            "button": 0,
+            "frame": 3348,
+            "time_end": 209.309,
+            "frame_end": 3348
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays a dialog box titled \"Question\" during the Netscape Communicator 4.79 setup process. The dialog box presents the user with the question \"Would you like to view the README file now?\". \n\nTwo buttons, \"Yes\" and \"No\", are available for the user to choose from. The mouse cursor is currently hovering over the \"No\" button. \n\nClicking \"Yes\" will likely open the README file, providing additional information about the software. Clicking \"No\" will continue the installation process without displaying the README file. \n",
+        "screenshot": "frame-3348-mousedown.png",
+        "screenshot_annotated": "frame-3348-mousedown-layout.png"
+    },
+    {
+        "frame": 3355,
+        "timestamp": 209.6875,
+        "event": null,
+        "type": "change",
+        "description": "Missing UI Elements: The dialog box titled \"Question\" is not present. The buttons \"Yes\" and \"No\" are not present. \n",
+        "screenshot": "frame-3355.png"
+    },
+    {
+        "frame": 3358,
+        "timestamp": 209.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot is a solid blue background. \n\nMissing UI Elements:\n- The \"Question\" dialog box is not present. \n- The \"Yes\" and \"No\" buttons are not present. \n- The mouse cursor is not visible. \n",
+        "screenshot": "frame-3358.png"
+    },
+    {
+        "frame": 3360,
+        "timestamp": 210.0,
+        "event": null,
+        "type": "change",
+        "description": "- Missing UI Elements: The dialog box titled \"Question\" is no longer present. The buttons \"Yes\" and \"No\" are no longer present. \n\n- New UI Elements: There is a dialog box titled \"Information\" with an \"i\" icon. The body text reads \"Setup is complete. You may run Netscape Communicator 4.79 by double-clicking on one of the icons in the folder.\" There is an \"OK\" button. \n",
+        "screenshot": "frame-3360.png"
+    },
+    {
+        "frame": 3419,
+        "timestamp": 213.6875,
+        "event": {
+            "time": 213691,
+            "event": "mousedown",
+            "x": 416,
+            "y": 340,
+            "button": 0,
+            "frame": 3419,
+            "time_end": 213.692,
+            "frame_end": 3419
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays a dialog box titled \"Information\" against a blue background with the title \"Netscape Communicator 4.79 Setup\". The dialog box contains the message \"Setup is complete. You may run Netscape Communicator 4.79 by double-clicking on one of the icons in the folder.\" and a single button labeled \"OK\". An information icon (blue circle with a white 'i') is displayed to the left of the message. The user can click the \"OK\" button to acknowledge the completion of the setup process and close the dialog box. \n",
+        "screenshot": "frame-3419-mousedown.png",
+        "screenshot_annotated": "frame-3419-mousedown-layout.png"
+    },
+    {
+        "frame": 3423,
+        "timestamp": 213.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blue screen with the text \"Netscape Communicator 4.79\" and \"Setup\" at the top. \n\nMissing UI Elements:\n- The dialog box titled \"Information\" is not present. \n- The message \"Setup is complete. You may run Netscape Communicator 4.79 by double-clicking on one of the icons in the folder.\" is not present.\n- The information icon (blue circle with a white 'i') is not present.\n- The button labeled \"OK\" is not present. \n",
+        "screenshot": "frame-3423.png"
+    },
+    {
+        "frame": 3427,
+        "timestamp": 214.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a blue background with the text \"Netscape Communicator 4.79\" and \"Setup\". \n\nMissing UI Elements:\n- The \"Information\" dialog box is not present. \n",
+        "screenshot": "frame-3427.png"
+    },
+    {
+        "frame": 3434,
+        "timestamp": 214.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a blue screen with the title \"Netscape Communicator 4.79 Setup\" at the top. \n\nMissing UI Elements:\n- The \"Information\" dialog box is not present. \n",
+        "screenshot": "frame-3434.png"
+    },
+    {
+        "frame": 3435,
+        "timestamp": 214.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an empty dialog box titled \"Netscape Communicator 4.79 Setup\" against a blue background. The dialog box has minimize, maximize, and close buttons. A mouse cursor is visible in the lower center of the screen. \n\nMissing UI Elements:\n- The dialog box does not contain the message \"Setup is complete. You may run Netscape Communicator 4.79 by double-clicking on one of the icons in the folder.\", the \"OK\" button, or the information icon. \n",
+        "screenshot": "frame-3435.png"
+    },
+    {
+        "frame": 3436,
+        "timestamp": 214.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an empty maximized window against a blue background. The title bar reads \"Cdrom (D:)\" and contains the standard minimize, maximize, and close buttons. \n\nMissing UI Elements:\n- The \"Information\" dialog box is not present. \n- The \"Netscape Communicator 4.79 Setup\" title is not visible. \n",
+        "screenshot": "frame-3436.png"
+    },
+    {
+        "frame": 3437,
+        "timestamp": 214.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an empty window with the title \"Cdrom (D:)\" against a blue background. The text \"Netscape Communicator 4.79\" and \"Setup\" are in the top left corner of the screen. \n\nMissing UI Elements:\n- The dialog box titled \"Information\" is not present. \n- The button labeled \"OK\" is not present. \n- The information icon (blue circle with a white 'i') is not present. \n- The message \"Setup is complete. You may run Netscape Communicator 4.79 by double-clicking on one of the icons in the folder.\" is not present. \n",
+        "screenshot": "frame-3437.png"
+    },
+    {
+        "frame": 3438,
+        "timestamp": 214.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a window titled \"Cdrom (D:)\" against a blue background with the title \"Netscape Communicator 4.79 Setup\". The window contains an address bar labeled \"Address\". \n\nMissing UI Elements:\n- The dialog box titled \"Information\" is not present. \n- The button labeled \"OK\" is not present. \n- The information icon (blue circle with a white 'i') is not present. \n",
+        "screenshot": "frame-3438.png"
+    },
+    {
+        "frame": 3440,
+        "timestamp": 215.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an open \"My Computer\" window with the \"Cdrom (D:)\" directory open. The window's title bar reads \"Cdrom (D:)\" and displays the standard minimize, maximize, and close buttons.  Below the title bar, a navigation bar allows the user to go back, forward, and shows the current directory as \"D:\\\".  The main area of the window is filled with a solid blue background. \n\nMissing UI Elements:\n- The \"Information\" dialog box is not present. \n",
+        "screenshot": "frame-3440.png"
+    },
+    {
+        "frame": 3441,
+        "timestamp": 215.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays an open \"My Computer\" window with the title bar reading \"Cdrom (D:)\". The window's main pane is filled with a solid blue background. The address bar, located below the toolbar, displays \"D:\\\".  Missing is the \"Information\" dialog box. \n",
+        "screenshot": "frame-3441.png"
+    },
+    {
+        "frame": 3443,
+        "timestamp": 215.1875,
+        "event": null,
+        "type": "change",
+        "description": "Missing UI Elements:\n- The dialog box titled \"Information\" is no longer present. \n",
+        "screenshot": "frame-3443.png"
+    },
+    {
+        "frame": 3446,
+        "timestamp": 215.375,
+        "event": null,
+        "type": "change",
+        "description": "Missing UI Elements: \n- The dialog box titled \"Information\" is not present. \n\nThe screenshot shows the Windows 98 desktop with an open \"My Computer\" window. The active window displays the contents of \"Cdrom (D:)\". The background is a solid gray color. The taskbar is visible at the bottom and displays the time as 7:25 AM. \n",
+        "screenshot": "frame-3446.png"
+    },
+    {
+        "frame": 3447,
+        "timestamp": 215.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays an open \"My Computer\" window with the \"Cdrom (D:)\" drive selected. The window occupies the left side of the screen and displays the contents of the D: drive, which appears to be empty.  The previously described \"Information\" dialog box is not present. \n",
+        "screenshot": "frame-3447.png"
+    },
+    {
+        "frame": 3460,
+        "timestamp": 216.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with \"My Computer\" open to the D: drive. The \"My Computer\" window occupies the left side of the screen, and a window titled \"Cdrom (D:)\" is open beside it, displaying the contents of the D: drive. The file \"cc32d479\" is visible within the \"Cdrom (D:)\" window.\n\nThe dialog box titled \"Information\" described in the initial state is NOT present in the screenshot. \n",
+        "screenshot": "frame-3460.png"
+    },
+    {
+        "frame": 3465,
+        "timestamp": 216.5625,
+        "event": null,
+        "type": "change",
+        "description": "Missing UI Elements: The dialog box titled \"Information\" is not present in the screenshot. \n",
+        "screenshot": "frame-3465.png"
+    },
+    {
+        "frame": 3469,
+        "timestamp": 216.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a blank Netscape Communicator window with a gray background. \n\nMissing UI Elements:\n- The \"Information\" dialog box is no longer present. \n",
+        "screenshot": "frame-3469.png"
+    },
+    {
+        "frame": 3488,
+        "timestamp": 218.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 application open on the desktop. The application window has a pale pink interface with a menu bar containing \"File, Edit, View, Go, Favorites, Help\" options. Below, a toolbar displays icons for actions like \"Back, Forward, Up, Cut, Copy, Paste, Undo, Delete\". An \"Address\" bar is present below the toolbar. The main area of the application window is blank.\n\nMissing UI Elements: \n- The \"Information\" dialog box is no longer present. \n",
+        "screenshot": "frame-3488.png"
+    },
+    {
+        "frame": 3499,
+        "timestamp": 218.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 application window maximized on a grey desktop. The application window has a white content area with the address bar displaying \"C:\\WINDOWS\\Start Menu\\Programs\\Netscape Communicator\". The taskbar displays the time as 7:25 AM. \n\nMissing UI Elements:\n- The \"Information\" dialog box is not present. \n\nNew UI Elements:\n- The Netscape Communicator 4.79 application window is now visible. It features standard window controls like minimize, maximize, and close buttons, a menu bar with options like File, Edit, View, Go, Favorites, and Help, an address bar, and a blank white content area. \n- The taskbar shows a \"Netscape Co...\" button indicating an open application. \n",
+        "screenshot": "frame-3499.png"
+    },
+    {
+        "frame": 3515,
+        "timestamp": 219.6875,
+        "event": {
+            "time": 219.711,
+            "event": "mousedrag",
+            "x": 489,
+            "y": 22,
+            "x_end": 511,
+            "y_end": 169,
+            "frame": 3515,
+            "time_end": 221.463,
+            "frame_end": 3543
+        },
+        "type": "event",
+        "description": "The screenshot displays a Netscape Communicator window open on a Windows 98 desktop. The window, titled \"Netscape Communicator\", occupies the left portion of the screen and features a standard menu bar with options for \"File,\" \"Edit,\" \"View,\" \"Go,\" \"Favorites,\" and \"Help.\" Below the menu bar is a toolbar with navigation buttons such as \"Back,\" \"Forward,\" and \"Up,\" along with buttons for actions like \"Cut,\" \"Copy,\" \"Paste,\" \"Undo,\" and \"Delete.\"\n\nThe main section of the Netscape Communicator window is blank, except for the \"Address\" field directly below the toolbar. This field displays the current directory path: \"C:\\WINDOWS\\Start Menu\\Programs\\Netscape Communicator\". \n\nAt the bottom of the screen, the Windows 98 taskbar is visible. The \"Start\" button resides on the left, while the system tray with the current time (7:25 AM) is on the right.  An open \"My Computer\" window displays the contents of the \"Cdrom (D:)\" drive.  The filename \"Netscape Co...\" is partially obscured. \n",
+        "screenshot": "frame-3515-mousedrag.png",
+        "screenshot_annotated": "frame-3515-mousedrag-layout.png"
+    },
+    {
+        "frame": 3543,
+        "timestamp": 221.4375,
+        "event": null,
+        "type": "end-drag",
+        "description": "The screenshot shows the Netscape Communicator application window maximized, covering the \"My Computer\" window.  The \"Netscape Communicator\" title bar is now a darker shade of pink. The main section of the window displays a large \"Netscape Communica\" graphic. The \"My Computer\" window is still visible in the task bar at the bottom of the screen. \n",
+        "screenshot": "frame-3543.png"
+    },
+    {
+        "frame": 3548,
+        "timestamp": 221.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator installation window open on top of the Netscape Communicator application window. The installation window obscures most of the application window, but the  \"Address\" field and a portion of the toolbar are still visible. \n\nThe installation window has a pink title bar that reads \"Netscape Communica\" and a blue banner displaying the Netscape logo. Below the banner, the text \"Select an item to view its description.\" is visible. \n\nThe \"My Computer\" window is no longer visible. \n",
+        "screenshot": "frame-3548.png"
+    },
+    {
+        "frame": 3598,
+        "timestamp": 224.875,
+        "event": {
+            "time": 224909,
+            "event": "mousedown",
+            "x": 495,
+            "y": 15,
+            "button": 0,
+            "frame": 3598,
+            "time_end": 224.91,
+            "frame_end": 3598
+        },
+        "type": "event",
+        "label_clicked": "-0x",
+        "description": "The screenshot displays an open window titled \"Netscape Communicator\" within the Windows 98 operating system. This window represents the \"Netscape Communicator\" folder located within the \"Start Menu\\Programs\" directory. \n\nWithin this window:\n\n- **Address bar:** Shows the current directory path: \"C:\\WINDOWS\\Start Menu\\Programs\\Netscape Communicator\". \n- **Folder contents:** Several icons representing shortcuts to different components of Netscape Communicator, such as \"Netscape Navigator\" and \"Netscape Messenger\", are visible. \n- **Instructional text:**  \"Select an item to view its description.\" suggests hovering the mouse cursor over an icon will display a brief description of its function.\n\nThe presence of other standard window elements like the **title bar**, **menu bar** (with options like File, Edit, View, etc.), and **navigation buttons** (Back, Forward) indicates the user can interact with this window like any other folder within the Windows operating system. \n\nNotably, the screenshot captures the state immediately after installation and before the user has interacted with any of the installed Netscape Communicator components. \n",
+        "screenshot": "frame-3598-mousedown.png",
+        "screenshot_annotated": "frame-3598-mousedown-layout.png"
+    },
+    {
+        "frame": 3605,
+        "timestamp": 225.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an open window titled \"Cdrom (D:)\". It seems to display the contents of the CD-ROM drive.\n\n**Missing UI Elements:**\n\n- The \"Netscape Communicator\" window, previously described as open, is no longer present. \n\n**New UI Elements:**\n\n- A window titled \"Cdrom (D:)\" is now visible. It contains icons labeled \"Palm Tools\", \"Utilities\", \"AOL Instant Messeng...\", \"AOL Instant M...\", \"Free AOL & Unlimited...\", \"Netscape Composer\", \"Netscape Messenger\", \"Netscape Navigator\", and \"Winamp\".\n\n**Content Changes:**\n\n- The taskbar now shows an active window titled \"Netscape Co...\". \n- The \"Cdrom (D:)\" icon on the taskbar is highlighted. \n",
+        "screenshot": "frame-3605.png"
+    },
+    {
+        "frame": 3606,
+        "timestamp": 225.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an open window titled \"Cdrom (D:)\". It appears to be the D: drive window within the Windows 98 operating system. \n\nNew UI Elements:\n- A window titled \"Cdrom (D:)\" is now visible. It contains icons labeled \"Free AOL & Unlimited...\", \"Netscape Composer\", \"Netscape Messenger\", \"Netscape Navigator\", and \"Winamp\".\n\nMissing UI Elements:\n- The \"Netscape Communicator\" window, previously described as open, is no longer present. \n",
+        "screenshot": "frame-3606.png"
+    },
+    {
+        "frame": 3607,
+        "timestamp": 225.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows 98 desktop with an open window titled \"Cdrom (D:)\". The window occupies a prominent position on the screen, overlapping the \"Netscape Communicator\" folder icon on the desktop. \n\nNew UI Elements:\n- A window titled \"Cdrom (D:)\" is now visible. It contains icons labeled \"unica\", \"Free AOL & Unlimited...\", \"Netscape Composer\", \"Netscape Messenger\", \"Netscape Navigator\", and \"Winamp\".\n\nMissing UI Elements: \n- The \"Netscape Communicator\" window, previously described as open, is no longer present. \n",
+        "screenshot": "frame-3607.png"
+    },
+    {
+        "frame": 3608,
+        "timestamp": 225.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with an open \"Cdrom (D:)\" window. This window displays the contents of the CD-ROM drive, which includes several files and folders. \n\nNew UI Elements:\n- A window titled \"Cdrom (D:)\" is now visible. \n- This window contains icons representing various files and folders, including \"Free AOL & Unlimited...,\" \"Netscape Composer,\" \"Netscape Messenger,\" \"Netscape Navigator,\" and \"Winamp.\"\n\nMissing UI Elements:\n- The \"Netscape Communicator\" window, previously described as being open, is no longer present. \n",
+        "screenshot": "frame-3608.png"
+    },
+    {
+        "frame": 3609,
+        "timestamp": 225.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the contents of the \"Cdrom (D:)\" drive open in a window. \n\nNew UI Elements:\n- A window titled \"Cdrom (D:)\" is now visible. This window contains icons for various files and applications, including \"Free AOL & Unlimited...,\" \"Netscape Composer,\" \"Netscape Messenger,\" \"Netscape Navigator,\" and \"Winamp.\" \n\nMissing UI Elements:\n- The \"Netscape Communicator\" window, previously described as open, is no longer present. \n",
+        "screenshot": "frame-3609.png"
+    },
+    {
+        "frame": 3610,
+        "timestamp": 225.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with an open window titled \"Cdrom (D:)\". The \"Cdrom (D:)\" window displays several icons representing files and folders.\n\n**New UI Elements:**\n\n- A window titled \"Cdrom (D:)\" is now visible. This window contains icons labeled \"Free AOL & Unlimited...\", \"Netscape Composer\", \"Netscape Messenger\", \"Netscape Navigator\", and \"Winamp\".\n\n**Missing UI Elements:**\n\n- The \"Netscape Communicator\" window, previously described as being open, is no longer present.\n\n**Content Changes:**\n\n- The taskbar now includes a button labeled \"Cdrom (D:)\", indicating the new window is open and active. \n",
+        "screenshot": "frame-3610.png"
+    },
+    {
+        "frame": 3614,
+        "timestamp": 225.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an open window titled \"Cdrom (D:)\". It appears to be the main window for browsing the contents of the D: drive. \n\n- **New UI Elements:**\n    - A window titled \"Cdrom (D:)\" is now visible. This window displays the contents of the D: drive, including a file named \"cc32d479\" represented by an icon resembling a cardboard box.\n- **Missing UI Elements:** \n    - The \"Netscape Communicator\"  window, previously described as open, is no longer present. \n- **Content Changes:**\n    - The taskbar now shows a button labeled \"Cdrom (D:)\", indicating the window is active. \n",
+        "screenshot": "frame-3614.png"
+    },
+    {
+        "frame": 3651,
+        "timestamp": 228.1875,
+        "event": {
+            "time": 228190,
+            "event": "mousedown",
+            "x": 498,
+            "y": 106,
+            "button": 0,
+            "frame": 3651,
+            "time_end": 228.191,
+            "frame_end": 3651
+        },
+        "type": "event",
+        "label_clicked": "-0x",
+        "description": "The screenshot shows an open window titled \"Cdrom (D:)\" within the Windows 98 operating system. The window displays the contents of the D: drive, which includes a single file named \"cc32d479\".  This file is identifiable as an InstallShield self-extracting executable file by its icon.  The user does not have any other windows or menus open. \n",
+        "screenshot": "frame-3651-mousedown.png",
+        "screenshot_annotated": "frame-3651-mousedown-layout.png"
+    },
+    {
+        "frame": 3657,
+        "timestamp": 228.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Cdrom (D:)\" window in the Windows 98 operating system. The window now contains no files. \n\nMissing UI Elements: The file named \"cc32d479\" is no longer present. \n",
+        "screenshot": "frame-3657.png"
+    },
+    {
+        "frame": 3658,
+        "timestamp": 228.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop. The \"Cdrom (D:)\" window is no longer present. A new icon labeled \"Netscape Communicator\" is visible on the desktop. \n",
+        "screenshot": "frame-3658.png"
+    },
+    {
+        "frame": 3666,
+        "timestamp": 229.125,
+        "event": {
+            "time": 229159,
+            "event": "mousedown",
+            "x": 438,
+            "y": 300,
+            "button": 0,
+            "frame": 3666,
+            "time_end": 229.16,
+            "frame_end": 3666
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the Windows 98 desktop. The mouse cursor, represented by a white arrow, is positioned in the center of the screen, indicating user inactivity at this moment. \n",
+        "screenshot": "frame-3666-mousedown.png",
+        "screenshot_annotated": "frame-3666-mousedown-layout.png"
+    },
+    {
+        "frame": 3699,
+        "timestamp": 231.1875,
+        "event": {
+            "time": 231.453,
+            "event": "doubleclick",
+            "x": 38,
+            "y": 325,
+            "frame": 3699,
+            "time_end": 231.453,
+            "frame_end": 3703
+        },
+        "type": "event",
+        "label_clicked": "N",
+        "description": "The screenshot shows the Windows 98 desktop. A mouse cursor is hovering over the \"Netscape Communicator\" shortcut icon. The icon features the Netscape \"N\" logo. This suggests the user is about to interact with this shortcut, likely to launch the application. \n",
+        "screenshot": "frame-3699-doubleclick.png",
+        "screenshot_annotated": "frame-3699-doubleclick-layout.png"
+    },
+    {
+        "frame": 3726,
+        "timestamp": 232.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows 98 desktop with an empty window titled \"Creating a New Profile\" in the center. The window has a standard window frame with a title bar and a close button in the top right corner. An hourglass icon, indicating the system is busy, is displayed in the middle of the window. The mouse cursor is no longer hovering over the Netscape Communicator shortcut. \n\nNew UI Elements:\n- A window titled \"Creating a New Profile\" is now visible. \n- An hourglass icon is displayed within the window. \n\nMissing UI Elements:\n- The mouse cursor is no longer hovering over the \"Netscape Communicator\" shortcut. \n",
+        "screenshot": "frame-3726.png"
+    },
+    {
+        "frame": 3728,
+        "timestamp": 233.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with a window titled \"Creating a New Profile\" covering the right portion of the screen. The window has a dark grey title bar with a maroon border and a close button in the top right corner. The rest of the window is filled with a light grey background. The taskbar shows a minimized window labeled \"Creating a New...\". \nThe mouse cursor is no longer visible. \n",
+        "screenshot": "frame-3728.png"
+    },
+    {
+        "frame": 3730,
+        "timestamp": 233.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a window titled \"Creating a New Profile\" with a pink background covering the right portion of the screen. The window displays the text \"Creating a New Profile\" in bold, followed by \"Communicator stores information about your settings, preferences, bookmarks,\". The mouse cursor is not visible in this screenshot.\n- New UI Elements: A window titled \"Creating a New Profile\" is now visible.\n- Missing UI Elements: The mouse cursor is no longer visible. \n",
+        "screenshot": "frame-3730.png"
+    },
+    {
+        "frame": 3731,
+        "timestamp": 233.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with a dialog window titled \"Creating a New Profile\" in the foreground. The window has a pink background and displays information about user profiles in Netscape Communicator. There are buttons for \"Back\", \"Next>\", \"Finish\", and \"Cancel\" at the bottom of the window. \n\nNew UI Elements:\n- A dialog window titled \"Creating a New Profile\" is now visible. \n\nMissing UI Elements:\n- The mouse cursor is no longer visible. \n",
+        "screenshot": "frame-3731.png"
+    },
+    {
+        "frame": 3775,
+        "timestamp": 235.9375,
+        "event": {
+            "time": 235991,
+            "event": "mousedown",
+            "x": 410,
+            "y": 453,
+            "button": 0,
+            "frame": 3775,
+            "time_end": 235.992,
+            "frame_end": 3775
+        },
+        "type": "event",
+        "label_clicked": "Next>",
+        "description": "A dialog box titled \"Creating a New Profile\" is displayed, providing information about user profiles within Netscape Communicator. The user is informed about the purpose of profiles, which is to store settings, preferences, and bookmarks separately for different users or usage scenarios. \n\nThe dialog box presents the following buttons:\n\n* **< Back:** This button likely allows the user to navigate back to a previous step in the installation process. However, its availability or functionality cannot be confirmed from the screenshot alone.\n* **Next >:** This button, highlighted by the mouse cursor hovering over it, indicates the next step in the profile creation process. Clicking this button will likely advance the user to further customize their new profile.\n* **Finish:** This button is currently inactive, suggesting it will become active once the necessary profile information has been provided in subsequent steps. \n* **Cancel:** This button allows the user to abort the installation process. \n\nThe user is prompted to click \"Next\" to proceed with creating their new profile. \n",
+        "screenshot": "frame-3775-mousedown.png",
+        "screenshot_annotated": "frame-3775-mousedown-layout.png"
+    },
+    {
+        "frame": 3782,
+        "timestamp": 236.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a Windows 98 desktop with a dialog box titled \"Enter your Name and Email Address\". The dialog box is part of the Netscape Communicator 4.79 installation process. \n\nContent Changes:\n- The dialog box title has changed from \"Creating a New Profile\" to \"Enter your Name and Email Address\".\n- The main text instruction in the dialog box now reads \"To begin creating your profile, click Next.\" instead of informing about user profiles. \n\nMissing UI Elements:\n- The description mentioned a \"< Back\" button, which is not present in the current dialog box. \n",
+        "screenshot": "frame-3782.png"
+    },
+    {
+        "frame": 3783,
+        "timestamp": 236.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a Windows 98 desktop with a dialog box titled \"Enter your Name and Email Address\" overlayed. This dialog box is part of the Netscape Communicator 4.79 installation process. \n\nThe dialog box prompts the user to enter their full name and email address in two separate text fields. \n\nContent Changes:\n- The dialog box title has changed from \"Creating a New Profile\" to \"Enter your Name and Email Address\".\n- The main text content within the dialog box is now requesting the user's full name and email address.\n- The two text fields for \"Full Name\" and \"Email Address\" now contain pre-filled example text (\"e.g. John Smith\" and \"e.g. jsmith@company.com\" respectively). \n- The \"Finish\" button remains inactive. \n",
+        "screenshot": "frame-3783.png"
+    },
+    {
+        "frame": 3842,
+        "timestamp": 240.125,
+        "event": {
+            "time": 240230,
+            "event": "keyspressed",
+            "keys": [
+                "Shift_L",
+                "B"
+            ],
+            "frame": 3842,
+            "time_end": 240.231,
+            "frame_end": 3843
+        },
+        "type": "event",
+        "key_pressed": [
+            "Shift_L",
+            "B"
+        ],
+        "description": "A dialog box titled \"Enter your Name and Email Address\" is displayed.  The user is prompted to enter their full name and email address in the corresponding text fields. These details will be associated with the new Netscape Communicator profile being created. The dialog box also provides the following buttons:\n\n* **< Back:** Allows the user to navigate back to a previous step in the installation process.\n* **Next >:**  Proceeds to the next step in the installation process after saving the entered name and email address.\n* **Finish:** Completes the installation process, likely skipping any remaining steps.\n* **Cancel:**  Halts the installation process and closes the wizard. \n",
+        "screenshot": "frame-3842-keyspressed.png",
+        "screenshot_annotated": "frame-3842-keyspressed-layout.png"
+    },
+    {
+        "frame": 3845,
+        "timestamp": 240.3125,
+        "event": {
+            "time": 240450,
+            "event": "keyspressed",
+            "keys": [
+                "o"
+            ],
+            "frame": 3845,
+            "time_end": 240.451,
+            "frame_end": 3847
+        },
+        "type": "event",
+        "key_pressed": [
+            "o"
+        ],
+        "description": "A dialog box titled \"Enter your Name and Email Address\" is displayed. The user is prompted to enter their full name and email address in the corresponding text fields. These fields are accompanied by example inputs: \"[e.g. John Smith]\" for the full name and \"[e.g. jsmith@company.com]\" for the email address. \n\nAt the bottom of the dialog box, there are four buttons:\n- **< Back:** Allows the user to return to the previous step in the installation process.\n- **Next >:** Proceeds to the next step in the installation process after saving the entered information.\n- **Finish:** Completes the installation process, skipping any remaining steps.\n- **Cancel:**  Halts the installation process and closes the wizard. \n\nThe user should enter the desired name and email address into the respective fields and click \"Next >\" to proceed with the installation. \n",
+        "screenshot": "frame-3845-keyspressed.png",
+        "screenshot_annotated": "frame-3845-keyspressed-layout.png"
+    },
+    {
+        "frame": 3848,
+        "timestamp": 240.5,
+        "event": {
+            "time": 240677,
+            "event": "keyspressed",
+            "keys": [
+                "b"
+            ],
+            "frame": 3848,
+            "time_end": 240.678,
+            "frame_end": 3850
+        },
+        "type": "event",
+        "key_pressed": [
+            "b"
+        ],
+        "description": "A dialog box titled \"Enter your Name and Email Address\" is displayed. This dialog box prompts the user to input personal details for the Netscape Communicator profile being created. \n\nThe dialog box contains the following elements:\n\n* **Full Name:** A text field where the user can enter their full name. The field currently contains the example text \"Bd\" but should be replaced with the user's actual name.\n* **Email Address (if available):** A text field for entering the user's email address. This field is optional, as indicated by the \"(if available)\" clarification. An example email address, \"j.smith@company.com\", is provided as guidance. \n* **< Back:** A button to navigate back to the previous step in the installation process.\n* **Next >:** A button to proceed to the next step in the installation after entering the required information.\n* **Finish:** A button to complete the installation process. This button is currently disabled, indicating it cannot be used at this stage.\n* **Cancel:**  A button to abort the installation process.\n\nThe user should enter their desired full name and, optionally, their email address in the respective fields. Once done, they should click the \"Next >\" button to continue the installation. \n",
+        "screenshot": "frame-3848-keyspressed.png",
+        "screenshot_annotated": "frame-3848-keyspressed-layout.png"
+    },
+    {
+        "frame": 3852,
+        "timestamp": 240.75,
+        "event": {
+            "time": 240885,
+            "event": "keyspressed",
+            "keys": [
+                "space"
+            ],
+            "frame": 3852,
+            "time_end": 240.886,
+            "frame_end": 3854
+        },
+        "type": "event",
+        "key_pressed": [
+            "space"
+        ],
+        "description": "A dialog box titled \"Enter your Name and Email Address\" is displayed. This dialog box prompts the user to input their full name and email address in the corresponding text fields. The full name field already contains the name \"Bob\" while the email field is blank.  The dialog box indicates this information will be associated with the new profile being created.\n\nAt the bottom of the dialog box, there are four buttons:\n- `< Back`: Allows the user to navigate back to a previous step in the installation process.\n- `Next >`:  Allows the user to proceed to the next step in the installation process after saving the entered information.\n- `Finish`: Completes the installation process, likely skipping any remaining steps.\n- `Cancel`: Halts the installation process and closes the dialog box. \n \nThe user can proceed by entering their desired full name and email address in the respective fields and clicking the \"Next >\" button to continue the installation. \n",
+        "screenshot": "frame-3852-keyspressed.png",
+        "screenshot_annotated": "frame-3852-keyspressed-layout.png"
+    },
+    {
+        "frame": 3859,
+        "timestamp": 241.1875,
+        "event": {
+            "time": 241314,
+            "event": "keyspressed",
+            "keys": [
+                "Shift_L",
+                "A"
+            ],
+            "frame": 3859,
+            "time_end": 241.315,
+            "frame_end": 3861
+        },
+        "type": "event",
+        "key_pressed": [
+            "Shift_L",
+            "A"
+        ],
+        "description": "A dialog box titled \"Enter your Name and Email Address\" is displayed. The user needs to input their full name and email address in the corresponding text fields. \n\nThe text field labeled \"Full Name\" already contains the name \"Bob\" entered by the user. The \"Email Address\" field is currently empty. \n\nAt the bottom of the dialog box, there are four buttons:\n - `< Back`: Allows the user to navigate back to a previous step in the installation process.\n - `Next >`: Proceeds to the next step of the installation after saving the entered information.\n - `Finish`: Completes the installation process, skipping any remaining steps.\n - `Cancel`:  Abandons the installation process. \n \nThe user should verify the entered name and provide their email address if they wish to do so. Clicking the \"Next >\" button will save this information and proceed to the next step in the Netscape Communicator 4.79 installation. \n",
+        "screenshot": "frame-3859-keyspressed.png",
+        "screenshot_annotated": "frame-3859-keyspressed-layout.png"
+    },
+    {
+        "frame": 3870,
+        "timestamp": 241.875,
+        "event": {
+            "time": 241922,
+            "event": "keyspressed",
+            "keys": [
+                "l",
+                "i"
+            ],
+            "frame": 3870,
+            "time_end": 241.923,
+            "frame_end": 3870
+        },
+        "type": "event",
+        "key_pressed": [
+            "l",
+            "i"
+        ],
+        "description": "The screenshot displays a dialog box titled \"Enter your Name and Email Address\" within the Netscape Communicator 4.79 installation process. \n\nThe dialog box prompts the user to enter their full name and email address in the corresponding text fields. The \"Full Name\" field already contains the input \"Bob Al\". The email address field is empty but provides an example format \"(e.g. jsmith@company.com)\". \n\nAt the bottom of the dialog box, there are four buttons:\n- **< Back:** Allows the user to navigate back to a previous step in the installation process.\n- **Next >:**  Proceeds to the next step in the installation process after saving the entered information. \n- **Finish:** Completes the installation process, likely skipping any remaining steps.\n- **Cancel:**  Halts the installation process and closes the setup wizard. \n",
+        "screenshot": "frame-3870-keyspressed.png",
+        "screenshot_annotated": "frame-3870-keyspressed-layout.png"
+    },
+    {
+        "frame": 3874,
+        "timestamp": 242.125,
+        "event": {
+            "time": 242245,
+            "event": "keyspressed",
+            "keys": [
+                "c",
+                "e"
+            ],
+            "frame": 3874,
+            "time_end": 242.246,
+            "frame_end": 3875
+        },
+        "type": "event",
+        "key_pressed": [
+            "c",
+            "e"
+        ],
+        "description": "A dialog box titled \"Enter your Name and Email Address\" is displayed. The user is prompted to enter their full name and email address in the corresponding text fields. The full name field already contains the text \"Bob Alcid\", while the email address field is empty. \n\nAt the bottom of the dialog box, there are four buttons:\n - `< Back`: Presumably allows the user to navigate back to a previous step in the installation process.\n - `Next >`: Proceeds to the next step in the installation process after saving the entered information.\n - `Finish`: Completes the installation process, likely skipping any remaining steps.\n - `Cancel`:  Halts the installation process and closes the wizard. \n\nThe user should verify the entered name and provide their email address if desired before clicking the \"Next >\" button to continue the installation. \n",
+        "screenshot": "frame-3874-keyspressed.png",
+        "screenshot_annotated": "frame-3874-keyspressed-layout.png"
+    },
+    {
+        "frame": 3878,
+        "timestamp": 242.375,
+        "event": {
+            "time": 242528,
+            "event": "keyspressed",
+            "keys": [
+                "s"
+            ],
+            "frame": 3878,
+            "time_end": 242.529,
+            "frame_end": 3880
+        },
+        "type": "event",
+        "key_pressed": [
+            "s"
+        ],
+        "description": "A dialog box titled \"Enter your Name and Email Address\" is displayed. The user is prompted to enter a full name and email address into their respective fields. The full name field already contains the name \"Bob Alced\". Example entries for both fields are provided within parentheses as guidance. \n\nAt the bottom of the dialog box, four buttons are visible:\n - \"< Back\": Likely allows the user to navigate back to a previous step in the installation process.\n - \"Next >\": Proceeds to the next step in the installation after saving the entered information.\n - \"Finish\": Completes the installation process, potentially skipping any remaining steps.\n - \"Cancel\":  Aborts the installation process, closing the dialog box and terminating the installation. \n",
+        "screenshot": "frame-3878-keyspressed.png",
+        "screenshot_annotated": "frame-3878-keyspressed-layout.png"
+    },
+    {
+        "frame": 3883,
+        "timestamp": 242.6875,
+        "event": {
+            "time": 242738,
+            "event": "keyspressed",
+            "keys": [
+                "o",
+                "n"
+            ],
+            "frame": 3883,
+            "time_end": 242.739,
+            "frame_end": 3883
+        },
+        "type": "event",
+        "key_pressed": [
+            "o",
+            "n"
+        ],
+        "description": "A dialog box titled \"Enter your Name and Email Address\" is displayed. The user is prompted to enter their full name and email address in the corresponding text fields. These details will be associated with the new Netscape Communicator profile being created.\n\nAt the bottom of the dialog box, there are four buttons:\n\n* **< Back:** Allows the user to navigate back to a previous step in the installation process.\n* **Next >:** Proceeds to the next step in the installation process after saving the entered information.\n* **Finish:** Completes the installation process, skipping any remaining steps.\n* **Cancel:**  Halts the installation process and closes the wizard. \n\nThe user should enter the desired name and email address and click \"Next >\" to continue with the installation. \n",
+        "screenshot": "frame-3883-keyspressed.png",
+        "screenshot_annotated": "frame-3883-keyspressed-layout.png"
+    },
+    {
+        "frame": 3919,
+        "timestamp": 244.9375,
+        "event": {
+            "time": 244942,
+            "event": "mousedown",
+            "x": 396,
+            "y": 451,
+            "button": 0,
+            "frame": 3919,
+            "time_end": 244.943,
+            "frame_end": 3919
+        },
+        "type": "event",
+        "label_clicked": "Next >",
+        "description": "A dialog box titled \"Enter your Name and Email Address\" is displayed. This dialog box prompts the user to input a full name and email address for the new Netscape Communicator profile being created.\n\nThe dialog box contains the following elements:\n\n* **Full Name:** A text field where the user can enter their full name. The name \"Bob Alceson\" is currently entered in this field.\n* **Email Address (If available):** A text field where the user can optionally enter their email address. An example email address format (e.g. jsmith@company.com) is provided as guidance.\n* **< Back:** A button to navigate back to the previous step in the installation process.\n* **Next >:** A button, currently highlighted, to proceed to the next step in the installation process after entering the name and optional email address.\n* **Finish:** A button to complete the installation process. This button is currently disabled.\n* **Cancel:** A button to cancel the installation process.\n* **X:** A button located in the top right corner of the dialog box to close the window and cancel the installation process. \n\nThe user can proceed to the next step of the installation by clicking the \"Next >\" button. \n",
+        "screenshot": "frame-3919-mousedown.png",
+        "screenshot_annotated": "frame-3919-mousedown-layout.png"
+    },
+    {
+        "frame": 3926,
+        "timestamp": 245.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a dialog box titled \"Choose a Name and Directory for your Profile\" in the foreground. This dialog box differs from the previous description as it prompts for a profile name and directory instead of a full name and email address. \n\nThe following elements are present in the screenshot but were NOT mentioned in the initial description:\n\n- **\"Please click Next > to continue\"**: A line of text displayed at the bottom of the dialog box, above the buttons.\n\nThe following elements are NOT present in the screenshot, although they were described in the initial state:\n\n- **Full Name:** The text field for entering the full name is not present.\n- **Email Address (If available):** The text field for entering the email address is not present. \n\nThe following content changes are observed:\n\n- **Next >:** This button is no longer highlighted. \n- **Finish:** This button is now enabled. \n",
+        "screenshot": "frame-3926.png"
+    },
+    {
+        "frame": 3928,
+        "timestamp": 245.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a dialog box titled \"Choose a Name and Directory for your Profile\" within the Windows 98 operating system. \n\nNew UI Elements:\n- A dialog box titled \"Choose a Name and Directory for your Profile\" is visible.\n- A text field labeled \"Profile Name:\" is present, containing the word \"default\".\n- A text field displaying the directory \"C:\\Program Files\\Netscape\\Users\\d\" is shown. \n\nMissing UI Elements:\n- The dialog box titled \"Enter your Name and Email Address\" is not present.\n- The text fields for \"Full Name:\" and \"Email Address (If available):\" are not visible.\n\nContent Changes:\n- The \"Next >\" button is no longer highlighted.\n- The \"Finish\" button remains disabled. \n",
+        "screenshot": "frame-3928.png"
+    },
+    {
+        "frame": 3952,
+        "timestamp": 247.0,
+        "event": {
+            "time": 247034,
+            "event": "mousedown",
+            "x": 400,
+            "y": 451,
+            "button": 0,
+            "frame": 3952,
+            "time_end": 247.035,
+            "frame_end": 3952
+        },
+        "type": "event",
+        "label_clicked": "Next >",
+        "description": "The installation wizard window titled \"Choose a Name and Directory for your Profile\" is open, prompting the user for a profile name and directory. \n\nThe window displays the following elements:\n\n* **Profile Name:** A text field with the pre-filled value \"default\". The user can either keep this default name or type in a different one.\n* **Directory Path:** A non-editable text box displays the default directory path \"C:\\Program Files\\Netscape\\Users\\d\" where the profile data will be stored.\n* **Back Button:** Currently inactive (greyed out) and indicates that the user cannot go back to a previous step in the installation process.\n* **Next Button:** Highlighted with a blue border and the mouse cursor hovering over it, indicating it's the active button. Clicking this button will proceed to the next step of the installation.\n* **Finish Button:** Currently inactive (greyed out) as the installation process is not yet complete.\n* **Cancel Button:** Clicking this button will halt the installation process. \n",
+        "screenshot": "frame-3952-mousedown.png",
+        "screenshot_annotated": "frame-3952-mousedown-layout.png"
+    },
+    {
+        "frame": 3960,
+        "timestamp": 247.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the Netscape Communicator 4.79 installation wizard in progress. The current window is titled \"Set up your Outgoing Mail Server\". \n\nMissing UI Elements:\n- The \"Choose a Name and Directory for your Profile\" window is no longer present.\n\nNew UI Elements:\n- A new window titled \"Set up your Outgoing Mail Server\" is open. This window contains \"Back\", \"Next\", \"Finish\", and \"Cancel\" buttons. The window is empty except for the buttons. \n- The taskbar now displays a button labeled \"Set up your Outg...\" indicating the new window. \n",
+        "screenshot": "frame-3960.png"
+    },
+    {
+        "frame": 3961,
+        "timestamp": 247.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a new window titled \"Set up your Outgoing Mail Server\". This window is part of the Netscape Communicator 4.79 installation process. \n\nNew UI Elements:\n- The \"Set up your Outgoing Mail Server\" window is new. It contains a text field labeled \"Outgoing mail (SMTP) server:\" with the pre-filled value \"mail\".\n\nMissing UI Elements:\n- The \"Choose a Name and Directory for your Profile\" window is no longer visible. \n\nContent Changes:\n- The mouse cursor is now hovering over the \"Next\" button in the \"Set up your Outgoing Mail Server\" window. \n- The \"Back\" button is now active. \n",
+        "screenshot": "frame-3961.png"
+    },
+    {
+        "frame": 3978,
+        "timestamp": 248.625,
+        "event": {
+            "time": 248655,
+            "event": "mousedown",
+            "x": 482,
+            "y": 456,
+            "button": 0,
+            "frame": 3978,
+            "time_end": 248.656,
+            "frame_end": 3978
+        },
+        "type": "event",
+        "label_clicked": "Finish",
+        "description": "The screenshot displays a dialog box titled \"Set up your Outgoing Mail Server\". This dialog box presents the user with a field to input their Outgoing mail (SMTP) server address. The currently entered value in the field is \"mail\". \n\nAt the bottom of the dialog box, there are four buttons:\n - **< Back:** Allows the user to navigate back to a previous step in the installation process.\n - **Next >:**  Allows the user to proceed to the next step in the installation process.\n - **Finish:**  Allows the user to complete the installation process, potentially skipping any remaining steps.\n - **Cancel:** Allows the user to halt the installation process. \n\nThe mouse cursor is hovering over the \"Finish\" button, indicating the user's likely next action. \n",
+        "screenshot": "frame-3978-mousedown.png",
+        "screenshot_annotated": "frame-3978-mousedown-layout.png"
+    },
+    {
+        "frame": 3984,
+        "timestamp": 249.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Set up your Outgoing Mail Server\" dialog box open. This dialog box is part of the Netscape Communicator 4.79 installation process. \n\nThe following changes are visible:\n\n- The dialog box now displays the text \"Click Next to continue entering information. Click Finish if you want to start Communicator and continue entering your mail and newsgroup information later.\" This text was not present in the initial description. \n- The mouse cursor is no longer hovering over the \"Finish\" button. The provided image does not reveal the current cursor position. \n",
+        "screenshot": "frame-3984.png"
+    },
+    {
+        "frame": 3985,
+        "timestamp": 249.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Set up your Outgoing Mail Server\" dialog box open.  \n\n**Missing UI Elements:**\n\n- The dialog box no longer displays a field for the Outgoing mail (SMTP) server address. \n\n**Content Changes:**\n\n- The title bar of the dialog box now only displays \"Set up your Outg...\" instead of the full title \"Set up your Outgoing Mail Server\". \n",
+        "screenshot": "frame-3985.png"
+    },
+    {
+        "frame": 3986,
+        "timestamp": 249.125,
+        "event": null,
+        "type": "change",
+        "description": "Missing UI Elements: \n- The \"Set up your Outgoing Mail Server\" dialog box is not present. \n\nNew UI Elements:\n- A new shortcut icon for \"Netscape Communicator\" is visible on the desktop. \n",
+        "screenshot": "frame-3986.png"
+    },
+    {
+        "frame": 3987,
+        "timestamp": 249.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 98 desktop. A window titled \"Updating files to new profile directory...\" is present. It features a progress bar that reads \"Updating files to...\". The \"Set up your Outgoing Mail Server\" dialog box is not visible. \n",
+        "screenshot": "frame-3987.png"
+    },
+    {
+        "frame": 3988,
+        "timestamp": 249.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop. A dialog box titled \"Updating files to new profile directory...\" is present, indicating that files are being copied. The text \"Copying file: signed0.db\" within the dialog box suggests the specific file being transferred. \n\nThe dialog box described in the initial state, \"Set up your Outgoing Mail Server\", is not present. \n",
+        "screenshot": "frame-3988.png"
+    },
+    {
+        "frame": 3989,
+        "timestamp": 249.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop. \n\nMissing UI Elements:\n- The dialog box titled \"Set up your Outgoing Mail Server\" is not present. \n",
+        "screenshot": "frame-3989.png"
+    },
+    {
+        "frame": 4012,
+        "timestamp": 250.75,
+        "event": null,
+        "type": "change",
+        "description": "Missing UI Elements:\n- The dialog box titled \"Set up your Outgoing Mail Server\" is not present. \n\nNew UI Elements:\n- A large, empty window with a pink title bar and gray client area dominates the center of the screen. This window lacks any title or visible controls. \n",
+        "screenshot": "frame-4012.png"
+    },
+    {
+        "frame": 4014,
+        "timestamp": 250.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop. A window titled \"Netscape Communicator 4.7\" is open and centered on the screen. The window displays a large Netscape \"N\" logo, a picture of a lighthouse, and the text \"Copyright 2001 Netscape Communications. All rights reserved.\"\n\nThe dialog box titled \"Set up your Outgoing Mail Server\" is missing. \n",
+        "screenshot": "frame-4014.png"
+    },
+    {
+        "frame": 4020,
+        "timestamp": 251.25,
+        "event": null,
+        "type": "change",
+        "description": "Missing UI Elements:\n- The \"Set up your Outgoing Mail Server\" dialog box is not present. \n\nNew UI Elements:\n- A window titled \"Loading plugins...\" is visible at the center of the screen. It displays a progress bar with an animated pattern, the text \"Loading plugins...\" above the progress bar, and the copyright information \"Copyright 2001 Netscape Communications. All rights reserved.\" below it. \n",
+        "screenshot": "frame-4020.png"
+    },
+    {
+        "frame": 4021,
+        "timestamp": 251.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop. No dialog boxes are visible. \n\nMissing UI Elements:\n- The \"Set up your Outgoing Mail Server\" dialog box is not present. \n",
+        "screenshot": "frame-4021.png"
+    },
+    {
+        "frame": 4033,
+        "timestamp": 252.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop.\n\nMissing UI Elements:\n- The dialog box titled \"Set up your Outgoing Mail Server\" is not present. \n",
+        "screenshot": "frame-4033.png"
+    },
+    {
+        "frame": 4035,
+        "timestamp": 252.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop. \n\nNew UI Elements:\n- A window titled \"Netscape\" is visible, displaying the contents of \"My Computer\".\n- An icon labeled \"Netscape Communicator\" is present on the desktop. \n\nMissing UI Elements:\n- The \"Set up your Outgoing Mail Server\" dialog box is not present. \n",
+        "screenshot": "frame-4035.png"
+    },
+    {
+        "frame": 4055,
+        "timestamp": 253.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator application open on a Windows 98 desktop. The main window displays the message \"Unable to locate host home.netscape.com.\" in the bottom left corner. \n\nMissing UI Elements:\n- The \"Set up your Outgoing Mail Server\" dialog box is no longer present. \n",
+        "screenshot": "frame-4055.png"
+    },
+    {
+        "frame": 4056,
+        "timestamp": 253.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 browser window open on the desktop. The browser displays an error message in the bottom section stating \"Unable to locate host home.netscape.com.\". \n\nThe dialog box titled \"Set up your Outgoing Mail Server\" is not present in the screenshot. \n",
+        "screenshot": "frame-4056.png"
+    },
+    {
+        "frame": 4057,
+        "timestamp": 253.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 application open. The main window displays an error message at the bottom: \"Unable to locate host home.netscape.com.\". \n\nMissing UI Elements:\n- The \"Set up your Outgoing Mail Server\" dialog box is no longer present. \n",
+        "screenshot": "frame-4057.png"
+    },
+    {
+        "frame": 4058,
+        "timestamp": 253.625,
+        "event": null,
+        "type": "change",
+        "description": "Missing UI Elements: The \"Set up your Outgoing Mail Server\" dialog box is no longer present. \n\nNew UI Elements: The Netscape Communicator application window is visible, displaying an error message \"Unable to locate host home.netscape.com.\" at the bottom. \n",
+        "screenshot": "frame-4058.png"
+    },
+    {
+        "frame": 4059,
+        "timestamp": 253.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the main Netscape Navigator window after a failed attempt to load the Netscape homepage. The website loading area displays an error message: \"Unable to locate host home.netscape.com.\"\n\nThe \"Set up your Outgoing Mail Server\" dialog box is no longer present. \n",
+        "screenshot": "frame-4059.png"
+    },
+    {
+        "frame": 4060,
+        "timestamp": 253.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 browser window open and maximized. The browser displays an error message at the bottom of the window stating \"Unable to locate host home.netscape.com.\". \n\nThe dialog box titled \"Set up your Outgoing Mail Server\" is missing. \n",
+        "screenshot": "frame-4060.png"
+    },
+    {
+        "frame": 4061,
+        "timestamp": 253.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator application open. A dialog box titled \"Netscape\" is displayed over the main application window. This dialog box contains a yellow warning icon and the following message: \"Netscape is unable to locate the server home.netscape.com. Please check the server name and try again.\" An \"OK\" button is present at the bottom of the dialog box. \n\nThe status bar at the bottom of the Netscape window displays the message \"Unable to locate host home.netscape.com.\"\n\nThe following UI elements are new:\n- The \"Netscape\" dialog box with its content: the warning icon, message text, and \"OK\" button.\n- The message \"Unable to locate host home.netscape.com.\" in the status bar.\n\nThe following UI elements are missing:\n- The \"Set up your Outgoing Mail Server\" dialog box and its associated elements (\"Outgoing mail (SMTP) server\" field, \"Back\", \"Next >\", \"Finish\", and \"Cancel\" buttons) are no longer present. \n",
+        "screenshot": "frame-4061.png"
+    },
+    {
+        "frame": 4084,
+        "timestamp": 255.25,
+        "event": {
+            "time": 255279,
+            "event": "mousedown",
+            "x": 327,
+            "y": 280,
+            "button": 0,
+            "frame": 4084,
+            "time_end": 255.28,
+            "frame_end": 4084
+        },
+        "type": "event",
+        "label_clicked": "OK",
+        "description": "A dialog box titled \"Netscape\" displays an error message: \"Netscape is unable to locate the server home.netscape.com. Please check the server name and try again.\" A yellow warning icon is displayed next to the message. An \"OK\" button is present at the bottom of the dialog box. The user's mouse cursor hovers over the \"OK\" button, indicating the next action to be taken is clicking the button to dismiss the error message. \n",
+        "screenshot": "frame-4084-mousedown.png",
+        "screenshot_annotated": "frame-4084-mousedown-layout.png"
+    },
+    {
+        "frame": 4091,
+        "timestamp": 255.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Netscape Communicator 4.79 browser window open and maximized. The main browser window displays the error message \"Unable to locate host home.netscape.com.\" at the bottom. The previously described dialog box titled \"Netscape\" with the error message and \"OK\" button is no longer present. \n",
+        "screenshot": "frame-4091.png"
+    }
+]

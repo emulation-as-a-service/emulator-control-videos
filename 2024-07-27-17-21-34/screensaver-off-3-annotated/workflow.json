@@ -1,0 +1,42 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible with the mouse cursor in view.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "No immediate changes will be visible on the screen."
+    },
+    {
+        "precondition": "The \"Start\" button is visible on the left side of the taskbar.",
+        "action": "Press the 'Control' and 'Escape' keys simultaneously.",
+        "expected_results": "The \"Start\" menu will expand, displaying a list of programs, folders, and system options such as \"My Documents\", \"My Computer\", \"Control Panel\", \"All Programs\", \"Log Off\", and \"Turn Off Computer\"."
+    },
+    {
+        "precondition": "The Windows XP Start Menu is open and visible.",
+        "action": "Press the 'c' key.",
+        "expected_results": "The Control Panel window will open in 'Icon View', obscuring the Start Menu."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is open and displaying icons.",
+        "action": "Press the 'Right' key.",
+        "expected_results": "No visible change will occur in the user interface."
+    },
+    {
+        "precondition": "The \"Control Panel\" window is active and in focus.",
+        "action": "Press the 'Right' key",
+        "expected_results": "No visible changes will occur in the Control Panel window."
+    },
+    {
+        "precondition": "The \"Add or Remove Programs\" icon in the Windows XP Control Panel is visible.",
+        "action": "Press the 'p' key and then the 'o' key.",
+        "expected_results": "The tooltip for the \"Add or Remove Programs\" icon will disappear."
+    },
+    {
+        "precondition": "The \"Windows XP Control Panel\" window is open and the \"Address\" bar is visible.",
+        "action": "Press the \"Enter\" key.",
+        "expected_results": "No visual changes are expected."
+    },
+    {
+        "precondition": "The \"Control Panel\" window is open and the close button is visible in the title bar.",
+        "action": "Click the close button in the title bar of the \"Control Panel\" window.",
+        "expected_results": "The \"Control Panel\" window will close."
+    }
+]

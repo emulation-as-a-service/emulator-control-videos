@@ -1,0 +1,72 @@
+[
+    {
+        "precondition": "The \"My Computer\" window is open and the \"CDROM (D:)\" icon is visible.",
+        "action": "Left Click on the \"CDROM (D:)\" icon.",
+        "expected_results": "The contents of \"My Computer\" window's right pane will be updated, displaying the \"CDROM (D:)\" drive information."
+    },
+    {
+        "precondition": "The \"CDROM (D:)\" window is open.",
+        "action": "Click the close button of the \"CDROM (D:)\" window. ",
+        "expected_results": "The \"CDROM (D:)\" window will close."
+    },
+    {
+        "precondition": "The \"Free AOL & Unlimited...\" shortcut is visible on the desktop.",
+        "action": "Left Click on the \"Free AOL & Unlimited...\" shortcut on the desktop.",
+        "expected_results": "The \"Creating a New Profile\" window will appear. This window contains buttons for \"Back\", \"Next\", \"Finish\", and \"Cancel\"."
+    },
+    {
+        "precondition": "The dialog box titled 'Enter your Name and Email Address' is open.",
+        "action": "Press the 'Shift' and 'B' keys simultaneously.",
+        "expected_results": "The 'Enter your Name and Email Address' dialog box will close, and the 'Creating a New Profile' dialog box will become visible."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is displayed.",
+        "action": "Type the letter \"o\" into the \"Full Name\" field.",
+        "expected_results": "The letter \"o\" will appear in the \"Full Name\" field."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open.",
+        "action": "Press the 'b' key.",
+        "expected_results": "No visible change will occur in the user interface."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open.",
+        "action": "Press the 'Space' key.",
+        "expected_results": "No visible change will occur in the dialog box."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open.",
+        "action": "Press the 'Shift' and 'A' keys simultaneously.",
+        "expected_results": "No visible change will occur in the user interface."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open. The \"Full Name\" text field is visible.",
+        "action": "Type the keys 'l' and then 'i' into the \"Full Name\" text field.",
+        "expected_results": "The characters \"li\" will appear in the \"Full Name\" text field."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open with two text fields labeled \"Full Name\" and \"Email Address (if available)\".",
+        "action": "Press the 'c' key.",
+        "expected_results": "No visible changes will occur in the GUI."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open. The \"Full Name\" text field is active.",
+        "action": "Press the 'e' key.",
+        "expected_results": "The letter \"e\" will appear in the \"Full Name\" text field."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open. The \"Full Name\" text field is active.",
+        "action": "Type the letter \"s\" using your keyboard.",
+        "expected_results": "The letter \"s\" will appear in the \"Full Name\" text field."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open. The \"Full Name\" field is empty.",
+        "action": "Type the letter \"o\" using the keyboard.",
+        "expected_results": "The letter \"o\" will appear in the \"Full Name\" field."
+    },
+    {
+        "precondition": "The \"Enter your Name and Email Address\" dialog box is open. The 'Next >' button is active.",
+        "action": "Press the 'n' key.",
+        "expected_results": "The \"Enter your Name and Email Address\" dialog box will close, and the \"Choose a Name and Directory for your Profile\" dialog box will open."
+    }
+]

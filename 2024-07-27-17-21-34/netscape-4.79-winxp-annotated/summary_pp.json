@@ -1,0 +1,139 @@
+[
+    {
+        "frame": 206,
+        "event": "The mouse pointer is clicking on the \"CDROM (D:)\" icon.",
+        "timestamp": 12.875,
+        "description": "The user clicked the \"CDROM (D:)\" icon within the \"My Computer\" window. As a result, the drive information displayed in the window's right pane was updated.",
+        "outcome": "The contents of the \"My Computer\" window's right pane have been updated, displaying \"CDROM (D:)\" drive information.",
+        "key_pressed": []
+    },
+    {
+        "frame": 251,
+        "event": "The mouse is clicking on the close button of the window titled \"CDROM (D:)\".",
+        "timestamp": 15.6875,
+        "description": "The user clicks the close button of the \"CDROM (D:)\" window. As a result, the window closes.",
+        "outcome": "The \"CDROM (D:)\" window is no longer visible.",
+        "key_pressed": []
+    },
+    {
+        "frame": 3886,
+        "event": "The mouse is clicking on the \"Free AOL & Unlimited...\" desktop shortcut.",
+        "timestamp": 242.875,
+        "description": "The user clicks the \"Free AOL & Unlimited...\" shortcut on the desktop.  As a result, the \"Creating a New Profile\" window appears.",
+        "outcome": "A new window titled \"Creating a New Profile\" appeared over the desktop. The window contains text describing the purpose of user profiles, and buttons for \"Back\", \"Next\", \"Finish\", and \"Cancel\". The \"Next\" button is highlighted.",
+        "key_pressed": []
+    },
+    {
+        "frame": 4087,
+        "event": "The key following key(s) were pressed: ['Shift_L', 'B'].",
+        "timestamp": 255.4375,
+        "description": "The user pressed the keyboard shortcut 'Shift + B', equivalent to clicking the **< Back** button in the \"Enter your Name and Email Address\" dialog box.",
+        "outcome": "The \"Enter your Name and Email Address\" dialog box closed and the \"Creating a New Profile\" dialog box is visible.",
+        "key_pressed": [
+            "Shift_L",
+            "B"
+        ]
+    },
+    {
+        "frame": 4094,
+        "event": "The key following key(s) were pressed: ['o'].",
+        "timestamp": 255.875,
+        "description": "The user typed the letter \"o\" into the \"Full Name\" field.",
+        "outcome": "",
+        "key_pressed": [
+            "o"
+        ]
+    },
+    {
+        "frame": 4098,
+        "event": "The key following key(s) were pressed: ['b'].",
+        "timestamp": 256.125,
+        "description": "The user pressed the 'b' key. No visual changes occurred as a result of this event.",
+        "outcome": "",
+        "key_pressed": [
+            "b"
+        ]
+    },
+    {
+        "frame": 4101,
+        "event": "The key following key(s) were pressed: ['space'].",
+        "timestamp": 256.3125,
+        "description": "The user pressed the 'space' key. No observable changes occurred in the \"Enter Your Name and Email Address\" dialog box.",
+        "outcome": "",
+        "key_pressed": [
+            "space"
+        ]
+    },
+    {
+        "frame": 4108,
+        "event": "The key following key(s) were pressed: ['Shift_L', 'A'].",
+        "timestamp": 256.75,
+        "description": "The user pressed the keyboard shortcut \"Shift + A\" while focused on the \"Enter your Name and Email Address\" dialog box. No observable changes occurred in the user interface.",
+        "outcome": "",
+        "key_pressed": [
+            "Shift_L",
+            "A"
+        ]
+    },
+    {
+        "frame": 4121,
+        "event": "The key following key(s) were pressed: ['l', 'i'].",
+        "timestamp": 257.5625,
+        "description": "The user typed the first two characters, \"li\",  into the \"Full Name\" text field.",
+        "outcome": "",
+        "key_pressed": [
+            "l",
+            "i"
+        ]
+    },
+    {
+        "frame": 4124,
+        "event": "The key following key(s) were pressed: ['c'].",
+        "timestamp": 257.75,
+        "description": "The user pressed the 'c' key. No visible changes occurred in the GUI.",
+        "outcome": "",
+        "key_pressed": [
+            "c"
+        ]
+    },
+    {
+        "frame": 4128,
+        "event": "The key following key(s) were pressed: ['e'].",
+        "timestamp": 258.0,
+        "description": "The user typed the letter \"e\" into the \"Full Name\" text field within the \"Enter your Name and Email Address\" dialog box.",
+        "outcome": "",
+        "key_pressed": [
+            "e"
+        ]
+    },
+    {
+        "frame": 4140,
+        "event": "The key following key(s) were pressed: ['s'].",
+        "timestamp": 258.75,
+        "description": "The user typed the letter \"s\" into the \"Full Name\" text field within the \"Enter your Name and Email Address\" dialog box.",
+        "outcome": "",
+        "key_pressed": [
+            "s"
+        ]
+    },
+    {
+        "frame": 4141,
+        "event": "The key following key(s) were pressed: ['o'].",
+        "timestamp": 258.8125,
+        "description": "The user typed the letter \"o\" into the \"Full Name\" field.",
+        "outcome": "",
+        "key_pressed": [
+            "o"
+        ]
+    },
+    {
+        "frame": 4145,
+        "event": "The key following key(s) were pressed: ['n'].",
+        "timestamp": 259.0625,
+        "description": "The user pressed the 'n' key, which triggered the \"Next >\" button in the \"Enter your Name and Email Address\" dialog box. As a result, the dialog box closed, and the \"Choose a Name and Directory for your Profile\" dialog box appeared.",
+        "outcome": "The \"Enter your Name and Email Address\" dialog box is no longer present, and the \"Choose a Name and Directory for your Profile\" dialog box has appeared.",
+        "key_pressed": [
+            "n"
+        ]
+    }
+]

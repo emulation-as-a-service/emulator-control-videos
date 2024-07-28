@@ -1,0 +1,12 @@
+[
+    {
+        "precondition": "The status bar at the bottom of the Corel WordPerfect 7 window displays \"Insert\", indicating the program is in Insert mode.",
+        "action": "Press the 'End' key.",
+        "expected_results": "The cursor will move to the end of the current line and change to a right-pointing arrow."
+    },
+    {
+        "precondition": "The Corel WordPerfect 7 document window is active.",
+        "action": "Press the 'Ctrl' and 'O' keys simultaneously.",
+        "expected_results": "The 'Open File' dialog box will appear."
+    }
+]

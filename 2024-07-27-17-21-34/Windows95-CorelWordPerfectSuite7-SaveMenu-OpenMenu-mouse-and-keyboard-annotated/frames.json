@@ -1,0 +1,230 @@
+[
+    {
+        "frame": 377,
+        "timestamp": 23.5625,
+        "event": {
+            "time": 23752,
+            "event": "keyspressed",
+            "keys": [
+                "\uffc0"
+            ],
+            "frame": 377,
+            "time_end": 23.753,
+            "frame_end": 380
+        },
+        "type": "event",
+        "key_pressed": [
+            "\uffc0"
+        ],
+        "description": "The screenshot displays a maximized Corel WordPerfect 7 window. The main editing area is largely empty, with a vertical blue dotted line indicating the right margin.  The status bar at the bottom of the window shows the following:\n\n* **\"Insert\"**: This indicates the program is currently in Insert mode, where typing will add characters without overwriting existing ones. \n* **\"HP LaserJet 4/4M Plus PS\"**: This shows the currently selected printer.\n* **\"Select\"**: This indicates that the current mouse mode is for selecting text or objects. \n* **\"Pg 1\"**: This displays the current page number.\n* **\"Ln 1\"**: This displays the current line number the cursor is on.\n* **\"Pos 1\"**: This displays the current character position the cursor is on within the current line. \n",
+        "screenshot": "frame-377-keyspressed.png",
+        "screenshot_annotated": "frame-377-keyspressed-layout.png"
+    },
+    {
+        "frame": 384,
+        "timestamp": 24.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a maximized Corel WordPerfect 7 window with a blank document open. The right margin is marked by a vertical blue dotted line.  At the bottom of the window, the status bar displays the following from left to right: \"Insert,\" \"HP LaserJet 4/4M Plus PS,\" \"Select,\" \"Pg 1,\" \"Ln 1,\" and \"Pos 1.\" \n",
+        "screenshot": "frame-384.png"
+    },
+    {
+        "frame": 419,
+        "timestamp": 26.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a maximized Corel WordPerfect 7 window with a largely empty editing area.  A vertical blue dotted line marks the right margin. The status bar at the bottom of the window displays \"Insert,\" \"HP LaserJet 4/4M Plus PS,\" \"Select,\" \"Pg 1,\" \"Ln 1,\" and \"Pos 1,\" indicating the program mode, selected printer, mouse mode, page number, line number, and character position, respectively. \n",
+        "screenshot": "frame-419.png"
+    },
+    {
+        "frame": 456,
+        "timestamp": 28.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a maximized Corel WordPerfect 7 window with a \"Save As\" dialog box open. The dialog box is titled \"Corel Office -- Save As\" and has a menu bar with the options \"File,\" \"Edit,\" \"View,\" \"Tools,\" \"Favorites,\" and \"Help.\"  The main area of the dialog box is empty. \n\nNew UI Elements:\n- A dialog box titled \"Corel Office -- Save As\". \n",
+        "screenshot": "frame-456.png"
+    },
+    {
+        "frame": 460,
+        "timestamp": 28.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 window with a \"Save As\" dialog box open. The dialog box is titled \"Corel Office - Save As\" and has several fields and buttons.\n\nNew UI Elements:\n- A dialog box titled \"Corel Office - Save As\" is now visible. It features:\n    - A \"Save in:\" field with a dropdown menu.\n    - A \"File name:\" field.\n    - An \"As type:\" field with a dropdown menu displaying \"WordPerfect 6.0/6.1 (*.wpd;*.wpt)\"\n    - A \"Password protect\" checkbox.\n    - \"Save\", \"Close\" buttons. \n- The \"Save As\" dialog box partially obscures the main editing area of the Corel WordPerfect 7 window. \n",
+        "screenshot": "frame-460.png"
+    },
+    {
+        "frame": 562,
+        "timestamp": 35.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 window with the \"Save As\" dialog box open. The dialog box is titled \"Corel Office - Save As - MyFiles\".  The \"Save as type\" dropdown menu is expanded, displaying a list of available file types. The list is scrolled down to show file types including \"WordPerfect 6.0/6.1 (*.wpd;*.wpt)\", \"RTF Help File (*.rtf)\", and \"WordPerfect 5.1/5.2 (*.doc)\". \n",
+        "screenshot": "frame-562.png"
+    },
+    {
+        "frame": 613,
+        "timestamp": 38.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 window with the \"Save As\" dialog box open. The dialog box is titled \"Corel Office - Save As - MyFiles\".  The \"Save as type:\" dropdown menu is expanded and displays a list of available file types. The last item on the list, \"WordPerfect 6.0/6.1 [*wpd; *.wp]\", is highlighted. \n",
+        "screenshot": "frame-613.png"
+    },
+    {
+        "frame": 625,
+        "timestamp": 39.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 window with the \"Save As\" dialog box open. The dialog box is titled \"Corel Office -- Save As - MyFiles\".  The \"Save as type:\" drop-down menu is expanded and displays a list of file types. The list is scrolled down to show file types including \"MS Word for Windows 6.0/7.0 (*.doc)\" and others. \n",
+        "screenshot": "frame-625.png"
+    },
+    {
+        "frame": 683,
+        "timestamp": 42.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 window with the \"Save As\" dialog box open. The dialog box is titled \"Corel Office - Save As - MyFiles\".  The \"Save as type\" dropdown menu is expanded, displaying a list of available file types. \n\nNew UI Elements:\n- The \"Save As\" dialog box is now visible. \n- Within the \"Save As\" dialog box:\n    -  A \"Browse\" button is present to the right of the \"Save in:\" field.\n    -  A \"Save in:\" field displays \"MyFiles\".\n    -  A file directory tree is visible, displaying \"My Computer\", \"MyFiles\", and \"Backup\".\n    -  A \"File name:\" field with the default name \"*.wpd\".\n    -  A \"Password protect\" checkbox.\n    -  \"Save\" and \"Close\" buttons. \n    -  A status bar at the bottom shows \"1 object(s)\" and \"0 bytes (Disk free space: 1,993GB). \n- The \"Save as type\" dropdown menu is expanded, showing a list of file types including \"WordPerfect 6.0/6.1\", various ASCII formats, \"EDGAR\", \"Excel\", \"HTML\", and \"Lotus 123\". \n",
+        "screenshot": "frame-683.png"
+    },
+    {
+        "frame": 684,
+        "timestamp": 42.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a maximized Corel WordPerfect 7 window with the \"Save As\" dialog box overlayed on top. The dialog box is titled \"Corel Office -- Save As - MyFiles.\"  The \"Save in:\" field shows \"MyFiles\" is currently selected. The \"File name:\" field displays \"*.wpd\".  The drop-down menu for \"As type:\" is expanded, displaying a list of available file types. The list is scrolled down to show options including \"Lotus 123\" and \"MS Word for Windows.\" \n\nNew UI Elements:\n- The \"Save As\" dialog box is now visible. This dialog box allows users to choose a file name, location, and type for saving their document.\n- Within the \"Save As\" dialog box:\n    - A \"Save in:\" field allows users to navigate to the desired save location.\n    - A \"File name:\" field allows users to type a name for the file.\n    - An \"As type:\" drop-down menu allows users to select the file type.\n    - A \"Password protect\" checkbox allows users to add a password to the file.\n    - \"Save\" and \"Close\" buttons are present. \n\nMissing UI Elements: None \n\nContent Changes: None \n",
+        "screenshot": "frame-684.png"
+    },
+    {
+        "frame": 685,
+        "timestamp": 42.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a maximized Corel WordPerfect 7 window with the \"Save As\" dialog box open. The dialog box is titled \"Corel Office -- Save As - MyFiles.\"  The \"Save as type\" dropdown menu is expanded and displays a list of available file types, with the mouse cursor hovering over the options. The file name in the \"File name\" field is \"*.wpd\". \n",
+        "screenshot": "frame-685.png"
+    },
+    {
+        "frame": 687,
+        "timestamp": 42.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 window with the \"Save As\" dialog box open. The dialog box is titled \"Corel Office -- Save As - MyFiles\". It displays a file directory tree, a file name input field, and a dropdown menu labeled \"As type:\" which shows a list of available file types. The list is partially scrolled down, revealing options such as \"WordPerfect 6.0/6.1\", \"Quattro Pro 6.0 for Windows\", and \"WordPerfect 5.1/5.2\".  The file name input field shows \"*.wpd\". \n",
+        "screenshot": "frame-687.png"
+    },
+    {
+        "frame": 688,
+        "timestamp": 43.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a maximized Corel WordPerfect 7 window with the \"Save As\" dialog box open. The dialog box title bar reads \"Corel Office -- Save As - MyFiles\".  The \"Save as type:\" drop-down menu is expanded, displaying a list of available file types. The \"WordPerfect 6.0/6.1 (*.wpd;*.wp;*.wpt)\" option is highlighted. \n",
+        "screenshot": "frame-688.png"
+    },
+    {
+        "frame": 722,
+        "timestamp": 45.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a maximized Corel WordPerfect 7 window with a \"Save As\" dialog box open. The dialog box is titled \"Corel Office -- Save As - MyFiles.\" The \"Save in:\" field shows \"MyFiles\" is selected. The \"File name:\" field displays \"*.wpd\".  The \"Save as type:\" field shows \"WordPerfect 6.0/6.1 (*.wpd;*.wpt)\" selected. \n\nNew UI Elements:\n- The \"Save As\" dialog box is now visible, covering a portion of the main WordPerfect window. \n- The \"Save As\" dialog box contains various UI elements, including:\n    - A title bar that reads \"Corel Office -- Save As - MyFiles.\"\n    - Standard window control buttons for minimizing, maximizing, and closing the dialog box.\n    - A menu bar with options for \"File,\" \"Edit,\" \"View,\" \"Tools,\" \"Favorites,\" and \"Help.\"\n    - A toolbar with icons for common actions such as navigating folders, creating new folders, and changing the view of files and folders.\n    - A \"Save in:\" dropdown menu, currently displaying \"MyFiles.\"\n    - A file and folder view area displaying \"MyFiles\", \"My Computer (C:)\", and \"Backup.\"\n    - A \"File name:\" field with \"*.wpd\" entered.\n    - A \"Save as type:\" dropdown menu, currently displaying \"WordPerfect 6.0/6.1 (*.wpd;*.wpt)\".\n    - A \"Password protect\" checkbox.\n    - Buttons for \"Save\" and \"Close.\"\n    - A status bar displaying \"1 object(s)\" and \"0 bytes (Disk free space: 1.99GB)\". \n",
+        "screenshot": "frame-722.png"
+    },
+    {
+        "frame": 744,
+        "timestamp": 46.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a maximized Corel WordPerfect 7 window with a dialog box titled \"Corel Office -- Save As - MyFiles\" layered on top. The dialog box partially obscures the main editing area of the WordPerfect window.  The dialog box features a standard Windows 95 title bar with minimize, maximize, and close buttons. Below the title bar is a menu bar with the options \"File,\" \"Edit,\" \"View,\" \"Tools,\" \"Favorites,\" and \"Help.\" The content displayed within the dialog box is not visible in the screenshot. \n",
+        "screenshot": "frame-744.png"
+    },
+    {
+        "frame": 749,
+        "timestamp": 46.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a maximized Corel WordPerfect 7 window with a largely empty editing area. A blue, dotted, vertical line marks the right margin.  The mouse cursor, now a right-pointing arrow, is visible near the right edge of the editing area. The status bar at the bottom of the window shows the time has changed to \"2:55 PM\".  All other status bar elements remain as described in the initial state. \n",
+        "screenshot": "frame-749.png"
+    },
+    {
+        "frame": 758,
+        "timestamp": 47.375,
+        "event": {
+            "time": 47541,
+            "event": "keyspressed",
+            "keys": [
+                "\uffe3",
+                "o"
+            ],
+            "frame": 758,
+            "time_end": 47.542,
+            "frame_end": 760
+        },
+        "type": "event",
+        "key_pressed": [
+            "\uffe3",
+            "o"
+        ],
+        "description": "The screenshot displays a Corel WordPerfect 7 document window. The main editing area is empty, with a visible cursor positioned towards the right side of the screen.  A vertical blue dotted line indicates the right margin setting. The status bar at the bottom of the window shows the default printer selected as \"HP LaserJet 4/4M Plus PS.\"  The current page information is displayed as \"Pg 1 Ln 1\" Pos 1\".\"  The time on the system tray in the bottom right corner reads \"2:55 PM.\" \n",
+        "screenshot": "frame-758-keyspressed.png",
+        "screenshot_annotated": "frame-758-keyspressed-layout.png"
+    },
+    {
+        "frame": 834,
+        "timestamp": 52.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 document window with a new element: A dialog box titled \"Open File\" is now visible, positioned over the main editing area. The dialog box features a menu bar with the options \"File,\" \"Edit,\" \"View,\" \"Tools,\" \"Favorites,\" and \"Help.\" \n",
+        "screenshot": "frame-834.png"
+    },
+    {
+        "frame": 835,
+        "timestamp": 52.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 document window with a new element: A dialog box titled \"Open File\" is now visible, positioned over the main editing area. The dialog box features a menu bar with the options \"File,\" \"Edit,\" \"View,\" \"Tools,\" \"Favorites,\" and \"Help.\" \n",
+        "screenshot": "frame-835.png"
+    },
+    {
+        "frame": 838,
+        "timestamp": 52.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 document window with the \"Open File\" dialog box layered on top. The dialog box is titled \"Open File\" and contains fields for \"Look in:\" and \"File type:\".  The \"File type:\" field currently displays \"All Files (*.*)\". \n",
+        "screenshot": "frame-838.png"
+    },
+    {
+        "frame": 839,
+        "timestamp": 52.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 document window with the \"Open File\" dialog box layered on top. The \"Open File\" dialog box displays \"All Files (*.*)\" selected in the \"File type\" dropdown menu.  The \"Look in:\" field displays a dropdown menu, the contents of which are not visible. No file is highlighted in the file list area. \n\nNew UI Elements:\n- The \"Open File\" dialog box is now visible. The dialog box features \"Open\", \"Open as Copy\", and \"Close\" buttons at the bottom. \n",
+        "screenshot": "frame-839.png"
+    },
+    {
+        "frame": 840,
+        "timestamp": 52.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 document window with the \"Open File\" dialog box layered on top. The \"Open File\" dialog box displays \"QuickFinder\" is selected in the \"Browse\" section.  The \"Look in:\" field is blank. \"All Files (*.*)\" is selected in the \"For type:\" dropdown menu. The cursor is blinking in the empty \"Name:\" field. \n\nNew UI Elements:\n- The \"Open File\" dialog box is now visible, covering a portion of the main WordPerfect 7 document window. \n\nMissing UI Elements: There are no UI elements missing from the initial description. \n",
+        "screenshot": "frame-840.png"
+    },
+    {
+        "frame": 1045,
+        "timestamp": 65.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 document window with the \"Open File - MyFiles\" dialog box overlayed on top. The dialog box displays the \"MyFiles\" directory, showing \"My Computer\" and \"Backup\" folders.  The \"All Files (*.*)\" file type is currently selected. \n\nNew UI Elements:\n- The \"Open File - MyFiles\" dialog box is now visible. \n\nMissing UI Elements: There are no missing UI elements. \n\nContent Changes: There are no content changes. \n",
+        "screenshot": "frame-1045.png"
+    },
+    {
+        "frame": 1068,
+        "timestamp": 66.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Corel WordPerfect 7 document window with an \"Open File\" dialog box layered on top. The dialog box is titled \"Open File - MyFiles\" and displays a file directory tree structure on the left and a list of file icons on the right.  The dialog box also features a menu bar with \"File,\" \"Edit,\" \"View,\" \"Tools,\" \"Favorites,\" and \"Help\" options. \n",
+        "screenshot": "frame-1068.png"
+    },
+    {
+        "frame": 1073,
+        "timestamp": 67.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an empty Corel WordPerfect 7 document window. The right margin, represented by a blue dotted line, is now visible towards the right edge of the editing area. The cursor is no longer visible.  The status bar still displays \"HP LaserJet 4/4M Plus PS\" as the selected printer and shows the cursor position as \"Pg 1 Ln 1\" Pos 1\".\" The system tray time remains at \"2:55 PM.\" \n",
+        "screenshot": "frame-1073.png"
+    }
+]

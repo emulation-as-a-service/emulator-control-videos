@@ -1,0 +1,23 @@
+[
+    {
+        "frame": 377,
+        "event": "The key following key(s) were pressed: ['\\uffc0'].",
+        "timestamp": 23.5625,
+        "description": "The user pressed the '\\uffc0' key, which in Corel WordPerfect 7 corresponds to the \"End\" key. As a result, the cursor moved to the end of the current line, changing to a right-pointing arrow to indicate its position at the line's end.",
+        "outcome": "The time displayed in the status bar has updated to \"2:55 PM\". The mouse cursor has moved near the right edge of the editing area and changed to a right-pointing arrow. All other elements of the UI remain unchanged.",
+        "key_pressed": [
+            "\uffc0"
+        ]
+    },
+    {
+        "frame": 758,
+        "event": "The key following key(s) were pressed: ['\uffe3', 'o'].",
+        "timestamp": 47.375,
+        "description": "The user pressed the keyboard shortcut \"Ctrl+O\". As a result, the right margin, previously hidden, became visible as a blue dotted line in the Corel WordPerfect 7 document window.",
+        "outcome": "The only change observed in the UI is that the right margin, represented by a blue dotted line, has become visible in the Corel WordPerfect 7 document window. ",
+        "key_pressed": [
+            "\uffe3",
+            "o"
+        ]
+    }
+]

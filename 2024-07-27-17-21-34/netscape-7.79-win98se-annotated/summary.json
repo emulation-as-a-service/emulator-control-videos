@@ -1,0 +1,264 @@
+[
+    {
+        "frame": 66,
+        "event": "The mouse pointer is hovering over the \"My Computer\" icon on the desktop. \n",
+        "timestamp": 4.125,
+        "description": "The user clicked the \"My Computer\" icon on the desktop. As a result, the \"My Computer\" window opened. \n",
+        "outcome": "The \"My Computer\" window is open and actively selected, displaying the contents of the \"My Computer\" directory, which includes drives and system folders. The \"My Computer\" icon on the taskbar is highlighted, indicating the window's active status. \n"
+    },
+    {
+        "frame": 212,
+        "event": "The mouse is clicking on the \"Cdrom (D:)\" icon within the \"My Computer\" window. \n",
+        "timestamp": 13.25,
+        "description": "The user clicks on the \"Cdrom (D:)\" icon in the \"My Computer\" window. As a result, the window displays the contents of the \"D:\\\" drive. \n",
+        "outcome": "The \"My Computer\" window now displays the contents of the \"Cdrom (D:)\" drive. The address bar updated to \"D:\\\" and the taskbar added a \"Cdrom (D:)\" button. The main window shows the message \"Select an item to view its description.\" \n"
+    },
+    {
+        "frame": 304,
+        "event": "The mouse is clicking on the \"icc32d479\" icon within the \"Cdrom (D:)\" window. \n",
+        "timestamp": 19.0,
+        "description": "The user clicks the \"cc32d479.exe\" file within the \"Cdrom (D:)\" window. This action opens the \"Netscape Communicator 4.79 Setup\" window. \n",
+        "outcome": "A window titled \"Netscape Communicator 4.79 Setup\" is now visible, replacing the \"Cdrom (D:)\" window. This setup wizard window displays a welcome message and has two buttons at the bottom: \"Next >\" and \"Cancel\". \n"
+    },
+    {
+        "frame": 1228,
+        "event": "The mouse is clicking on the \"Next>\" button. \n",
+        "timestamp": 76.75,
+        "description": "The user clicks the \"Next>\" button in the Netscape Communicator 4.79 Setup window. As a result, the window is replaced with the \"Software License Agreement\" window. \n",
+        "outcome": "The UI now displays a \"Software License Agreement\" window. This window contains the text of the Netscape Client Products End-User License Agreement, a prompt asking the user if they accept the terms, and three buttons: \"Back\", \"Yes\", and \"No\". The previous welcome message, \"Next\" button, and \"Cancel\" button are no longer visible. \n",
+        "label_clicked": "Next>"
+    },
+    {
+        "frame": 1254,
+        "event": "The mouse pointer is hovering over the \"Yes\" button in the \"Software License Agreement\" window. \n",
+        "timestamp": 78.375,
+        "description": "The user clicks the \"Yes\" button in the \"Software License Agreement\" window to accept the terms and proceed to the \"Setup Type\" step in the installation process. \n",
+        "outcome": "The \"Software License Agreement\" window was replaced with the \"Setup Type\" window. This new window presents options for installation type (\"Typical\" or \"Custom\"), a destination directory, and navigation buttons: \"< Back\", \"Next >\", and \"Cancel\". \n"
+    },
+    {
+        "frame": 1308,
+        "event": "The mouse pointer is positioned on and clicking the \"Next >\" button. \n",
+        "timestamp": 81.75,
+        "description": "The user clicks the \"**Next >**\" button to proceed with the Netscape Communicator 4.79 installation using the \"Typical\" setup type. \n",
+        "outcome": "A dialog box titled \"Question\" popped up, informing the user that the chosen installation directory does not exist and asking if they want to create it. The dialog box offers \"Yes\" and \"No\" buttons for the user's response. \n",
+        "label_clicked": "Next >"
+    },
+    {
+        "frame": 1350,
+        "event": "The mouse pointer is hovering over the \"Yes\" button of a \"Question\" dialogue box. \n",
+        "timestamp": 84.375,
+        "description": "The user hovers the mouse pointer over the \"Yes\" button in the \"Question\" dialogue box. Consequently, no immediate visual change occurs in the user interface. \n",
+        "outcome": "The \"Question\" dialogue box, requesting confirmation for creating the directory \"C:\\\\Program Files\\\\Netscape\\\\Communicator\", is replaced by the \"Netscape Desktop Preference Options\" window. This new window allows the user to set Netscape as their default browser, homepage, and search engine using provided checkboxes. It also features \"Back\" and \"Next>\" buttons for navigation within the installation process. \n"
+    },
+    {
+        "frame": 1448,
+        "event": "The mouse is clicking on the \"Next>\" button in the \"Netscape Desktop Preference Options\" window. \n",
+        "timestamp": 90.5,
+        "description": "The user clicks the \"Next >\" button in the \"Netscape Desktop Preference Options\" window.  This action closes the \"Netscape Desktop Preference Options\" window and opens the \"Select Program Folder\" window. \n",
+        "outcome": "The \"Netscape Desktop Preference Options\" window has been replaced by the \"Select Program Folder\" window. This new window features a \"Program Folder\" text field with the pre-filled path \"Netscape Communicator\", and an empty \"Existing Folders\" list box. The checkboxes for default internet preferences are no longer present. \n",
+        "label_clicked": "N>"
+    },
+    {
+        "frame": 1479,
+        "event": "The mouse is clicking on the \"Next >\" button in the \"Select Program Folder\" window. \n",
+        "timestamp": 92.4375,
+        "description": "The user clicks the \"Next >\" button in the \"Select Program Folder\" window.  As a result, the \"Start Copying Files\" window appears. \n",
+        "outcome": "The \"Select Program Folder\" window was replaced by the \"Start Copying Files\" window. This new window confirms the program is ready to install and lists the components to be installed. The \"Next >\" button has been replaced with an \"Install\" button, which is currently hovered over by the mouse cursor. \n",
+        "label_clicked": "Next"
+    },
+    {
+        "frame": 1556,
+        "event": "The mouse is clicking on the \"Install >\" button in the \"Start Copying Files\" dialog. \n",
+        "timestamp": 97.25,
+        "description": "The user clicks the \"Install >\" button in the \"Start Copying Files\" dialog.  As a result, a dialog box titled \"Question\" appears. \n",
+        "outcome": "A dialog box titled \"Question\" appears on the screen. It has a blue background and the Netscape Communicator 4.79 Setup title in the top left corner. The dialog box contains two buttons: \"Yes\" and \"No\". \n\nSeveral UI elements from previous steps in the setup process are no longer present, including the \"Start Copying Files\" window, the informational text box, the \"Back\" and \"Install\" buttons, the \"Current Settings\" section and its dropdown menu, and the \"Cancel\" button. \n",
+        "label_clicked": "stall >"
+    },
+    {
+        "frame": 3348,
+        "event": "The mouse pointer is over the \"No\" button in the dialog box titled \"Question\". \n",
+        "timestamp": 209.25,
+        "description": "The user clicked the \"No\" button in the \"Question\" dialog box, dismissing the prompt to view the README file. \n",
+        "outcome": "The \"Question\" dialog box, including its \"Yes\" and \"No\" buttons, was replaced with an \"Information\" dialog box. This new dialog box displays the message \"Setup is complete. You may run Netscape Communicator 4.79 by double-clicking on one of the icons in the folder.\" and has an \"OK\" button. \n"
+    },
+    {
+        "frame": 3419,
+        "event": "The mouse is clicking on the \"OK\" button of the \"Information\" dialog box. \n",
+        "timestamp": 213.6875,
+        "description": "The user clicks the \"OK\" button in the \"Information\" dialog box, closing it. \n",
+        "outcome": "The \"Information\" dialog box closed and the Netscape Communicator 4.79 application window opened and maximized, covering the entire screen except the taskbar. The application window's address bar displays \"C:\\\\WINDOWS\\\\Start Menu\\\\Programs\\\\Netscape Communicator\". The taskbar now shows a \"Netscape Co...\" button, indicating that the application is open. \n"
+    },
+    {
+        "frame": 3515,
+        "event": "mousedrag",
+        "timestamp": 219.6875,
+        "description": "This input lacks sufficient information to describe a user interaction.  \"Mousedrag\" alone does not specify what element was dragged, its origin, or its destination.  Therefore, I cannot provide a description of the user's action. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 3598,
+        "event": "The mouse is clicking on the close button of the \"Netscape Communicator\" window. \n",
+        "timestamp": 224.875,
+        "description": "The user clicked the close button of the \"Netscape Communicator\" window. This action closed the window and revealed the previously open \"Cdrom (D:)\" window. \n",
+        "outcome": "A window titled \"Cdrom (D:)\", displaying the contents of the D: drive, replaced the \"Netscape Communicator\" window. The taskbar now shows a button labeled \"Cdrom (D:)\", indicating it is the active window. \n",
+        "label_clicked": "-0x"
+    },
+    {
+        "frame": 3651,
+        "event": "The mouse is clicking on the close button of the window titled \"Cdrom (D:)\". \n",
+        "timestamp": 228.1875,
+        "description": "The user clicks the close button of the \"Cdrom (D:)\" window.  As a result, the window closes. \n",
+        "outcome": "The \"Cdrom (D:)\" window has been closed, and a new \"Netscape Communicator\" icon now appears on the desktop. \n",
+        "label_clicked": "-0x"
+    },
+    {
+        "frame": 3666,
+        "event": "The mouse pointer is hovering over the empty desktop area and will click the desktop. \n",
+        "timestamp": 229.125,
+        "description": "The user clicks on an empty area of the Windows 98 desktop. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 3699,
+        "event": "The mouse pointer is clicking on the Netscape Communicator desktop shortcut. \n",
+        "timestamp": 231.1875,
+        "description": "The user clicks the \"Netscape Communicator\" shortcut icon on the Windows 98 desktop. As a result, the \"Creating a New Profile\" dialog window opens. \n",
+        "outcome": "A dialog window titled \"Creating a New Profile\" appeared on the Windows 98 desktop. The mouse cursor is no longer visible. \n",
+        "label_clicked": "N"
+    },
+    {
+        "frame": 3775,
+        "event": "The mouse is clicking on the \"Next>\" button in the \"Creating a New Profile\" dialog box. \n",
+        "timestamp": 235.9375,
+        "description": "The user clicks the \"Next >\" button in the \"Creating a New Profile\" dialog box. As a result, the dialog box title changes to \"Enter your Name and Email Address,\" and presents two text fields: \"Full Name\" and \"Email Address\". \n",
+        "outcome": "During the Netscape Communicator 4.79 installation process, the dialog box titled \"Creating a New Profile\" was updated to request the user's full name and email address. The new title is \"Enter your Name and Email Address,\" and the text fields for \"Full Name\" and \"Email Address\" now contain pre-filled example text. The \"Finish\" button remains inactive. \n",
+        "label_clicked": "Next>"
+    },
+    {
+        "frame": 3842,
+        "event": "The key following key(s) were pressed: ['Shift_L', 'B'].",
+        "timestamp": 240.125,
+        "description": "The **'B'** in the \"**< Back**\" button within the \"Enter your Name and Email Address\" dialog box was visually highlighted. \n",
+        "outcome": "",
+        "key_pressed": [
+            "Shift_L",
+            "B"
+        ]
+    },
+    {
+        "frame": 3845,
+        "event": "The key following key(s) were pressed: ['o'].",
+        "timestamp": 240.3125,
+        "description": "The user typed the letter \"o\" into the \"Enter Your Full Name\" field. \n",
+        "outcome": "",
+        "key_pressed": [
+            "o"
+        ]
+    },
+    {
+        "frame": 3848,
+        "event": "The key following key(s) were pressed: ['b'].",
+        "timestamp": 240.5,
+        "description": "The user typed the letter \"b\" into the \"**Full Name:**\" text field, appending it to the existing text \"Bd\". \n",
+        "outcome": "",
+        "key_pressed": [
+            "b"
+        ]
+    },
+    {
+        "frame": 3852,
+        "event": "The key following key(s) were pressed: ['space'].",
+        "timestamp": 240.75,
+        "description": "The user pressed the 'space' key, adding a single space character to the \"Full Name\" field which already contains the name \"Bob\". \n",
+        "outcome": "",
+        "key_pressed": [
+            "space"
+        ]
+    },
+    {
+        "frame": 3859,
+        "event": "The key following key(s) were pressed: ['Shift_L', 'A'].",
+        "timestamp": 241.1875,
+        "description": "The user typed the letter \"A\" into the \"Email Address\" field. \n",
+        "outcome": "",
+        "key_pressed": [
+            "Shift_L",
+            "A"
+        ]
+    },
+    {
+        "frame": 3870,
+        "event": "The key following key(s) were pressed: ['l', 'i'].",
+        "timestamp": 241.875,
+        "description": "The user typed the letters \"li\" into the \"Full Name\" field, appending the existing input \"Bob Al\". \n",
+        "outcome": "",
+        "key_pressed": [
+            "l",
+            "i"
+        ]
+    },
+    {
+        "frame": 3874,
+        "event": "The key following key(s) were pressed: ['c', 'e'].",
+        "timestamp": 242.125,
+        "description": "The user typed the letters \"ce\" into the \"Enter your Email Address\" field. \n",
+        "outcome": "",
+        "key_pressed": [
+            "c",
+            "e"
+        ]
+    },
+    {
+        "frame": 3878,
+        "event": "The key following key(s) were pressed: ['s'].",
+        "timestamp": 242.375,
+        "description": "The user typed the letter \"s\" into the \"Enter your Name and Email Address\" dialog box, appending the letter to the existing text in the full name field, resulting in \"Bob Alceds\". \n",
+        "outcome": "",
+        "key_pressed": [
+            "s"
+        ]
+    },
+    {
+        "frame": 3883,
+        "event": "The key following key(s) were pressed: ['o', 'n'].",
+        "timestamp": 242.6875,
+        "description": "The user typed the letters \"on\" into the \"Enter your full name:\" text field within the \"Enter your Name and Email Address\" dialog box. \n",
+        "outcome": "",
+        "key_pressed": [
+            "o",
+            "n"
+        ]
+    },
+    {
+        "frame": 3919,
+        "event": "The mouse is clicking on the \"Next >\" button in the \"Enter your Name and Email Address\" dialog box. \n",
+        "timestamp": 244.9375,
+        "description": "The user clicks the \"**Next >**\" button in the \"Enter your Name and Email Address\" dialog box.  The installation wizard proceeds to the \"Choose a Name and Directory for your Profile\" dialog box. \n",
+        "outcome": "The \"Enter your Name and Email Address\" dialog box was replaced with a new dialog box titled \"Choose a Name and Directory for your Profile\".  This new dialog box contains a \"Profile Name:\" text field with the word \"default\" and a text field displaying the directory \"C:\\\\Program Files\\\\Netscape\\\\Users\\\\d\".  The \"Next >\" button is no longer highlighted, though the \"Finish\" button remains disabled. \n",
+        "label_clicked": "Next >"
+    },
+    {
+        "frame": 3952,
+        "event": "The mouse is clicking on the \"Next >\" button in the \"Choose a Name and Directory for your Profile\" window. \n",
+        "timestamp": 247.0,
+        "description": "The user clicks the \"Next >\" button in the \"Choose a Name and Directory for your Profile\" window.  As a result, the  \"Set up your Outgoing Mail Server\" window appears. \n",
+        "outcome": "The \"Choose a Name and Directory for your Profile\" window was replaced by the \"Set up your Outgoing Mail Server\" window. This new window contains a text field labeled \"Outgoing mail (SMTP) server:\" pre-filled with the value \"mail\". The \"Back\" button is now active. \n",
+        "label_clicked": "Next >"
+    },
+    {
+        "frame": 3978,
+        "event": "The mouse is clicking on the \"Finish\" button in the \"Set up your Outgoing Mail Server\" dialog box. \n",
+        "timestamp": 248.625,
+        "description": "The user clicked the \"Finish\" button in the \"Set up your Outgoing Mail Server\" dialog box. This resulted in an error message stating \"Netscape is unable to locate the server home.netscape.com.\" \n",
+        "outcome": "The \"Set up your Outgoing Mail Server\" dialog box was replaced by a new dialog box titled \"Netscape\". This new dialog box contains a yellow warning icon, the message \"Netscape is unable to locate the server home.netscape.com. Please check the server name and try again.\", and an \"OK\" button. Additionally, the status bar at the bottom of the Netscape window now displays the message \"Unable to locate host home.netscape.com.\" \n",
+        "label_clicked": "Finish"
+    },
+    {
+        "frame": 4084,
+        "event": "The mouse is clicking on the \"OK\" button of the dialog box titled \"Netscape\". \n",
+        "timestamp": 255.25,
+        "description": "The user clicks the \"OK\" button on the \"Netscape\" error dialog box. Consequently, the dialog box closes, and the error message \"Unable to locate host home.netscape.com.\" is displayed in the browser window. \n",
+        "outcome": "The \"Netscape\" dialog box, which displayed an error message and an \"OK\" button, closed. The browser window now displays the error message \"Unable to locate host home.netscape.com.\" \n",
+        "label_clicked": "OK"
+    }
+]

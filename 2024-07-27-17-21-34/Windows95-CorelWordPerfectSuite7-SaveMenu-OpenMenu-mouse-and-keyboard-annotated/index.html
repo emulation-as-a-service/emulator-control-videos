@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            z-index: 1000; /* Ensure it stays above other elements */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            margin-top: 460px; /* Space for the fixed video element */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+        .item-header {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            background-color: #f9f9f9;
+        }
+        .columns {
+            display: flex;
+        }
+        .column {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            color: black; /* Ensure text color is set */
+        }
+        .column + .column {
+            border-left: 1px solid #eee;
+        }
+        p {
+            margin: 10px 0;
+            color: #333; /* Ensure text is visible on white background */
+        }
+        .instruction h4 {
+            margin: 10px 0;
+            color: #0056b3; /* Ensure headings are distinct */
+        }
+        .instruction p {
+            margin: 5px 0;
+            color: #333; /* Ensure instruction text is visible */
+        }
+        .instruction {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .instruction strong {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="video-container">
+    <video id="reviewVideo" controls>
+        <source src="Windows95-CorelWordPerfectSuite7-SaveMenu-OpenMenu-mouse-and-keyboard-ffr.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="container">
+    <h2>Review Screenshots</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 377  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 23.5625; return false;">23.5625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the '\uffc0' key, which in Corel WordPerfect 7 corresponds to the "End" key. As a result, the cursor moved to the end of the current line, changing to a right-pointing arrow to indicate its position at the line's end. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The status bar at the bottom of the Corel WordPerfect 7 window displays "Pos 1" indicating the cursor is at the beginning of the line.</p>
+                            <p><strong>Action:</strong> Press the 'End' key.</p>
+                            <p><strong>Expected Results:</strong> The cursor will move to the end of the current line and change to a right-pointing arrow.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the '\uffc0' key, which in Corel WordPerfect 7 corresponds to the "End" key. As a result, the cursor moved to the end of the current line, changing to a right-pointing arrow to indicate its position at the line's end.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The status bar at the bottom of the Corel WordPerfect 7 window displays "Insert", indicating the program is in Insert mode.</p>
+                            <p><strong>Action:</strong> Press the 'End' key.</p>
+                            <p><strong>Expected Results:</strong> The cursor will move to the end of the current line and change to a right-pointing arrow.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 758  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 47.375; return false;">47.375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the keyboard shortcut "Ctrl+O". As a result, the right margin, previously hidden, became visible as a blue dotted line in the Corel WordPerfect 7 document window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Corel WordPerfect 7 document window is active.</p>
+                            <p><strong>Action:</strong> Press the 'Ctrl' and 'O' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The 'Open File' dialog box will appear.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the keyboard shortcut "Ctrl+O". As a result, the right margin, previously hidden, became visible as a blue dotted line in the Corel WordPerfect 7 document window.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Corel WordPerfect 7 document window is active.</p>
+                            <p><strong>Action:</strong> Press the 'Ctrl' and 'O' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The 'Open File' dialog box will appear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+[
+    {
+        "frame": 31,
+        "event": "The mouse pointer, a white arrow, is about to click on the empty area of the desktop. \n",
+        "timestamp": 1.9375,
+        "description": "The user right-clicks on an empty area of the desktop. As a result, a context menu appears, displaying options such as \"Arrange Icons By\", \"Refresh\", \"Paste\", \"New\", and \"Properties\". \n",
+        "outcome": "A context menu opened in the top left corner of the screen, displaying options like \"Arrange Icons By\", \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\". \n"
+    },
+    {
+        "frame": 80,
+        "event": "The mouse is clicking on the \"Properties\" option in the context menu. \n",
+        "timestamp": 5.0,
+        "description": "The user right-clicks on the desktop and selects \"Properties\" from the context menu.  As a result, the \"Display Properties\" window opens. \n",
+        "outcome": "The Windows XP desktop now displays the \"Display Properties\" window with the \"Themes\" tab selected. The previously visible context menu is no longer present. \n"
+    },
+    {
+        "frame": 157,
+        "event": "The mouse is clicking the \"Screen Saver\" tab in the \"Display Properties\" window. \n",
+        "timestamp": 9.8125,
+        "description": "The user clicks the \"Screen Saver\" tab within the \"Display Properties\" window. As a result, the window's content updates to display options related to the screen saver settings. \n",
+        "outcome": "The \"Display Properties\" window has been updated to reflect the selection of \"None\" in the \"Screen Saver\" dropdown menu.  The previously available \"Theme\" options, \"Save As\" and \"Delete\" buttons, and the \"Sample\" area are no longer visible. A \"Power...\" button now appears below the \"Monitor power\" text. \n",
+        "label_clicked": "ScreSaver"
+    },
+    {
+        "frame": 230,
+        "event": "The mouse is clicking on the dropdown arrow of the \"Screen Saver\" selection box in the \"Display Properties\" window. \n",
+        "timestamp": 14.375,
+        "description": "The user clicks the dropdown arrow of the \"Screen Saver\" dropdown menu within the \"Display Properties\" window.  This reveals a list of available screen saver options. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu within the \"Display Properties\" window has been expanded to reveal a list of available options: \"None,\" \"3D FlowerBox,\" \"3D Flying Objects,\" \"3D Pipes,\" \"3D Text,\" \"Beziers,\" \"Blank,\" \"Marquee,\" \"My Pictures Slideshow,\" \"Mystify,\" and \"Starfield.\" The previously selected \"Windows XP\" option remains visible at the top and bottom of the list. \n"
+    },
+    {
+        "frame": 261,
+        "event": "The mouse is clicking on the \"3D Flipper\" item in the \"Screen saver\" dropdown menu of the \"Display Properties\" window. \n",
+        "timestamp": 16.3125,
+        "description": "The user clicked on the \"3D Flipper\" option within the \"Screen saver\" dropdown menu.  As a result, the \"Settings\" button below became enabled. \n",
+        "outcome": "The \"Settings\" button within the \"Screen Saver\" tab of the \"Display Properties\" window became enabled. \n",
+        "label_clicked": "(None"
+    },
+    {
+        "frame": 309,
+        "event": "The mouse is clicking on the \"Power...\" button inside the \"Display Properties\" window. \n",
+        "timestamp": 19.3125,
+        "description": "The user clicks the \"Power...\" button within the \"Monitor power\" section of the \"Display Properties\" window.  This opens the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window opened, overlaying the \"Display Properties\" window and covering the \"Screen Saver\" tab content. The new window displays \"Power Schemes,\" \"Advanced,\" \"Hibernate,\" and \"UPS\" tabs, with the \"Home/Office Desk\" power scheme selected.  This scheme offers adjustable settings for \"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates,\" each with a dropdown menu for duration selection. \n"
+    },
+    {
+        "frame": 373,
+        "event": "The mouse is clicking on the dropdown button of the \"Turn off monitor\" setting in the \"Power Options Properties\" window. \n",
+        "timestamp": 23.3125,
+        "description": "The user clicked the dropdown button next to the \"Turn off monitor:\" setting. This action expanded the dropdown menu, displaying a list of options, with \"System hibernates\" currently highlighted. \n",
+        "outcome": "The \"Power Options Properties\" window remained open and active, with the \"System hibernates\" option highlighted within the expanded \"Turn off monitor\" dropdown menu. The mouse cursor, previously hovering over the dropdown, is no longer visible. \n"
+    },
+    {
+        "frame": 414,
+        "event": "The mouse is clicking on the \"Never\" item in the \"Turn off monitor\" dropdown menu. \n",
+        "timestamp": 25.875,
+        "description": "The user clicks \"Never\" in the \"Turn off monitor\" dropdown menu.  The dropdown menu closes, and \"Never\" is displayed as the selected option. \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu closed, and the selected option is now displayed as \"Never\". \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 440,
+        "event": "The mouse is clicking on the \"OK\" button of the \"Power Options Properties\" window. \n",
+        "timestamp": 27.5,
+        "description": "The user clicks the \"**OK**\" button in the \"Power Options Properties\" window. As a result, the window closes and the changes to the display settings are applied. \n",
+        "outcome": "The \"Display Properties\" window was updated to disable the screensaver (\"None\" is now selected) and set the \"Wait\" time to 10 minutes.  The \"Power Options Properties\" window is no longer present. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 461,
+        "event": "The mouse is clicking on the \"OK\" button in the \"Display Properties\" window. \n",
+        "timestamp": 28.8125,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Display Properties\" window.  As a result, the \"Display Properties\" window closed. \n",
+        "outcome": "The \"Display Properties\" window closed. \n",
+        "label_clicked": "OK"
+    }
+]

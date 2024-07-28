@@ -1,0 +1,199 @@
+[
+    {
+        "frame": 41,
+        "event": "The mouse pointer is clicking the \"Start\" button on the Windows 98 taskbar. \n",
+        "timestamp": 2.5625,
+        "description": "The user clicks the \"Start\" button on the Windows 98 taskbar, which opens the Start menu, displaying menus like \"Programs,\" \"Favorites,\" \"Documents,\" \"Settings,\" \"Find,\" \"Help,\" and \"Run.\" \n",
+        "outcome": "The Windows 98 desktop is shown with the \"Start\" menu open. The \"Settings\" submenu is expanded, revealing options like \"Control Panel,\" \"Printers,\" and \"Taskbar & Start Menu.\" \n",
+        "label_clicked": "Start"
+    },
+    {
+        "frame": 88,
+        "event": "The mouse is clicking on the \"Printers\" menu item in the Settings sub-menu of the Start Menu. \n",
+        "timestamp": 5.5,
+        "description": "The user clicks on the \"Printers\" option in the Start Menu's \"Settings\" submenu. As a result, the \"Printers\" folder opens. \n",
+        "outcome": "The \"Printers\" folder is now open and maximized, covering the Start Menu. The folder window is empty. \n",
+        "label_clicked": "Printers"
+    },
+    {
+        "frame": 161,
+        "event": "The mouse is clicking on the \"Add Printer\" icon in the \"Printers\" window. \n",
+        "timestamp": 10.0625,
+        "description": "The user clicks the \"Add Printer\" icon in the \"Printers\" window.  As a result, the \"Add Printer Wizard\" dialog window opens. \n",
+        "outcome": "The \"Add Printer\" icon and its associated text description have been replaced by the \"Add Printer Wizard\" dialog window. This window features a title bar, an image of a printer, instructional text, and three buttons: \"< Back\", \"Next >\", and \"Cancel\". \n",
+        "label_clicked": "AddPrinter"
+    },
+    {
+        "frame": 198,
+        "event": "The mouse is clicking on the \"Next >\" button in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 12.375,
+        "description": "The user clicks the \"Next >\" button at the bottom of the \"Add Printer Wizard\" window. As a result, the window advances to the next step in the process, allowing the user to select a printer manufacturer and model. \n",
+        "outcome": "The \"Add Printer Wizard\" window updated to allow selection of a printer manufacturer and model.  The window now includes two list boxes: one populated with printer manufacturers (with \"Agfa\" selected) and the other displaying a corresponding list of Agfa printer models. The main instruction text and \"Back\" button also adjusted to reflect the available options. \n",
+        "label_clicked": "N>"
+    },
+    {
+        "frame": 234,
+        "event": "The mouse is clicking on \"AGFA-AccuSet 800SF v2013.108\" in the printer list of the Add Printer Wizard window. \n",
+        "timestamp": 14.625,
+        "description": "The user clicks on the \"AGFA-AccuSet 800SF v2013.108\" printer model in the \"Printers\" list. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 241,
+        "event": "The mouse is clicking on the \"Next >\" button in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 15.0625,
+        "description": "The user clicks the \"Next >\" button at the bottom of the \"Add Printer Wizard\" window to proceed to the next step in the installation process. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 247,
+        "event": "The mouse is clicking on the \"Next >\" button in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 15.4375,
+        "description": "The user clicks the \"Next >\" button to proceed to the next step of the Add Printer Wizard. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 252,
+        "event": "The mouse is clicking on the \"Next >\" button inside the \"Add Printer Wizard\" window. \n",
+        "timestamp": 15.75,
+        "description": "The user clicks the \"Next >\" button to proceed to the next step in the Add Printer Wizard after selecting the desired printer model. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 257,
+        "event": "The mouse pointer is hovering over and clicking the down arrow of the printer model list box in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 16.0625,
+        "description": "The user clicked the down arrow on the \"Printers\" list box to scroll through the available printer models. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 262,
+        "event": "The mouse is clicking on the \"Next >\" button in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 16.375,
+        "description": "The user clicks the \"Next >\" button located below the \"Printers\" list. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 268,
+        "event": "The mouse pointer is not visible. \n",
+        "timestamp": 16.75,
+        "description": "The \"Printers\" pane now displays a list of HP printers, indicating the user has selected \"HP\" from the \"Manufacturers\" list. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 273,
+        "event": "The mouse pointer is hovering over the down arrow button of the printer model list in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 17.0625,
+        "description": "The mouse pointer hovers over the down arrow button located on the right side of the \"Printers\" list box within the \"Add Printer Wizard\" dialog box. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 279,
+        "event": "The mouse is clicking on the \"Next >\" button in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 17.4375,
+        "description": "The user clicks the \"Next >\" button located below the \"Manufacturers\" and \"Printers\" list boxes in the \"Add Printer Wizard\" window. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 311,
+        "event": "The mouse is clicking on the \"HP\" item in the \"Manufacturers\" list box of the \"Add Printer Wizard\" window. \n",
+        "timestamp": 19.4375,
+        "description": "The user clicks on the \"HP\" item in the \"Manufacturers\" list. As a result, the \"Printers\" list updates to display HP printer models. \n",
+        "outcome": "The \"Add Printer Wizard\" updated to display a list of \"HP\" printer models in the \"Printers\" pane after \"HP\" was selected in the \"Manufacturers\" pane. Additionally, an empty \"Undo\" window appeared to the right of the \"Add Printer Wizard\" window. \n",
+        "label_clicked": "4P"
+    },
+    {
+        "frame": 349,
+        "event": "The mouse is clicking on the \"HP Color LaserJet 5/PS\" item in the \"Printers:\" list box of the \"Add Printer Wizard\" window. \n",
+        "timestamp": 21.8125,
+        "description": "The user clicks the \"HP Color LaserJet 5/5M PS\" item in the \"Printers:\" list box. \n",
+        "outcome": "",
+        "label_clicked": "HP Color LaserJet 5/ PS"
+    },
+    {
+        "frame": 370,
+        "event": "The mouse is clicking on the \"Next >\" button in the \"Add Printer Wizard\" dialog. \n",
+        "timestamp": 23.125,
+        "description": "The user clicked the \"Next >\" button in the \"Add Printer Wizard\" dialog. This action advanced the wizard to the next step, which displays a list of available ports for printer connection. \n",
+        "outcome": "The Add Printer Wizard transitioned from displaying a list of printer manufacturers and models to a list of available ports (\"COM1\", \"LPT1\", etc.) for connection. The \"LPT1: Printer Port\" option is selected by default.  The \"Configure Port...\" button is now available while the \"Have Disk...\" button is no longer visible. \n",
+        "label_clicked": "Nat >"
+    },
+    {
+        "frame": 404,
+        "event": "The mouse is clicking on the \"Next >\" button in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 25.25,
+        "description": "The user clicked the \"Next >\" button in the \"Add Printer Wizard\" window. This action advanced the wizard to the next step, which displays a \"Printer name:\" field. \n",
+        "outcome": "The Add Printer Wizard transitioned to the next step, replacing the port selection view with a text field labeled \"Printer name:\". The field is pre-filled with \"HP Color LaserJet 5/5M PS\". \n",
+        "label_clicked": "Nex"
+    },
+    {
+        "frame": 429,
+        "event": "The mouse is clicking on the \"Next >\" button in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 26.8125,
+        "description": "The user clicked the \"Next >\" button in the \"Add Printer Wizard\" window.  As a result, the window advanced to a confirmation screen and the \"Next >\" button was replaced with a \"Finish\" button. \n",
+        "outcome": "The \"Add Printer Wizard\" window updated to a confirmation screen. The window no longer prompts for a printer name, and the \"Next >\" button has been replaced with a \"Finish\" button. \n",
+        "label_clicked": "Nex"
+    },
+    {
+        "frame": 465,
+        "event": "The mouse is clicking on the radio button labeled \"No\" in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 29.0625,
+        "description": "The user clicks the \"No\" radio button below the \"Do you want to print a test page?\" prompt. \n",
+        "outcome": "",
+        "label_clicked": "CANO"
+    },
+    {
+        "frame": 473,
+        "event": "The mouse is clicking on the radio button labeled \"No\" in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 29.5625,
+        "description": "The user clicked \"No\" in response to the prompt \"Would you like to print a test page?\". \n",
+        "outcome": "",
+        "label_clicked": "CNWo"
+    },
+    {
+        "frame": 486,
+        "event": "The mouse is clicking on the \"Finish\" button in the \"Add Printer Wizard\" window. \n",
+        "timestamp": 30.375,
+        "description": "The user clicks the \"Finish\" button to complete the printer setup. \n",
+        "outcome": "The Add Printer Wizard is no longer visible. In its place, a \"Copying Files\" dialog appeared, showing 0% completion. An \"Insert Disk\" error message also appeared, requesting the insertion of the \"Windows 98 Second Edition CD-ROM\". \n",
+        "label_clicked": "Finkh"
+    },
+    {
+        "frame": 548,
+        "event": "The mouse pointer is hovering over the \"OK\" button of the \"Insert Disk\" error message window. \n",
+        "timestamp": 34.25,
+        "description": "The user hovers the mouse pointer over the \"OK\" button in the \"Insert Disk\" error message window. Consequently, the \"Insert Disk\" window closes and a \"Copying Files...\" window appears. \n",
+        "outcome": "The \"Add Printer\" wizard window has closed and a \"Copying Files...\" window has appeared. This window contains an empty progress bar, buttons for \"OK\", \"Cancel\", \"Skip File\", \"Details...\", and \"Browse...\", and a message stating that the system cannot find a required file and prompting the user to insert the Windows 98 Second Edition CD-ROM. \n"
+    },
+    {
+        "frame": 585,
+        "event": "The mouse is clicking on the \"OK\" button within the \"Copying Files...\" dialog box. \n",
+        "timestamp": 36.5625,
+        "description": "The user clicks the \"OK\" button in the \"Copying Files...\" dialog box to initiate the file copy process from the Windows 98 Second Edition CD-ROM inserted in drive \"D:\\WIN98\". \n",
+        "outcome": "A \"Copying Files...\" dialog box appeared on top of the \"Add Printer\" wizard window. This dialog box contains an error message stating that a file cannot be found on the Windows 98 installation CD and prompts the user to check the disk and click OK. The dialog box includes a text field labeled \"Copy files from:\" displaying \"D:\\\\WIN98\". \n",
+        "label_clicked": "QK"
+    },
+    {
+        "frame": 600,
+        "event": "The mouse is hovering over the \"OK\" button in the \"Copying Files...\" dialog. \n",
+        "timestamp": 37.5,
+        "description": "The user hovers the mouse cursor over the \"OK\" button within the \"Copying Files...\" error message window. As a result, the \"OK\" button becomes highlighted, and a progress bar appears, indicating the file copying process has started. \n",
+        "outcome": "A progress bar appeared in the \"Copying Files...\" error window, indicating the file copying process has begun. The \"OK\" button is now highlighted, and a small \"Copying Files...\" window appeared in the bottom right corner of the screen, overlapping the taskbar. The \"Add Printer\" window is no longer visible. \n",
+        "label_clicked": "QK"
+    },
+    {
+        "frame": 625,
+        "event": "The mouse is clicking on the \"Cancel\" button in a \"Copying Files...\" dialog. \n",
+        "timestamp": 39.0625,
+        "description": "The user clicked the \"Cancel\" button in the \"Copying Files...\" error message dialog, which appeared during the printer driver installation. As a result, the installation process was aborted, and a new error message appeared stating that not all required files were copied. \n",
+        "outcome": "An error message popped up with the title \"HP Color LaserJet 5/5M PS\" stating that not all required files were copied. The message advises quitting all programs and trying again, or selecting a different printer model. The only button available on the error message is \"OK\".  \n",
+        "label_clicked": "Cancel"
+    },
+    {
+        "frame": 653,
+        "event": "The mouse is clicking on the \"OK\" button of the error message box titled \"HP Color LaserJet 5/5M PS\". \n",
+        "timestamp": 40.8125,
+        "description": "The user clicks the \"OK\" button on the \"HP Color LaserJet 5/5M PS\" error message box.  As a result, the error message box disappears. \n",
+        "outcome": "The error message box titled \"HP Color LaserJet 5/5M PS\" disappeared. \n"
+    }
+]

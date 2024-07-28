@@ -1,0 +1,92 @@
+[
+    {
+        "precondition": "The \"Start\" button is visible on the left side of the taskbar.",
+        "action": "Click the \"Start\" button.",
+        "expected_results": "The Start menu will open."
+    },
+    {
+        "precondition": "The Windows XP Start Menu is open.",
+        "action": "Click the menu item \"Control Panel\".",
+        "expected_results": "The Control Panel window will open."
+    },
+    {
+        "precondition": "The \"Appearance and Themes\" category is visible in the Windows XP Control Panel.",
+        "action": "Move the mouse cursor over the \"Appearance and Themes\" category icon.",
+        "expected_results": "The text description below the category icons will update to reflect the \"Appearance and Themes\" category."
+    },
+    {
+        "precondition": "The \"Appearance and Themes\" window is open within the Windows XP Control Panel.",
+        "action": "Left Click on the \"Display\" icon.",
+        "expected_results": "The \"Display Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Display Properties\" window will display the \"Screen Saver\" tab. A preview window showing a black screen with the text \"Windows XP\" will appear. Options for screen saver settings, including a dropdown menu, settings and preview buttons, wait time input, password protection checkbox, and monitor power options will become visible."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab of the \"Display Properties\" window is open.",
+        "action": "Click the down arrow of the \"Screen saver\" dropdown menu.",
+        "expected_results": "A dropdown menu with a list of available screensavers will appear."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Screen Saver\" dropdown menu is open.",
+        "action": "Click the \"3D Flower Box!\" option within the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"Wait\" time will change to \"10\" minutes."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Power\" button is visible within the \"Monitor power\" section.",
+        "action": "Click the \"Power\" button in the \"Monitor power\" section.",
+        "expected_results": "The \"Display Properties\" window will be replaced by the \"Power Options Properties\" window. The \"Power Schemes\" tab will be selected."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Home/Office Desk\" power scheme is selected.",
+        "action": "Click the dropdown button next to \"Turn off monitor\".",
+        "expected_results": "A dropdown menu will appear with a list of time intervals ranging from \"After 1 min\" to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"System hibernates\" dropdown menu is expanded.",
+        "action": "Click the \"After 5 hours\" option in the \"System hibernates\" dropdown menu.",
+        "expected_results": "The \"Power Schemes\" dropdown menu will change to \"Home/Office Desk\" and all power-saving options will be reset to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Power schemes\" dropdown menu is visible.",
+        "action": "Click the dropdown arrow of the \"Power schemes\" list box.",
+        "expected_results": "A dropdown menu with a list of power plan options will appear."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Power schemes\" dropdown menu is visible.",
+        "action": "Click the \"Always On\" item in the \"Power schemes\" dropdown menu.",
+        "expected_results": "Two new buttons, \"Save As..\" and \"Delete\", will appear to the right of the \"Power schemes\" dropdown menu."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open. The \"Power Schemes\" tab is selected. The \"Always On\" power scheme is selected.",
+        "action": "Hover the mouse pointer over the dropdown button next to the \"Turn off hard disks\" setting.",
+        "expected_results": "No immediate visual changes are expected."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Always On\" power scheme is selected.",
+        "action": "Click on the dropdown button labeled \"After 20 mins\" next to the \"Turn off monitor\" option.",
+        "expected_results": "A dropdown menu with a list of time interval options will appear."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Always On\" power scheme is selected. The \"System hibernates:\" dropdown menu is open.",
+        "action": "Click the \"Never\" option in the \"System hibernates:\" dropdown menu.",
+        "expected_results": "The \"Power Options Properties\" window will show \"Never\" selected in the \"System hibernates:\" dropdown menu, indicating the system is set to never hibernate automatically."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Always On\" power scheme selected. The \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" options are all set to \"Never\".",
+        "action": "Click the \"OK\" button at the bottom of the window.",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open with the \"Screen Saver\" tab selected.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Appearance and Themes\" window is open.",
+        "action": "Click the 'Close' button in the title bar of the \"Appearance and Themes\" window.",
+        "expected_results": "The \"Appearance and Themes\", \"Display Properties\", and \"Power Options Properties\" windows will be closed."
+    }
+]

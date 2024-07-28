@@ -1,0 +1,27 @@
+[
+    {
+        "precondition": "The \"Write\" application window is active and the main menu bar is visible.",
+        "action": "Click the \"File\" menu item in the main menu bar.",
+        "expected_results": "The \"File\" menu will expand, displaying a list of menu items."
+    },
+    {
+        "precondition": "The \"File\" menu is expanded.",
+        "action": "Click the \"Print...\" menu item.",
+        "expected_results": "A \"Print\" dialog box will appear, overlaying the document editing area."
+    },
+    {
+        "precondition": "The \"Print\" dialog box is open.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Print\" dialog box will close, and a \"Now Printing\" dialog box may appear."
+    },
+    {
+        "precondition": "The \"Now Printing\" dialog box is open.",
+        "action": "Click the \"Cancel\" button.",
+        "expected_results": "The \"Now Printing\" dialog box will close, and the print job will be canceled."
+    },
+    {
+        "precondition": "The \"Print\" dialog box is open.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Print\" dialog box will close."
+    }
+]

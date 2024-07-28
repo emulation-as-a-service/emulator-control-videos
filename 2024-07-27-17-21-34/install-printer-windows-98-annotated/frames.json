@@ -1,0 +1,894 @@
+[
+    {
+        "frame": 41,
+        "timestamp": 2.5625,
+        "event": {
+            "time": 2617,
+            "event": "mousedown",
+            "x": 22,
+            "y": 585,
+            "frame": 41,
+            "time_end": 2.618,
+            "frame_end": 41
+        },
+        "type": "event",
+        "label_clicked": "Start",
+        "description": "The screenshot displays the Windows 98 Second Edition desktop. Visible on the desktop are icons for \"My Computer,\" \"My Documents,\" \"Internet Explorer,\" and \"Recycle Bin.\" The taskbar at the bottom of the screen shows the \"Start\" button, a blank space for open programs, and the system tray in the right corner. The system tray displays the current time as 8:12 AM and a speaker icon indicating active audio. \n",
+        "screenshot": "frame-41-mousedown.png",
+        "screenshot_annotated": "frame-41-mousedown-layout.png"
+    },
+    {
+        "frame": 48,
+        "timestamp": 3.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 Second Edition desktop with the Start menu open. The \"Programs\" submenu is also open. \n- New UI Elements: The Start menu is now visible, displaying \"Windows Update\" and the \"Programs\" submenu with icons for \"Programs\" and \"Documents\". \n",
+        "screenshot": "frame-48.png"
+    },
+    {
+        "frame": 49,
+        "timestamp": 3.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 Second Edition desktop with the Start Menu open. The \"Programs\" submenu is expanded, displaying options such as \"Windows Update,\" \"Favorites,\" \"Documents,\" and \"Settings.\" \n",
+        "screenshot": "frame-49.png"
+    },
+    {
+        "frame": 50,
+        "timestamp": 3.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 Second Edition desktop with the Start Menu open. The \"Windows Update\" option is highlighted. \n",
+        "screenshot": "frame-50.png"
+    },
+    {
+        "frame": 51,
+        "timestamp": 3.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 Second Edition desktop with the \"Start\" menu open. \n\nNew UI Elements:\n- The \"Start\" menu is now visible, displaying options like \"Windows Update,\" \"Programs,\" \"Favorites,\" \"Documents,\" \"Settings,\" \"Find,\" \"Help,\" \"Run...,\" and \"Shut Down...\". \n\nMissing UI Elements: There are no missing UI elements. \n",
+        "screenshot": "frame-51.png"
+    },
+    {
+        "frame": 60,
+        "timestamp": 3.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Start\" menu open. The \"Windows Update\" option is highlighted within the menu. \n",
+        "screenshot": "frame-60.png"
+    },
+    {
+        "frame": 61,
+        "timestamp": 3.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 Second Edition desktop with the \"Start\" menu open. The \"Windows Update\" option is highlighted within the menu. \n",
+        "screenshot": "frame-61.png"
+    },
+    {
+        "frame": 62,
+        "timestamp": 3.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 98 Second Edition desktop. The \"Start\" menu is open and displaying the available options: \"Windows Update\", \"Programs\", \"Favorites\", \"Documents\", \"Settings\", \"Find\", \"Help\", \"Run...\", and \"Shut Down...\". The mouse cursor is hovering over the \"Settings\" option. \nNew UI Elements: The \"Start\" menu is now visible. \nMissing UI Elements: There are no missing UI elements. \nContent Changes: There are no content changes. \n",
+        "screenshot": "frame-62.png"
+    },
+    {
+        "frame": 71,
+        "timestamp": 4.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Start\" menu open. The \"Settings\" submenu is expanded, displaying options like \"Control Panel\", \"Printers\", \"Taskbar & Start Menu\", and others. \n",
+        "screenshot": "frame-71.png"
+    },
+    {
+        "frame": 72,
+        "timestamp": 4.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Start\" menu open. The \"Settings\" submenu is expanded, displaying options such as \"Control Panel,\" \"Printers,\" and \"Taskbar & Start Menu.\" \n",
+        "screenshot": "frame-72.png"
+    },
+    {
+        "frame": 88,
+        "timestamp": 5.5,
+        "event": {
+            "time": 5545,
+            "event": "mousedown",
+            "x": 229,
+            "y": 440,
+            "frame": 88,
+            "time_end": 5.546,
+            "frame_end": 88
+        },
+        "type": "event",
+        "label_clicked": "Printers",
+        "description": "The screenshot displays the Windows 98 desktop with the Start Menu open. The user has hovered over the \"Settings\" option, revealing a submenu. This submenu lists various system configuration options.  The \"Printers\" option within this submenu is highlighted, indicating the user's mouse cursor is hovering over it. This suggests the user is about to access the \"Printers\" folder on their system. \n",
+        "screenshot": "frame-88-mousedown.png",
+        "screenshot_annotated": "frame-88-mousedown-layout.png"
+    },
+    {
+        "frame": 92,
+        "timestamp": 5.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop. The Start Menu is still open. The \"Settings\" submenu is no longer visible. The \"Printers\" option is not highlighted anymore. \n",
+        "screenshot": "frame-92.png"
+    },
+    {
+        "frame": 93,
+        "timestamp": 5.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 98 desktop. The Start Menu is no longer open. The \"Printers\" option within the Start Menu's submenu is no longer highlighted. \n",
+        "screenshot": "frame-93.png"
+    },
+    {
+        "frame": 108,
+        "timestamp": 6.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with an empty window. The Start Menu is no longer visible. \n\nMissing UI Elements:\n- The Start Menu and its submenus are no longer visible.\n- The \"Printers\" option within the Start Menu's \"Settings\" submenu is no longer highlighted. \n\nNew UI Elements:\n- An empty window with a title bar displaying minimize, maximize, and close buttons is present. \n",
+        "screenshot": "frame-108.png"
+    },
+    {
+        "frame": 109,
+        "timestamp": 6.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an empty, maximized window on the Windows 98 desktop. The window title bar reads \"Printers\". The Start Menu is no longer visible. \n\nMissing UI Elements:\n- The Start Menu and its submenus are no longer present.\n\nNew UI Elements:\n- A maximized window titled \"Printers\" is now open. \n",
+        "screenshot": "frame-109.png"
+    },
+    {
+        "frame": 110,
+        "timestamp": 6.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Printers\" folder open. The \"Printers\" folder window is maximized. \n\nThe Start Menu is no longer visible. \nThe \"Printers\" option on the taskbar is no longer highlighted. \n",
+        "screenshot": "frame-110.png"
+    },
+    {
+        "frame": 130,
+        "timestamp": 8.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Printers\" folder open. The \"Printers\" folder window occupies the majority of the screen. The \"Start Menu\" is no longer open. The \"Printers\" folder on the taskbar is no longer highlighted. \n",
+        "screenshot": "frame-130.png"
+    },
+    {
+        "frame": 141,
+        "timestamp": 8.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an open \"Printers\" folder window on the Windows 98 desktop. The Start Menu is no longer visible. The \"Printers\" folder window displays an empty white area on the right, indicating no printers are currently installed. \n\nMissing UI Elements:\n- The Start Menu is no longer visible. \n- The \"Printers\" option within the Start Menu's \"Settings\" submenu is no longer visible. \n\nNew UI Elements:\n- A window titled \"Printers\" is now visible. \n- This window contains standard window elements like minimize, maximize, and close buttons. It also has a menu bar with options like \"File,\" \"Edit,\" \"View,\" \"Go,\" \"Favorites,\" and \"Help.\"  A toolbar below the menu bar offers buttons for actions like \"Back,\" \"Forward,\" \"Up,\" \"Cut,\" \"Copy,\" \"Paste,\" and \"Undo.\"\n- An \"Address\" bar is visible below the toolbar, showing the current location as \"Printers.\"\n- A large, empty white space dominates the right side of the window.\n- A small yellow folder icon with the label \"Printers\" is present on the left side of the window. \n- Below the folder icon, a text description reads: \"This folder contains information about your printers.\"\n- A shortcut to the \"Printers\" folder is now visible on the taskbar. \n",
+        "screenshot": "frame-141.png"
+    },
+    {
+        "frame": 142,
+        "timestamp": 8.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Printers\" folder open. The \"Printers\" folder window is maximized and displays an empty white area on the right, taking up most of the window. The left side of the \"Printers\" folder window shows the address bar with \"Printers\" in the address field and a navigation pane with \"Printers\" highlighted. \n\nThe Start Menu is no longer visible. \n",
+        "screenshot": "frame-142.png"
+    },
+    {
+        "frame": 161,
+        "timestamp": 10.0625,
+        "event": {
+            "time": 10.343,
+            "event": "doubleclick",
+            "x": 267,
+            "y": 254,
+            "frame": 161,
+            "time_end": 10.343,
+            "frame_end": 165
+        },
+        "type": "event",
+        "label_clicked": "AddPrinter",
+        "description": "The screenshot displays an open Printers folder window in Windows 98. The window showcases the standard menu bar with options for \"File,\" \"Edit,\" \"View,\" \"Go,\" \"Favorites,\" and \"Help,\" as well as a toolbar with buttons for common actions like \"Back,\" \"Forward,\" \"Up,\" \"Cut,\" \"Copy,\" \"Paste,\" and \"Undo.\"\n\nWithin the folder window, the \"Add Printer\" icon, represented by a printer image with a plus sign, is prominently displayed.  Below the icon, a text box provides information about the purpose of the Printers folder. \n",
+        "screenshot": "frame-161-doubleclick.png",
+        "screenshot_annotated": "frame-161-doubleclick-layout.png"
+    },
+    {
+        "frame": 172,
+        "timestamp": 10.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Printers folder window with the \"Add Printer\" icon still visible. However, the text box below the icon now displays the introductory message for the \"Add Printer Wizard.\" The message reads, \"The Add Printer wizard walks you step-by-step through installing a printer. Just follow the instructions on each screen.\" \n",
+        "screenshot": "frame-172.png"
+    },
+    {
+        "frame": 181,
+        "timestamp": 11.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Printers\" folder open in the foreground. A new window titled \"Add Printer Wizard\" is now visible, displaying a partial image and the text \"step-by-step through installing a printer. Just follow the instructions on each screen.\"\n\nThe following UI elements are no longer present:\n- The \"Add Printer\" icon\n- The text box providing information about the purpose of the Printers folder \n",
+        "screenshot": "frame-181.png"
+    },
+    {
+        "frame": 182,
+        "timestamp": 11.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the first screen of the \"Add Printer Wizard\" dialog window, overlaid on the Windows 98 desktop. The wizard window features a title bar with the text \"Add Printer Wizard\" and the standard minimize, maximize, and close buttons. \n\nNew UI Elements:\n- A dialog window titled \"Add Printer Wizard\" is now visible. This window contains an image of a printer, text guiding the user through the installation process, and three buttons: \"< Back\", \"Next >\", and \"Cancel\". \n\nMissing UI Elements:\n- The \"Add Printer\" icon is no longer visible. \n- The text box providing information about the Printers folder is no longer present. \n",
+        "screenshot": "frame-182.png"
+    },
+    {
+        "frame": 198,
+        "timestamp": 12.375,
+        "event": {
+            "time": 12434,
+            "event": "mousedown",
+            "x": 346,
+            "y": 337,
+            "frame": 198,
+            "time_end": 12.435,
+            "frame_end": 198
+        },
+        "type": "event",
+        "label_clicked": "N>",
+        "description": "The \"Add Printer Wizard\" window displays the first screen of the installation process. The window title bar shows the name of the wizard. In the top-left corner, there is a standard window control menu with minimize, maximize, and close buttons. Below, an image depicts a printer. The main area provides brief instructions: \"This wizard will help you to install your printer quickly and easily. To begin installing your printer, click Next.\" At the bottom of the window, there are three buttons:\n- \"< Back\": This button is currently disabled (greyed out) as it is the first step of the process.\n- \"Next >\": This button, highlighted with a blue border, proceeds to the next step in the installation process.\n- \"Cancel\": This button allows the user to cancel the printer installation process. \n",
+        "screenshot": "frame-198-mousedown.png",
+        "screenshot_annotated": "frame-198-mousedown-layout.png"
+    },
+    {
+        "frame": 209,
+        "timestamp": 13.0625,
+        "event": null,
+        "type": "change",
+        "description": "The \"Add Printer Wizard\" window now displays two list boxes for selecting the printer manufacturer and model. \n\n- **New UI Elements:**\n    - A list box labeled \"Manufacturers:\" is present, displaying a list of printer manufacturers, with \"Agfa\" at the top and currently selected. \n    - A second list box labeled \"Printers:\" is present to the right, displaying a list of Agfa printer models.\n\n- **Content Changes:**\n    - The main instructional text area now displays: \"Click the manufacturer and model of your printer. If your printer came with an installation disk, click Have Disk. If you\" \n    - The \"< Back\" button is no longer greyed out. \n",
+        "screenshot": "frame-209.png"
+    },
+    {
+        "frame": 234,
+        "timestamp": 14.625,
+        "event": {
+            "time": 14.953,
+            "event": "doubleclick",
+            "x": 193,
+            "y": 253,
+            "frame": 234,
+            "time_end": 14.953,
+            "frame_end": 239
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The Add Printer Wizard window displays a list of printer manufacturers in the left panel, titled \"Manufacturers,\" and a list of printer models in the right panel, titled \"Printers.\" The user has scrolled down the list of manufacturers and selected \"AGFA.\" The right panel displays a list of AGFA printer models. The user can scroll through the list and select the specific model of their AGFA printer. \n\nAt the bottom of the window, there are four buttons:\n- **\"< Back\"**: Allows the user to navigate to the previous step in the wizard.\n- **\"Next >\"**: Proceeds to the next step in the wizard after a printer model is selected.\n- **\"Cancel\"**: Cancels the printer installation process.\n- **\"Have Disk...\"**:  Allows the user to install a printer driver from an external source, such as an installation disk. \n",
+        "screenshot": "frame-234-doubleclick.png",
+        "screenshot_annotated": "frame-234-doubleclick-layout.png"
+    },
+    {
+        "frame": 241,
+        "timestamp": 15.0625,
+        "event": {
+            "time": 15.367,
+            "event": "doubleclick",
+            "x": 193,
+            "y": 253,
+            "frame": 241,
+            "time_end": 15.367,
+            "frame_end": 245
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The \"Add Printer Wizard\" window displays two list boxes for selecting the printer manufacturer and model. The left box, titled \"Manufacturers:\", shows a list of manufacturers in alphabetical order, with \"AGFA\" currently selected. The right box, titled \"Printers:\", displays a list of AGFA printer models.  At the bottom of the window are three buttons: \"< Back\", \"Next >\", and \"Cancel\". The \"Next >\" button is active, while the \"< Back\" button is inactive. A \"Have Disk...\" button is located below the \"Printers:\" list box. \n",
+        "screenshot": "frame-241-doubleclick.png",
+        "screenshot_annotated": "frame-241-doubleclick-layout.png"
+    },
+    {
+        "frame": 247,
+        "timestamp": 15.4375,
+        "event": {
+            "time": 15.71,
+            "event": "doubleclick",
+            "x": 193,
+            "y": 253,
+            "frame": 247,
+            "time_end": 15.71,
+            "frame_end": 251
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The Add Printer Wizard window displays a list of printer manufacturers in the left \"Manufacturers\" list box and a list of available printer models in the right \"Printers\" list box. The currently selected manufacturer is \"AGFA.\"  The user can scroll through the \"Printers\" list box to find their specific AGFA printer model. At the bottom of the window, three buttons allow the user to navigate the wizard: \"< Back\" to return to the previous step, \"Next >\" to proceed to the next step, or \"Cancel\" to abort the printer installation process. Additionally, the \"Have Disk...\" button is present below the \"Printers\" list box. This button allows users to manually install printer drivers from an external source, like a CD or floppy disk, if their printer model is not listed. \n",
+        "screenshot": "frame-247-doubleclick.png",
+        "screenshot_annotated": "frame-247-doubleclick-layout.png"
+    },
+    {
+        "frame": 252,
+        "timestamp": 15.75,
+        "event": {
+            "time": 16.027,
+            "event": "doubleclick",
+            "x": 193,
+            "y": 253,
+            "frame": 252,
+            "time_end": 16.027,
+            "frame_end": 256
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The Add Printer Wizard window displays a list of printer manufacturers under the \"Manufacturers\" header and a list of available printer models under the \"Printers\" header. \n\nThe \"Manufacturers\" list is a single-selection dropdown menu, allowing the user to choose one manufacturer from the visible options. The currently displayed manufacturer is \"DataProducts.\" \n\nThe \"Printers\" list displays available models from the selected manufacturer. The list features up and down arrow buttons for scrolling through the options. In this instance, the list displays various \"AGFA-AccuSet\" models. \n\nAt the bottom of the window, three buttons offer navigation options:\n - \"< Back\": Allows the user to return to the previous step in the wizard. \n - \"Next >\": Proceeds to the next step in the installation process. This button is only clickable after a printer model is selected.\n - \"Cancel\": Cancels the printer installation process.\n\nAdditionally, a \"Have Disk\u2026\" button is located below the \"Printers\" list. This button allows users to install a printer driver from an external source, such as a CD or floppy disk, suggesting that the desired driver may not be pre-installed on the system. \n",
+        "screenshot": "frame-252-doubleclick.png",
+        "screenshot_annotated": "frame-252-doubleclick-layout.png"
+    },
+    {
+        "frame": 257,
+        "timestamp": 16.0625,
+        "event": {
+            "time": 16.359,
+            "event": "doubleclick",
+            "x": 193,
+            "y": 253,
+            "frame": 257,
+            "time_end": 16.359,
+            "frame_end": 261
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The \"Add Printer Wizard\" window displays a list of printer manufacturers on the left, labeled \"Manufacturers,\" and a list of printer models on the right, labeled \"Printers.\" The user has scrolled down the \"Manufacturers\" list, which currently shows manufacturers from \"Canon\" at the top to \"Dinitial\" at the bottom. The \"Printers\" list displays various \"AGFA-AccuSet\" models. At the bottom of the window, three buttons offer navigation options: \"< Back,\" \"Next >,\" and \"Cancel,\" allowing the user to move back, proceed to the next step, or cancel the installation process. Additionally, a \"Have Disk\u2026\" button is located below the \"Printers\" list, providing an option to install a printer driver from a disk. \n",
+        "screenshot": "frame-257-doubleclick.png",
+        "screenshot_annotated": "frame-257-doubleclick-layout.png"
+    },
+    {
+        "frame": 262,
+        "timestamp": 16.375,
+        "event": {
+            "time": 16.683,
+            "event": "doubleclick",
+            "x": 193,
+            "y": 253,
+            "frame": 262,
+            "time_end": 16.683,
+            "frame_end": 266
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The Add Printer Wizard window displays two adjacent lists: \"Manufacturers\" and \"Printers.\" The \"Manufacturers\" list on the left is currently displaying various printer manufacturers in alphabetical order. The \"Printers\" list on the right shows a list of \"AGFA-AccuSet\" printer models. \n\nBelow the lists are three buttons:\n- **\"< Back\"**: Allows the user to navigate back to the previous step in the wizard.\n- **\"Next >\"**: Proceeds to the next step in the installation process.\n- **\"Cancel\"**: Cancels the printer installation process.\n\nAt the bottom of the \"Manufacturers\" list, a button labeled \"Have Disk...\" allows users to install a printer driver from an external source, such as a CD or downloaded files. \n",
+        "screenshot": "frame-262-doubleclick.png",
+        "screenshot_annotated": "frame-262-doubleclick-layout.png"
+    },
+    {
+        "frame": 268,
+        "timestamp": 16.75,
+        "event": {
+            "time": 17.029,
+            "event": "doubleclick",
+            "x": 193,
+            "y": 253,
+            "frame": 268,
+            "time_end": 17.029,
+            "frame_end": 272
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The Add Printer Wizard window displays a list of printer manufacturers in the left \"Manufacturers\" pane and a list of \"Printers\" on the right. The user has apparently selected \"AGFA\" in the Manufacturers list, causing the Printers pane to display a list of AGFA printer models. \n\nAt the bottom of the window, three buttons offer navigation options: \n- \"< Back\": Allows the user to return to the previous step in the wizard.\n- \"Next >\": Proceeds to the next step in the installation process.\n- \"Cancel\":  Aborts the printer installation process.\n\nAdditionally, a \"Have Disk...\" button sits below the Printers list. This button allows users to manually install a printer driver from a provided disk, suggesting the desired driver is not currently present in the system's default options. \n",
+        "screenshot": "frame-268-doubleclick.png",
+        "screenshot_annotated": "frame-268-doubleclick-layout.png"
+    },
+    {
+        "frame": 273,
+        "timestamp": 17.0625,
+        "event": {
+            "time": 17.369,
+            "event": "doubleclick",
+            "x": 193,
+            "y": 253,
+            "frame": 273,
+            "time_end": 17.369,
+            "frame_end": 277
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screen displays the \"Add Printer Wizard\" dialog box, prompting the user to select a printer model. \n\nTwo adjacent list boxes are visible:\n\n- **Manufacturers:** This list box on the left displays a list of printer manufacturers. The currently selected manufacturer is not visible in the screenshot.\n- **Printers:** This list box on the right displays the available printer models from the selected manufacturer.  A range of \"AGFA-AccuSet\" models are displayed, each with a specific model number and some including version information. \n\nBelow the list boxes, there's a button labeled \"**Have Disk...**\". This button allows users to manually install a printer driver from an installation disk if their specific model is not listed.\n\nAt the bottom of the dialog box, three standard buttons are provided:\n\n- **< Back:** Allows the user to return to the previous step in the wizard.\n- **Next >:** Proceeds to the next step in the installation process. This button would likely be greyed out or inactive until a valid printer model is selected.\n- **Cancel:**  Aborts the printer installation process. \n",
+        "screenshot": "frame-273-doubleclick.png",
+        "screenshot_annotated": "frame-273-doubleclick-layout.png"
+    },
+    {
+        "frame": 279,
+        "timestamp": 17.4375,
+        "event": {
+            "time": 17.714,
+            "event": "doubleclick",
+            "x": 193,
+            "y": 253,
+            "frame": 279,
+            "time_end": 17.714,
+            "frame_end": 283
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The Add Printer Wizard window displays two list boxes: \"Manufacturers\" and \"Printers\". The \"Manufacturers\" list on the left is currently displaying a list of printer manufacturers with \"AGFA\" at the top and \"Kodak\" at the bottom. The \"Printers\" list on the right displays various \"AGFA-AccuSet\" models. \n\nBelow the lists are three buttons: \"Back\", \"Next\", and \"Cancel\". The \"Back\" button allows the user to return to the previous step in the wizard. The \"Next\" button will advance the user to the next step in the installation process. The \"Cancel\" button allows the user to abort the installation process. \n\nBelow the \"Printers\" list is a button labeled \"Have Disk...\". This button allows users to manually install a printer driver from a floppy disk or CD-ROM, should their printer not be listed. \n",
+        "screenshot": "frame-279-doubleclick.png",
+        "screenshot_annotated": "frame-279-doubleclick-layout.png"
+    },
+    {
+        "frame": 311,
+        "timestamp": 19.4375,
+        "event": {
+            "time": 19475,
+            "event": "mousedown",
+            "x": 62,
+            "y": 199,
+            "frame": 311,
+            "time_end": 19.476,
+            "frame_end": 311
+        },
+        "type": "event",
+        "label_clicked": "4P",
+        "description": "The Add Printer Wizard window displays a list of printer manufacturers in the left \"Manufacturers\" pane and a list of available \"Printers\" on the right. Currently, no manufacturer is selected, and the \"Printers\" pane shows various models from the \"AGFA\" brand. \n\nAt the bottom of the window, three buttons offer navigation options:\n\n- **\"< Back\"**: Allows the user to return to the previous step in the wizard.\n- **\"Next >\"**: Proceeds to the next step in the installation process. This button will likely remain inactive until a printer model is chosen.\n- **\"Cancel\"**:  Abandons the printer installation process.\n\nAdditionally, a \"Have Disk...\" button sits below the \"Manufacturers\" list. This option allows users to manually install a printer driver from a floppy disk or CD-ROM, particularly useful if the desired printer model is not listed. \n",
+        "screenshot": "frame-311-mousedown.png",
+        "screenshot_annotated": "frame-311-mousedown-layout.png"
+    },
+    {
+        "frame": 318,
+        "timestamp": 19.875,
+        "event": null,
+        "type": "change",
+        "description": "The \"Add Printer Wizard\" window now displays \"HP\" as the selected manufacturer in the \"Manufacturers\" pane.  The \"Printers\" pane now lists various \"HP\" printer models.  A new, smaller window titled \"Undo\" has appeared to the right of the \"Add Printer Wizard\" window. This window is currently empty. \n",
+        "screenshot": "frame-318.png"
+    },
+    {
+        "frame": 349,
+        "timestamp": 21.8125,
+        "event": {
+            "time": 21866,
+            "event": "mousedown",
+            "x": 323,
+            "y": 198,
+            "frame": 349,
+            "time_end": 21.867,
+            "frame_end": 349
+        },
+        "type": "event",
+        "label_clicked": "HP Color LaserJet 5/ PS",
+        "description": "The \"Add Printer Wizard\" window displays a list of printer models in the right pane, titled \"Printers:\", corresponding to the selected printer manufacturer, \"HP\", shown in the left pane, \"Manufacturers:\".  The \"HP Color LaserJet 5/5M PS\" printer is highlighted in the \"Printers\" pane. \n\nAt the bottom of the window, four buttons offer navigation and action choices:\n\n- **\"< Back\"**: Allows the user to return to the previous step in the wizard.\n- **\"Next >\"**: Proceeds to the next step in the installation process.\n- **\"Have Disk...\"**: Enables the user to install a printer driver from a provided disk.\n- **\"Cancel\"**:  Aborts the printer installation process. \n",
+        "screenshot": "frame-349-mousedown.png",
+        "screenshot_annotated": "frame-349-mousedown-layout.png"
+    },
+    {
+        "frame": 370,
+        "timestamp": 23.125,
+        "event": {
+            "time": 23145,
+            "event": "mousedown",
+            "x": 344,
+            "y": 334,
+            "frame": 370,
+            "time_end": 23.146,
+            "frame_end": 370
+        },
+        "type": "event",
+        "label_clicked": "Nat >",
+        "description": "The Add Printer Wizard window displays a list of printer models in the \"Printers\" box on the right, corresponding to the selected manufacturer \"HP\" from the \"Manufacturers\" box on the left. The currently highlighted selection, \"HP Color LaserJet 5/5M PS\", indicates the user's chosen printer model. \n\nBelow the printer model lists, a button labeled \"Have Disk...\" allows users to install a printer driver from an external source like a CD-ROM. At the bottom of the window, three standard buttons are visible:\n\n- \"< Back\": Allows the user to navigate back to the previous step in the wizard.\n- \"Next >\": Proceeds to the next step in the installation process.\n- \"Cancel\": Halts the printer installation and closes the Add Printer Wizard. \n",
+        "screenshot": "frame-370-mousedown.png",
+        "screenshot_annotated": "frame-370-mousedown-layout.png"
+    },
+    {
+        "frame": 380,
+        "timestamp": 23.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Add Printer Wizard window against a Windows 98 desktop background. The wizard is in the foreground, partially obscuring a window titled \"Printers\". The wizard's content area now presents a full-page graphic depicting a printer and printed documents. Below the graphic, a text instruction reads: \"step-by-step through installing a printer. Just follow the instructions on each screen.\"\n\nMissing UI Elements:\n- The \"Manufacturers\" and \"Printers\" list boxes are no longer present.\n- The \"Have Disk...\" button is no longer visible. \n\nContent Changes:\n- The \"Next >\" button is now active. \n",
+        "screenshot": "frame-380.png"
+    },
+    {
+        "frame": 381,
+        "timestamp": 23.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Add Printer Wizard window in Windows 98. This window is titled \"Add Printer Wizard\" and features a banner image of a printer on the left. The right side of the window presents a list of available ports for the printer connection. \n\nNew UI Elements:\n- A new dialog box titled \"Available ports:\" is present, listing communication ports like \"COM1\" and \"LPT1\" alongside their descriptions. \n- The \"LPT1: Printer Port\" option is highlighted, indicating user selection.\n- A \"Configure Port...\" button is located below the port list.\n\nMissing UI Elements:\n- The list of printer models and the \"Manufacturers\" box are no longer present.\n- The \"Have Disk...\" button is not visible in this step. \n",
+        "screenshot": "frame-381.png"
+    },
+    {
+        "frame": 404,
+        "timestamp": 25.25,
+        "event": {
+            "time": 25298,
+            "event": "mousedown",
+            "x": 355,
+            "y": 337,
+            "frame": 404,
+            "time_end": 25.299,
+            "frame_end": 404
+        },
+        "type": "event",
+        "label_clicked": "Nex",
+        "description": "The Add Printer Wizard window displays a list of available ports for connecting the printer. Currently, \"LPT1: Printer Port\" is highlighted, indicating it's the selected option. \n\nBelow the list, you'll find the following buttons:\n\n* **\"Configure Port...\"**: This button allows you to customize the settings of the selected port. \n* **\"< Back\"**: This button allows you to navigate back to the previous step in the wizard.\n* **\"Next >\"**: This button, with a mouse cursor hovering over it, proceeds to the next step in the installation process.\n* **\"Cancel\"**: This button cancels the printer installation process. \n",
+        "screenshot": "frame-404-mousedown.png",
+        "screenshot_annotated": "frame-404-mousedown-layout.png"
+    },
+    {
+        "frame": 410,
+        "timestamp": 25.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Add Printer Wizard window, now prompting for a printer name. \n\nThe following elements have changed:\n\n- **New UI Elements:** \n    - A text field labeled \"Printer name:\" is present, with \"HP Color LaserJet 5/5M PS\" entered as the printer name. \n- **Missing UI Elements:**\n    - The list of available ports is no longer displayed.\n    - The \"Configure Port...\" button is no longer present. \n- **Content Changes:**\n    - The mouse cursor is no longer hovering over the \"Next >\" button. \n",
+        "screenshot": "frame-410.png"
+    },
+    {
+        "frame": 429,
+        "timestamp": 26.8125,
+        "event": {
+            "time": 26826,
+            "event": "mousedown",
+            "x": 355,
+            "y": 337,
+            "frame": 429,
+            "time_end": 26.827,
+            "frame_end": 429
+        },
+        "type": "event",
+        "label_clicked": "Nex",
+        "description": "The Add Printer Wizard window displays a text field labeled \"Printer name:\" and pre-filled with \"HP Color LaserJet 5/5M PS\". This name will be used to identify the printer in the operating system. At the bottom of the window, three buttons offer navigation options: \"< Back\" allows returning to the previous step, \"Next >\" proceeds to the next stage of the installation, and \"Cancel\" aborts the process. \n",
+        "screenshot": "frame-429-mousedown.png",
+        "screenshot_annotated": "frame-429-mousedown-layout.png"
+    },
+    {
+        "frame": 433,
+        "timestamp": 27.0625,
+        "event": null,
+        "type": "change",
+        "description": "The Add Printer Wizard window now displays a large graphic depicting a printer and printed documents. Below the graphic are the buttons \"< Back\" and \"Cancel\".  The \"Next >\" button is no longer present. The text field \"Printer name:\" and its pre-filled content are missing. Instead, there is a text message stating \"step-by-step through installing a printer. Just follow the instructions on each screen.\" \n",
+        "screenshot": "frame-433.png"
+    },
+    {
+        "frame": 434,
+        "timestamp": 27.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a window titled \"Add Printer Wizard\". The window contains a prompt asking the user if they would like to print a test page. Two radio buttons offer \"Yes (recommended)\" and \"No\" as options. The \"Yes\" option is pre-selected. At the bottom of the window, three buttons are visible: \"< Back\", \"Finish\", and \"Cancel\". \n\nThe text field \"Printer name:\" and its pre-filled content are no longer present. The \"Next >\" button has been replaced with a \"Finish\" button. \n",
+        "screenshot": "frame-434.png"
+    },
+    {
+        "frame": 465,
+        "timestamp": 29.0625,
+        "event": {
+            "time": 29075,
+            "event": "mousedown",
+            "x": 209,
+            "y": 182,
+            "frame": 465,
+            "time_end": 29.076,
+            "frame_end": 465
+        },
+        "type": "event",
+        "label_clicked": "CANO",
+        "description": "The Add Printer Wizard window presents the user with a prompt to print a test page. Two radio buttons, \"Yes (recommended)\" and \"No,\" allow the user to choose whether or not to print a test page. The \"Yes\" option is selected by default. \n\nAt the bottom of the window, three buttons offer navigation and action choices:\n\n- **\"< Back\":** Allows the user to navigate back to the previous step in the wizard.\n- **\"Finish\":**  Completes the printer installation process based on the selected options.\n- **\"Cancel\":**  Halts the installation process and closes the Add Printer Wizard. \n",
+        "screenshot": "frame-465-mousedown.png",
+        "screenshot_annotated": "frame-465-mousedown-layout.png"
+    },
+    {
+        "frame": 473,
+        "timestamp": 29.5625,
+        "event": {
+            "time": 29589,
+            "event": "mousedown",
+            "x": 206,
+            "y": 192,
+            "frame": 473,
+            "time_end": 29.59,
+            "frame_end": 473
+        },
+        "type": "event",
+        "label_clicked": "CNWo",
+        "description": "The screenshot displays a dialog box titled \"Add Printer Wizard\". The user is prompted with the question \"Would you like to print a test page?\" along with two radio buttons for selecting an option: \n\n* **Yes (recommended):** This option, marked as recommended, will instruct the wizard to print a test page after the printer installation is complete. \n* **No:** Choosing this option will skip the test page printing after the installation.\n\nAt the bottom of the dialog box, there are three buttons:\n\n* **< Back:** This button allows the user to navigate back to the previous step in the Add Printer Wizard.\n* **Finish:** Clicking this button will finalize the printer installation process with the chosen settings.\n* **Cancel:** This button terminates the Add Printer Wizard, canceling the printer installation process. \n",
+        "screenshot": "frame-473-mousedown.png",
+        "screenshot_annotated": "frame-473-mousedown-layout.png"
+    },
+    {
+        "frame": 486,
+        "timestamp": 30.375,
+        "event": {
+            "time": 30397,
+            "event": "mousedown",
+            "x": 350,
+            "y": 338,
+            "frame": 486,
+            "time_end": 30.398,
+            "frame_end": 486
+        },
+        "type": "event",
+        "label_clicked": "Finkh",
+        "description": "The Add Printer Wizard window presents a prompt inquiring whether the user wants to print a test page after the printer installation is complete. Two radio buttons, \"Yes (recommended)\" and \"No,\" allow the user to choose their preferred option. The \"Finish\" button, currently active, indicates the completion of the printer setup process once clicked. Additionally, the user can navigate back to previous steps using the \"Back\" button or cancel the installation entirely with the \"Cancel\" button. \n",
+        "screenshot": "frame-486-mousedown.png",
+        "screenshot_annotated": "frame-486-mousedown-layout.png"
+    },
+    {
+        "frame": 492,
+        "timestamp": 30.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays an open window titled \"Printers\" on a Windows 98 desktop. The window showcases the \"Printers\" folder with options to \"Add Printer\" displayed as large icons. The main section of the window provides information about the \"Add Printer\" wizard, guiding the user through the printer installation process. \n",
+        "screenshot": "frame-492.png"
+    },
+    {
+        "frame": 509,
+        "timestamp": 31.8125,
+        "event": null,
+        "type": "change",
+        "description": "A new window titled \"Copying Files...\" is visible, indicating an ongoing file transfer process. However, the Add Printer Wizard window described in the initial state is no longer present. \n",
+        "screenshot": "frame-509.png"
+    },
+    {
+        "frame": 514,
+        "timestamp": 32.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 98 desktop with the \"Printers\" folder open. A new window titled \"Copying Files...\" is present, indicating a file transfer is in progress. The window displays \"Source: Scanning...\" and \"Destination:\" but the specific files being copied are not visible. A progress bar shows \"0%\" completion, and a \"Cancel\" button is available. The Add Printer Wizard window, previously described as the final step, is no longer present. \n",
+        "screenshot": "frame-514.png"
+    },
+    {
+        "frame": 515,
+        "timestamp": 32.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 98 desktop with the \"Printers\" folder open. Two new windows are present: a \"Copying Files\" dialog and an \"Insert Disk\" error message. The \"Copying Files\" dialog indicates a file transfer in progress, showing \"0%\" completion. The \"Insert Disk\" error message, titled with a red \"X\" icon, prompts the user to insert the \"Windows 98 Second Edition CD-ROM\" to proceed. The Add Printer Wizard window described in the initial state is no longer visible. \n",
+        "screenshot": "frame-515.png"
+    },
+    {
+        "frame": 548,
+        "timestamp": 34.25,
+        "event": {
+            "time": 34262,
+            "event": "mousedown",
+            "x": 411,
+            "y": 335,
+            "frame": 548,
+            "time_end": 34.263,
+            "frame_end": 548
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot shows an error message box titled \"Insert Disk\" with a red \"X\" icon, indicating a problem encountered during the printer installation process. \n\nThe message reads: \"Please insert the disk labeled 'Windows 98 Second Edition CD-ROM', and then click OK.\" This prompts the user to insert a specific CD-ROM, likely containing the missing driver files for the HP Color LaserJet 5/5M PS printer. \n\nAt the bottom of the error message box, a single button labeled \"OK\" is provided. This button likely allows the user to acknowledge the message and attempt to proceed with the installation after inserting the requested CD-ROM. \n",
+        "screenshot": "frame-548-mousedown.png",
+        "screenshot_annotated": "frame-548-mousedown-layout.png"
+    },
+    {
+        "frame": 551,
+        "timestamp": 34.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 98 desktop with two windows open: a \"Copying Files...\" window and an \"Add Printer\" error message box. \n\nNew UI Elements:\n- A \"Copying Files...\" window is present, displaying \"Source: Scanning...\", \"Destination:\", a 0% progress bar, and \"Cancel\" button. \n\nMissing UI Elements: \n- The \"Printers\" folder window is no longer visible. \n",
+        "screenshot": "frame-551.png"
+    },
+    {
+        "frame": 552,
+        "timestamp": 34.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Printers\" folder open.  A new window titled \"Copying Files...\" is present, displaying \"Scanning...\" below the \"Source\" field. The window features a progress bar showing \"0%\" and a \"Cancel\" button. \n",
+        "screenshot": "frame-552.png"
+    },
+    {
+        "frame": 553,
+        "timestamp": 34.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Printers\" folder open.  A new element, a file copy dialog box titled \"Copying Files...\", is present. The dialog box displays \"Scanning...\" below the \"Source\" field.  The progress bar shows \"0%\". There is a \"Cancel\" button at the bottom of the dialog box. \n\nThe described error message box related to the printer installation is not present. \n",
+        "screenshot": "frame-553.png"
+    },
+    {
+        "frame": 554,
+        "timestamp": 34.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Printers\" folder open.  A window titled \"Copying Files...\" is present, which was not mentioned in the description. This window shows \"0%\" progress and has a \"Cancel\" button. The error message box described in the initial description is not present. \n",
+        "screenshot": "frame-554.png"
+    },
+    {
+        "frame": 555,
+        "timestamp": 34.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with a \"Copying Files...\" window open. This window is new and was not present in the initial description. It features a progress bar, which is empty, and buttons for \"OK\", \"Cancel\", \"Skip File\", \"Details...\" and \"Browse...\". The text within the \"Copying Files...\" window indicates that the system cannot find a file named \"ICONLIB.DLL\" on the Windows 98 Second Edition CD-ROM and prompts the user to insert the CD. \n\nThe \"Add Printer\" wizard window, previously described as open, is no longer visible. \n",
+        "screenshot": "frame-555.png"
+    },
+    {
+        "frame": 585,
+        "timestamp": 36.5625,
+        "event": {
+            "time": 36594,
+            "event": "mousedown",
+            "x": 387,
+            "y": 132,
+            "frame": 585,
+            "time_end": 36.595,
+            "frame_end": 585
+        },
+        "type": "event",
+        "label_clicked": "QK",
+        "description": "A \"Copying Files...\" dialog box indicates that the system cannot locate the \"ICONLIB.DLL\" file needed to complete the printer installation. The message instructs the user to insert the \"Windows 98 Second Edition CD-ROM\" to provide the missing file.\n\nWithin the dialog box, several interactive elements are present:\n\n- **\"OK\" button:** Clicking this button will initiate the file copy process from the CD-ROM once inserted. It confirms the user has placed the required CD in the selected drive.\n- **\"Cancel\" button:** Clicking this button will halt the current printer installation process, canceling the file copy operation.\n- **\"Skip File\" button:** This option allows the user to bypass copying the specific \"ICONLIB.DLL\" file. Please note, choosing this option might lead to potential issues with the printer's functionality later.\n- **\"Details...\" button:** Clicking this button will reveal more specific information about the missing \"ICONLIB.DLL\" file.\n- **\"Browse...\" button:** This button enables the user to manually specify a different location to search for the \"ICONLIB.DLL\" file instead of using the CD-ROM.\n- **\"Copy files from:\" dropdown menu:** This element displays the currently selected drive (\"D:\\WIN98\") from which the system will attempt to copy the missing file. Clicking the dropdown arrow might allow choosing a different drive if available. \n\nThe user can interact with these elements using a mouse to click on the desired button or dropdown menu. \n",
+        "screenshot": "frame-585-mousedown.png",
+        "screenshot_annotated": "frame-585-mousedown-layout.png"
+    },
+    {
+        "frame": 589,
+        "timestamp": 36.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 98 desktop with the \"Copying Files...\" dialog box layered on top. The dialog box indicates that the system is currently searching for the \"ICONLIB.DLL\" file. \n\nThe following elements are present in the screenshot but were not mentioned in the description:\n\n- The \"Source\" field displays \"Scanning...\", indicating an active search for the required file.\n- The \"Destination\" field is empty, suggesting the system hasn't determined the destination for the file copy yet. \n\nThe following elements have changed:\n\n- The \"Copying Files...\" dialog box title bar now includes a progress bar, which is empty, signifying the file copy process hasn't started. \n",
+        "screenshot": "frame-589.png"
+    },
+    {
+        "frame": 590,
+        "timestamp": 36.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 98 desktop with the \"Printers\" folder open and a \"Copying Files...\" dialog box in the foreground. \n\nMissing UI Elements:\n\n- The \"Copying Files...\" dialog box described in the initial state is not present in the screenshot.\n\nNew UI Elements:\n\n- A progress bar, currently at 0%, is present below the \"Source:\" and \"Destination:\" fields. \n",
+        "screenshot": "frame-590.png"
+    },
+    {
+        "frame": 593,
+        "timestamp": 37.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows 98 desktop with the \"Copying Files...\" dialog box open. This dialog box has appeared on top of the \"Add Printer\" wizard window. \n\nNew UI Elements:\n- A \"Copying Files...\" dialog box is now visible. It contains the message: \"The file 'ICONLIB.DLL' on 'Windows 98 Second Edition CD-ROM' cannot be found. Setup cannot find the source disk. Please make sure that the disk is inserted properly, and then click OK to continue.\"\n- Within the \"Copying Files...\" dialog box, there is a text field labeled \"Copy files from:\" displaying \"D:\\WIN98\". \n\nMissing UI Elements:\n- The \"Source:\" and \"Destination\" elements within the \"Copying Files...\" dialog box are not present. \n",
+        "screenshot": "frame-593.png"
+    },
+    {
+        "frame": 600,
+        "timestamp": 37.5,
+        "event": {
+            "time": 37514,
+            "event": "mousedown",
+            "x": 387,
+            "y": 132,
+            "frame": 600,
+            "time_end": 37.515,
+            "frame_end": 600
+        },
+        "type": "event",
+        "label_clicked": "QK",
+        "description": "The screenshot displays an error message window titled \"Copying Files...\" during the printer installation process. \n\nThe error message reads: \"The file 'ICONLIB.DLL' on 'Windows 98 Second Edition CD-ROM' cannot be found. Setup cannot find the source disk. Please make sure that the disk is inserted properly, and then click OK to continue.\"\n\nThe user is presented with four buttons:\n- **OK**: Clicking this button would likely prompt the system to retry finding the missing file.\n- **Cancel**: This option will likely halt the installation process entirely.\n- **Skip File**: Choosing this might allow the installation to proceed while skipping the current file, potentially leading to an incomplete or non-functional installation.\n- **Details...**: This button could reveal more technical information about the missing file or the error itself. \n\nA text field labeled \"Copy files from:\" displays the directory \"D:\\WIN98\". However, there are no visible controls to modify this path within the current context. \n\nThe \"Browse...\" button sits below, potentially allowing the user to manually locate the missing file. \n",
+        "screenshot": "frame-600-mousedown.png",
+        "screenshot_annotated": "frame-600-mousedown-layout.png"
+    },
+    {
+        "frame": 604,
+        "timestamp": 37.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Add Printer\" wizard window open. A smaller \"Copying Files...\" dialog box, which was not present in the initial description, now overlays the \"Add Printer\" window. This new dialog box indicates that the file copying process is at 0% and is currently in the \"Scanning...\" phase. It also displays \"Source:\" and \"Destination:\" labels, but the areas below them are blank. \n\nThe \"Copying Files...\" dialog box features a \"Cancel\" button and a progress bar, both of which were not mentioned in the initial description. \n\nThe error message described in the initial description is not visible in the provided screenshot. \n",
+        "screenshot": "frame-604.png"
+    },
+    {
+        "frame": 605,
+        "timestamp": 37.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Copying Files...\" dialog window in the foreground. This window displays the message \"Scanning...\" under \"Source:\" and \"0%\" progress. \n\nMissing UI Elements:\n- The error message window described in the initial description is not present in the screenshot. \n- The buttons \"OK\", \"Skip File\", \"Details...\" and \"Browse...\" are not visible in the screenshot.\n- The text field \"Copy files from:\" and its content \"D:\\WIN98\" are not present. \n\nNew UI Elements:\n- A progress bar indicating \"0%\" is present below the \"Destination:\" label. \n- Only the \"Cancel\" button is visible in the current dialog. \n",
+        "screenshot": "frame-605.png"
+    },
+    {
+        "frame": 607,
+        "timestamp": 37.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Copying Files...\" error window still open. \n\nContent Changes:\n- The \"OK\" button is now highlighted, indicating it is the default action if the user presses \"Enter\". \n- The previously empty progress bar below the error message now displays a blue bar, indicating some progress in the file copying process.\n\nNew UI Elements:\n- A progress bar is now visible below the error message in the \"Copying Files...\" window.\n- A small window titled \"Copying Files...\" appears in the bottom right corner of the screen, overlapping the taskbar. This window likely shows the progress of the file copying process. \n\nMissing UI Elements:\n- The \"Add Printer\" window, previously described as providing step-by-step instructions, is no longer visible. \n",
+        "screenshot": "frame-607.png"
+    },
+    {
+        "frame": 625,
+        "timestamp": 39.0625,
+        "event": {
+            "time": 39083,
+            "event": "mousedown",
+            "x": 391,
+            "y": 165,
+            "frame": 625,
+            "time_end": 39.084,
+            "frame_end": 625
+        },
+        "type": "event",
+        "label_clicked": "Cancel",
+        "description": "The screenshot displays an error message window titled \"Copying Files...\" during the printer installation process. \n\nThe error message reads: \"The file 'ICONLIB.DLL' on 'Windows 98 Second Edition CD-ROM' cannot be found. Setup cannot find the source disk. Please make sure that the disk is inserted properly, and then click OK to continue.\" \n\nThe user is presented with four buttons: \n- **OK**: Clicking this button would likely prompt the system to retry finding the file from the specified location.\n- **Cancel**: This option would halt the printer installation process entirely.\n- **Skip File**: Choosing this would bypass the current file copy and potentially continue with the installation, though it might lead to further issues.\n- **Details...**: This button would likely provide more technical information about the error and the missing file. \n\nA text field labeled \"Copy files from:\" displays the current source directory as \"D:\\WIN98\", presumably the CD-ROM drive. A dropdown arrow next to it suggests the possibility of changing the source directory. Lastly, a \"Browse...\" button allows users to manually navigate and select a different source directory using the standard Windows file explorer. \n",
+        "screenshot": "frame-625-mousedown.png",
+        "screenshot_annotated": "frame-625-mousedown-layout.png"
+    },
+    {
+        "frame": 629,
+        "timestamp": 39.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Add Printer\" wizard window minimized to the taskbar. A dialog box titled \"Copying Files...\" is prominently displayed in the center, indicating an error during the file copying process of the printer installation. \n\nThe error message within the dialog box, \"The file 'ICONLIB.DLL' on 'Windows 98 Second Edition CD-ROM' cannot be found. Setup cannot find the source disk. Please make sure that the disk is inserted properly, and then click OK to continue.\", is not present in the initial description.\n\nAdditionally, the progress bar, described as displaying \"0%\", is visible in the screenshot. \n",
+        "screenshot": "frame-629.png"
+    },
+    {
+        "frame": 630,
+        "timestamp": 39.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Printers\" folder open. The \"Add Printer\" window is open and displays the first screen of the Add Printer Wizard.  A smaller window titled \"Copying Files...\" is layered on top. It displays \"Scanning...\" next to the \"Source:\" label and \"0%\" progress. Only a \"Cancel\" button is visible in the \"Copying Files...\" window. \n\nThe error message described in the initial description is not present in the screenshot. The text field and buttons \"OK\", \"Skip File\", \"Details...\" and \"Browse...\" are also not visible. \n",
+        "screenshot": "frame-630.png"
+    },
+    {
+        "frame": 631,
+        "timestamp": 39.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Printers\" folder open.  The \"Add Printer\" wizard is no longer present. \n\nMissing UI Elements:\n- The error message window titled \"Copying Files...\" is not visible. \n- The buttons \"OK\", \"Cancel\", \"Skip File\", and \"Details...\" are missing.\n- The text field labeled \"Copy files from:\" and its associated dropdown arrow and \"Browse...\" button are absent. \n",
+        "screenshot": "frame-631.png"
+    },
+    {
+        "frame": 632,
+        "timestamp": 39.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Add Printer\" wizard window, positioned prominently on the screen. The wizard provides guidance for installing a printer and indicates that it will guide the user step-by-step through the process. \n\nNo new UI elements have appeared. \n\nThe error message window titled \"Copying Files...\" is not present in the screenshot. \n",
+        "screenshot": "frame-632.png"
+    },
+    {
+        "frame": 634,
+        "timestamp": 39.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the first screen of the \"Add Printer Wizard\" within the \"Printers\" folder in Windows 98. \n\nMissing UI Elements:\n- The error message window titled \"Copying Files...\" is not present. \n- The buttons \"OK\", \"Cancel\", \"Skip File\", and \"Details...\" are not present.\n- The text field labeled \"Copy files from:\" and its associated dropdown arrow and \"Browse...\" button are not present. \n",
+        "screenshot": "frame-634.png"
+    },
+    {
+        "frame": 635,
+        "timestamp": 39.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Printers\" folder window in Windows 98. The folder's contents, which are not visible in the initial description, are now shown. \n\n- **New UI Elements:**\n    - The \"Printers\" folder window displays its contents, showing two icons: \"Printers\" and \"Add Printer\".\n    - Text content within the folder window describes the \"Add Printer\" function. \n\n- **Missing UI Elements:** \n    - The error message window titled \"Copying Files...\" is not present. \n\n- **Content Changes:** \n    - The taskbar icon labeled \"Printers\" is now highlighted, indicating the active window. \n",
+        "screenshot": "frame-635.png"
+    },
+    {
+        "frame": 637,
+        "timestamp": 39.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Printers\" folder window open on a Windows 98 desktop. The \"Add Printer\" wizard, as described in the initial description, is not present in the screenshot. \n",
+        "screenshot": "frame-637.png"
+    },
+    {
+        "frame": 641,
+        "timestamp": 40.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows 98 desktop with the \"Printers\" folder open. A smaller window titled \"HP Color LaserJet 5/5M PS\" is layered on top. This window contains an error message stating, \"Not all required files were copied to your computer. Quit all running programs, and then try again. If the problem persists, you may need to select a different printer model.\"  The error message window only offers an \"OK\" button, while the previously described buttons \"Cancel\", \"Skip File\", \"Details...\", along with the text field \"Copy files from:\" and the \"Browse...\" button are not present. \n",
+        "screenshot": "frame-641.png"
+    },
+    {
+        "frame": 653,
+        "timestamp": 40.8125,
+        "event": {
+            "time": 40827,
+            "event": "mousedown",
+            "x": 409,
+            "y": 338,
+            "frame": 653,
+            "time_end": 40.828,
+            "frame_end": 653
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays an error message box titled \"HP Color LaserJet 5/5M PS\" overlaid on the \"Printers\" folder window. The error message reads: \"Not all required files were copied to your computer. Quit all running programs, and then try again. If the problem persists, you may need to select a different printer model.\"  A single \"OK\" button is present at the bottom of the error message box, likely used to acknowledge the message and close the dialog box. \n",
+        "screenshot": "frame-653-mousedown.png",
+        "screenshot_annotated": "frame-653-mousedown-layout.png"
+    },
+    {
+        "frame": 658,
+        "timestamp": 41.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an error message box titled \"HP Color LaserJet 5/5M PS\" with a yellow warning symbol. The message reads: \"Not all required files were copied to your computer. Quit all running programs, and then try again. If the problem persists, you may need to select a different printer model.\"  There is an \"OK\" button at the bottom of the error message box. \n",
+        "screenshot": "frame-658.png"
+    },
+    {
+        "frame": 659,
+        "timestamp": 41.1875,
+        "event": null,
+        "type": "change",
+        "description": "Missing UI Elements: The error message box titled \"HP Color LaserJet 5/5M PS\" is no longer present. \n",
+        "screenshot": "frame-659.png"
+    },
+    {
+        "frame": 660,
+        "timestamp": 41.25,
+        "event": null,
+        "type": "change",
+        "description": "Missing UI Elements: The error message box titled \"HP Color LaserJet 5/5M PS\" is no longer present. \n",
+        "screenshot": "frame-660.png"
+    }
+]
