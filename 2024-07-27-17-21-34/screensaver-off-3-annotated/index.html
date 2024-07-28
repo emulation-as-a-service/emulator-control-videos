@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            z-index: 1000; /* Ensure it stays above other elements */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            margin-top: 460px; /* Space for the fixed video element */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+        .item-header {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            background-color: #f9f9f9;
+        }
+        .columns {
+            display: flex;
+        }
+        .column {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            color: black; /* Ensure text color is set */
+        }
+        .column + .column {
+            border-left: 1px solid #eee;
+        }
+        p {
+            margin: 10px 0;
+            color: #333; /* Ensure text is visible on white background */
+        }
+        .instruction h4 {
+            margin: 10px 0;
+            color: #0056b3; /* Ensure headings are distinct */
+        }
+        .instruction p {
+            margin: 5px 0;
+            color: #333; /* Ensure instruction text is visible */
+        }
+        .instruction {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .instruction strong {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="video-container">
+    <video id="reviewVideo" controls>
+        <source src="screensaver-off-3-ffr.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="container">
+    <h2>Review Screenshots</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 34  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 2.125; return false;">2.125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the `Control` and `Escape` keys simultaneously.  No visible changes occurred on the Windows XP desktop. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible with the mouse cursor in view.</p>
+                            <p><strong>Action:</strong> Press the 'Ctrl' and 'Esc' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> No immediate changes will be visible on the screen.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the `Control` and `Escape` keys simultaneously.  No visible changes occurred on the Windows XP desktop.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Press the 'Ctrl' and 'Esc' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> No visible change will occur on the desktop.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 124  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 7.75; return false;">7.75</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the keyboard shortcut 'Control_L' + 'Escape' to open the Windows XP Start Menu. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Start" button is visible on the left side of the taskbar.</p>
+                            <p><strong>Action:</strong> Press the 'Control' and 'Escape' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The "Start" menu will expand, displaying a list of programs, folders, and system options such as "My Documents", "My Computer", "Control Panel", "All Programs", "Log Off", and "Turn Off Computer".</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the keyboard shortcut 'Control_L' + 'Escape' to open the Windows XP Start Menu.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Start" button is visible on the left side of the taskbar.</p>
+                            <p><strong>Action:</strong> Press the 'Control' and 'Escape' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The "Start" menu will expand, displaying a list of programs, folders, and system options, including "My Documents", "My Computer", "Control Panel", "All Programs", "Log Off", and "Turn Off Computer".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 153  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 9.5625; return false;">9.5625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the 'c' key, which triggered the shortcut for the "Control Panel" option in the Windows XP Start Menu, opening the Control Panel window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Start Menu is open and visible.</p>
+                            <p><strong>Action:</strong> Press the 'c' key.</p>
+                            <p><strong>Expected Results:</strong> The Control Panel window will open in 'Icon View', obscuring the Start Menu.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the 'c' key, which triggered the shortcut for the "Control Panel" option in the Windows XP Start Menu, opening the Control Panel window.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Start Menu is open and visible over the desktop.</p>
+                            <p><strong>Action:</strong> Press the 'c' key.</p>
+                            <p><strong>Expected Results:</strong> The Control Panel window will open in "Category View", obscuring the Start Menu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 480  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 30.0; return false;">30.0</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the 'Right Arrow' key.  No visible changes occurred in the user interface. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel is open and displaying icons.</p>
+                            <p><strong>Action:</strong> Press the 'Right' key.</p>
+                            <p><strong>Expected Results:</strong> No visible change will occur in the user interface.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the 'Right Arrow' key. The focus shifted to the "Date, Time, Language, and Regional Options" icon.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Control Panel" window is open, displaying system configuration icons in Classic View.</p>
+                            <p><strong>Action:</strong> Press the 'Right Arrow' key.</p>
+                            <p><strong>Expected Results:</strong> The focus will shift to the "Date, Time, Language, and Regional Options" icon.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 483  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 30.1875; return false;">30.1875</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the right arrow key, resulting in no visible changes within the Control Panel window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Control Panel" window is active and in focus.</p>
+                            <p><strong>Action:</strong> Press the 'Right' key</p>
+                            <p><strong>Expected Results:</strong> No visible changes will occur in the Control Panel window.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the right arrow key, resulting in the focus shifting to the "Accessibility Options" icon.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Control Panel" window is open and the focus is on an icon.</p>
+                            <p><strong>Action:</strong> Press the 'Right' key.</p>
+                            <p><strong>Expected Results:</strong> The focus will shift one icon to the right.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 524  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 32.75; return false;">32.75</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the keyboard shortcut keys 'p' and then 'o' which caused the focus to shift away from the "Add or Remove Programs" icon in the Windows XP Control Panel. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Add or Remove Programs" icon in the Windows XP Control Panel is visible.</p>
+                            <p><strong>Action:</strong> Press the 'p' key and then the 'o' key.</p>
+                            <p><strong>Expected Results:</strong> The tooltip for the "Add or Remove Programs" icon will disappear.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the keyboard shortcut keys 'p' and then 'o' which caused the focus to shift to the "Phone and Modem Options" icon in the Windows XP Control Panel.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Add or Remove Programs" icon in the Windows XP Control Panel is visible.</p>
+                            <p><strong>Action:</strong> Press the 'p' key and then the 'o' key.</p>
+                            <p><strong>Expected Results:</strong> The tooltip will disappear and the focus will move to the "Phone and Modem Options" icon.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 551  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 34.4375; return false;">34.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the "Return" key.  No changes were observed in the Windows XP Control Panel. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Windows XP Control Panel" window is open and the "Address" bar is visible.</p>
+                            <p><strong>Action:</strong> Press the "Enter" key.</p>
+                            <p><strong>Expected Results:</strong> No visual changes are expected.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the "Return" key, which had no effect on the user interface.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel is open and the 'Address' bar is visible.</p>
+                            <p><strong>Action:</strong> Press the 'Enter' key</p>
+                            <p><strong>Expected Results:</strong> No changes in the UI are expected.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 752  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 47.0; return false;">47.0</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the close button in the title bar of the "Control Panel" window. As a result, the "Control Panel" window closes. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Control Panel" window is open and the close button is visible in the title bar.</p>
+                            <p><strong>Action:</strong> Click the close button in the title bar of the "Control Panel" window.</p>
+                            <p><strong>Expected Results:</strong> The "Control Panel" window will close.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the close button in the title bar of the "Control Panel" window. As a result, the "Control Panel" window closes.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Control Panel" window is open and the close button is visible in the title bar.</p>
+                            <p><strong>Action:</strong> Click the close button in the title bar of the "Control Panel" window.</p>
+                            <p><strong>Expected Results:</strong> The "Control Panel" window will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>

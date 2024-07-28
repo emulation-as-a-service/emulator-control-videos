@@ -1,0 +1,82 @@
+[
+    {
+        "frame": 23,
+        "event": "The mouse pointer is hovering over the desktop background and will trigger a right-click context menu. \n",
+        "timestamp": 1.4375,
+        "description": "The user **right-clicks on the desktop background** and selects \"Properties\" from the context menu. ",
+        "outcome": "A context menu labeled \"Arrange Icons By\" appears on the Windows XP desktop. The menu contains the options: \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\". The mouse cursor is hovering over the \"Properties\" option. ",
+        "label_clicked": "Properties"
+    },
+    {
+        "frame": 75,
+        "event": "The mouse pointer is clicking the \"Properties\" menu item of the desktop context menu. \n",
+        "timestamp": 4.6875,
+        "description": "The user clicks the \"Properties\" option in the desktop context menu. This opens the \"Display Properties\" window. ",
+        "outcome": "Within the \"Display Properties\" window, on the \"Themes\" tab, a new window titled \"Active Window\" appeared. This window displays a preview of the active desktop with the text \"Window Text\". The context menu, which was previously visible, is no longer present. ",
+        "label_clicked": "Properties"
+    },
+    {
+        "frame": 185,
+        "event": "The mouse is clicking on the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 11.5625,
+        "description": "The user clicks on the \"Screen Saver\" tab in the \"Display Properties\" window. As a result, the window's content changes to display the \"Screen Saver\" settings. ",
+        "outcome": "The \"Display Properties\" window changed to the \"Screen Saver\" tab. The \"Save As...\" and \"Delete\" buttons were replaced with \"Settings\" and \"Preview\" buttons, and a \"Power...\" button appeared at the bottom of the window. ",
+        "label_clicked": "Screen Saver"
+    },
+    {
+        "frame": 244,
+        "event": "The mouse is clicking on the down arrow of the \"Screen Saver\" dropdown menu in the \"Display Properties\" window. \n",
+        "timestamp": 15.25,
+        "description": "The user clicks the down arrow of the \"Screen Saver\" dropdown menu in the \"Display Properties\" window.  As a result, the dropdown menu expands, revealing a list of screen saver options with \"Windows XP\" highlighted. ",
+        "outcome": "The \"Screen Saver\" dropdown menu within the Windows XP \"Display Properties\" window is expanded, with the \"Windows XP\" option highlighted. ",
+        "label_clicked": "Screen Saver"
+    },
+    {
+        "frame": 263,
+        "event": "The mouse is clicking on the \"3D FlowerBox\" item in the \"Screen Saver\" dropdown menu of the \"Display Properties\" window. \n",
+        "timestamp": 16.4375,
+        "description": "The user selects the \"3D FlowerBox\" option from the \"Screen Saver\" dropdown menu within the \"Display Properties\" window. As a result, the \"Settings\" button becomes active, and the \"Apply\" button becomes inactive. ",
+        "outcome": "The \"Display Properties\" window updated to show the \"Settings\" button as active and the \"Apply\" button as inactive. ",
+        "label_clicked": "3D FlowerBox"
+    },
+    {
+        "frame": 318,
+        "event": "The mouse is clicking on the \"Apply\" button in the \"Display Properties\" window. \n",
+        "timestamp": 19.875,
+        "description": "The user clicks the \"Apply\" button in the \"Display Properties\" window. ",
+        "outcome": "The \"Power...\" button in the Display Properties window is highlighted, suggesting it was recently clicked or is currently selected. ",
+        "label_clicked": "Apply"
+    },
+    {
+        "frame": 349,
+        "event": "The mouse is clicking on the \"Power...\" button within the \"Display Properties\" window. \n",
+        "timestamp": 21.8125,
+        "description": "The user clicks the \"Power...\" button within the \"Display Properties\" window.  As a result, the \"Power Options Properties\" window opens. ",
+        "outcome": "The \"Power Options Properties\" window has opened over the \"Display Properties\" window.  The new window features tabs for \"Power Schemes,\" \"Advanced,\" \"Hibernate,\" and \"UPS.\"  The \"Turn off hard disks\" dropdown menu is expanded with the \"After 20 mins\" option highlighted. The \"Power...\" button in the \"Display Properties\" window is no longer highlighted. ",
+        "label_clicked": "Power..."
+    },
+    {
+        "frame": 448,
+        "event": "The mouse is clicking on the \"After 5 hours\" option in the \"Turn off hard disks\" dropdown menu of the \"Power Options Properties\" window. \n",
+        "timestamp": 28.0,
+        "description": "The user clicked the \"Never\" option within the \"Turn off hard disks\" dropdown menu in the \"Power Options Properties\" window. ",
+        "outcome": "The \"Turn off hard disks\" option in the Power Options Properties window changed from \"After 20 mins\" to \"Never,\" and the mouse cursor moved to hover over the \"OK\" button. ",
+        "label_clicked": "Never"
+    },
+    {
+        "frame": 468,
+        "event": "The mouse is clicking on the \"OK\" button of the \"Power Options Properties\" window. \n",
+        "timestamp": 29.25,
+        "description": "The user clicks the \"OK\" button in the \"Power Options Properties\" window.  As a result, the \"Power Options Properties\" window closes. ",
+        "outcome": "The \"Power Options Properties\" window closed, leaving the \"Display Properties\" window open and maximized with the \"Screen Saver\" tab selected. ",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 506,
+        "event": "The mouse is clicking on the OK button of the Display Properties window. \n",
+        "timestamp": 31.625,
+        "description": "The user clicks the \"OK\" button in the \"Display Properties\" window.  As a result, the \"Display Properties\" window is no longer visible. ",
+        "outcome": "The visual display remains unchanged across all frames: The Windows XP desktop is visible, featuring an autumnal scene as the background. The \"Display Properties\" window is not present. ",
+        "label_clicked": "OK"
+    }
+]

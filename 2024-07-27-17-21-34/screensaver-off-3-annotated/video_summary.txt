@@ -1,0 +1,7 @@
+- Operating system: Windows XP
+- Software: Windows Control Panel
+- Input methods: Mouse and keyboard 
+- Recording details: 1 minute and 3 seconds, resolution is not available. 
+
+
+The user opens the Windows XP start menu and navigates to the Control Panel. They open the "Power Options" from the icon view and set both "Turn off monitor" and "Turn off hard disks" to "Never". Next, the user opens "Display Properties" and selects "Screen Saver". They change the screen saver from "Windows XP" to "None" and select "OK". The user's actions suggest they are configuring their computer's power and display settings to prevent automatic shutdown and screen saver activation. 

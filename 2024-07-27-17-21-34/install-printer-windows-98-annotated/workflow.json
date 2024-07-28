@@ -1,0 +1,132 @@
+[
+    {
+        "precondition": "The Windows 98 desktop is visible.",
+        "action": "Click the \"Start\" button on the taskbar.",
+        "expected_results": "The Start menu will open, displaying a list of menus and options."
+    },
+    {
+        "precondition": "The \"Printers\" option is visible in the Start Menu's \"Settings\" submenu.",
+        "action": "Click the menu item \"Printers\".",
+        "expected_results": "The \"Printers\" folder will open and its window will be maximized."
+    },
+    {
+        "precondition": "The \"Printers\" folder window is open and the \"Add Printer\" icon is visible.",
+        "action": "Double Left Click on the \"Add Printer\" icon.",
+        "expected_results": "The \"Add Printer Wizard\" dialog box will open. This dialog box will contain a title bar, an image of a printer, instructional text, and three buttons: \"< Back\", \"Next >\", and \"Cancel\"."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open and displays the message \"This wizard will help you to install your printer quickly and easily. To begin installing your printer, click Next.\"",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The \"Add Printer Wizard\" window will update to display options for selecting a printer manufacturer and model."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open, and the \"AGFA\" manufacturer is selected.",
+        "action": "Click on the \"AGFA-AccuSet 800SF v2013.108\" printer model in the \"Printers\" list.",
+        "expected_results": "The selected printer model will be highlighted."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open, displaying lists for \"Manufacturers:\" and \"Printers:\". The \"Next >\" button is active.",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The Add Printer Wizard will advance to the next step in the installation process."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open, displaying a list of printer manufacturers and models. The \"Next >\" button is active.",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The Add Printer Wizard will advance to the next step in the installation process."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open, displaying a list of printer manufacturers and models. The \"Printers\" list should show models from your desired manufacturer.",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The \"Add Printer Wizard\" will advance to the next step in the installation process."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open with the \"Manufacturers\" and \"Printers\" lists visible.",
+        "action": "Click the down arrow button on the \"Printers\" list box.",
+        "expected_results": "The list of available printer models will scroll down, showing more options."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open, displaying the \"Manufacturers\" and \"Printers\" lists.",
+        "action": "Click the \"Next >\" button located below the printer lists.",
+        "expected_results": "The Add Printer Wizard will proceed to the next step of the installation process."
+    },
+    {
+        "precondition": "The Add Printer Wizard window is open. The \"Manufacturers\" pane is visible on the left, and the \"Printers\" pane on the right. The \"AGFA\" manufacturer is currently selected.",
+        "action": "Click on \"HP\" in the \"Manufacturers\" list.",
+        "expected_results": "The \"Printers\" pane will be updated to display a list of HP printer models."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" dialog box is open with the \"Manufacturers\" and \"Printers\" list boxes visible.",
+        "action": "Move the mouse pointer over the down arrow button located to the right of the \"Printers\" list box.",
+        "expected_results": "The mouse pointer's position will change to hover over the down arrow button."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open, displaying the \"Manufacturers\" and \"Printers\" list boxes.",
+        "action": "Click the \"Next >\" button located below the \"Manufacturers\" and \"Printers\" list boxes.",
+        "expected_results": "The Add Printer Wizard will advance to the next step in the installation process."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open, displaying a list of printer manufacturers in the \"Manufacturers\" pane and a list of available \"Printers\" in the \"Printers\" pane.",
+        "action": "Click on the \"HP\" item in the \"Manufacturers\" list.",
+        "expected_results": "The \"Printers\" list will update to display HP printer models. An empty \"Undo\" window will appear to the right of the \"Add Printer Wizard\" window."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open with \"HP\" selected in the \"Manufacturers:\" list.",
+        "action": "Click on \"HP Color LaserJet 5/5M PS\" in the \"Printers:\" list.",
+        "expected_results": "The selection in the \"Printers:\" list will change to \"HP Color LaserJet 5/5M PS\"."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" dialog box is open, displaying a list of printer manufacturers and models. The \"HP Color LaserJet 5/5M PS\" printer model is selected.",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The \"Add Printer Wizard\" dialog box will display a list of available ports for printer connection. The \"LPT1: Printer Port\" option will be selected by default. The \"Configure Port...\" button will become available, and the \"Have Disk...\" button will no longer be visible."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open and the \"LPT1: Printer Port\" is selected.",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The \"Add Printer Wizard\" window will advance to the next step. A text field labeled \"Printer name:\" will appear, pre-filled with \"HP Color LaserJet 5/5M PS\"."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open and displays a text field labeled \"Printer name:\" and three buttons: \"< Back\", \"Next >\", and \"Cancel\".",
+        "action": "Click the \"Next >\" button.",
+        "expected_results": "The \"Add Printer Wizard\" window will update to a confirmation screen. The \"Next >\" button will be replaced with a \"Finish\" button."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open and displays the \"Do you want to print a test page?\" prompt with options \"Yes (recommended)\" and \"No\".",
+        "action": "Click the radio button labeled \"No\".",
+        "expected_results": "The \"No\" radio button will be selected."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" dialog box is open and the \"Would you like to print a test page?\" prompt is displayed.",
+        "action": "Click the radio button labeled \"No\".",
+        "expected_results": "The option to skip printing a test page after installation will be selected."
+    },
+    {
+        "precondition": "The \"Add Printer Wizard\" window is open and the \"Finish\" button is active.",
+        "action": "Click the \"Finish\" button.",
+        "expected_results": "The \"Add Printer Wizard\" window will close, and a \"Copying Files\" dialog box will appear. An \"Insert Disk\" error message may also appear."
+    },
+    {
+        "precondition": "An error message box titled \"Insert Disk\" is displayed with the message: \"Please insert the disk labeled 'Windows 98 Second Edition CD-ROM', and then click OK.\"",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Insert Disk\" error message box will close, and a \"Copying Files...\" window will appear."
+    },
+    {
+        "precondition": "A \"Copying Files...\" dialog box is open, indicating that the file \"ICONLIB.DLL\" cannot be found and prompting to insert the \"Windows 98 Second Edition CD-ROM\". The dialog box should also include a text field labeled \"Copy files from:\" displaying \"D:\\\\WIN98\".",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Copying Files...\" dialog box will indicate an error stating that a file cannot be found on the Windows 98 installation CD. The dialog box will prompt the user to check the disk and click OK."
+    },
+    {
+        "precondition": "An error message window titled \"Copying Files...\" is open, displaying the message: \"The file 'ICONLIB.DLL' on 'Windows 98 Second Edition CD-ROM' cannot be found. Setup cannot find the source disk. Please make sure that the disk is inserted properly, and then click OK to continue.\"",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "A progress bar will appear in the \"Copying Files...\" window, indicating the file copying process has begun. A small \"Copying Files...\" window will appear in the bottom right corner of the screen."
+    },
+    {
+        "precondition": "A dialog box titled 'Copying Files...' is open, displaying the error message: 'The file 'ICONLIB.DLL' on 'Windows 98 Second Edition CD-ROM' cannot be found. Setup cannot find the source disk. Please make sure that the disk is inserted properly, and then click OK to continue.'",
+        "action": "Click the 'Cancel' button.",
+        "expected_results": "The 'Copying Files...' dialog box will close. An error message titled 'HP Color LaserJet 5/5M PS' will appear, stating that not all required files were copied. The message advises quitting all programs and trying again, or selecting a different printer model."
+    },
+    {
+        "precondition": "An error message box titled \"HP Color LaserJet 5/5M PS\" is displayed.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The error message box will close."
+    }
+]

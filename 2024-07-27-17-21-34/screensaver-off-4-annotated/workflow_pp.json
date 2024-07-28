@@ -1,0 +1,52 @@
+[
+    {
+        "precondition": "The mouse cursor is hovering over the desktop background.",
+        "action": "Right Click the button labeled 'Properties'",
+        "expected_results": "A context menu will appear with the following options: 'Refresh', 'Paste', 'Paste Shortcut', 'New', and 'Properties'."
+    },
+    {
+        "precondition": "The desktop context menu is visible with the \"Properties\" option available.",
+        "action": "Click the menu item \"Properties\".",
+        "expected_results": "The \"Display Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Display Properties\" window will display the \"Screen Saver\" settings. The \"Save As...\" and \"Delete\" buttons will be replaced with \"Settings\" and \"Preview\" buttons, and a \"Power...\" button will appear at the bottom of the window."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click the down arrow of the \"Screen Saver\" dropdown menu.",
+        "expected_results": "A dropdown menu with a list of screen saver options will appear."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Screen Saver\" dropdown menu is open.",
+        "action": "Click the \"3D FlowerBox\" item in the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"Settings\" button will become active and the \"Apply\" button will become inactive."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Apply\" button is highlighted.",
+        "action": "Click the \"Apply\" button.",
+        "expected_results": "The \"Power...\" button will become highlighted."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click the \"Power...\" button.",
+        "expected_results": "The \"Power Options Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open on the \"Power Schemes\" tab. The \"Turn off hard disks\" dropdown menu is open.",
+        "action": "Click the \"Never\" option in the \"Turn off hard disks\" dropdown menu.",
+        "expected_results": "The \"Turn off hard disks\" option will be set to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Turn off hard disks\" option is set to \"After 4 hours\".",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" window will close."
+    }
+]

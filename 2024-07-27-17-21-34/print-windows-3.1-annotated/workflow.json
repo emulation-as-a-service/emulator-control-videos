@@ -1,0 +1,17 @@
+[
+    {
+        "precondition": "The main menu bar with options like \"File\", \"Edit\", \"Find\" is visible at the top of the Write application window.",
+        "action": "Click the \"File\" menu item in the main menu bar.",
+        "expected_results": "The \"File\" menu will expand, displaying a list of menu items."
+    },
+    {
+        "precondition": "The \"File\" menu is expanded, displaying a list of menu items.",
+        "action": "Click the \"Print...\" menu item.",
+        "expected_results": "A \"Print\" dialog box will appear, overlaying the document editing area. The dialog box will provide options for \"Printer,\" \"Print Range,\" \"Print Quality,\" \"Copies,\" \"Print to File,\" and \"Collate Copies,\" along with \"OK,\" \"Cancel,\" and \"Setup...\" buttons."
+    },
+    {
+        "precondition": "The \"Print\" dialog box is open.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Print\" dialog box will close. A \"Now Printing\" dialog box will appear."
+    }
+]

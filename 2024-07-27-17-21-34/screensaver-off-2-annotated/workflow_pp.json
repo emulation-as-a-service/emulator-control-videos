@@ -1,0 +1,67 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear."
+    },
+    {
+        "precondition": "The right-click context menu with the title \"Arrange Icons By\" is visible on the desktop.",
+        "action": "Click the menu item \"Properties\".",
+        "expected_results": "The \"Display Properties\" window will open, and the right-click context menu will disappear."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Display Properties\" window will display the \"Screen Saver\" tab. The preview window will display the Windows XP screensaver, and controls related to screensaver selection, wait time, and password protection will become visible."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open with the \"Screen Saver\" tab active. The \"Screen Saver\" dropdown menu is visible and currently displaying \"Windows XP\".",
+        "action": "Click the down arrow of the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"Screen Saver\" dropdown menu will expand, showing a list of available screensaver options."
+    },
+    {
+        "precondition": "The \"Screen Saver\" dropdown menu in the \"Display Properties\" window is open.",
+        "action": "Click outside of the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"Screen Saver\" dropdown menu will close."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Power...\" button is visible within the \"Monitor power\" section.",
+        "action": "Click the \"Power...\" button.",
+        "expected_results": "The \"Power Options Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power schemes\" dropdown menu is visible.",
+        "action": "Click the down arrow of the \"Power schemes\" dropdown menu.",
+        "expected_results": "A list of available power schemes will be displayed."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open. The \"Power schemes\" dropdown menu is visible.",
+        "action": "Click the \"Power schemes\" dropdown menu and select \"Presentation\".",
+        "expected_results": "The \"Power Options Properties\" window will update to reflect the \"Presentation\" power scheme settings. The \"Turn off monitor\" setting will change to \"After 20 mins\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Always On\" power scheme selected.",
+        "action": "Click the dropdown button next to the \"Turn off monitor\" option within the \"Settings for Always On power scheme\" section.",
+        "expected_results": "A dropdown menu will appear, displaying a list of time intervals."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"System hibernates\" dropdown menu should be open.",
+        "action": "Click the \"Never\" option in the \"System hibernates\" dropdown menu.",
+        "expected_results": "The \"System hibernates\" dropdown menu will close. The \"System hibernates\" option will be set to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Always On\" power scheme is selected, and the \"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates\" options are all set to \"Never.\"",
+        "action": "Click the \"Apply\" button at the bottom of the window.",
+        "expected_results": "The changes to the power settings are applied."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Always On\" power scheme selected.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close, and the \"Display Properties\" window will remain open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open.",
+        "action": "Click the \"OK\" button at the bottom of the \"Display Properties\" window.",
+        "expected_results": "The \"Display Properties\" window will close."
+    }
+]

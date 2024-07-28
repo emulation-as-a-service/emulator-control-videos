@@ -1,0 +1,9 @@
+- Operating system: Windows 98
+- Software: Netscape Communicator 4.79, InstallShield Self-extracting Exe
+- Input methods: Mouse and keyboard
+- Recording details: 2 minutes 21 seconds, 640x480 resolution 
+
+
+The user opens the "My Computer" application, navigates to the D: drive, and double-clicks the file "cc32d479.exe". The user then proceeds through the installation wizard for Netscape Communicator 4.79, accepting the license agreement, choosing a typical installation, and creating a new profile with the name "Bob Alceson". 
+
+Purpose inference: The user's actions suggest they are attempting to install Netscape Communicator 4.79 on their computer. 

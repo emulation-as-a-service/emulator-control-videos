@@ -1,0 +1,82 @@
+[
+    {
+        "frame": 34,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 2.125,
+        "description": "The user pressed the `Control` and `Escape` keys simultaneously.  No visible changes occurred on the Windows XP desktop.",
+        "outcome": "The UI remained unchanged across all observed frames. The Windows XP desktop is consistently displayed with no changes in window state, cursor appearance, or system tray information.",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 124,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 7.75,
+        "description": "The user pressed the keyboard shortcut 'Control_L' + 'Escape' to open the Windows XP Start Menu.",
+        "outcome": "Upon opening, the \"Start\" menu expands to display a list of programs, folders, and system options, including \"My Documents\", \"My Computer\", \"Control Panel\", \"All Programs\", \"Log Off\", and \"Turn Off Computer\".",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 153,
+        "event": "The key following key(s) were pressed: ['c'].",
+        "timestamp": 9.5625,
+        "description": "The user pressed the 'c' key, which triggered the shortcut for the \"Control Panel\" option in the Windows XP Start Menu, opening the Control Panel window.",
+        "outcome": "The Windows XP Control Panel window is now open and fully visible, obscuring the Start Menu. The Control Panel is displaying system configuration options in \"Category View\". The mouse cursor has moved to the bottom of the screen.",
+        "key_pressed": [
+            "c"
+        ]
+    },
+    {
+        "frame": 480,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.0,
+        "description": "The user pressed the 'Right Arrow' key. The focus shifted to the \"Date, Time, Language, and Regional Options\" icon.",
+        "outcome": "",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 483,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.1875,
+        "description": "The user pressed the right arrow key, resulting in the focus shifting to the \"Accessibility Options\" icon.",
+        "outcome": "",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 524,
+        "event": "The key following key(s) were pressed: ['p', 'o'].",
+        "timestamp": 32.75,
+        "description": "The user pressed the keyboard shortcut keys 'p' and then 'o' which caused the focus to shift to the \"Phone and Modem Options\" icon in the Windows XP Control Panel.",
+        "outcome": "The yellow tooltip box that was overlayed on the \"Add or Remove Programs\" icon in the Windows XP Control Panel has disappeared, and the mouse cursor has moved to the bottom left corner of the screen.",
+        "key_pressed": [
+            "p",
+            "o"
+        ]
+    },
+    {
+        "frame": 551,
+        "event": "The key following key(s) were pressed: ['Return'].",
+        "timestamp": 34.4375,
+        "description": "The user pressed the \"Return\" key, which had no effect on the user interface.",
+        "outcome": "No visual changes were observed in the UI. The Windows XP Control Panel remained in its initial state throughout the observations.",
+        "key_pressed": [
+            "Return"
+        ]
+    },
+    {
+        "frame": 752,
+        "event": "The mouse is clicking on the close button of the \"Control Panel\" window. \n",
+        "timestamp": 47.0,
+        "description": "The user clicks the close button in the title bar of the \"Control Panel\" window. As a result, the \"Control Panel\" window closes.",
+        "outcome": "The Control Panel window, previously visible in the taskbar, is no longer present. The final screenshot shows only the desktop background and Recycle Bin icon."
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "frame": 75,
+        "event": "The mouse pointer is hovering over the \"Control Panel\" icon within the \"Main\" program group and is about to click it. \n",
+        "timestamp": 4.6875,
+        "description": "The user clicked the \"Control Panel\" icon in the \"Main\" program group. As a result, the Control Panel window opened. ",
+        "outcome": "The Control Panel application window opened in front of the Windows 3.1 Program Manager. ",
+        "label_clicked": "Control Panel"
+    },
+    {
+        "frame": 131,
+        "event": "The mouse is clicking on the Date/Time icon in the Control Panel window. \n",
+        "timestamp": 8.1875,
+        "description": "The user clicked the \"Date/Time\" icon in the Control Panel window. As a result, the \"Printers\" settings dialog replaced the Control Panel window. ",
+        "outcome": "The Windows 3.1 Control Panel opened the \"Printers\" settings dialog, which contains options for managing default printers, installed printers, and available printer models. The \"Printers\" icon is no longer highlighted, and the Control Panel's status message area is now blank. ",
+        "label_clicked": "Date/Time"
+    },
+    {
+        "frame": 195,
+        "event": "The mouse pointer is on the down arrow of the vertical scroll bar of the list box titled \"List of Printers: Install Unlisted or Updated Printer\". \n",
+        "timestamp": 12.1875,
+        "description": "The user scrolled down the \"List of Printers: Install Unlisted or Updated Printer\" list box within the \"Printers\" window of the Control Panel. ",
+        "outcome": "The scroll bar in the \"List of Printers\" area of the Windows 3.1 Control Panel's \"Printers\" window has been moved down, revealing a different section of the available printer models. ",
+        "label_clicked": "null"
+    },
+    {
+        "frame": 201,
+        "event": "The mouse pointer is hovering over the \"Install...\" button in the \"Printers\" window. \n",
+        "timestamp": 12.5625,
+        "description": "The user moved the mouse pointer to the \"Install...\" button at the bottom of the \"Printers\" window. As a result, the button became active. ",
+        "outcome": "The \"Printers\" window populated with a list of available printer models.  Simultaneously, the \"Install...\" button became active. ",
+        "label_clicked": "null"
+    },
+    {
+        "frame": 206,
+        "event": "The mouse is clicking on the down arrow button of the scroll bar of the \"List of Printers\" list box. \n",
+        "timestamp": 12.875,
+        "description": "The user clicked the down arrow on the \"List of Printers\" scroll bar.  As a result, the \"List of Printers\" scrolled down. ",
+        "outcome": "The \"Printers\" window updated its \"List of Printers\". ",
+        "label_clicked": "null"
+    },
+    {
+        "frame": 212,
+        "event": "The mouse pointer is hovering over the down arrow of the vertical scroll bar of the \"List of Printers:\" list box. \n",
+        "timestamp": 13.25,
+        "description": "The user scrolled down the \"List of Printers:\" list box using the vertical scroll bar. This action revealed additional printer models. ",
+        "outcome": "The \"List of Printers:\" box populated with additional printer models. ",
+        "label_clicked": "null"
+    },
+    {
+        "frame": 225,
+        "event": "The mouse pointer is hovering over the \"Install...\" button of the \"Printers\" window. \n",
+        "timestamp": 14.0625,
+        "description": "The user clicked the \"Install...\" button in the \"Printers\" window while \"HP LaserJet\" was selected in the \"List of Printers\". As a result, \"HP LaserJet on LPT1:\" appeared in the \"Installed Printers\" list, and the \"Set As Default Printer\" and \"Remove\" buttons became enabled. ",
+        "outcome": "The \"Printers\" window reflects the addition of \"HP LaserJet on LPT1:\" to the \"Installed Printers\" list.  The corresponding \"Set As Default Printer\" and \"Remove\" buttons are now enabled. ",
+        "label_clicked": "null"
+    },
+    {
+        "frame": 231,
+        "event": "The mouse pointer is hovering over the \"Install...\" button of the \"Printers\" window. \n",
+        "timestamp": 14.4375,
+        "description": "The user moved the mouse pointer over the \"Install...\" button within the \"Printers\" window. ",
+        "outcome": "The \"Set As Default Printer\" button became active. ",
+        "label_clicked": "null"
+    },
+    {
+        "frame": 237,
+        "event": "The mouse pointer is hovering over the down arrow of the vertical scroll bar of the \"List of Printers:\" list box in the \"Printers\" window. \n",
+        "timestamp": 14.8125,
+        "description": "The user scrolled through the \"List of Printers\" by clicking the down arrow of the vertical scroll bar. ",
+        "outcome": "The \"Printers\" window updated its \"List of Printers\". ",
+        "label_clicked": "null"
+    }
+]
