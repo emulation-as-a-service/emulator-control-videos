@@ -1,0 +1,174 @@
+{
+    "model": "gemini-1.5-pro",
+    "temperature": 0.4,
+    "timestamp": "2024-07-28T22:55:40.014240",
+    "events": [
+        {
+            "time": 2294,
+            "event": "mousedown",
+            "x": 40,
+            "y": 575,
+            "frame": 36,
+            "time_end": 2.294,
+            "frame_end": 36
+        },
+        {
+            "time": 5656,
+            "event": "mousedown",
+            "x": 259,
+            "y": 332,
+            "frame": 90,
+            "time_end": 5.656,
+            "frame_end": 90
+        },
+        {
+            "time": 28713,
+            "event": "mousedown",
+            "x": 315,
+            "y": 195,
+            "frame": 459,
+            "time_end": 28.713,
+            "frame_end": 459
+        },
+        {
+            "time": 34218,
+            "event": "mousedown",
+            "x": 285,
+            "y": 425,
+            "frame": 547,
+            "time_end": 34.218,
+            "frame_end": 547
+        },
+        {
+            "time": 44901,
+            "event": "mousedown",
+            "x": 228,
+            "y": 133,
+            "frame": 718,
+            "time_end": 44.901,
+            "frame_end": 718
+        },
+        {
+            "time": 47102,
+            "event": "mousedown",
+            "x": 179,
+            "y": 363,
+            "frame": 753,
+            "time_end": 47.102,
+            "frame_end": 753
+        },
+        {
+            "time": 48350,
+            "event": "mousedown",
+            "x": 164,
+            "y": 376,
+            "frame": 773,
+            "time_end": 48.35,
+            "frame_end": 773
+        },
+        {
+            "time": 50209,
+            "event": "mousedown",
+            "x": 399,
+            "y": 468,
+            "frame": 803,
+            "time_end": 50.209,
+            "frame_end": 803
+        },
+        {
+            "time": 53838,
+            "event": "mousedown",
+            "x": 315,
+            "y": 354,
+            "frame": 861,
+            "time_end": 53.838,
+            "frame_end": 861
+        },
+        {
+            "time": 57054,
+            "event": "mousedown",
+            "x": 286,
+            "y": 564,
+            "frame": 912,
+            "time_end": 57.054,
+            "frame_end": 912
+        },
+        {
+            "time": 62147,
+            "event": "mousedown",
+            "x": 319,
+            "y": 268,
+            "frame": 994,
+            "time_end": 62.147,
+            "frame_end": 994
+        },
+        {
+            "time": 64947,
+            "event": "mousedown",
+            "x": 155,
+            "y": 322,
+            "frame": 1039,
+            "time_end": 64.947,
+            "frame_end": 1039
+        },
+        {
+            "time": 66307,
+            "event": "mousedown",
+            "x": 320,
+            "y": 345,
+            "frame": 1060,
+            "time_end": 66.307,
+            "frame_end": 1060
+        },
+        {
+            "time": 66909,
+            "event": "mousedown",
+            "x": 312,
+            "y": 362,
+            "frame": 1070,
+            "time_end": 66.909,
+            "frame_end": 1070
+        },
+        {
+            "time": 68354,
+            "event": "mousedown",
+            "x": 266,
+            "y": 575,
+            "frame": 1093,
+            "time_end": 68.354,
+            "frame_end": 1093
+        },
+        {
+            "time": 70060,
+            "event": "mousedown",
+            "x": 294,
+            "y": 541,
+            "frame": 1120,
+            "time_end": 70.06,
+            "frame_end": 1120
+        },
+        {
+            "time": 75310,
+            "event": "mousedown",
+            "x": 244,
+            "y": 520,
+            "frame": 1204,
+            "time_end": 75.31,
+            "frame_end": 1204
+        },
+        {
+            "time": 79155,
+            "event": "mousedown",
+            "x": 782,
+            "y": 5,
+            "frame": 1266,
+            "time_end": 79.155,
+            "frame_end": 1266
+        }
+    ],
+    "video_fps": 16.0,
+    "video_frame_count": 1311,
+    "video_width": 800,
+    "video_height": 600,
+    "video_duration": 81.9375
+}

@@ -1,0 +1,87 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Click the 'Start' button on the taskbar.",
+        "expected_results": "The Start menu will open."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Control' and 'Escape' keys simultaneously.",
+        "expected_results": "The mouse cursor will move slightly to the right of the 'Start' button."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The Start menu will open, displaying a list of program shortcuts."
+    },
+    {
+        "precondition": "The Windows XP Start Menu is open.",
+        "action": "Press the 'c' key.",
+        "expected_results": "The Start Menu will close, and the Windows XP Control Panel window will open to the \"Pick a category\" view."
+    },
+    {
+        "precondition": "The Control Panel is open and displaying categories.",
+        "action": "Click the link labeled \"Switch tp_Classic View\".",
+        "expected_results": "The Control Panel will switch to the classic view, and the link will change to \"Switch to Category View\"."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is displayed in Classic View.",
+        "action": "Press the 'Right' arrow key.",
+        "expected_results": ""
+    },
+    {
+        "precondition": "The Windows XP Control Panel is displayed in Classic View.",
+        "action": "Press the 'p' key, followed by the 'o' key.",
+        "expected_results": "The 'Power Options Properties' window will open and come into focus."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Turn off hard disks\" setting is set to \"After 20 mins\".",
+        "action": "Press the 'Enter' key.",
+        "expected_results": "The \"Turn off hard disks\" setting will change to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is selected. The \"Turn off hard disks\" option within the \"Settings for Home/Office Desk power scheme\" section should be visible.",
+        "action": "Click the dropdown button next to the \"Turn off hard disks\" option.",
+        "expected_results": "A dropdown menu with different time options will appear."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Turn off hard disks\" dropdown menu is open.",
+        "action": "Click the \"Never\" option in the \"Turn off hard disks\" dropdown menu.",
+        "expected_results": "The \"Turn off hard disks\" dropdown menu will close, and \"Never\" will be displayed as the selected option."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Control Panel\" window is open, displaying icons in the \"Classic View\".",
+        "action": "Move the mouse pointer over the \"Display\" icon.",
+        "expected_results": "A tooltip labeled \"Display\" will appear next to the mouse pointer."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "A dropdown menu for selecting a screensaver will appear below the \"Screen Saver\" tab."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab of the 'Display Properties' window is open. The 'Screen saver' dropdown menu should display 'Windows XP' as the selected option.",
+        "action": "Click the down arrow on the 'Screen saver' dropdown menu.",
+        "expected_results": "A dropdown list of available screen savers will appear, with the '[None]' option selected."
+    },
+    {
+        "precondition": "The \"Screen saver\" dropdown menu in the \"Display Properties\" window is open.",
+        "action": "Click the \"None\" option in the \"Screen saver\" dropdown menu.",
+        "expected_results": "The \"Settings\" and \"Preview\" buttons will become active."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open, showing the 'Screen Saver' tab.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Display Properties' window will close."
+    },
+    {
+        "precondition": "The Windows XP Control Panel window is open.",
+        "action": "Click the 'Close' button in the upper right corner of the 'Control Panel' window.",
+        "expected_results": "The Control Panel window will close, revealing the desktop."
+    }
+]

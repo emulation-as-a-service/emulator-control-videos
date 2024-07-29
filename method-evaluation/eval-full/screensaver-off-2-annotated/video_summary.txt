@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Display Properties
+- Input methods: Mouse and keyboard
+- Recording details: Not available from the provided information. 
+
+
+The user opens the display properties window by right-clicking on the desktop and selecting "Properties". Then the user navigates to the "Screen Saver" tab and selects "None" for the screensaver. Next, the user clicks on the "Power" button and changes the power scheme to "Always On". Within the "Always On" power scheme, the user changes the "Turn off hard disks" option to "Never" from "After 20 mins". Finally, the user clicks "Apply" to save the changes but then clicks "Cancel" and "OK" to discard the changes.
+
+**Purpose inference:** The user's actions suggest they are attempting to disable the sleep and hibernation features on their Windows XP computer. 

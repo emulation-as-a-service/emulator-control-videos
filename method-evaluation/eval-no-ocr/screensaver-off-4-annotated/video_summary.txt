@@ -1,0 +1,9 @@
+- Operating System: Windows XP
+- Software: Display Properties, Power Options Properties
+- Input methods: Mouse and keyboard
+- Recording details: 0:36 seconds, resolution is not available. 
+
+
+The user right-clicks on the desktop, opens the "Properties" option, navigates to the "Screen Saver" tab within "Display Properties", changes the screen saver to "None", and applies these changes. The user then clicks the "Power" button, opens the "Power Options Properties" window, changes the "Turn off hard disks" setting to "After 4 hours", and applies these changes. 
+
+Purpose inference: The user's actions suggest they are configuring their computer's power settings, specifically aiming to disable the screensaver and adjust the hard disk power-off timer. 

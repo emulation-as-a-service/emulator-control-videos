@@ -1,0 +1,52 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear."
+    },
+    {
+        "precondition": "The context menu on the Windows XP desktop is open, showing options like 'Arrange Icons By', 'Refresh', 'Paste', and 'Properties'.",
+        "action": "Click the 'Properties' menu item.",
+        "expected_results": "The context menu will close. The 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab in the \"Display Properties\" window is open and the \"Theme:\" dropdown menu is visible.",
+        "action": "Click the down arrow of the \"Theme:\" dropdown menu.",
+        "expected_results": "The dropdown menu will expand, displaying a list of available screen saver themes."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab of the \"Display Properties\" window is open. The \"Screen Saver\" dropdown menu displays a currently selected screen saver.",
+        "action": "Click the dropdown arrow next to the \"Screen Saver\" selection box.",
+        "expected_results": "The screen saver dropdown menu will expand, displaying a list of available screen savers."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the 'Power...' button.",
+        "expected_results": "The 'Power Options Properties' window will open."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active. The 'Power...' button is visible within the 'Monitor power' section.",
+        "action": "Click the 'Power...' button.",
+        "expected_results": "The 'Power Options Properties' window will open, overlaying the 'Display Properties' window."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'Power Schemes' tab is selected. The 'Turn off monitor' dropdown menu should be visible.",
+        "action": "Click the dropdown menu for the 'Turn off monitor' setting.",
+        "expected_results": "A list of time intervals will appear, allowing you to choose when the monitor should turn off."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'Power Schemes' tab is active. The 'Turn off monitor:' dropdown menu is open.",
+        "action": "Click the 'Never' option in the 'Turn off monitor:' dropdown menu.",
+        "expected_results": "The 'Turn off monitor:' dropdown menu will close. The 'Never' option will be selected, indicating the monitor will not automatically turn off."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Turn off monitor\" dropdown menu should display \"Never\".",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close, and the \"Display Properties\" window will remain open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click the \"Power...\" button.",
+        "expected_results": "The \"Power Options Properties\" window will open."
+    }
+]

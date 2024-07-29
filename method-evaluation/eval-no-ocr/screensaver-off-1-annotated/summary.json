@@ -1,0 +1,128 @@
+[
+    {
+        "frame": 36,
+        "event": "The mouse pointer is hovering over the Start button. \n",
+        "timestamp": 2.25,
+        "description": "The mouse cursor hovers over the \"Control Panel\" option in the Start Menu. \n",
+        "outcome": "The visual state remains unchanged between the two screenshots. The Windows XP desktop is shown with the Start Menu open, and the mouse cursor remains hovering over the \"Control Panel\" option. \n"
+    },
+    {
+        "frame": 90,
+        "event": "The mouse is clicking on the \"Control Panel\" option in the Start menu. \n",
+        "timestamp": 5.625,
+        "description": "The user clicks the \"Control Panel\" option in the Start menu.  As a result, the Control Panel window opens. \n",
+        "outcome": "The Windows XP Control Panel window opened on the desktop, displaying the 'Pick a category' view. The tooltip that was likely previously visible while hovering over the 'Control Panel' option in the Start menu is no longer visible. \n"
+    },
+    {
+        "frame": 459,
+        "event": "The mouse pointer is hovering over the \"Appearance and Themes\" icon in the Control Panel. A tooltip box describing the category is visible.  The user is clicking outside of the tooltip box and the \"Appearance and Themes\" icon. \n",
+        "timestamp": 28.6875,
+        "description": "The user dismisses the \"Appearance and Themes\" category tooltip by clicking outside of the tooltip box in the Windows XP Control Panel. \n",
+        "outcome": "The \"Appearance and Themes\" category within the Windows XP Control Panel, which was previously highlighted, is no longer highlighted. The tooltip box that was previously visible has disappeared. \n"
+    },
+    {
+        "frame": 547,
+        "event": "The mouse is clicking on the \"Display\" Control Panel icon. \n",
+        "timestamp": 34.1875,
+        "description": "The user clicks the \"Display\" icon within the \"Appearance and Themes\" Control Panel window. As a result, the \"Display Properties\" window opens. \n",
+        "outcome": "A new window titled \"Active Window\" opened on top of the \"Display Properties\" window. The \"Display\" icon is no longer highlighted, suggesting the \"Active Window\" is now the active window. The mouse cursor is hovering over the background image within the \"Active Window.\" \n"
+    },
+    {
+        "frame": 718,
+        "event": "The mouse is clicking on the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 44.875,
+        "description": "The user clicked the \"Screen Saver\" tab in the \"Display Properties\" window. As a result, the window's content changed to the \"Screen Saver\" tab. \n",
+        "outcome": "The \"Display Properties\" window changed to the \"Screen Saver\" tab. The preview window now shows a static \"Windows XP\" logo on a black background, and the \"Active Window\" label is gone. \n"
+    },
+    {
+        "frame": 753,
+        "event": "The mouse is clicking on the dropdown arrow of the \"Screen saver\" dropdown menu in the \"Display Properties\" window. \n",
+        "timestamp": 47.0625,
+        "description": "The user clicks the dropdown arrow of the \"Screen saver\" dropdown menu. This action enables the user to change the currently selected screensaver, which is set to \"Windows XP.\" \n",
+        "outcome": "Upon selection of '[None]' in the 'Screen saver' dropdown menu, both the 'Wait' field and the 'On resume, password protect' checkbox became active. The 'Wait' field retained its previous value of \"10\", and the checkbox remained unchecked. \n"
+    },
+    {
+        "frame": 773,
+        "event": "The mouse is clicking outside the \"Screen Saver\" dropdown menu of the \"Display Properties\" window. \n",
+        "timestamp": 48.3125,
+        "description": "The user clicked outside the open \"Screen Saver\" dropdown menu in the \"Display Properties\" window, causing the dropdown menu to close. \n",
+        "outcome": "The 'Screen Saver' dropdown menu closed. \n"
+    },
+    {
+        "frame": 803,
+        "event": "The mouse is clicking on the \"Power\" button in the \"Display Properties\" window. \n",
+        "timestamp": 50.1875,
+        "description": "The user clicks the \"Power...\" button in the \"Display Properties\" window. As a result, the \"Display Properties\" window closes, and the \"Power Options Properties\" window opens to the \"Power Schemes\" tab. \n",
+        "outcome": "The 'Display Properties' window is now closed. The 'Power Options Properties' window remains open with the 'Power Schemes' tab selected. The 'Home/Office Desk' power scheme remains active and the 'System hibernates' option is still set to 'Never'. \n"
+    },
+    {
+        "frame": 861,
+        "event": "The mouse pointer is hovering over the dropdown button for the \"Turn off monitor\" option in the \"Power Options Properties\" window. \n",
+        "timestamp": 53.8125,
+        "description": "The user moved the mouse pointer over the \"Turn off monitor\" dropdown menu in the \"Settings for Home/Office Desk power scheme\" section of the \"Power Options Properties\" window. As a result, the dropdown menu expanded, displaying a list of time interval options. \n",
+        "outcome": "The \"System hibernates\" dropdown menu within the \"Power Options Properties\" window was opened, revealing a list of time intervals. However, the selected option remained unchanged at \"After 20 mins\". \n"
+    },
+    {
+        "frame": 912,
+        "event": "The mouse is clicking on empty space within the \"System hibernates\" dropdown menu in the \"Power Options Properties\" window. \n",
+        "timestamp": 57.0,
+        "description": "The user clicked on the open \"System hibernates\" dropdown menu within the \"Power Options Properties\" window, causing the menu to close. \n",
+        "outcome": "The \"System hibernates\" dropdown menu closed. \n"
+    },
+    {
+        "frame": 994,
+        "event": "The mouse pointer is hovering over the dropdown arrow of the \"Power schemes\" list box in the \"Power Options Properties\" window. \n",
+        "timestamp": 62.125,
+        "description": "The user clicks the dropdown arrow of the \"Power schemes\" list box within the \"Power Options Properties\" window.  As a result, the dropdown menu opens, revealing \"Always On\" as a selectable power plan. \n",
+        "outcome": "The \"Power Schemes\" dropdown menu in the \"Power Options Properties\" window now displays \"Always On\" as the active power plan.  The settings for 'Turn off monitor', 'Turn off hard disks', 'System standby', and 'System hibernates' all remain at their default values ('Never'). \n"
+    },
+    {
+        "frame": 1039,
+        "event": "The mouse is clicking on the dropdown menu named \"Power schemes\". \n",
+        "timestamp": 64.9375,
+        "description": "The user clicked the \"Power schemes\" dropdown menu at the top of the \"Power Options Properties\" window. As a result, two buttons, \"Save As\" and \"Delete\", appeared next to the dropdown menu. \n",
+        "outcome": "The \"Power Options Properties\" window updated to display two new buttons, \"Save As\" and \"Delete\", beside the \"Power schemes\" dropdown menu. Additionally, the \"System hibernates\" option for the selected \"Always On\" power scheme is now set to \"Never\". \n"
+    },
+    {
+        "frame": 1060,
+        "event": "The mouse is clicking on the dropdown button for the \"Turn off hard disks\" setting. \n",
+        "timestamp": 66.25,
+        "description": "The user clicks the dropdown button for the \"Turn off hard disks\" setting within the \"Always On\" power scheme of the 'Power Options Properties' window. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 1070,
+        "event": "The mouse is clicking on the dropdown button of the \"Turn off monitor\" setting in the \"Power Options Properties\" window. \n",
+        "timestamp": 66.875,
+        "description": "The user clicked the dropdown button for the \"Turn off monitor\" setting within the \"Settings for Always On power scheme\" section of the \"Power Options Properties\" window. This action expanded the dropdown menu, revealing a list of time interval options. \n",
+        "outcome": "The 'Turn off monitor' dropdown menu within the 'Power Options Properties' window was expanded, revealing a list of time interval options. No other changes to the window's state are observed. \n"
+    },
+    {
+        "frame": 1093,
+        "event": "The mouse is clicking on the \"Never\" option within the \"System hibernates\" dropdown menu in the \"Power Options Properties\" window. \n",
+        "timestamp": 68.3125,
+        "description": "The user clicked \"Never\" in the \"System hibernates\" dropdown menu to select \"Never\" as the value for the \"System hibernates\" setting. \n",
+        "outcome": "The \"Never\" option in the \"System hibernates\" dropdown menu within the Power Options Properties window became unselected. \n"
+    },
+    {
+        "frame": 1120,
+        "event": "The mouse is clicking on the \"Cancel\" button of the \"Power Options Properties\" window. \n",
+        "timestamp": 70.0,
+        "description": "The user clicked the \"Cancel\" button in the \"Power Options Properties\" window. As a result, the \"Power Options Properties\" window closed. \n",
+        "outcome": "The \"Power Options Properties\" window was closed and the \"Apply\" button in the \"Display Properties\" window is no longer highlighted. \n"
+    },
+    {
+        "frame": 1204,
+        "event": "The mouse is clicking on the \"OK\" button in the \"Display Properties\" window. \n",
+        "timestamp": 75.25,
+        "description": "The user clicked the \"OK\" button in the \"Display Properties\" window. Consequently, the \"Display Properties\" window closed. \n",
+        "outcome": "The 'Display Properties' window was replaced by the 'Appearance and Themes' window, showing common tasks and Control Panel icons. \n"
+    },
+    {
+        "frame": 1266,
+        "event": "The mouse is clicking on the close button of the 'Appearance and Themes' window. \n",
+        "timestamp": 79.125,
+        "description": "The user clicks the close button of the 'Appearance and Themes' window.  As a result, the 'Appearance and Themes' window is no longer visible. \n",
+        "outcome": "The 'Appearance and Themes' window, previously present, is no longer visible on the Windows XP desktop. \n"
+    }
+]

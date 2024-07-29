@@ -1,0 +1,77 @@
+[
+    {
+        "frame": 31,
+        "event": "The mouse pointer is clicking on the empty desktop area. \n",
+        "timestamp": 1.9375,
+        "description": "The user right-clicked on an empty area of the desktop, which opened a context menu with options such as \"Arrange Icons By,\" \"Refresh,\" \"Paste,\" and \"Properties.\" \n",
+        "outcome": "A context menu with options for \"Arrange Icons By\", \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\" replaced the cursor in the top left corner of the screen. \n"
+    },
+    {
+        "frame": 80,
+        "event": "The mouse is clicking on the \"Properties\" item in the right-click context menu. \n",
+        "timestamp": 5.0,
+        "description": "The user clicks on the \"Properties\" item in the right-click context menu. As a result, the \"Display Properties\" window opens. \n",
+        "outcome": "The \"Display Properties\" window opened, with the \"Themes\" tab selected by default. The right-click context menu closed. \n"
+    },
+    {
+        "frame": 157,
+        "event": "The mouse is clicking the \"Screen Saver\" tab in the \"Display Properties\" window. \n",
+        "timestamp": 9.8125,
+        "description": "The user clicked the \"Screen Saver\" tab in the \"Display Properties\" window. \n",
+        "outcome": "The \"Display Properties\" window shifted focus from the \"Themes\" tab to the \"Screen Saver\" tab. \n",
+        "label_clicked": "Screen Saver"
+    },
+    {
+        "frame": 230,
+        "event": "The mouse is clicking on the dropdown button of the \"Screen saver\" list box in the \"Display Properties\" window. \n",
+        "timestamp": 14.375,
+        "description": "The user clicked the dropdown button of the \"Screen saver\" list box. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu within the \"Display Properties\" window opened, displaying \"Windows XP\" as the currently selected value. \n"
+    },
+    {
+        "frame": 261,
+        "event": "The mouse is clicking on the \"Power...\" button in the \"Display Properties\" window. \n",
+        "timestamp": 16.3125,
+        "description": "The user clicked the \"Power...\" button within the \"Display Properties\" window's \"Screen Saver\" tab.  As a result, the \"Power Options Properties\" window opened. \n",
+        "outcome": "A new window, \"Power Options Properties,\" appeared in front of the \"Display Properties\" window. \n",
+        "label_clicked": "Power..."
+    },
+    {
+        "frame": 309,
+        "event": "The mouse is clicking on the \"Power...\" button in the \"Display Properties\" window. \n",
+        "timestamp": 19.3125,
+        "description": "The user clicks the \"Power...\" button within the \"Screen Saver\" tab of the \"Display Properties\" window. This action opens the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window appeared, overlaying the \"Display Properties\" window. The cursor, previously hovering over the \"Power...\" button in the background window, changed to a white arrow. The new window shows the \"Home/Office Desk\" power scheme selected, with the monitor set to turn off after 20 minutes. \n"
+    },
+    {
+        "frame": 373,
+        "event": "The mouse is clicking on the dropdown button to the right of the \"Turn off monitor\" setting. \n",
+        "timestamp": 23.3125,
+        "description": "The user clicks the dropdown button next to the \"Turn off monitor\" setting. \n",
+        "outcome": "The \"Power Options Properties\" window shows the \"Turn off monitor\" dropdown menu open. The currently selected value is \"After 20 mins\". \n"
+    },
+    {
+        "frame": 414,
+        "event": "The mouse is clicking on the \"Never\" option in the \"Turn off monitor\" dropdown menu. \n",
+        "timestamp": 25.875,
+        "description": "The user clicked \"Never\" in the \"Turn off monitor\" dropdown menu to set the monitor to never turn off automatically. \n",
+        "outcome": "The \"Turn off monitor\" option within the \"Home/Office Desk\" power scheme was set to \"Never\" from a closed dropdown menu. \n",
+        "label_clicked": "Never"
+    },
+    {
+        "frame": 440,
+        "event": "The mouse is clicking on the OK button of the Display Properties window. \n",
+        "timestamp": 27.5,
+        "description": "The user clicks the \"OK\" button at the bottom of the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window closed, and the \"Display Properties\" window remained open. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 461,
+        "event": "The mouse pointer is over the OK button of the Display Properties window and the user is clicking the button. \n",
+        "timestamp": 28.8125,
+        "description": "The user clicked the \"OK\" button in the Display Properties window. As a result, the Display Properties window closed. \n",
+        "outcome": "The Windows XP desktop is visible. The \"Display Properties\" window is not present. \n",
+        "label_clicked": "OK"
+    }
+]

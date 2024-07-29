@@ -1,0 +1,400 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            z-index: 1000; /* Ensure it stays above other elements */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            margin-top: 460px; /* Space for the fixed video element */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+        .item-header {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            background-color: #f9f9f9;
+        }
+        .columns {
+            display: flex;
+        }
+        .column {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            color: black; /* Ensure text color is set */
+        }
+        .column + .column {
+            border-left: 1px solid #eee;
+        }
+        p {
+            margin: 10px 0;
+            color: #333; /* Ensure text is visible on white background */
+        }
+        .instruction h4 {
+            margin: 10px 0;
+            color: #0056b3; /* Ensure headings are distinct */
+        }
+        .instruction p {
+            margin: 5px 0;
+            color: #333; /* Ensure instruction text is visible */
+        }
+        .instruction {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .instruction strong {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="video-container">
+    <video id="reviewVideo" controls>
+        <source src="screensaver-off-4-ffr.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="container">
+    <h2>Review Screenshots</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 23  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 1.4375; return false;">1.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user **right-clicks** on the desktop background, which opens a context menu with the mouse hovering over the "**Properties**" option. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Right Click on the desktop and click the menu item 'Properties'.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will appear.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user **right-clicks** on the desktop background, which opens a context menu with the mouse hovering over the "**Properties**" option. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The mouse cursor is visible on the desktop background.</p>
+                            <p><strong>Action:</strong> Right Click the desktop and click the menu item 'Properties'.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will open.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 75  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 4.6875; return false;">4.6875</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "Properties" option in the desktop context menu. As a result, the context menu closes and the Display Properties window opens. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The desktop context menu is open.</p>
+                            <p><strong>Action:</strong> Click the menu item 'Properties'.</p>
+                            <p><strong>Expected Results:</strong> The context menu will close, and the Display Properties window will open.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the "Properties" option in the desktop context menu. As a result, the context menu closes and the Display Properties window opens. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The desktop context menu is open.</p>
+                            <p><strong>Action:</strong> Click the menu item 'Properties'.</p>
+                            <p><strong>Expected Results:</strong> The context menu will close, and the 'Display Properties' window will open.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 136  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 8.5; return false;">8.5</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked and dragged the mouse from the "Appearance" tab to the "Screen Saver" tab at the top of the "Display Properties" window. As a result, the "Screen Saver" tab became the active tab. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Appearance' tab is active.</p>
+                            <p><strong>Action:</strong> Click the 'Screen Saver' tab.</p>
+                            <p><strong>Expected Results:</strong> The 'Screen Saver' tab will become active, displaying the screen saver settings.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked and dragged the mouse from the "Appearance" tab to the "Screen Saver" tab at the top of the "Display Properties" window. As a result, the "Screen Saver" tab became the active tab. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" window is open and the "Appearance" tab is active.</p>
+                            <p><strong>Action:</strong> Click the "Screen Saver" tab.</p>
+                            <p><strong>Expected Results:</strong> The "Screen Saver" tab will become active, displaying the screen saver settings.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 185  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 11.5625; return false;">11.5625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "Screen Saver" tab in the Display Properties window. As a result, the "Screen Saver" tab became active. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Themes' tab is active.</p>
+                            <p><strong>Action:</strong> Click the 'Screen Saver' tab.</p>
+                            <p><strong>Expected Results:</strong> The 'Screen Saver' tab will become active. You will see options to change the screen saver, wait time, and other settings.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Screen Saver" tab in the Display Properties window. As a result, the "Screen Saver" tab became active. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Themes' tab is active.</p>
+                            <p><strong>Action:</strong> Click the 'Screen Saver' tab.</p>
+                            <p><strong>Expected Results:</strong> The 'Screen Saver' tab will become active. You will see options to change the screen saver, including a dropdown menu labeled 'Screen saver:'.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 244  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 15.25; return false;">15.25</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the down arrow of the "Screen Saver" dropdown menu in the "Display Properties" window.  As a result, the dropdown menu expanded to display a list of available screen saver options. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Screen Saver' tab is selected.</p>
+                            <p><strong>Action:</strong> Click the down arrow on the 'Screen Saver' dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> A list of available screen savers will appear.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the down arrow of the "Screen Saver" dropdown menu in the "Display Properties" window.  As a result, the dropdown menu expanded to display a list of available screen saver options. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Screen Saver' tab is selected.</p>
+                            <p><strong>Action:</strong> Click the down arrow on the 'Screen Saver' dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> A list of available screen savers will appear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 263  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 16.4375; return false;">16.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked "3D FlowerBox" in the "Screen Saver" dropdown menu of the "Display Properties" window. As a result, the "3D FlowerBox" option is no longer highlighted, indicating it is not selected. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Screen Saver' tab of the 'Display Properties' window is open. The 'Screen Saver' dropdown menu is open and the 'None' option is highlighted.</p>
+                            <p><strong>Action:</strong> Click the '3D FlowerBox' option in the 'Screen Saver' dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The '3D FlowerBox' option will no longer be highlighted.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked "None" in the "Screen Saver" dropdown menu of the "Display Properties" window. As a result, the "None" option is selected. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Screen Saver" dropdown menu in the "Display Properties" window is open.</p>
+                            <p><strong>Action:</strong> Click the "None" option in the "Screen Saver" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The "None" option will become selected, and the dropdown menu will close. The "Settings" and "Preview" buttons will remain inactive.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 318  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 19.875; return false;">19.875</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "Apply" button in the "Display Properties" window to save the current screen saver settings. As a result, the "Power Options Properties" window opens. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Screen Saver' tab is active. The 'Apply' button is enabled.</p>
+                            <p><strong>Action:</strong> Click the 'Apply' button.</p>
+                            <p><strong>Expected Results:</strong> The 'Power Options Properties' window will open in front of the 'Display Properties' window.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the "Apply" button in the "Display Properties" window to save the current screen saver settings. As a result, the Display Properties window is still active. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Screen Saver' tab is active. The 'Screen Saver' dropdown menu displays '(None)' and the 'Wait:' field is set to '10'.</p>
+                            <p><strong>Action:</strong> Click the 'Apply' button.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window remains open, and the screen saver settings are applied.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 349  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 21.8125; return false;">21.8125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "Power..." button located within the "Display Properties" window. This action opens the "Power Options Properties" window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Screen Saver' tab is active. The 'Power...' button is visible at the bottom of the window.</p>
+                            <p><strong>Action:</strong> Click the 'Power...' button.</p>
+                            <p><strong>Expected Results:</strong> The 'Power Options Properties' window will open in front of the 'Display Properties' window.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the "Power..." button located within the "Display Properties" window. This action opens the "Power Options Properties" window. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Screen Saver' tab is selected.</p>
+                            <p><strong>Action:</strong> Click the 'Power...' button at the bottom of the 'Display Properties' window.</p>
+                            <p><strong>Expected Results:</strong> The 'Power Options Properties' window will open in front of the 'Display Properties' window.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 448  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 28.0; return false;">28.0</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "After 5 hours" option within the open "Turn off hard disks" dropdown menu in the "Power Options Properties" window.  As a result, the dropdown menu closes and the "After 5 hours" option is selected. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open with the "Turn off hard disks" dropdown menu open.</p>
+                            <p><strong>Action:</strong> Click the "After 5 hours" option in the "Turn off hard disks" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The "Turn off hard disks" dropdown menu will close, and "After 5 hours" will be selected.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the "After 5 hours" option within the open "Turn off hard disks" dropdown menu in the "Power Options Properties" window.  As a result, the dropdown menu closes and the "After 5 hours" option is selected. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open with the "Turn off hard disks" dropdown menu open.</p>
+                            <p><strong>Action:</strong> Click the "After 5 hours" option in the "Turn off hard disks" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The dropdown menu will close and "After 5 hours" will be selected.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 468  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 29.25; return false;">29.25</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "OK" button in the "Power Options Properties" window.  As a result, the "Power Options Properties" window closed. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Power Schemes" tab is selected.</p>
+                            <p><strong>Action:</strong> Click the button labeled "NQK".</p>
+                            <p><strong>Expected Results:</strong> The "Power Options Properties" window will close, and the "Display Properties" window will become active.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "OK" button in the "Power Options Properties" window.  As a result, the "Power Options Properties" window closed. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Power Options Properties' window is open and the 'Power Schemes' tab is selected.</p>
+                            <p><strong>Action:</strong> Click the 'OK' button.</p>
+                            <p><strong>Expected Results:</strong> The 'Power Options Properties' window will close, and the 'Display Properties' window will become active.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 506  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 31.625; return false;">31.625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "OK" button at the bottom of the "Display Properties" window. As a result, the "Display Properties" window is closed. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open, showing the 'Screen Saver' tab.</p>
+                            <p><strong>Action:</strong> Click the 'OK' button at the bottom of the 'Display Properties' window.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will close. Any changes made to the screen saver settings will be applied.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the "OK" button at the bottom of the "Display Properties" window. As a result, the "Display Properties" window is closed. </p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open, showing the 'Screen Saver' tab.</p>
+                            <p><strong>Action:</strong> Click the 'OK' button at the bottom of the window.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will close. Any changes made to the screen saver settings will be applied.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>

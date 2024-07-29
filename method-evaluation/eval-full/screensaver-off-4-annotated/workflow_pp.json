@@ -1,0 +1,57 @@
+[
+    {
+        "precondition": "The mouse cursor is visible on the desktop background.",
+        "action": "Right Click the desktop and click the menu item 'Properties'.",
+        "expected_results": "The 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The desktop context menu is open.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The context menu will close, and the 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Appearance\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Screen Saver\" tab will become active, displaying the screen saver settings."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Themes' tab is active.",
+        "action": "Click the 'Screen Saver' tab.",
+        "expected_results": "The 'Screen Saver' tab will become active. You will see options to change the screen saver, including a dropdown menu labeled 'Screen saver:'."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the down arrow on the 'Screen Saver' dropdown menu.",
+        "expected_results": "A list of available screen savers will appear."
+    },
+    {
+        "precondition": "The \"Screen Saver\" dropdown menu in the \"Display Properties\" window is open.",
+        "action": "Click the \"None\" option in the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"None\" option will become selected, and the dropdown menu will close. The \"Settings\" and \"Preview\" buttons will remain inactive."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active. The 'Screen Saver' dropdown menu displays '(None)' and the 'Wait:' field is set to '10'.",
+        "action": "Click the 'Apply' button.",
+        "expected_results": "The 'Display Properties' window remains open, and the screen saver settings are applied."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the 'Power...' button at the bottom of the 'Display Properties' window.",
+        "expected_results": "The 'Power Options Properties' window will open in front of the 'Display Properties' window."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Turn off hard disks\" dropdown menu open.",
+        "action": "Click the \"After 5 hours\" option in the \"Turn off hard disks\" dropdown menu.",
+        "expected_results": "The dropdown menu will close and \"After 5 hours\" will be selected."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'Power Schemes' tab is selected.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Power Options Properties' window will close, and the 'Display Properties' window will become active."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open, showing the 'Screen Saver' tab.",
+        "action": "Click the 'OK' button at the bottom of the window.",
+        "expected_results": "The 'Display Properties' window will close. Any changes made to the screen saver settings will be applied."
+    }
+]

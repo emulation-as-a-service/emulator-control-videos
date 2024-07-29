@@ -1,0 +1,71 @@
+Annotating frame 23
+Creating video summary
+- Operating system: Windows XP
+- Software: Display Properties window, Power Options Properties window
+- Input methods: Mouse and keyboard 
+- Recording details: 0:36 seconds,  resolution not available from the provided information 
+
+The user right-clicks on the desktop and selects "Properties" from the context menu. In the Display Properties window, the user navigates to the "Screen Saver" tab. They change the screen saver selection to "None" and click "Apply". Then, the user clicks the "Power" button. In the Power Options Properties window, the user clicks the drop-down menu for "Turn off hard disks" but does not change the selection. The user clicks "OK" to close the Power Options Properties window and clicks "OK" again to close the Display Properties window. 
+
+The user's actions suggest they are attempting to disable the screen saver and configure the power settings to prevent the hard disks from turning off. 
+
+Annotating frame 30
+Annotating frame 62
+Annotating frame 64
+Annotating frame 72
+Annotating frame 75
+Annotating frame 80
+Annotating frame 109
+Annotating frame 110
+Annotating frame 136
+Annotating frame 146
+Annotating frame 147
+Annotating frame 148
+Annotating frame 155
+Annotating frame 156
+Annotating frame 185
+Annotating frame 203
+Annotating frame 204
+Annotating frame 244
+Annotating frame 251
+Annotating frame 252
+Annotating frame 257
+Annotating frame 258
+Annotating frame 263
+Annotating frame 268
+Annotating frame 271
+Annotating frame 272
+Annotating frame 318
+Annotating frame 341
+Annotating frame 343
+Annotating frame 349
+Annotating frame 384
+Annotating frame 385
+Annotating frame 386
+Annotating frame 411
+Annotating frame 412
+Annotating frame 417
+Annotating frame 418
+Annotating frame 448
+Annotating frame 452
+Annotating frame 468
+Annotating frame 485
+Annotating frame 486
+Annotating frame 506
+Annotating frame 513
+Annotating frame 514
+Annotating frame 528
+Annotating frame 568
+No more screenshots available.
+Summarizing frame 23
+Summarizing frame 75
+Summarizing frame 136
+Summarizing frame 185
+Summarizing frame 244
+Summarizing frame 263
+Summarizing frame 318
+Summarizing frame 349
+Summarizing frame 448
+Summarizing frame 468
+Summarizing frame 506
+Creating video summary

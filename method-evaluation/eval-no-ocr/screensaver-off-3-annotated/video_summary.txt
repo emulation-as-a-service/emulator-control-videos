@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Windows Control Panel
+- Input methods: Mouse and keyboard
+- Recording details: 1 minute and 3 seconds, resolution is not available 
+
+
+The user opens the Windows XP start menu and clicks on the Control Panel. They switch to the Classic View and open Power Options. They change the "Turn off monitor" setting from "After 20 mins" to "Never" and click "OK". Then they open Display Properties, select the Screen Saver tab, and change the screen saver from "Windows XP" to "None". They click "OK" again. 
+
+Purpose inference: The user's actions suggest they are configuring their computer's power and display settings to prevent the monitor from turning off and disabling the screensaver. 
