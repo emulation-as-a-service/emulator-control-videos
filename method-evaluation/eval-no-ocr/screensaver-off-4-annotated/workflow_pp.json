@@ -1,0 +1,57 @@
+[
+    {
+        "precondition": "The mouse cursor is hovering over the Windows XP desktop background.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu titled \"Arrange Icons By \u25b6\" will appear. The menu contains the options: \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\"."
+    },
+    {
+        "precondition": "The context menu is open on the Windows XP desktop.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The context menu will close, and the 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The \"Appearance\" tab in the \"Display Properties\" window is open.",
+        "action": "Select \"Windows XP (Modified)\" from the \"Theme\" dropdown menu.",
+        "expected_results": "The appearance of the \"Active Window\" preview will update to reflect the selected theme."
+    },
+    {
+        "precondition": "The \"Display Properties\" window with the \"Themes\" tab active is visible.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Screen Saver\" tab will become active, displaying the screen saver settings, including the currently selected screensaver (\"Windows XP\"), the wait time (\"10 minutes\"), and the \"On resume, password protect\" checkbox."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open, and the \"Screen Saver\" tab is selected.",
+        "action": "Click the down arrow of the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"Screen Saver\" dropdown menu will expand, displaying a list of available screen saver options."
+    },
+    {
+        "precondition": "The 'Screen Saver' dropdown menu within the 'Display Properties' window is open.",
+        "action": "Click on any empty space within the open 'Screen Saver' dropdown menu.",
+        "expected_results": "The 'Screen Saver' dropdown menu will close. The 'Settings' button will become active."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Screen Saver\" dropdown menu displays \"(None)\". The \"Apply\" button is active.",
+        "action": "Click the \"Apply\" button.",
+        "expected_results": "The \"Screen Saver\" dropdown menu will update to display \"None\". The \"Apply\" button will become inactive."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the 'Power...' button at the bottom of the 'Display Properties' window.",
+        "expected_results": "The 'Power Options Properties' window will open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Turn off hard disks\" dropdown menu is visible.",
+        "action": "Click the \"After 4 hours\" option in the \"Turn off hard disks\" dropdown menu.",
+        "expected_results": "The \"After 4 hours\" option will be highlighted in the \"Turn off hard disks\" dropdown menu."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"OK\" button highlighted.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Power Options Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"(None)\" option is selected in the \"Screen Saver\" dropdown menu.",
+        "action": "Click the \"OK\" button at the bottom of the \"Display Properties\" window.",
+        "expected_results": "The \"Display Properties\" window will close. The desktop background will remain unchanged."
+    }
+]

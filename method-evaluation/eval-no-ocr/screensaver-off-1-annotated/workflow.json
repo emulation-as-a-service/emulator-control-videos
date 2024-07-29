@@ -1,0 +1,92 @@
+[
+    {
+        "precondition": "The Windows XP Start Menu is open.",
+        "action": "Move the mouse cursor over the 'Control Panel' option in the Start Menu.",
+        "expected_results": "The 'Control Panel' option in the Start Menu will become highlighted."
+    },
+    {
+        "precondition": "The Windows XP Start menu is open.",
+        "action": "Click the 'Control Panel' option in the Start menu.",
+        "expected_results": "The Control Panel window will open, displaying the 'Pick a category' view."
+    },
+    {
+        "precondition": "The \"Appearance and Themes\" category in the Windows XP Control Panel is highlighted, indicating the mouse cursor is hovering over it. A tooltip box with a description is visible.",
+        "action": "Move the mouse cursor away from the \"Appearance and Themes\" icon.",
+        "expected_results": "The \"Appearance and Themes\" category will no longer be highlighted, and the tooltip box will disappear."
+    },
+    {
+        "precondition": "The 'Appearance and Themes' window of the Windows XP Control Panel is open.",
+        "action": "Click the 'Display' icon.",
+        "expected_results": "The 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Themes' tab is active.",
+        "action": "Click the 'Screen Saver' tab.",
+        "expected_results": "The 'Display Properties' window will display the 'Screen Saver' options."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the dropdown arrow of the 'Screen saver' dropdown menu.",
+        "expected_results": "A list of available screensavers will be displayed."
+    },
+    {
+        "precondition": "The 'Screen Saver' dropdown menu in the 'Display Properties' window is open.",
+        "action": "Click anywhere outside the 'Screen Saver' dropdown menu.",
+        "expected_results": "The 'Screen Saver' dropdown menu will close."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the button labeled 'Power...'.",
+        "expected_results": "The 'Display Properties' window will close, and the 'Power Options Properties' window will open to the 'Power Schemes' tab."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open, and the 'Home/Office Desk' power scheme is selected.",
+        "action": "Click the dropdown menu labeled 'System hibernates'.",
+        "expected_results": "A list of time interval options will appear."
+    },
+    {
+        "precondition": "The 'System hibernates' dropdown menu within the 'Power Options Properties' window is open.",
+        "action": "Click on any empty space within the 'System hibernates' dropdown menu.",
+        "expected_results": "The 'System hibernates' dropdown menu will close."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'Power Schemes' tab is selected. The 'Power schemes' dropdown menu should display 'Home/Office Desk'.",
+        "action": "Click the dropdown arrow on the 'Power schemes' list box.",
+        "expected_results": "A dropdown menu will appear, displaying a list of available power schemes including 'Always On'."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'Power Schemes' tab is selected.",
+        "action": "Click the 'Power schemes' dropdown menu at the top of the window.",
+        "expected_results": "The dropdown menu will expand, displaying a list of available power schemes. Two buttons, 'Save As' and 'Delete', will appear next to the dropdown menu."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'Power Schemes' tab is selected. The 'Power schemes' dropdown menu displays 'Always On'.",
+        "action": "Click the dropdown button for the 'Turn off hard disks' setting.",
+        "expected_results": "A dropdown menu with different time interval options for the 'Turn off hard disks' setting will appear."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open with the 'Always On' power scheme selected.",
+        "action": "Click the dropdown button labeled 'After 20 mins' next to the 'Turn off monitor' setting.",
+        "expected_results": "A dropdown menu with a list of time interval options will appear."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open, and the 'Power Schemes' tab is selected. The 'Power schemes' dropdown menu displays 'Always On'. The 'System hibernates' dropdown menu is open.",
+        "action": "Click the 'Never' option in the 'System hibernates' dropdown menu.",
+        "expected_results": "The 'Never' option will be selected, and the 'System hibernates' dropdown menu will close."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open with the 'Power Schemes' tab active. The 'Always On' power scheme is selected.",
+        "action": "Click the 'Cancel' button",
+        "expected_results": "The 'Power Options Properties' window will close. The 'Display Properties' window will remain open."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open, showing the 'Screen Saver' tab.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Display Properties' window will close. "
+    },
+    {
+        "precondition": "The 'Appearance and Themes' window is open in the Windows XP Control Panel.",
+        "action": "Click the 'Close' button in the top-right corner of the 'Appearance and Themes' window.",
+        "expected_results": "The 'Appearance and Themes' window will close."
+    }
+]

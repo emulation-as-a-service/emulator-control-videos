@@ -1,0 +1,8 @@
+- Operating system: Windows XP
+- Software: Windows Control Panel, Windows Power Options Properties
+- Input methods: Mouse and keyboard 
+
+
+The user opens the Control Panel, navigates to the "Appearance and Themes" category, and selects "Display". They then navigate to the "Screen Saver" tab and select "None" as the screen saver. Next, they click on the "Power" button, which opens the "Power Options Properties" window. Within this window, they change the "Turn off monitor", "Turn off hard disk", "System standby", and "System hibernate" settings to "Never" for the "Always On" power scheme. Finally, the user closes all windows without saving the changes made in the "Power Options Properties" window. 
+
+Purpose inference: The user's actions suggest they are attempting to disable the screen saver and configure the power options to prevent the monitor, hard disk, system standby, and system hibernate from activating. 

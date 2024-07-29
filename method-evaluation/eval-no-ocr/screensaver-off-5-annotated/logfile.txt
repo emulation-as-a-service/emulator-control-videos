@@ -1,0 +1,51 @@
+Annotating frame 31
+Creating video summary
+- Operating system: Windows XP
+- Software: Display Properties, Power Options Properties 
+- Input methods: Mouse and keyboard 
+
+The user opens the display properties window and navigates to the screen saver tab. They change the screen saver to "None" and then click the "Power..." button. In the power options properties window, they change the "Turn off monitor" setting to "Never" and then click "OK".
+
+Purpose inference: The user's actions suggest they are attempting to disable the screen saver and prevent the monitor from automatically turning off. 
+
+Annotating frame 37
+Annotating frame 80
+Annotating frame 85
+Annotating frame 106
+Annotating frame 157
+Annotating frame 172
+Annotating frame 230
+Annotating frame 235
+Annotating frame 236
+Annotating frame 237
+Annotating frame 261
+Annotating frame 265
+Annotating frame 309
+Annotating frame 340
+Annotating frame 341
+Annotating frame 373
+Annotating frame 378
+Annotating frame 379
+Annotating frame 380
+Annotating frame 414
+Annotating frame 417
+Annotating frame 440
+Annotating frame 448
+Annotating frame 449
+Annotating frame 450
+Annotating frame 451
+Annotating frame 461
+Annotating frame 468
+No more screenshots available.
+Summarizing frame 31
+Summarizing frame 80
+Summarizing frame 157
+Summarizing frame 230
+Summarizing frame 261
+Summarizing frame 309
+Summarizing frame 373
+Summarizing frame 414
+Summarizing frame 440
+Summarizing frame 461
+Creating video summary
+../emulator-control-eval-short/2024-07-28-22-09-44/screensaver-off-5-annotated/screensaver-off-5.vtt does not exist.

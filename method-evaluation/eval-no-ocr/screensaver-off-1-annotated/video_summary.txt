@@ -1,0 +1,8 @@
+- Operating system: Windows XP
+- Software: Windows Control Panel, Windows Display Properties, Windows Power Options Properties
+- Input methods: Mouse and keyboard 
+
+
+The user opens the Control Panel, navigates to 'Appearance and Themes', and selects 'Display'. They then choose the 'Screen Saver' tab, select 'None' as the screensaver, and click 'Apply'.  The user then clicks the 'Power' button,  changes the 'System hibernates' option to 'Never' for the 'Home/Office Desk' power scheme, and clicks 'Apply'. Finally, they change the power scheme to 'Always On',  change the 'System hibernates' option to 'Never', and click 'OK'.
+
+Purpose inference: The user's actions suggest they are attempting to disable the screensaver and hibernation features on their Windows XP computer. 

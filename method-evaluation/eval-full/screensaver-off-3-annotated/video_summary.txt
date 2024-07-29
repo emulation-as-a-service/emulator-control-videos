@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Windows Control Panel
+- Input methods: Mouse and keyboard
+- Recording details: 1 minute and 3 seconds, resolution is not available 
+
+
+The user opens the Windows XP start menu and navigates to the control panel. They switch to the classic view, then open the power options properties menu. They change the "Turn off hard disks" setting from "After 20 mins" to "Never" and click "OK". Next, they open the display properties menu, navigate to the screen saver tab, and change the screen saver setting from "Windows XP" to "None". Finally, they click "OK".
+
+**Purpose inference:** The user's actions suggest they are configuring their computer's power and display settings to prevent the hard drive from powering down and to disable the screen saver. 

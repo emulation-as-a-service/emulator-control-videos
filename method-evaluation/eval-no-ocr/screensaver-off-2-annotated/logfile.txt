@@ -1,0 +1,69 @@
+Annotating frame 29
+Creating video summary
+- Operating system: Windows XP
+- Software: Display Properties
+- Input methods: Mouse and keyboard 
+- Recording details: Not available from the provided information. 
+
+The user opens the Display Properties window by right-clicking on the desktop and selecting "Properties." Then the user navigates to the Screen Saver tab and selects "None" as the screen saver. Next, the user clicks on the "Power" button, which opens the Power Options Properties window. The user then changes the Power scheme to "Always On" and sets "Turn off monitor," "Turn off hard disks," "System standby," and "System hibernates" to "Never." Finally, the user clicks "Apply" and then "OK" to close the windows. 
+
+**Purpose inference:** The user's actions suggest they are configuring their computer's power settings to prevent the monitor, hard disks, system standby, and system hibernation from activating. 
+
+Annotating frame 50
+Annotating frame 57
+Annotating frame 77
+Annotating frame 78
+Annotating frame 80
+Annotating frame 117
+Annotating frame 129
+Annotating frame 130
+Annotating frame 135
+Annotating frame 136
+Annotating frame 151
+Annotating frame 152
+Annotating frame 185
+Annotating frame 191
+Annotating frame 192
+Annotating frame 193
+Annotating frame 201
+Annotating frame 215
+Annotating frame 221
+Annotating frame 269
+Annotating frame 306
+Annotating frame 308
+Annotating frame 338
+Annotating frame 344
+Annotating frame 345
+Annotating frame 359
+Annotating frame 360
+Annotating frame 374
+Annotating frame 378
+Annotating frame 395
+Annotating frame 398
+Annotating frame 401
+Annotating frame 402
+Annotating frame 403
+Annotating frame 437
+Annotating frame 445
+Annotating frame 482
+Annotating frame 516
+Annotating frame 526
+Annotating frame 528
+Annotating frame 544
+Annotating frame 553
+No more screenshots available.
+Summarizing frame 29
+Summarizing frame 50
+Summarizing frame 117
+Summarizing frame 185
+Summarizing frame 215
+Summarizing frame 269
+Summarizing frame 338
+Summarizing frame 374
+Summarizing frame 395
+Summarizing frame 437
+Summarizing frame 482
+Summarizing frame 516
+Summarizing frame 544
+Creating video summary
+../emulator-control-eval-short/2024-07-28-22-09-44/screensaver-off-2-annotated/screensaver-off-2.vtt does not exist.

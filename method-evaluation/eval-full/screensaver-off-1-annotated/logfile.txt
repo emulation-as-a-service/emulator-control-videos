@@ -1,0 +1,106 @@
+Annotating frame 36
+Creating video summary
+- Operating system: Windows XP
+- Software: Windows Control Panel, Windows Power Options Properties
+- Input methods: Mouse and keyboard 
+
+The user opens the Control Panel, navigates to the "Appearance and Themes" category, and selects "Display". They then navigate to the "Screen Saver" tab and select "None" as the screen saver. Next, they click on the "Power" button, which opens the "Power Options Properties" window. Within this window, they change the "Turn off monitor", "Turn off hard disk", "System standby", and "System hibernate" settings to "Never" for the "Always On" power scheme. Finally, the user closes all windows without saving the changes made in the "Power Options Properties" window. 
+
+Purpose inference: The user's actions suggest they are attempting to disable the screen saver and configure the power options to prevent the monitor, hard disk, system standby, and system hibernate from activating. 
+
+Annotating frame 46
+Annotating frame 87
+Annotating frame 90
+Annotating frame 92
+Annotating frame 99
+Annotating frame 129
+Annotating frame 130
+Annotating frame 176
+Annotating frame 179
+Annotating frame 188
+Annotating frame 197
+Annotating frame 198
+Annotating frame 199
+Annotating frame 200
+Annotating frame 201
+Annotating frame 412
+Annotating frame 459
+Annotating frame 462
+Annotating frame 486
+Annotating frame 495
+Annotating frame 502
+Annotating frame 506
+Annotating frame 507
+Annotating frame 508
+Annotating frame 509
+Annotating frame 535
+Annotating frame 547
+Annotating frame 578
+Annotating frame 583
+Annotating frame 584
+Annotating frame 585
+Annotating frame 586
+Annotating frame 718
+Annotating frame 734
+Annotating frame 735
+Annotating frame 736
+Annotating frame 753
+Annotating frame 760
+Annotating frame 761
+Annotating frame 773
+Annotating frame 778
+Annotating frame 779
+Annotating frame 803
+Annotating frame 836
+Annotating frame 837
+Annotating frame 861
+Annotating frame 867
+Annotating frame 868
+Annotating frame 869
+Annotating frame 912
+Annotating frame 918
+Annotating frame 994
+Annotating frame 999
+Annotating frame 1000
+Annotating frame 1001
+Annotating frame 1039
+Annotating frame 1043
+Annotating frame 1060
+Annotating frame 1070
+Annotating frame 1076
+Annotating frame 1077
+Annotating frame 1078
+Annotating frame 1093
+Annotating frame 1097
+Annotating frame 1120
+Annotating frame 1135
+Annotating frame 1137
+Annotating frame 1138
+Annotating frame 1139
+Annotating frame 1140
+Annotating frame 1204
+Annotating frame 1225
+Annotating frame 1227
+Annotating frame 1266
+Annotating frame 1275
+Annotating frame 1276
+No more screenshots available.
+Summarizing frame 36
+Summarizing frame 90
+Summarizing frame 459
+Summarizing frame 547
+Summarizing frame 718
+Summarizing frame 753
+Summarizing frame 773
+Summarizing frame 803
+Summarizing frame 861
+Summarizing frame 912
+Summarizing frame 994
+Summarizing frame 1039
+Summarizing frame 1060
+Summarizing frame 1070
+Summarizing frame 1093
+Summarizing frame 1120
+Summarizing frame 1204
+Summarizing frame 1266
+Creating video summary

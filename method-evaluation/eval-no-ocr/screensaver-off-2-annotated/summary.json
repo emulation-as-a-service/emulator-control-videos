@@ -1,0 +1,93 @@
+[
+    {
+        "frame": 29,
+        "event": "The mouse is clicking on the desktop. \n",
+        "timestamp": 1.8125,
+        "description": "The mouse is clicked on the desktop to open the display properties context menu. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 50,
+        "event": "The mouse is clicking on the \"Properties\" menu item of the desktop context menu. \n",
+        "timestamp": 3.125,
+        "description": "The user clicks on the \"Properties\" option in the desktop context menu. This action closes the context menu and opens the \"Display Properties\" window. \n",
+        "outcome": "The context menu that was previously visible has disappeared and a smaller window titled \"Active Window\" is now open. This window displays a preview of the desktop background and is layered on top of the main \"Display Properties\" window. The \"Display Properties\" window remains open with the \"Themes\" tab selected. \n"
+    },
+    {
+        "frame": 117,
+        "event": "The mouse is clicking on the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 7.3125,
+        "description": "The user clicked on the \"Screen Saver\" tab within the \"Display Properties\" window. As a result, the window's content switched to the \"Screen Saver\" settings. \n",
+        "outcome": "The \"Display Properties\" window is now displaying the \"Screen Saver\" tab instead of the \"Appearance\" tab. A new button labeled \"Power...\" has appeared at the bottom of the \"Monitor power\" section within the \"Screen Saver\" tab. \n"
+    },
+    {
+        "frame": 185,
+        "event": "The mouse is clicking on the down arrow of the \"Screen saver\" dropdown menu in the \"Display Properties\" window. \n",
+        "timestamp": 11.5625,
+        "description": "The user clicks the down arrow on the \"Screen saver\" dropdown menu within the \"Display Properties\" window.  This changes the selected option in the dropdown menu to \"(None)\". \n",
+        "outcome": "Within the \"Display Properties\" window, the \"Screen Saver\" dropdown menu now displays \"(None)\" as the selected option. No other changes within the window are observed. \n"
+    },
+    {
+        "frame": 215,
+        "event": "The mouse is clicking on the \"None\" item in the open \"Screen saver\" dropdown menu. \n",
+        "timestamp": 13.4375,
+        "description": "The user clicks on the \"None\" item in the open \"Screen Saver\" dropdown menu within the \"Display Properties\" window. As a result, the dropdown menu closes. \n",
+        "outcome": "A dialog box titled \"Keep your computer up to date\" appeared in the bottom left corner of the screen, prompting the user to enable automatic updates. The previously open \"Screen Saver\" dropdown menu within the \"Display Properties\" window is now closed. \n"
+    },
+    {
+        "frame": 269,
+        "event": "The mouse is hovering over the \"Power...\" button in the \"Display Properties\" window. \n",
+        "timestamp": 16.8125,
+        "description": "The user hovers the mouse over the \"Power...\" button in the \"Display Properties\" window. \n",
+        "outcome": "The \"Display Properties\" window closed and a new window titled \"Keep your computer up to date\" appeared in the bottom right corner of the screen. \n"
+    },
+    {
+        "frame": 338,
+        "event": "The mouse pointer is clicking the down arrow of the \"Power schemes\" dropdown menu in the \"Power Options Properties\" window. \n",
+        "timestamp": 21.125,
+        "description": "The user clicked the down arrow of the \"Power schemes\" dropdown menu. This action changed the selected power scheme from \"Home/Office Desk\" to \"Always On.\" \n",
+        "outcome": "The \"Power Schemes\" dropdown menu within the \"Power Options Properties\" window changed to display \"Always On\" as the selected power scheme, replacing the previous selection, \"Home/Office Desk.\" \n"
+    },
+    {
+        "frame": 374,
+        "event": "The mouse is clicking on the \"Keep your computer up to date\" dialog box. \n",
+        "timestamp": 23.375,
+        "description": "The mouse click on the \"Keep your computer up to date\" dialog box in the bottom left corner of the screen caused the dialog box to move to the foreground and become focused. \n",
+        "outcome": "A dialog box titled \"Keep your computer up to date\" appeared in the bottom left corner of the screen. \n"
+    },
+    {
+        "frame": 395,
+        "event": "The mouse is clicking the down arrow of the \"Turn off monitor\" drop-down menu in the \"Power Options Properties\" window. \n",
+        "timestamp": 24.6875,
+        "description": "The user clicks the down arrow of the \"Turn off monitor\" drop-down menu within the \"Settings for Always On power scheme\" section. As a result, the \"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates\" drop-down menus all change their displayed value from \"Never\" to \"After 20 mins.\" \n",
+        "outcome": "Within the \"Power Options Properties\" window, the drop-down menus for \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" all changed from \"Never\" to \"After 20 mins\".  Simultaneously, a yellow pop-up window titled \"Keep your computer up to date\" appeared at the bottom of the screen. \n"
+    },
+    {
+        "frame": 437,
+        "event": "The mouse is clicking on the \"Never\" option in the \"System hibernates\" dropdown menu of the \"Power Options Properties\" window. \n",
+        "timestamp": 27.3125,
+        "description": "The user clicks the \"Never\" option within the \"System hibernates\" dropdown menu in the \"Power Options Properties\" window. As a result, the \"System hibernates\" dropdown menu closes, and a system notification titled \"Keep your computer up to date\" appears. \n",
+        "outcome": "A system notification popup titled \"Keep your computer up to date\" appeared in the bottom right corner of the screen. The \"Power Options Properties\" window is now open and the previously open \"Display Properties\" window is gone. \n"
+    },
+    {
+        "frame": 482,
+        "event": "The mouse is clicking on the \"Apply\" button in the \"Power Options Properties\" window. \n",
+        "timestamp": 30.125,
+        "description": "The user clicks the \"Apply\" button at the bottom of the \"Power Options Properties\" window. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 516,
+        "event": "The mouse is clicking on the \"OK\" button of the \"Power Options Properties\" window. \n",
+        "timestamp": 32.25,
+        "description": "The user clicks the \"OK\" button in the \"Power Options Properties\" window. This closes the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window was closed, leaving the \"Display Properties\" window with the \"Screen Saver\" tab selected. \n"
+    },
+    {
+        "frame": 544,
+        "event": "The mouse pointer is hovering over the \"OK\" button in the \"Display Properties\" window. \n",
+        "timestamp": 34.0,
+        "description": "The user clicks the \"OK\" button at the bottom of the \"Display Properties\" window. As a result, the \"Display Properties\" window closes, and the user is returned to the desktop. \n",
+        "outcome": "The Windows XP desktop is visible, displaying the default background image. The Display Properties window is not present. \n"
+    }
+]

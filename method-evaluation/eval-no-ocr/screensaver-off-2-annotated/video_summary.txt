@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Display Properties
+- Input methods: Mouse and keyboard 
+- Recording details: Not available from the provided information. 
+
+
+The user opens the Display Properties window by right-clicking on the desktop and selecting "Properties." Then the user navigates to the Screen Saver tab and selects "None" as the screen saver. Next, the user clicks on the "Power" button, which opens the Power Options Properties window. The user then changes the Power scheme to "Always On" and sets "Turn off monitor," "Turn off hard disks," "System standby," and "System hibernates" to "Never." Finally, the user clicks "Apply" and then "OK" to close the windows. 
+
+**Purpose inference:** The user's actions suggest they are configuring their computer's power settings to prevent the monitor, hard disks, system standby, and system hibernation from activating. 

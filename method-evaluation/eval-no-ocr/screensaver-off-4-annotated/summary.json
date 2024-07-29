@@ -1,0 +1,79 @@
+[
+    {
+        "frame": 23,
+        "event": "The mouse is clicking on the Windows desktop. \n",
+        "timestamp": 1.4375,
+        "description": "The user right-clicked on the Windows XP desktop.  As a result, a context menu appeared with the mouse hovering over the \"Properties\" option. \n",
+        "outcome": "A context menu titled \"Arrange Icons By \u25b6\" appeared on a Windows XP desktop. The menu contains the options: \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\". The mouse cursor is hovering over the \"Properties\" option. \n"
+    },
+    {
+        "frame": 75,
+        "event": "The mouse is clicking on the \"Properties\" menu item of the desktop context menu. \n",
+        "timestamp": 4.6875,
+        "description": "The user clicks the \"Properties\" option in the desktop context menu. As a result, the context menu closes and the \"Display Properties\" window opens. \n",
+        "outcome": "The provided screenshots are identical. All three describe the Windows XP desktop with the \"Display Properties\" window open to the \"Screen Saver\" tab. The selected screensaver is not visible. The desktop background is a fall scene, and the mouse cursor hovers over it. Notably, a context menu, present in a previous state but not described here, is now gone. \n"
+    },
+    {
+        "frame": 136,
+        "event": "The mouse selected \"Windows XP (Modified)\" from the \"Theme\" dropdown menu. \n",
+        "timestamp": 8.5,
+        "description": "The user selected the \"**Windows XP (Modified)**\" option from the \"**Theme**\" dropdown menu within the \"**Appearance**\" tab of the \"**Display Properties**\" window. \n",
+        "outcome": ""
+    },
+    {
+        "frame": 185,
+        "event": "The mouse is clicking on the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 11.5625,
+        "description": "The user clicked on the \"Screen Saver\" tab in the \"Display Properties\" window. As a result, the \"Screen Saver\" tab became the active tab, revealing the screen saver settings. \n",
+        "outcome": "The \"Screen Saver\" tab within the \"Display Properties\" window became the active tab. \"Windows XP\" is selected as the screensaver, the wait time is set to \"10 minutes,\" and the \"On resume, password protect\" checkbox remains unchecked. \n"
+    },
+    {
+        "frame": 244,
+        "event": "The mouse is clicking on the down arrow of the \"Screen Saver\" dropdown menu in the \"Display Properties\" window. \n",
+        "timestamp": 15.25,
+        "description": "The user clicks the down arrow of the \"Screen Saver\" dropdown menu in the \"Display Properties\" window. As a result, the dropdown menu expands, displaying a list of screen saver options. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu within the \"Display Properties\" window is expanded, and the mouse cursor is hovering over the \"None\" option. \n"
+    },
+    {
+        "frame": 263,
+        "event": "The mouse is clicking on the empty space of the dropdown menu for selecting a screensaver in the \"Display Properties\" window. \n",
+        "timestamp": 16.4375,
+        "description": "The user clicked on the empty space of the open \"Screen Saver\" dropdown menu within the \"Display Properties\" window.  As a result, the \"Settings\" button became active. \n",
+        "outcome": "The \"Settings\" button within the \"Screen Saver\" tab of the \"Display Properties\" window became active. \n"
+    },
+    {
+        "frame": 318,
+        "event": "The mouse is clicking on the \"Apply\" button in the \"Display Properties\" window. \n",
+        "timestamp": 19.875,
+        "description": "The user clicks the \"Apply\" button in the \"Display Properties\" window to confirm the selection of \"None\" in the \"Screen Saver\" dropdown menu. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu changed to display \"None\". The mouse cursor is hovering over the \"Power...\" button at the bottom of the window. \n"
+    },
+    {
+        "frame": 349,
+        "event": "The mouse is clicking on the \"Power...\" button within the \"Display Properties\" window. \n",
+        "timestamp": 21.8125,
+        "description": "The user clicked the \"Power...\" button at the bottom of the \"Display Properties\" window.  As a result, the \"Power Options Properties\" window opened. \n",
+        "outcome": "The \"Power Options Properties\" window became the active window on the Windows XP desktop. The \"Turn off hard disks\" dropdown menu within this window is now expanded, revealing a list of time interval options. \n"
+    },
+    {
+        "frame": 448,
+        "event": "The mouse is clicking on the \"After 4 hours\" option in the \"Turn off hard disks\" dropdown menu of the \"Power Options Properties\" window. \n",
+        "timestamp": 28.0,
+        "description": "The user clicks on the \"After 4 hours\" option within the \"Turn off hard disks\" dropdown menu in the \"Power Options Properties\" window. As a result, the \"After 4 hours\" option becomes highlighted. \n",
+        "outcome": "The \"Display Properties\" window closed and the \"Power Options Properties\" window became the active window. Within the \"Power Options Properties\" window, the \"Turn off hard disks\" dropdown menu is open, with the \"After 4 hours\" option highlighted. \n"
+    },
+    {
+        "frame": 468,
+        "event": "The mouse is clicking on the \"OK\" button of the \"Power Options Properties\" window. \n",
+        "timestamp": 29.25,
+        "description": "The user clicked the \"OK\" button in the \"Power Options Properties\" window to apply the current power scheme settings and close the window. \n",
+        "outcome": "The \"Power Options Properties\" window closed, leaving the \"Display Properties\" window with the \"Screen Saver\" tab active. The \"Screen Saver\" dropdown menu displays \"(None)\" as the selected option. \n"
+    },
+    {
+        "frame": 506,
+        "event": "The mouse is clicking on the \"OK\" button of the \"Display Properties\" window. \n",
+        "timestamp": 31.625,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Display Properties\" window.  This action confirms the selection of \"None\" in the \"Screen Saver\" dropdown menu and closes the \"Display Properties\" window. \n",
+        "outcome": "The UI remained unchanged throughout the observations. The Windows XP desktop consistently displayed an autumnal scene as the background image, and the \"Display Properties\" window was not present at any point. \n"
+    }
+]

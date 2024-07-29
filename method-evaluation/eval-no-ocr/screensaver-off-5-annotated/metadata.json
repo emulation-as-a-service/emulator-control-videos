@@ -1,0 +1,102 @@
+{
+    "model": "gemini-1.5-pro",
+    "temperature": 0.4,
+    "timestamp": "2024-07-29T09:13:44.464749",
+    "events": [
+        {
+            "time": 1971,
+            "event": "mousedown",
+            "x": 24,
+            "y": 26,
+            "frame": 31,
+            "time_end": 1.971,
+            "frame_end": 31
+        },
+        {
+            "time": 5040,
+            "event": "mousedown",
+            "x": 109,
+            "y": 153,
+            "frame": 80,
+            "time_end": 5.04,
+            "frame_end": 80
+        },
+        {
+            "time": 9872,
+            "event": "mousedown",
+            "x": 246,
+            "y": 136,
+            "frame": 157,
+            "time_end": 9.872,
+            "frame_end": 157
+        },
+        {
+            "time": 14401,
+            "event": "mousedown",
+            "x": 295,
+            "y": 357,
+            "frame": 230,
+            "time_end": 14.401,
+            "frame_end": 230
+        },
+        {
+            "time": 16353,
+            "event": "mousedown",
+            "x": 164,
+            "y": 381,
+            "frame": 261,
+            "time_end": 16.353,
+            "frame_end": 261
+        },
+        {
+            "time": 19349,
+            "event": "mousedown",
+            "x": 458,
+            "y": 479,
+            "frame": 309,
+            "time_end": 19.349,
+            "frame_end": 309
+        },
+        {
+            "time": 23329,
+            "event": "mousedown",
+            "x": 485,
+            "y": 352,
+            "frame": 373,
+            "time_end": 23.329,
+            "frame_end": 373
+        },
+        {
+            "time": 25885,
+            "event": "mousedown",
+            "x": 309,
+            "y": 564,
+            "frame": 414,
+            "time_end": 25.885,
+            "frame_end": 414
+        },
+        {
+            "time": 27505,
+            "event": "mousedown",
+            "x": 316,
+            "y": 555,
+            "frame": 440,
+            "time_end": 27.505,
+            "frame_end": 440
+        },
+        {
+            "time": 28852,
+            "event": "mousedown",
+            "x": 301,
+            "y": 524,
+            "frame": 461,
+            "time_end": 28.852,
+            "frame_end": 461
+        }
+    ],
+    "video_fps": 16.0,
+    "video_frame_count": 533,
+    "video_width": 800,
+    "video_height": 600,
+    "video_duration": 33.3125
+}

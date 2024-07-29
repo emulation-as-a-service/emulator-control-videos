@@ -1,0 +1,195 @@
+{
+    "model": "gemini-1.5-pro",
+    "temperature": 0.4,
+    "timestamp": "2024-07-29T09:39:16.481084",
+    "events": [
+        {
+            "time": 785,
+            "event": "mousedown",
+            "x": 367,
+            "y": 332,
+            "frame": 12,
+            "time_end": 0.785,
+            "frame_end": 12
+        },
+        {
+            "time": 2301,
+            "event": "keyspressed",
+            "keys": [
+                "Control_L",
+                "Escape"
+            ],
+            "frame": 34,
+            "time_end": 2.301,
+            "frame_end": 36
+        },
+        {
+            "time": 6127,
+            "event": "keyspressed",
+            "keys": [
+                "Alt_L",
+                "c"
+            ],
+            "frame": 95,
+            "time_end": 6.127,
+            "frame_end": 98
+        },
+        {
+            "time": 7969,
+            "event": "keyspressed",
+            "keys": [
+                "Control_L",
+                "Escape"
+            ],
+            "frame": 124,
+            "time_end": 7.969,
+            "frame_end": 127
+        },
+        {
+            "time": 9697,
+            "event": "keyspressed",
+            "keys": [
+                "c"
+            ],
+            "frame": 153,
+            "time_end": 9.697,
+            "frame_end": 155
+        },
+        {
+            "time": 20824,
+            "event": "mousedown",
+            "x": 93,
+            "y": 170,
+            "frame": 333,
+            "time_end": 20.824,
+            "frame_end": 333
+        },
+        {
+            "time": 30158,
+            "event": "keyspressed",
+            "keys": [
+                "Right"
+            ],
+            "frame": 480,
+            "time_end": 30.158,
+            "frame_end": 482
+        },
+        {
+            "time": 30304,
+            "event": "keyspressed",
+            "keys": [
+                "Right"
+            ],
+            "frame": 483,
+            "time_end": 30.304,
+            "frame_end": 484
+        },
+        {
+            "time": 32851,
+            "event": "keyspressed",
+            "keys": [
+                "p",
+                "o"
+            ],
+            "frame": 524,
+            "time_end": 32.851,
+            "frame_end": 525
+        },
+        {
+            "time": 34504,
+            "event": "keyspressed",
+            "keys": [
+                "Return"
+            ],
+            "frame": 551,
+            "time_end": 34.504,
+            "frame_end": 552
+        },
+        {
+            "time": 40491,
+            "event": "mousedown",
+            "x": 291,
+            "y": 271,
+            "frame": 647,
+            "time_end": 40.491,
+            "frame_end": 647
+        },
+        {
+            "time": 42419,
+            "event": "mousedown",
+            "x": 227,
+            "y": 483,
+            "frame": 678,
+            "time_end": 42.419,
+            "frame_end": 678
+        },
+        {
+            "time": 44252,
+            "event": "mousedown",
+            "x": 223,
+            "y": 450,
+            "frame": 708,
+            "time_end": 44.252,
+            "frame_end": 708
+        },
+        {
+            "time": 47.246,
+            "event": "doubleclick",
+            "x": 687,
+            "y": 130,
+            "frame": 752,
+            "time_end": 47.246,
+            "frame_end": 755
+        },
+        {
+            "time": 50304,
+            "event": "mousedown",
+            "x": 189,
+            "y": 95,
+            "frame": 804,
+            "time_end": 50.304,
+            "frame_end": 804
+        },
+        {
+            "time": 52180,
+            "event": "mousedown",
+            "x": 182,
+            "y": 318,
+            "frame": 834,
+            "time_end": 52.18,
+            "frame_end": 834
+        },
+        {
+            "time": 53602,
+            "event": "mousedown",
+            "x": 153,
+            "y": 333,
+            "frame": 857,
+            "time_end": 53.602,
+            "frame_end": 857
+        },
+        {
+            "time": 57546,
+            "event": "mousedown",
+            "x": 224,
+            "y": 480,
+            "frame": 920,
+            "time_end": 57.546,
+            "frame_end": 920
+        },
+        {
+            "time": 60469,
+            "event": "mousedown",
+            "x": 790,
+            "y": 10,
+            "frame": 967,
+            "time_end": 60.469,
+            "frame_end": 967
+        }
+    ],
+    "video_fps": 16.0,
+    "video_frame_count": 1020,
+    "video_width": 800,
+    "video_height": 600,
+    "video_duration": 63.75
+}

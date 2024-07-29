@@ -1,0 +1,497 @@
+[
+    {
+        "frame": 23,
+        "timestamp": 1.4375,
+        "event": {
+            "time": 1440,
+            "event": "mousedown",
+            "x": 515,
+            "y": 344,
+            "frame": 23,
+            "time_end": 1.44,
+            "frame_end": 23
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot shows a standard Windows XP desktop with a fall foliage wallpaper. The mouse cursor, appearing as a white arrow, hovers idly near the center of the screen. No menus or windows are open, indicating a pause in the user's interaction with the system. This suggests a point in the instructions where the user is observing the result of a previous action, such as confirming the screen saver is disabled or noting the current desktop background. \n",
+        "screenshot": "frame-23-mousedown.png",
+        "screenshot_annotated": "frame-23-mousedown-layout.png"
+    },
+    {
+        "frame": 30,
+        "timestamp": 1.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows XP desktop with a fall foliage wallpaper. A context menu titled \"Arrange Icons By\" is now visible on the desktop. The menu options listed are: \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\". The white mouse cursor is hovering over the context menu. \n",
+        "screenshot": "frame-30.png"
+    },
+    {
+        "frame": 62,
+        "timestamp": 3.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows XP desktop with a fall foliage wallpaper. A context menu is open on the desktop. The menu options visible are: \"Arrange Icons By\", \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\". The \"Arrange Icons By\" submenu is expanded, showing options for \"Name\", \"Size\", \"Type\", and \"Modified\". The mouse cursor, appearing as a white arrow, hovers over the \"Refresh\" option. \n\nNew UI Elements:\n- A context menu is now visible on the desktop. \n\nMissing UI Elements:\n- There are no missing UI elements.\n",
+        "screenshot": "frame-62.png"
+    },
+    {
+        "frame": 64,
+        "timestamp": 4.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows XP desktop with a fall foliage wallpaper. The mouse cursor, a white arrow, is not idle but actively selecting the \"Refresh\" option within a context menu. This context menu appears to have been opened by right-clicking on the desktop. \n\nNew UI Elements:\n- A context menu is now visible on the desktop. The menu includes options like \"Refresh,\" \"Paste,\" \"Paste Shortcut,\" \"New,\" and \"Properties.\" \n",
+        "screenshot": "frame-64.png"
+    },
+    {
+        "frame": 72,
+        "timestamp": 4.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows a Windows XP desktop with a fall foliage wallpaper. The mouse cursor, now appearing as a white arrow with a black outline, points to \"Properties\" within a context menu. This menu overlays the desktop and offers options such as \"Arrange Icons By\", \"Refresh\", \"Paste\", \"Paste Shortcut\", and \"New\". \n\nThe new UI element is the context menu with the listed options. \n",
+        "screenshot": "frame-72.png"
+    },
+    {
+        "frame": 75,
+        "timestamp": 4.6875,
+        "event": {
+            "time": 4718,
+            "event": "mousedown",
+            "x": 584,
+            "y": 498,
+            "frame": 75,
+            "time_end": 4.718,
+            "frame_end": 75
+        },
+        "type": "event",
+        "label_clicked": "Properties",
+        "description": "The screenshot displays the Windows XP desktop with a context menu open. The mouse cursor is hovering over the \"Properties\" option, the last item in the menu. The menu provides options for \"Arrange Icons By\", \"Refresh\", \"Paste\", \"Paste Shortcut\", \"New\", and \"Properties\". Selecting \"Properties\" will open the Display Properties window, allowing the user to customize the desktop environment and display settings. \n",
+        "screenshot": "frame-75-mousedown.png",
+        "screenshot_annotated": "frame-75-mousedown-layout.png"
+    },
+    {
+        "frame": 80,
+        "timestamp": 5.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop with an autumnal scene. The context menu, previously open, is no longer visible. \n",
+        "screenshot": "frame-80.png"
+    },
+    {
+        "frame": 109,
+        "timestamp": 6.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop with the \"Display Properties\" window open and maximized. The active tab within the window is \"Screen Saver\".  The context menu is no longer visible. A new window titled \"Active Window\" is present, positioned over the desktop. This window features several buttons for window controls (minimize, maximize, close) and arrow buttons for resizing. \n",
+        "screenshot": "frame-109.png"
+    },
+    {
+        "frame": 110,
+        "timestamp": 6.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Display Properties window open with the \"Screen Saver\" tab active. The context menu is no longer visible. \n",
+        "screenshot": "frame-110.png"
+    },
+    {
+        "frame": 136,
+        "timestamp": 8.5,
+        "event": {
+            "time": 8.51,
+            "event": "mousedrag",
+            "x": 254,
+            "y": 79,
+            "x_end": 628,
+            "y_end": 187,
+            "frame": 136,
+            "time_end": 9.71,
+            "frame_end": 155
+        },
+        "type": "event",
+        "description": "The screenshot displays the Windows XP \"Display Properties\" window with the \"Appearance\" tab active. \n\nAt the top, a tabbed menu allows navigation within Display Properties. The visible tabs are \"Themes,\" \"Desktop,\" \"Screen Saver,\" \"Appearance,\" and \"Settings.\" The \"Appearance\" tab is highlighted, indicating it's the currently active view.\n\nBelow the tabs, a preview window showcases the current theme, \"Windows XP (Modified),\" applied to the \"Active Window\" and \"Window Text\" elements. \n\nAt the bottom of the window, three buttons offer actions:\n\n* **OK:** This button applies any changes made within the \"Appearance\" tab and closes the \"Display Properties\" window.\n* **Cancel:** This button discards any changes made within the \"Appearance\" tab and closes the \"Display Properties\" window. \n* **Apply:** This button applies any changes made within the \"Appearance\" tab without closing the \"Display Properties\" window. \n",
+        "screenshot": "frame-136-mousedrag.png",
+        "screenshot_annotated": "frame-136-mousedrag-layout.png"
+    },
+    {
+        "frame": 146,
+        "timestamp": 9.125,
+        "event": null,
+        "type": "change-drag",
+        "description": "The screenshot shows the Windows XP desktop with the \"Display Properties\" window open. The \"Appearance\" tab is active and the \"Windows XP (Modified)\" theme is selected. \nThere are no new UI elements present.\nThere are no missing UI elements.\nThere are no content changes. \n",
+        "screenshot": "frame-146.png"
+    },
+    {
+        "frame": 147,
+        "timestamp": 9.1875,
+        "event": null,
+        "type": "change-drag",
+        "description": "The screenshot shows the Windows XP desktop with the \"Display Properties\" window open. The \"Themes\" tab is now active, no longer the \"Appearance\" tab as described in the initial state. \n",
+        "screenshot": "frame-147.png"
+    },
+    {
+        "frame": 148,
+        "timestamp": 9.25,
+        "event": null,
+        "type": "change-drag",
+        "description": "The screenshot shows the Windows XP desktop with the \"Display Properties\" window open. The active tab within the \"Display Properties\" window is now \"Screen Saver,\" not \"Appearance\" as described in the initial state. \n",
+        "screenshot": "frame-148.png"
+    },
+    {
+        "frame": 155,
+        "timestamp": 9.6875,
+        "event": null,
+        "type": "end-drag",
+        "description": "The screenshot shows the Windows XP desktop with the \"Display Properties\" window open. The \"Themes\" tab is now active, no longer the \"Appearance\" tab as described in the initial state. \n",
+        "screenshot": "frame-155.png"
+    },
+    {
+        "frame": 156,
+        "timestamp": 9.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP \"Display Properties\" window with the \"Screen Saver\" tab active instead of the \"Appearance\" tab. \nThe \"Screen Saver\" tab is highlighted. \n",
+        "screenshot": "frame-156.png"
+    },
+    {
+        "frame": 185,
+        "timestamp": 11.5625,
+        "event": {
+            "time": 11569,
+            "event": "mousedown",
+            "x": 571,
+            "y": 212,
+            "frame": 185,
+            "time_end": 11.569,
+            "frame_end": 185
+        },
+        "type": "event",
+        "label_clicked": "DesktopScreerSaverAppearance",
+        "description": "The screenshot shows the Display Properties window active and in the foreground, specifically the 'Themes' tab. The currently selected theme is \"Windows XP (Modified)\", visible in the dropdown menu labeled \"Theme:\". Below the theme selection, a preview window labeled \"Active Window\" displays the appearance of a standard window with the selected theme applied. At the bottom of the window, three buttons are visible: \"OK\", \"Cancel\", and \"Apply\". \n",
+        "screenshot": "frame-185-mousedown.png",
+        "screenshot_annotated": "frame-185-mousedown-layout.png"
+    },
+    {
+        "frame": 203,
+        "timestamp": 12.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Display Properties window. The active tab is now \"Screen Saver\", instead of the \"Themes\" tab. The dropdown menu labeled \"Screen saver:\" shows \"Windows XP\" is selected. The preview window below still displays \"Active Window\" but now shows a blank screen with the Windows XP logo in the center. The \"Wait:\" field below the screen saver selection is empty. \n",
+        "screenshot": "frame-203.png"
+    },
+    {
+        "frame": 204,
+        "timestamp": 12.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Display Properties window. The \"Screen Saver\" tab is now active instead of the \"Themes\" tab. The dropdown menu labeled \"Screen saver:\" shows \"Windows XP\" is selected. The checkbox labeled \"On resume, password protect\" is unchecked. \n",
+        "screenshot": "frame-204.png"
+    },
+    {
+        "frame": 244,
+        "timestamp": 15.25,
+        "event": {
+            "time": 15288,
+            "event": "mousedown",
+            "x": 615,
+            "y": 440,
+            "frame": 244,
+            "time_end": 15.288,
+            "frame_end": 244
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"Display Properties\" window, specifically the \"Screen Saver\" tab, in Windows XP. \n\nThe \"Screen Saver\" dropdown menu shows \"Windows XP\" currently selected, indicating the active screensaver. A preview of the screensaver is visible in the window above.  The \"Wait\" field, with an input box showing \"10\" and \"minutes\" next to it, determines the idle time before the screensaver activates. The checkbox labeled \"On resume, password protect\" is currently unchecked. \n\nBelow, a text instruction reads \"To adjust monitor power settings and save energy, click Power.\"  A button labeled \"Power...\" is located to the right of this instruction. \n\nAt the bottom of the window, standard dialog buttons are visible: \"OK\", \"Cancel\", and \"Apply\". \n",
+        "screenshot": "frame-244-mousedown.png",
+        "screenshot_annotated": "frame-244-mousedown-layout.png"
+    },
+    {
+        "frame": 251,
+        "timestamp": 15.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Display Properties\" window with the \"Screen Saver\" tab active. The dropdown menu for selecting a screensaver is open, displaying the available options. The preview window shows a blank screen with the \"Windows XP\" logo in the center. \n- The screensaver selection in the dropdown menu is no longer \"Windows XP\", it is now open, displaying options such as \"3D FlowerBox\", \"3D Flying Objects\", \"3D Pipes\", \"3D Text\", \"Beziers\", \"Blank\", \"Marquee\", \"My Pictures Slideshow\", \"Mystify\", and \"Starfield\".  The preview window now displays a completely black screen with the small \"Windows XP\" logo in the center. \n",
+        "screenshot": "frame-251.png"
+    },
+    {
+        "frame": 252,
+        "timestamp": 15.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Display Properties window with the \"Screen Saver\" dropdown menu expanded, revealing a list of available screensavers. The selection \"(None)\" is highlighted within this dropdown menu. The preview window above, which previously displayed the \"Windows XP\" screensaver, is now empty and black. \n",
+        "screenshot": "frame-252.png"
+    },
+    {
+        "frame": 257,
+        "timestamp": 16.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Display Properties\" window, specifically the \"Screen Saver\" tab. The dropdown menu for selecting a screensaver is expanded and the mouse cursor is hovering over the list of options.  \n\nThe content of the \"Screen Saver\" dropdown menu has changed, now displaying a list of available screensavers: \"(None)\", \"3D FlowerBox\", \"3D Flying Objects\", \"3D Pipes\", \"3D Text\", \"Beziers\", \"Blank\", \"Marquee\", \"My Pictures Slideshow\", \"Mystify\", and \"Starfield\". \n",
+        "screenshot": "frame-257.png"
+    },
+    {
+        "frame": 258,
+        "timestamp": 16.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Display Properties\" window with the \"Screen Saver\" tab open.  The most noticeable change is that the screen saver dropdown menu is expanded, displaying a list of available screen savers. The currently selected screen saver is still \"Windows XP.\"  The preview window above continues to display the \"Windows XP\" screen saver. No other windows or elements have appeared. \n",
+        "screenshot": "frame-258.png"
+    },
+    {
+        "frame": 263,
+        "timestamp": 16.4375,
+        "event": {
+            "time": 16494,
+            "event": "mousedown",
+            "x": 523,
+            "y": 457,
+            "frame": 263,
+            "time_end": 16.494,
+            "frame_end": 263
+        },
+        "type": "event",
+        "label_clicked": "3D FlowerBox",
+        "description": "The screenshot displays the Windows XP \"Display Properties\" window, specifically the \"Screen Saver\" tab. \n\nThe \"Screen Saver\" dropdown menu is open, displaying a list of available screen savers. The option \"None\" is currently highlighted, indicating it is selected but not yet applied. \n\nBelow the screen saver selection, there are three buttons: \n - \"Settings\": Currently greyed out, indicating it's unavailable for the selected \"None\" screen saver.\n - \"Preview\": Also greyed out, as a preview is not applicable without a chosen screen saver.\n - \"Power\": Active and clickable, allowing access to the \"Power Options Properties\" window for managing power-saving settings. \n \nAt the bottom of the window are the \"Cancel\" and \"Apply\" buttons. \"Cancel\" discards any changes made within the \"Display Properties\" window, while \"Apply\" confirms and implements the selected settings, in this case, disabling the screen saver. \n",
+        "screenshot": "frame-263-mousedown.png",
+        "screenshot_annotated": "frame-263-mousedown-layout.png"
+    },
+    {
+        "frame": 268,
+        "timestamp": 16.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP \"Display Properties\" window with the \"Screen Saver\" tab selected. \n\nThe \"Screen Saver\" dropdown menu is closed. The \"Windows XP\" screen saver is selected in the dropdown menu. \n\nThe \"Settings\" and \"Preview\" buttons are no longer greyed out. \n",
+        "screenshot": "frame-268.png"
+    },
+    {
+        "frame": 271,
+        "timestamp": 16.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP \"Display Properties\" window with the \"Screen Saver\" tab open.  \n\nThe \"Screen Saver\" dropdown menu is closed. The \"Settings\" and \"Preview\" buttons are still greyed out. \n",
+        "screenshot": "frame-271.png"
+    },
+    {
+        "frame": 272,
+        "timestamp": 17.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP \"Display Properties\" window with the \"Screen Saver\" tab active. \n\nThe \"Screen Saver\" dropdown menu is closed. The \"Settings\" and \"Preview\" buttons are still greyed out. \n\nThe described \"None\" option is no longer highlighted in the dropdown menu. \n",
+        "screenshot": "frame-272.png"
+    },
+    {
+        "frame": 318,
+        "timestamp": 19.875,
+        "event": {
+            "time": 19892,
+            "event": "mousedown",
+            "x": 783,
+            "y": 600,
+            "frame": 318,
+            "time_end": 19.892,
+            "frame_end": 318
+        },
+        "type": "event",
+        "label_clicked": "App",
+        "description": "The screenshot shows the Windows XP Display Properties window with the \"Screen Saver\" tab active. \n\nThe \"Screen Saver\" dropdown menu currently displays \"(None)\", indicating no screen saver is selected. Below, a numerical field labeled \"Wait:\" allows setting the idle time in minutes before the screen saver activates, currently set to \"10\".  A checkbox labeled \"On resume, password protect\" is visible to the right, allowing users to enable password protection upon returning from the screensaver. \n\nThe \"Power...\" button, located at the bottom of the window within the \"Monitor power\" section, provides access to advanced power settings for the monitor. The user's mouse cursor hovers over the \"Apply\" button, indicating their intent to apply the current screen saver settings before proceeding. \n",
+        "screenshot": "frame-318-mousedown.png",
+        "screenshot_annotated": "frame-318-mousedown-layout.png"
+    },
+    {
+        "frame": 341,
+        "timestamp": 21.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows XP Display Properties window with the \"Screen Saver\" tab active. The \"Screen Saver\" dropdown menu shows \"(None)\" selected. The mouse cursor is no longer hovering over the \"Apply\" button. \n\nThe \"Power...\" button is no longer visible. \n",
+        "screenshot": "frame-341.png"
+    },
+    {
+        "frame": 343,
+        "timestamp": 21.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Display Properties window with the \"Screen Saver\" tab active. A new window titled \"Power Options Properties\" is now visible, indicating the user has opened it. The window is in the foreground, partially obscuring the Display Properties window. \n",
+        "screenshot": "frame-343.png"
+    },
+    {
+        "frame": 349,
+        "timestamp": 21.8125,
+        "event": {
+            "time": 21823,
+            "event": "mousedown",
+            "x": 751,
+            "y": 556,
+            "frame": 349,
+            "time_end": 21.823,
+            "frame_end": 349
+        },
+        "type": "event",
+        "label_clicked": "Power",
+        "description": "The screenshot displays the Windows XP \"Display Properties\" window, specifically the \"Screen Saver\" tab. The currently selected screen saver is \"None\".  At the bottom of the window, the \"Power\" button allows access to advanced power management settings. The cursor is hovering over this button, indicating the user's next action will be to click it. \n",
+        "screenshot": "frame-349-mousedown.png",
+        "screenshot_annotated": "frame-349-mousedown-layout.png"
+    },
+    {
+        "frame": 384,
+        "timestamp": 24.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows two open windows: the \"Display Properties\" window and the \"Power Options Properties\" window. The \"Power Options Properties\" window is layered on top of the \"Display Properties\" window. \n\nNew UI Elements:\n- The \"Power Options Properties\" window is now visible. \n\nMissing UI Elements:\n- The cursor is no longer hovering over the \"Power\" button. \n",
+        "screenshot": "frame-384.png"
+    },
+    {
+        "frame": 385,
+        "timestamp": 24.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows two windows. The \"Display Properties\" window is in the background, with the \"Screen Saver\" tab active. The \"Power Options Properties\" window, which was not previously open, is now open in the foreground. The \"Turn off hard disks\" dropdown menu is expanded, but the selection \"Never\" remains unchanged. \n",
+        "screenshot": "frame-385.png"
+    },
+    {
+        "frame": 386,
+        "timestamp": 24.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows two open windows. The \"Display Properties\" window is in the background, with the \"Screen Saver\" tab still active. In the foreground, the \"Power Options Properties\" window is open. The \"Turn off hard disks\" drop-down menu is expanded, revealing the options \"After 15 mins\", \"20 mins\", \"30 mins\", \"45 mins\", \"1 hour\", and \"Never\". The \"Never\" option is currently selected. \n\nThe new UI Element visible is:\n- The \"Power Options Properties\" window. This window allows users to configure their computer's power management settings. \n",
+        "screenshot": "frame-386.png"
+    },
+    {
+        "frame": 411,
+        "timestamp": 25.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows two open windows. The \"Display Properties\" window is in the background, with the \"Screen Saver\" tab still active. The \"Power Options Properties\" window is now open in the foreground. It displays the \"Power Schemes\" tab with \"Home/Office Desk\" selected. The drop-down menu for \"Turn off hard disks\" is expanded, revealing the current setting of \"Never\". \n",
+        "screenshot": "frame-411.png"
+    },
+    {
+        "frame": 412,
+        "timestamp": 25.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows two windows: the \"Display Properties\" window and the \"Power Options Properties\" window. The \"Power Options Properties\" window, which was not present in the initial description, is now open and in the foreground. This window displays the power settings for the \"Home/Office Desk\" power scheme. The \"Turn off hard disks\" dropdown menu is expanded, but the selection remains unchanged at \"Never\". \n",
+        "screenshot": "frame-412.png"
+    },
+    {
+        "frame": 417,
+        "timestamp": 26.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows two windows: the \"Display Properties\" window and the \"Power Options Properties\" window. The \"Power Options Properties\" window is the active window, positioned in front of the \"Display Properties\" window. The drop-down menu for the \"Turn off hard disks\" setting is expanded, displaying various time options. \n\nNew UI Elements:\n- The \"Power Options Properties\" window is now visible. \n\nMissing UI Elements:\n- The cursor is no longer hovering over the \"Power\" button.\n\nContent Changes:\n- The \"Screen Saver\" tab in the \"Display Properties\" window is no longer highlighted, indicating it is not the active tab. \n",
+        "screenshot": "frame-417.png"
+    },
+    {
+        "frame": 418,
+        "timestamp": 26.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows two windows: the \"Display Properties\" window and the \"Power Options Properties\" window. The \"Power Options Properties\" window is layered on top of the \"Display Properties\" window. The \"Turn off hard disks\" dropdown menu within the \"Power Options Properties\" window is expanded, displaying a list of time options.  \n",
+        "screenshot": "frame-418.png"
+    },
+    {
+        "frame": 448,
+        "timestamp": 28.0,
+        "event": {
+            "time": 28001,
+            "event": "mousedown",
+            "x": 242,
+            "y": 545,
+            "frame": 448,
+            "time_end": 28.001,
+            "frame_end": 448
+        },
+        "type": "event",
+        "label_clicked": "After 5 hours",
+        "description": "The screenshot displays the \"Power Options Properties\" window overlaid on top of the \"Display Properties\" window. \n\nThe \"Power Options Properties\" window shows the \"Power Schemes\" tab is active. The currently selected power scheme is \"Home/Office Desk\".  A dropdown menu labeled \"Turn off hard disks\" is open, displaying a list of time intervals ranging from \"After 1 min\" to \"Never\".  The currently selected time interval is not visible. At the bottom of the window, the \"OK\" button will apply any changes made within the window and close the window. The \"Cancel\" button will close the window without saving any changes. \n\nThe \"Display Properties\" window is partially obscured by the \"Power Options Properties\" window. The visible portion of the window shows the \"Screen Saver\" tab is active. The \"Power...\" button at the bottom of this window is the element that launched the \"Power Options Properties\" window. \n",
+        "screenshot": "frame-448-mousedown.png",
+        "screenshot_annotated": "frame-448-mousedown-layout.png"
+    },
+    {
+        "frame": 452,
+        "timestamp": 28.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Power Options Properties\" window in the foreground.  The \"Turn off hard disks\" dropdown menu is now closed. The \"OK\" button is highlighted, indicating it was the last element interacted with. The \"Display Properties\" window remains open in the background and is partially obscured by the \"Power Options Properties\" window. \n",
+        "screenshot": "frame-452.png"
+    },
+    {
+        "frame": 468,
+        "timestamp": 29.25,
+        "event": {
+            "time": 29288,
+            "event": "mousedown",
+            "x": 249,
+            "y": 512,
+            "frame": 468,
+            "time_end": 29.288,
+            "frame_end": 468
+        },
+        "type": "event",
+        "label_clicked": "NQK",
+        "description": "The screenshot displays two open windows: \"Power Options Properties\" in the foreground and \"Display Properties\" behind it. \n\nThe active window, \"Power Options Properties,\" allows the user to manage the computer's power settings.  The \"Power Schemes\" tab is selected, showing the \"Home/Office Desk\" power scheme chosen from the dropdown menu.  This window lists various power-saving options with their current settings: \"Turn off monitor,\" \"Turn off hard disks,\" \"System standby,\" and \"System hibernates\" are all set to \"Never.\" The \"Turn off hard disks\" option is expanded, showing a dropdown menu, but the screenshot does not reveal the available options within.\n\nAt the bottom of the \"Power Options Properties\" window, several buttons offer different actions:\n - **OK**: Confirms the selected power options and closes the window.\n - **Cancel**: Discards any changes made and closes the window.\n - **Apply**: Applies the selected power options without closing the window.\n\nIn the background, the \"Display Properties\" window shows the \"Screen Saver\" tab open. This window allows users to customize the appearance and behavior of their display. However, the specific settings within the \"Screen Saver\" tab are not visible in the screenshot. \n",
+        "screenshot": "frame-468-mousedown.png",
+        "screenshot_annotated": "frame-468-mousedown-layout.png"
+    },
+    {
+        "frame": 485,
+        "timestamp": 30.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop with an autumnal theme. Two windows are open: \"Display Properties\" is now partially obscured by the \"Power Options Properties\" window, which is in the foreground. \n\nThe \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected.  The \"Turn off hard disks\" dropdown menu is expanded, revealing a list of time intervals: \"After 10 mins\", \"After 15 mins\", \"After 20 mins\", \"After 30 mins\", \"After 1 hr\",  and \"Never\". The currently selected option is \"Never\". \n\nThe \"Display Properties\" window is in the background, with the \"Screen Saver\" tab still active. The previously visible settings within this tab are now hidden behind the \"Power Options Properties\" window. \n",
+        "screenshot": "frame-485.png"
+    },
+    {
+        "frame": 486,
+        "timestamp": 30.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop with an autumnal theme. The \"Display Properties\" window is open and active, with the \"Screen Saver\" tab selected. The screen saver is set to \"(None)\". The \"Power Options Properties\" window is no longer present. \n- Missing UI Element: The \"Power Options Properties\" window is no longer visible. \n",
+        "screenshot": "frame-486.png"
+    },
+    {
+        "frame": 506,
+        "timestamp": 31.625,
+        "event": {
+            "time": 31643,
+            "event": "mousedown",
+            "x": 592,
+            "y": 602,
+            "frame": 506,
+            "time_end": 31.643,
+            "frame_end": 506
+        },
+        "type": "event",
+        "label_clicked": "OK",
+        "description": "The screenshot shows the Display Properties window open and active, specifically the \"Screen Saver\" tab. \n\nAt the top of the window, we see the following tabs:\n\n* **Themes:** Allows users to select pre-designed visual styles for their desktop.\n* **Desktop:** Allows customization of the desktop background image.\n* **Screen Saver:** (Currently selected) Allows users to choose and configure a screen saver.\n* **Appearance:** Provides options to customize the appearance of windows, buttons, and other system elements.\n* **Settings:**  Contains settings related to display resolution, color quality, and advanced display options. \n\nThe \"Screen Saver\" tab displays the following elements:\n\n* **Screen Saver:** A dropdown menu currently displaying \"(None)\". This menu allows the user to select from a list of available screen savers. \n* **Wait:** A numerical input field set to \"10\" followed by \"minutes\". This field determines the idle time before the chosen screen saver activates.\n* **On resume, password protect:** A checkbox currently unchecked. When enabled, this option requires the user to re-enter their password after the screen saver is dismissed. \n* **Settings:** A greyed-out button, indicating it's inactive in the current context.\n* **Preview:** A button allowing the user to preview the selected screen saver.\n* **Monitor power:** A text section with instructions to click the \"Power\" button for adjusting monitor power settings.\n* **Power...:** A button that opens the Power Options Properties window for configuring power management settings.\n\nAt the bottom of the window, we see standard dialog box buttons:\n\n* **OK:** Closes the Display Properties window and applies any changes made.\n* **Cancel:** Closes the Display Properties window without saving any changes made since the last application.\n* **Apply:** Immediately applies any changes made within the Display Properties window without closing it. \n",
+        "screenshot": "frame-506-mousedown.png",
+        "screenshot_annotated": "frame-506-mousedown-layout.png"
+    },
+    {
+        "frame": 513,
+        "timestamp": 32.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop with the Display Properties window still open and active. The \"Screen Saver\" tab is still selected, but a new window titled \"Power Options Properties\" is now visible and overlaps the Display Properties window. \n\nContent Changes:\n\n- The \"OK\" button in the Display Properties window is highlighted, indicating it was the last element clicked. \n",
+        "screenshot": "frame-513.png"
+    },
+    {
+        "frame": 514,
+        "timestamp": 32.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Display Properties window still open, specifically the \"Screen Saver\" tab. A new window titled \"Power Options Properties\" is now visible, partially obscuring the Display Properties window. \nThe \"Screen Saver\" dropdown menu now displays \"(None)\". \nThe mouse cursor is hovering over the \"OK\" button within the Display Properties window. \n",
+        "screenshot": "frame-514.png"
+    },
+    {
+        "frame": 528,
+        "timestamp": 33.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays a Windows XP desktop with an autumnal scene as the background. The \"Recycle Bin\" icon is visible in the bottom right corner. \n\nMissing UI Elements:\n- The Display Properties window is not present in the screenshot. \n- The Power Options Properties window is not present in the screenshot. \n",
+        "screenshot": "frame-528.png"
+    },
+    {
+        "frame": 568,
+        "timestamp": 35.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows XP desktop with an autumnal scene as the background image. The \"Display Properties\" window is not present in the screenshot. \n",
+        "screenshot": "frame-568.png"
+    }
+]
