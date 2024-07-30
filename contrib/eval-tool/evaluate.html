@@ -53,19 +53,20 @@
             flex-direction: row;
             justify-content: space-between;
             width: 100%;
-            max-width: 1400px;
+            max-width: 1600px;
             margin-bottom: 20px;
         }
         .column, .evaluation-column {
             border: 1px solid #ccc;
             border-radius: 8px;
-            padding: 10px;
+            padding: 15px;
             margin: 10px;
             box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
-            width: 30%;
+            width: 31%;
         }
         .column p, .evaluation-column p {
-            margin: 5px 0;
+            margin: 10px 0;
+            font-size: 14px;
         }
         .column a {
             color: blue;
@@ -76,7 +77,7 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            width: 40%;
+            width: 35%;
         }
         .inaccurate-options {
             display: none;
@@ -84,9 +85,13 @@
         }
         .highlight-diff {
             background-color: #ffcccc; /* Light Red */
+            padding: 5px;
+            border-radius: 4px;
         }
         .highlight-same {
             background-color: #ccffcc; /* Light Green */
+            padding: 5px;
+            border-radius: 4px;
         }
         #downloadEvaluation {
             margin: 20px;
@@ -103,10 +108,18 @@
         }
         .comparison-item {
             display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
         }
         .comparison-item > div {
             flex: 1;
             padding: 5px;
+        }
+        .event-index {
+            font-weight: bold;
+            font-size: 16px;
+            text-align: left;
+            margin-bottom: 10px;
         }
     </style>
 </head>

@@ -74,8 +74,8 @@ function createColumnDiv(index) {
     const columnDiv = document.createElement('div');
     columnDiv.classList.add('columns');
 
-    const metadataCol = (metadata.events && metadata.events[index]) ? createMetadataColumn(metadata.events[index]) : createColumn({ error: "No data" }, 'Metadata');
-    const comparisonCol = createComparisonColumn(groundTruth[index], workflow[index], 'Comparison');
+    const metadataCol = (metadata.events && metadata.events[index]) ? createMetadataColumn(index, metadata.events[index]) : createColumn({ error: "No data" }, 'Metadata');
+    const comparisonCol = createComparisonColumn(index, groundTruth[index], workflow[index]);
     const evaluationCol = createEvaluationColumn(index);
 
     columnDiv.appendChild(metadataCol);
@@ -85,12 +85,18 @@ function createColumnDiv(index) {
     return columnDiv;
 }
 
-function createMetadataColumn(data) {
+function createMetadataColumn(index, data) {
     const colDiv = document.createElement('div');
     colDiv.classList.add('column');
 
+    const indexElement = document.createElement('p');
+    indexElement.classList.add('event-index');
+    indexElement.innerText = `Event ${index + 1}`;
+
     const titleLabel = document.createElement('h3');
     titleLabel.innerText = 'Metadata';
+
+    colDiv.appendChild(indexElement);
     colDiv.appendChild(titleLabel);
 
     const eventElement = document.createElement('p');
@@ -112,21 +118,31 @@ function createMetadataColumn(data) {
     return colDiv;
 }
 
-function createComparisonColumn(groundTruth, workflow, title) {
+function createComparisonColumn(index, groundTruth, workflow) {
     const colDiv = document.createElement('div');
     colDiv.classList.add('column');
 
+    const indexElement = document.createElement('p');
+    indexElement.classList.add('event-index');
+    indexElement.innerText = `Event ${index + 1}`;
+
     const titleLabel = document.createElement('h3');
-    titleLabel.innerText = title;
+    titleLabel.innerText = 'Comparison';
+
+    colDiv.appendChild(indexElement);
     colDiv.appendChild(titleLabel);
 
-    const preconditionItem = createComparisonItem('Precondition', groundTruth.precondition, workflow.precondition);
-    const actionItem = createComparisonItem('Action', groundTruth.action, workflow.action);
-    const expectedResultsItem = createComparisonItem('Expected Results', groundTruth.expected_results, workflow.expected_results);
+    if (groundTruth && workflow) {
+        const preconditionItem = createComparisonItem('Precondition', groundTruth.precondition, workflow.precondition);
+        const actionItem = createComparisonItem('Action', groundTruth.action, workflow.action);
+        const expectedResultsItem = createComparisonItem('Expected Results', groundTruth.expected_results, workflow.expected_results);
 
-    colDiv.appendChild(preconditionItem);
-    colDiv.appendChild(actionItem);
-    colDiv.appendChild(expectedResultsItem);
+        colDiv.appendChild(preconditionItem);
+        colDiv.appendChild(actionItem);
+        colDiv.appendChild(expectedResultsItem);
+    } else {
+        colDiv.innerHTML += "<p>No data available for comparison</p>";
+    }
 
     return colDiv;
 }
@@ -136,11 +152,11 @@ function createComparisonItem(label, groundTruthValue, workflowValue) {
     itemDiv.classList.add('comparison-item');
 
     const groundTruthDiv = document.createElement('div');
-    groundTruthDiv.innerText = `${label}: ${groundTruthValue}`;
+    groundTruthDiv.innerHTML = `<strong>${label} (GT):</strong> ${groundTruthValue}`;
     groundTruthDiv.className = groundTruthValue === workflowValue ? 'highlight-same' : 'highlight-diff';
 
     const workflowDiv = document.createElement('div');
-    workflowDiv.innerText = `${label}: ${workflowValue}`;
+    workflowDiv.innerHTML = `<strong>${label} (WF):</strong> ${workflowValue}`;
     workflowDiv.className = groundTruthValue === workflowValue ? 'highlight-same' : 'highlight-diff';
 
     itemDiv.appendChild(groundTruthDiv);
@@ -153,8 +169,14 @@ function createEvaluationColumn(index) {
     const colDiv = document.createElement('div');
     colDiv.classList.add('evaluation-column');
 
+    const indexElement = document.createElement('p');
+    indexElement.classList.add('event-index');
+    indexElement.innerText = `Event ${index + 1}`;
+
     const titleLabel = document.createElement('h3');
     titleLabel.innerText = 'Evaluation';
+
+    colDiv.appendChild(indexElement);
     colDiv.appendChild(titleLabel);
 
     const goodFrameRadio = createRadioInput(index, 'good', true);
