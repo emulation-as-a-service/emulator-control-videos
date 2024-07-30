@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Evaluation Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        #videoContainer {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            z-index: 1000;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        .file-inputs {
+            display: flex;
+            flex-direction: column;
+            margin-right: 20px;
+        }
+        .file-inputs label {
+            margin-bottom: 5px;
+        }
+        .file-inputs input {
+            margin-bottom: 10px;
+        }
+        video {
+            margin-left: 20px;
+        }
+        #evaluationForms {
+            overflow-y: auto;
+            padding: 20px;
+            width: 100%;
+            height: calc(100vh - 300px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .columns {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1400px;
+            margin-bottom: 20px;
+        }
+        .column, .evaluation-column {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+            width: 30%;
+        }
+        .column p, .evaluation-column p {
+            margin: 5px 0;
+        }
+        .column a {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .evaluation-column {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 40%;
+        }
+        .inaccurate-options {
+            display: none;
+            margin-top: 10px;
+        }
+        .highlight-diff {
+            background-color: #ffcccc; /* Light Red */
+        }
+        .highlight-same {
+            background-color: #ccffcc; /* Light Green */
+        }
+        #downloadEvaluation {
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #downloadEvaluation:hover {
+            background-color: #45a049;
+        }
+        .comparison-item {
+            display: flex;
+        }
+        .comparison-item > div {
+            flex: 1;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="videoContainer">
+        <div class="file-inputs">
+            <label for="videoFile">Upload Video:</label>
+            <input type="file" id="videoFile" accept="video/*">
+            
+            <label for="metadataJSONFile">Upload Metadata JSON:</label>
+            <input type="file" id="metadataJSONFile" accept=".json">
+            
+            <label for="groundTruthJSONFile">Upload Ground Truth JSON:</label>
+            <input type="file" id="groundTruthJSONFile" accept=".json">
+            
+            <label for="workflowJSONFile">Upload Workflow JSON:</label>
+            <input type="file" id="workflowJSONFile" accept=".json">
+        </div>
+        <video id="videoPlayer" controls width="600"></video>
+    </div>
+
+    <div id="evaluationForms" class="evaluation-container"></div>
+
+    <button id="downloadEvaluation">Download Evaluation</button>
+
+    <script src="evaluation.js"></script>
+</body>
+</html>
