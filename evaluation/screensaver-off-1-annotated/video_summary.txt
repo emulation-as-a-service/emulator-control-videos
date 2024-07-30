@@ -1,0 +1,8 @@
+- Operating system: Windows XP
+- Software: Windows Control Panel
+- Input methods: Mouse and keyboard 
+
+
+The user opens the Control Panel, navigates to Power Options, and changes the power scheme to "Always On". They then modify the "Turn off monitor", "Turn off hard disk", "System standby", and "System hibernates" settings to "Never" for both the "Home/Office Desk" and "Always On" power schemes. 
+
+Purpose inference: The user's actions suggest they are configuring their computer's power settings to prevent the monitor, hard disk, system standby, and system hibernation from activating. 

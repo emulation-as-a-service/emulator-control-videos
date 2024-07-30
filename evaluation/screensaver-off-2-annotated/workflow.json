@@ -1,0 +1,67 @@
+[
+    {
+        "precondition": "The mouse cursor is hovering over an empty area of the desktop.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear."
+    },
+    {
+        "precondition": "A right-click context menu titled 'Arrange Icons By' is visible on the Windows XP desktop.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The 'Display Properties' window will open, and the 'Themes' tab will be active."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Display Properties\" window will display the \"Screen Saver\" settings. The \"Screen Saver\" dropdown menu, \"Wait\" time setting, and \"Settings\" button will become visible."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"Screen saver\" dropdown menu displays \"Windows XP\".",
+        "action": "Click the down arrow on the \"Screen saver\" dropdown menu.",
+        "expected_results": "The \"Screen saver\" dropdown menu will expand, displaying a list of available screen savers."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"Wait\" time field is currently selected.",
+        "action": "Click on any empty space within the \"Display Properties\" window.",
+        "expected_results": "The \"Wait\" time will update to \"10\"."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active.  The 'Power...' button is visible within the 'Monitor power' section.",
+        "action": "Click the 'Power...' button in the 'Monitor power' section.",
+        "expected_results": "The 'Power Options Properties' window will open, displaying the 'Power Schemes' tab and various power management settings."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power schemes\" dropdown menu is visible.",
+        "action": "Click the down arrow of the \"Power schemes\" dropdown menu, then click \"Always On\".",
+        "expected_results": "The \"Power schemes\" dropdown menu will display \"Always On\" as the selected power scheme."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Power schemes\" dropdown menu should be visible.",
+        "action": "Click the \"Power schemes\" dropdown menu and select \"Presentation\".",
+        "expected_results": "The \"Power schemes\" dropdown menu will display \"Presentation\" as the selected power scheme. The \"Turn off monitor\" setting will change to \"After 20 mins\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Always On\" power scheme is selected.",
+        "action": "Click the dropdown button labeled \"After 20 mins\" next to the \"Turn off monitor\" option.",
+        "expected_results": "A dropdown menu will appear, displaying a list of time options for the monitor to turn off automatically."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open with the 'Power Schemes' tab selected. The 'Always On' power scheme is selected and the 'System hibernates' dropdown menu is open.",
+        "action": "Click the 'Never' option in the 'System hibernates' dropdown menu.",
+        "expected_results": "The 'System hibernates' dropdown menu will close. The system will now be configured to never enter hibernation automatically."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Always On\" power scheme should be selected, and the following settings should be set to \"Never\":\n- Turn off monitor\n- Turn off hard disks\n- System standby\n- System hibernates",
+        "action": "Click the \"Apply\" button.",
+        "expected_results": "The changes made to the \"Always On\" power scheme will be applied."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Display Properties\" window will display the \"Screen Saver\" settings."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click the \"OK\" button.",
+        "expected_results": "The \"Display Properties\" window will close."
+    }
+]

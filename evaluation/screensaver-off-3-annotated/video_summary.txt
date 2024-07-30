@@ -1,0 +1,9 @@
+- Operating system: Windows XP
+- Software: Windows Control Panel
+- Input methods: Mouse and keyboard
+- Recording details: 1 minute and 3 seconds, resolution not available 
+
+
+The user opens the Windows XP Control Panel and selects "Power Options." They modify the power settings to "Never" turn off the monitor or hard disks. They then open "Display Properties," select the "Screen Saver" tab, and choose "None" as the screensaver. 
+
+Purpose inference: The user's actions suggest they are configuring their computer's power and display settings to prevent the monitor and hard disks from turning off and to disable the screensaver. 

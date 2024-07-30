@@ -1,0 +1,97 @@
+[
+    {
+        "precondition": "The Windows XP desktop is displayed with the Start button in the bottom left corner and the system tray in the bottom right corner.",
+        "action": "Click the mouse on an empty space on the desktop.",
+        "expected_results": "No immediate visual change is expected."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The Start Menu will open, displaying options such as 'My Documents', 'My Computer', 'Control Panel', and 'All Programs'."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Alt' and 'c' keys simultaneously.",
+        "expected_results": "The 'Control Panel' window will open in the center of the screen."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The 'Start' menu will open, displaying options such as 'My Computer', 'Control Panel', and 'Printers and Faxes'."
+    },
+    {
+        "precondition": "The Windows XP Start Menu is open with the mouse cursor hovering over the 'Control Panel' option. The 'Control Panel' option is highlighted.",
+        "action": "Press the 'c' key.",
+        "expected_results": "The Windows XP Control Panel window will open, covering the Start Menu. The Control Panel will display a list of categories."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is displaying in Category View with the 'Switch to Classic View' link visible in the navigation pane.",
+        "action": "Click the 'Switch to Classic View' link in the Control Panel navigation pane.",
+        "expected_results": "The Control Panel should switch to Classic View, displaying all available control panel icons."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is open in Classic View.",
+        "action": "Press the 'Right Arrow' key.",
+        "expected_results": "The active selection may change, visually indicated by a highlighted icon."
+    },
+    {
+        "precondition": "The Control Panel is open in Classic View, displaying system setting icons.",
+        "action": "Right Click the icon labeled 'Display'.",
+        "expected_results": "A context menu will appear."
+    },
+    {
+        "precondition": "The Windows XP Control Panel window is open.",
+        "action": "Press the 'p' key followed by the 'o' key.",
+        "expected_results": "The mouse cursor will move to hover over the \"Taskbar and Start Menu\" icon."
+    },
+    {
+        "precondition": "The \"Power Options\" icon in the Windows XP Control Panel is highlighted.",
+        "action": "Press the 'Enter' key.",
+        "expected_results": "The \"Power Options Properties\" window will open, displaying the selected power scheme settings."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Home/Office Desk\" power scheme is selected.",
+        "action": "Click the dropdown menu labeled \"Turn off hard disks\".",
+        "expected_results": "A list of time interval options will appear, allowing you to choose when to automatically turn off the hard disks."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" dialog box is open with the \"Power Schemes\" tab selected. The \"Turn off hard disks\" dropdown menu is expanded.",
+        "action": "Click the \"Never\" option within the \"Turn off hard disks\" dropdown menu.",
+        "expected_results": "The \"Turn off hard disks\" dropdown menu will close. The selected power-off setting will be applied."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open. The desired power settings are configured.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Power Options Properties' window will close. The changes to the power settings will be saved."
+    },
+    {
+        "precondition": "The Windows XP Control Panel window is open.",
+        "action": "Click the icon labeled 'Display'.",
+        "expected_results": "The 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active.",
+        "action": "Click the 'Screen Saver' dropdown menu.",
+        "expected_results": "A dropdown menu will appear, displaying a list of available screensavers."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected. The 'Screen Saver' dropdown menu should display 'Windows XP' as the currently selected option.",
+        "action": "Click the dropdown arrow on the 'Screen Saver' dropdown menu.",
+        "expected_results": "A list of available screensavers will appear, with '[None]' becoming the new selected option in the 'Screen Saver' dropdown menu."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab of the \"Display Properties\" window is open. The \"Screen saver\" dropdown menu is visible.",
+        "action": "Click the \"3D FlowerBox\" option in the \"Screen saver\" dropdown menu.",
+        "expected_results": "The \"Wait\" time will change to \"10\" minutes, and the \"On resume, password protect\" checkbox will become enabled."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open, with the 'Screen Saver' tab selected.",
+        "action": "Click the 'OK' button at the bottom of the 'Display Properties' window.",
+        "expected_results": "The 'Display Properties' window will close."
+    },
+    {
+        "precondition": "The Control Panel window is open.",
+        "action": "Click the close button (X) in the top right corner of the Control Panel window.",
+        "expected_results": "The Control Panel window will close."
+    }
+]

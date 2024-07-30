@@ -1,0 +1,616 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Screenshots</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            padding: 10px;
+            z-index: 1000; /* Ensure it stays above other elements */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        video {
+            width: 100%;
+            max-height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            margin-top: 460px; /* Space for the fixed video element */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .item {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+        .item-header {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+            background-color: #f9f9f9;
+        }
+        .columns {
+            display: flex;
+        }
+        .column {
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+            color: black; /* Ensure text color is set */
+        }
+        .column + .column {
+            border-left: 1px solid #eee;
+        }
+        p {
+            margin: 10px 0;
+            color: #333; /* Ensure text is visible on white background */
+        }
+        .instruction h4 {
+            margin: 10px 0;
+            color: #0056b3; /* Ensure headings are distinct */
+        }
+        .instruction p {
+            margin: 5px 0;
+            color: #333; /* Ensure instruction text is visible */
+        }
+        .instruction {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .instruction strong {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="video-container">
+    <video id="reviewVideo" controls>
+        <source src="screensaver-off-3-ffr.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="container">
+    <h2>Review Screenshots</h2>
+
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 12  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 0.75; return false;">0.75</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the mouse on an empty space on the Windows XP desktop. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is displayed with the Start button in the bottom left corner and the system tray in the bottom right corner.</p>
+                            <p><strong>Action:</strong> Click the mouse on an empty space on the desktop.</p>
+                            <p><strong>Expected Results:</strong> No immediate visual change is expected.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the mouse on an empty space on the Windows XP desktop.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Left Click on the desktop.</p>
+                            <p><strong>Expected Results:</strong> No immediate visible changes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 34  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 2.125; return false;">2.125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the 'Control' and 'Escape' keys simultaneously.  This action opened the Start Menu. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Press the 'Ctrl' and 'Esc' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The Start Menu will open, displaying options such as 'My Documents', 'My Computer', 'Control Panel', and 'All Programs'.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the 'Control' and 'Escape' keys simultaneously.  This action opened the Start Menu.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Press the 'Ctrl' and 'Esc' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The Start menu will open, displaying options like 'My Documents', 'My Computer', 'Control Panel', and 'All Programs'.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 95  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 5.9375; return false;">5.9375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> Pressing the key combination 'Alt_L' + 'c' opens the "Control Panel" window in the center of the screen. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Press the 'Alt' and 'c' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The 'Control Panel' window will open in the center of the screen.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> Pressing the key combination 'Alt_L' + 'c' opens the "Control Panel" window in the center of the screen.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Press the 'Alt' and 'c' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The 'Control Panel' window will open.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 124  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 7.75; return false;">7.75</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the 'Control' and 'Escape' keys simultaneously. This action opened the "Start" menu, displaying options such as "My Computer," "Control Panel," and "Printers and Faxes." 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Press the 'Ctrl' and 'Esc' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The 'Start' menu will open, displaying options such as 'My Computer', 'Control Panel', and 'Printers and Faxes'.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the 'Control' and 'Escape' keys simultaneously. This action opened the "Start" menu, displaying options such as "My Computer," "Control Panel," and "Printers and Faxes."</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP desktop is visible.</p>
+                            <p><strong>Action:</strong> Press the 'Ctrl' and 'Esc' keys simultaneously.</p>
+                            <p><strong>Expected Results:</strong> The 'Start' menu will open, displaying options such as 'My Computer,' 'Control Panel,' and 'Printers and Faxes.'</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 153  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 9.5625; return false;">9.5625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the 'c' key, which was likely bound to the keyboard shortcut for "Control Panel". As a result, the "Control Panel" window opened, replacing the Start Menu. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Start Menu is open with the mouse cursor hovering over the 'Control Panel' option. The 'Control Panel' option is highlighted.</p>
+                            <p><strong>Action:</strong> Press the 'c' key.</p>
+                            <p><strong>Expected Results:</strong> The Windows XP Control Panel window will open, covering the Start Menu. The Control Panel will display a list of categories.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the 'c' key, which was likely bound to the keyboard shortcut for "Control Panel". As a result, the "Control Panel" window opened, replacing the Start Menu.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Start Menu is open.</p>
+                            <p><strong>Action:</strong> Press the 'c' key.</p>
+                            <p><strong>Expected Results:</strong> The Windows XP Control Panel window will open, covering the Start Menu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 333  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 20.8125; return false;">20.8125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "Switch to Classic View" link in the Control Panel navigation pane. However, despite the user's action, the Control Panel remains in Category View. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel is displaying in Category View with the 'Switch to Classic View' link visible in the navigation pane.</p>
+                            <p><strong>Action:</strong> Click the 'Switch to Classic View' link in the Control Panel navigation pane.</p>
+                            <p><strong>Expected Results:</strong> The Control Panel should switch to Classic View, displaying all available control panel icons.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the "Switch to Classic View" link in the Control Panel navigation pane.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Control Panel window is open and displaying the 'Pick a category' view.</p>
+                            <p><strong>Action:</strong> Click the 'Switch to Classic View' link located in the navigation pane on the left side of the window.</p>
+                            <p><strong>Expected Results:</strong> The Control Panel will switch to the Classic View, displaying all available control panel icons.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 480  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 30.0; return false;">30.0</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The right arrow key was pressed. No change is observed in the provided information. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel is open in Classic View.</p>
+                            <p><strong>Action:</strong> Press the 'Right Arrow' key.</p>
+                            <p><strong>Expected Results:</strong> The active selection may change, visually indicated by a highlighted icon.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The right arrow key was pressed. No change is observed in the provided information.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel is open in Classic View.</p>
+                            <p><strong>Action:</strong> Press the 'Right Arrow' key.</p>
+                            <p><strong>Expected Results:</strong> No visual change is expected.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 483  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 30.1875; return false;">30.1875</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user right-clicked on the **Display** icon in the Control Panel. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Control Panel is open in Classic View, displaying system setting icons.</p>
+                            <p><strong>Action:</strong> Right Click the icon labeled 'Display'.</p>
+                            <p><strong>Expected Results:</strong> A context menu will appear.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The right arrow key was pressed. No change is observed in the provided information.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel window is open in Classic View.</p>
+                            <p><strong>Action:</strong> Press the 'Right Arrow' key.</p>
+                            <p><strong>Expected Results:</strong> The active selection of icons in the Control Panel will shift one position to the right.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 524  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 32.75; return false;">32.75</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user typed the keys "p" and "o", navigating the cursor from its previous location to now hover over the "Taskbar and Start Menu" icon within the Windows XP Control Panel. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel window is open.</p>
+                            <p><strong>Action:</strong> Press the 'p' key followed by the 'o' key.</p>
+                            <p><strong>Expected Results:</strong> The mouse cursor will move to hover over the "Taskbar and Start Menu" icon.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user typed the keys "p" and "o", navigating the cursor from its previous location to now hover over the "Taskbar and Start Menu" icon within the Windows XP Control Panel.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel window is open.</p>
+                            <p><strong>Action:</strong> Type the keys 'p' then 'o'.</p>
+                            <p><strong>Expected Results:</strong> The mouse cursor will move to hover over the "Taskbar and Start Menu" icon.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 551  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 34.4375; return false;">34.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user pressed the "Enter" key while the "Power Options" icon was highlighted in the Windows XP Control Panel. This action opened the "Power Options Properties" window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options" icon in the Windows XP Control Panel is highlighted.</p>
+                            <p><strong>Action:</strong> Press the 'Enter' key.</p>
+                            <p><strong>Expected Results:</strong> The "Power Options Properties" window will open, displaying the selected power scheme settings.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user pressed the "Enter" key while the "Power Options" icon was highlighted in the Windows XP Control Panel. This action opened the "Power Options Properties" window.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options" icon is highlighted in the Windows XP Control Panel.</p>
+                            <p><strong>Action:</strong> Press the 'Enter' key.</p>
+                            <p><strong>Expected Results:</strong> The "Power Options Properties" window will open.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 647  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 40.4375; return false;">40.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks on the "Turn off hard disks" dropdown menu, located within the "Settings for Home/Office Desk power scheme" section of the "Power Options Properties" window. This reveals a list of time interval options for automatically turning off the hard disks. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Home/Office Desk" power scheme is selected.</p>
+                            <p><strong>Action:</strong> Click the dropdown menu labeled "Turn off hard disks".</p>
+                            <p><strong>Expected Results:</strong> A list of time interval options will appear, allowing you to choose when to automatically turn off the hard disks.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks on the "Turn off hard disks" dropdown menu, located within the "Settings for Home/Office Desk power scheme" section of the "Power Options Properties" window. This reveals a list of time interval options for automatically turning off the hard disks.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" window is open and the "Power Schemes" tab is active. The "Home/Office Desk" power scheme is selected.</p>
+                            <p><strong>Action:</strong> Click the dropdown menu labeled "Never" next to the "Turn off hard disks" option.</p>
+                            <p><strong>Expected Results:</strong> A dropdown menu with a list of time interval options for turning off the hard disks will appear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 678  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 42.375; return false;">42.375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks "Never" in the "Turn off hard disks" dropdown menu to disable automatic hard disk power-off. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Power Options Properties" dialog box is open with the "Power Schemes" tab selected. The "Turn off hard disks" dropdown menu is expanded.</p>
+                            <p><strong>Action:</strong> Click the "Never" option within the "Turn off hard disks" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The "Turn off hard disks" dropdown menu will close. The selected power-off setting will be applied.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks "Never" in the "Turn off hard disks" dropdown menu to disable automatic hard disk power-off.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Turn off hard disks" dropdown menu is expanded.</p>
+                            <p><strong>Action:</strong> Click the "Never" option in the "Turn off hard disks" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The "Turn off hard disks" dropdown menu will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 708  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 44.25; return false;">44.25</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "OK" button in the "Power Options Properties" window. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Power Options Properties' window is open. The desired power settings are configured.</p>
+                            <p><strong>Action:</strong> Click the 'OK' button.</p>
+                            <p><strong>Expected Results:</strong> The 'Power Options Properties' window will close. The changes to the power settings will be saved.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "OK" button in the "Power Options Properties" window.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Power Options Properties' window is open.</p>
+                            <p><strong>Action:</strong> Click the 'OK' button.</p>
+                            <p><strong>Expected Results:</strong> The 'Power Options Properties' window will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 752  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 47.0; return false;">47.0</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user moves the mouse pointer over the "Display" icon in the Control Panel window and clicks. As a result, the "Display Properties" window opens. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel window is open.</p>
+                            <p><strong>Action:</strong> Click the icon labeled 'Display'.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will open.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user moves the mouse pointer over the "Display" icon in the Control Panel window and clicks. As a result, the "Display Properties" window opens.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Windows XP Control Panel window is open.</p>
+                            <p><strong>Action:</strong> Double Left Click on the icon labeled "Display".</p>
+                            <p><strong>Expected Results:</strong> The "Display Properties" window will open.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 804  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 50.25; return false;">50.25</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the "Screen Saver" dropdown menu in the "Display Properties" window. As a result, the dropdown menu expanded to show the option "Windows XP". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Screen Saver' tab is active.</p>
+                            <p><strong>Action:</strong> Click the 'Screen Saver' dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> A dropdown menu will appear, displaying a list of available screensavers.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the "Screen Saver" tab in the "Display Properties" window.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" window is open. The "Screen Saver" tab is visible.</p>
+                            <p><strong>Action:</strong> Click the "Screen Saver" tab.</p>
+                            <p><strong>Expected Results:</strong> The "Screen Saver" tab is active. A preview window displaying a black screen with the Windows XP logo, indicating no active screensaver, will appear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 834  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 52.125; return false;">52.125</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked the dropdown arrow of the "Screen Saver" dropdown menu. This changed the selected option from "Windows XP" to "[None]". 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Screen Saver' tab is selected. The 'Screen Saver' dropdown menu should display 'Windows XP' as the currently selected option.</p>
+                            <p><strong>Action:</strong> Click the dropdown arrow on the 'Screen Saver' dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> A list of available screensavers will appear, with '[None]' becoming the new selected option in the 'Screen Saver' dropdown menu.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked the dropdown arrow of the "Screen Saver" dropdown menu.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Display Properties" window is open and the "Screen Saver" tab is selected.</p>
+                            <p><strong>Action:</strong> Click the dropdown arrow on the "Screen Saver" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> A list of available screensavers will appear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 857  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 53.5625; return false;">53.5625</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "3D FlowerBox" option within the "Screen Saver" dropdown menu in the "Display Properties" window. As a result, the "Wait" time automatically changes to "10" minutes and the "On resume, password protect" checkbox becomes enabled. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The "Screen Saver" tab of the "Display Properties" window is open. The "Screen saver" dropdown menu is visible.</p>
+                            <p><strong>Action:</strong> Click the "3D FlowerBox" option in the "Screen saver" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The "Wait" time will change to "10" minutes, and the "On resume, password protect" checkbox will become enabled.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the "[None]" option within the "Screen Saver" dropdown menu in the "Display Properties" window.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The "Screen Saver" tab of the "Display Properties" window is open. The "Screen saver" dropdown menu is open, displaying a list of available screensavers.</p>
+                            <p><strong>Action:</strong> Click the "[None]" option within the "Screen Saver" dropdown menu.</p>
+                            <p><strong>Expected Results:</strong> The "Screen Saver" dropdown menu will show "[None]" as the selected screensaver. The "Settings" and "Preview" buttons will remain inactive.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 920  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 57.5; return false;">57.5</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicks the "OK" button at the bottom of the "Display Properties" window. As a result, the "Display Properties" window closes. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open, with the 'Screen Saver' tab selected.</p>
+                            <p><strong>Action:</strong> Click the 'OK' button at the bottom of the 'Display Properties' window.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will close.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicks the "OK" button at the bottom of the "Display Properties" window. As a result, the "Display Properties" window closes.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The 'Display Properties' window is open and the 'Screen Saver' tab is selected.</p>
+                            <p><strong>Action:</strong> Click the 'OK' button at the bottom of the 'Display Properties' window.</p>
+                            <p><strong>Expected Results:</strong> The 'Display Properties' window will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="item-header">
+                    <p><strong>Frame:</strong> 967  <strong>Timestamp:</strong> <a href="#" onclick="document.getElementById('reviewVideo').currentTime = 60.4375; return false;">60.4375</a></p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <p><strong>Summary:</strong> The user clicked on the close button (X) in the top right corner of the Control Panel window. As a result, the Control Panel window closed. 
+</p>
+                        <div class="instruction">
+                            <h4>Instruction</h4>
+                            <p><strong>Precondition:</strong> The Control Panel window is open.</p>
+                            <p><strong>Action:</strong> Click the close button (X) in the top right corner of the Control Panel window.</p>
+                            <p><strong>Expected Results:</strong> The Control Panel window will close.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <p><strong>Summary (PP):</strong> The user clicked on the close button (X) in the top right corner of the Control Panel window. As a result, the Control Panel window closed.</p>
+                        <div class="instruction">
+                            <h4>Instruction (PP)</h4>
+                            <p><strong>Precondition:</strong> The Control Panel window is open.</p>
+                            <p><strong>Action:</strong> Click the 'X' button in the top right corner of the Control Panel window.</p>
+                            <p><strong>Expected Results:</strong> The Control Panel window will close.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>

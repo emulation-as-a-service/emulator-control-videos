@@ -1,0 +1,67 @@
+[
+    {
+        "precondition": "The mouse cursor is hovering over an empty area of the Windows XP desktop.",
+        "action": "Right Click on the desktop.",
+        "expected_results": "A context menu will appear."
+    },
+    {
+        "precondition": "A right-click context menu titled 'Arrange Icons By' is visible on the Windows XP desktop.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The 'Display Properties' window will open, and the 'Themes' tab will be active."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Themes\" tab is active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Display Properties\" window will display the \"Screen Saver\" settings. The \"Screen Saver\" dropdown menu, \"Wait\" time setting, and \"Settings\" button will become visible."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active.",
+        "action": "Click the down arrow on the right side of the \"Screen saver\" dropdown menu.",
+        "expected_results": "A dropdown list of available screen savers will appear."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active.",
+        "action": "Click on any empty space within the 'Display Properties' window.",
+        "expected_results": "A pop-up window titled 'Keep your computer up to date' will appear in the bottom left corner of the screen."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click the \"Power...\" button in the \"Monitor power\" section.",
+        "expected_results": "The \"Power Options Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Home/Office Desk\" power scheme is currently selected.",
+        "action": "Click the down arrow of the \"Power schemes\" dropdown menu.",
+        "expected_results": "A list of available power schemes will be displayed."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Power schemes\" dropdown menu should be visible.",
+        "action": "Click the \"Power schemes\" dropdown menu and select \"Presentation\".",
+        "expected_results": "The \"Power Options Properties\" window will update to display the settings for the \"Presentation\" power scheme."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Always On\" power scheme is selected.",
+        "action": "Click the dropdown button labeled \"After 20 mins\" next to the \"Turn off monitor\" option.",
+        "expected_results": "A dropdown menu will appear, displaying a list of time options for the monitor to turn off automatically."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open with the 'Always On' power scheme selected. The 'System hibernates' dropdown menu is open.",
+        "action": "Click the 'Never' option in the 'System hibernates' dropdown menu.",
+        "expected_results": "The 'System hibernates' dropdown menu will close. The system will now be set to never hibernate automatically."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Always On\" power scheme is selected, and the following settings are set to \"Never\": \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\".",
+        "action": "Click the \"Apply\" button.",
+        "expected_results": "The changes to the power scheme settings will be applied."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Display Properties\" window will display the \"Screen Saver\" settings."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open.",
+        "action": "Click the button labeled \"OK\".",
+        "expected_results": "The \"Display Properties\" window will close."
+    }
+]

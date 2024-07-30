@@ -1,0 +1,173 @@
+[
+    {
+        "frame": 12,
+        "event": "The mouse is clicking on the empty space of the desktop. \n",
+        "timestamp": 0.75,
+        "description": "The user clicked the mouse on an empty space on the Windows XP desktop.",
+        "outcome": ""
+    },
+    {
+        "frame": 34,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 2.125,
+        "description": "The user pressed the 'Control' and 'Escape' keys simultaneously.  This action opened the Start Menu.",
+        "outcome": "The Start menu opened, displaying a list of programs and options such as \"My Documents\", \"My Computer\", \"Control Panel\", and \"All Programs\".",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 95,
+        "event": "The key following key(s) were pressed: ['Alt_L', 'c'].",
+        "timestamp": 5.9375,
+        "description": "Pressing the key combination 'Alt_L' + 'c' opens the \"Control Panel\" window in the center of the screen.",
+        "outcome": "",
+        "key_pressed": [
+            "Alt_L",
+            "c"
+        ]
+    },
+    {
+        "frame": 124,
+        "event": "The key following key(s) were pressed: ['Control_L', 'Escape'].",
+        "timestamp": 7.75,
+        "description": "The user pressed the 'Control' and 'Escape' keys simultaneously. This action opened the \"Start\" menu, displaying options such as \"My Computer,\" \"Control Panel,\" and \"Printers and Faxes.\"",
+        "outcome": "The \"Start\" menu opened, revealing the \"My Computer\" sub-menu and its options, including \"Control Panel\" and \"Printers and Faxes.\"",
+        "key_pressed": [
+            "Control_L",
+            "Escape"
+        ]
+    },
+    {
+        "frame": 153,
+        "event": "The key following key(s) were pressed: ['c'].",
+        "timestamp": 9.5625,
+        "description": "The user pressed the 'c' key, which was likely bound to the keyboard shortcut for \"Control Panel\". As a result, the \"Control Panel\" window opened, replacing the Start Menu.",
+        "outcome": "The Windows XP Control Panel window is now open, covering the Start Menu. The Control Panel displays a list of categories. The mouse cursor is hovering over the \"Date, Time, Language, and Regional Options\" icon.",
+        "key_pressed": [
+            "c"
+        ]
+    },
+    {
+        "frame": 333,
+        "event": "The mouse pointer is clicking on the \"Switch to Classic View\" link in the Control Panel navigation pane. \n",
+        "timestamp": 20.8125,
+        "description": "The user clicks the \"Switch to Classic View\" link in the Control Panel navigation pane.",
+        "outcome": "The UI changes from the Category View to the Classic View of the Windows XP Control Panel.",
+        "label_clicked": "Switch to Classic View"
+    },
+    {
+        "frame": 480,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.0,
+        "description": "The right arrow key was pressed. No change is observed in the provided information.",
+        "outcome": "",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 483,
+        "event": "The key following key(s) were pressed: ['Right'].",
+        "timestamp": 30.1875,
+        "description": "The right arrow key was pressed. No change is observed in the provided information.",
+        "outcome": "",
+        "key_pressed": [
+            "Right"
+        ]
+    },
+    {
+        "frame": 524,
+        "event": "The key following key(s) were pressed: ['p', 'o'].",
+        "timestamp": 32.75,
+        "description": "The user typed the keys \"p\" and \"o\", navigating the cursor from its previous location to now hover over the \"Taskbar and Start Menu\" icon within the Windows XP Control Panel.",
+        "outcome": "The mouse cursor moved to hover over the \"Taskbar and Start Menu\" icon in the Windows XP Control Panel.",
+        "key_pressed": [
+            "p",
+            "o"
+        ]
+    },
+    {
+        "frame": 551,
+        "event": "The key following key(s) were pressed: ['Return'].",
+        "timestamp": 34.4375,
+        "description": "The user pressed the \"Enter\" key while the \"Power Options\" icon was highlighted in the Windows XP Control Panel. This action opened the \"Power Options Properties\" window.",
+        "outcome": "The \"Power Options\" icon in the Windows XP Control Panel is no longer highlighted, and the \"Power Options Properties\" window is now open, displaying the \"Home/Office Desk\" power scheme settings.",
+        "key_pressed": [
+            "Return"
+        ]
+    },
+    {
+        "frame": 647,
+        "event": "The mouse is clicking on the dropdown button for the \"Turn off hard disks\" option in the \"Power Options Properties\" window. \n",
+        "timestamp": 40.4375,
+        "description": "The user clicks on the \"Turn off hard disks\" dropdown menu, located within the \"Settings for Home/Office Desk power scheme\" section of the \"Power Options Properties\" window. This reveals a list of time interval options for automatically turning off the hard disks.",
+        "outcome": "The \"Turn off hard disks\" dropdown menu within the \"Power Options Properties\" window is expanded, revealing a list of time intervals. The mouse cursor is hovering over the \"After 4 hours\" option.",
+        "label_clicked": "Never"
+    },
+    {
+        "frame": 678,
+        "event": "The mouse is clicking on the \"Never\" option within the \"Turn off hard disks\" dropdown menu. \n",
+        "timestamp": 42.375,
+        "description": "The user clicks \"Never\" in the \"Turn off hard disks\" dropdown menu to disable automatic hard disk power-off.",
+        "outcome": "The \"Turn off hard disks\" dropdown menu, which was previously expanded, is now closed.",
+        "label_clicked": "Never"
+    },
+    {
+        "frame": 708,
+        "event": "The mouse is clicking on the OK button of the Power Options Properties window. \n",
+        "timestamp": 44.25,
+        "description": "The user clicked the \"OK\" button in the \"Power Options Properties\" window.",
+        "outcome": "The \"Power Options Properties\" window is now closed.",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 752,
+        "event": "The mouse pointer is hovering over the \"Display\" icon in the Control Panel window. \n",
+        "timestamp": 47.0,
+        "description": "The user moves the mouse pointer over the \"Display\" icon in the Control Panel window and clicks. As a result, the \"Display Properties\" window opens.",
+        "outcome": "The \"Display Properties\" window is open and sits atop the Windows XP Control Panel. The active \"Themes\" tab displays \"Windows XP (Modified)\" as the currently selected theme.",
+        "label_clicked": "Display"
+    },
+    {
+        "frame": 804,
+        "event": "The mouse is clicking on the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 50.25,
+        "description": "The user clicked the \"Screen Saver\" tab in the \"Display Properties\" window.",
+        "outcome": "The \"Screen Saver\" tab of the Windows XP \"Display Properties\" window is now active. The preview window displays a black screen with the Windows XP logo, indicating no active screensaver.",
+        "label_clicked": "Screen Saver"
+    },
+    {
+        "frame": 834,
+        "event": "The mouse is clicking on the dropdown arrow of the \"Screen Saver\" dropdown menu in the \"Display Properties\" window. \n",
+        "timestamp": 52.125,
+        "description": "The user clicked the dropdown arrow of the \"Screen Saver\" dropdown menu.",
+        "outcome": "In the \"Display Properties\" window, within the \"Screen Saver\" tab, the \"Screen Saver\" dropdown menu is expanded, revealing a list of available screensavers.",
+        "label_clicked": "Windows XP"
+    },
+    {
+        "frame": 857,
+        "event": "The mouse is clicking on the \"3D FlowerBox\" screensaver option within the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 53.5625,
+        "description": "The user clicks the \"[None]\" option within the \"Screen Saver\" dropdown menu in the \"Display Properties\" window.",
+        "outcome": "In the \"Display Properties\" window, within the \"Screen Saver\" tab, the selected option in the \"Screen Saver\" dropdown menu changed from \"Windows XP\" to \"[None]\". The \"Settings\" and \"Preview\" buttons remain inactive.",
+        "label_clicked": "[None]"
+    },
+    {
+        "frame": 920,
+        "event": "The mouse pointer is hovering over the \"OK\" button in the \"Display Properties\" window and is about to click it. \n",
+        "timestamp": 57.5,
+        "description": "The user clicks the \"OK\" button at the bottom of the \"Display Properties\" window. As a result, the \"Display Properties\" window closes.",
+        "outcome": "The mouse cursor moved to hover over the \"Wireless Network...\" icon in the Windows XP Control Panel. The \"Display Properties\" window is no longer present.",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 967,
+        "event": "The mouse is clicking on the close button of the Control Panel window. \n",
+        "timestamp": 60.4375,
+        "description": "The user clicked on the close button (X) in the top right corner of the Control Panel window. As a result, the Control Panel window closed.",
+        "outcome": "The Control Panel window has been closed.",
+        "label_clicked": "X"
+    }
+]

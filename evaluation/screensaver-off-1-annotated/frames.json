@@ -1,0 +1,798 @@
+[
+    {
+        "frame": 36,
+        "timestamp": 2.25,
+        "event": {
+            "time": 2294,
+            "event": "mousedown",
+            "x": 40,
+            "y": 575,
+            "frame": 36,
+            "time_end": 2.294,
+            "frame_end": 36
+        },
+        "type": "event",
+        "label_clicked": "# start",
+        "description": "The screenshot displays a standard Windows XP desktop with the \"Start\" button located on the bottom left corner of the screen. The mouse cursor hovers over the \"Start\" button, indicating the user is about to interact with it. No other menus or windows are open. \n",
+        "screenshot": "frame-36-mousedown.png",
+        "screenshot_annotated": "frame-36-mousedown-layout.png"
+    },
+    {
+        "frame": 46,
+        "timestamp": 2.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop with the \"Start\" menu open.  The \"Start\" button is still highlighted, indicating the user clicked it. No other menus or windows are open. \n",
+        "screenshot": "frame-46.png"
+    },
+    {
+        "frame": 87,
+        "timestamp": 5.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop with the \"Start\" menu open. The mouse cursor is no longer hovering over the \"Start\" button.  The \"Control Panel\" option within the Start menu is highlighted, indicating it has been selected by the user. \n",
+        "screenshot": "frame-87.png"
+    },
+    {
+        "frame": 90,
+        "timestamp": 5.625,
+        "event": {
+            "time": 5656,
+            "event": "mousedown",
+            "x": 259,
+            "y": 332,
+            "frame": 90,
+            "time_end": 5.656,
+            "frame_end": 90
+        },
+        "type": "event",
+        "label_clicked": "ContrqPanel",
+        "description": "The screenshot shows the Windows XP Start Menu open with the mouse hovering over the \"Control Panel\" option. A yellow pop-up box describes the Control Panel as providing \"options for you to customize the appearance and functionality of your computer, add or remove programs, and set up network connections and user accounts.\" \n",
+        "screenshot": "frame-90-mousedown.png",
+        "screenshot_annotated": "frame-90-mousedown-layout.png"
+    },
+    {
+        "frame": 92,
+        "timestamp": 5.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Start Menu. The \"Control Panel\" option is no longer highlighted, and the yellow pop-up box with the Control Panel description is no longer visible. \n",
+        "screenshot": "frame-92.png"
+    },
+    {
+        "frame": 99,
+        "timestamp": 6.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop with the Start Menu open. The \"Control Panel\" option is highlighted and the mouse cursor is hovering over it. The yellow pop-up box describing the Control Panel is no longer present. \n",
+        "screenshot": "frame-99.png"
+    },
+    {
+        "frame": 129,
+        "timestamp": 8.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop background, which is a tropical scene with a sailboat, an island with palm trees, and a blue sky. The Start Menu is visible in its closed state. The mouse cursor, displaying an hourglass icon, is located in the top right portion of the screen. The yellow pop-up box describing the Control Panel is no longer visible. \n",
+        "screenshot": "frame-129.png"
+    },
+    {
+        "frame": 130,
+        "timestamp": 8.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop with a tropical beach scene as the wallpaper. The Start Menu is visible in its closed state. The mouse cursor, displaying an hourglass icon indicating system activity, is positioned in the center of the screen. \n\nMissing UI Elements:\n- The Start Menu is no longer open.\n- The yellow pop-up box describing the Control Panel is no longer visible. \n",
+        "screenshot": "frame-130.png"
+    },
+    {
+        "frame": 176,
+        "timestamp": 11.0,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop background, a tropical island scene with a sailboat. The Start Menu is visible in the bottom left corner, and the Recycle Bin icon is in the bottom right. \n\nMissing UI Elements: \n- The Start Menu is no longer open.\n- The yellow pop-up box describing the Control Panel is gone. \n",
+        "screenshot": "frame-176.png"
+    },
+    {
+        "frame": 179,
+        "timestamp": 11.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows an empty \"Control Panel\" window open on the Windows XP desktop. The Start Menu is no longer visible. \n\n- Missing UI Element: The Start Menu with the mouse hovering over \"Control Panel\" is no longer visible.\n- Missing UI Element: The yellow pop-up box describing the Control Panel is gone.\n- New UI Element: A window titled \"Control Panel\" with minimal content is now visible. \n",
+        "screenshot": "frame-179.png"
+    },
+    {
+        "frame": 188,
+        "timestamp": 11.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows XP Control Panel window. The window title bar reads \"Control Panel\".  The Control Panel provides a grid of icons, each representing a category of system settings. The categories are \"Appearance and Themes\", \"Network and Internet Connections\", \"Add or Remove Programs\", \"Sounds, Speech, and Audio Devices\", \"Performance and Maintenance\", \"Printers and Other Hardware\", \"User Accounts\", \"Date, Time, Language, and Regional Options\", \"Accessibility Options\", and \"Security Center\". \n\nMissing UI Elements: \n- The Start Menu is no longer visible.\n- The yellow pop-up box describing the Control Panel is no longer visible. \n",
+        "screenshot": "frame-188.png"
+    },
+    {
+        "frame": 197,
+        "timestamp": 12.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel window open. The Control Panel is displaying the \"Pick a category\" view with various system icons and their corresponding labels. \n\nThe Start Menu is no longer visible. The yellow pop-up box describing the Control Panel is no longer visible. \n",
+        "screenshot": "frame-197.png"
+    },
+    {
+        "frame": 198,
+        "timestamp": 12.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel window open and in front of the Start Menu. The Control Panel is displaying the \"Pick a category\" view with various system icons and their corresponding labels. \n\nThe following UI elements are no longer present:\n- The yellow pop-up box describing the Control Panel is gone.\n\nThe Start Menu is still visible but is now partially obscured by the Control Panel window. \n",
+        "screenshot": "frame-198.png"
+    },
+    {
+        "frame": 199,
+        "timestamp": 12.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel window open and in focus. The Control Panel is displaying the \"Pick a category\" view with various system settings categories represented by icons and labels. The yellow pop-up box previously present is no longer visible. \n",
+        "screenshot": "frame-199.png"
+    },
+    {
+        "frame": 200,
+        "timestamp": 12.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel window open. The Control Panel is displaying the \"Pick a category\" view with various system icons and their corresponding labels. \n\nThe Start Menu is no longer visible. The yellow pop-up box describing the Control Panel is also gone. \n",
+        "screenshot": "frame-200.png"
+    },
+    {
+        "frame": 201,
+        "timestamp": 12.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel window open and in front of the Start Menu. The yellow pop-up box previously describing the Control Panel is no longer visible. \n",
+        "screenshot": "frame-201.png"
+    },
+    {
+        "frame": 412,
+        "timestamp": 25.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the Windows XP Control Panel window. The window is titled \"Control Panel\" and displays the category view. The categories are represented by icons and text labels such as \"Appearance and Themes\", \"Network and Internet Connections\", \"Add or Remove Programs\", and more. \n\nMissing UI Elements: \n- The Start Menu is no longer visible.\n- The yellow pop-up box describing the Control Panel is gone. \n",
+        "screenshot": "frame-412.png"
+    },
+    {
+        "frame": 459,
+        "timestamp": 28.6875,
+        "event": {
+            "time": 28713,
+            "event": "mousedown",
+            "x": 315,
+            "y": 195,
+            "frame": 459,
+            "time_end": 28.713,
+            "frame_end": 459
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The Control Panel window is open, displaying the \"Pick a category\" view. The mouse cursor is hovering over the \"Appearance and Themes\" category icon. A tooltip box explains that this category allows users to \"Change the appearance of desktop items, apply a theme or screen saver to your computer, or customize the Start menu and taskbar.\" \n",
+        "screenshot": "frame-459-mousedown.png",
+        "screenshot_annotated": "frame-459-mousedown-layout.png"
+    },
+    {
+        "frame": 462,
+        "timestamp": 28.875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel window in the \"Pick a category\" view. \n\nThe following changes are observed:\n- The tooltip box that was present in the initial description is no longer visible. \n",
+        "screenshot": "frame-462.png"
+    },
+    {
+        "frame": 486,
+        "timestamp": 30.375,
+        "event": null,
+        "type": "change",
+        "description": "The Control Panel window is now in \"Classic View,\" displaying various system icons instead of category icons. The mouse cursor is now an arrow with an hourglass indicating the system is busy. The tooltip box is no longer visible. \n",
+        "screenshot": "frame-486.png"
+    },
+    {
+        "frame": 495,
+        "timestamp": 30.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Control Panel window, now displaying the \"Appearance and Themes\" category. The mouse cursor is no longer hovering over the \"Appearance and Themes\" category icon, and the tooltip box is no longer visible. \n",
+        "screenshot": "frame-495.png"
+    },
+    {
+        "frame": 502,
+        "timestamp": 31.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel window, specifically the \"Appearance and Themes\" category. The mouse cursor is no longer hovering over the \"Appearance and Themes\" category icon, and the tooltip box is no longer visible. \n",
+        "screenshot": "frame-502.png"
+    },
+    {
+        "frame": 506,
+        "timestamp": 31.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel window, displaying the \"Appearance and Themes\" category view. \n\nThe mouse cursor is no longer hovering over the \"Appearance and Themes\" category icon, and the tooltip box is not visible. \n",
+        "screenshot": "frame-506.png"
+    },
+    {
+        "frame": 507,
+        "timestamp": 31.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel window. The view has changed from \"Pick a category\" to \"Appearance and Themes\".  The \"Appearance and Themes\" category is selected in the left-hand navigation pane. The main pane displays a list of tasks related to appearance and themes, such as \"Change the computer's theme\" and \"Choose a screen saver\". The tooltip box is no longer visible. \n",
+        "screenshot": "frame-507.png"
+    },
+    {
+        "frame": 508,
+        "timestamp": 31.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel window, specifically the \"Appearance and Themes\" category view. \n\nThe following changes are observed:\n\n- The mouse cursor is no longer hovering over the \"Appearance and Themes\" category icon, and the tooltip box is no longer visible. \n",
+        "screenshot": "frame-508.png"
+    },
+    {
+        "frame": 509,
+        "timestamp": 31.8125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel window, specifically the \"Appearance and Themes\" category view. \n\nThe following changes are observed:\n\n- **Missing UI Elements:** The tooltip box describing the \"Appearance and Themes\" category is no longer visible. \n- **Content Changes:** The mouse cursor is no longer hovering over the \"Appearance and Themes\" category icon. \n",
+        "screenshot": "frame-509.png"
+    },
+    {
+        "frame": 535,
+        "timestamp": 33.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Control Panel window, now displaying the \"Appearance and Themes\" category. The mouse cursor is hovering over the \"Change the screen resolution\" task. The tooltip box from the initial state is no longer visible. \n",
+        "screenshot": "frame-535.png"
+    },
+    {
+        "frame": 547,
+        "timestamp": 34.1875,
+        "event": {
+            "time": 34218,
+            "event": "mousedown",
+            "x": 285,
+            "y": 425,
+            "frame": 547,
+            "time_end": 34.218,
+            "frame_end": 547
+        },
+        "type": "event",
+        "label_clicked": "splay",
+        "description": "The screenshot displays the Windows XP Control Panel, specifically the \"Appearance and Themes\" category. The user's mouse cursor hovers over the \"Display\" icon, suggesting the next action is to click this icon. The \"Display\" icon provides access to settings related to the computer's display, such as screen resolution, color calibration, and appearance. \n",
+        "screenshot": "frame-547-mousedown.png",
+        "screenshot_annotated": "frame-547-mousedown-layout.png"
+    },
+    {
+        "frame": 578,
+        "timestamp": 36.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel with the \"Appearance and Themes\" category selected.  The \"Display\" icon under \"or pick a Control Panel icon\" is highlighted, indicating it is currently selected. \n",
+        "screenshot": "frame-578.png"
+    },
+    {
+        "frame": 583,
+        "timestamp": 36.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP \"Display Properties\" window in an active and expanded state, covering a portion of the \"Appearance and Themes\" category view in the background. \n\n- New UI Elements:\n    - The \"Display Properties\" window is now visible.\n    - An hourglass mouse cursor, indicating system busy state, is present within the \"Display Properties\" window.\n\n- Missing UI Elements:\n    - The mouse cursor is no longer hovering over the \"Display\" icon. \n",
+        "screenshot": "frame-583.png"
+    },
+    {
+        "frame": 584,
+        "timestamp": 36.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Display Properties\" window, with the \"Themes\" tab open.  The mouse cursor is no longer hovering over the \"Display\" icon.\n\nMissing UI Elements:\n- The mouse cursor is no longer hovering over the \"Display\" icon. \n",
+        "screenshot": "frame-584.png"
+    },
+    {
+        "frame": 585,
+        "timestamp": 36.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Display Properties window, with the \"Themes\" tab active.  The mouse cursor is now hovering over the bottom right corner of a preview window labeled \"Active Window\". This preview window was not mentioned in the initial description. The \"Display\" icon is no longer highlighted. \n",
+        "screenshot": "frame-585.png"
+    },
+    {
+        "frame": 586,
+        "timestamp": 36.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Display Properties window, with the \"Themes\" tab active. The mouse cursor is not hovering over the \"Display\" icon as previously stated. Instead, a smaller window titled \"Active Window\" with the text \"Window Text\" is present on top of the background image. This window was not mentioned in the initial description. \n",
+        "screenshot": "frame-586.png"
+    },
+    {
+        "frame": 718,
+        "timestamp": 44.875,
+        "event": {
+            "time": 44901,
+            "event": "mousedown",
+            "x": 228,
+            "y": 133,
+            "frame": 718,
+            "time_end": 44.901,
+            "frame_end": 718
+        },
+        "type": "event",
+        "label_clicked": "DesktopScreen SverAppearanceSettings",
+        "description": "The Display Properties window is open with the \"Themes\" tab active. The current theme is displayed as \"Windows XP (Modified)\" and can be changed using the adjacent dropdown menu. The \"Save As..\" button allows users to save any modifications made to the current theme under a new name. The \"Delete\" button, currently greyed out, suggests that deleting the currently selected theme is not possible. \n\nA preview window showcasing the chosen theme's desktop background, window borders, and font style dominates the lower half of the dialog box. The preview features a tropical beach scene as the desktop background and displays a sample window titled \"Active Window\" with the text \"Window Text\" to illustrate the chosen font style and size. \n",
+        "screenshot": "frame-718-mousedown.png",
+        "screenshot_annotated": "frame-718-mousedown-layout.png"
+    },
+    {
+        "frame": 734,
+        "timestamp": 45.875,
+        "event": null,
+        "type": "change",
+        "description": "The Display Properties window is now displaying the \"Screen Saver\" tab instead of the \"Themes\" tab. The rest of the elements described in the initial state are not present in the screenshot. \n",
+        "screenshot": "frame-734.png"
+    },
+    {
+        "frame": 735,
+        "timestamp": 45.9375,
+        "event": null,
+        "type": "change",
+        "description": "The Display Properties window is now displaying the \"Screen Saver\" tab. The preview window shows a black screen with the \"Windows XP\" logo in the center, indicating the currently selected screensaver. The \"Screen saver\" dropdown menu shows \"Windows XP\" as the selected option. The \"Wait:\" field is set to \"10\" minutes, and the \"On resume, password protect\" checkbox is unchecked. The \"Themes\" tab is no longer active. \n",
+        "screenshot": "frame-735.png"
+    },
+    {
+        "frame": 736,
+        "timestamp": 46.0,
+        "event": null,
+        "type": "change",
+        "description": "The Display Properties window is now displaying the \"Screen Saver\" tab. The preview window at the bottom shows a black screen with the text \"Windows XP\" in the center, indicating the currently selected screensaver. \n\nThe following elements are new:\n\n- The \"Screen Saver\" tab is now active.\n- Options for selecting and configuring a screensaver are visible, including a dropdown menu to choose the screensaver, a \"Settings\" button, and a \"Wait\" time input field. \n- A \"Monitor power\" section is present with a button labeled \"Power...\" \n\nThe following elements are no longer present:\n\n- The \"Themes\" tab content, including the theme selection dropdown, \"Save As..\" button, and \"Delete\" button, is no longer visible. \n- The preview window no longer showcases the desktop background, window borders, and font style. \n",
+        "screenshot": "frame-736.png"
+    },
+    {
+        "frame": 753,
+        "timestamp": 47.0625,
+        "event": {
+            "time": 47102,
+            "event": "mousedown",
+            "x": 179,
+            "y": 363,
+            "frame": 753,
+            "time_end": 47.102,
+            "frame_end": 753
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"Screen Saver\" tab within the \"Display Properties\" window of the Windows XP Control Panel. \n\nThe currently selected screen saver is \"Windows XP,\" chosen from a dropdown menu. The \"Wait\" field, set to \"10\" minutes by default, uses up and down arrows to adjust the time before the screensaver activates. The \"On resume, password protect\" checkbox, currently unchecked, allows users to enable password protection upon returning from the screensaver.\n\nThe \"Settings\" button, if clicked, would allow customization of the selected \"Windows XP\" screensaver. Similarly, the \"Preview\" button would provide a live demonstration of the chosen screensaver within the display window. \n\nThe \"Monitor power\" section instructs the user to click the \"Power\u2026\" button to access and modify monitor power settings for energy saving. \n\nThe window provides standard \"OK\" and \"Cancel\" buttons to apply or discard changes, along with an \"Apply\" button to implement changes without closing the window. \n",
+        "screenshot": "frame-753-mousedown.png",
+        "screenshot_annotated": "frame-753-mousedown-layout.png"
+    },
+    {
+        "frame": 760,
+        "timestamp": 47.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Display Properties\" window, specifically the \"Screen Saver\" tab. The dropdown menu for selecting a screen saver is expanded, revealing a list of available options: \"3D Pipes\", \"3D Text\", \"Beziers\", \"Blank\", \"Marquee\", \"My Pictures Slideshow\", \"Mystify\", \"Starfield\", and \"Windows XP\". \n",
+        "screenshot": "frame-760.png"
+    },
+    {
+        "frame": 761,
+        "timestamp": 47.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Display Properties\" window with the \"Screen Saver\" tab open. The most noticeable change is the dropdown menu for \"Screen saver\" is expanded, displaying the full list of available screen savers.  \n",
+        "screenshot": "frame-761.png"
+    },
+    {
+        "frame": 773,
+        "timestamp": 48.3125,
+        "event": {
+            "time": 48350,
+            "event": "mousedown",
+            "x": 164,
+            "y": 376,
+            "frame": 773,
+            "time_end": 48.35,
+            "frame_end": 773
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"Display Properties\" window in Windows XP, specifically the \"Screen Saver\" tab. \n\nThe \"Screen saver\" dropdown menu is open, presenting a list of available screensavers. The currently selected option is \"None\". \n\nTo the right of the dropdown menu are three buttons:\n - **Settings:** Currently greyed out, this button would allow customization of the selected screensaver's settings.\n - **Preview:** Also greyed out, this button would typically allow a preview of the chosen screensaver.\n - **Power...:** This button provides access to power management settings, including options related to sleep mode, hibernation, and power consumption. \n \nAt the bottom of the window, two standard buttons are visible:\n - **Apply:** Clicking this button would apply any changes made to the display settings.\n - **Cancel:** Clicking this button would discard any changes made and close the \"Display Properties\" window. \n",
+        "screenshot": "frame-773-mousedown.png",
+        "screenshot_annotated": "frame-773-mousedown-layout.png"
+    },
+    {
+        "frame": 778,
+        "timestamp": 48.625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Display Properties\" window in Windows XP, specifically the \"Screen Saver\" tab. The \"Screen saver\" dropdown menu is open, with \"None\" selected. The most notable change is in the \"Wait\" field, where the value has been changed from the described \"blank\" to \"10\".  The \"Settings\" and \"Preview\" buttons remain greyed out. The \"Power...\" button is unchanged.  At the bottom, the \"Apply\" and \"Cancel\" buttons remain in their standard positions. \n",
+        "screenshot": "frame-778.png"
+    },
+    {
+        "frame": 779,
+        "timestamp": 48.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Display Properties\" window, specifically the \"Screen Saver\" tab. The \"Screen saver\" dropdown menu is open, and \"None\" is selected. The \"Settings\" and \"Preview\" buttons are still greyed out. The \"Wait:\" time is set to \"10\" minutes. \n\nThe most notable change is that the \"On resume, password protect\" checkbox is now unchecked. \n",
+        "screenshot": "frame-779.png"
+    },
+    {
+        "frame": 803,
+        "timestamp": 50.1875,
+        "event": {
+            "time": 50209,
+            "event": "mousedown",
+            "x": 399,
+            "y": 468,
+            "frame": 803,
+            "time_end": 50.209,
+            "frame_end": 803
+        },
+        "type": "event",
+        "label_clicked": "Pow",
+        "description": "The screenshot displays the \"Display Properties\" window in Windows XP, specifically the \"Screen Saver\" tab.  The user has selected \"None\" from the \"Screen saver\" dropdown menu. \n\nUnder the \"Monitor power\" section, there is a standalone \"Power\" button. This button is highlighted, indicating the user's mouse cursor is hovering over it.  The adjacent text instructs: \"To adjust monitor power settings and save energy, click Power.\" This suggests clicking the button will open a new window or section related to monitor and power management settings. \n",
+        "screenshot": "frame-803-mousedown.png",
+        "screenshot_annotated": "frame-803-mousedown-layout.png"
+    },
+    {
+        "frame": 836,
+        "timestamp": 52.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the \"Power Options Properties\" window from the Windows XP Control Panel. The \"Home/Office Desk\" power scheme is currently selected. The \"Power schemes\" dropdown menu is not present in this screenshot. The previously highlighted \"Power\" button is no longer highlighted. \n",
+        "screenshot": "frame-836.png"
+    },
+    {
+        "frame": 837,
+        "timestamp": 52.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Power Options Properties\" window in Windows XP. The \"Power Schemes\" tab is open and the \"Home/Office Desk\" power scheme is selected.  The \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" settings have all been changed to \"Never\". \n\nThe \"Power\" button described as highlighted in the initial description is not highlighted in the screenshot. \n",
+        "screenshot": "frame-837.png"
+    },
+    {
+        "frame": 861,
+        "timestamp": 53.8125,
+        "event": {
+            "time": 53838,
+            "event": "mousedown",
+            "x": 315,
+            "y": 354,
+            "frame": 861,
+            "time_end": 53.838,
+            "frame_end": 861
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the Power Options Properties window in the Windows XP Control Panel. \n\nUnder the \"Power Schemes\" tab, the \"Home/Office Desk\" power scheme is currently selected in the dropdown menu. This menu allows users to choose from available power schemes or create new ones. \n\nThe \"Settings for Home/Office Desk power scheme\" section displays four adjustable power management options:\n\n- **Turn off monitor:** This dropdown menu, currently displaying \"After 20 mins,\" allows users to define how long the computer should wait before turning off the monitor.\n- **Turn off hard disks:** This dropdown menu, set to \"Never,\" allows users to specify the idle time before the hard drive powers down. \n- **System standby:** This dropdown menu, also set to \"Never,\" controls the delay before the computer enters standby mode.\n- **System hibernates:** This dropdown menu, also displaying \"Never,\" determines the idle time before the computer initiates hibernation.\n\nAt the bottom of the window, standard dialog buttons are visible: \n- **OK:** Confirms the selected power scheme settings and closes the window.\n- **Cancel:** Discards any changes and closes the window.\n- **Apply:** Applies the selected power scheme settings without closing the window. \n",
+        "screenshot": "frame-861-mousedown.png",
+        "screenshot_annotated": "frame-861-mousedown-layout.png"
+    },
+    {
+        "frame": 867,
+        "timestamp": 54.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Power Options Properties\" window in the Windows XP Control Panel, with the \"Power Schemes\" tab open. The \"Home/Office Desk\" power scheme is still selected, but the dropdown menu for selecting power schemes is expanded, revealing a list of available options: \"After 25 mins\", \"After 30 mins\", \"After 45 mins\", \"After 1 hour\", \"After 2 hours\", \"After 3 hours\", \"After 4 hours\", \"After 5 hours\", and \"Never\". \n\nContent Changes:\n- The \"Turn off monitor\" dropdown menu is expanded, displaying the available options for this setting. \n",
+        "screenshot": "frame-867.png"
+    },
+    {
+        "frame": 868,
+        "timestamp": 54.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Power Options Properties window with the \"Turn off monitor\" dropdown menu expanded, revealing a list of time intervals ranging from \"After 3 mins\" to \"Never.\" \n",
+        "screenshot": "frame-868.png"
+    },
+    {
+        "frame": 869,
+        "timestamp": 54.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Power Options Properties window with the \"Turn off monitor\" dropdown menu expanded, revealing a list of time intervals ranging from \"After 1 min\" to \"Never.\" \n- The \"Power schemes\" dropdown menu, previously displaying \"Home/Office Desk,\" is not visible. \n",
+        "screenshot": "frame-869.png"
+    },
+    {
+        "frame": 912,
+        "timestamp": 57.0,
+        "event": {
+            "time": 57054,
+            "event": "mousedown",
+            "x": 286,
+            "y": 564,
+            "frame": 912,
+            "time_end": 57.054,
+            "frame_end": 912
+        },
+        "type": "event",
+        "label_clicked": "After 5 hours",
+        "description": "The screenshot displays the Power Options Properties window in Windows XP. \n\nUnder the \"Power Schemes\" tab, the \"Home/Office Desk\" power scheme is selected in the dropdown menu. This indicates that the settings being adjusted apply to this specific power scheme. \n\nThe \"Settings for Home/Office Desk power scheme\" section lists four power-saving features: \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\". Each feature has a dropdown menu open, displaying a range of time intervals, with the \"Never\" option currently selected. This suggests the user is configuring these power-saving features to be deactivated, preventing the monitor and hard disks from turning off, and disabling the system standby and hibernation modes. \n",
+        "screenshot": "frame-912-mousedown.png",
+        "screenshot_annotated": "frame-912-mousedown-layout.png"
+    },
+    {
+        "frame": 918,
+        "timestamp": 57.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Power Options Properties window with the \"Power Schemes\" tab active. The \"Home/Office Desk\" power scheme is selected in the dropdown menu. All four power-saving features: \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\"  have \"Never\" selected in their respective dropdown menus. \nThere are no new UI elements visible. \nThere are no missing UI elements.\nThere are no content changes. \n",
+        "screenshot": "frame-918.png"
+    },
+    {
+        "frame": 994,
+        "timestamp": 62.125,
+        "event": {
+            "time": 62147,
+            "event": "mousedown",
+            "x": 319,
+            "y": 268,
+            "frame": 994,
+            "time_end": 62.147,
+            "frame_end": 994
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the Power Options Properties window in the Windows XP Control Panel. \n\nUnder the \"Power Schemes\" tab, the \"Home/Office Desk\" power scheme is currently selected in the dropdown menu. This indicates that the settings being modified apply to this specific power scheme. \n\nFour key power management settings are shown:\n- **\"Turn off monitor\"**:  This dropdown menu, currently set to \"Never\", controls the time delay before the monitor enters power saving mode.\n- **\"Turn off hard disks\"**: This dropdown menu, also set to \"Never\", controls the time delay before the hard drive enters power saving mode.\n- **\"System standby\"**:  This dropdown menu, set to \"Never\", controls the time delay before the computer enters standby mode.\n- **\"System hibernates\"**: This dropdown menu, set to \"Never\", controls the time delay before the computer enters hibernation mode.\n\nAt the bottom of the window, three standard buttons are visible:\n- **\"OK\"**: Clicking this button applies any changes and closes the window.\n- **\"Cancel\"**: Clicking this button discards any changes and closes the window.\n- **\"Apply\"**: Clicking this button applies any changes made without closing the window. \n",
+        "screenshot": "frame-994-mousedown.png",
+        "screenshot_annotated": "frame-994-mousedown-layout.png"
+    },
+    {
+        "frame": 999,
+        "timestamp": 62.4375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Power Options Properties window, with the \"Power Schemes\" tab active. \n\nContent Changes:\n- The \"Power schemes\" dropdown menu now displays \"Home/Office Desk\" as the selected option. The description mentions \"Always On\" was selected, which is not reflected in the image.\n-  Three additional power schemes are now listed in the dropdown menu: \"Always On\", \"Minimal Power Management\", and \"Max Battery\". \n",
+        "screenshot": "frame-999.png"
+    },
+    {
+        "frame": 1000,
+        "timestamp": 62.5,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel with the \"Power Options Properties\" window open. The \"Power Schemes\" tab is selected. \n\nContent Changes:\n- The \"Power schemes\" dropdown menu now displays \"Always On\" as the selected option, instead of \"Home/Office Desk\". \n",
+        "screenshot": "frame-1000.png"
+    },
+    {
+        "frame": 1001,
+        "timestamp": 62.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP Control Panel with the \"Power Options Properties\" window open. The \"Power Schemes\" tab is selected. \n\nContent Changes:\n- The \"Power schemes\" dropdown menu now displays \"Portable/Laptop\" as the selected option. Previously, it was \"Home/Office Desk\". \n",
+        "screenshot": "frame-1001.png"
+    },
+    {
+        "frame": 1039,
+        "timestamp": 64.9375,
+        "event": {
+            "time": 64947,
+            "event": "mousedown",
+            "x": 155,
+            "y": 322,
+            "frame": 1039,
+            "time_end": 64.947,
+            "frame_end": 1039
+        },
+        "type": "event",
+        "label_clicked": "Always On",
+        "description": "The screenshot displays the Power Options Properties window within the Windows XP Control Panel. \n\n**Key Elements:**\n\n- **Power Schemes Dropdown Menu:** This menu displays a list of available power schemes. The \"Always On\" scheme is currently selected. The available options are:\n    - Home/Office Desk\n    - Home/Office Laptop\n    - Portable/Laptop\n    - Presentation \n    - Always On\n    - Minimal Power Management\n    - Max Battery\n- **Power Scheme Settings:** Below the dropdown menu, several power management options are listed, each with a corresponding dropdown menu to adjust its settings:\n    - Turn off monitor: Currently set to \"Never\".\n    - Turn off hard disks: Currently set to \"Never\".\n    - System standby: Currently set to \"Never\".\n    - System hibernates: Currently set to \"Never\".\n- **Buttons:** Three buttons are available at the bottom of the window:\n    - **OK:**  Confirms the selected power scheme and settings and closes the window.\n    - **Cancel:** Discards any changes made and closes the window.\n    - **Apply:** Applies the selected power scheme and settings without closing the window. \n\n**Purpose of Elements:**\n\nThe user has selected the \"Always On\" power scheme, as indicated by the dropdown menu selection.  For this power scheme, the user has configured the following settings to \"Never\" using the respective dropdown menus: \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\". This configuration, once applied using the \"OK\" or \"Apply\" buttons, will prevent the computer from automatically powering down the monitor, hard drive, or entering standby or hibernation modes. \n",
+        "screenshot": "frame-1039-mousedown.png",
+        "screenshot_annotated": "frame-1039-mousedown-layout.png"
+    },
+    {
+        "frame": 1043,
+        "timestamp": 65.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Power Options Properties window in the Windows XP Control Panel. The \"Always On\" power scheme is selected in the \"Power schemes\" dropdown menu. \n\nThe following settings within the \"Power Scheme Settings\" section are all set to \"Never\" using their respective dropdown menus:\n- Turn off monitor\n- Turn off hard disks\n- System standby\n- System hibernates\n\nTwo new buttons, \"Save As...\" and \"Delete\", are now visible to the right of the \"Power schemes\" dropdown menu. \n",
+        "screenshot": "frame-1043.png"
+    },
+    {
+        "frame": 1060,
+        "timestamp": 66.25,
+        "event": {
+            "time": 66307,
+            "event": "mousedown",
+            "x": 320,
+            "y": 345,
+            "frame": 1060,
+            "time_end": 66.307,
+            "frame_end": 1060
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the Power Options Properties window in the Windows XP Control Panel. The \"Always On\" power scheme is currently selected in the \"Power schemes\" dropdown menu. \n\nThe following power management settings for the \"Always On\" scheme are visible and configurable via their respective dropdown menus:\n\n- **Turn off monitor:**  This setting, currently set to \"After 20 mins\", determines the time delay before the monitor enters power-saving mode.\n\n- **Turn off hard disks:** This setting, currently set to \"Never\", determines the time delay before the hard drive enters power-saving mode.\n\n- **System standby:** This setting, also set to \"Never\", dictates the delay before the system enters standby mode.\n\n- **System hibernates:**  This setting, currently set to \"Never\", determines the time delay before the system initiates hibernation. \n\nAt the bottom of the window, three buttons offer the following actions:\n\n- **OK:**  Confirms the selected power scheme and settings and closes the window. \n- **Cancel:** Discards any changes made and closes the window.\n- **Apply:**  Applies the selected power scheme and settings without closing the window. \n",
+        "screenshot": "frame-1060-mousedown.png",
+        "screenshot_annotated": "frame-1060-mousedown-layout.png"
+    },
+    {
+        "frame": 1070,
+        "timestamp": 66.875,
+        "event": {
+            "time": 66909,
+            "event": "mousedown",
+            "x": 312,
+            "y": 362,
+            "frame": 1070,
+            "time_end": 66.909,
+            "frame_end": 1070
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"Power Options Properties\" window in Windows XP's Control Panel. The \"Always On\" power scheme is currently selected in the \"Power schemes\" dropdown menu. \n\nThe \"Settings for Always On power scheme\" section allows customization of power-saving features:\n\n- **Turn off monitor:** This dropdown menu, currently set to \"After 20 mins,\" controls the delay before the monitor turns off.\n- **Turn off hard disks:** This dropdown menu, set to \"Never,\" controls the delay before the hard drive enters power-saving mode.\n- **System standby:** This dropdown menu, set to \"Never,\" controls the delay before the computer enters standby mode.\n- **System hibernates:** This dropdown menu, also set to \"Never,\" controls the delay before the computer hibernates.\n\nAt the bottom of the window, three buttons offer actions related to the power scheme settings:\n\n- **OK:**  Confirms the selected power scheme and settings, closing the window.\n- **Cancel:** Discards any changes and closes the window.\n- **Apply:** Applies the selected power scheme and settings without closing the window. \n",
+        "screenshot": "frame-1070-mousedown.png",
+        "screenshot_annotated": "frame-1070-mousedown-layout.png"
+    },
+    {
+        "frame": 1076,
+        "timestamp": 67.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Power Options Properties\" window with the \"Always On\" power scheme selected. The drop-down menus for \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" are now expanded, displaying a list of time intervals. \n",
+        "screenshot": "frame-1076.png"
+    },
+    {
+        "frame": 1077,
+        "timestamp": 67.3125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Power Options Properties\" window with the \"Turn off monitor\" dropdown menu expanded, displaying a list of time intervals. \n\nContent Changes:\n- The \"Turn off monitor\" dropdown menu is now expanded, revealing options ranging from \"After 3 mins\" to \"Never\". \n",
+        "screenshot": "frame-1077.png"
+    },
+    {
+        "frame": 1078,
+        "timestamp": 67.375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Power Options Properties\" window with the \"Turn off monitor\" dropdown menu expanded, revealing a list of time intervals ranging from \"After 1 min\" to \"Never\". \n\nThe following elements have changed:\n\n- **Content Changes:**\n    - The \"Turn off monitor\" dropdown menu is now expanded and displaying its available options. \n",
+        "screenshot": "frame-1078.png"
+    },
+    {
+        "frame": 1093,
+        "timestamp": 68.3125,
+        "event": {
+            "time": 68354,
+            "event": "mousedown",
+            "x": 266,
+            "y": 575,
+            "frame": 1093,
+            "time_end": 68.354,
+            "frame_end": 1093
+        },
+        "type": "event",
+        "label_clicked": "Never",
+        "description": "The screenshot displays the Power Options Properties window in the Windows XP Control Panel. \n\nThe \"Always On\" power scheme is currently selected in the \"Power schemes\" dropdown menu. This menu allows users to choose from a list of pre-configured power plans or custom-created ones. \n\nThe \"Settings for Always On power scheme\" section lists power-saving options specific to the selected \"Always On\" scheme. Currently, the \"System hibernates\" option is expanded, displaying a dropdown menu with various time intervals and the option \"Never.\" The user has selected \"Never\" in this dropdown menu, indicating that the system will not automatically hibernate after a period of inactivity. \n \nThe \"Save As...\" button allows users to create a new custom power scheme based on the current settings, while the \"Delete\" button is for deleting a custom power scheme. The \"Power Schemes,\" \"Advanced,\" \"Hibernate,\" and \"UPS\" tabs provide access to different sets of power management configurations. \n",
+        "screenshot": "frame-1093-mousedown.png",
+        "screenshot_annotated": "frame-1093-mousedown-layout.png"
+    },
+    {
+        "frame": 1097,
+        "timestamp": 68.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Power Options Properties\" window in the Windows XP Control Panel. The \"Always On\" power scheme is selected.  \n\nContent Changes:\n- The \"Turn off monitor\" dropdown menu now displays \"After 20 mins\".\n- The \"Turn off hard disks\" dropdown menu now displays \"Never\".\n- The \"System standby\" dropdown menu now displays \"Never\". \n",
+        "screenshot": "frame-1097.png"
+    },
+    {
+        "frame": 1120,
+        "timestamp": 70.0,
+        "event": {
+            "time": 70060,
+            "event": "mousedown",
+            "x": 294,
+            "y": 541,
+            "frame": 1120,
+            "time_end": 70.06,
+            "frame_end": 1120
+        },
+        "type": "event",
+        "label_clicked": "OK",
+        "description": "The **Power Options Properties** window displays the \"Always On\" power scheme currently selected in the **Power schemes** dropdown menu. This menu allows users to choose from various predefined power plans. \n\nUnder the **Settings for Always On power scheme** section, four power management options are shown: \n- **Turn off monitor:** Set to \"Never\" via the dropdown menu, preventing the monitor from automatically turning off.\n- **Turn off hard disks:** Also set to \"Never\" using the dropdown menu, disabling automatic hard drive spin-down.\n- **System standby:** Set to \"Never\" via the dropdown menu, preventing the system from entering standby mode.\n- **System hibernates:** Similarly set to \"Never\" using the dropdown menu, disabling system hibernation.\n\nAt the bottom of the window, three buttons provide the following actions:\n- **OK:** Confirms the selected power scheme and settings, applying them to the system.\n- **Cancel:** Discards any changes made within this window and closes it.\n- **Apply:** Applies the selected power scheme and settings without closing the window. \n",
+        "screenshot": "frame-1120-mousedown.png",
+        "screenshot_annotated": "frame-1120-mousedown-layout.png"
+    },
+    {
+        "frame": 1135,
+        "timestamp": 70.9375,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP **Power Options Properties** window with the \"Always On\" power scheme selected. All four power management options: \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" are set to \"Never\". \n\nThe **OK** button at the bottom of the window is highlighted, indicating it has been selected with the mouse cursor. \n",
+        "screenshot": "frame-1135.png"
+    },
+    {
+        "frame": 1137,
+        "timestamp": 71.0625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop with the **Display Properties** window open. This window does not contain the power options as described in the initial state. The \"Appearance and Themes\" section of the Control Panel is visible behind the **Display Properties** window.\n\n**Missing UI Elements:**\n\n- The **Power Options Properties** window is not visible. \n- The \"Power schemes\" dropdown menu is not present.\n- The \"Settings for Always On power scheme\" section is absent.\n- The \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" settings and their corresponding dropdown menus are not displayed.\n- The \"OK\", \"Cancel\", and \"Apply\" buttons related to the Power Options are not present. \n",
+        "screenshot": "frame-1137.png"
+    },
+    {
+        "frame": 1138,
+        "timestamp": 71.125,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop with the \"Display Properties\" window open. This window is blank, except for the title bar and buttons for \"OK\", \"Cancel\", and \"Apply\". \n\nMissing UI Elements:\n- The \"Power Options Properties\" window is no longer present. \n",
+        "screenshot": "frame-1138.png"
+    },
+    {
+        "frame": 1139,
+        "timestamp": 71.1875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP **Display Properties** window, specifically the **Screen Saver** tab. \n\nMissing UI Elements:\n- The **Power Options Properties** window is no longer present. \n",
+        "screenshot": "frame-1139.png"
+    },
+    {
+        "frame": 1140,
+        "timestamp": 71.25,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot displays the **Display Properties** window with the \"Screen Saver\" tab selected. \n\nMissing UI Elements:\n- The **Power Options Properties** window is not present. \n",
+        "screenshot": "frame-1140.png"
+    },
+    {
+        "frame": 1204,
+        "timestamp": 75.25,
+        "event": {
+            "time": 75310,
+            "event": "mousedown",
+            "x": 244,
+            "y": 520,
+            "frame": 1204,
+            "time_end": 75.31,
+            "frame_end": 1204
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"Display Properties\" window within the Windows XP Control Panel, specifically the \"Screen Saver\" tab. \n\nThe user has selected \"None\" from the \"Screen saver\" dropdown menu. Below, a text box labeled \"Wait:\" allows for numerical input in minutes to define the idle time before the screensaver activates, currently set to \"10\".  A checkbox labeled \"On resume, password protect\" is visible to the right.\n\nThe \"Monitor power\" section provides a brief instruction: \"To adjust monitor power settings and save energy, click Power.\" The \"Power...\" button, when clicked, allows users to access and modify the system's power settings.\n\nAt the bottom of the window, three standard buttons are present: \"OK\" - currently highlighted, indicating user action or intent, \"Cancel\", and \"Apply\". \n",
+        "screenshot": "frame-1204-mousedown.png",
+        "screenshot_annotated": "frame-1204-mousedown-layout.png"
+    },
+    {
+        "frame": 1225,
+        "timestamp": 76.5625,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Display Properties\" window, specifically the \"Screen Saver\" tab. \n\nThe most noticeable change is the mouse cursor, now displaying a hand pointer and hovering over the \"OK\" button at the bottom of the window. \n",
+        "screenshot": "frame-1225.png"
+    },
+    {
+        "frame": 1227,
+        "timestamp": 76.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the \"Appearance and Themes\" section within the Windows XP Control Panel. \n\nMissing UI Elements:\n- The \"Display Properties\" window, previously described as the main window, is no longer present. \n",
+        "screenshot": "frame-1227.png"
+    },
+    {
+        "frame": 1266,
+        "timestamp": 79.125,
+        "event": {
+            "time": 79155,
+            "event": "mousedown",
+            "x": 782,
+            "y": 5,
+            "frame": 1266,
+            "time_end": 79.155,
+            "frame_end": 1266
+        },
+        "type": "event",
+        "label_clicked": null,
+        "description": "The screenshot displays the \"Appearance and Themes\" category within the Windows XP Control Panel. \n\nAt the top, a standard window interface provides options to manage files and folders, search, and access help.  Below, the \"Address\" bar displays the current location: \"Appearance and Themes.\"\n\nThe window is divided into three sections:\n\n**Left Sidebar:**\n\n* **\"See Also\"**: This section offers quick links to related settings:\n    * **Fonts:**  Allows users to manage system fonts.\n    * **Mouse Pointers:** Provides options to customize the appearance of the mouse cursor.\n    * **High Contrast:** Enables high contrast mode for improved visibility.\n    * **User Account Picture:** Allows users to change their profile picture.\n* **\"Troubleshooters\"**: This section offers diagnostic and repair tools for:\n    * **Display:** Helps resolve issues with the computer's display.\n    * **Sound:** Assists in troubleshooting sound-related problems.\n\n**Center Panel:**\n\n* **\"Pick a task...\"**: This section lists common tasks related to appearance and themes:\n    * **Change the computer's theme:** Allows users to apply pre-defined visual themes.\n    * **Change the desktop background:** Provides options to customize the desktop wallpaper.\n    * **Choose a screen saver:**  Allows users to select and configure a screen saver.\n    * **Change the screen resolution:**  Provides options to adjust the display resolution.\n\n**Right Panel:**\n\n* **\"or pick a Control Panel icon\"**: This section provides direct access to specific Control Panel applets:\n    * **Display:** Opens the Display Properties window for advanced display settings.\n    * **Folder Options:** Opens the Folder Options window to customize folder views and behaviors.\n    * **Taskbar and Start Menu:** Opens the Taskbar and Start Menu Properties window for customization.\n\nThe screenshot captures the user's current location within the Control Panel, offering various options to customize the computer's appearance and themes. \n",
+        "screenshot": "frame-1266-mousedown.png",
+        "screenshot_annotated": "frame-1266-mousedown-layout.png"
+    },
+    {
+        "frame": 1275,
+        "timestamp": 79.6875,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop, featuring a tropical beach scene as the background image. \n\nThe \"Appearance and Themes\" window, described in the initial state, is no longer present. \n",
+        "screenshot": "frame-1275.png"
+    },
+    {
+        "frame": 1276,
+        "timestamp": 79.75,
+        "event": null,
+        "type": "change",
+        "description": "The screenshot shows the Windows XP desktop background, featuring a tropical island scene with palm trees, a sailboat, and blue sky. \n\nMissing UI Elements:\n- The \"Appearance and Themes\" window is no longer present. \n",
+        "screenshot": "frame-1276.png"
+    }
+]

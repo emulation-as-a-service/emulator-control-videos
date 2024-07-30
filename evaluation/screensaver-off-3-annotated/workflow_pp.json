@@ -1,0 +1,97 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Left Click on the desktop.",
+        "expected_results": "No immediate visible changes."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The Start menu will open, displaying options like 'My Documents', 'My Computer', 'Control Panel', and 'All Programs'."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Alt' and 'c' keys simultaneously.",
+        "expected_results": "The 'Control Panel' window will open."
+    },
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Press the 'Ctrl' and 'Esc' keys simultaneously.",
+        "expected_results": "The 'Start' menu will open, displaying options such as 'My Computer,' 'Control Panel,' and 'Printers and Faxes.'"
+    },
+    {
+        "precondition": "The Windows XP Start Menu is open.",
+        "action": "Press the 'c' key.",
+        "expected_results": "The Windows XP Control Panel window will open, covering the Start Menu."
+    },
+    {
+        "precondition": "The Control Panel window is open and displaying the 'Pick a category' view.",
+        "action": "Click the 'Switch to Classic View' link located in the navigation pane on the left side of the window.",
+        "expected_results": "The Control Panel will switch to the Classic View, displaying all available control panel icons."
+    },
+    {
+        "precondition": "The Windows XP Control Panel is open in Classic View.",
+        "action": "Press the 'Right Arrow' key.",
+        "expected_results": "No visual change is expected."
+    },
+    {
+        "precondition": "The Windows XP Control Panel window is open in Classic View.",
+        "action": "Press the 'Right Arrow' key.",
+        "expected_results": "The active selection of icons in the Control Panel will shift one position to the right."
+    },
+    {
+        "precondition": "The Windows XP Control Panel window is open.",
+        "action": "Type the keys 'p' then 'o'.",
+        "expected_results": "The mouse cursor will move to hover over the \"Taskbar and Start Menu\" icon."
+    },
+    {
+        "precondition": "The \"Power Options\" icon is highlighted in the Windows XP Control Panel.",
+        "action": "Press the 'Enter' key.",
+        "expected_results": "The \"Power Options Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Power Schemes\" tab is active. The \"Home/Office Desk\" power scheme is selected.",
+        "action": "Click the dropdown menu labeled \"Never\" next to the \"Turn off hard disks\" option.",
+        "expected_results": "A dropdown menu with a list of time interval options for turning off the hard disks will appear."
+    },
+    {
+        "precondition": "The \"Turn off hard disks\" dropdown menu is expanded.",
+        "action": "Click the \"Never\" option in the \"Turn off hard disks\" dropdown menu.",
+        "expected_results": "The \"Turn off hard disks\" dropdown menu will close."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Power Options Properties' window will close."
+    },
+    {
+        "precondition": "The Windows XP Control Panel window is open.",
+        "action": "Double Left Click on the icon labeled \"Display\".",
+        "expected_results": "The \"Display Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open. The \"Screen Saver\" tab is visible.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Screen Saver\" tab is active. A preview window displaying a black screen with the Windows XP logo, indicating no active screensaver, will appear."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected.",
+        "action": "Click the dropdown arrow on the \"Screen Saver\" dropdown menu.",
+        "expected_results": "A list of available screensavers will appear."
+    },
+    {
+        "precondition": "The \"Screen Saver\" tab of the \"Display Properties\" window is open. The \"Screen saver\" dropdown menu is open, displaying a list of available screensavers.",
+        "action": "Click the \"[None]\" option within the \"Screen Saver\" dropdown menu.",
+        "expected_results": "The \"Screen Saver\" dropdown menu will show \"[None]\" as the selected screensaver. The \"Settings\" and \"Preview\" buttons will remain inactive."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is selected.",
+        "action": "Click the 'OK' button at the bottom of the 'Display Properties' window.",
+        "expected_results": "The 'Display Properties' window will close."
+    },
+    {
+        "precondition": "The Control Panel window is open.",
+        "action": "Click the 'X' button in the top right corner of the Control Panel window.",
+        "expected_results": "The Control Panel window will close."
+    }
+]

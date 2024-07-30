@@ -1,0 +1,146 @@
+[
+    {
+        "frame": 36,
+        "event": "The mouse pointer is clicking the \"Start\" button on the Windows taskbar.",
+        "timestamp": 2.25,
+        "description": "The user clicked the \"Start\" button on the Windows taskbar, causing the Start menu to open.",
+        "outcome": "The Start Menu is open.",
+        "label_clicked": "# start"
+    },
+    {
+        "frame": 90,
+        "event": "The mouse is clicking on the \"Control Panel\" menu item in the Windows start menu.",
+        "timestamp": 5.625,
+        "description": "The user clicks on the \"Control Panel\" item in the Windows XP Start Menu.  As a result, the Control Panel window opens.",
+        "outcome": "The Windows XP Control Panel window is now visible, displaying the category view with various system categories. The Start Menu and a yellow pop-up box describing the Control Panel are no longer present.",
+        "label_clicked": "ContrqPanel"
+    },
+    {
+        "frame": 459,
+        "event": "The mouse is clicking on the \"Appearance and Themes\" icon in the Control Panel window.",
+        "timestamp": 28.6875,
+        "description": "The user clicked on the \"Appearance and Themes\" icon in the Control Panel window.  As a result, the Control Panel window transitioned to display the \"Appearance and Themes\" category.",
+        "outcome": "The Control Panel window transitioned to display the \"Appearance and Themes\" category. The previously visible tooltip box is no longer present.",
+        "label_clicked": null
+    },
+    {
+        "frame": 547,
+        "event": "The mouse is clicking on the \"Display\" Control Panel icon.",
+        "timestamp": 34.1875,
+        "description": "The user clicked the \"Display\" icon in the Windows XP Control Panel, opening the \"Display Properties\" window.",
+        "outcome": "The \"Display Properties\" window is open, displaying the \"Themes\" tab. A window titled \"Active Window\" with the text \"Window Text\" appeared on top of the background image in the Windows XP Display Properties window.",
+        "label_clicked": "splay"
+    },
+    {
+        "frame": 718,
+        "event": "The mouse is clicking on the \"Screen Saver\" tab of the \"Display Properties\" window.",
+        "timestamp": 44.875,
+        "description": "The user clicked the \"Screen Saver\" tab in the \"Display Properties\" window.  As a result, the window's content changed from the \"Themes\" tab to the \"Screen Saver\" tab and its associated options.",
+        "outcome": "The Display Properties window is now showing the \"Screen Saver\" tab and its related options, replacing the content of the previously active \"Themes\" tab. The preview window at the bottom of the window now displays a black screen with \"Windows XP\" text, reflecting the currently selected screensaver.",
+        "label_clicked": "DesktopScreen SverAppearanceSettings"
+    },
+    {
+        "frame": 753,
+        "event": "The mouse is clicking on the dropdown button of the \"Screen Saver\" selection box.",
+        "timestamp": 47.0625,
+        "description": "The user clicks on the dropdown button of the \"Screen Saver\" selection box to view the list of available screen savers.",
+        "outcome": "The \"Screen Saver\" dropdown menu within the \"Display Properties\" window is shown in an expanded state, revealing a list of available screen saver options.",
+        "label_clicked": null
+    },
+    {
+        "frame": 773,
+        "event": "The mouse is clicking on the checkbox labeled \"On resume, password protect\".",
+        "timestamp": 48.3125,
+        "description": "The user unchecked the \"On resume, password protect\" checkbox located in the \"Screen Saver\" tab of the \"Display Properties\" window.",
+        "outcome": "The \"On resume, password protect\" checkbox within the \"Display Properties\" window's \"Screen Saver\" tab became unchecked.",
+        "label_clicked": null
+    },
+    {
+        "frame": 803,
+        "event": "The mouse is clicking on the \"Power\" button in the \"Display Properties\" window.",
+        "timestamp": 50.1875,
+        "description": "The user clicks the \"Power\" button within the \"Display Properties\" window's \"Screen Saver\" tab. This action opens the \"Power Options Properties\" window.",
+        "outcome": "The \"Power Options Properties\" window is displayed, with the \"Home/Office Desk\" power scheme selected. The settings for \"Turn off monitor\", \"Turn off hard disks\", \"System standby\", and \"System hibernates\" are all set to \"Never\".",
+        "label_clicked": "Pow"
+    },
+    {
+        "frame": 861,
+        "event": "The mouse is clicking on the dropdown button of the \"Turn off monitor\" option in the \"Power Options Properties\" window.",
+        "timestamp": 53.8125,
+        "description": "The user clicked the dropdown menu for the \"Turn off monitor\" option within the \"Settings for Home/Office Desk power scheme\" section.  This action expanded the menu to reveal a list of selectable time intervals.",
+        "outcome": "The \"Turn off monitor\" dropdown menu is expanded, displaying a list of time intervals.",
+        "label_clicked": null
+    },
+    {
+        "frame": 912,
+        "event": "The mouse is clicking on the \"After 5 hours\" option within the \"System hibernates\" dropdown menu in the \"Power Options Properties\" window.",
+        "timestamp": 57.0,
+        "description": "The user selects \"After 5 hours\" from the \"System hibernates\" dropdown menu within the \"Settings for Home/Office Desk power scheme\" section.",
+        "outcome": "The \"System hibernates\" dropdown menu shows \"After 5 hours\" selected.",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 994,
+        "event": "The mouse pointer is clicking the down arrow of the \"Power schemes\" dropdown menu.",
+        "timestamp": 62.125,
+        "description": "The user clicked the down arrow of the \"Power schemes\" dropdown menu in the \"Power Options Properties\" window.  As a result, the menu expanded to display a list of power schemes.",
+        "outcome": "The \"Power schemes\" dropdown menu is expanded, displaying a list of available power schemes.",
+        "label_clicked": null
+    },
+    {
+        "frame": 1039,
+        "event": "The mouse clicked on the \"Always On\" item in the \"Power schemes\" dropdown menu.",
+        "timestamp": 64.9375,
+        "description": "The user clicked on the \"Always On\" item in the \"Power schemes\" dropdown menu.",
+        "outcome": "The \"Power schemes\" dropdown menu shows \"Always On\" selected. Two new buttons, \"Save As...\" and \"Delete\", appeared next to the \"Power schemes\" dropdown menu in the Power Options Properties window.",
+        "label_clicked": "Always On"
+    },
+    {
+        "frame": 1060,
+        "event": "The mouse is clicking on the dropdown button for the \"Turn off hard disks\" setting.",
+        "timestamp": 66.25,
+        "description": "The user clicks the dropdown button for the \"Turn off hard disks\" setting within the \"Always On\" power scheme.",
+        "outcome": "The \"Turn off hard disks\" dropdown menu is expanded, displaying a list of time intervals.",
+        "label_clicked": null
+    },
+    {
+        "frame": 1070,
+        "event": "The mouse is clicking on the dropdown button of the \"Turn off monitor\" option in the \"Power Options Properties\" window.",
+        "timestamp": 66.875,
+        "description": "The user clicked the \"Turn off monitor\" dropdown menu, located within the \"Settings for Always On power scheme\" section of the \"Power Options Properties\" window. As a result, the dropdown menu expanded to display a list of time interval options.",
+        "outcome": "The \"Turn off monitor\" dropdown menu within the \"Power Options Properties\" window has been expanded to reveal a list of time interval options, ranging from \"After 1 min\" to \"Never\".",
+        "label_clicked": null
+    },
+    {
+        "frame": 1093,
+        "event": "The mouse is clicking on the \"Never\" item in the \"System hibernates\" dropdown menu.",
+        "timestamp": 68.3125,
+        "description": "The user clicks the \"Never\" option within the \"System hibernates\" dropdown menu located in the \"Settings for Always On power scheme\" section.",
+        "outcome": "The \"System hibernates\" dropdown menu shows Never selected. Within the \"Power Options Properties\" window, the \"Turn off monitor\", \"Turn off hard disks\", and \"System standby\" dropdown menus have been set to \"After 20 mins\", \"Never\", and \"Never\" respectively.",
+        "label_clicked": "Never"
+    },
+    {
+        "frame": 1120,
+        "event": "The mouse is clicking on the \"OK\" button of the \"Power Options Properties\" window.",
+        "timestamp": 70.0,
+        "description": "The user clicked the \"OK\" button at the bottom of the \"Power Options Properties\" window.  As a result, the \"Power Options Properties\" window closed.",
+        "outcome": "The UI settled on the \"Display Properties\" window with the \"Screen Saver\" tab selected. The \"Power Options Properties\" window is not present.",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 1204,
+        "event": "The mouse is clicking on the \"OK\" button of the \"Display Properties\" window.",
+        "timestamp": 75.25,
+        "description": "The user clicks the \"OK\" button at the bottom of the \"Display Properties\" window.  As a result, the \"Display Properties\" window closes.",
+        "outcome": "The \"Display Properties\" window, previously observed within the \"Appearance and Themes\" section of the Windows XP Control Panel, is no longer present.",
+        "label_clicked": null
+    },
+    {
+        "frame": 1266,
+        "event": "The mouse is clicking on the close button of the \"Appearance and Themes\" window.",
+        "timestamp": 79.125,
+        "description": "The user clicks the close button in the top right corner of the \"Appearance and Themes\" window.  As a result, the window closes.",
+        "outcome": "The \"Appearance and Themes\" window has been closed.",
+        "label_clicked": null
+    }
+]

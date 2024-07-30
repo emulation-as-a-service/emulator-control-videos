@@ -1,0 +1,92 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Click the 'Start' button on the taskbar.",
+        "expected_results": "The Start Menu will open."
+    },
+    {
+        "precondition": "The Windows XP Start Menu is open.",
+        "action": "Click the menu item 'Control Panel'.",
+        "expected_results": "The Control Panel window will open, displaying various system categories."
+    },
+    {
+        "precondition": "The Control Panel window is open and displaying the \"Pick a category\" view.",
+        "action": "Click on the \"Appearance and Themes\" icon.",
+        "expected_results": "The Control Panel window will transition to display the \"Appearance and Themes\" category."
+    },
+    {
+        "precondition": "The Windows XP Control Panel window is open, displaying the 'Appearance and Themes' category.",
+        "action": "Click the 'Display' icon.",
+        "expected_results": "The 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open with the \"Themes\" tab active.",
+        "action": "Click the \"Screen Saver\" tab.",
+        "expected_results": "The \"Display Properties\" window will now display the \"Screen Saver\" tab and its associated options. The preview window at the bottom will display a black screen with \"Windows XP\" text."
+    },
+    {
+        "precondition": "The 'Screen Saver' tab within the 'Display Properties' window is open.",
+        "action": "Click on the dropdown button of the 'Screen Saver' selection box.",
+        "expected_results": "A dropdown menu will appear, displaying a list of available screen saver options."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The checkbox labeled \"On resume, password protect\" is checked.",
+        "action": "Click the checkbox labeled \"On resume, password protect\".",
+        "expected_results": "The \"On resume, password protect\" checkbox will become unchecked."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is selected. The \"Power\" button is visible below the \"Monitor power\" section.",
+        "action": "Click the \"Power\" button.",
+        "expected_results": "The \"Power Options Properties\" window will open."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Home/Office Desk\" power scheme is selected.",
+        "action": "Click the dropdown button for the \"Turn off monitor\" option.",
+        "expected_results": "A dropdown menu with a list of time intervals will appear."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open, the 'Home/Office Desk' power scheme is selected, and the 'System hibernates' dropdown menu is open.",
+        "action": "Click the 'After 5 hours' option in the 'System hibernates' dropdown menu.",
+        "expected_results": "The 'System hibernates' dropdown menu will show 'After 5 hours' selected."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open and the 'Power Schemes' tab is selected.",
+        "action": "Click the down arrow of the 'Power schemes' dropdown menu.",
+        "expected_results": "A list of available power schemes will be displayed."
+    },
+    {
+        "precondition": "The Power Options Properties window is open and the 'Power schemes' dropdown menu displays 'Home/Office Desk' as the currently selected option.",
+        "action": "Click the 'Power schemes' dropdown menu and select 'Always On'.",
+        "expected_results": "The 'Power schemes' dropdown menu will show 'Always On' selected. Two new buttons, 'Save As...' and 'Delete', will appear next to the 'Power schemes' dropdown menu."
+    },
+    {
+        "precondition": "The Power Options Properties window should be open and the 'Always On' power scheme should be selected.",
+        "action": "Click the dropdown button for the 'Turn off hard disks' setting.",
+        "expected_results": "A dropdown menu will appear, displaying a list of time intervals to choose from."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Always On\" power scheme is selected.",
+        "action": "Click the dropdown button labeled \"Turn off monitor\" within the \"Settings for Always On power scheme\" section.",
+        "expected_results": "A dropdown menu will appear, displaying a list of time interval options ranging from \"After 1 min\" to \"Never\"."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open and the \"Always On\" power scheme is selected. The \"System hibernates\" dropdown menu is expanded.",
+        "action": "Click the \"Never\" item in the \"System hibernates\" dropdown menu.",
+        "expected_results": "The \"System hibernates\" dropdown menu will show \"Never\" selected."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the desired power scheme selected and settings configured.",
+        "action": "Click the \"OK\" button at the bottom of the window.",
+        "expected_results": "The \"Power Options Properties\" window will close, and the selected power settings will be applied."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open with the \"Screen Saver\" tab selected.",
+        "action": "Click the \"OK\" button at the bottom of the window.",
+        "expected_results": "The \"Display Properties\" window will close."
+    },
+    {
+        "precondition": "The \"Appearance and Themes\" window is open in the Control Panel.",
+        "action": "Click the close button in the top right corner of the \"Appearance and Themes\" window.",
+        "expected_results": "The \"Appearance and Themes\" window will close."
+    }
+]
