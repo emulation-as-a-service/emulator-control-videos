@@ -56,7 +56,7 @@
   },
   {
     "precondition": "The \"Turn off monitor\" dropdown menu is expanded.",
-    "action": "Click the \"Never\" option in the \"Turn off hard disks\" dropdown menu.",
+    "action": "Click the \"Never\" option in the \"Turn off monitor\" dropdown menu.",
     "expected_results": "The \"Turn off monitor\" dropdown menu will close."
   },
   {
