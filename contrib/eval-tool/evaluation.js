@@ -2,12 +2,14 @@ document.getElementById('videoFile').addEventListener('change', handleVideoFile)
 document.getElementById('metadataJSONFile').addEventListener('change', handleMetadataJSONFile);
 document.getElementById('groundTruthJSONFile').addEventListener('change', handleGroundTruthJSONFile);
 document.getElementById('workflowJSONFile').addEventListener('change', handleWorkflowJSONFile);
+document.getElementById('previousEvaluationJSONFile').addEventListener('change', handlePreviousEvaluationJSONFile);
 document.getElementById('downloadEvaluation').addEventListener('click', downloadEvaluation);
 
 let metadata = [];
 let groundTruth = [];
 let workflow = [];
 let evaluationData = [];
+let previousEvaluation = [];
 
 function handleVideoFile(event) {
     const file = event.target.files[0];
@@ -58,9 +60,24 @@ function handleWorkflowJSONFile(event) {
     reader.readAsText(file);
 }
 
+function handlePreviousEvaluationJSONFile(event) {
+    const file = event.target.files[0];
+    const reader = new FileReader();
+    reader.onload = function (event) {
+        try {
+            previousEvaluation = JSON.parse(event.target.result);
+            generateEvaluationForms();
+        } catch (error) {
+            console.error("Error parsing previous evaluation:", error);
+        }
+    };
+    reader.readAsText(file);
+}
+
 function generateEvaluationForms() {
     const formsContainer = document.getElementById('evaluationForms');
     formsContainer.innerHTML = '';
+    evaluationData = []; // Clear existing evaluation data
 
     if (metadata.events && metadata.events.length > 0) {
         for (let i = 0; i < metadata.events.length; i++) {
@@ -179,24 +196,33 @@ function createEvaluationColumn(index) {
     colDiv.appendChild(indexElement);
     colDiv.appendChild(titleLabel);
 
-    const goodFrameRadio = createRadioInput(index, 'good', true);
-    const inaccurateFrameRadio = createRadioInput(index, 'inaccurate', false);
+    const goodFrameRadio = createRadioInput(index, 'good', isPreviousValue(index, 'accuracy', 'good'));
+    const inaccurateFrameRadio = createRadioInput(index, 'inaccurate', isPreviousValue(index, 'accuracy', 'inaccurate'));
 
     colDiv.appendChild(createRadioLabel('Good', goodFrameRadio));
     colDiv.appendChild(createRadioLabel('Inaccurate', inaccurateFrameRadio));
 
-    const inaccurateOptions = createInaccurateOptions(index);
+    const inaccurateOptions = createInaccurateOptions(index, isPreviousValue(index, 'accuracy', 'inaccurate'));
     colDiv.appendChild(inaccurateOptions);
 
     evaluationData.push({
         index,
-        accuracy: 'good', // default value
-        preconditionInaccurate: false,
-        actionInaccurate: false,
-        expectedResultsInaccurate: false
+        accuracy: getPreviousValue(index, 'accuracy') || 'good', // default value
+        preconditionInaccurate: getPreviousValue(index, 'preconditionInaccurate') || false,
+        actionInaccurate: getPreviousValue(index, 'actionInaccurate') || false,
+        expectedResultsInaccurate: getPreviousValue(index, 'expectedResultsInaccurate') || false
     });
 
     return colDiv;
+}
+
+function getPreviousValue(index, key) {
+    const prevEval = previousEvaluation.find(ev => ev.index === index);
+    return prevEval ? prevEval[key] : null;
+}
+
+function isPreviousValue(index, key, value) {
+    return getPreviousValue(index, key) === value;
 }
 
 function createRadioLabel(text, input) {
@@ -217,29 +243,34 @@ function createRadioInput(index, value, checked) {
     return radio;
 }
 
-function createInaccurateOptions(index) {
+function createInaccurateOptions(index, show) {
     const div = document.createElement('div');
     div.classList.add('inaccurate-options');
     div.id = `inaccurate-options-${index}`;
 
-    const preconditionInput = createCheckboxInput(index, 'precondition', 'Precondition');
-    const actionInput = createCheckboxInput(index, 'action', 'Action');
-    const expectedResultsInput = createCheckboxInput(index, 'expectedResults', 'Expected Results');
+    const preconditionInput = createCheckboxInput(index, 'precondition', 'Precondition', getPreviousValue(index, 'preconditionInaccurate'));
+    const actionInput = createCheckboxInput(index, 'action', 'Action', getPreviousValue(index, 'actionInaccurate'));
+    const expectedResultsInput = createCheckboxInput(index, 'expectedResults', 'Expected Results', getPreviousValue(index, 'expectedResultsInaccurate'));
 
     div.appendChild(preconditionInput.container);
     div.appendChild(actionInput.container);
     div.appendChild(expectedResultsInput.container);
 
+    if (show) {
+        div.style.display = 'block';
+    }
+
     return div;
 }
 
-function createCheckboxInput(index, field, text) {
+function createCheckboxInput(index, field, text, checked) {
     const container = document.createElement('div');
 
     const input = document.createElement('input');
     input.type = 'checkbox';
     input.name = `${field}-${index}`;
     input.value = field;
+    input.checked = checked || false;
     input.addEventListener('change', () => onCheckboxChange(index, field));
 
     const label = document.createElement('label');
@@ -253,34 +284,26 @@ function createCheckboxInput(index, field, text) {
 }
 
 function onRadioChange(event) {
-    const index = event.target.name.split('-')[1];
+    const index = parseInt(event.target.name.split('-')[1], 10);
     const inaccurateOptions = document.getElementById(`inaccurate-options-${index}`);
 
     if (event.target.value === 'good') {
         inaccurateOptions.style.display = 'none';
-        updateEvaluationData(index, 'good');
+        updateEvaluationData(index, 'accuracy', 'good');
     } else {
         inaccurateOptions.style.display = 'block';
-        updateEvaluationData(index, 'inaccurate');
+        updateEvaluationData(index, 'accuracy', 'inaccurate');
     }
 }
 
 function onCheckboxChange(index, field) {
-    const data = evaluationData.find(item => item.index == index);
-
-    if (field === 'precondition') {
-        data.preconditionInaccurate = !data.preconditionInaccurate;
-    } else if (field === 'action') {
-        data.actionInaccurate = !data.actionInaccurate;
-    } else if (field === 'expectedResults') {
-        data.expectedResultsInaccurate = !data.expectedResultsInaccurate;
-    }
+    updateEvaluationData(index, `${field}Inaccurate`, !getPreviousValue(index, `${field}Inaccurate`));
 }
 
-function updateEvaluationData(index, accuracy) {
+function updateEvaluationData(index, key, value) {
     const data = evaluationData.find(item => item.index == index);
     if (data) {
-        data.accuracy = accuracy;
+        data[key] = value;
     }
 }
 
