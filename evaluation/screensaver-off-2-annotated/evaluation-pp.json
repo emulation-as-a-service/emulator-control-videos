@@ -1,0 +1,93 @@
+[
+  {
+    "index": 0,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 1,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 2,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 3,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 4,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": true,
+    "actionInaccurate": true,
+    "expectedResultsInaccurate": true
+  },
+  {
+    "index": 5,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 6,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 7,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": false,
+    "actionInaccurate": true,
+    "expectedResultsInaccurate": true
+  },
+  {
+    "index": 8,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 9,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": true,
+    "actionInaccurate": true,
+    "expectedResultsInaccurate": true
+  },
+  {
+    "index": 10,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 11,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": true,
+    "actionInaccurate": true,
+    "expectedResultsInaccurate": true
+  },
+  {
+    "index": 12,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  }
+]
