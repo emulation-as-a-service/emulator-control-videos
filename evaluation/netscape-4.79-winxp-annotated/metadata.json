@@ -1,0 +1,363 @@
+{
+    "model": "gemini-1.5-pro",
+    "temperature": 0.4,
+    "timestamp": "2024-07-30T17:32:50.600211",
+    "events": [
+        {
+            "time": 2262,
+            "event": "mousedown",
+            "x": 63,
+            "y": 753,
+            "button": 0,
+            "frame": 36,
+            "time_end": 2.262,
+            "frame_end": 36
+        },
+        {
+            "time": 7169,
+            "event": "mousedown",
+            "x": 277,
+            "y": 463,
+            "button": 0,
+            "frame": 114,
+            "time_end": 7.169,
+            "frame_end": 114
+        },
+        {
+            "time": 13.177,
+            "event": "doubleclick",
+            "x": 540,
+            "y": 469,
+            "frame": 206,
+            "time_end": 13.177,
+            "frame_end": 210
+        },
+        {
+            "time": 15.902,
+            "event": "doubleclick",
+            "x": 324,
+            "y": 225,
+            "frame": 251,
+            "time_end": 15.902,
+            "frame_end": 254
+        },
+        {
+            "time": 58856,
+            "event": "mousedown",
+            "x": 613,
+            "y": 547,
+            "button": 0,
+            "frame": 941,
+            "time_end": 58.856,
+            "frame_end": 941
+        },
+        {
+            "time": 62673,
+            "event": "mousedown",
+            "x": 625,
+            "y": 547,
+            "button": 0,
+            "frame": 1002,
+            "time_end": 62.673,
+            "frame_end": 1002
+        },
+        {
+            "time": 66537,
+            "event": "mousedown",
+            "x": 612,
+            "y": 544,
+            "button": 0,
+            "frame": 1064,
+            "time_end": 66.537,
+            "frame_end": 1064
+        },
+        {
+            "time": 69957,
+            "event": "mousedown",
+            "x": 470,
+            "y": 446,
+            "button": 0,
+            "frame": 1119,
+            "time_end": 69.957,
+            "frame_end": 1119
+        },
+        {
+            "time": 83078,
+            "event": "mousedown",
+            "x": 605,
+            "y": 544,
+            "button": 0,
+            "frame": 1329,
+            "time_end": 83.078,
+            "frame_end": 1329
+        },
+        {
+            "time": 85624,
+            "event": "mousedown",
+            "x": 607,
+            "y": 541,
+            "button": 0,
+            "frame": 1369,
+            "time_end": 85.624,
+            "frame_end": 1369
+        },
+        {
+            "time": 90117,
+            "event": "mousedown",
+            "x": 623,
+            "y": 545,
+            "button": 0,
+            "frame": 1441,
+            "time_end": 90.117,
+            "frame_end": 1441
+        },
+        {
+            "time": 226626,
+            "event": "mousedown",
+            "x": 542,
+            "y": 438,
+            "button": 0,
+            "frame": 3626,
+            "time_end": 226.626,
+            "frame_end": 3626
+        },
+        {
+            "time": 229478,
+            "event": "mousedown",
+            "x": 514,
+            "y": 436,
+            "button": 0,
+            "frame": 3671,
+            "time_end": 229.478,
+            "frame_end": 3671
+        },
+        {
+            "time": 237304,
+            "event": "mousedown",
+            "x": 847,
+            "y": 108,
+            "button": 0,
+            "frame": 3796,
+            "time_end": 237.304,
+            "frame_end": 3796
+        },
+        {
+            "time": 238774,
+            "event": "mousedown",
+            "x": 847,
+            "y": 108,
+            "button": 0,
+            "frame": 3820,
+            "time_end": 238.774,
+            "frame_end": 3820
+        },
+        {
+            "time": 243.157,
+            "event": "doubleclick",
+            "x": 39,
+            "y": 25,
+            "frame": 3886,
+            "time_end": 243.157,
+            "frame_end": 3890
+        },
+        {
+            "time": 247568,
+            "event": "mousedown",
+            "x": 515,
+            "y": 536,
+            "button": 0,
+            "frame": 3961,
+            "time_end": 247.568,
+            "frame_end": 3961
+        },
+        {
+            "time": 255531,
+            "event": "keyspressed",
+            "keys": [
+                "Shift_L",
+                "B"
+            ],
+            "frame": 4087,
+            "time_end": 255.531,
+            "frame_end": 4088
+        },
+        {
+            "time": 256044,
+            "event": "keyspressed",
+            "keys": [
+                "o"
+            ],
+            "frame": 4094,
+            "time_end": 256.044,
+            "frame_end": 4096
+        },
+        {
+            "time": 256283,
+            "event": "keyspressed",
+            "keys": [
+                "b"
+            ],
+            "frame": 4098,
+            "time_end": 256.283,
+            "frame_end": 4100
+        },
+        {
+            "time": 256512,
+            "event": "keyspressed",
+            "keys": [
+                "space"
+            ],
+            "frame": 4101,
+            "time_end": 256.512,
+            "frame_end": 4104
+        },
+        {
+            "time": 256863,
+            "event": "keyspressed",
+            "keys": [
+                "Shift_L",
+                "A"
+            ],
+            "frame": 4108,
+            "time_end": 256.863,
+            "frame_end": 4109
+        },
+        {
+            "time": 257675,
+            "event": "keyspressed",
+            "keys": [
+                "l",
+                "i"
+            ],
+            "frame": 4121,
+            "time_end": 257.675,
+            "frame_end": 4122
+        },
+        {
+            "time": 257910,
+            "event": "keyspressed",
+            "keys": [
+                "c"
+            ],
+            "frame": 4124,
+            "time_end": 257.91,
+            "frame_end": 4126
+        },
+        {
+            "time": 258110,
+            "event": "keyspressed",
+            "keys": [
+                "e"
+            ],
+            "frame": 4128,
+            "time_end": 258.11,
+            "frame_end": 4129
+        },
+        {
+            "time": 258843,
+            "event": "keyspressed",
+            "keys": [
+                "s"
+            ],
+            "frame": 4140,
+            "time_end": 258.843,
+            "frame_end": 4141
+        },
+        {
+            "time": 258968,
+            "event": "keyspressed",
+            "keys": [
+                "o"
+            ],
+            "frame": 4141,
+            "time_end": 258.968,
+            "frame_end": 4143
+        },
+        {
+            "time": 259177,
+            "event": "keyspressed",
+            "keys": [
+                "n"
+            ],
+            "frame": 4145,
+            "time_end": 259.177,
+            "frame_end": 4146
+        },
+        {
+            "time": 261323,
+            "event": "mousedown",
+            "x": 515,
+            "y": 536,
+            "button": 0,
+            "frame": 4181,
+            "time_end": 261.323,
+            "frame_end": 4181
+        },
+        {
+            "time": 264427,
+            "event": "mousedown",
+            "x": 515,
+            "y": 536,
+            "button": 0,
+            "frame": 4230,
+            "time_end": 264.427,
+            "frame_end": 4230
+        },
+        {
+            "time": 266473,
+            "event": "mousedown",
+            "x": 579,
+            "y": 526,
+            "button": 0,
+            "frame": 4263,
+            "time_end": 266.473,
+            "frame_end": 4263
+        },
+        {
+            "time": 275973,
+            "event": "mousedown",
+            "x": 343,
+            "y": 275,
+            "button": 0,
+            "frame": 4415,
+            "time_end": 275.973,
+            "frame_end": 4415
+        },
+        {
+            "time": 278477,
+            "event": "mousedown",
+            "x": 707,
+            "y": 8,
+            "button": 0,
+            "frame": 4455,
+            "time_end": 278.477,
+            "frame_end": 4455
+        },
+        {
+            "time": 280.394,
+            "event": "mousedrag",
+            "x": 307,
+            "y": 18,
+            "x_end": 515,
+            "y_end": 134,
+            "frame": 4486,
+            "time_end": 281.714,
+            "frame_end": 4507
+        },
+        {
+            "time": 284262,
+            "event": "mousedown",
+            "x": 829,
+            "y": 130,
+            "button": 0,
+            "frame": 4548,
+            "time_end": 284.262,
+            "frame_end": 4548
+        }
+    ],
+    "video_fps": 16.0,
+    "video_frame_count": 4667,
+    "video_width": 1024,
+    "video_height": 768,
+    "video_duration": 291.6875
+}
