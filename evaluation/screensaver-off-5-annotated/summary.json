@@ -1,0 +1,77 @@
+[
+    {
+        "frame": 31,
+        "event": "Right click on the desktop background. \n",
+        "timestamp": 1.9375,
+        "description": "The user right-clicked on the desktop background. This action opened a context menu with options such as \"Arrange Icons By,\" \"Refresh,\" \"Paste,\" \"New,\" and \"Properties.\" \n",
+        "outcome": "A context menu appeared on the desktop, offering options such as \"Arrange Icons By,\" \"Refresh,\" \"Paste,\" \"New,\" and \"Properties.\" The mouse cursor is no longer visible. \n"
+    },
+    {
+        "frame": 80,
+        "event": "The mouse is clicking on the \"Properties\" menu item of the desktop context menu. \n",
+        "timestamp": 5.0,
+        "description": "The user clicked on the \"Properties\" option in the desktop context menu. As a result, the \"Display Properties\" window opened. \n",
+        "outcome": "The \"Display Properties\" window became the active window on the Windows XP desktop. \n"
+    },
+    {
+        "frame": 157,
+        "event": "The mouse is clicking on the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 9.8125,
+        "description": "The user clicked the \"Screen Saver\" dropdown menu within the \"Display Properties\" window and selected \"None\". \n",
+        "outcome": "The \"Screen Saver\" dropdown menu changed to display \"None\". \n",
+        "label_clicked": "ScreSaver"
+    },
+    {
+        "frame": 230,
+        "event": "The mouse is clicking on the dropdown button of the \"Screen saver\" option in the \"Display Properties\" window. \n",
+        "timestamp": 14.375,
+        "description": "The user clicked the dropdown button of the **\"Screen saver\"** option. The dropdown menu opened, revealing a list of screen saver options, and the selected option changed from \"Windows XP\" to **\"None\"**. \n",
+        "outcome": "The \"Screen Saver\" dropdown menu within the \"Display Properties\" window was opened, and the selected option was changed from \"Windows XP\" to \"None\". \n"
+    },
+    {
+        "frame": 261,
+        "event": "The mouse is clicking on the \"Power...\" button, located within the \"Screen Saver\" tab of the \"Display Properties\" window. \n",
+        "timestamp": 16.3125,
+        "description": "The user clicks the \"Power...\" button within the \"Screen Saver\" tab of the \"Display Properties\" window.  This opens the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window opened, displaying \"Never\" in the \"Turn off monitor\" dropdown menu within the \"Power Schemes\" tab. \n",
+        "label_clicked": "(None"
+    },
+    {
+        "frame": 309,
+        "event": "The mouse is clicking on the \"Power...\" button within the \"Display Properties\" window. \n",
+        "timestamp": 19.3125,
+        "description": "The user clicked the \"Power...\" button located in the \"Monitor power\" section of the \"Display Properties\" window's \"Screen Saver\" tab. This action resulted in the \"Power Options Properties\" window opening. \n",
+        "outcome": "The \"Power Options Properties\" window opened in front of the \"Display Properties\" window. The \"Display Properties\" window title bar now reads \"Display Properties - Power Options Properties\", and the \"Screen Saver\" tab within it is no longer visible. \n"
+    },
+    {
+        "frame": 373,
+        "event": "The mouse is clicking on the dropdown button to change the \"Turn off monitor\" setting. \n",
+        "timestamp": 23.3125,
+        "description": "The user clicked the dropdown button next to the \"Turn off monitor\" setting within the \"Power Options Properties\" window. \n",
+        "outcome": "The \"Power Options Properties\" window remained open and active, with no changes in its content or appearance. The \"Turn off monitor\" dropdown menu remained expanded, with the \"After 20 mins\" option still highlighted. \n"
+    },
+    {
+        "frame": 414,
+        "event": "The mouse is clicking on the \"Never\" option in the \"Turn off monitor\" dropdown menu. \n",
+        "timestamp": 25.875,
+        "description": "The user clicks on the \"Never\" option within the \"Turn off monitor\" dropdown menu in the \"Power Options Properties\" window.  As a result, the \"Never\" option is highlighted, indicating that the monitor will no longer automatically turn off. \n",
+        "outcome": "The \"Turn off monitor\" dropdown menu within the \"Power Schemes\" tab of the \"Power Options Properties\" window is now open, with the \"Never\" option highlighted, indicating it has been selected. \n",
+        "label_clicked": "After 5 hours"
+    },
+    {
+        "frame": 440,
+        "event": "The mouse is clicking on the \"OK\" button of the \"Power Options Properties\" window. \n",
+        "timestamp": 27.5,
+        "description": "The user clicks the \"**OK**\" button at the bottom of the \"Power Options Properties\" window. This applies the selected power scheme settings, including setting \"Turn off monitor\" to \"Never,\" and closes the \"Power Options Properties\" window. \n",
+        "outcome": "In the Display Properties window, on the Screen Saver tab, the selected screensaver has been changed to \"None\". The \"Wait\" time remains at 10 minutes, but is no longer relevant. \n",
+        "label_clicked": "OK"
+    },
+    {
+        "frame": 461,
+        "event": "The mouse is clicking on the OK button of the Display Properties window. \n",
+        "timestamp": 28.8125,
+        "description": "The user clicks the \"OK\" button at the bottom of the \"Display Properties\" window. As a result, the \"Display Properties\" window closes. \n",
+        "outcome": "The display is showing the Windows XP desktop background and taskbar. No windows or applications appear to be open or active. \n",
+        "label_clicked": "OK"
+    }
+]

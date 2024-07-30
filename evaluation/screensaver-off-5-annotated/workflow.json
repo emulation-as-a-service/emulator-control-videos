@@ -1,0 +1,52 @@
+[
+    {
+        "precondition": "The Windows XP desktop is visible.",
+        "action": "Right Click on the desktop background.",
+        "expected_results": "A context menu will appear with options such as \"Arrange Icons By,\" \"Refresh,\" \"Paste,\" \"New,\" and \"Properties.\" "
+    },
+    {
+        "precondition": "The desktop context menu is visible.",
+        "action": "Click the menu item 'Properties'.",
+        "expected_results": "The 'Display Properties' window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active.",
+        "action": "Click the \"Screen Saver\" dropdown menu and select \"None\".",
+        "expected_results": "The \"Screen Saver\" dropdown menu will display \"None\" as the selected option."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open, and the 'Screen Saver' tab is selected.",
+        "action": "Click the dropdown button labeled 'Screen saver'. Then, click the 'None' option in the opened list.",
+        "expected_results": "The 'Screen saver' dropdown menu will display 'None' as the selected option."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open, showing the 'Screen Saver' tab. The 'Screen Saver' dropdown menu should display 'None' as the selected option.",
+        "action": "Click the 'Power...' button located to the right of the 'Screen Saver' dropdown menu.",
+        "expected_results": "The 'Power Options Properties' window will open."
+    },
+    {
+        "precondition": "The \"Display Properties\" window is open and the \"Screen Saver\" tab is active. The \"Power...\" button is visible within the \"Monitor power\" section.",
+        "action": "Click the \"Power...\" button in the \"Monitor power\" section.",
+        "expected_results": "The \"Power Options Properties\" window will open in front of the \"Display Properties\" window."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Turn off monitor\" option should be visible with a dropdown menu displaying \"After 20 mins\".",
+        "action": "Click the dropdown button next to the \"Turn off monitor\" setting.",
+        "expected_results": "The dropdown menu will expand, displaying a list of time options for the \"Turn off monitor\" setting."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Turn off monitor\" dropdown menu should be accessible and visible within this tab.",
+        "action": "Click the \"Never\" option within the \"Turn off monitor\" dropdown menu.",
+        "expected_results": "The \"Never\" option will become highlighted, indicating that the monitor will no longer automatically turn off."
+    },
+    {
+        "precondition": "The \"Power Options Properties\" window is open with the \"Power Schemes\" tab selected. The \"Turn off monitor\" dropdown menu within the \"Settings for Home/Office Desk power scheme\" section should display \"Never.\"",
+        "action": "Click the \"OK\" button at the bottom of the window.",
+        "expected_results": "The \"Power Options Properties\" window will close. The changes to the power scheme, including setting the monitor to never turn off, will be applied."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open and the 'Screen Saver' tab is active. The mouse cursor is hovering over the 'OK' button.",
+        "action": "Click the 'OK' button.",
+        "expected_results": "The 'Display Properties' window will close."
+    }
+]
