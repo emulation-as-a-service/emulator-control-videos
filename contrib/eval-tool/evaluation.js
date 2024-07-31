@@ -126,7 +126,8 @@ function createMetadataColumn(index, data) {
         link.innerText = `Time: ${data.time}`;
         link.addEventListener('click', () => {
             const videoPlayer = document.getElementById('videoPlayer');
-            videoPlayer.currentTime = data.time / 1000; // Assuming time is in milliseconds
+            const timeInSeconds = Number.isInteger(data.time) ? data.time / 1000 : data.time;
+            videoPlayer.currentTime = timeInSeconds; 
         });
         timeElement.appendChild(link);
         colDiv.appendChild(timeElement);

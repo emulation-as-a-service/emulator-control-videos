@@ -44,10 +44,11 @@ function generateForms(events) {
 
         const jumpLink = document.createElement('a');
         jumpLink.href = '#';
-        jumpLink.innerText = `Event ${index + 1} (Time: ${e.time / 1000}s)`;
+        const timeInSeconds = Number.isInteger(e.time) ? e.time / 1000 : e.time;
+        jumpLink.innerText = `Event ${index + 1} (Time: ${timeInSeconds}s)`;
         jumpLink.addEventListener('click', () => {
             const videoPlayer = document.getElementById('videoPlayer');
-            videoPlayer.currentTime = e.time / 1000;
+            videoPlayer.currentTime = timeInSeconds;
         });
 
         form.appendChild(jumpLink);
