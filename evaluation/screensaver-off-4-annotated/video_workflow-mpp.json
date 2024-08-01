@@ -1,0 +1,48 @@
+[
+  {
+    "precondition": "The user is on the Windows XP desktop. The mouse cursor is hovering over an empty space.",
+    "action": "The user right-clicks on an empty space on the desktop.",
+    "expected_results": "A context menu should appear with options like 'Arrange Icons By', 'Refresh', 'Paste', 'Paste Shortcut', 'New', and 'Properties'."
+  },
+  {
+    "precondition": "The context menu is open and the 'Properties' option is visible.",
+    "action": "The user moves the mouse cursor to the 'Properties' option and clicks on it.",
+    "expected_results": "The 'Display Properties' window should open."
+  },
+  {
+    "precondition": "The 'Display Properties' window is open and the 'Appearance' tab is active.",
+    "action": "The user clicks on the 'Screen Saver' tab.",
+    "expected_results": "The 'Screen Saver' tab should become active, displaying screen saver settings."
+  },
+  {
+    "precondition": "The 'Screen Saver' tab is active. The 'Screen Saver' dropdown menu is set to 'Windows XP'.",
+    "action": "The user clicks on the 'Screen Saver' dropdown menu and selects 'None'.",
+    "expected_results": "The 'Screen Saver' dropdown menu should now display 'None'. The preview window should update to reflect the absence of a screen saver."
+  },
+  {
+    "precondition": "The 'Screen Saver' tab is active. The 'Screen Saver' is set to 'None'.",
+    "action": "The user clicks the 'OK' button.",
+    "expected_results": "The 'Power Options Properties' window should appear."
+  },
+  {
+    "precondition": "The 'Power Options Properties' window is open. The 'Power Schemes' tab is active. The 'Turn off hard disks' dropdown menu is set to 'After 20 mins'.",
+    "action": "The user clicks on the 'Turn off hard disks' dropdown menu.",
+    "expected_results": "A list of time options should appear, ranging from 'After 1 min' to 'Never'."
+  },
+  {
+    "precondition": "The 'Turn off hard disks' dropdown menu is open, displaying the list of time options.",
+    "action": "The user clicks outside of the dropdown menu without selecting a new option.",
+    "expected_results": "The dropdown menu should close, and the 'Turn off hard disks' setting should remain unchanged at 'After 20 mins'."
+  },
+  {
+    "precondition": "The 'Power Options Properties' window is open. The 'Power Schemes' tab is active.",
+    "action": "The user clicks the 'OK' button.",
+    "expected_results": "The 'Power Options Properties' window should close."
+  },
+  {
+    "precondition": "The 'Display Properties' window is open. The 'Screen Saver' tab is active.",
+    "action": "The user clicks the 'OK' button.",
+    "expected_results": "The 'Display Properties' window should close."
+  }
+]
+

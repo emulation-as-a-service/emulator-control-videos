@@ -1,0 +1,92 @@
+[
+    {
+        "precondition": "The user is on the Windows XP desktop. The Start Menu is visible.",
+        "action": "Clicks the 'Start' button.",
+        "expected_results": "The Start Menu should open, displaying a list of programs and options."
+    },
+    {
+        "precondition": "The Start Menu is open.",
+        "action": "Hovers the mouse cursor over the 'Control Panel' option.",
+        "expected_results": "The system should display a tooltip describing the 'Control Panel' option."
+    },
+    {
+        "precondition": "The mouse cursor is hovering over the 'Control Panel' option.",
+        "action": "Clicks the 'Control Panel' option.",
+        "expected_results": "The Control Panel window should open."
+    },
+    {
+        "precondition": "The Control Panel window is open in 'Category View'.",
+        "action": "Hovers the mouse cursor over the 'Date, Time, Language, and Regional Options' category.",
+        "expected_results": "The system should display a tooltip describing the 'Date, Time, Language, and Regional Options' category."
+    },
+    {
+        "precondition": "The Control Panel window is open in 'Category View'.",
+        "action": "Clicks the 'Switch to Classic View' link.",
+        "expected_results": "The Control Panel should switch to 'Classic View', displaying all control panel icons."
+    },
+    {
+        "precondition": "The Control Panel window is open in 'Classic View'.",
+        "action": "Hovers the mouse cursor over the 'Add or Remove Programs' icon.",
+        "expected_results": "The system should display a tooltip describing the 'Add or Remove Programs' function."
+    },
+    {
+        "precondition": "The Control Panel window is open in 'Classic View'.",
+        "action": "Hovers the mouse cursor over the 'Power Options' icon.",
+        "expected_results": "The system should display a tooltip describing the 'Power Options' function."
+    },
+    {
+        "precondition": "The Control Panel window is open in 'Classic View'.",
+        "action": "Double-clicks the 'Power Options' icon.",
+        "expected_results": "The 'Power Options Properties' window should open."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open. The 'Turn off monitor' dropdown menu is set to 'After 20 mins'.",
+        "action": "Clicks the 'Turn off monitor' dropdown menu.",
+        "expected_results": "The dropdown menu should expand, displaying a list of time options."
+    },
+    {
+        "precondition": "The 'Turn off monitor' dropdown menu is expanded.",
+        "action": "Selects 'Never' from the 'Turn off monitor' dropdown menu.",
+        "expected_results": "The 'Turn off monitor' dropdown menu should now display 'Never'."
+    },
+    {
+        "precondition": "The 'Power Options Properties' window is open. The 'Turn off monitor' dropdown menu is set to 'Never'.",
+        "action": "Clicks the 'OK' button.",
+        "expected_results": "The 'Power Options Properties' window should close, and the changes should be applied."
+    },
+    {
+        "precondition": "The Control Panel window is open in 'Classic View'.",
+        "action": "Hovers the mouse cursor over the 'Display' icon.",
+        "expected_results": "The system should display a tooltip describing the 'Display' function."
+    },
+    {
+        "precondition": "The Control Panel window is open in 'Classic View'.",
+        "action": "Double-clicks the 'Display' icon.",
+        "expected_results": "The 'Display Properties' window should open."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open.",
+        "action": "Clicks the 'Screen Saver' tab.",
+        "expected_results": "The 'Screen Saver' tab should become active, displaying screen saver settings."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open on the 'Screen Saver' tab. The 'Screen saver' dropdown menu is set to 'Windows XP'.",
+        "action": "Clicks the 'Screen saver' dropdown menu.",
+        "expected_results": "The dropdown menu should expand, displaying a list of screen saver options."
+    },
+    {
+        "precondition": "The 'Screen saver' dropdown menu is expanded.",
+        "action": "Selects 'None' from the 'Screen saver' dropdown menu.",
+        "expected_results": "The 'Screen saver' dropdown menu should now display 'None'."
+    },
+    {
+        "precondition": "The 'Display Properties' window is open on the 'Screen Saver' tab. The 'Screen saver' dropdown menu is set to 'None'.",
+        "action": "Clicks the 'OK' button.",
+        "expected_results": "The 'Display Properties' window should close, and the changes should be applied."
+    },
+    {
+        "precondition": "The Control Panel window is open in 'Classic View'.",
+        "action": "Clicks the close button ('X') of the Control Panel window.",
+        "expected_results": "The Control Panel window should close."
+    }
+]

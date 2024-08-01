@@ -1,0 +1,65 @@
+[
+  {
+    "index": 0,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 1,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 2,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": true,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 3,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": false,
+    "actionInaccurate": true,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 4,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": false,
+    "actionInaccurate": true,
+    "expectedResultsInaccurate": true
+  },
+  {
+    "index": 5,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": false,
+    "actionInaccurate": true,
+    "expectedResultsInaccurate": true
+  },
+  {
+    "index": 6,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": true,
+    "actionInaccurate": true,
+    "expectedResultsInaccurate": true
+  },
+  {
+    "index": 7,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 8,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  }
+]

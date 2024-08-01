@@ -1,0 +1,83 @@
+[
+    {
+      "precondition": "The user is on the Windows XP desktop. The 'Start' menu is visible.",
+      "action": "Clicks the 'Start' button.",
+      "expected_results": "The 'Start' menu should open, displaying a list of programs and options."
+    },
+    {
+      "precondition": "The 'Control Panel' option is highlighted in the 'Start' menu.",
+      "action": "Clicks the 'Control Panel' option.",
+      "expected_results": "The 'Control Panel' window should open, displaying various system settings and options."
+    },
+    {
+      "precondition": "The 'Control Panel' window is open.",
+      "action": "Clicks the 'Add or Remove Programs' icon.",
+      "expected_results": "The 'Add or Remove Programs' window should open, displaying a list of installed programs."
+    },
+    {
+      "precondition": "The 'Control Panel' window is open.",
+      "action": "Clicks the 'Appearance and Themes' icon.",
+      "expected_results": "The 'Appearance and Themes' window should open, displaying options for customizing the computer's appearance."
+    },
+    {
+      "precondition": "The 'Appearance and Themes' window is open.",
+      "action": "Clicks the 'Display' icon.",
+      "expected_results": "The 'Display Properties' window should open, displaying settings for the desktop background, screen saver, appearance, and settings."
+    },
+    {
+      "precondition": "The 'Display Properties' window is open.",
+      "action": "Clicks the 'Screen Saver' tab.",
+      "expected_results": "The 'Screen Saver' settings should be displayed, allowing the user to choose and customize a screen saver."
+    },
+    {
+      "precondition": "The 'Screen Saver' tab is active in the 'Display Properties' window.",
+      "action": "Clicks the dropdown menu for 'Screen saver'.",
+      "expected_results": "A list of available screen savers should appear in the dropdown menu."
+    },
+    {
+      "precondition": "The screen saver dropdown menu is open.",
+      "action": "Selects 'None' from the screen saver dropdown menu.",
+      "expected_results": "The screen saver should be set to 'None', disabling any screen saver from activating."
+    },
+    {
+      "precondition": "The 'Screen Saver' tab is active in the 'Display Properties' window.",
+      "action": "Clicks the 'Power...' button.",
+      "expected_results": "The 'Power Options Properties' window should open, displaying settings for power management."
+    },
+    {
+      "precondition": "The 'Power Options Properties' window is open.",
+      "action": "Clicks the dropdown menu for 'Power schemes'.",
+      "expected_results": "A list of available power schemes should appear in the dropdown menu."
+    },
+    {
+      "precondition": "The power schemes dropdown menu is open.",
+      "action": "Selects 'Always On' from the power schemes dropdown menu.",
+      "expected_results": "The selected power scheme should change to 'Always On', and the settings below should update to reflect the new scheme."
+    },
+    {
+      "precondition": "The 'Always On' power scheme is selected.",
+      "action": "Clicks the dropdown menu for 'Turn off monitor'.",
+      "expected_results": "A list of time intervals should appear, allowing the user to choose when the monitor should turn off."
+    },
+    {
+      "precondition": "The 'Turn off monitor' dropdown menu is open.",
+      "action": "Selects 'Never' from the 'Turn off monitor' dropdown menu.",
+      "expected_results": "The monitor should be set to never turn off automatically."
+    },
+    {
+      "precondition": "The 'Power Options Properties' window is open with changes made.",
+      "action": "Clicks the 'Cancel' button.",
+      "expected_results": "The 'Power Options Properties' window should close without saving any changes."
+    },
+    {
+      "precondition": "The 'Display Properties' window is open.",
+      "action": "Clicks the 'OK' button.",
+      "expected_results": "The 'Display Properties' window should close, and any applied changes should take effect."
+    },
+    {
+      "precondition": "The 'Appearance and Themes' window is open.",
+      "action": "Clicks the 'Go' button.",
+      "expected_results": "The window should navigate back to the previous folder, likely the Control Panel."
+    }
+  ]
+  

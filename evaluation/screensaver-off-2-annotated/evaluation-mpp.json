@@ -1,0 +1,100 @@
+[
+  {
+    "index": 0,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 1,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 2,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 3,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": true,
+    "actionInaccurate": true,
+    "expectedResultsInaccurate": true
+  },
+  {
+    "index": 4,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 5,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 6,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 7,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 8,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 9,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": false,
+    "actionInaccurate": true,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 10,
+    "accuracy": "inaccurate",
+    "preconditionInaccurate": true,
+    "actionInaccurate": true,
+    "expectedResultsInaccurate": true
+  },
+  {
+    "index": 11,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 12,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  },
+  {
+    "index": 13,
+    "accuracy": "good",
+    "preconditionInaccurate": false,
+    "actionInaccurate": false,
+    "expectedResultsInaccurate": false
+  }
+]

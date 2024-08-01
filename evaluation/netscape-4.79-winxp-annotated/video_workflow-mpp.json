@@ -1,0 +1,88 @@
+[
+    {
+      "precondition": "The user is on the Windows XP desktop. The 'Start' button is visible in the bottom left corner.",
+      "action": "Clicks the 'Start' button.",
+      "expected_results": "The Start menu should appear, displaying a list of programs and options."
+    },
+    {
+      "precondition": "The Start menu is open. The 'My Computer' option is visible in the right-hand pane.",
+      "action": "Clicks the 'My Computer' option.",
+      "expected_results": "A 'My Computer' window should open, displaying available drives and devices."
+    },
+    {
+      "precondition": "The 'My Computer' window is open. The 'CDROM (D:)' drive icon is visible.",
+      "action": "Double-clicks the 'CDROM (D:)' drive icon.",
+      "expected_results": "The contents of the CD-ROM drive should be displayed in a new window."
+    },
+    {
+      "precondition": "The CD-ROM drive contents are displayed. A file named 'c220479' is visible.",
+      "action": "Right-clicks the 'c220479' file.",
+      "expected_results": "A context menu should appear with options related to the file."
+    },
+    {
+      "precondition": "The context menu for the 'c220479' file is open. The 'Open' option is visible.",
+      "action": "Clicks the 'Open' option.",
+      "expected_results": "The InstallShield self-extracting executable should begin running, displaying a progress bar."
+    },
+    {
+      "precondition": "The Netscape Communicator 4.7 setup wizard welcome screen is displayed. The 'Next >' button is enabled.",
+      "action": "Clicks the 'Next >' button.",
+      "expected_results": "The setup wizard should proceed to the next step, which is the software license agreement."
+    },
+    {
+      "precondition": "The software license agreement is displayed. The 'Yes' button is enabled.",
+      "action": "Clicks the 'Yes' button.",
+      "expected_results": "The setup wizard should proceed to the next step, which is choosing the setup type."
+    },
+    {
+      "precondition": "The setup type selection screen is displayed. The 'Typical' option is selected by default. The 'Next >' button is enabled.",
+      "action": "Clicks the 'Next >' button.",
+      "expected_results": "The setup wizard should proceed to the next step, which is confirming the destination directory."
+    },
+    {
+      "precondition": "The destination directory confirmation screen is displayed. The 'Yes' button is enabled.",
+      "action": "Clicks the 'Yes' button.",
+      "expected_results": "The setup wizard should proceed to the next step, which is verifying available disk space."
+    },
+    {
+      "precondition": "The desktop preferences screen is displayed. The 'Next >' button is enabled.",
+      "action": "Clicks the 'Next >' button.",
+      "expected_results": "The setup wizard should proceed to the next step, which is selecting the program folder."
+    },
+    {
+      "precondition": "The program folder selection screen is displayed. The 'Next >' button is enabled.",
+      "action": "Clicks the 'Next >' button.",
+      "expected_results": "The setup wizard should proceed to the next step, which is confirming the installation settings."
+    },
+    {
+      "precondition": "The installation settings confirmation screen is displayed. The 'Install' button is enabled.",
+      "action": "Clicks the 'Install' button.",
+      "expected_results": "The installation process should begin, displaying a progress bar."
+    },
+    {
+      "precondition": "The dialog box asking to view the README file is displayed. The 'No' button is enabled.",
+      "action": "Clicks the 'No' button.",
+      "expected_results": "The dialog box should close, and a final information dialog should appear."
+    },
+    {
+      "precondition": "The final information dialog is displayed. The 'OK' button is enabled.",
+      "action": "Clicks the 'OK' button.",
+      "expected_results": "The setup wizard should close, and the installation of Netscape Communicator 4.7 should be complete."
+    },
+    {
+      "precondition": "The user is back on the Windows XP desktop. The Netscape Communicator icon is visible.",
+      "action": "Double-clicks the Netscape Communicator icon.",
+      "expected_results": "Netscape Communicator should launch, attempting to connect to the default homepage."
+    },
+    {
+      "precondition": "Netscape Communicator is unable to locate the server for the default homepage.",
+      "action": "Clicks the 'OK' button on the error message dialog.",
+      "expected_results": "The error message dialog should close, and Netscape Communicator should display a blank page."
+    },
+    {
+      "precondition": "Netscape Communicator is open and displaying a blank page.",
+      "action": "Closes the Netscape Communicator window.",
+      "expected_results": "Netscape Communicator should close."
+    }
+  ]
+  

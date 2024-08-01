@@ -1,0 +1,163 @@
+[
+    {
+      "precondition": "The user is on the Windows 98 desktop. The 'My Computer' icon is visible.",
+      "action": "Double clicks on the 'My Computer' icon.",
+      "expected_results": "The 'My Computer' window should open, displaying the available drives and system folders."
+    },
+    {
+      "precondition": "The 'My Computer' window is open. The 'Cdrom (D:)' icon is visible.",
+      "action": "Double clicks on the 'Cdrom (D:)' icon.",
+      "expected_results": "The 'Cdrom (D:)' window should open, displaying the contents of the CD-ROM."
+    },
+    {
+      "precondition": "The 'Cdrom (D:)' window is open. The 'cc32d479.exe' file is visible.",
+      "action": "Double clicks on the 'cc32d479.exe' file.",
+      "expected_results": "The 'InstallShield Self-extracting Exe' dialog box should appear and the extraction process should begin."
+    },
+    {
+      "precondition": "The 'InstallShield Self-extracting Exe' dialog box is open. The extraction process is complete.",
+      "action": "The application automatically proceeds to the next step.",
+      "expected_results": "The 'Setup' dialog box should appear with the Netscape Communicator 4.7 logo and a progress bar."
+    },
+    {
+      "precondition": "The 'Setup' dialog box is open. The progress bar reaches 100%.",
+      "action": "The application automatically proceeds to the next step.",
+      "expected_results": "The screen should turn blue and a dialog box indicating 'Initializing setup...' should appear."
+    },
+    {
+      "precondition": "The 'Initializing setup...' dialog box is open.",
+      "action": "The application automatically proceeds to the next step.",
+      "expected_results": "The 'Netscape Communicator 4.7 Setup' window should appear, welcoming the user to the setup process."
+    },
+    {
+      "precondition": "The 'Netscape Communicator 4.7 Setup' window is open. The 'Next>' button is enabled.",
+      "action": "Clicks on the 'Next>' button.",
+      "expected_results": "The 'Software License Agreement' window should appear, displaying the license agreement for Netscape Communicator 4.7."
+    },
+    {
+      "precondition": "The 'Software License Agreement' window is open. The 'Yes' button is enabled.",
+      "action": "Clicks on the 'Yes' button.",
+      "expected_results": "The 'Setup Type' window should appear, allowing the user to choose between 'Typical' and 'Custom' installation."
+    },
+    {
+      "precondition": "The 'Setup Type' window is open. The 'Typical' radio button is selected. The 'Next>' button is enabled.",
+      "action": "Clicks on the 'Next>' button.",
+      "expected_results": "A 'Question' dialog box should appear, asking the user if they want to create the directory 'C:\\\\Program Files\\\\Netscape\\\\Communicator'."
+    },
+    {
+      "precondition": "The 'Question' dialog box is open. The 'Yes' button is enabled.",
+      "action": "Clicks on the 'Yes' button.",
+      "expected_results": "The 'Verifying available space...' dialog box should appear."
+    },
+    {
+      "precondition": "The 'Verifying available space...' dialog box is open.",
+      "action": "The application automatically proceeds to the next step.",
+      "expected_results": "The 'Netscape Desktop Preference Options' window should appear, allowing the user to set default internet preferences."
+    },
+    {
+      "precondition": "The 'Netscape Desktop Preference Options' window is open. The 'Next>' button is enabled.",
+      "action": "Clicks on the 'Next>' button.",
+      "expected_results": "The 'Select Program Folder' window should appear, allowing the user to choose a program folder for the application shortcuts."
+    },
+    {
+      "precondition": "The 'Select Program Folder' window is open. The 'Next>' button is enabled.",
+      "action": "Clicks on the 'Next>' button.",
+      "expected_results": "The 'Start Copying Files' window should appear, displaying the current settings and allowing the user to start the installation process."
+    },
+    {
+      "precondition": "The 'Start Copying Files' window is open. The 'Install' button is enabled.",
+      "action": "Clicks on the 'Install' button.",
+      "expected_results": "The 'Please wait...' dialog box should appear, indicating the start of the file copying process."
+    },
+    {
+      "precondition": "The 'Please wait...' dialog box is open. The file copying process is complete.",
+      "action": "The application automatically proceeds to the next step.",
+      "expected_results": "The 'Setup' dialog box should appear, displaying the progress of the installation process with a progress bar."
+    },
+    {
+      "precondition": "The 'Setup' dialog box is open. The installation process is complete.",
+      "action": "The application automatically proceeds to the next step.",
+      "expected_results": "The 'Please wait, configuring RealPlayer 8 Basic...' dialog box should appear."
+    },
+    {
+      "precondition": "The 'Please wait, configuring RealPlayer 8 Basic...' dialog box is open. The RealPlayer configuration is complete.",
+      "action": "The application automatically proceeds to the next step.",
+      "expected_results": "The 'Please wait, configuring AOL...' dialog box should appear."
+    },
+    {
+      "precondition": "The 'Please wait, configuring AOL...' dialog box is open. The AOL configuration is complete.",
+      "action": "The application automatically proceeds to the next step.",
+      "expected_results": "The 'Question' dialog box should appear, asking the user if they want to view the README file."
+    },
+    {
+      "precondition": "The 'Question' dialog box is open. The 'No' button is enabled.",
+      "action": "Clicks on the 'No' button.",
+      "expected_results": "The 'Information' dialog box should appear, informing the user that the setup is complete."
+    },
+    {
+      "precondition": "The 'Information' dialog box is open. The 'OK' button is enabled.",
+      "action": "Clicks on the 'OK' button.",
+      "expected_results": "The 'Information' dialog box should close and the user should be returned to the Windows 98 desktop."
+    },
+    {
+      "precondition": "The user is on the Windows 98 desktop. The 'Cdrom (D:)' window is open. The 'Netscape Communicator' folder is visible.",
+      "action": "Double clicks on the 'Netscape Communicator' folder.",
+      "expected_results": "The 'Netscape Communicator' window should open, displaying the contents of the folder."
+    },
+    {
+      "precondition": "The 'Netscape Communicator' window is open. The 'Up' button is enabled.",
+      "action": "Clicks on the 'Up' button.",
+      "expected_results": "The 'Netscape Communicator' window should navigate to the parent directory, 'C:\\\\WINDOWS\\\\Start Menu\\\\Programs'."
+    },
+    {
+      "precondition": "The 'Netscape Communicator' window is open. The 'Close' button is enabled.",
+      "action": "Clicks on the 'Close' button.",
+      "expected_results": "The 'Netscape Communicator' window should close."
+    },
+    {
+      "precondition": "The user is on the Windows 98 desktop. The 'Cdrom (D:)' window is open. The 'Close' button is enabled.",
+      "action": "Clicks on the 'Close' button.",
+      "expected_results": "The 'Cdrom (D:)' window should close."
+    },
+    {
+      "precondition": "The user is on the Windows 98 desktop. The 'Netscape Communicator' icon is visible.",
+      "action": "Double clicks on the 'Netscape Communicator' icon.",
+      "expected_results": "The 'Creating a New Profile' window should appear, explaining the purpose of profiles in Netscape Communicator."
+    },
+    {
+      "precondition": "The 'Creating a New Profile' window is open. The 'Next>' button is enabled.",
+      "action": "Clicks on the 'Next>' button.",
+      "expected_results": "The 'Enter your Name and Email Address' window should appear, prompting the user to enter their name and email address."
+    },
+    {
+      "precondition": "The 'Enter your Name and Email Address' window is open. The 'Full Name' field is empty. The 'Next>' button is enabled.",
+      "action": "Types 'Bob Alceson' into the 'Full Name' field.",
+      "expected_results": "The 'Full Name' field should now contain the text 'Bob Alceson'."
+    },
+    {
+      "precondition": "The 'Enter your Name and Email Address' window is open. The 'Next>' button is enabled.",
+      "action": "Clicks on the 'Next>' button.",
+      "expected_results": "The 'Choose a Name and Directory for your Profile' window should appear, prompting the user to choose a name and directory for their profile."
+    },
+    {
+      "precondition": "The 'Choose a Name and Directory for your Profile' window is open. The 'Next>' button is enabled.",
+      "action": "Clicks on the 'Next>' button.",
+      "expected_results": "The 'Set up your Outgoing Mail Server' window should appear, prompting the user to enter their outgoing mail server information."
+    },
+    {
+      "precondition": "The 'Set up your Outgoing Mail Server' window is open. The 'Next>' button is enabled.",
+      "action": "Clicks on the 'Next>' button.",
+      "expected_results": "The Netscape Navigator browser window should open and attempt to connect to 'home.netscape.com'."
+    },
+    {
+      "precondition": "The Netscape Navigator browser window is open. The connection to 'home.netscape.com' fails.",
+      "action": "The application automatically displays an error message.",
+      "expected_results": "A 'Netscape' dialog box should appear, informing the user that Netscape is unable to locate the server 'home.netscape.com' and prompting them to check the server name and try again."
+    },
+    {
+      "precondition": "The 'Netscape' dialog box is open. The 'OK' button is enabled.",
+      "action": "Clicks on the 'OK' button.",
+      "expected_results": "The 'Netscape' dialog box should close."
+    }
+  ]
+  
